@@ -1,12 +1,75 @@
-      
-   <tr>
-         
-        <td style="width: 25%;"><p align="center"><a href="https://www.libvio.me/play/100012-1-1.html"><div style="position:relative;float:left"><img src="https://bdzyimg.com/upload/vod/20220530-5/5a98a53517b9bc7f5e28a5cf5b9dc38e.jpg" />&nbsp;<div style="background: rgba(0, 0, 0, 0.6); color: rgb(255, 255, 255); display: block; left: 0px; right: 0px; position: absolute; bottom: 0px; font-size: 30px; text-align: center; margin: 0px 4px 0px 0px; --darkreader-inline-bgimage: initial; --darkreader-inline-bgcolor:rgba(0, 0, 0, 0.6); --darkreader-inline-color:#ffffdd;" data-darkreader-inline-bgimage="" data-darkreader-inline-bgcolor="" data-darkreader-inline-color=""><span>足不出户</span></div></div></a>
-                      
-       <td style="width: 25%;"><p align="center"><a href="https://www.libvio.me/play/100265-1-1.html"><div style="position:relative;float:left"><img src="https://www.taopianimage.com/84e2601a-c8ef-41e9-815a-453247f2e518/a0ba49ba-87b8-41b4-8ad3-50b8fc26ffd8/60383.jpg" />&nbsp;<div style="background: rgba(0, 0, 0, 0.6); color: rgb(255, 255, 255); display: block; left: 0px; right: 0px; position: absolute; bottom: 0px; font-size: 30px; text-align: center; margin: 0px 4px 0px 0px; --darkreader-inline-bgimage: initial; --darkreader-inline-bgcolor:rgba(0, 0, 0, 0.6); --darkreader-inline-color:#ffffdd;" data-darkreader-inline-bgimage="" data-darkreader-inline-bgcolor="" data-darkreader-inline-color=""><span>我眼中的阴影</span></div></div></a>    
-             
-       <td style="width: 25%;"><p align="center"><a href="https://www.jpys.me/vodplay/33180-3-1.html"><div style="position:relative;float:left"><img src="https://pics.filmaffinity.com/relatos_salvajes-102488639-mmed.jpg" />&nbsp;<div style="background: rgba(0, 0, 0, 0.6); color: rgb(255, 255, 255); display: block; left: 0px; right: 0px; position: absolute; bottom: 0px; font-size: 30px; text-align: center; margin: 0px 4px 0px 0px; --darkreader-inline-bgimage: initial; --darkreader-inline-bgcolor:rgba(0, 0, 0, 0.6); --darkreader-inline-color:#ffffdd;" data-darkreader-inline-bgimage="" data-darkreader-inline-bgcolor="" data-darkreader-inline-color=""><span>荒蛮故事</span></div></div></a>        
-             
-       <td style="width: 25%;"><p align="center"><a href="[https://www.jpys.me/vodplay/13703-2-1.html](https://www.libvio.me/play/8694-1-1.html)"><div style="position:relative;float:left"><img src="https://www.taopianimage.com/84e2601a-c8ef-41e9-815a-453247f2e518/45508302-83d1-49ca-9655-337540acdc03/17626.jpg" />&nbsp;<div style="background: rgba(0, 0, 0, 0.6); color: rgb(255, 255, 255); display: block; left: 0px; right: 0px; position: absolute; bottom: 0px; font-size: 30px; text-align: center; margin: 0px 4px 0px 0px; --darkreader-inline-bgimage: initial; --darkreader-inline-bgcolor:rgba(0, 0, 0, 0.6); --darkreader-inline-color:#ffffdd;" data-darkreader-inline-bgimage="" data-darkreader-inline-bgcolor="" data-darkreader-inline-color=""><span>摄影机不要停</span></div></div> 
+  <!DOCTYPE html>
+<html>
+<head>
+<title>今晚看什么</title>
+ 
+<style>a{TEXT-DECORATION:none}</style> 
+<style>
+body {
+  background-color: black;
+  color: white;
+}
+h1 {
+  background-color: black;
+  color: white;
+</style>
+</head>
+<body>
+  
+<h1>&#160;&#160; 今 晚 看 什 么</h1>
 
-    </tr>  
+<h3 align="right"><a href="https://kamonka.github.io/TVBox.html" target="_blank"><font style="background-color: rgb(4, 170, 109);" color="#ffffff">大屏高清追剧看电视 傻瓜教程</font></a><font color="#000000">&#160;&#160; </font></h3>
+  
+  
+<table cellspacing="2" cellpadding="20" width="100%" border="0"><tbody>
+    <tr>
+      <td valign="top" width="100%">
+        <p align="center"><a href="https://kamonka.github.io/5.html"><font size="6">⇦</font></a> &nbsp;&nbsp; <a href="https://kamonka.github.io/4.html"><font size="6">⇨</font></a></p>
+      </td>
+    </tr>
+  </tbody></table>     
+ 
+ 
+ <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+
+<body ng-app="ModuleA">
+
+  <div ng-controller="UserController">
+    {{User}}
+  </div>
+  <hr class="style11">
+  <div ng-controller="MsgController">
+    <h5>Message Board</h5>
+    
+    <div class="input-group mb-3">
+      <input type="text" class="form-control" id="txtNewMsg" placeholder="Message"></input> 
+    <div class="input-group-append">
+        <button class="btn btn-outline" ng-click="newMsg()"><i class="far fa-plus-square"></i> New Message</button></div>
+  </div>
+  
+  <br />
+  
+    <ul class="list-group">
+        <li ng-repeat="message in response.msgList track by $index" class="list-group-item animated fadeIn"> 
+          <div>
+          <button class="pull-left btn btn-link">{{ message }} </button>
+            <button class="pull-right btn btn-link" ng-click="deleteMsg($index)"><i class="fas fa-times"></i></button></div>
+            
+            </li>
+    </ul>
+    
+    <hr class="style11">
+  </div>
+</body>
+
+ <table cellspacing="2" cellpadding="20" width="100%" border="0"><tbody>
+    <tr>
+      <td valign="top" width="100%">
+        <p align="center"><a href="https://kamonka.github.io/5.html"><font size="6">⇦</font></a> &nbsp;&nbsp; <a href="https://kamonka.github.io/4.html"><font size="6">⇨</font></a></p>
+      </td>
+    </tr>
+  </tbody></table>
+
+</body>
+</html>     
+      
