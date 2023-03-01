@@ -1,10 +1,32 @@
-<!-- <!DOCTYPE html> -->
-<p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="html,result" data-slug-hash="QrBrLM" data-user="jkeohan" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
-  <span>See the Pen <a href="https://codepen.io/jkeohan/pen/QrBrLM">
-  JSD - Firebase - Forum - Solution</a> by Joe (<a href="https://codepen.io/jkeohan">@jkeohan</a>)
-  on <a href="https://codepen.io">CodePen</a>.</span>
-</p>
-<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
 
-</html>
+<body ng-app="ModuleA">
+
+  <div ng-controller="UserController">
+    {{User}}
+  </div>
+  <hr class="style11">
+  <div ng-controller="MsgController">
+    <h5>Message Board</h5>
+    
+    <div class="input-group mb-3">
+      <input type="text" class="form-control" id="txtNewMsg" placeholder="Message"></input> 
+    <div class="input-group-append">
+        <button class="btn btn-outline" ng-click="newMsg()"><i class="far fa-plus-square"></i> New Message</button></div>
+  </div>
+  
+  <br />
+  
+    <ul class="list-group">
+        <li ng-repeat="message in response.msgList track by $index" class="list-group-item animated fadeIn"> 
+          <div>
+          <button class="pull-left btn btn-link">{{ message }} </button>
+            <button class="pull-right btn btn-link" ng-click="deleteMsg($index)"><i class="fas fa-times"></i></button></div>
+            
+            </li>
+    </ul>
+    
+    <hr class="style11">
+  </div>
+</body>
 
