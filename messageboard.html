@@ -1,78 +1,14 @@
- <!DOCTYPE html>
-<html>
-<head>
-<title>今晚看什么</title>
-  
-<script> 
-var list = [];
-
-if (list.length == 0) {
-  $(".list-group").visible = false;
-}
-
-var moduleA = angular.module("ModuleA", []);
-
-moduleA.controller("MsgController", function($scope) {
-  $scope.Message = "測試一下";
-  $scope.User = "World";
-  $scope.response = { msgList: list };
-  $scope.newMsg = function() {
-    //console.log($("#txtNewMsg").val());
-    list.push($("#txtNewMsg").val());
-    $("#txtNewMsg").val("");
-    //console.log(list);
-  };
-
-  $scope.deleteMsg = function(index) {
-    list.splice(index, 1);
-  };
-});
-
-moduleA.controller("UserController", function($scope) {});
-</script>
-
-<style>
-body {
-  padding: 5px;
-}
-
-hr.style11 {
-	height: 6px;
-	background: url(http://ibrahimjabbari.com/english/images/hr-11.png) repeat-x 0 0;
-    border: 0;
-}
-
-/*
-ul {
-  list-style: none;
-}
-
-li {
-  border: 0.5px solid;
-  border-radius: 5px;
-  padding: 10px;
-  margin: 0;
-}
-*/  
-</style>
-</head>
- 
-
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
-
 <body ng-app="ModuleA">
 
-  <div ng-controller="UserController">
-    {{User}}
   </div>
   <hr class="style11">
   <div ng-controller="MsgController">
-    <h5>Message Board</h5>
+    <h5>留言板</h5>
     
     <div class="input-group mb-3">
       <input type="text" class="form-control" id="txtNewMsg" placeholder="Message"></input> 
     <div class="input-group-append">
-        <button class="btn btn-outline" ng-click="newMsg()"><i class="far fa-plus-square"></i> New Message</button></div>
+        <button class="btn btn-outline" ng-click="newMsg()"><i class="far fa-plus-square"></i>发布</button></div>
   </div>
   
   <br />
@@ -89,5 +25,3 @@ li {
     <hr class="style11">
   </div>
 </body>
-
-</html>
