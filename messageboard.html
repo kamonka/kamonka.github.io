@@ -1,64 +1,67 @@
-<!DOCTYPE html>
-<html lang="en">
+ <!DOCTYPE html>
+<html>
 <head>
-<meta charset="UTF-8">
-<script>
-var messCol=document.getElementById("messColumn");
-var btn=document.getElementById("btn");
-var con=document.getElementById("content");
-btn.onclick=function(){
-if(messCol.value.trim()==""){
-alert("The input cannot be empty or blank");
-return;
+<title>今晚看什么</title>
+  
+ <script> 
+var list = [];
+
+if (list.length == 0) {
+  $(".list-group").visible = false;
 }
-var messDiv=document.createElement("div");
-messDiv.setAttribute("style","width:450px;height:30px;border:2px dotted #808080;margin-bottom:5px;");
-{
-//This code block is used to store the build messDiv Code for content:Message content and delete key style
-var messCon = document.createElement("div");
-messCon.setAttribute("style","float:left;width:350px;height=30px;line-height:30px;overflow:auto;");
-var del = document.createElement("a");
-del.setAttribute("style","float:left;width:50px;height:30px;line-height:30px;");
-del.setAttribute("href","javascript:;");
-del.innerHTML = "delete";
-messDiv.appendChild(messCon);
-messDiv.appendChild(del);
-messCon.innerHTML=messCol.value;
-del.onclick=function(){
-con.removeChild(this.parentNode);   //Let parent element content Delete child element's messDiv
-}
-}
-con.appendChild(messDiv);
-messCol.value="";   //Clear the character content of the input box
-}
+
+var moduleA = angular.module("ModuleA", []);
+
+moduleA.controller("MsgController", function($scope) {
+  $scope.Message = "測試一下";
+  $scope.User = "World";
+  $scope.response = { msgList: list };
+  $scope.newMsg = function() {
+    //console.log($("#txtNewMsg").val());
+    list.push($("#txtNewMsg").val());
+    $("#txtNewMsg").val("");
+    //console.log(list);
+  };
+
+  $scope.deleteMsg = function(index) {
+    list.splice(index, 1);
+  };
+});
+
+moduleA.controller("UserController", function($scope) {});
 </script>
-<style>
-*{margin:0; padding:0;}
-#container{
-width:500px;
-height:500px;
-}
-#sendMessage{
-width:500px;
-height: 50px;
-line-height:50px;
-margin-bottom:30px;
-}
-#content{
-width:500px;
-height: 400px;
-border:1px solid #808080;
-overflow: scroll;
-}
-#messColumn{width:300px;}
-</style>
-</head>
-<body>
-<div id="container">
-<div id="sendMessage">
-<input id="messColumn" type="text">
-<input id="btn" type="button" value="Leaving a message.">
-</div>
-<!--belong content Put a ul-->
-<div id="content"></div>
-</div>
+  
+  
+
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+
+<body ng-app="ModuleA">
+
+  <div ng-controller="UserController">
+    {{User}}
+  </div>
+  <hr class="style11">
+  <div ng-controller="MsgController">
+    <h5>Message Board</h5>
+    
+    <div class="input-group mb-3">
+      <input type="text" class="form-control" id="txtNewMsg" placeholder="Message"></input> 
+    <div class="input-group-append">
+        <button class="btn btn-outline" ng-click="newMsg()"><i class="far fa-plus-square"></i> New Message</button></div>
+  </div>
+  
+  <br />
+  
+    <ul class="list-group">
+        <li ng-repeat="message in response.msgList track by $index" class="list-group-item animated fadeIn"> 
+          <div>
+          <button class="pull-left btn btn-link">{{ message }} </button>
+            <button class="pull-right btn btn-link" ng-click="deleteMsg($index)"><i class="fas fa-times"></i></button></div>
+            
+            </li>
+    </ul>
+    
+    <hr class="style11">
+  </div>
+</body>
