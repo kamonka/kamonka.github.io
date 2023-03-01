@@ -1,1 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <title>mmessage</title>
+  <style type="text/css">
+  .formBlock {
+    display: flex;
+    justify-content: center;
+    -ms-align-items: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 30px;
+  }
+
+  .formBlock h1 {
+    color: #F3E4D1;
+  }
+
+  .formBlock input {
+    height: 20px;
+  }
+
+  ul {
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 1400px;
+  }
+
+  li {
+    box-sizing: border-box;
+    padding: 30px;
+    position: relative;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    list-style-type: none;
+    width: 300px;
+    height: 160px;
+    border-radius: 6px;
+    background: #F6EDEB;
+    box-shadow: 0 0 3px rgba(0, 0, 0, .1);
+    transition: all .3s;
+    word-break: break-all;
+  }
+
+  li::after {
+    content: '';
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    border-radius: 50%;
+    height: 10px;
+    width: 10px;
+    background: #C3A39A;
+  }
+
+  li:hover {
+    box-shadow: 0 26px 40px -24px rgba(0, 36, 100, 0.3);
+    transform: translateY(-6px)
+  }
+
+  li .time {
+    position: absolute;
+    font-size: 14px;
+    bottom: 10px;
+    left: 30px;
+    color: #aaa;
+  }
+  </style>
+</head>
+
+<body>
+  <div class="formBlock">
+    <h1>留言板</h1>
+    <form>
+      <label>
+        姓名：
+        <input type="text" name="name" placeholder="输入你的名字">
+      </label>
+      <label>
+        留言内容：
+        <input type="text" name="content" placeholder="输入你想留言的内容">
+      </label>
+      <input type="submit" value="提交">
+    </form>
+  </div>
+  <ul class=message></ul>
+  <script src="js/jquery-3.2.1.min.js"></script>
+  <script src="//cdn1.lncld.net/static/js/3.4.2/av-min.js"></script>
+  <script type="text/javascript">
+  (function() {
+    //*****V*****
+    let view = document.querySelector("form");
+    //*****C*****
+    const control = {
+      view: null,
+      init: function(view) {
+        this.view = view
+        model.init()
+        this.bindEvent()
+        this.loadMessage()
+      },
+      bindEvent: function() {
+        this.view.addEventListener("submit", (e) => {
+          e.preventDefault()
+          let name = this.view.querySelector("input[name=name]").value
+          let content = this.view.querySelector("input[name=content]").value
+          if (name === "" || content === "") {
+            alert("请填写完整在提交")
+            return;
+          } else if (name.replace(/\s+/g, "").length > 10) {
+            alert("用户名太长，请换个用户名。")
+            return;
+          }
+          model.save(name, content)
+        })
+      },
+      render: function() {
+        this.view.querySelector("input[name=name]").value = "";
+        this.view.querySelector("input[name=content]").value = "";
+      },
+      createNode: function(element) {
+        let message = element.attributes
+        let name = message.name
+        let content = message.content
+        let time = this.friendlyDate(element.createdAt)
+        console.log(time)
+        let li = document.createElement("li")
+        li.style.backgroundColor = this.randomColor()
+        let span = document.createElement("span")
+        span.setAttribute("class", "time")
+        span.innerHTML = time
+        li.textContent = `${name}: ${content}`
+        li.appendChild(span)
+        document.querySelector(".message").appendChild(li)
+      },
+      loadMessage: function() {
+        model.fetch().then(function(message) {
+          document.querySelector(".message").innerHTML = ""
+          message.reverse().some(function(element, index) {
+
+            control.createNode(element)
+            return index > 20
+          })
+        })
+      },
+      friendlyDate: function(time) {
+        var curDate = new Date();
+        var offSet = (curDate - time) / 1000;
+        console.log(offSet)
+        switch (true) {
+          case offSet < 60 * 10:
+            return "刚刚";
+            break;
+          case (offSet < 60 * 60) && (offSet >= 60 * 10):
+            return `${Math.floor(offSet/60)}分钟前`;
+            break;
+          case (offSet < 60 * 60 * 24) && (offSet >= 60 * 60):
+            return `${Math.floor(offSet/60/60)}小时前`;
+            break;
+          case (offSet < 60 * 60 * 24 * 30) && (offSet >= 60 * 60 * 24):
+            return `${Math.floor(offSet/60/60/24)}天前`;
+            break;
+          default:
+            return "很久很久以前";
+            break;
+        }
+      },
+      randomColor: function() {
+        let r = Math.floor(Math.random() * 255);
+        let g = Math.floor(Math.random() * 255);
+        let b = Math.floor(Math.random() * 255);
+        return `rgba(${r}, ${g}, ${b}, 0.3 )`;
+      }
+
+    }
+    //*****M*****
+    const model = {
+      init: function() {
+        const appId = 'LFbYL9q21JFdefvmHFooVYlL-gzGzoHsz';
+        const appKey = 'o7SI4VJ7WG1l1ngGOuIVozer';
+        AV.init({ appId, appKey });
+      },
+      save: function(name, content) {
+        let Message = AV.Object.extend('Message');
+        let message = new Message();
+        message.save({
+          content: content,
+          name: name
+        }).then((object) => {
+          control.render()
+          control.loadMessage()
+        })
+      },
+      fetch: function() {
+        var query = new AV.Query('Message')
+        return query.find()
+      }
+
+    }
+
+    control.init(view)
+  })()
+  </script>
+</body>
+
+</html>
