@@ -1,0 +1,31 @@
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+
+<body ng-app="ModuleA">
+
+  <div ng-controller="UserController">
+    {{User}}
+  </div>
+  <hr class="style11">
+  <div ng-controller="MsgController">
+    <h5>Message Board</h5>
+    
+    <div class="input-group mb-3">
+      <input type="text" class="form-control" id="txtNewMsg" placeholder="Message"></input> 
+    <div class="input-group-append">
+        <button class="btn btn-outline" ng-click="newMsg()"><i class="far fa-plus-square"></i> New Message</button></div>
+  </div>
+  
+  <br />
+  
+    <ul class="list-group">
+        <li ng-repeat="message in response.msgList track by $index" class="list-group-item animated fadeIn"> 
+          <div>
+          <button class="pull-left btn btn-link">{{ message }} </button>
+            <button class="pull-right btn btn-link" ng-click="deleteMsg($index)"><i class="fas fa-times"></i></button></div>
+            
+            </li>
+    </ul>
+    
+    <hr class="style11">
+  </div>
+</body>
