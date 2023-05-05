@@ -9,9 +9,6 @@ body {
   background-color: black;
   color: white;
 }
-h1 {
-  background-color: black;
-  color: white;
 </style>
 </head>
 <body>
