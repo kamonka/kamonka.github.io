@@ -1,0 +1,72 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="shortcut icon" href="https://ghproxy.com/https://raw.githubusercontent.com/kamonka/kamonka.github.io/main/favicon.ico">
+<meta name="renderer" content="webkit">
+<meta http-equiv="Content-Language" content="zh-cn">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+<title>今晚看什么</title>
+<meta name="keywords" content="云播放器，网页播放器，视频播放器，M3U8播放器，MP4播放器，在线播放器">
+<script type="text/javascript" src="https://lirongyao.com/player/js/1.9.1/jquery.min.js"></script>
+<script type="text/javascript" src="https://lirongyao.com/player/js/3.3.7/bootstrap.min.js"></script>
+<link type="text/css" href="https://lirongyao.com/player/css/3.3.7/bootstrap.min.css" rel="stylesheet"/>
+<style>
+button:visited,button:active{border:0 !important;background:#00aff0 !important}
+#wrap{max-width:900px !important;margin-top:5px !important;padding: 10px;}
+#wrap .alert{padding: 5px;border-radius: 1px;}
+#menu{max-width:900px !important;padding: 0;}
+.footer{text-align:center;padding:10px;color:#a94442;}
+a{color:#a94442}
+audio,video{width:100%;max-height:550px;background:rgba(0,0,0,0.9)}
+@media screen and (max-width: 799px){
+#wrap{margin:30px 10px 0 !important}
+video{max-height:200px}
+#menu{padding:0 15px}}
+.input-group{width:100%}
+.input-group select{margin-bottom:10px !important}
+.input-group input{margin-bottom:10px !important}
+.input-group button{width:100%;background:#00aff0;color:#fff;font-size:16px;border:0;padding:10px 0;margin:0 auto;float:none;display:block !important;}
+.input-group button:hover{background:#bc612c !important;color:#fff !important}
+pre{white-space:normal !important;}
+.input-group p {word-wrap: break-word;word-break: break-all;}
+select,option {font-size:13px;}
+</style>   
+<script>
+ function Playvideo(){
+  var jiekou = $('#jiekou').val();
+  var url = $('[name="url"]').val();
+  $('#playerbox').attr('src', jiekou + url);
+}
+</script>
+</head>
+<body>  
+<div class="container" id="wrap">
+ <div class="row">
+  <div class="alert alert-info" role="alert">
+    <div class="input-group">    
+      <select class="form-control" id="jiekou">
+       <option value="/jx/?url=">PlayerJS+记忆播放+解析地址</option>          
+       <option value="./aliplay.php?url=">AliPlayer+记忆播放+直链地址</option>
+       <option value="./playjs.php?url=" selected>PlayerJS+记忆播放+直链地址</option>
+       <option value="./ckx2.php?url=">CKPlayerX2+无记忆播放+直链地址</option>
+       <option value="./ckx3.php?url=">CKPlayerX3+记忆播放+直链地址</option>       
+       <option value="./dplay.php?url=">DPlayer+记忆播放+直链地址</option>        
+       <option value="/v/?url=">DPlayer+无记忆播放+直链地址+弹幕播放器</option>         
+     </select>
+    </div>
+    <div class="input-group">
+      <input type="text" name="url" class="form-control" value="" placeholder="输入播放网址..." >
+     </div>
+    <div class="input-group">
+		<a style="width:100%;background:#00aff0;color:#fff;padding:10px;font-size:16px;" class="btn btn-default" href="javascript:void(0)" onClick="Playvideo();">播放视频</a>  
+    </div>   
+  </div>		
+  <div class="alert alert-info" role="alert">  
+     <iframe src="https://lirongyao.com/player/playjs.php?url=" id="playerbox" width="100%" height="500px" allowTransparency="true" frameborder="0" scrolling="no"></iframe>
+  </div>
+ </div>
+</div>
+</body>
+</html>
