@@ -4,8 +4,8 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 <title>今晚看什么</title>
-<script type="text/javascript" src="kamonka/kamonka.github.io/player/playerjs.js"></script>
-<script type="text/javascript" src="kamonka/kamonka.github.io/player/dash.all.min.js"></script>
+<script type="text/javascript" src="https://lirongyao.com/player/js/playerjs.js"></script>
+<script type="text/javascript" src="https://lirongyao.com/player/js/dash.all.min.js"></script>
 <style type="text/css">
 body,html{height:100%;background-color:#000;margin:0px;padding:0px;overflow:hidden;}
 #RongYao{height:100%;}
