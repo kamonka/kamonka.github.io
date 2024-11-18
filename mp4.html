@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="https://ghproxy.com/https://raw.githubusercontent.com/kamonka/kamonka.github.io/main/favicon.ico"> 
+    <title>今晚看什么</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #000;
+            color: #fff;
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            overflow: hidden;
+        }
+
+        .video-container {
+            width: 80%;
+            max-width: 1200px;
+            position: relative;
+        }
+
+        video {
+            width: 100%;
+            height: auto;
+            background: #000;
+        }
+
+        .error-message {
+            color: red;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="video-container">
+        <!-- Video player -->
+        <video id="videoPlayer" controls>
+            Your browser does not support the HTML5 video tag.
+        </video>
+        <!-- Error message -->
+        <div id="errorMessage" class="error-message"></div>
+    </div>
+
+    <script>
+        // Get video URL from the query parameter
+        const urlParams = new URLSearchParams(window.location.search);
+        const videoUrl = urlParams.get('video');
+
+        const videoPlayer = document.getElementById('videoPlayer');
+        const errorMessage = document.getElementById('errorMessage');
+
+        // Check if video URL exists
+        if (videoUrl) {
+            videoPlayer.src = videoUrl;
+        } else {
+            errorMessage.textContent = 'Error: No video URL provided. Please append "?video=your_video_url" to the URL.';
+            videoPlayer.style.display = 'none';
+        }
+    </script>
+</body>
+</html>
