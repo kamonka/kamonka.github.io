@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HTML5 Video Player</title>
+    <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
     <style>
         body {
             margin: 0;
@@ -15,21 +16,15 @@
             justify-content: center;
             align-items: center;
             height: 100vh;
-            overflow: hidden;
         }
-
         .video-container {
             width: 80%;
             max-width: 1200px;
-            position: relative;
         }
-
         video {
             width: 100%;
             height: auto;
-            background: #000;
         }
-
         .error-message {
             color: red;
             text-align: center;
@@ -38,28 +33,26 @@
 </head>
 <body>
     <div class="video-container">
-        <!-- Video player -->
-        <video id="videoPlayer" controls>
-            Your browser does not support the HTML5 video tag.
-        </video>
-        <!-- Error message -->
+        <video id="videoPlayer" controls></video>
         <div id="errorMessage" class="error-message"></div>
     </div>
 
     <script>
-        // Get video URL from the query parameter
         const urlParams = new URLSearchParams(window.location.search);
         const videoUrl = urlParams.get('video');
-
         const videoPlayer = document.getElementById('videoPlayer');
         const errorMessage = document.getElementById('errorMessage');
 
-        // Check if video URL exists
         if (videoUrl) {
-            videoPlayer.src = videoUrl;
+            if (videoUrl.endsWith('.m3u8') && Hls.isSupported()) {
+                const hls = new Hls();
+                hls.loadSource(videoUrl);
+                hls.attachMedia(videoPlayer);
+            } else {
+                videoPlayer.src = videoUrl;
+            }
         } else {
             errorMessage.textContent = 'Error: No video URL provided. Please append "?video=your_video_url" to the URL.';
-            videoPlayer.style.display = 'none';
         }
     </script>
 </body>
