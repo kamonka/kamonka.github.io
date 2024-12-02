@@ -1,49 +1,582 @@
-<a href="https://dlink.host/1drv/aHR0cHM6Ly8xZHJ2Lm1zL3UvcyFBaDhMV0ZJMHhSMUlnZmw0dExCR0xrZjBJU3pmTEE_ZT1XbUJ2Z1M.epub" style="color:white;" ><!-- <img style="width: 270px;height: 400px;" src="https://dlink.host/1drv/aHR0cHM6Ly8xZHJ2Lm1zL2kvcyFBaDhMV0ZJMHhSMUlnZmw1WjlTRGtNbnp6dU1pTFE_ZT1nSkpvckY.jpg" /> --><img style="width: 270px;height: 400px;" src="https://taiwan-image.bookwalker.com.tw/product/200775/zoom_big_200775.jpg" />
-          <p align="center">追憶上海<br><font style="line-height:80%" align="center"><sub>一部關於名媛、學者與浪子的家族回憶錄</sub></font></p></a>
-<a href="https://dlink.host/1drv/aHR0cHM6Ly8xZHJ2Lm1zL2IvcyFBaDhMV0ZJMHhSMUlnZmw2MWVGNF8zZS1JMVpheXc_ZT1GNTFuT2I.pdf" style="color:white;" ><!-- <img style="width: 270px;height: 400px;" src="https://dlink.host/1drv/aHR0cHM6Ly8xZHJ2Lm1zL2kvcyFBaDhMV0ZJMHhSMUlnZmw3engyZ1VRQUpHbVFhc3c_ZT01ZHd4SnI.jpg" /> --><img style="width: 270px;height: 400px;" src="https://www.newcenturymc.com/images/book%20covers/Last%20Secret.jpg" />
-          <p align="center">最後的秘密<br><font style="line-height:80%" align="center"><sub>中共十三届四中全会「六四」結論文档</sub></font></p></a>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="referrer" content="never">
+    <link rel="shortcut icon" href="https://raw.githubusercontent.com/kamonka/kamonka.github.io/main/favicon.ico"> 
+<style>a{TEXT-DECORATION:none}</style> 
+<style>
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            align-items: center; /* 居中对齐整个页面内容 */
+            flex-direction: column; /* 切换为垂直方向的 flex 布局 */
+            background-color: black;
+            color: white;
+        }
 
-<table cellspacing="2" width="80%" border="0" align="center"><tbody>
-  <tr>
+         div {
+            text-align: center;
+        }
 
-<td valign="top" width="25%" align="center"><a href="https://kamonka.github.io/HTML5.html?video=https://vip.ffzy-online6.com/20240104/24291_c1cfd8c4/2000k/hls/index.m3u8"  style="color:white;" ><img style="width: 270px; height: 400px;" src="https://images.weserv.nl/?url=https://img3.doubanio.com/view/photo/l/public/p2900120773.jpg" />
+        .abc{ color:white} 
 
-  <p>罪孽深种</p></a>
-</td>
+        .common-column {
 
+            padding: 0px;
+            border: 0px solid #ccc;
+            box-sizing: border-box;
+            margin-bottom: 0px;
+            position: relative; /* 设置为相对定位，为绝对定位的子元素创建参照点 */
+        }
 
-<td valign="top" width="25%" align="center"><a href="https://tools.liumingye.cn/m3u8/#https://v.cdnlz11.com/20231224/18840_5cb73f7d/2000k/hls/mixed.m3u8"  style="color:white;" ><img style="width: 270px; height: 400px;" src="https://images.weserv.nl/?url=https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2902201290.jpg" />
+        .common-column img {
+            max-width: 100%; /* 图片宽度不超过容器宽度 */
+            height: auto;
+            display: block; /* 避免图片底部留白 */
+            margin: 0 auto; /* 图片居中 */
+        }
 
-  <p>杂种</p></a>
-</td> 
+        .overlay-text {
+            position: absolute; /* 绝对定位 */
+            bottom: 10px; /* 距离底部 10px */
+            right: 25px; /* 距离左侧 10px */
+            color: white; /* 文字颜色 */
+            /* font-size: 16px; /* 文字大小 */
+            /*font-weight: bold; /* 文字加粗 */
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7); /* 文字阴影 */
+        }
+
+        .columns-container {
+            display: flex;
+            justify-content: space-between;
+            /* width: 50%; /* 宽度为整个页面的一半 */
+        }
+
+        .column {
+            /* flex-basis: auto; /* 为了避免超出一行显示，留出一些空间 */
+            padding: 5px;
+            border: 0px solid #ccc;
+            box-sizing: content-box;
+        }
+
+        .column img {
+            max-width: 100%; /* 图片宽度不超过容器宽度 */
+            max-height: 100%;
+            display: block; /* 避免图片底部留白 */
+            margin: 0 auto; /* 图片居中 */
+        }
+        @import url('https://unpkg.com/normalize.css') layer(normalize);
+
+@layer normalize, base, demo;
+
+@layer demo {
+  html {
+    color-scheme: dark only;
+  }
+
+  @property --timeline {
+    initial-value: 0;
+    inherits: true;
+    syntax: '<number>';
+  }
+
+  :root {
+    animation: timeline 30s linear infinite;
+  }
+
+  @keyframes timeline {
+    50% {
+      --timeline: 100;
+    }
+  }
+
+  @property --scroll {
+    initial-value: 0;
+    inherits: true;
+    syntax: '<number>';
+  }
+  @property --scrub {
+    initial-value: 0;
+    inherits: true;
+    syntax: '<number>';
+  }
+
+  .scrub {
+    animation: scrub linear both;
+    animation-timeline: scroll(root);
+  }
+
+  @keyframes scrub {
+    100% {
+      --scroll: 100;
+      --scrub: 100;
+    }
+  }
+
+  main {
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    align-content: end;
+  }
+  body {
+    min-height: 200vh;
+    align-content: start;
+  }
+
+  h1 {
+    --velocity: calc(var(--scroll) - var(--scrub));
+    transition: --scrub 0.15s ease;
+    --variance: 255;
+    --level: 50;
+    --spread: 45deg;
+    --total: 10;
+    --s1: rgb(
+      from rgb(50% 50% 0)
+        calc(
+          r +
+            (
+              sin(1 / var(--total) * var(--timeline) * var(--spread)) *
+                (var(--velocity) / 100) * var(--variance)
+            )
+        )
+        calc(
+          g +
+            (
+              sin(1 / var(--total) * var(--timeline) * var(--spread)) *
+                (var(--velocity) / 100) * var(--variance)
+            )
+        )
+        b
+    );
+    --s2: rgb(
+      from rgb(50% 50% 0)
+        calc(
+          r +
+            (
+              sin(2 / var(--total) * var(--timeline) * var(--spread)) *
+                (var(--velocity) / 100) * var(--variance)
+            )
+        )
+        calc(
+          g +
+            (
+              sin(2 / var(--total) * var(--timeline) * var(--spread)) *
+                (var(--velocity) / 100) * var(--variance)
+            )
+        )
+        b
+    );
+    --s3: rgb(
+      from rgb(50% 50% 0)
+        calc(
+          r +
+            (
+              sin(3 / var(--total) * var(--timeline) * var(--spread)) *
+                (var(--velocity) / 100) * var(--variance)
+            )
+        )
+        calc(
+          g +
+            (
+              sin(3 / var(--total) * var(--timeline) * var(--spread)) *
+                (var(--velocity) / 100) * var(--variance)
+            )
+        )
+        b
+    );
+    --s4: rgb(
+      from rgb(50% 50% 0)
+        calc(
+          r +
+            (
+              sin(4 / var(--total) * var(--timeline) * var(--spread)) *
+                (var(--velocity) / 100) * var(--variance)
+            )
+        )
+        calc(
+          g +
+            (
+              sin(4 / var(--total) * var(--timeline) * var(--spread)) *
+                (var(--velocity) / 100) * var(--variance)
+            )
+        )
+        b
+    );
+    --s5: rgb(
+      from rgb(50% 50% 0)
+        calc(
+          r +
+            (
+              sin(5 / var(--total) * var(--timeline) * var(--spread)) *
+                (var(--velocity) / 100) * var(--variance)
+            )
+        )
+        calc(
+          g +
+            (
+              sin(5 / var(--total) * var(--timeline) * var(--spread)) *
+                (var(--velocity) / 100) * var(--variance)
+            )
+        )
+        b
+    );
+    --s6: rgb(
+      from rgb(50% 50% 0)
+        calc(
+          r +
+            (
+              sin(6 / var(--total) * var(--timeline) * var(--spread)) *
+                (var(--velocity) / 100) * var(--variance)
+            )
+        )
+        calc(
+          g +
+            (
+              sin(6 / var(--total) * var(--timeline) * var(--spread)) *
+                (var(--velocity) / 100) * var(--variance)
+            )
+        )
+        b
+    );
+    --s7: rgb(
+      from rgb(50% 50% 0)
+        calc(
+          r +
+            (
+              sin(7 / var(--total) * var(--timeline) * var(--spread)) *
+                (var(--velocity) / 100) * var(--variance)
+            )
+        )
+        calc(
+          g +
+            (
+              sin(7 / var(--total) * var(--timeline) * var(--spread)) *
+                (var(--velocity) / 100) * var(--variance)
+            )
+        )
+        b
+    );
+    --s8: rgb(
+      from rgb(50% 50% 0)
+        calc(
+          r +
+            (
+              sin(8 / var(--total) * var(--timeline) * var(--spread)) *
+                (var(--velocity) / 100) * var(--variance)
+            )
+        )
+        calc(
+          g +
+            (
+              sin(8 / var(--total) * var(--timeline) * var(--spread)) *
+                (var(--velocity) / 100) * var(--variance)
+            )
+        )
+        b
+    );
+    --s9: rgb(
+      from rgb(50% 50% 0)
+        calc(
+          r +
+            (
+              sin(9 / var(--total) * var(--timeline) * var(--spread)) *
+                (var(--velocity) / 100) * var(--variance)
+            )
+        )
+        calc(
+          g +
+            (
+              sin(9 / var(--total) * var(--timeline) * var(--spread)) *
+                (var(--velocity) / 100) * var(--variance)
+            )
+        )
+        b
+    );
+    --s10: rgb(
+      from rgb(50% 50% 0)
+        calc(
+          r +
+            (
+              sin(10 / var(--total) * var(--timeline) * var(--spread)) *
+                (var(--velocity) / 100) * var(--variance)
+            )
+        )
+        calc(
+          g +
+            (
+              sin(10 / var(--total) * var(--timeline) * var(--spread)) *
+                (var(--velocity) / 100) * var(--variance)
+            )
+        )
+        b
+    );
+
+    background: linear-gradient(var(--s1), var(--s1)) 0 50% / 12.5% 100%
+        no-repeat,
+      linear-gradient(var(--s2), var(--s2)) 12.5% 50% / 12.5% 100% no-repeat,
+      linear-gradient(var(--s3), var(--s3)) 25% 50% / 12.5% 100% no-repeat,
+      linear-gradient(var(--s4), var(--s4)) 37.5% 50% / 12.5% 100% no-repeat,
+      linear-gradient(var(--s5), var(--s5)) 50% 50% / 12.5% 100% no-repeat,
+      linear-gradient(var(--s6), var(--s6)) 62.5% 50% / 12.5% 100% no-repeat,
+      linear-gradient(var(--s7), var(--s7)) 75% 50% / 12.5% 100% no-repeat,
+      linear-gradient(var(--s8), var(--s8)) 87.5% 50% / 12.5% 100% no-repeat,
+      linear-gradient(var(--s9), var(--s9)) 100% 50% / 12.5% 100% no-repeat,
+      linear-gradient(var(--s10), var(--s10)) 0 50% / 12.5% 100% no-repeat,
+      linear-gradient(rgb(0 0 100%), rgb(0 0 100%)) text;
+    font-weight: 900;
+    clip-path: inset(20% 0 20% 0);
+    color: transparent;
+    filter: url(#displacer) contrast(10);
+    background-blend-mode: lighten;
+    font-size: clamp(2rem, 12vw + 1rem, 16rem);
+    height: 8ch;
+    line-height: 8ch;
+    translate: 0 50%;
+  }
+}
+
+@layer base {
+  *,
+  *:after,
+  *:before {
+    box-sizing: border-box;
+  }
+
+  body {
+    background: black;
+    display: grid;
+    place-items: center;
+    min-height: 100vh;
+    font-family: 'SF Pro Text', 'SF Pro Icons', 'AOS Icons', 'Helvetica Neue',
+      Helvetica, Arial, sans-serif, system-ui;
+  }
+
+  body::before {
+    --size: 45px;
+    --line: color-mix(in lch, canvasText, transparent 70%);
+    content: '';
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    background: linear-gradient(
+          90deg,
+          var(--line) 1px,
+          transparent 1px var(--size)
+        )
+        50% 50% / var(--size) var(--size),
+      linear-gradient(var(--line) 1px, transparent 1px var(--size)) 50% 50% /
+        var(--size) var(--size);
+    mask: linear-gradient(-20deg, transparent 50%, white);
+    top: 0;
+    transform-style: flat;
+    pointer-events: none;
+    z-index: -1;
+  }
+
+  .bear-link {
+    color: canvasText;
+    position: fixed;
+    top: 1rem;
+    left: 1rem;
+    width: 48px;
+    aspect-ratio: 1;
+    display: grid;
+    place-items: center;
+    opacity: 0.8;
+  }
+
+  :where(.x-link, .bear-link):is(:hover, :focus-visible) {
+    opacity: 1;
+  }
+
+  .bear-link svg {
+    width: 75%;
+  }
+
+  /* Utilities */
+  .sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border-width: 0;
+  }
+}
+    </style>
+    <title>今晚看什么</title>
+  </head>
+  <body>
+    <div class="common-column">
+      <!-- 在这里添加一张图片 -->
+      <img style="width: 100%;" src="https://cdn.gitmirror.com/gl/kamonka/tv/main/home.jpg" alt="今晚看什么">
+      <!-- 在图片上加上文字 -->
       
-</tr>
-</tbody></table> 
+<main class="scrub">
+      <h1>今晚看什么</h1>
+    </main>
+    <svg width="0" height="0">
+      <filter
+        id="displacer"
+        color-interpolation-filters="sRGB"
+        primitiveUnits="objectBoundingBox"
+      >
+        <feColorMatrix
+          result="r"
+          in="SourceGraphic"
+          values="
+			0 0 0 0 1
+			0 0 0 0 0
+			0 0 0 0 0
+			0 0 1 0 0
+		"
+        />
+        <feColorMatrix
+          result="g"
+          in="SourceGraphic"
+          values="
+			0 0 0 0 0
+			0 0 0 0 1
+			0 0 0 0 0
+			0 0 1 0 0
+		"
+        />
+        <feColorMatrix
+          result="b"
+          in="SourceGraphic"
+          values="
+			0 0 0 0 0
+			0 0 0 0 0
+			0 0 0 0 1
+			0 0 1 0 0
+		"
+        />
+        <feColorMatrix
+          result="displace"
+          in="SourceGraphic"
+          values="
+			0 0 0 0 0.5
+			1 0 0 -1 1
+			0 0 1 0 0
+			0 0 0 0 1
+		"
+        />
+        <feDisplacementMap
+          result="dr"
+          in="r"
+          in2="displace"
+          scale="0.25"
+          yChannelSelector="G"
+          xChannelSelector="R"
+        />
+        <feDisplacementMap
+          result="dg"
+          in="g"
+          in2="displace"
+          scale="0.5"
+          yChannelSelector="G"
+          xChannelSelector="R"
+        />
+        <feDisplacementMap
+          result="db"
+          in="b"
+          in2="displace"
+          scale="0.75"
+          yChannelSelector="G"
+          xChannelSelector="R"
+        />
+        <feComposite in2="dr" operator="lighter" />
+        <feComposite in2="dg" operator="lighter" />
+      </filter>
+    </svg>
+    <a
+      class="bear-link"
+      href="https://twitter.com/intent/follow?screen_name=jh3yy"
+      target="_blank"
+      rel="noreferrer noopener"
+    >
+      <svg
+        class="w-9"
+        viewBox="0 0 969 955"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <circle
+          cx="161.191"
+          cy="320.191"
+          r="133.191"
+          stroke="currentColor"
+          stroke-width="20"
+        ></circle>
+        <circle
+          cx="806.809"
+          cy="320.191"
+          r="133.191"
+          stroke="currentColor"
+          stroke-width="20"
+        ></circle>
+        <circle
+          cx="695.019"
+          cy="587.733"
+          r="31.4016"
+          fill="currentColor"
+        ></circle>
+        <circle
+          cx="272.981"
+          cy="587.733"
+          r="31.4016"
+          fill="currentColor"
+        ></circle>
+        <path
+          d="M564.388 712.083C564.388 743.994 526.035 779.911 483.372 779.911C440.709 779.911 402.356 743.994 402.356 712.083C402.356 680.173 440.709 664.353 483.372 664.353C526.035 664.353 564.388 680.173 564.388 712.083Z"
+          fill="currentColor"
+        ></path>
+        <rect
+          x="310.42"
+          y="448.31"
+          width="343.468"
+          height="51.4986"
+          fill="#FF1E1E"
+        ></rect>
+        <path
+          fill-rule="evenodd"
+          clip-rule="evenodd"
+          d="M745.643 288.24C815.368 344.185 854.539 432.623 854.539 511.741H614.938V454.652C614.938 433.113 597.477 415.652 575.938 415.652H388.37C366.831 415.652 349.37 433.113 349.37 454.652V511.741L110.949 511.741C110.949 432.623 150.12 344.185 219.845 288.24C289.57 232.295 384.138 200.865 482.744 200.865C581.35 200.865 675.918 232.295 745.643 288.24Z"
+          fill="currentColor"
+        ></path>
+      </svg>
+    </a><div class="overlay-text">
+        <a href="https://kamonka.github.io/TVBox.html"><font color="#ffffff">追剧APP</font></a>     
+        <a href="https://dlink.host/1drv/aHR0cHM6Ly8xZHJ2Lm1zL3UvcyFBaDhMV0ZJMHhSMUlnZmdIaF9EZWlia1h6cTFUOUE_ZT1PcFVXMUo"><font color="#ffffff">读书APP</font></a>      
+        <a href="https://xoyondo.com/mb/nmekp47hgyz1ra2"><font color="#ffffff">留言板</font></a></div></div>
+  <div class="common-column">
 
+<a href="https://kamonka.github.io/videoplayer.html?url=https://v.cdnlz3.com/20241130/30190_34553a13/2000k/hls/mixed.m3u8"  style="color:white;" ><img style="width: 270px; height: 400px;" src="https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2912588024.webp" /><p>里斯本丸沉没</p></a>
+<a href="https://kamonka.github.io/videoplayer.html?url=https://c1.7bbffvip.com/video/lijigoumaixiaofeideyinmou/HD/index.m3u8"  style="color:white;" ><img style="width: 270px; height: 400px;" src="https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2915861304.webp" /><p>立即购买：消费的阴谋</p></a>
+<a href="https://www.bilibili.com/video/BV1Rzm2YUEKj"  style="color:white;" ><img style="width: 270px; height: 400px;" src="https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2915356019.webp" /><p>狼厅：镜与光</p></a>
+<a href="https://www.bilibili.com/video/BV15f421B7e5"  style="color:white;" ><img style="width: 270px; height: 400px;" src="https://img3.doubanio.com/view/photo/l/public/p2507980517.webp" /><p>狼厅</p></a>
+<a href="https://rebozj.pro/play/129978-1-1.html"  style="color:white;" ><img style="width: 270px; height: 400px;" src="https://img2.doubanio.com/view/photo/s_ratio_poster/public/p2913040521.webp" /><p>夜游者</p></a>
+  <a href="https://kamonka.github.io/videoplayer.html?url=https://svipsvip.ffzy-online5.com/20241128/35385_5c733bd6/2000k/hls/mixed.m3u8"  style="color:white;" ><img style="width: 270px; height: 400px;" src="https://img1.doubanio.com/view/photo/l/public/p2915592909.webp" /><p>教宗选战</p></a>
+<a href="https://kamonka.github.io/videoplayer.html?url=https://vip.lzcdn2.com/20220521/7113_6d3cf6c6/1200k/hls/mixed.m3u8"  style="color:white;" ><img style="width: 270px; height: 400px;" src="https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2559919245.webp" /><p>准备好了没</p></a>
+<a href="https://www.zhenbuka34.com/vodplay/125440-1-1/"  style="color:white;" ><img style="width: 270px; height: 400px;" src="https://img2.doubanio.com/view/photo/s_ratio_poster/public/p2915014151.webp" /><p>争分夺秒</p></a>
+<a href="https://kamonka.github.io/videoplayer.html?url=https://v.cdnlz3.com/20241124/29735_e0910eb7/2000k/hls/mixed.m3u8"  style="color:white;" ><img style="width: 270px; height: 400px;" src="https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2915760420.webp" /><p>蜗牛回忆录</p></a>
+<a href="https://kamonka.github.io/videoplayer.html?url=https://v.cdnlz3.com/20241103/28616_85069310/2000k/hls/mixed.m3u8"  style="color:white;" ><img style="width: 270px; height: 400px;" src="https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2914628596.webp" /><p>坚忍号</p></a>
+<a href="https://rebozj.pro/play/131032-2-1.html"  style="color:white;" ><img style="width: 270px; height: 400px;" src="https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2914727986.webp" /><p>石油天王</p></a>
+<a href="https://rebozj.pro/play/131092-1-1.html"  style="color:white;" ><img style="width: 270px; height: 400px;" src="https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2915461629.webp" /><p>天降大劫</p></a>
+<a href="https://kamonka.github.io/videoplayer.html?url=https://v.cdnlz3.com/20241015/27982_5507cf83/2000k/hls/index.m3u8"  style="color:white;" ><img style="width: 270px; height: 400px;" src="https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2906730077.webp" /><p>榻榻米</p></a>
+<a href="https://kamonka.github.io/videoplayer.html?url=https://vip.lzcdn2.com/20220330/1271_a2b7ad93/1800k/hls/mixed.m3u8"  style="color:white;" ><img style="width: 270px; height: 400px;" src="https://img9.doubanio.com/view/photo/l/public/p2153663114.webp" /><p>蒙古草原，天气晴</p></a>
+<a href="https://kamonka.github.io/videoplayer.html?url=https://v.cdnlz3.com/20241101/28539_d6326ad6/2000k/hls/mixed.m3u8"  style="color:white;" ><img style="width: 270px; height: 400px;" src="https://img3.doubanio.com/view/photo/m/public/p2913850763.webp" /><p>配乐大师：约翰·威廉姆斯</p></a>
+<a href="https://kamonka.github.io/videoplayer.html?url=https://svipsvip.ffzyread1.com/20241105/33179_1709c896/2000k/hls/mixed.m3u8"  style="color:white;" ><img style="width: 270px; height: 400px;" src="https://img2.doubanio.com/view/photo/l/public/p2913460231.webp" /><p>超 / 人：克里斯托弗·里夫的故事</p></a>
+<a href="https://kamonka.github.io/videoplayer.html?url=https://v.cdnlz3.com/20241112/29007_d362407f/2000k/hls/mixed.m3u8"  style="color:white;" ><img style="width: 270px; height: 400px;" src="https://img1.doubanio.com/view/photo/l/public/p2914225160.webp" /><p>夺命微笑2</p></a> 
+<a href="https://rebozj.pro/play/131000-1-1.html"  style="color:white;" ><img style="width: 270px; height: 400px;" src="https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2914178794.webp" /><p>豺狼的日子</p></a>
+<a href="https://svip.high21-playback.com/20241107/39854_8b08ccd3/2000k/hls/mixed.m3u8"  style="color:white;" ><img style="width: 270px; height: 400px;" src="https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2244217917.webp" /><p>佩德罗·巴拉莫</p></a>
 
-<table cellspacing="2" width="80%" border="0" align="center"><tbody>
-  <tr>
-
-    <td valign="top" width="25%" align="center"><a href="https://kamonka.github.io/videoplayer.html?url=https://v.cdnlz11.com/20231224/18840_5cb73f7d/2000k/hls/mixed.m3u8"  style="color:white;" ><img style="width: 270px; height: 400px;" src="https://images.weserv.nl/?url=https://img2.doubanio.com/view/photo/l/public/p2902848161.jpg" />
-
-      <p>绝境盟约</p></a>
-    </td> 
-
-<td valign="top" width="25%" align="center"><a href="视频地址"  style="color:white;" ><img style="width: 270px; height: 400px;" src="https://images.weserv.nl/?url=豆瓣图址.jpg" />
-
-  <p>片名</p></a>
-</td> 
-
-<td valign="top" width="25%" align="center"><a href="视频地址"  style="color:white;" ><img style="width: 270px; height: 400px;" src="https://images.weserv.nl/?url=豆瓣图址.jpg" />
-
-  <p>片名</p></a>
-</td>
-
-
-<td valign="top" width="25%" align="center"><a href="视频地址"  style="color:white;" ><img style="width: 270px; height: 400px;" src="https://images.weserv.nl/?url=豆瓣图址.jpg" />
-
-  <p>片名</p></a>
-</td>
-      
-</tr>
-</tbody></table> 
+</body>
+</html>
