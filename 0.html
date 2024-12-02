@@ -68,348 +68,607 @@
             display: block; /* 避免图片底部留白 */
             margin: 0 auto; /* 图片居中 */
         }
-        @import url('https://unpkg.com/normalize.css') layer(normalize);
+       body {
+  margin: 0;
+  height: 100vh;
+  background-color: black;
+}
 
-@layer normalize, base, demo;
+.container {
+  font-family: sans-serif;
+  color: #3c3c3c;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  flex-direction: column;
+}
 
-@layer demo {
-  html {
-    color-scheme: dark only;
-  }
-
-  @property --timeline {
-    initial-value: 0;
-    inherits: true;
-    syntax: '<number>';
-  }
-
-  :root {
-    animation: timeline 30s linear infinite;
-  }
-
-  @keyframes timeline {
-    50% {
-      --timeline: 100;
-    }
-  }
-
-  @property --scroll {
-    initial-value: 0;
-    inherits: true;
-    syntax: '<number>';
-  }
-  @property --scrub {
-    initial-value: 0;
-    inherits: true;
-    syntax: '<number>';
-  }
-
-  .scrub {
-    animation: scrub linear both;
-    animation-timeline: scroll(root);
-  }
-
-  @keyframes scrub {
-    100% {
-      --scroll: 100;
-      --scrub: 100;
-    }
-  }
-
-  main {
-    height: 100vh;
-    display: grid;
-    place-items: center;
-    align-content: end;
-  }
-  body {
-    min-height: 200vh;
-    align-content: start;
-  }
-
-  h1 {
-    --velocity: calc(var(--scroll) - var(--scrub));
-    transition: --scrub 0.15s ease;
-    --variance: 255;
-    --level: 50;
-    --spread: 45deg;
-    --total: 10;
-    --s1: rgb(
-      from rgb(50% 50% 0)
-        calc(
-          r +
-            (
-              sin(1 / var(--total) * var(--timeline) * var(--spread)) *
-                (var(--velocity) / 100) * var(--variance)
-            )
-        )
-        calc(
-          g +
-            (
-              sin(1 / var(--total) * var(--timeline) * var(--spread)) *
-                (var(--velocity) / 100) * var(--variance)
-            )
-        )
-        b
+@keyframes k-cBVbyC {
+  0% {
+    -webkit-clip-path: polygon(
+      0 43%,
+      83% 43%,
+      83% 22%,
+      23% 22%,
+      23% 24%,
+      91% 24%,
+      91% 26%,
+      18% 26%,
+      18% 83%,
+      29% 83%,
+      29% 17%,
+      41% 17%,
+      41% 39%,
+      18% 39%,
+      18% 82%,
+      54% 82%,
+      54% 88%,
+      19% 88%,
+      19% 4%,
+      39% 4%,
+      39% 14%,
+      76% 14%,
+      76% 52%,
+      23% 52%,
+      23% 35%,
+      19% 35%,
+      19% 8%,
+      36% 8%,
+      36% 31%,
+      73% 31%,
+      73% 16%,
+      1% 16%,
+      1% 56%,
+      50% 56%,
+      50% 8%
     );
-    --s2: rgb(
-      from rgb(50% 50% 0)
-        calc(
-          r +
-            (
-              sin(2 / var(--total) * var(--timeline) * var(--spread)) *
-                (var(--velocity) / 100) * var(--variance)
-            )
-        )
-        calc(
-          g +
-            (
-              sin(2 / var(--total) * var(--timeline) * var(--spread)) *
-                (var(--velocity) / 100) * var(--variance)
-            )
-        )
-        b
+    clip-path: polygon(
+      0 43%,
+      83% 43%,
+      83% 22%,
+      23% 22%,
+      23% 24%,
+      91% 24%,
+      91% 26%,
+      18% 26%,
+      18% 83%,
+      29% 83%,
+      29% 17%,
+      41% 17%,
+      41% 39%,
+      18% 39%,
+      18% 82%,
+      54% 82%,
+      54% 88%,
+      19% 88%,
+      19% 4%,
+      39% 4%,
+      39% 14%,
+      76% 14%,
+      76% 52%,
+      23% 52%,
+      23% 35%,
+      19% 35%,
+      19% 8%,
+      36% 8%,
+      36% 31%,
+      73% 31%,
+      73% 16%,
+      1% 16%,
+      1% 56%,
+      50% 56%,
+      50% 8%
     );
-    --s3: rgb(
-      from rgb(50% 50% 0)
-        calc(
-          r +
-            (
-              sin(3 / var(--total) * var(--timeline) * var(--spread)) *
-                (var(--velocity) / 100) * var(--variance)
-            )
-        )
-        calc(
-          g +
-            (
-              sin(3 / var(--total) * var(--timeline) * var(--spread)) *
-                (var(--velocity) / 100) * var(--variance)
-            )
-        )
-        b
+  }
+  5% {
+    -webkit-clip-path: polygon(
+      0 53%,
+      93% 53%,
+      93% 62%,
+      68% 62%,
+      68% 37%,
+      97% 37%,
+      97% 89%,
+      13% 89%,
+      13% 45%,
+      51% 45%,
+      51% 88%,
+      17% 88%,
+      17% 54%,
+      81% 54%,
+      81% 75%,
+      79% 75%,
+      79% 76%,
+      38% 76%,
+      38% 28%,
+      61% 28%,
+      61% 12%,
+      55% 12%,
+      55% 62%,
+      68% 62%,
+      68% 51%,
+      0 51%,
+      0 92%,
+      63% 92%,
+      63% 4%,
+      65% 4%
     );
-    --s4: rgb(
-      from rgb(50% 50% 0)
-        calc(
-          r +
-            (
-              sin(4 / var(--total) * var(--timeline) * var(--spread)) *
-                (var(--velocity) / 100) * var(--variance)
-            )
-        )
-        calc(
-          g +
-            (
-              sin(4 / var(--total) * var(--timeline) * var(--spread)) *
-                (var(--velocity) / 100) * var(--variance)
-            )
-        )
-        b
+    clip-path: polygon(
+      0 53%,
+      93% 53%,
+      93% 62%,
+      68% 62%,
+      68% 37%,
+      97% 37%,
+      97% 89%,
+      13% 89%,
+      13% 45%,
+      51% 45%,
+      51% 88%,
+      17% 88%,
+      17% 54%,
+      81% 54%,
+      81% 75%,
+      79% 75%,
+      79% 76%,
+      38% 76%,
+      38% 28%,
+      61% 28%,
+      61% 12%,
+      55% 12%,
+      55% 62%,
+      68% 62%,
+      68% 51%,
+      0 51%,
+      0 92%,
+      63% 92%,
+      63% 4%,
+      65% 4%
     );
-    --s5: rgb(
-      from rgb(50% 50% 0)
-        calc(
-          r +
-            (
-              sin(5 / var(--total) * var(--timeline) * var(--spread)) *
-                (var(--velocity) / 100) * var(--variance)
-            )
-        )
-        calc(
-          g +
-            (
-              sin(5 / var(--total) * var(--timeline) * var(--spread)) *
-                (var(--velocity) / 100) * var(--variance)
-            )
-        )
-        b
+  }
+  30% {
+    -webkit-clip-path: polygon(
+      0 53%,
+      93% 53%,
+      93% 62%,
+      68% 62%,
+      68% 37%,
+      97% 37%,
+      97% 89%,
+      13% 89%,
+      13% 45%,
+      51% 45%,
+      51% 88%,
+      17% 88%,
+      17% 54%,
+      81% 54%,
+      81% 75%,
+      79% 75%,
+      79% 76%,
+      38% 76%,
+      38% 28%,
+      61% 28%,
+      61% 12%,
+      55% 12%,
+      55% 62%,
+      68% 62%,
+      68% 51%,
+      0 51%,
+      0 92%,
+      63% 92%,
+      63% 4%,
+      65% 4%
     );
-    --s6: rgb(
-      from rgb(50% 50% 0)
-        calc(
-          r +
-            (
-              sin(6 / var(--total) * var(--timeline) * var(--spread)) *
-                (var(--velocity) / 100) * var(--variance)
-            )
-        )
-        calc(
-          g +
-            (
-              sin(6 / var(--total) * var(--timeline) * var(--spread)) *
-                (var(--velocity) / 100) * var(--variance)
-            )
-        )
-        b
+    clip-path: polygon(
+      0 53%,
+      93% 53%,
+      93% 62%,
+      68% 62%,
+      68% 37%,
+      97% 37%,
+      97% 89%,
+      13% 89%,
+      13% 45%,
+      51% 45%,
+      51% 88%,
+      17% 88%,
+      17% 54%,
+      81% 54%,
+      81% 75%,
+      79% 75%,
+      79% 76%,
+      38% 76%,
+      38% 28%,
+      61% 28%,
+      61% 12%,
+      55% 12%,
+      55% 62%,
+      68% 62%,
+      68% 51%,
+      0 51%,
+      0 92%,
+      63% 92%,
+      63% 4%,
+      65% 4%
     );
-    --s7: rgb(
-      from rgb(50% 50% 0)
-        calc(
-          r +
-            (
-              sin(7 / var(--total) * var(--timeline) * var(--spread)) *
-                (var(--velocity) / 100) * var(--variance)
-            )
-        )
-        calc(
-          g +
-            (
-              sin(7 / var(--total) * var(--timeline) * var(--spread)) *
-                (var(--velocity) / 100) * var(--variance)
-            )
-        )
-        b
+  }
+  45% {
+    -webkit-clip-path: polygon(
+      0 33%,
+      2% 33%,
+      2% 69%,
+      58% 69%,
+      58% 94%,
+      55% 94%,
+      55% 25%,
+      33% 25%,
+      33% 85%,
+      16% 85%,
+      16% 19%,
+      5% 19%,
+      5% 20%,
+      79% 20%,
+      79% 96%,
+      93% 96%,
+      93% 50%,
+      5% 50%,
+      5% 74%,
+      55% 74%,
+      55% 57%,
+      96% 57%,
+      96% 59%,
+      87% 59%,
+      87% 65%,
+      82% 65%,
+      82% 39%,
+      63% 39%,
+      63% 92%,
+      4% 92%,
+      4% 36%,
+      24% 36%,
+      24% 70%,
+      1% 70%,
+      1% 43%,
+      15% 43%,
+      15% 28%,
+      23% 28%,
+      23% 71%,
+      90% 71%,
+      90% 86%,
+      97% 86%,
+      97% 1%,
+      60% 1%,
+      60% 67%,
+      71% 67%,
+      71% 91%,
+      17% 91%,
+      17% 14%,
+      39% 14%,
+      39% 30%,
+      58% 30%,
+      58% 11%,
+      52% 11%,
+      52% 83%,
+      68% 83%
     );
-    --s8: rgb(
-      from rgb(50% 50% 0)
-        calc(
-          r +
-            (
-              sin(8 / var(--total) * var(--timeline) * var(--spread)) *
-                (var(--velocity) / 100) * var(--variance)
-            )
-        )
-        calc(
-          g +
-            (
-              sin(8 / var(--total) * var(--timeline) * var(--spread)) *
-                (var(--velocity) / 100) * var(--variance)
-            )
-        )
-        b
+    clip-path: polygon(
+      0 33%,
+      2% 33%,
+      2% 69%,
+      58% 69%,
+      58% 94%,
+      55% 94%,
+      55% 25%,
+      33% 25%,
+      33% 85%,
+      16% 85%,
+      16% 19%,
+      5% 19%,
+      5% 20%,
+      79% 20%,
+      79% 96%,
+      93% 96%,
+      93% 50%,
+      5% 50%,
+      5% 74%,
+      55% 74%,
+      55% 57%,
+      96% 57%,
+      96% 59%,
+      87% 59%,
+      87% 65%,
+      82% 65%,
+      82% 39%,
+      63% 39%,
+      63% 92%,
+      4% 92%,
+      4% 36%,
+      24% 36%,
+      24% 70%,
+      1% 70%,
+      1% 43%,
+      15% 43%,
+      15% 28%,
+      23% 28%,
+      23% 71%,
+      90% 71%,
+      90% 86%,
+      97% 86%,
+      97% 1%,
+      60% 1%,
+      60% 67%,
+      71% 67%,
+      71% 91%,
+      17% 91%,
+      17% 14%,
+      39% 14%,
+      39% 30%,
+      58% 30%,
+      58% 11%,
+      52% 11%,
+      52% 83%,
+      68% 83%
     );
-    --s9: rgb(
-      from rgb(50% 50% 0)
-        calc(
-          r +
-            (
-              sin(9 / var(--total) * var(--timeline) * var(--spread)) *
-                (var(--velocity) / 100) * var(--variance)
-            )
-        )
-        calc(
-          g +
-            (
-              sin(9 / var(--total) * var(--timeline) * var(--spread)) *
-                (var(--velocity) / 100) * var(--variance)
-            )
-        )
-        b
+  }
+  76% {
+    -webkit-clip-path: polygon(
+      0 26%,
+      15% 26%,
+      15% 73%,
+      72% 73%,
+      72% 70%,
+      77% 70%,
+      77% 75%,
+      8% 75%,
+      8% 42%,
+      4% 42%,
+      4% 61%,
+      17% 61%,
+      17% 12%,
+      26% 12%,
+      26% 63%,
+      73% 63%,
+      73% 43%,
+      90% 43%,
+      90% 67%,
+      50% 67%,
+      50% 41%,
+      42% 41%,
+      42% 46%,
+      50% 46%,
+      50% 84%,
+      96% 84%,
+      96% 78%,
+      49% 78%,
+      49% 25%,
+      63% 25%,
+      63% 14%
     );
-    --s10: rgb(
-      from rgb(50% 50% 0)
-        calc(
-          r +
-            (
-              sin(10 / var(--total) * var(--timeline) * var(--spread)) *
-                (var(--velocity) / 100) * var(--variance)
-            )
-        )
-        calc(
-          g +
-            (
-              sin(10 / var(--total) * var(--timeline) * var(--spread)) *
-                (var(--velocity) / 100) * var(--variance)
-            )
-        )
-        b
+    clip-path: polygon(
+      0 26%,
+      15% 26%,
+      15% 73%,
+      72% 73%,
+      72% 70%,
+      77% 70%,
+      77% 75%,
+      8% 75%,
+      8% 42%,
+      4% 42%,
+      4% 61%,
+      17% 61%,
+      17% 12%,
+      26% 12%,
+      26% 63%,
+      73% 63%,
+      73% 43%,
+      90% 43%,
+      90% 67%,
+      50% 67%,
+      50% 41%,
+      42% 41%,
+      42% 46%,
+      50% 46%,
+      50% 84%,
+      96% 84%,
+      96% 78%,
+      49% 78%,
+      49% 25%,
+      63% 25%,
+      63% 14%
     );
-
-    background: linear-gradient(var(--s1), var(--s1)) 0 50% / 12.5% 100%
-        no-repeat,
-      linear-gradient(var(--s2), var(--s2)) 12.5% 50% / 12.5% 100% no-repeat,
-      linear-gradient(var(--s3), var(--s3)) 25% 50% / 12.5% 100% no-repeat,
-      linear-gradient(var(--s4), var(--s4)) 37.5% 50% / 12.5% 100% no-repeat,
-      linear-gradient(var(--s5), var(--s5)) 50% 50% / 12.5% 100% no-repeat,
-      linear-gradient(var(--s6), var(--s6)) 62.5% 50% / 12.5% 100% no-repeat,
-      linear-gradient(var(--s7), var(--s7)) 75% 50% / 12.5% 100% no-repeat,
-      linear-gradient(var(--s8), var(--s8)) 87.5% 50% / 12.5% 100% no-repeat,
-      linear-gradient(var(--s9), var(--s9)) 100% 50% / 12.5% 100% no-repeat,
-      linear-gradient(var(--s10), var(--s10)) 0 50% / 12.5% 100% no-repeat,
-      linear-gradient(rgb(0 0 100%), rgb(0 0 100%)) text;
-    font-weight: 900;
-    clip-path: inset(20% 0 20% 0);
-    color: transparent;
-    filter: url(#displacer) contrast(10);
-    background-blend-mode: lighten;
-    font-size: clamp(2rem, 12vw + 1rem, 16rem);
-    height: 8ch;
-    line-height: 8ch;
-    translate: 0 50%;
+  }
+  90% {
+    -webkit-clip-path: polygon(
+      0 41%,
+      13% 41%,
+      13% 6%,
+      87% 6%,
+      87% 93%,
+      10% 93%,
+      10% 13%,
+      89% 13%,
+      89% 6%,
+      3% 6%,
+      3% 8%,
+      16% 8%,
+      16% 79%,
+      0 79%,
+      0 99%,
+      92% 99%,
+      92% 90%,
+      5% 90%,
+      5% 60%,
+      0 60%,
+      0 48%,
+      89% 48%,
+      89% 13%,
+      80% 13%,
+      80% 43%,
+      95% 43%,
+      95% 19%,
+      80% 19%,
+      80% 85%,
+      38% 85%,
+      38% 62%
+    );
+    clip-path: polygon(
+      0 41%,
+      13% 41%,
+      13% 6%,
+      87% 6%,
+      87% 93%,
+      10% 93%,
+      10% 13%,
+      89% 13%,
+      89% 6%,
+      3% 6%,
+      3% 8%,
+      16% 8%,
+      16% 79%,
+      0 79%,
+      0 99%,
+      92% 99%,
+      92% 90%,
+      5% 90%,
+      5% 60%,
+      0 60%,
+      0 48%,
+      89% 48%,
+      89% 13%,
+      80% 13%,
+      80% 43%,
+      95% 43%,
+      95% 19%,
+      80% 19%,
+      80% 85%,
+      38% 85%,
+      38% 62%
+    );
+  }
+  1%,
+  33%,
+  47%,
+  7%,
+  78%,
+  93% {
+    -webkit-clip-path: none;
+    clip-path: none;
   }
 }
 
-@layer base {
-  *,
-  *:after,
-  *:before {
-    box-sizing: border-box;
+@keyframes k-fRsylC {
+  0% {
+    opacity: 0;
   }
-
-  body {
-    background: black;
-    display: grid;
-    place-items: center;
-    min-height: 100vh;
-    font-family: 'SF Pro Text', 'SF Pro Icons', 'AOS Icons', 'Helvetica Neue',
-      Helvetica, Arial, sans-serif, system-ui;
+  5% {
+    opacity: 0.7;
   }
-
-  body::before {
-    --size: 45px;
-    --line: color-mix(in lch, canvasText, transparent 70%);
-    content: '';
-    height: 100vh;
-    width: 100vw;
-    position: fixed;
-    background: linear-gradient(
-          90deg,
-          var(--line) 1px,
-          transparent 1px var(--size)
-        )
-        50% 50% / var(--size) var(--size),
-      linear-gradient(var(--line) 1px, transparent 1px var(--size)) 50% 50% /
-        var(--size) var(--size);
-    mask: linear-gradient(-20deg, transparent 50%, white);
-    top: 0;
-    transform-style: flat;
-    pointer-events: none;
-    z-index: -1;
+  30% {
+    opacity: 0.4;
   }
-
-  .bear-link {
-    color: canvasText;
-    position: fixed;
-    top: 1rem;
-    left: 1rem;
-    width: 48px;
-    aspect-ratio: 1;
-    display: grid;
-    place-items: center;
+  45% {
+    opacity: 0.6;
+  }
+  76% {
+    opacity: 0.4;
+  }
+  90% {
     opacity: 0.8;
   }
-
-  :where(.x-link, .bear-link):is(:hover, :focus-visible) {
-    opacity: 1;
-  }
-
-  .bear-link svg {
-    width: 75%;
-  }
-
-  /* Utilities */
-  .sr-only {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    padding: 0;
-    margin: -1px;
-    overflow: hidden;
-    clip: rect(0, 0, 0, 0);
-    white-space: nowrap;
-    border-width: 0;
+  1%,
+  33%,
+  47%,
+  7%,
+  78%,
+  93% {
+    opacity: 0;
   }
 }
+
+@keyframes k-bOTLEg {
+  0% {
+    filter: blur(3px);
+  }
+  20% {
+    filter: blur(0px);
+  }
+  50% {
+    filter: blur(3px);
+  }
+  60% {
+    filter: blur(0px);
+  }
+  90% {
+    filter: blur(6px);
+  }
+}
+
+@keyframes k-fdUjdu {
+  0% {
+    top: 0;
+    left: -20px;
+  }
+  15% {
+    top: 10px;
+    left: 10px;
+  }
+  60% {
+    top: 5px;
+    left: -10px;
+  }
+  75% {
+    top: -5px;
+    left: 20px;
+  }
+  100% {
+    top: 10px;
+    left: 5px;
+  }
+}
+
+.twitch {
+  position: relative;
+  animation: 10s step-end 0s infinite normal none running k-cBVbyC;
+  overflow: visible;
+}
+
+.twitch::before {
+  content: attr(data-text);
+  position: absolute;
+  width: 110%;
+  z-index: -1;
+  top: 10px;
+  left: 15px;
+  color: inherit;
+  animation: 10s step-end 0s infinite normal none running k-cBVbyC,
+    10s step-end 0s infinite normal none running k-fRsylC,
+    13s step-end 0s infinite normal none running k-bOTLEg,
+    15s step-end 0s infinite normal none running k-fdUjdu;
+}
+
+.twitch::after {
+  content: attr(data-text);
+  position: absolute;
+  width: 110%;
+  z-index: -1;
+  top: 5px;
+  left: -10px;
+  color: inherit;
+  animation: 10s step-end 0s infinite normal none running k-cBVbyC,
+    10s step-end 0s infinite normal none running k-fRsylC,
+    13s step-end 0s infinite normal none running k-bOTLEg,
+    15s step-end 0s infinite normal none running k-fdUjdu;
+}
+
+p {
+  font-size: clamp(2.8rem, 1.5vw, 3rem);
+  font-weight: bold;
+  margin: 5px;
+  color: lightblue;
+}
+
     </style>
     <title>今晚看什么</title>
   </head>
@@ -418,141 +677,13 @@
       <!-- 在这里添加一张图片 -->
       <img style="width: 100%;" src="https://cdn.gitmirror.com/gl/kamonka/tv/main/home.jpg" alt="今晚看什么">
       <!-- 在图片上加上文字 -->
+	    <div class="container">
+  <p data-text="Leviossa" class="twitch">
+    今夜看什么
+  </p>
+</div>
  <div class="overlay-text">     
-<main class="scrub">
-      <h1>今晚看什么</h1>
-    </main>
-    <svg width="0" height="0">
-      <filter
-        id="displacer"
-        color-interpolation-filters="sRGB"
-        primitiveUnits="objectBoundingBox"
-      >
-        <feColorMatrix
-          result="r"
-          in="SourceGraphic"
-          values="
-			0 0 0 0 1
-			0 0 0 0 0
-			0 0 0 0 0
-			0 0 1 0 0
-		"
-        />
-        <feColorMatrix
-          result="g"
-          in="SourceGraphic"
-          values="
-			0 0 0 0 0
-			0 0 0 0 1
-			0 0 0 0 0
-			0 0 1 0 0
-		"
-        />
-        <feColorMatrix
-          result="b"
-          in="SourceGraphic"
-          values="
-			0 0 0 0 0
-			0 0 0 0 0
-			0 0 0 0 1
-			0 0 1 0 0
-		"
-        />
-        <feColorMatrix
-          result="displace"
-          in="SourceGraphic"
-          values="
-			0 0 0 0 0.5
-			1 0 0 -1 1
-			0 0 1 0 0
-			0 0 0 0 1
-		"
-        />
-        <feDisplacementMap
-          result="dr"
-          in="r"
-          in2="displace"
-          scale="0.25"
-          yChannelSelector="G"
-          xChannelSelector="R"
-        />
-        <feDisplacementMap
-          result="dg"
-          in="g"
-          in2="displace"
-          scale="0.5"
-          yChannelSelector="G"
-          xChannelSelector="R"
-        />
-        <feDisplacementMap
-          result="db"
-          in="b"
-          in2="displace"
-          scale="0.75"
-          yChannelSelector="G"
-          xChannelSelector="R"
-        />
-        <feComposite in2="dr" operator="lighter" />
-        <feComposite in2="dg" operator="lighter" />
-      </filter>
-    </svg>
-    <a
-      class="bear-link"
-      href="https://twitter.com/intent/follow?screen_name=jh3yy"
-      target="_blank"
-      rel="noreferrer noopener"
-    >
-      <svg
-        class="w-9"
-        viewBox="0 0 969 955"
-        fill="none"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <circle
-          cx="161.191"
-          cy="320.191"
-          r="133.191"
-          stroke="currentColor"
-          stroke-width="20"
-        ></circle>
-        <circle
-          cx="806.809"
-          cy="320.191"
-          r="133.191"
-          stroke="currentColor"
-          stroke-width="20"
-        ></circle>
-        <circle
-          cx="695.019"
-          cy="587.733"
-          r="31.4016"
-          fill="currentColor"
-        ></circle>
-        <circle
-          cx="272.981"
-          cy="587.733"
-          r="31.4016"
-          fill="currentColor"
-        ></circle>
-        <path
-          d="M564.388 712.083C564.388 743.994 526.035 779.911 483.372 779.911C440.709 779.911 402.356 743.994 402.356 712.083C402.356 680.173 440.709 664.353 483.372 664.353C526.035 664.353 564.388 680.173 564.388 712.083Z"
-          fill="currentColor"
-        ></path>
-        <rect
-          x="310.42"
-          y="448.31"
-          width="343.468"
-          height="51.4986"
-          fill="#FF1E1E"
-        ></rect>
-        <path
-          fill-rule="evenodd"
-          clip-rule="evenodd"
-          d="M745.643 288.24C815.368 344.185 854.539 432.623 854.539 511.741H614.938V454.652C614.938 433.113 597.477 415.652 575.938 415.652H388.37C366.831 415.652 349.37 433.113 349.37 454.652V511.741L110.949 511.741C110.949 432.623 150.12 344.185 219.845 288.24C289.57 232.295 384.138 200.865 482.744 200.865C581.35 200.865 675.918 232.295 745.643 288.24Z"
-          fill="currentColor"
-        ></path>
-      </svg>
-    </a>
+
         <a href="https://kamonka.github.io/TVBox.html"><font color="#ffffff">追剧APP</font></a>     
         <a href="https://dlink.host/1drv/aHR0cHM6Ly8xZHJ2Lm1zL3UvcyFBaDhMV0ZJMHhSMUlnZmdIaF9EZWlia1h6cTFUOUE_ZT1PcFVXMUo"><font color="#ffffff">读书APP</font></a>      
         <a href="https://xoyondo.com/mb/nmekp47hgyz1ra2"><font color="#ffffff">留言板</font></a></div></div>
