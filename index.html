@@ -3,14 +3,10 @@
 
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport"
-    content="width=device-width, initial-scale=1.0">
-  <meta name="referrer"
-    content="never">
-  <link rel="shortcut icon"
-    href="https://raw.githubusercontent.com/kamonka/kamonka.github.io/main/favicon.ico">
-  <link rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="referrer" content="never">
+  <link rel="shortcut icon" href="https://raw.githubusercontent.com/kamonka/kamonka.github.io/main/favicon.ico">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   <style>
     a {
       text-decoration: none
@@ -199,8 +195,7 @@
 
 <body>
   <div style="position: relative; text-align: center;">
-    <img src="https://gitlab.com/kamonka/kamonka/-/raw/master/public/home.jpg"
-      alt="今晚看什么"
+    <img src="https://gitlab.com/kamonka/kamonka/-/raw/master/public/home.jpg" alt="今晚看什么"
       style="width: 85%; height: auto;">
     <div style="position: absolute; bottom: 10px; right: 35px; color: white; text-shadow: 1px 1px 4px black;">
       <a href="https://kamonka.github.io/TVBox.html">
@@ -216,25 +211,20 @@
   </div>
 
   <div class="columns-container">
-    <div class="column"
-      style="text-align:center;color: white;">
+    <div class="column" style="text-align:center;color: white;">
       <h2>观 影</h2>
     </div>
-    <div class="column"
-      style="text-align:center;color: white;">
+    <div class="column" style="text-align:center;color: white;">
       <h2>阅 读</h2>
     </div>
   </div>
 
   <div class="columns-container">
-    <div class="column"
-      id="left-column"></div>
-    <div class="column"
-      id="right-column"></div>
+    <div class="column" id="left-column"></div>
+    <div class="column" id="right-column"></div>
   </div>
 
-  <div class="back-to-top"
-    onclick="window.scrollTo({ top: 0, behavior: 'smooth' })">
+  <div class="back-to-top" onclick="window.scrollTo({ top: 0, behavior: 'smooth' })">
     <i class="fas fa-arrow-up"></i>
   </div>
 
@@ -242,32 +232,33 @@
     const leftItems = [
       //  { title: "<span>片名</span><br><span style='font-size: 12px; line-height: 0.8;'></span>", image: "剧照地址", link: "https://kamonka.github.io/player.html?url=" }, 
 
+      { title: "<span>妄人妄途</span><br><span style='font-size: 12px; line-height: 0.8;'></span>", image: "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2924703602.webp", link: "https://kamonka.github.io/player.html?url=https://8.bf8bf.com/video/wangrenwangtu/HD/index.m3u8" },
       { title: "<span>纯真时刻</span><br><span style='font-size: 12px; line-height: 0.8;'></span>", image: "https://img2.doubanio.com/view/photo/s_ratio_poster/public/p2390502591.webp", link: "https://www.bilibili.com/blackboard/html5player.html?bvid=BV1u84dzsEhc" },
       { title: "<span>2025的欧陆</span><br><span style='font-size: 12px; line-height: 0.8;'></span>", image: "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2918425908.webp", link: "https://kamonka.github.io/player.html?url=https://tyyszywvod5.com/videos/202508/08/689525b1ab80e28e4d785c4b/1fa7gg/index.m3u8" },
-      { title: "<span>暴君的厨师</span><br><span style='font-size: 12px; line-height: 0.8;'></span>", image: "https://img9.doubanio.com/view/photo/l/public/p2923441345.webp", link: "https://ddys.pro/chef-of-tyranny#sajdhfbjwhe" }, 
-      { title: "<span>戏台</span><br><span style='font-size: 12px; line-height: 0.8;'></span>", image: "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2923749086.webp", link: "https://kamonka.github.io/player.html?url=https://hqm3u8.cfysoft.cc/1758307865/158f00766863df3de596c7871e288f9c/m3u8/resources/187cb41ea4174d02c6364693e0347459.m3u8" }, 
-      { title: "<span>终极名单：黑狼</span><br><span style='font-size: 12px; line-height: 0.8;'></span>", image: "https://img3.doubanio.com/view/photo/l/public/p2923872327.webp", link: "https://ddys.pro/the-terminal-list-dark-wolf#sajdhfbjwhe" }, 
-      { title: "<span>密谍风暴：沉默守护者</span><br><span style='font-size: 12px; line-height: 0.8;'></span>", image: "https://img2.doubanio.com/view/photo/s_ratio_poster/public/p2924312041.webp", link: "http://www.meiju669.com/play/51554-0-0.html" }, 
-      { title: "<span>地球上的星星 2</span><br><span style='font-size: 12px; line-height: 0.8;'></span>", image: "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2921683017.webp", link: "https://kamonka-1ee620.gitlab.io/player.html?url=https://8.bf8bf.com/video/diqiushangdexingxing2/HD/index.m3u8" }, 
-      { title: "<span>地球上的星星</span><br><span style='font-size: 12px; line-height: 0.8;'></span>", image: "https://img9.doubanio.com/view/photo/m/public/p1973489335.webp", link: "https://kamonka-1ee620.gitlab.io/player.html?url=https://vip.dytt-live.com/20250414/4076_a3147b88/3000k/hls/mixed.m3u8" }, 
-      { title: "<span>孤身二人</span><br><span style='font-size: 12px; line-height: 0.8;'></span>", image: "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2907029603.webp", link: "https://kamonka-1ee620.gitlab.io/player.html?url=https://play.xluuss.com/play/xboxNrAd/index.m3u8" }, 
-      { title: "<span>周四推理俱乐部</span><br><span style='font-size: 12px; line-height: 0.8;'></span>", image: "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2924757357.webp", link: "https://kamonka-1ee620.gitlab.io/player.html?url=https://vip.dytt-cinema.com/20250902/33054_f5baef61/3000k/hls/mixed.m3u8" }, 
-      { title: "<span>四季拉面物语</span><br><span style='font-size: 12px; line-height: 0.8;'></span>", image: "https://img3.doubanio.com/view/photo/l/public/p2868978253.webp", link: "https://www.bilibili.com/blackboard/html5player.html?bvid=BV1nF411b7TJ" }, 
-      { title: "<span>小人物 2</span><br><span style='font-size: 12px; line-height: 0.8;'></span>", image: "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2921502283.webp", link: "https://kamonka-1ee620.gitlab.io/player.html?url=https://vip.dytt-kan.com/20250904/5262_04da4aea/3000k/hls/mixed.m3u8" }, 
+      { title: "<span>暴君的厨师</span><br><span style='font-size: 12px; line-height: 0.8;'></span>", image: "https://img9.doubanio.com/view/photo/l/public/p2923441345.webp", link: "https://ddys.pro/chef-of-tyranny#sajdhfbjwhe" },
+      { title: "<span>戏台</span><br><span style='font-size: 12px; line-height: 0.8;'></span>", image: "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2923749086.webp", link: "https://kamonka.github.io/player.html?url=https://hqm3u8.cfysoft.cc/1758307865/158f00766863df3de596c7871e288f9c/m3u8/resources/187cb41ea4174d02c6364693e0347459.m3u8" },
+      { title: "<span>终极名单：黑狼</span><br><span style='font-size: 12px; line-height: 0.8;'></span>", image: "https://img3.doubanio.com/view/photo/l/public/p2923872327.webp", link: "https://ddys.pro/the-terminal-list-dark-wolf#sajdhfbjwhe" },
+      { title: "<span>密谍风暴：沉默守护者</span><br><span style='font-size: 12px; line-height: 0.8;'></span>", image: "https://img2.doubanio.com/view/photo/s_ratio_poster/public/p2924312041.webp", link: "http://www.meiju669.com/play/51554-0-0.html" },
+      { title: "<span>地球上的星星 2</span><br><span style='font-size: 12px; line-height: 0.8;'></span>", image: "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2921683017.webp", link: "https://kamonka-1ee620.gitlab.io/player.html?url=https://8.bf8bf.com/video/diqiushangdexingxing2/HD/index.m3u8" },
+      { title: "<span>地球上的星星</span><br><span style='font-size: 12px; line-height: 0.8;'></span>", image: "https://img9.doubanio.com/view/photo/m/public/p1973489335.webp", link: "https://kamonka-1ee620.gitlab.io/player.html?url=https://vip.dytt-live.com/20250414/4076_a3147b88/3000k/hls/mixed.m3u8" },
+      { title: "<span>孤身二人</span><br><span style='font-size: 12px; line-height: 0.8;'></span>", image: "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2907029603.webp", link: "https://kamonka-1ee620.gitlab.io/player.html?url=https://play.xluuss.com/play/xboxNrAd/index.m3u8" },
+      { title: "<span>周四推理俱乐部</span><br><span style='font-size: 12px; line-height: 0.8;'></span>", image: "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2924757357.webp", link: "https://kamonka-1ee620.gitlab.io/player.html?url=https://vip.dytt-cinema.com/20250902/33054_f5baef61/3000k/hls/mixed.m3u8" },
+      { title: "<span>四季拉面物语</span><br><span style='font-size: 12px; line-height: 0.8;'></span>", image: "https://img3.doubanio.com/view/photo/l/public/p2868978253.webp", link: "https://www.bilibili.com/blackboard/html5player.html?bvid=BV1nF411b7TJ" },
+      { title: "<span>小人物 2</span><br><span style='font-size: 12px; line-height: 0.8;'></span>", image: "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2921502283.webp", link: "https://kamonka-1ee620.gitlab.io/player.html?url=https://vip.dytt-kan.com/20250904/5262_04da4aea/3000k/hls/mixed.m3u8" },
       { title: "<span>零日攻击</span><br><span style='font-size: 12px; line-height: 0.8;'></span>", image: "https://img.ffzy888.com/upload/vod/20250802-1/abf53122d30e653f1ae9ebdc1b2411e1.jpg", link: "https://www.5f9g6p8o4x5.shop/vodplay/721293-4-1.html" },
       { title: "<span>志村健爆笑小品集</span><br><span style='font-size: 12px; line-height: 0.8;'></span>", image: "https://i0.hdslb.com/bfs/archive/afa521e4649c50b55c102773b83926376d020788.png", link: "https://www.bilibili.com/blackboard/html5player.html?bvid=BV1yK4y1x7ZY" },
       { title: "<span>F1：狂飙飞车</span><br><span style='font-size: 12px; line-height: 0.8;'></span>", image: "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2922238175.webp", link: "https://kamonka-1ee620.gitlab.io/player.html?url=https://vip.dytt-cinema.com/20250822/31287_0982d54d/3000k/hls/mixed.m3u8" },
       { title: "<span>碟中谍8：最终清算 </span><br><span style='font-size: 12px; line-height: 0.8;'></span>", image: "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2921570919.webp", link: "https://kamonka-1ee620.gitlab.io/player.html?url=https://vip.dytt-cinema.com/20250818/30750_437aa62e/3000k/hls/mixed.m3u8" },
-      { title: "<span>爱丁顿</span><br><span style='font-size: 12px; line-height: 0.8;'></span>", image: "https://img1.doubanio.com/view/photo/l/public/p2920272469.webp", link: "https://kamonka-1ee620.gitlab.io/player.html?url=https://8.bf8bf.com/video/aidingdun/HD/index.m3u8" }, 
-      { title: "<span>异形：地球 第一季</span><br><span style='font-size: 12px; line-height: 0.8;'></span>", image: "https://img9.doubanio.com/view/photo/l/public/p2922243686.webp", link: "https://ddys.pro/alien-earth#sajdhfbjwhe" }, 
-      { title: "<span>从那不勒斯到纽约</span><br><span style='font-size: 12px; line-height: 0.8;'></span>", image: "https://img2.doubanio.com/view/photo/s_ratio_poster/public/p2915046541.webp", link: "https://kamonka-1ee620.gitlab.io/player.html?url=https://8.bf8bf.com/video/congnabulesidaoniuyue/HD/index.m3u8" }, 
-      { title: "<span>父亲的遗产</span><br><span style='font-size: 12px; line-height: 0.8;'></span>", image: "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2914578853.webp", link: "https://kamonka-1ee620.gitlab.io/player.html?url=https://play.xluuss.com/play/negvDAkd/index.m3u8" }, 
-      { title: "<span>伊甸</span><br><span style='font-size: 12px; line-height: 0.8;'></span>", image: "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2924041782.webp", link: "https://kamonka-1ee620.gitlab.io/player.html?url=https://v.gsuus.com/play/DbDzgAKe/index.m3u8" }, 
+      { title: "<span>爱丁顿</span><br><span style='font-size: 12px; line-height: 0.8;'></span>", image: "https://img1.doubanio.com/view/photo/l/public/p2920272469.webp", link: "https://kamonka-1ee620.gitlab.io/player.html?url=https://8.bf8bf.com/video/aidingdun/HD/index.m3u8" },
+      { title: "<span>异形：地球 第一季</span><br><span style='font-size: 12px; line-height: 0.8;'></span>", image: "https://img9.doubanio.com/view/photo/l/public/p2922243686.webp", link: "https://ddys.pro/alien-earth#sajdhfbjwhe" },
+      { title: "<span>从那不勒斯到纽约</span><br><span style='font-size: 12px; line-height: 0.8;'></span>", image: "https://img2.doubanio.com/view/photo/s_ratio_poster/public/p2915046541.webp", link: "https://kamonka-1ee620.gitlab.io/player.html?url=https://8.bf8bf.com/video/congnabulesidaoniuyue/HD/index.m3u8" },
+      { title: "<span>父亲的遗产</span><br><span style='font-size: 12px; line-height: 0.8;'></span>", image: "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2914578853.webp", link: "https://kamonka-1ee620.gitlab.io/player.html?url=https://play.xluuss.com/play/negvDAkd/index.m3u8" },
+      { title: "<span>伊甸</span><br><span style='font-size: 12px; line-height: 0.8;'></span>", image: "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2924041782.webp", link: "https://kamonka-1ee620.gitlab.io/player.html?url=https://v.gsuus.com/play/DbDzgAKe/index.m3u8" },
       { title: "<span>夜班</span><br><span style='font-size: 12px; line-height: 0.8;'></span>", image: "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2917644274.webp", link: "https://ddys.pro/heldin#sajdhfbjwhe" },
-      { title: "<span>侏罗纪世界：重生</span><br><span style='font-size: 12px; line-height: 0.8;'></span>", image: "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2922024674.webp", link: "https://ddys.pro/jurassic-world-rebirth#sajdhfbjwhe" }, 
-      { title: "<span>风的气息</span><br><span style='font-size: 12px; line-height: 0.8;'></span>", image: "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2881908570.webp", link: "https://kamonka-1ee620.gitlab.io/player.html?url=https://play.ly166.com:65/videos/20250414/67fd0f42a3cd3e0b2e43a988/70e43d/index.m3u8" }, 
-      { title: "<span>大洪水</span><br><span style='font-size: 12px; line-height: 0.8;'></span>", image: "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2915229818.webp", link: "https://kamonka-1ee620.gitlab.io/player.html?url=https://p.bvvvvvvv7f.com/video/dahongshui2024/HD/index.m3u8" }, 
-      { title: "<span>悬案解码</span><br><span style='font-size: 12px; line-height: 0.8;'></span>", image: "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2923001242.webp", link: "https://ddys.pro/dept-q#sajdhfbjwhe" }, 
+      { title: "<span>侏罗纪世界：重生</span><br><span style='font-size: 12px; line-height: 0.8;'></span>", image: "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2922024674.webp", link: "https://ddys.pro/jurassic-world-rebirth#sajdhfbjwhe" },
+      { title: "<span>风的气息</span><br><span style='font-size: 12px; line-height: 0.8;'></span>", image: "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2881908570.webp", link: "https://kamonka-1ee620.gitlab.io/player.html?url=https://play.ly166.com:65/videos/20250414/67fd0f42a3cd3e0b2e43a988/70e43d/index.m3u8" },
+      { title: "<span>大洪水</span><br><span style='font-size: 12px; line-height: 0.8;'></span>", image: "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2915229818.webp", link: "https://kamonka-1ee620.gitlab.io/player.html?url=https://p.bvvvvvvv7f.com/video/dahongshui2024/HD/index.m3u8" },
+      { title: "<span>悬案解码</span><br><span style='font-size: 12px; line-height: 0.8;'></span>", image: "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2923001242.webp", link: "https://ddys.pro/dept-q#sajdhfbjwhe" },
       { title: "<span>冲动</span><br><span style='font-size: 12px; line-height: 0.8;'></span>", image: "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2902368950.webp", link: "https://kamonka-1ee620.gitlab.io/player.html?url=https://hd.ijycnd.com/play/nelAOy1a/index.m3u8" },
       { title: "<span>荒境狂途</span><br><span style='font-size: 12px; line-height: 0.8;'></span>", image: "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2922554035.webp", link: "https://libvio.vip/play/714892721-1-1.html" },
       { title: "<span>邓南遮占领阜姆自由邦</span><br><span style='font-size: 12px; line-height: 0.8;'></span>", image: "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2916544349.webp", link: "https://www.bilibili.com/blackboard/html5player.html?bvid=BV1VwuwzAE89" },
@@ -597,7 +588,7 @@
 
       //  { title: "<span>书名</span><br><span style='font-size: 12px; line-height: 0.8;'></span>", image: "封面地址", link: "下载地址.epub" },
 
-       { title: "<span>拯救民主</span><br><span style='font-size: 12px; line-height: 0.8;'></span>", image: "https://dlink.host/1drv/aHR0cHM6Ly8xZHJ2Lm1zL2kvYy8xOTg0YjdmM2FmNjcwMjBkL0VTM1c2WkpPLXE5SG0wWWJHYjhMMFpRQnVmMENOY3VhTmpCU3RVTkhWNl9LWnc_ZT1VTW5qUlQ.jpg", link: "https://dlink.host/1drv/aHR0cHM6Ly8xZHJ2Lm1zL2IvYy8xOTg0YjdmM2FmNjcwMjBkL0ViZ0k3U1ZKUDBwSG5kNUtKd2ptbUlnQkFVZXNIMHdrNzAyQmV3QTNjMm1WdUE_ZT13bWF6dWo.pdf" },
+      { title: "<span>拯救民主</span><br><span style='font-size: 12px; line-height: 0.8;'></span>", image: "https://dlink.host/1drv/aHR0cHM6Ly8xZHJ2Lm1zL2kvYy8xOTg0YjdmM2FmNjcwMjBkL0VTM1c2WkpPLXE5SG0wWWJHYjhMMFpRQnVmMENOY3VhTmpCU3RVTkhWNl9LWnc_ZT1VTW5qUlQ.jpg", link: "https://dlink.host/1drv/aHR0cHM6Ly8xZHJ2Lm1zL2IvYy8xOTg0YjdmM2FmNjcwMjBkL0ViZ0k3U1ZKUDBwSG5kNUtKd2ptbUlnQkFVZXNIMHdrNzAyQmV3QTNjMm1WdUE_ZT13bWF6dWo.pdf" },
       { title: "<span>刺秦</span><br><span style='font-size: 12px; line-height: 0.8;'>重新认识秦王朝</span>", image: "https://img9.doubanio.com/view/subject/s/public/s35221904.jpg", link: "https://dlink.host/1drv/aHR0cHM6Ly8xZHJ2Lm1zL3UvYy8xOTg0YjdmM2FmNjcwMjBkL0VTTjhuZDJ4YlpSSHNSV2g2U1ZndVBjQmlxc3RacUxCYXY5U0RCQ19ZelZNbnc_ZT0yYURWMkI.epub" },
       { title: "<span>古史辨运动的兴起</span><br><span style='font-size: 12px; line-height: 0.8;'>一个思想史的分析（修订版）</span>", image: "https://img3.doubanio.com/view/subject/s/public/s34911213.jpg", link: "https://dlink.host/1drv/aHR0cHM6Ly8xZHJ2Lm1zL3UvYy8xOTg0YjdmM2FmNjcwMjBkL0VVMndsSWpuWVVoRXU5bldzNW9VejIwQm02eXlsN3htWVJVVE9aTFNicWZfS3c_ZT1kMzVucVg.epub" },
       { title: "<span>臺灣人的牽絆</span><br><span style='font-size: 12px; line-height: 0.8;'> 搖擺在臺灣、大陸與日本間的「三顆心」</span>", image: "https://img3.doubanio.com/view/subject/s/public/s34628372.jpg", link: "https://dlink.host/1drv/aHR0cHM6Ly8xZHJ2Lm1zL3UvYy8xOTg0YjdmM2FmNjcwMjBkL0VVb3VXNUFnY3VaRWk4LVZvb09DUTZVQnVHVnY3enRDV0FkZmthV3pwRVhsWWc_ZT1rQkVnQW0.epub" },
@@ -614,7 +605,7 @@
       { title: "<span>芯片简史</span><br><span style='font-size: 12px; line-height: 0.8;'>芯片是如何诞生并改变世界的</span>", image: "https://img1.doubanio.com/view/subject/s/public/s34501469.jpg", link: "https://dlink.host/1drv/aHR0cHM6Ly8xZHJ2Lm1zL3UvYy8xOTg0YjdmM2FmNjcwMjBkL0ViTzFRbERJTkxsSXJpN19OQXFpNENzQndzVGc4ekNKQllaQ05tbUNPZUJURnc_ZT1WOG9JMjE.epub" },
       { title: "<span>叹为观纸</span><br><span style='font-size: 12px; line-height: 0.8;'>中国古纸的传说与历史</span>", image: "https://img3.doubanio.com/view/subject/s/public/s35182187.jpg", link: "https://dlink.host/1drv/aHR0cHM6Ly8xZHJ2Lm1zL2IvYy8xOTg0YjdmM2FmNjcwMjBkL0VYRm15ZnFrLVJkT3JQaHZXRVB5MnFzQmFYYUQ1X0pMaE1rSFY1enp4TjJaSmc_ZT1jbk5hSDE.pdf" },
       { title: "<span>竹林女儿</span><br><span style='font-size: 12px; line-height: 0.8;'>从中国到美国，一个关于绑架、收养<br>和失散双胞胎的真实故事</span>", image: "https://dlink.host/1drv/aHR0cHM6Ly8xZHJ2Lm1zL2kvYy8xOTg0YjdmM2FmNjcwMjBkL0ViRkRodlZ1Nmk1S2tNN0x3eUdTTEs0QnlaWmwtVXhVQzNpTWVqOHVxVndzaWc_ZT1vVU1sUnE.jpg", link: "https://dlink.host/1drv/aHR0cHM6Ly8xZHJ2Lm1zL3UvYy8xOTg0YjdmM2FmNjcwMjBkL0VkSFg3YzRIeTFOT2twTDNRRm0ybF9jQlNuWUREMnRmVC1fS3RqZ3RoSTR4WXc_ZT1tQ2QwZEo.epub" },
-      { title: "<span>赌注</span><br><span style='font-size: 12px; line-height: 0.8;'>海难、叛变和谋杀的故事</span>", image: "https://img3.doubanio.com/view/subject/s/public/s35115833.jpg", link: "https://dlink.host/1drv/aHR0cHM6Ly8xZHJ2Lm1zL3UvYy8xOTg0YjdmM2FmNjcwMjBkL0VRcHZOa1pnSFI5SGtxNU1CMTYwcnMwQkJDOEF0WDJlNm1TZUwxc0dBbjM3WUE_ZT1mZXhuN2k.epub" }, 
+      { title: "<span>赌注</span><br><span style='font-size: 12px; line-height: 0.8;'>海难、叛变和谋杀的故事</span>", image: "https://img3.doubanio.com/view/subject/s/public/s35115833.jpg", link: "https://dlink.host/1drv/aHR0cHM6Ly8xZHJ2Lm1zL3UvYy8xOTg0YjdmM2FmNjcwMjBkL0VRcHZOa1pnSFI5SGtxNU1CMTYwcnMwQkJDOEF0WDJlNm1TZUwxc0dBbjM3WUE_ZT1mZXhuN2k.epub" },
       { title: "<span>如临大敌</span><br><span style='font-size: 12px; line-height: 0.8;'>谣言恐慌与大宋王朝1054</span>", image: "https://img1.doubanio.com/view/subject/s/public/s35180860.jpg", link: "https://dlink.host/1drv/aHR0cHM6Ly8xZHJ2Lm1zL3UvYy8xOTg0YjdmM2FmNjcwMjBkL0VWMlpHbWgwby1STXFjTUZRZ19ZWE5zQmw2NGZLZ2xKbE52MU5tRmhqRHFTdVE_ZT1wdkVQTkQ.epub" },
       { title: "<span>黄沙下的世界</span><br><span style='font-size: 12px; line-height: 0.8;'>埃及学黄金时代的探险和考古</span>", image: "https://img9.doubanio.com/view/subject/s/public/s34837885.jpg", link: "https://dlink.host/1drv/aHR0cHM6Ly8xZHJ2Lm1zL3UvYy8xOTg0YjdmM2FmNjcwMjBkL0VZeE9odmtFaEp4R3JuQ3BWT0ZGbXZVQlJ3X2Q4SmNMNXQzMGV5M3YwWlhlZHc_ZT1WRTNXTzc.epub" },
       { title: "<span>波斯人 : 万王之王的时代</span><br><span style='font-size: 12px; line-height: 0.8;'></span>", image: "https://img3.doubanio.com/view/subject/s/public/s35159987.jpg", link: "https://dlink.host/1drv/aHR0cHM6Ly8xZHJ2Lm1zL3UvYy8xOTg0YjdmM2FmNjcwMjBkL0VTVnlaR2oxTk5wRHJDVjQ0ZzVTUkcwQlduUmpWeVltcENiR2Rwb0Q2NzN6WHc_ZT1haUNZVmc.epub" },
@@ -869,6 +860,3 @@
 </body>
 
 </html>
-
-
-
