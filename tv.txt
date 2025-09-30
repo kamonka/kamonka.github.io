@@ -258,11 +258,11 @@ ComedyCentral,http://cistakosuza.petica.info:80/Marina1KZ/ubxfvM6dQ7/69752
 🇲🇾新马泰印#genre#
 
 🇯🇲体育,#genre#
-TOROS,http://main.epgmaker.com/qwZTFS4pXF/5898171564/7787
-TOROS,http://theaztech.com:80/Nelly1/Nelly1/114358
-TOROS,http://31.43.191.125:8080/VIP01799172590935697/84080992cac5/631
-TOROS,http://31.43.191.125:8080/VIP01799172590935697/84080992cac5/37678
-TOROS,http://31.43.191.125:8080/VIP01799172590935697/84080992cac5/783
+TORO,http://royalibox.com:80/play/live.php?mac=00:1A:79:B8:4F:91&stream=524044&extension=ts&play_token=oGqBN1G1p4
+TORO,http://royalibox.com:80/play/live.php?mac=00:1A:79:B8:4F:91&stream=294175&extension=ts&play_token=WrrPnAciSY
+TORO,http://royalibox.com:80/play/live.php?mac=00:1A:79:B8:4F:91&stream=9068&extension=ts&play_token=scuuf7nNu3
+TORO,
+TORO,
 
 日本摔跤格斗,https://vthanh.utako.moe/fighting_tv/index.m3u8
 日本女子摔跤,http://lxajh.top/tv/douyu.php?id=425809
