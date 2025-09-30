@@ -2,7 +2,7 @@
 <html>
 <head>
 <title>今晚看什么</title>
-<link rel="shortcut icon" href="https://ghproxy.com/https://raw.githubusercontent.com/kamonka/kamonka.github.io/main/favicon.ico"> 
+<link rel="shortcut icon" href="https://jyjdsg.dpdns.org/favicon.ico"> 
 <style>a{TEXT-DECORATION:none}</style> 
 <style>
 body {
