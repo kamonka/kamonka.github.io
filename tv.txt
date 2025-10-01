@@ -88,8 +88,8 @@ BBC,http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs15
 CNN,https://stream01.willfonk.com/live_playlist.m3u8?cid=CS354&r=FHD&ccode=JP&m=d0:20:20:04:35:cc&t=0d6938cb3dcf4b79848bc1753a59daf1
 CNN,https://stream01.willfonk.com/live_playlist.m3u8?cid=CS354&r=HD&ccode=JP&m=d0:20:20:04:35:cc&t=0d6938cb3dcf4b79848bc1753a59daf1
 
-CNN,https://epg.freejptv.com/ph.php?&isp=1&id=cs16
-BBC,https://epg.freejptv.com/ph.php?&isp=1&id=cs15
+CNN,https://proxy.utako.moe/ph.php?&isp=1&id=cs16
+BBC,https://proxy.utako.moe/ph.php?&isp=1&id=cs15
 
 🇹🇼台港新闻,#genre#
 台视新闻,http://123.51.136.80:8314/0.ts
@@ -284,79 +284,79 @@ TRACESportStars,,http://iptv.4666888.xyz/iptv2A.php?id=59
 88赛马,http://iptv.4666888.xyz/iptv2A.php?id=38
 
 🇯🇵日本,#genre#
-NHKG,https://epg.freejptv.com/ph.php?&isp=1&id=hdgd01
-NHKBS,https://epg.freejptv.com/ph.php?&isp=1&id=bs11
-NHKBS4K,https://epg.freejptv.com/ph.php?&isp=1&id=bs01
-NHKE,https://epg.freejptv.com/ph.php?&isp=1&id=hdgd02
-日本テレビ,https://epg.freejptv.com/ph.php?&isp=1&id=hdgd03
-TBS,https://epg.freejptv.com/ph.php?&isp=1&id=hdgd04
-フジテレビ,https://epg.freejptv.com/ph.php?&isp=1&id=hdgd05
-テレビ朝日,https://epg.freejptv.com/ph.php?&isp=1&id=hdgd06
-テレビ東京,,https://epg.freejptv.com/ph.php?&isp=1&id=hdgd07
-NHKG,https://epg.freejptv.com/ph.php?&isp=1&id=gd01
-NHKE,https://epg.freejptv.com/ph.php?&isp=1&id=gd02
-日本テレビ,https://epg.freejptv.com/ph.php?&isp=1&id=gd03
-TBS,https://epg.freejptv.com/ph.php?&isp=1&id=gd04
-フジテレビ,https://epg.freejptv.com/ph.php?&isp=1&id=gd05
-テレビ朝日,https://epg.freejptv.com/ph.php?&isp=1&id=gd06
-テレビ東京,https://epg.freejptv.com/ph.php?&isp=1&id=gd07
-NHKG,https://epg.freejptv.com/ph.php?&isp=1&id=gx06
-日本テレビ,https://epg.freejptv.com/ph.php?&isp=1&id=gx04
-TBS,https://epg.freejptv.com/ph.php?&isp=1&id=gx01
-テレビ朝日,https://epg.freejptv.com/ph.php?&isp=1&id=gx02
-フジテレビ,https://epg.freejptv.com/ph.php?&isp=1&id=gx03
-テレビ東京,https://epg.freejptv.com/ph.php?&isp=1&id=gx05
-サンテレビ,https://epg.freejptv.com/ph.php?&isp=1&id=gx07
-BS日レビ,https://epg.freejptv.com/ph.php?&isp=1&id=bs02
-BS朝日,https://epg.freejptv.com/ph.php?&isp=1&id=bs03
-BSTBS,https://epg.freejptv.com/ph.php?&isp=1&id=bs04
-BSテレ東,,https://epg.freejptv.com/ph.php?&isp=1&id=bs05
-BSフジ,https://epg.freejptv.com/ph.php?&isp=1&id=bs06
-TOKYOMX1,https://epg.freejptv.com/ph.php?&isp=1&id=hdgd08
-TOKYOMX1,https://epg.freejptv.com/ph.php?&isp=1&id=gd08
-フジテレビNext,https://epg.freejptv.com/ph.php?&isp=1&id=cs26
-日テレジータス,https://epg.freejptv.com/ph.php?&isp=1&id=cs02
-TBSNews,https://epg.freejptv.com/ph.php?&isp=1&id=cs11
-ディスカバリー,https://epg.freejptv.com/ph.php?&isp=1&id=cs08
-ナショジオ,https://epg.freejptv.com/ph.php?&isp=1&id=cs10
-ヒストリー,https://epg.freejptv.com/ph.php?&isp=1&id=cs08
-旅チャンネル,https://epg.freejptv.com/ph.php?&isp=1&id=cs12
-日本映画,https://epg.freejptv.com/ph.php?&isp=1&id=bs23
-東映,https://epg.freejptv.com/ph.php?&isp=1&id=cs27
-衛星劇場,https://epg.freejptv.com/ph.php?&isp=1&id=cs22
-ムービープラス,https://epg.freejptv.com/ph.php?&isp=1&id=cs14
-スターチャンネル,https://epg.freejptv.com/ph.php?&isp=1&id=bs08
-WOWOWPrime,https://epg.freejptv.com/ph.php?&isp=1&id=bs12
-WOWOWCinema,https://epg.freejptv.com/ph.php?&isp=1&id=bs07
-WOWOWLive,https://epg.freejptv.com/ph.php?&isp=1&id=bs20
-JCOMBS,https://epg.freejptv.com/ph.php?&isp=1&id=bs31
-宝塚歌劇,https://epg.freejptv.com/ph.php?&isp=2&id=cs28
-時代劇,https://epg.freejptv.com/ph.php?&isp=1&id=cs04
-ファミリー劇場,https://epg.freejptv.com/ph.php?&isp=1&id=cs20
-ホームドラマ,https://epg.freejptv.com/ph.php?&isp=1&id=cs05
-MondoTV,https://epg.freejptv.com/ph.php?&isp=1&id=cs21
-JSport1,https://epg.freejptv.com/ph.php?&isp=1&id=bs18
-JSport2,https://epg.freejptv.com/ph.php?&isp=1&id=bs19
-JSport3,https://epg.freejptv.com/ph.php?&isp=1&id=bs21
-JSport4,https://epg.freejptv.com/ph.php?&isp=1&id=bs22
-グリーンチャンネル,https://epg.freejptv.com/ph.php?&isp=1&id=bs14
-スカイA,https://epg.freejptv.com/ph.php?&isp=1&id=cs01
-スカイA,https://epg.freejptv.com/ph.php?&isp=1&id=cs01
-GAORA,https://epg.freejptv.com/ph.php?&isp=1&id=cs17
-釣りビジョン,https://epg.freejptv.com/ph.php?&isp=1&id=bs25
-ゴルフネットワーク,https://epg.freejptv.com/ph.php?&isp=1&id=cs03
-スペースシャワー,https://epg.freejptv.com/ph.php?&isp=1&id=bs26
-MusicJapan,https://epg.freejptv.com/ph.php?&isp=1&id=cs06
-歌謡ポップス,https://epg.freejptv.com/ph.php?&isp=1&id=cs13
-MTV,https://epg.freejptv.com/ph.php?&isp=1&id=cs18
-LaLaTV,https://epg.freejptv.com/ph.php?&isp=1&id=cs19
-銀河,https://epg.freejptv.com/ph.php?&isp=2&id=cs29
-Animax,https://epg.freejptv.com/ph.php?&isp=1&id=bs15
-ディズニー,https://epg.freejptv.com/ph.php?&isp=1&id=bs24
-ディズニージュニア,https://epg.freejptv.com/ph.php?&isp=1&id=cs23
-キッズステーション,https://epg.freejptv.com/ph.php?&isp=1&id=cs07
-CartoonNetwork,https://epg.freejptv.com/ph.php?&isp=1&id=cs25
-AnimalPlanet,https://epg.freejptv.com/ph.php?&isp=1&id=cs24
+NHKG,https://proxy.utako.moe/ph.php?&isp=1&id=hdgd01
+NHKBS,https://proxy.utako.moe/ph.php?&isp=1&id=bs11
+NHKBS4K,https://proxy.utako.moe/ph.php?&isp=1&id=bs01
+NHKE,https://proxy.utako.moe/ph.php?&isp=1&id=hdgd02
+日本テレビ,https://proxy.utako.moe/ph.php?&isp=1&id=hdgd03
+TBS,https://proxy.utako.moe/ph.php?&isp=1&id=hdgd04
+フジテレビ,https://proxy.utako.moe/ph.php?&isp=1&id=hdgd05
+テレビ朝日,https://proxy.utako.moe/ph.php?&isp=1&id=hdgd06
+テレビ東京,,https://proxy.utako.moe/ph.php?&isp=1&id=hdgd07
+NHKG,https://proxy.utako.moe/ph.php?&isp=1&id=gd01
+NHKE,https://proxy.utako.moe/ph.php?&isp=1&id=gd02
+日本テレビ,https://proxy.utako.moe/ph.php?&isp=1&id=gd03
+TBS,https://proxy.utako.moe/ph.php?&isp=1&id=gd04
+フジテレビ,https://proxy.utako.moe/ph.php?&isp=1&id=gd05
+テレビ朝日,https://proxy.utako.moe/ph.php?&isp=1&id=gd06
+テレビ東京,https://proxy.utako.moe/ph.php?&isp=1&id=gd07
+NHKG,https://proxy.utako.moe/ph.php?&isp=1&id=gx06
+日本テレビ,https://proxy.utako.moe/ph.php?&isp=1&id=gx04
+TBS,https://proxy.utako.moe/ph.php?&isp=1&id=gx01
+テレビ朝日,https://proxy.utako.moe/ph.php?&isp=1&id=gx02
+フジテレビ,https://proxy.utako.moe/ph.php?&isp=1&id=gx03
+テレビ東京,https://proxy.utako.moe/ph.php?&isp=1&id=gx05
+サンテレビ,https://proxy.utako.moe/ph.php?&isp=1&id=gx07
+BS日レビ,https://proxy.utako.moe/ph.php?&isp=1&id=bs02
+BS朝日,https://proxy.utako.moe/ph.php?&isp=1&id=bs03
+BSTBS,https://proxy.utako.moe/ph.php?&isp=1&id=bs04
+BSテレ東,,https://proxy.utako.moe/ph.php?&isp=1&id=bs05
+BSフジ,https://proxy.utako.moe/ph.php?&isp=1&id=bs06
+TOKYOMX1,https://proxy.utako.moe/ph.php?&isp=1&id=hdgd08
+TOKYOMX1,https://proxy.utako.moe/ph.php?&isp=1&id=gd08
+フジテレビNext,https://proxy.utako.moe/ph.php?&isp=1&id=cs26
+日テレジータス,https://proxy.utako.moe/ph.php?&isp=1&id=cs02
+TBSNews,https://proxy.utako.moe/ph.php?&isp=1&id=cs11
+ディスカバリー,https://proxy.utako.moe/ph.php?&isp=1&id=cs08
+ナショジオ,https://proxy.utako.moe/ph.php?&isp=1&id=cs10
+ヒストリー,https://proxy.utako.moe/ph.php?&isp=1&id=cs08
+旅チャンネル,https://proxy.utako.moe/ph.php?&isp=1&id=cs12
+日本映画,https://proxy.utako.moe/ph.php?&isp=1&id=bs23
+東映,https://proxy.utako.moe/ph.php?&isp=1&id=cs27
+衛星劇場,https://proxy.utako.moe/ph.php?&isp=1&id=cs22
+ムービープラス,https://proxy.utako.moe/ph.php?&isp=1&id=cs14
+スターチャンネル,https://proxy.utako.moe/ph.php?&isp=1&id=bs08
+WOWOWPrime,https://proxy.utako.moe/ph.php?&isp=1&id=bs12
+WOWOWCinema,https://proxy.utako.moe/ph.php?&isp=1&id=bs07
+WOWOWLive,https://proxy.utako.moe/ph.php?&isp=1&id=bs20
+JCOMBS,https://proxy.utako.moe/ph.php?&isp=1&id=bs31
+宝塚歌劇,https://proxy.utako.moe/ph.php?&isp=2&id=cs28
+時代劇,https://proxy.utako.moe/ph.php?&isp=1&id=cs04
+ファミリー劇場,https://proxy.utako.moe/ph.php?&isp=1&id=cs20
+ホームドラマ,https://proxy.utako.moe/ph.php?&isp=1&id=cs05
+MondoTV,https://proxy.utako.moe/ph.php?&isp=1&id=cs21
+JSport1,https://proxy.utako.moe/ph.php?&isp=1&id=bs18
+JSport2,https://proxy.utako.moe/ph.php?&isp=1&id=bs19
+JSport3,https://proxy.utako.moe/ph.php?&isp=1&id=bs21
+JSport4,https://proxy.utako.moe/ph.php?&isp=1&id=bs22
+グリーンチャンネル,https://proxy.utako.moe/ph.php?&isp=1&id=bs14
+スカイA,https://proxy.utako.moe/ph.php?&isp=1&id=cs01
+スカイA,https://proxy.utako.moe/ph.php?&isp=1&id=cs01
+GAORA,https://proxy.utako.moe/ph.php?&isp=1&id=cs17
+釣りビジョン,https://proxy.utako.moe/ph.php?&isp=1&id=bs25
+ゴルフネットワーク,https://proxy.utako.moe/ph.php?&isp=1&id=cs03
+スペースシャワー,https://proxy.utako.moe/ph.php?&isp=1&id=bs26
+MusicJapan,https://proxy.utako.moe/ph.php?&isp=1&id=cs06
+歌謡ポップス,https://proxy.utako.moe/ph.php?&isp=1&id=cs13
+MTV,https://proxy.utako.moe/ph.php?&isp=1&id=cs18
+LaLaTV,https://proxy.utako.moe/ph.php?&isp=1&id=cs19
+銀河,https://proxy.utako.moe/ph.php?&isp=2&id=cs29
+Animax,https://proxy.utako.moe/ph.php?&isp=1&id=bs15
+ディズニー,https://proxy.utako.moe/ph.php?&isp=1&id=bs24
+ディズニージュニア,https://proxy.utako.moe/ph.php?&isp=1&id=cs23
+キッズステーション,https://proxy.utako.moe/ph.php?&isp=1&id=cs07
+CartoonNetwork,https://proxy.utako.moe/ph.php?&isp=1&id=cs25
+AnimalPlanet,https://proxy.utako.moe/ph.php?&isp=1&id=cs24
 
 NHKG,https://mt01.utako.moe/NHK_G/tracks-v1a1/index.fmp4.m3u8
 NHKBS,https://mt01.utako.moe/NHK_BS/tracks-v1a1/mono.ts.m3u8
