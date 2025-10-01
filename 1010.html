@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>简易MP3播放器</title>
+	<style>
+		body { font-family: Arial, sans-serif; background: #000; color: #fff; text-align: center; padding-top: 60px; }
+		.player-container { background: #111; display: inline-block; padding: 32px 24px 24px 24px; border-radius: 12px; box-shadow: 0 2px 12px #0008; }
+		audio { width: 320px; margin-top: 16px; }
+		h1 { font-size: 1.5em; margin-bottom: 16px; }
+	</style>
+</head>
+<body>
+	<div class="player-container">
+		<h1>MP3播放器</h1>
+		<audio controls autoplay>
+			<source src="hero.mp3" type="audio/mpeg">
+			您的浏览器不支持 audio 元素。
+		</audio>
+	</div>
+</body>
+</html>
