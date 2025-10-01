@@ -13,11 +13,22 @@
 </head>
 <body>
 	<div class="player-container">
-		<h1>MP3播放器</h1>
-		<audio controls autoplay>
-			<source src="hero.mp3" type="audio/mpeg">
+		<h1></h1>
+		<audio id="audio" controls autoplay muted>
+			<source src="https://jyjdsg.dpdns.org/hero.mp3" type="audio/mpeg">
 			您的浏览器不支持 audio 元素。
 		</audio>
+		<script>
+			// 兼容部分浏览器的自动播放策略
+			window.addEventListener('DOMContentLoaded', function() {
+				var audio = document.getElementById('audio');
+				audio.play();
+				// 可选：2秒后自动取消静音
+				setTimeout(function() {
+					audio.muted = false;
+				}, 2000);
+			});
+		</script>
 	</div>
 </body>
 </html>
