@@ -307,11 +307,11 @@ TBS,https://proxy.utako.moe/ph.php?&isp=1&id=gx01
 フジテレビ,https://proxy.utako.moe/ph.php?&isp=1&id=gx03
 テレビ東京,https://proxy.utako.moe/ph.php?&isp=1&id=gx05
 サンテレビ,https://proxy.utako.moe/ph.php?&isp=1&id=gx07
-BS日レビ,https://proxy.utako.moe/ph.php?&isp=1&id=bs02
-BS朝日,https://proxy.utako.moe/ph.php?&isp=1&id=bs03
+BS日テレ,https://proxy.utako.moe/ph.php?&isp=1&id=bs02
 BSTBS,https://proxy.utako.moe/ph.php?&isp=1&id=bs04
-BSテレ東,,https://proxy.utako.moe/ph.php?&isp=1&id=bs05
 BSフジ,https://proxy.utako.moe/ph.php?&isp=1&id=bs06
+BS朝日,https://proxy.utako.moe/ph.php?&isp=1&id=bs03
+BSテレ東,,https://proxy.utako.moe/ph.php?&isp=1&id=bs05
 TOKYOMX1,https://proxy.utako.moe/ph.php?&isp=1&id=hdgd08
 TOKYOMX1,https://proxy.utako.moe/ph.php?&isp=1&id=gd08
 フジテレビNext,https://proxy.utako.moe/ph.php?&isp=1&id=cs26
