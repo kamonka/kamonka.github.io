@@ -1,12 +1,6 @@
 🇬🇬世界新闻,#genre#
-CNN,http://t.061899.xyz/tl/js/js.php?id=cnnxw
-BBC,http://t.061899.xyz/tl/js/js.php?id=bbcxw
-FOX新闻,http://t.061899.xyz/tl/js/js.php?id=foxxw
-半岛新闻,http://t.061899.xyz/tl/js/js.php?id=bdxw
-CNN,https://pixman.mytvsuper.com.mp/Smart.php?id=cnn_twn
-CNBC,https://pixman.mytvsuper.com.mp/Smart.php?id=cnbc_twn
-CNN,https://sib.sld.tw/Smart.php?id=cnn_twn
-CNBC,https://sib.sld.tw/Smart.php?id=cnbc_twn
+BBC,http://125.227.210.55:8165/VideoInput/play.ts
+CNN,http://125.227.210.55:8166/VideoInput/play.ts
 
 BBC,http://hostengine.live/live/Chelsea10@/Stamford77@/53608.m3u
 BBC,http://hostengine.live/live/Chelsea10@/Stamford77@/53840.m3u
@@ -16,18 +10,25 @@ ABC新闻,http://hostengine.live/live/Chelsea10@/Stamford77@/168545.m3u
 FOX新闻,http://hostengine.live/live/Chelsea10@/Stamford77@/53391.m3u#http://hostengine.live/live/Chelsea10@/Stamford77@/56593.m3u
 半岛新闻,http://hostengine.live/live/Chelsea10@/Stamford77@/53834.m3u
 
-BBC,http://125.227.210.55:8165/VideoInput/play.ts
-CNN,http://125.227.210.55:8166/VideoInput/play.ts
+CNN,http://t.061899.xyz/tl/js/js.php?id=cnnxw
+BBC,http://t.061899.xyz/tl/js/js.php?id=bbcxw
+FOX新闻,http://t.061899.xyz/tl/js/js.php?id=foxxw
+半岛新闻,http://t.061899.xyz/tl/js/js.php?id=bdxw
+CNN,https://pixman.mytvsuper.com.mp/Smart.php?id=cnn_twn
+CNBC,https://pixman.mytvsuper.com.mp/Smart.php?id=cnbc_twn
+CNN,https://sib.sld.tw/Smart.php?id=cnn_twn
+CNBC,https://sib.sld.tw/Smart.php?id=cnbc_twn
 
 BBC,http://jwesyke.mmastertv.xyz:80/9733876395/7682637868/153844#http://jwesyke.mmastertv.xyz:80/9733876395/7682637868/40091
 CNN,http://jwesyke.mmastertv.xyz:80/9733876395/7682637868/36480#http://jwesyke.mmastertv.xyz:80/9733876395/7682637868/153852#http://jwesyke.mmastertv.xyz:80/9733876395/7682637868/181645
 CBS新闻,http://jwesyke.mmastertv.xyz:80/9733876395/7682637868/181650
+ABC新闻,http://jwesyke.mmastertv.xyz:80/9733876395/7682637868/181665
+FOX新闻,http://jwesyke.mmastertv.xyz:80/9733876395/7682637868/181664#http://jwesyke.mmastertv.xyz:80/9733876395/7682637868/153851#
+
 BBC,http://966014182553.cdn-eag.com:80/6gi2up0jbb/dxu4mhmspq/1277536#http://966014182553.cdn-eag.com:80/6gi2up0jbb/dxu4mhmspq/1071994
 CNN,http://966014182553.cdn-eag.com:80/6gi2up0jbb/dxu4mhmspq/88741
 半岛新闻,http://966014182553.cdn-eag.com:80/6gi2up0jbb/dxu4mhmspq/1446
 CBS新闻,http://966014182553.cdn-eag.com:80/6gi2up0jbb/dxu4mhmspq/246259
-ABC新闻,http://jwesyke.mmastertv.xyz:80/9733876395/7682637868/181665
-FOX新闻,http://jwesyke.mmastertv.xyz:80/9733876395/7682637868/181664#http://jwesyke.mmastertv.xyz:80/9733876395/7682637868/153851#
 
 BBC,http://srrfuei.ro:8080/AN229003/GdJkPdW7VxjA3qOYrEzDfftamZsXi5/56679
 CNN,http://srrfuei.ro:8080/AN229003/GdJkPdW7VxjA3qOYrEzDfftamZsXi5/57677
