@@ -205,6 +205,7 @@ RHK31,http://iptv.4666888.xyz/iptv2A.php?id=92
 RHK32,http://iptv.4666888.xyz/iptv2A.php?id=93
 
 🇯🇪纪实人文,#genre#
+DISCOVERY,http://nocable.cc:8080/5AGbfz/324331/53684
 DISCOVERY,http://hardcoremedia.xyz:80/6jTFRmvaSp/7534936344/129864
 A&E,http://hardcoremedia.xyz:80/6jTFRmvaSp/7534936344/129816#http://hardcoremedia.xyz:80/6jTFRmvaSp/7534936344/130067
 COWBOY,http://hardcoremedia.xyz:80/6jTFRmvaSp/7534936344/129857
