@@ -366,6 +366,17 @@ Animax,https://proxyv2.utako.moe/ph.php?&isp=1&id=bs15
 CartoonNetwork,https://proxyv2.utako.moe/ph.php?&isp=1&id=cs25
 AnimalPlanet,https://proxyv2.utako.moe/ph.php?&isp=1&id=cs24
 
+NHKG,http://hostengine.live/live/Chelsea10%40/Stamford77%40/289500.m3u
+NHKG,http://hostengine.live/live/Chelsea10%40/Stamford77%40/289486.m3u
+NHKBS,http://hostengine.live/live/Chelsea10%40/Stamford77%40/289487.m3u
+TBS,http://hostengine.live/live/Chelsea10%40/Stamford77%40/289490.m3u8
+BS日テレ,http://hostengine.live/live/Chelsea10%40/Stamford77%40/289504.m3u
+BSTBS,http://hostengine.live/live/Chelsea10%40/Stamford77%40/289505.m3u
+BSフジ,http://hostengine.live/live/Chelsea10%40/Stamford77%40/289488.m3u
+BS朝日,http://hostengine.live/live/Chelsea10%40/Stamford77%40/289496.m3u
+BSテレ東,http://hostengine.live/live/Chelsea10%40/Stamford77%40/289502.m3u
+ガキの使い,http://hostengine.live/live/Chelsea10%40/Stamford77%40/289495.m3u
+
 NHKG,https://mt01.utako.moe/NHK_G/tracks-v1a1/index.fmp4.m3u8
 NHKBS,https://mt01.utako.moe/NHK_BS/tracks-v1a1/mono.ts.m3u8
 NHKBS4K,https://mt01.utako.moe/bsp4k/tracks-v1a1/mono.ts.m3u8
@@ -495,17 +506,6 @@ Dlife,https://ca01.utako.moe/dlife/index.m3u8
 ホームドラマ,https://ca01.utako.moe/homedrama/index.m3u8
 銀河,https://ca01.utako.moe/gingach/index.m3u8
 旅チャンネル,https://ca01.utako.moe/tabi/index.m3u8
-
-NHKG,http://hostengine.live/live/Chelsea10%40/Stamford77%40/289500.m3u
-NHKG,http://hostengine.live/live/Chelsea10%40/Stamford77%40/289486.m3u
-NHKBS,http://hostengine.live/live/Chelsea10%40/Stamford77%40/289487.m3u
-TBS,http://hostengine.live/live/Chelsea10%40/Stamford77%40/289490.m3u8
-BS日テレ,http://hostengine.live/live/Chelsea10%40/Stamford77%40/289504.m3u
-BSTBS,http://hostengine.live/live/Chelsea10%40/Stamford77%40/289505.m3u
-BSフジ,http://hostengine.live/live/Chelsea10%40/Stamford77%40/289488.m3u
-BS朝日,http://hostengine.live/live/Chelsea10%40/Stamford77%40/289496.m3u
-BSテレ東,http://hostengine.live/live/Chelsea10%40/Stamford77%40/289502.m3u
-ガキの使い,http://hostengine.live/live/Chelsea10%40/Stamford77%40/289495.m3u
 
 NHKG,https://nhk4.mov3.co/hls/nhk.m3u8
 日本テレビ,https://ntv4.mov3.co/hls/ntv.m3u8
