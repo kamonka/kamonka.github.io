@@ -292,6 +292,21 @@ TORO,
 日本女子摔跤,http://lxajh.top/tv/douyu.php?id=425809
 BeinSportsNews,http://966014182553.cdn-eag.com:80/6gi2up0jbb/dxu4mhmspq/44
 
+NOWSPORTS1,http://hostengine.live/live/Chelsea10%40/Stamford77%40/236720.m3u
+NOWSPORTS2,http://hostengine.live/live/Chelsea10%40/Stamford77%40/236721.m3u
+NOWSPORTS3,http://hostengine.live/live/Chelsea10%40/Stamford77%40/236722.m3u
+NOWSPORTS4,http://hostengine.live/live/Chelsea10%40/Stamford77%40/236723.m3u
+NOWSPORTS5,http://hostengine.live/live/Chelsea10%40/Stamford77%40/236724.m3u
+NOWSPORTS6,http://hostengine.live/live/Chelsea10%40/Stamford77%40/236725.m3u
+NOWSPORTS7,http://hostengine.live/live/Chelsea10%40/Stamford77%40/236726.m3u
+NOWSPORTSPREMIERLEAGUE1,http://hostengine.live/live/Chelsea10%40/Stamford77%40/236727.m3u
+NOWSPORTSPREMIERLEAGUE2,http://hostengine.live/live/Chelsea10%40/Stamford77%40/236728.m3u
+NOWSPORTSPREMIERLEAGUE3,http://hostengine.live/live/Chelsea10%40/Stamford77%40/236729.m3u
+NOWSPORTSPREMIERLEAGUE4,http://hostengine.live/live/Chelsea10%40/Stamford77%40/236730.m3u
+NOWSPORTSPREMIERLEAGUE5,http://hostengine.live/live/Chelsea10%40/Stamford77%40/236731.m3u
+NOWSPORTSPREMIERLEAGUE6,http://hostengine.live/live/Chelsea10%40/Stamford77%40/236732.m3u
+NOWSPORTSPREMIERLEAGUETV,http://hostengine.live/live/Chelsea10%40/Stamford77%40/236733.m3u
+
 爱尔达体育1,http://iptv.4666888.xyz/iptv2A.php?id=45
 爱尔达体育2,http://iptv.4666888.xyz/iptv2A.php?id=46
 爱尔达体育3,http://iptv.4666888.xyz/iptv2A.php?id=47
