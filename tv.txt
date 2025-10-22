@@ -1,14 +1,21 @@
 🇬🇬世界新闻,#genre#
+BBC,http://hostengine.live/live/Chelsea10%40/Stamford77%40/53840.m3u
+BBC,http://hostengine.live/live/Chelsea10%40/Stamford77%40/184402.m3u
+BBC,http://hostengine.live/live/Chelsea10@/Stamford77@/53608.m3u
+CNN,http://hostengine.live/live/Chelsea10%40/Stamford77%40/53416.m3u
+CNN,http://hostengine.live/live/Chelsea10@/Stamford77@/56588.m3u
+CBS新闻,http://hostengine.live/live/Chelsea10%40/Stamford77%40/54167.m3u
+FOX新闻,http://hostengine.live/live/Chelsea10%40/Stamford77%40/53391.m3u
+CNBC,http://hostengine.live/live/Chelsea10%40/Stamford77%40/53417.m3u
+MSNBC,http://hostengine.live/live/Chelsea10%40/Stamford77%40/56595.m3u
+半岛新闻,http://hostengine.live/live/Chelsea10%40/Stamford77%40/53834.m3u
+半岛新闻,http://hostengine.live/live/Chelsea10%40/Stamford77%40/81857.m3u
+半岛新闻,http://hostengine.live/live/Chelsea10%40/Stamford77%40/289820.m3u
+法广新闻,http://hostengine.live/live/Chelsea10%40/Stamford77%40/295121.m3u
+澳广新闻,http://hostengine.live/live/Chelsea10%40/Stamford77%40/250008.m3u
+
 BBC,http://125.227.210.55:8165/VideoInput/play.ts
 CNN,http://125.227.210.55:8166/VideoInput/play.ts
-
-BBC,http://hostengine.live/live/Chelsea10@/Stamford77@/53608.m3u
-BBC,http://hostengine.live/live/Chelsea10@/Stamford77@/53840.m3u
-CNN,http://hostengine.live/live/Chelsea10@/Stamford77@/56588.m3u
-CBS新闻,http://hostengine.live/live/Chelsea10@/Stamford77@/54167.m3u
-ABC新闻,http://hostengine.live/live/Chelsea10@/Stamford77@/168545.m3u
-FOX新闻,http://hostengine.live/live/Chelsea10@/Stamford77@/53391.m3u#http://hostengine.live/live/Chelsea10@/Stamford77@/56593.m3u
-半岛新闻,http://hostengine.live/live/Chelsea10@/Stamford77@/53834.m3u
 
 CNN,http://t.061899.xyz/tl/js/js.php?id=cnnxw
 BBC,http://t.061899.xyz/tl/js/js.php?id=bbcxw
@@ -114,6 +121,22 @@ Now新闻,http://cdn.163189.xyz/163189/now
 凤凰资讯,http://php.jdshipin.com/TVOD/iptv.php?id=fhzx2
 
 🇺🇸欧美综合,#genre#
+BBC1,http://hostengine.live/live/Chelsea10%40/Stamford77%40/53842.m3u
+BBC1,http://hostengine.live/live/Chelsea10@/Stamford77@/204633.m3u
+BBC2,http://hostengine.live/live/Chelsea10%40/Stamford77%40/53838.m3u
+ITV1,http://hostengine.live/live/Chelsea10%40/Stamford77%40/53909.m3u
+ITV2,http://hostengine.live/live/Chelsea10%40/Stamford77%40/53911.m3u
+TF1,http://hostengine.live/live/Chelsea10%40/Stamford77%40/287897.m3u
+ZDF,http://hostengine.live/live/Chelsea10%40/Stamford77%40/275028.m3u
+ABC,http://hostengine.live/live/Chelsea10%40/Stamford77%40/54062.m3u
+NBC,http://hostengine.live/live/Chelsea10%40/Stamford77%40/54416.m3u
+CBS,http://hostengine.live/live/Chelsea10%40/Stamford77%40/54143.m3u
+CBS,http://hostengine.live/live/Chelsea10@/Stamford77@/119056.m3u
+CBS,http://hostengine.live/live/733799583/636539275/54123.m3u
+FOX,http://hostengine.live/live/Chelsea10%40/Stamford77%40/54252.m3u
+FOX,http://hostengine.live/live/Chelsea10@/Stamford77@/119066.m3u
+CNBC,http://hostengine.live/live/Chelsea10%40/Stamford77%40/53418.m3u
+
 BBC1,https://webhop.live:443/live/Naufal24/NN96550633/148219.ts
 BBC2,https://webhop.live:443/live/Naufal24/NN96550633/148218.ts
 
@@ -121,15 +144,6 @@ ITV1,https://pixman.mytvsuper.com.mp/Smart.php?id=itv1_antik
 ITV2,https://pixman.mytvsuper.com.mp/Smart.php?id=itv2_antik
 ITV2,https://sib.sld.tw/Smart.php?id=itv2_antik
 ITV1,https://sib.sld.tw/Smart.php?id=itv1_antik
-
-ABC,http://hostengine.live/live/Chelsea10@/Stamford77@/54062.m3u
-NBC,http://hostengine.live/live/Chelsea10@/Stamford77@/54416.m3u
-NBC,http://hostengine.live/live/733799583/636539275/54416.m3u
-CBS,http://hostengine.live/live/Chelsea10@/Stamford77@/119056.m3u
-CBS,http://hostengine.live/live/733799583/636539275/54123.m3u
-FOX,http://hostengine.live/live/Chelsea10@/Stamford77@/119066.m3u
-BBC1,http://hostengine.live/live/Chelsea10@/Stamford77@/204633.m3u
-BBC2,http://hostengine.live/live/Chelsea10@/Stamford77@/53838.m3u
 
 ABC,http://jwesyke.mmastertv.xyz:80/9733876395/7682637868/13526#http://jwesyke.mmastertv.xyz:80/9733876395/7682637868/183411
 NBC,http://jwesyke.mmastertv.xyz:80/9733876395/7682637868/378792
@@ -205,6 +219,8 @@ RHK31,http://iptv.4666888.xyz/iptv2A.php?id=92
 RHK32,http://iptv.4666888.xyz/iptv2A.php?id=93
 
 🇯🇪纪实人文,#genre#
+ZDF纪录片,http://hostengine.live/live/Chelsea10%40/Stamford77%40/275030.m3u
+
 DISCOVERY,http://nocable.cc:8080/5AGbfz/324331/46720#http://nocable.cc:8080/5AGbfz/324331/9811
 DISCOVERY,http://nocable.cc:8080/5AGbfz/324331/53684
 A&E,http://nocable.cc:8080/5AGbfz/324331/59056#http://nocable.cc:8080/5AGbfz/324331/2201
