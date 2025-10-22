@@ -219,7 +219,14 @@ RHK31,http://iptv.4666888.xyz/iptv2A.php?id=92
 RHK32,http://iptv.4666888.xyz/iptv2A.php?id=93
 
 🇯🇪纪实人文,#genre#
+DISCOVERY,http://hostengine.live/live/Chelsea10%40/Stamford77%40/53435.m3u
+NGO,http://hostengine.live/live/Chelsea10%40/Stamford77%40/53362.m3u
+NGOWild,http://hostengine.live/live/Chelsea10%40/Stamford77%40/53363.m3u
+HISTORY,http://hostengine.live/live/Chelsea10%40/Stamford77%40/53376.m3u
+HISTORY,http://hostengine.live/live/Chelsea10%40/Stamford77%40/53971.m3u
+A&E,http://hostengine.live/live/Chelsea10%40/Stamford77%40/53434.m3u
 ZDF纪录片,http://hostengine.live/live/Chelsea10%40/Stamford77%40/275030.m3u
+SKY纪录片,http://hostengine.live/live/Chelsea10%40/Stamford77%40/53970.m3u
 
 DISCOVERY,http://nocable.cc:8080/5AGbfz/324331/46720#http://nocable.cc:8080/5AGbfz/324331/9811
 DISCOVERY,http://nocable.cc:8080/5AGbfz/324331/53684
@@ -257,7 +264,7 @@ TVB新闻娱乐,http://iptv.4666888.xyz/iptv2A.php?id=74
 
 🇲🇾影视剧,#genre#
 HBO,http://iptv.4666888.xyz/iptv2A.php?id=25
-amc,http://iptv.4666888.xyz/iptv2A.php?id=27
+AMC,http://iptv.4666888.xyz/iptv2A.php?id=27
 Thrill,http://iptv.4666888.xyz/iptv2A.php?id=183
 AXN,http://iptv.4666888.xyz/iptv2A.php?id=21
 warnertv,http://iptv.4666888.xyz/iptv2A.php?id=23
@@ -277,6 +284,11 @@ Now华剧,http://iptv.4666888.xyz/iptv2A.php?id=84
 VIU剧集,http://iptv.4666888.xyz/iptv2A.php?id=85
 翡翠剧集,http://iptv.4666888.xyz/iptv2A.php?id=72
 明珠剧集,http://iptv.4666888.xyz/iptv2A.php?id=73
+
+HBO,http://hostengine.live/live/Chelsea10%40/Stamford77%40/53384.m3u
+HBOHITS,http://hostengine.live/live/Chelsea10%40/Stamford77%40/285382.m3u
+ComedyCentral,http://hostengine.live/live/Chelsea10%40/Stamford77%40/53411.m3u
+AMC,http://hostengine.live/live/Chelsea10%40/Stamford77%40/53433.m3u
 ComedyCentral,http://cistakosuza.petica.info:80/Marina1KZ/ubxfvM6dQ7/69752
 
 🇲🇾新马泰印#genre#
@@ -292,6 +304,7 @@ TORO,
 日本女子摔跤,http://lxajh.top/tv/douyu.php?id=425809
 BeinSportsNews,http://966014182553.cdn-eag.com:80/6gi2up0jbb/dxu4mhmspq/44
 
+TNTSPORTS,http://hostengine.live/live/Chelsea10%40/Stamford77%40/224931.m3u
 NOWSPORTS1,http://hostengine.live/live/Chelsea10%40/Stamford77%40/236720.m3u
 NOWSPORTS2,http://hostengine.live/live/Chelsea10%40/Stamford77%40/236721.m3u
 NOWSPORTS3,http://hostengine.live/live/Chelsea10%40/Stamford77%40/236722.m3u
