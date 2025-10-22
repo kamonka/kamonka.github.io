@@ -104,16 +104,6 @@ BBC,https://proxyv2.utako.moe/ph.php?&isp=1&id=cs15
 民视台湾,http://123.51.136.80:8311/0.ts
 中视新闻,http://123.51.136.80:8302/0.ts
 
-TVBS新闻,http://iptv.4666888.xyz/iptv2A.php?id=145
-中天新闻,http://iptv.4666888.xyz/iptv2A.php?id=141
-非凡新闻,http://iptv.4666888.xyz/iptv2A.php?id=122
-寰宇新闻,http://iptv.4666888.xyz/iptv2A.php?id=123
-华视新闻,http://iptv.4666888.xyz/iptv2A.php?id=117
-民视新闻,http://iptv.4666888.xyz/iptv2A.php?id=109
-
-无线新闻,http://iptv.4666888.xyz/iptv2A.php?id=65
-Now新闻,http://iptv.4666888.xyz/iptv2A.php?id=81
-凤凰资讯,http://iptv.4666888.xyz/iptv2A.php?id=61
 
 无线新闻,http://php.jdshipin.com/smt.php?id=inews_twn
 Now新闻,http://cdn.163189.xyz/163189/now 
@@ -243,48 +233,9 @@ NGO,http://hardcoremedia.xyz:80/6jTFRmvaSp/7534936344/129928
 NGOWild,http://hardcoremedia.xyz:80/6jTFRmvaSp/7534936344/129927
 SUNDANCE,http://hardcoremedia.xyz:80/6jTFRmvaSp/7534936344/129957
 
-🇧🇮娱乐综艺,#genre#
-猪哥亮哥厅秀,http://iptv.4666888.xyz/iptv2A.php?id=173
-民视综艺,http://iptv.4666888.xyz/iptv2A.php?id=112
-靖天日本,http://iptv.4666888.xyz/iptv2A.php?id=149
-龙华日韩,http://iptv.4666888.xyz/iptv2A.php?id=131
-爱尔达日韩,http://iptv.4666888.xyz/iptv2A.php?id=162
-爱尔达娱乐,http://iptv.4666888.xyz/iptv2A.php?id=165
-华艺中文,http://iptv.4666888.xyz/iptv2A.php?id=156
-八大精彩,http://iptv.4666888.xyz/iptv2A.php?id=144
-TVBS精彩,http://iptv.4666888.xyz/iptv2A.php?id=146
-TVBS欢乐,http://iptv.4666888.xyz/iptv2A.php?id=147
-靖天欢乐,http://iptv.4666888.xyz/iptv2A.php?id=155
-astro aod,http://iptv.4666888.xyz/iptv2A.php?id=174
-astro欢喜,http://iptv.4666888.xyz/iptv2A.php?id=175
-HUB娱家,http://iptv.4666888.xyz/iptv2A.php?id=176
-HUB都会,http://iptv.4666888.xyz/iptv2A.php?id=177
-RockEntertainment,http://iptv.4666888.xyz/iptv2A.php?id=20
-TVB新闻娱乐,http://iptv.4666888.xyz/iptv2A.php?id=74
+🇧🇮娱乐综艺#genre#
 
 🇲🇾影视剧,#genre#
-HBO,http://iptv.4666888.xyz/iptv2A.php?id=25
-AMC,http://iptv.4666888.xyz/iptv2A.php?id=27
-Thrill,http://iptv.4666888.xyz/iptv2A.php?id=183
-AXN,http://iptv.4666888.xyz/iptv2A.php?id=21
-warnertv,http://iptv.4666888.xyz/iptv2A.php?id=23
-cinemaxwj,http://iptv.4666888.xyz/iptv2A.php?id=24
-TVN,http://iptv.4666888.xyz/iptv2A.php?id=17
-KIX,http://iptv.4666888.xyz/iptv2A.php?id=18
-壹电影,http://iptv.4666888.xyz/iptv2A.php?id=120
-靖天映画,http://iptv.4666888.xyz/iptv2A.php?id=154
-爱尔达影剧,http://iptv.4666888.xyz/iptv2A.php?id=163
-民视影剧,http://iptv.4666888.xyz/iptv2A.php?id=110
-采昌影剧,http://iptv.4666888.xyz/iptv2A.php?id=168
-东森电影,http://iptv.4666888.xyz/iptv2A.php?id=15
-东森洋片,http://iptv.4666888.xyz/iptv2A.php?id=16
-龙华电影,http://iptv.4666888.xyz/iptv2A.php?id=132
-龙华影剧,http://iptv.4666888.xyz/iptv2A.php?id=133
-Now华剧,http://iptv.4666888.xyz/iptv2A.php?id=84
-VIU剧集,http://iptv.4666888.xyz/iptv2A.php?id=85
-翡翠剧集,http://iptv.4666888.xyz/iptv2A.php?id=72
-明珠剧集,http://iptv.4666888.xyz/iptv2A.php?id=73
-
 HBO,http://hostengine.live/live/Chelsea10%40/Stamford77%40/53384.m3u
 HBOHITS,http://hostengine.live/live/Chelsea10%40/Stamford77%40/285382.m3u
 ComedyCentral,http://hostengine.live/live/Chelsea10%40/Stamford77%40/53411.m3u
@@ -320,20 +271,6 @@ NOWSPORTSPREMIERLEAGUE5,http://hostengine.live/live/Chelsea10%40/Stamford77%40/2
 NOWSPORTSPREMIERLEAGUE6,http://hostengine.live/live/Chelsea10%40/Stamford77%40/236732.m3u
 NOWSPORTSPREMIERLEAGUETV,http://hostengine.live/live/Chelsea10%40/Stamford77%40/236733.m3u
 
-爱尔达体育1,http://iptv.4666888.xyz/iptv2A.php?id=45
-爱尔达体育2,http://iptv.4666888.xyz/iptv2A.php?id=46
-爱尔达体育3,http://iptv.4666888.xyz/iptv2A.php?id=47
-爱尔达体育4,http://iptv.4666888.xyz/iptv2A.php?id=48
-搏斯运动1,http://iptv.4666888.xyz/iptv2A.php?id=50
-搏斯运动2,http://iptv.4666888.xyz/iptv2A.php?id=51
-搏斯高球1,http://iptv.4666888.xyz/iptv2A.php?id=52
-搏斯高球2,http://iptv.4666888.xyz/iptv2A.php?id=53
-搏斯网球,http://iptv.4666888.xyz/iptv2A.php?id=54
-搏斯无限,http://iptv.4666888.xyz/iptv2A.php?id=55
-搏斯无限2,http://iptv.4666888.xyz/iptv2A.php?id=56
-搏斯魅力,http://iptv.4666888.xyz/iptv2A.php?id=57
-TRACESportStars,,http://iptv.4666888.xyz/iptv2A.php?id=59
-88赛马,http://iptv.4666888.xyz/iptv2A.php?id=38
 
 🇯🇵日本,#genre#
 NHKG,https://proxyv2.utako.moe/ph.php?&isp=1&id=hdgd01
