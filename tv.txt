@@ -348,7 +348,6 @@ CartoonNetwork,https://proxyv2.utako.moe/ph.php?&isp=1&id=cs25
 AnimalPlanet,https://proxyv2.utako.moe/ph.php?&isp=1&id=cs24
 
 NHKG,http://hostengine.live/live/Chelsea10%40/Stamford77%40/289500.m3u
-NHKG,http://hostengine.live/live/Chelsea10%40/Stamford77%40/289486.m3u
 NHKBS,http://hostengine.live/live/Chelsea10%40/Stamford77%40/289487.m3u
 TBS,http://hostengine.live/live/Chelsea10%40/Stamford77%40/289490.m3u8
 BS日テレ,http://hostengine.live/live/Chelsea10%40/Stamford77%40/289504.m3u
