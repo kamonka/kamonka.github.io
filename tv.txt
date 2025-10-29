@@ -273,79 +273,70 @@ NOWSPORTSPREMIERLEAGUETV,http://hostengine.live/live/Chelsea10%40/Stamford77%40/
 
 
 🇯🇵日本,#genre#
-NHKG,https://proxyv2.utako.moe/ph.php?&isp=1&id=hdgd01
-NHKBS,https://proxyv2.utako.moe/ph.php?&isp=1&id=bs11
-NHKBS4K,https://proxyv2.utako.moe/ph.php?&isp=1&id=bs01
-NHKE,https://proxyv2.utako.moe/ph.php?&isp=1&id=hdgd02
-日本テレビ,https://proxyv2.utako.moe/ph.php?&isp=1&id=hdgd03
-TBS,https://proxyv2.utako.moe/ph.php?&isp=1&id=hdgd04
-フジテレビ,https://proxyv2.utako.moe/ph.php?&isp=1&id=hdgd05
-テレビ朝日,https://proxyv2.utako.moe/ph.php?&isp=1&id=hdgd06
-テレビ東京,,https://proxyv2.utako.moe/ph.php?&isp=1&id=hdgd07
-NHKG,https://proxyv2.utako.moe/ph.php?&isp=1&id=gd01
-NHKE,https://proxyv2.utako.moe/ph.php?&isp=1&id=gd02
-日本テレビ,https://proxyv2.utako.moe/ph.php?&isp=1&id=gd03
-TBS,https://proxyv2.utako.moe/ph.php?&isp=1&id=gd04
-フジテレビ,https://proxyv2.utako.moe/ph.php?&isp=1&id=gd05
-テレビ朝日,https://proxyv2.utako.moe/ph.php?&isp=1&id=gd06
-テレビ東京,https://proxyv2.utako.moe/ph.php?&isp=1&id=gd07
-NHKG,https://proxyv2.utako.moe/ph.php?&isp=1&id=gx06
-日本テレビ,https://proxyv2.utako.moe/ph.php?&isp=1&id=gx04
-TBS,https://proxyv2.utako.moe/ph.php?&isp=1&id=gx01
-テレビ朝日,https://proxyv2.utako.moe/ph.php?&isp=1&id=gx02
-フジテレビ,https://proxyv2.utako.moe/ph.php?&isp=1&id=gx03
-テレビ東京,https://proxyv2.utako.moe/ph.php?&isp=1&id=gx05
-BS日テレ,https://proxyv2.utako.moe/ph.php?&isp=1&id=bs02
-BSTBS,https://proxyv2.utako.moe/ph.php?&isp=1&id=bs04
-BSフジ,https://proxyv2.utako.moe/ph.php?&isp=1&id=bs06
-BS朝日,https://proxyv2.utako.moe/ph.php?&isp=1&id=bs03
-BSテレ東,,https://proxyv2.utako.moe/ph.php?&isp=1&id=bs05
-TOKYOMX1,https://proxyv2.utako.moe/ph.php?&isp=1&id=hdgd08
-TOKYOMX1,https://proxyv2.utako.moe/ph.php?&isp=1&id=gd08
-サンテレビ,https://proxyv2.utako.moe/ph.php?&isp=1&id=gx07
-フジテレビNext,https://proxyv2.utako.moe/ph.php?&isp=1&id=cs26
-日テレジータス,https://proxyv2.utako.moe/ph.php?&isp=1&id=cs02
-TBSNews,https://proxyv2.utako.moe/ph.php?&isp=1&id=cs11
-ディスカバリー,https://proxyv2.utako.moe/ph.php?&isp=1&id=cs08
-ナショジオ,https://proxyv2.utako.moe/ph.php?&isp=1&id=cs10
-ヒストリー,https://proxyv2.utako.moe/ph.php?&isp=1&id=cs08
-旅チャンネル,https://proxyv2.utako.moe/ph.php?&isp=1&id=cs12
-日本映画,https://proxyv2.utako.moe/ph.php?&isp=1&id=bs23
-東映,https://proxyv2.utako.moe/ph.php?&isp=1&id=cs27
-衛星劇場,https://proxyv2.utako.moe/ph.php?&isp=1&id=cs22
-ムービープラス,https://proxyv2.utako.moe/ph.php?&isp=1&id=cs14
-スターチャンネル,https://proxyv2.utako.moe/ph.php?&isp=1&id=bs08
-WOWOWPrime,https://proxyv2.utako.moe/ph.php?&isp=1&id=bs12
-WOWOWCinema,https://proxyv2.utako.moe/ph.php?&isp=1&id=bs07
-WOWOWLive,https://proxyv2.utako.moe/ph.php?&isp=1&id=bs20
-JCOMBS,https://proxyv2.utako.moe/ph.php?&isp=1&id=bs31
-宝塚歌劇,https://proxyv2.utako.moe/ph.php?&isp=2&id=cs28
-時代劇,https://proxyv2.utako.moe/ph.php?&isp=1&id=cs04
-ファミリー劇場,https://proxyv2.utako.moe/ph.php?&isp=1&id=cs20
-ホームドラマ,https://proxyv2.utako.moe/ph.php?&isp=1&id=cs05
-MondoTV,https://proxyv2.utako.moe/ph.php?&isp=1&id=cs21
-JSport1,https://proxyv2.utako.moe/ph.php?&isp=1&id=bs18
-JSport2,https://proxyv2.utako.moe/ph.php?&isp=1&id=bs19
-JSport3,https://proxyv2.utako.moe/ph.php?&isp=1&id=bs21
-JSport4,https://proxyv2.utako.moe/ph.php?&isp=1&id=bs22
-グリーンチャンネル,https://proxyv2.utako.moe/ph.php?&isp=1&id=bs14
-スカイA,https://proxyv2.utako.moe/ph.php?&isp=1&id=cs01
-スカイA,https://proxyv2.utako.moe/ph.php?&isp=1&id=cs01
-GAORA,https://proxyv2.utako.moe/ph.php?&isp=1&id=cs17
-釣りビジョン,https://proxyv2.utako.moe/ph.php?&isp=1&id=bs25
-ゴルフネットワーク,https://proxyv2.utako.moe/ph.php?&isp=1&id=cs03
-スペースシャワー,https://proxyv2.utako.moe/ph.php?&isp=1&id=bs26
-MusicJapan,https://proxyv2.utako.moe/ph.php?&isp=1&id=cs06
-歌謡ポップス,https://proxyv2.utako.moe/ph.php?&isp=1&id=cs13
-MTV,https://proxyv2.utako.moe/ph.php?&isp=1&id=cs18
-LaLaTV,https://proxyv2.utako.moe/ph.php?&isp=1&id=cs19
-銀河,https://proxyv2.utako.moe/ph.php?&isp=2&id=cs29
-Animax,https://proxyv2.utako.moe/ph.php?&isp=1&id=bs15
-ディズニー,https://proxyv2.utako.moe/ph.php?&isp=1&id=bs24
-ディズニージュニア,https://proxyv2.utako.moe/ph.php?&isp=1&id=cs23
-キッズステーション,https://proxyv2.utako.moe/ph.php?&isp=1&id=cs07
-CartoonNetwork,https://proxyv2.utako.moe/ph.php?&isp=1&id=cs25
-AnimalPlanet,https://proxyv2.utako.moe/ph.php?&isp=1&id=cs24
+NHKG,https://us1001.utako.moe/NHK_G/index.m3u8
+NHKBS,https://us1001.utako.moe/NHK_BS/index.m3u8
+NHKBS4K,https://us1001.utako.moe/bsp4k/index.m3u8
+NHKE,https://us1001.utako.moe/NHK_E/index.m3u8
+日本テレビ,https://us1001.utako.moe/Nippon_TV/index.m3u8
+TBS,https://us1001.utako.moe/TBS/index.m3u8
+フジテレビ,https://us1001.utako.moe/Fuji_TV/index.m3u8
+テレビ朝日,https://us1001.utako.moe/TV_Asahi/index.m3u8
+テレビ東京,https://us1001.utako.moe/TV_Tokyo/index.m3u8
+BS日テレ,https://us1001.utako.moe/bsntv/index.m3u8
+BSTBS,https://us1001.utako.moe/bstbs/index.m3u8
+BSフジ,https://us1001.utako.moe/bsfuji/index.m3u8
+BS朝日,https://us1001.utako.moe/bsasahi/index.m3u8
+BSテレ東,https://us1001.utako.moe/bstvtokyo/index.m3u8
+BSテレ東4K,https://us1001.utako.moe/bstx4k/index.m3u8
+TOKYOMX1,https://us1001.utako.moe/Tokyo_MX1/index.m3u8
+TOKYOMX2,https://us1001.utako.moe/Tokyo_MX2/index.m3u8
+TBS,https://us1001.utako.moe/mbs/index.m3u8
+テレビ朝日,https://us1001.utako.moe/abc/index.m3u8
+テレビ東京,https://us1001.utako.moe/tvo/index.m3u8
+フジテレビ,https://us1001.utako.moe/kansaitv/index.m3u8
+日本テレビ,https://us1001.utako.moe/ytv/index.m3u8
+KBS京都,https://us1001.utako.moe/kbs/index.m3u8
+サンテレビ,https://us1001.utako.moe/suntv/index.m3u8
+日テレG+,https://ca01.utako.moe/ntvgplus/index.m3u8
+TBS1,https://ca01.utako.moe/tbsch1/index.m3u8
+TBS2,https://ca01.utako.moe/tbsch2/index.m3u8
+フジテレビ1,https://ca01.utako.moe/fuji_one/index.m3u8
+フジテレビ2,https://ca01.utako.moe/fuji_two/index.m3u8
+フジテレビNEXT,https://ca01.utako.moe/fuji_next/index.m3u8
+テレビ朝日1,https://ca01.utako.moe/ex_ch1/index.m3u8
+テレビ朝日2,https://ca01.utako.moe/ex_ch2/index.m3u8
+BS10,https://us1001.utako.moe/bs10/index.m3u8
+BS11,https://us1001.utako.moe/BS11/index.m3u8
+BS12,https://us1001.utako.moe/bs12/index.m3u8
+日本映画,https://ca01.utako.moe/nihoneiga/index.m3u8
+東映,https://ca01.utako.moe/toei/index.m3u8
+ファミリー劇場,https://ca01.utako.moe/familygeki/index.m3u8
+V☆パラダイス,https://ca01.utako.moe/v_paradise/index.m3u8
+MondoTV,https://us1001.utako.moe/mondo/index.m3u8
+WOWOWプライム,https://us1001.utako.moe/wprime/index.m3u8
+WOWOWシネマ,https://us1001.utako.moe/wcinema/index.m3u8
+WOWOWライブ,https://us1001.utako.moe/wlive/index.m3u8
+NECO,https://ca01.utako.moe/neco/index.m3u8
+スターチャンネル,https://us1001.utako.moe/bs10_star/index.m3u8
+JSport1,https://us1001.utako.moe/js1/index.m3u8
+JSport2,https://us1001.utako.moe/js2/index.m3u8
+JSport3,https://us1001.utako.moe/js3/index.m3u8
+JSport4,https://us1001.utako.moe/js4/index.m3u8
+グリーンチャンネル,https://us1001.utako.moe/green/index.m3u8
+GAORA,https://us1001.utako.moe/gaora/index.m3u8
+SkyA,https://ca01.utako.moe/skya/index.m3u8
+スペースシャワー,https://ca01.utako.moe/spaceshower/index.m3u8
+歌謡ポップス,https://ca01.utako.moe/kayopops/index.m3u8
+MTV,https://ca01.utako.moe/mtv/index.m3u8
+AT-X,https://us1001.utako.moe/AT-X/index.m3u8
+DisneyChannel,https://ca01.utako.moe/disneychan/index.m3u8
+CartoonNetwork,https://ca01.utako.moe/cartoon_network/index.m3u8
+Animax,https://ca01.utako.moe/Animax/index.m3u8
+Dlife,https://ca01.utako.moe/dlife/index.m3u8
+スポーツライブ＋,https://ca01.utako.moe/sport_live_plus/index.m3u8
+ホームドラマ,https://ca01.utako.moe/homedrama/index.m3u8
+銀河,https://ca01.utako.moe/gingach/index.m3u8
+旅チャンネル,https://ca01.utako.moe/tabi/index.m3u8
 
 NHKG,http://hostengine.live/live/Chelsea10%40/Stamford77%40/289500.m3u
 NHKBS,http://hostengine.live/live/Chelsea10%40/Stamford77%40/289487.m3u
@@ -422,70 +413,79 @@ Dlife,https://ca01.utako.moe/dlife/tracks-v1a1/mono.ts.m3u8
 銀河,https://ca01.utako.moe/gingach/tracks-v1a1/mono.ts.m3u8
 旅チャンネル,https://ca01.utako.moe/tabi/tracks-v1a1/mono.ts.m3u8
 
-NHKG,https://us1001.utako.moe/NHK_G/index.m3u8
-NHKBS,https://us1001.utako.moe/NHK_BS/index.m3u8
-NHKBS4K,https://us1001.utako.moe/bsp4k/index.m3u8
-NHKE,https://us1001.utako.moe/NHK_E/index.m3u8
-日本テレビ,https://us1001.utako.moe/Nippon_TV/index.m3u8
-TBS,https://us1001.utako.moe/TBS/index.m3u8
-フジテレビ,https://us1001.utako.moe/Fuji_TV/index.m3u8
-テレビ朝日,https://us1001.utako.moe/TV_Asahi/index.m3u8
-テレビ東京,https://us1001.utako.moe/TV_Tokyo/index.m3u8
-BS日テレ,https://us1001.utako.moe/bsntv/index.m3u8
-BSTBS,https://us1001.utako.moe/bstbs/index.m3u8
-BSフジ,https://us1001.utako.moe/bsfuji/index.m3u8
-BS朝日,https://us1001.utako.moe/bsasahi/index.m3u8
-BSテレ東,https://us1001.utako.moe/bstvtokyo/index.m3u8
-BSテレ東4K,https://us1001.utako.moe/bstx4k/index.m3u8
-TOKYOMX1,https://us1001.utako.moe/Tokyo_MX1/index.m3u8
-TOKYOMX2,https://us1001.utako.moe/Tokyo_MX2/index.m3u8
-TBS,https://us1001.utako.moe/mbs/index.m3u8
-テレビ朝日,https://us1001.utako.moe/abc/index.m3u8
-テレビ東京,https://us1001.utako.moe/tvo/index.m3u8
-フジテレビ,https://us1001.utako.moe/kansaitv/index.m3u8
-日本テレビ,https://us1001.utako.moe/ytv/index.m3u8
-KBS京都,https://us1001.utako.moe/kbs/index.m3u8
-サンテレビ,https://us1001.utako.moe/suntv/index.m3u8
-日テレG+,https://ca01.utako.moe/ntvgplus/index.m3u8
-TBS1,https://ca01.utako.moe/tbsch1/index.m3u8
-TBS2,https://ca01.utako.moe/tbsch2/index.m3u8
-フジテレビ1,https://ca01.utako.moe/fuji_one/index.m3u8
-フジテレビ2,https://ca01.utako.moe/fuji_two/index.m3u8
-フジテレビNEXT,https://ca01.utako.moe/fuji_next/index.m3u8
-テレビ朝日1,https://ca01.utako.moe/ex_ch1/index.m3u8
-テレビ朝日2,https://ca01.utako.moe/ex_ch2/index.m3u8
-BS10,https://us1001.utako.moe/bs10/index.m3u8
-BS11,https://us1001.utako.moe/BS11/index.m3u8
-BS12,https://us1001.utako.moe/bs12/index.m3u8
-日本映画,https://ca01.utako.moe/nihoneiga/index.m3u8
-東映,https://ca01.utako.moe/toei/index.m3u8
-ファミリー劇場,https://ca01.utako.moe/familygeki/index.m3u8
-V☆パラダイス,https://ca01.utako.moe/v_paradise/index.m3u8
-MondoTV,https://us1001.utako.moe/mondo/index.m3u8
-WOWOWプライム,https://us1001.utako.moe/wprime/index.m3u8
-WOWOWシネマ,https://us1001.utako.moe/wcinema/index.m3u8
-WOWOWライブ,https://us1001.utako.moe/wlive/index.m3u8
-NECO,https://ca01.utako.moe/neco/index.m3u8
-スターチャンネル,https://us1001.utako.moe/bs10_star/index.m3u8
-JSport1,https://us1001.utako.moe/js1/index.m3u8
-JSport2,https://us1001.utako.moe/js2/index.m3u8
-JSport3,https://us1001.utako.moe/js3/index.m3u8
-JSport4,https://us1001.utako.moe/js4/index.m3u8
-グリーンチャンネル,https://us1001.utako.moe/green/index.m3u8
-GAORA,https://us1001.utako.moe/gaora/index.m3u8
-SkyA,https://ca01.utako.moe/skya/index.m3u8
-スペースシャワー,https://ca01.utako.moe/spaceshower/index.m3u8
-歌謡ポップス,https://ca01.utako.moe/kayopops/index.m3u8
-MTV,https://ca01.utako.moe/mtv/index.m3u8
-AT-X,https://us1001.utako.moe/AT-X/index.m3u8
-DisneyChannel,https://ca01.utako.moe/disneychan/index.m3u8
-CartoonNetwork,https://ca01.utako.moe/cartoon_network/index.m3u8
-Animax,https://ca01.utako.moe/Animax/index.m3u8
-Dlife,https://ca01.utako.moe/dlife/index.m3u8
-スポーツライブ＋,https://ca01.utako.moe/sport_live_plus/index.m3u8
-ホームドラマ,https://ca01.utako.moe/homedrama/index.m3u8
-銀河,https://ca01.utako.moe/gingach/index.m3u8
-旅チャンネル,https://ca01.utako.moe/tabi/index.m3u8
+NHKG,https://proxyv2.utako.moe/ph.php?&isp=1&id=hdgd01
+NHKBS,https://proxyv2.utako.moe/ph.php?&isp=1&id=bs11
+NHKBS4K,https://proxyv2.utako.moe/ph.php?&isp=1&id=bs01
+NHKE,https://proxyv2.utako.moe/ph.php?&isp=1&id=hdgd02
+日本テレビ,https://proxyv2.utako.moe/ph.php?&isp=1&id=hdgd03
+TBS,https://proxyv2.utako.moe/ph.php?&isp=1&id=hdgd04
+フジテレビ,https://proxyv2.utako.moe/ph.php?&isp=1&id=hdgd05
+テレビ朝日,https://proxyv2.utako.moe/ph.php?&isp=1&id=hdgd06
+テレビ東京,,https://proxyv2.utako.moe/ph.php?&isp=1&id=hdgd07
+NHKG,https://proxyv2.utako.moe/ph.php?&isp=1&id=gd01
+NHKE,https://proxyv2.utako.moe/ph.php?&isp=1&id=gd02
+日本テレビ,https://proxyv2.utako.moe/ph.php?&isp=1&id=gd03
+TBS,https://proxyv2.utako.moe/ph.php?&isp=1&id=gd04
+フジテレビ,https://proxyv2.utako.moe/ph.php?&isp=1&id=gd05
+テレビ朝日,https://proxyv2.utako.moe/ph.php?&isp=1&id=gd06
+テレビ東京,https://proxyv2.utako.moe/ph.php?&isp=1&id=gd07
+NHKG,https://proxyv2.utako.moe/ph.php?&isp=1&id=gx06
+日本テレビ,https://proxyv2.utako.moe/ph.php?&isp=1&id=gx04
+TBS,https://proxyv2.utako.moe/ph.php?&isp=1&id=gx01
+テレビ朝日,https://proxyv2.utako.moe/ph.php?&isp=1&id=gx02
+フジテレビ,https://proxyv2.utako.moe/ph.php?&isp=1&id=gx03
+テレビ東京,https://proxyv2.utako.moe/ph.php?&isp=1&id=gx05
+BS日テレ,https://proxyv2.utako.moe/ph.php?&isp=1&id=bs02
+BSTBS,https://proxyv2.utako.moe/ph.php?&isp=1&id=bs04
+BSフジ,https://proxyv2.utako.moe/ph.php?&isp=1&id=bs06
+BS朝日,https://proxyv2.utako.moe/ph.php?&isp=1&id=bs03
+BSテレ東,,https://proxyv2.utako.moe/ph.php?&isp=1&id=bs05
+TOKYOMX1,https://proxyv2.utako.moe/ph.php?&isp=1&id=hdgd08
+TOKYOMX1,https://proxyv2.utako.moe/ph.php?&isp=1&id=gd08
+サンテレビ,https://proxyv2.utako.moe/ph.php?&isp=1&id=gx07
+フジテレビNext,https://proxyv2.utako.moe/ph.php?&isp=1&id=cs26
+日テレジータス,https://proxyv2.utako.moe/ph.php?&isp=1&id=cs02
+TBSNews,https://proxyv2.utako.moe/ph.php?&isp=1&id=cs11
+ディスカバリー,https://proxyv2.utako.moe/ph.php?&isp=1&id=cs08
+ナショジオ,https://proxyv2.utako.moe/ph.php?&isp=1&id=cs10
+ヒストリー,https://proxyv2.utako.moe/ph.php?&isp=1&id=cs08
+旅チャンネル,https://proxyv2.utako.moe/ph.php?&isp=1&id=cs12
+日本映画,https://proxyv2.utako.moe/ph.php?&isp=1&id=bs23
+東映,https://proxyv2.utako.moe/ph.php?&isp=1&id=cs27
+衛星劇場,https://proxyv2.utako.moe/ph.php?&isp=1&id=cs22
+ムービープラス,https://proxyv2.utako.moe/ph.php?&isp=1&id=cs14
+スターチャンネル,https://proxyv2.utako.moe/ph.php?&isp=1&id=bs08
+WOWOWPrime,https://proxyv2.utako.moe/ph.php?&isp=1&id=bs12
+WOWOWCinema,https://proxyv2.utako.moe/ph.php?&isp=1&id=bs07
+WOWOWLive,https://proxyv2.utako.moe/ph.php?&isp=1&id=bs20
+JCOMBS,https://proxyv2.utako.moe/ph.php?&isp=1&id=bs31
+宝塚歌劇,https://proxyv2.utako.moe/ph.php?&isp=2&id=cs28
+時代劇,https://proxyv2.utako.moe/ph.php?&isp=1&id=cs04
+ファミリー劇場,https://proxyv2.utako.moe/ph.php?&isp=1&id=cs20
+ホームドラマ,https://proxyv2.utako.moe/ph.php?&isp=1&id=cs05
+MondoTV,https://proxyv2.utako.moe/ph.php?&isp=1&id=cs21
+JSport1,https://proxyv2.utako.moe/ph.php?&isp=1&id=bs18
+JSport2,https://proxyv2.utako.moe/ph.php?&isp=1&id=bs19
+JSport3,https://proxyv2.utako.moe/ph.php?&isp=1&id=bs21
+JSport4,https://proxyv2.utako.moe/ph.php?&isp=1&id=bs22
+グリーンチャンネル,https://proxyv2.utako.moe/ph.php?&isp=1&id=bs14
+スカイA,https://proxyv2.utako.moe/ph.php?&isp=1&id=cs01
+スカイA,https://proxyv2.utako.moe/ph.php?&isp=1&id=cs01
+GAORA,https://proxyv2.utako.moe/ph.php?&isp=1&id=cs17
+釣りビジョン,https://proxyv2.utako.moe/ph.php?&isp=1&id=bs25
+ゴルフネットワーク,https://proxyv2.utako.moe/ph.php?&isp=1&id=cs03
+スペースシャワー,https://proxyv2.utako.moe/ph.php?&isp=1&id=bs26
+MusicJapan,https://proxyv2.utako.moe/ph.php?&isp=1&id=cs06
+歌謡ポップス,https://proxyv2.utako.moe/ph.php?&isp=1&id=cs13
+MTV,https://proxyv2.utako.moe/ph.php?&isp=1&id=cs18
+LaLaTV,https://proxyv2.utako.moe/ph.php?&isp=1&id=cs19
+銀河,https://proxyv2.utako.moe/ph.php?&isp=2&id=cs29
+Animax,https://proxyv2.utako.moe/ph.php?&isp=1&id=bs15
+ディズニー,https://proxyv2.utako.moe/ph.php?&isp=1&id=bs24
+ディズニージュニア,https://proxyv2.utako.moe/ph.php?&isp=1&id=cs23
+キッズステーション,https://proxyv2.utako.moe/ph.php?&isp=1&id=cs07
+CartoonNetwork,https://proxyv2.utako.moe/ph.php?&isp=1&id=cs25
+AnimalPlanet,https://proxyv2.utako.moe/ph.php?&isp=1&id=cs24
 
 NHKG,https://nhk4.mov3.co/hls/nhk.m3u8
 日本テレビ,https://ntv4.mov3.co/hls/ntv.m3u8
