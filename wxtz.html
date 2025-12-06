@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>打开 Google</title>
+<title>打开网址</title>
 
 <style>
 body {
@@ -49,21 +49,21 @@ button:active {
 
 <body>
 
-<h2>打开 Google</h2>
+<h2>打开网址</h2>
 <p>点击下方按钮。</p>
 
-<button onclick="openGoogle()">打开 Google</button>
+<button onclick="openGoogle()">打开网址</button>
 
 <!-- 微信提示遮罩 -->
 <div id="mask">
   <img src="https://i.imgur.com/4M7IWwP.png">
   <h2>请在浏览器中打开</h2>
   <p>
-    微信禁止直接访问 Google。<br><br>
+    微信禁止直接访问<br><br>
     请点击右上角 <b>“···” → “在浏览器打开”</b><br><br>
     或手动复制链接：<br>
     <span style="word-wrap:break-word; font-weight:bold;">
-      https://www.google.com
+      https://jyjdsg.dpdns.org
     </span>
   </p>
 </div>
@@ -80,7 +80,7 @@ function openGoogle() {
     document.getElementById("mask").style.display = "block";
   } else {
     // 在普通浏览器内 → 直接跳转
-    window.location.href = "https://www.google.com";
+    window.location.href = "https://jyjdsg.dpdns.org";
   }
 }
 </script>
