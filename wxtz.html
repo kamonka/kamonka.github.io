@@ -38,7 +38,7 @@ h1 {
   display: none;
 }
 
-/* 第一步：箭头定位在左上角 */
+/* 第一步：箭头定位在右上角 */
 .step-1 {
   position: absolute;
   top: 80px;
@@ -110,7 +110,7 @@ h1 {
 /* 第二步：按钮在页面下方 */
 .step-2 {
   position: absolute;
-  bottom: 50px;
+  bottom: 120px;
   left: 50%;
   transform: translateX(-50%);
   width: 90%;
@@ -163,12 +163,15 @@ h1 {
 
 .note {
   position: absolute;
-  bottom: 15px;
+  bottom: 20px;
   left: 50%;
   transform: translateX(-50%);
-  color: rgba(255, 255, 255, 0.7);
-  font-size: 12px;
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 13px;
   z-index: 5;
+  text-align: center;
+  line-height: 1.5;
+  max-width: 90%;
 }
 
 /* 适应小屏幕 */
@@ -196,7 +199,7 @@ h1 {
   }
   
   .step-2 {
-    bottom: 40px;
+    bottom: 110px;
     width: 85%;
   }
   
@@ -208,6 +211,11 @@ h1 {
   .step-2-title {
     font-size: 16px;
   }
+
+  .note {
+    font-size: 12px;
+    bottom: 15px;
+  }
 }
 </style>
 </head>
@@ -218,9 +226,9 @@ h1 {
   <!-- 第一步：箭头指向右上角菜单 -->
   <div class="step-1">
     <div class="arrow-icon">↗️</div>
-    <div class="step-number">①</div>
+    <div class="step-number"></div>
     <div class="step-content">
-      <div class="step-title">点击这里</div>
+      <div class="step-title">① 点击┅</div>
       <div class="step-subtitle">选择"在浏览器中打开"</div>
     </div>
   </div>
@@ -228,14 +236,14 @@ h1 {
   <!-- 第二步：按钮在页面下方 -->
   <div class="step-2">
     <div style="text-align: center; margin-bottom: 20px;">
-      <div class="step-number">②</div>
-      <div class="step-2-title">点击这里</div>
+      <div class="step-number"></div>
+      <div class="step-2-title">② 点击这里</div>
     </div>
-    <button class="open-button" onclick="openLink()">点击打开</button>
+    <button class="open-button" onclick="openLink()">打开网址</button>
   </div>
 
   <div class="note">
-    提示：请在微信浏览器中按照以上步骤操作
+    提示：打开后记得收藏，今后使用浏览器打开。
   </div>
 </div>
 
