@@ -83,16 +83,29 @@ h1 {
   line-height: 1.4;
 }
 
-/* 箭头动画 */
+/* 箭头动画 - 统一样式 */
 .arrow-icon {
   display: block;
   font-size: 80px;
-  margin-bottom: 20px;
-  animation: arrowPoint 1.5s ease-in-out infinite;
   text-align: center;
+  line-height: 1;
+  color: white;
+  filter: drop-shadow(0 3px 8px rgba(0, 0, 0, 0.2));
 }
 
-@keyframes arrowPoint {
+/* 第一步箭头（↗️）向右上移动 */
+.step-1 .arrow-icon {
+  margin-bottom: 20px;
+  animation: arrowPointRightUp 1.5s ease-in-out infinite;
+}
+
+/* 第二步箭头（↓）向下移动 */
+.step-2 .arrow-icon {
+  margin-bottom: 15px;
+  animation: arrowPointDown 1.5s ease-in-out infinite;
+}
+
+@keyframes arrowPointRightUp {
   0% {
     transform: translate(0, 0);
     opacity: 1;
@@ -107,6 +120,21 @@ h1 {
   }
 }
 
+@keyframes arrowPointDown {
+  0% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  50% {
+    transform: translateY(15px);
+    opacity: 0.6;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
 /* 第二步：按钮在页面下方 */
 .step-2 {
   position: absolute;
@@ -116,17 +144,19 @@ h1 {
   width: 90%;
   max-width: 500px;
   z-index: 10;
+  text-align: center;
 }
 
 .step-2 .step-number {
-  margin-bottom: 20px;
+  margin-bottom: 10px;
+  background: rgba(255, 255, 255, 0.9);
 }
 
 .step-2-title {
   color: white;
   font-size: 18px;
   font-weight: 600;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   text-align: center;
 }
 
@@ -226,24 +256,23 @@ h1 {
   <!-- 第一步：箭头指向右上角菜单 -->
   <div class="step-1">
     <div class="arrow-icon">↗️</div>
-    <div class="step-number"></div>
+    <div class="step-number">①</div>
     <div class="step-content">
-      <div class="step-title">① 点击┅</div>
-      <div class="step-subtitle">选择"在浏览器中打开"</div>
+      <div class="step-title">点击 "┅"</div>
+      <div class="step-subtitle">选择 "在浏览器中打开"</div>
     </div>
   </div>
 
   <!-- 第二步：按钮在页面下方 -->
   <div class="step-2">
-    <div style="text-align: center; margin-bottom: 20px;">
-      <div class="step-number"></div>
-      <div class="step-2-title">② 点击这里</div>
-    </div>
+    <div class="step-number">②</div>
+    <div class="step-2-title">点击这里</div>
+    <div class="arrow-icon">↓</div>
     <button class="open-button" onclick="openLink()">打开网址</button>
   </div>
 
   <div class="note">
-    提示：打开后记得收藏，今后使用浏览器打开。
+    提示：打开后记得收藏，今后使用浏览器访问。
   </div>
 </div>
 
