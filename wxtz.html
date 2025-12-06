@@ -1,78 +1,89 @@
 <!DOCTYPE html>
-<html lang="zh">
+<html>
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
-  <title>打开 Google</title>
-  <style>
-    :root {
-      --bg: #0f172a;
-      --btn: #1d4ed8;
-      --btn-hover: #2563eb;
-      --text: #ffffff;
-    }
-    html,body {
-      height: 100%;
-      margin: 0;
-      font-family: system-ui,-apple-system,Segoe UI,Roboto,"Helvetica Neue",Arial;
-      background: linear-gradient(180deg, #071029 0%, #0f172a 100%);
-      color: var(--text);
-      -webkit-font-smoothing:antialiased;
-      -moz-osx-font-smoothing:grayscale;
-    }
-    .wrap {
-      height: 100%;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      padding: 24px;
-      box-sizing: border-box;
-    }
-    .btn {
-      display:inline-flex;
-      align-items:center;
-      justify-content:center;
-      gap:12px;
-      padding: 16px 22px;
-      background: var(--btn);
-      color: var(--text);
-      font-size: 18px;
-      font-weight: 600;
-      border-radius: 12px;
-      box-shadow: 0 6px 18px rgba(29,78,216,0.28);
-      border: none;
-      min-width: 220px;
-      text-decoration: none;
-      -webkit-tap-highlight-color: rgba(0,0,0,0);
-    }
-    .btn:active { transform: translateY(1px); }
-    .btn:hover { background: var(--btn-hover); cursor: pointer; }
-    .small { font-size: 13px; opacity: 0.9; margin-top: 10px; text-align:center; }
-  </style>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>打开 Google</title>
+
+<style>
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding-top: 60px;
+  background: #f5f5f5;
+}
+
+button {
+  padding: 16px 32px;
+  font-size: 20px;
+  border: none;
+  border-radius: 10px;
+  background: #007bff;
+  color: white;
+  cursor: pointer;
+}
+button:active {
+  background: #0056c1;
+}
+
+#mask {
+  display: none;
+  position: fixed;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  background: rgba(0,0,0,0.75);
+  color: white;
+  padding: 20px;
+  text-align: left;
+  font-size: 18px;
+  z-index: 999;
+}
+
+#mask img {
+  width: 180px;
+  float: right;
+}
+</style>
 </head>
+
 <body>
-  <div class="wrap">
-    <div>
-      <button id="openBtn" class="btn" aria-label="在新标签打开 Google">打开 Google 首页</button>
-      <div class="small">点击按钮将在浏览器中打开 <strong>https://www.google.com</strong></div>
-    </div>
-  </div>
 
-  <script>
-    const url = "https://www.google.com/";
+<h2>打开 Google</h2>
+<p>点击下方按钮。</p>
 
-    document.getElementById("openBtn").addEventListener("click", () => {
-      // 尝试用 window.open 在新标签/窗口打开（适用于大多数手机浏览器）
-      const w = window.open(url, '_blank', 'noopener,noreferrer');
-      if (!w) {
-        // 若被浏览器阻止弹窗或无法打开，则改为直接跳转当前页
-        window.location.href = url;
-      }
-    });
+<button onclick="openGoogle()">打开 Google</button>
 
-    // 可选：如果你想在 Android 设备上尝试唤起 Google App（非保证成功），可以使用 intent URL：
-    // const intentUrl = "intent://www.google.com/#Intent;package=com.google.android.googlequicksearchbox;scheme=https;end";
-    // window.location.href = intentUrl;
-  </script>
+<!-- 微信提示遮罩 -->
+<div id="mask">
+  <img src="https://i.imgur.com/4M7IWwP.png">
+  <h2>请在浏览器中打开</h2>
+  <p>
+    微信禁止直接访问 Google。<br><br>
+    请点击右上角 <b>“···” → “在浏览器打开”</b><br><br>
+    或手动复制链接：<br>
+    <span style="word-wrap:break-word; font-weight:bold;">
+      https://www.google.com
+    </span>
+  </p>
+</div>
+
+<script>
+// 判断是否在微信内
+function isWeChat(){
+  return /MicroMessenger/i.test(navigator.userAgent);
+}
+
+function openGoogle() {
+  if (isWeChat()) {
+    // 在微信里 → 显示遮罩提示
+    document.getElementById("mask").style.display = "block";
+  } else {
+    // 在普通浏览器内 → 直接跳转
+    window.location.href = "https://www.google.com";
+  }
+}
+</script>
+
 </body>
 </html>
