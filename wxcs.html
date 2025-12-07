@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>微信浏览器判断示例</title>
+    <style>
+        #wechat-section, #other-section {
+            padding: 20px;
+            text-align: center;
+            font-size: 18px;
+        }
+        #wechat-section {
+            background-color: #07c160; /* 微信绿色 */
+            color: white;
+        }
+        #other-section {
+            background-color: #007aff; /* 通用蓝色 */
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <!-- 微信浏览器显示的部分 -->
+    <div id="wechat-section">
+        <h2>欢迎使用微信浏览器打开</h2>
+        <p>这是专门为微信优化的内容。</p>
+    </div>
+    
+    <!-- 其他浏览器显示的部分 -->
+    <div id="other-section">
+        <h2>欢迎使用其他浏览器打开</h2>
+        <p>这是为普通浏览器准备的内容。</p>
+    </div>
+
+    <script>
+        // 检测是否为微信浏览器
+        function isWechatBrowser() {
+            return /MicroMessenger/i.test(navigator.userAgent);
+        }
+
+        // 根据浏览器类型切换显示
+        function toggleSections() {
+            const wechatSection = document.getElementById('wechat-section');
+            const otherSection = document.getElementById('other-section');
+            
+            if (isWechatBrowser()) {
+                // 微信浏览器：显示上部，隐藏下部
+                wechatSection.style.display = 'block';
+                otherSection.style.display = 'none';
+            } else {
+                // 其他浏览器：显示下部，隐藏上部
+                wechatSection.style.display = 'none';
+                otherSection.style.display = 'block';
+            }
+        }
+
+        // 页面加载时执行
+        window.onload = toggleSections;
+    </script>
+</body>
+</html>
