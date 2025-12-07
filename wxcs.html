@@ -42,7 +42,7 @@
         }
         
         .header {
-            margin-bottom: 30px;
+            margin-bottom: 40px;
         }
         
         .title {
@@ -60,74 +60,90 @@
         
         .animation-container {
             position: relative;
-            height: 280px;
-            margin: 30px 0;
+            height: 300px;
+            margin: 40px 0;
             display: flex;
             justify-content: center;
             align-items: center;
             overflow: visible;
         }
         
-        .guide-text {
-            font-size: 20px;
-            font-weight: 600;
-            color: #07c160;
-            margin: 25px 0 15px;
-            padding: 12px 20px;
-            background-color: rgba(7, 193, 96, 0.1);
-            border-radius: 50px;
-            display: inline-block;
-            animation: pulse 2s infinite;
-        }
-        
         .instructions {
             background-color: #f8f9fa;
-            padding: 20px;
+            padding: 24px;
             border-radius: 16px;
-            margin-top: 20px;
+            margin-top: 30px;
             text-align: left;
         }
         
         .instructions h3 {
             color: #333;
-            margin-bottom: 10px;
+            margin-bottom: 12px;
             font-size: 18px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        
+        .instructions h3 svg {
+            width: 20px;
+            height: 20px;
         }
         
         .instructions ol {
-            padding-left: 20px;
+            padding-left: 24px;
             color: #555;
             line-height: 1.6;
         }
         
         .instructions li {
-            margin-bottom: 8px;
+            margin-bottom: 10px;
+            padding-left: 8px;
+        }
+        
+        .instructions strong {
+            color: #07c160;
         }
         
         .browser-note {
             margin-top: 25px;
             font-size: 14px;
             color: #888;
-            padding: 12px;
+            padding: 14px;
             background-color: #f9f9f9;
             border-radius: 10px;
             border-left: 4px solid #07c160;
         }
         
-        @keyframes pulse {
-            0% { transform: scale(1); }
-            50% { transform: scale(1.05); }
-            100% { transform: scale(1); }
+        @keyframes arrow-bounce {
+            0%, 100% { 
+                transform: translate(0, 0) rotate(45deg);
+                opacity: 1;
+            }
+            50% { 
+                transform: translate(10px, -10px) rotate(45deg);
+                opacity: 0.8;
+            }
         }
         
-        @keyframes point-up {
-            0%, 100% { transform: translateY(0); }
-            50% { transform: translateY(-20px); }
+        @keyframes arrow-float {
+            0%, 100% { 
+                transform: translate(0, 0) rotate(45deg);
+            }
+            50% { 
+                transform: translate(5px, -5px) rotate(45deg);
+            }
         }
         
         @keyframes button-pulse {
-            0%, 100% { transform: scale(1); box-shadow: 0 5px 15px rgba(7, 193, 96, 0.4); }
-            50% { transform: scale(1.1); box-shadow: 0 10px 25px rgba(7, 193, 96, 0.6); }
+            0%, 100% { 
+                transform: scale(1); 
+                filter: drop-shadow(0 5px 15px rgba(7, 193, 96, 0.4));
+            }
+            50% { 
+                transform: scale(1.08); 
+                filter: drop-shadow(0 10px 25px rgba(7, 193, 96, 0.6));
+            }
         }
         
         @keyframes float {
@@ -135,47 +151,35 @@
             50% { transform: translateY(-10px); }
         }
         
-        .phone-frame {
+        .arrow-up {
             position: absolute;
             top: 50px;
-            right: 30px;
-            width: 120px;
-            height: 180px;
-            border: 8px solid #333;
-            border-radius: 20px;
-            z-index: 2;
-        }
-        
-        .dots {
-            position: absolute;
-            top: 10px;
-            right: 15px;
-            width: 40px;
-            height: 20px;
-            z-index: 3;
-        }
-        
-        .dot {
-            width: 5px;
-            height: 5px;
-            background-color: #333;
-            border-radius: 50%;
-            margin-right: 4px;
-            float: left;
-        }
-        
-        .finger {
-            position: absolute;
-            top: 120px;
             right: 80px;
             z-index: 10;
-            animation: point-up 2s infinite ease-in-out;
+            animation: arrow-bounce 2s infinite ease-in-out;
+        }
+        
+        .arrow-line {
+            position: absolute;
+            top: 30px;
+            right: 120px;
+            z-index: 5;
         }
         
         .button-container {
             animation: button-pulse 2s infinite ease-in-out;
             display: inline-block;
-            border-radius: 50px;
+        }
+        
+        .arrow-instruction {
+            position: absolute;
+            top: 160px;
+            right: 50px;
+            width: 120px;
+            font-size: 14px;
+            color: #07c160;
+            font-weight: 600;
+            text-align: right;
         }
         
         /* 响应式调整 */
@@ -193,13 +197,28 @@
             }
             
             .animation-container {
-                height: 220px;
+                height: 250px;
+                margin: 30px 0;
             }
             
-            .phone-frame {
-                width: 100px;
-                height: 150px;
-                right: 20px;
+            .arrow-up {
+                right: 60px;
+                transform: scale(0.9);
+            }
+            
+            .arrow-line {
+                right: 90px;
+            }
+        }
+        
+        @media (max-width: 360px) {
+            .arrow-up {
+                right: 50px;
+                transform: scale(0.8);
+            }
+            
+            .arrow-line {
+                right: 80px;
             }
         }
     </style>
@@ -214,43 +233,49 @@
             </div>
             
             <div class="animation-container">
-                <!-- 手机框架 -->
-                <div class="phone-frame">
-                    <div class="dots">
-                        <div class="dot"></div>
-                        <div class="dot"></div>
-                        <div class="dot"></div>
-                    </div>
-                </div>
-                
-                <!-- 手指SVG动画 -->
-                <div class="finger">
-                    <svg width="80" height="120" viewBox="0 0 80 120" xmlns="http://www.w3.org/2000/svg">
-                        <!-- 手指 -->
-                        <path d="M40,20 C50,10 70,15 70,30 L70,70 C70,90 60,110 40,110 C20,110 10,90 10,70 L10,30 C10,15 30,10 40,20 Z" 
-                              fill="#FF6B6B" stroke="#FF5252" stroke-width="3"/>
-                        <!-- 指甲 -->
-                        <ellipse cx="40" cy="25" rx="15" ry="10" fill="#FF8A80"/>
-                        <!-- 指纹纹路 -->
-                        <path d="M40,35 Q45,40 40,45 Q35,40 40,35 Z" fill="none" stroke="#D32F2F" stroke-width="1"/>
-                        <path d="M30,50 Q35,55 40,50 Q45,55 50,50" fill="none" stroke="#D32F2F" stroke-width="1"/>
-                        <path d="M35,65 Q40,70 45,65" fill="none" stroke="#D32F2F" stroke-width="1"/>
+                <!-- 大箭头SVG动画 -->
+                <div class="arrow-up">
+                    <svg width="120" height="120" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg">
+                        <!-- 箭头主体 -->
+                        <path d="M60,20 L100,60 L80,60 L80,100 L40,100 L40,60 L20,60 Z" 
+                              fill="#FF6B6B" stroke="#FF5252" stroke-width="3" stroke-linejoin="round"/>
+                        <!-- 箭头高光效果 -->
+                        <path d="M65,30 L85,50 L75,50 L75,85 L45,85 L45,50 L35,50 Z" 
+                              fill="rgba(255, 255, 255, 0.3)" stroke="none"/>
+                        <!-- 动画光点 -->
+                        <circle cx="60" cy="25" r="5" fill="#FFEB3B" opacity="0.8">
+                            <animate attributeName="r" values="5;8;5" dur="1.5s" repeatCount="indefinite"/>
+                            <animate attributeName="opacity" values="0.8;0.4;0.8" dur="1.5s" repeatCount="indefinite"/>
+                        </circle>
                     </svg>
                 </div>
                 
                 <!-- 指向线条 -->
-                <svg width="200" height="200" style="position: absolute; top: 50px; right: 60px;">
-                    <line x1="100" y1="130" x2="150" y2="40" stroke="#07c160" stroke-width="3" stroke-dasharray="5,5"/>
-                    <polygon points="150,40 145,50 160,50" fill="#07c160"/>
-                </svg>
+                <div class="arrow-line">
+                    <svg width="180" height="180" viewBox="0 0 180 180">
+                        <path d="M30,150 Q80,120 130,90" 
+                              stroke="#07c160" stroke-width="4" fill="none" 
+                              stroke-dasharray="8,6" stroke-linecap="round">
+                            <animate attributeName="stroke-dashoffset" values="0;30" dur="1.5s" repeatCount="indefinite"/>
+                        </path>
+                        <polygon points="130,90 120,80 140,85" fill="#07c160"/>
+                    </svg>
+                </div>
+                
+                <div class="arrow-instruction">
+                    点击右上角<br>菜单按钮
+                </div>
             </div>
             
-            <div class="guide-text">点击这里</div>
-            
             <div class="instructions">
-                <h3>操作指引：</h3>
+                <h3>
+                    <svg viewBox="0 0 24 24" fill="#07c160">
+                        <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
+                    </svg>
+                    操作指引
+                </h3>
                 <ol>
-                    <li>点击右上角 <strong>三个点</strong> 菜单</li>
+                    <li>点击右上角 <strong>三个点</strong> 菜单按钮</li>
                     <li>在弹出菜单中选择 <strong>"在浏览器打开"</strong></li>
                     <li>使用系统浏览器访问以获得完整功能</li>
                 </ol>
@@ -271,22 +296,32 @@
             <div class="animation-container">
                 <!-- 按钮SVG动画 -->
                 <div class="button-container">
-                    <a href="https://example.com" target="_blank" style="text-decoration: none;">
-                        <svg width="200" height="80" viewBox="0 0 200 80" xmlns="http://www.w3.org/2000/svg">
+                    <a href="https://example.com" target="_blank" style="text-decoration: none; display: inline-block;">
+                        <svg width="220" height="90" viewBox="0 0 220 90" xmlns="http://www.w3.org/2000/svg">
                             <!-- 按钮主体 -->
-                            <rect x="10" y="10" width="180" height="60" rx="30" ry="30" 
+                            <rect x="10" y="10" width="200" height="70" rx="35" ry="35" 
                                   fill="url(#gradient)" stroke="#07c160" stroke-width="3"/>
                             
                             <!-- 按钮高光 -->
-                            <rect x="15" y="15" width="170" height="30" rx="15" ry="15" 
-                                  fill="rgba(255, 255, 255, 0.3)" />
+                            <rect x="15" y="15" width="190" height="35" rx="17.5" ry="17.5" 
+                                  fill="rgba(255, 255, 255, 0.25)" />
                             
                             <!-- 按钮文字 -->
-                            <text x="100" y="48" text-anchor="middle" font-family="Arial, sans-serif" 
-                                  font-size="24" font-weight="bold" fill="white">立即访问</text>
+                            <text x="110" y="55" text-anchor="middle" font-family="Arial, sans-serif" 
+                                  font-size="26" font-weight="bold" fill="white">访问 example.com</text>
+                            
+                            <!-- 按钮图标 -->
+                            <path d="M70,35 L80,45 L70,55" fill="none" stroke="white" stroke-width="3" stroke-linecap="round"/>
+                            <path d="M80,45 L100,45" fill="none" stroke="white" stroke-width="3" stroke-linecap="round"/>
                             
                             <!-- 按钮阴影效果 -->
-                            <ellipse cx="100" cy="70" rx="90" ry="10" fill="rgba(7, 193, 96, 0.2)"/>
+                            <ellipse cx="110" cy="78" rx="95" ry="8" fill="rgba(7, 193, 96, 0.15)"/>
+                            
+                            <!-- 动画圆圈 -->
+                            <circle cx="110" cy="45" r="5" fill="#FFEB3B" opacity="0">
+                                <animate attributeName="r" values="5;15;5" dur="2s" repeatCount="indefinite"/>
+                                <animate attributeName="opacity" values="0;0.3;0" dur="2s" repeatCount="indefinite"/>
+                            </circle>
                             
                             <!-- 渐变定义 -->
                             <defs>
@@ -302,16 +337,19 @@
                 <!-- 装饰性动画元素 -->
                 <svg width="300" height="200" style="position: absolute; z-index: -1;">
                     <!-- 浮动圆圈 -->
-                    <circle cx="50" cy="100" r="15" fill="rgba(7, 193, 96, 0.2)" style="animation: float 3s infinite ease-in-out;"/>
-                    <circle cx="250" cy="50" r="10" fill="rgba(7, 193, 96, 0.2)" style="animation: float 4s infinite ease-in-out 0.5s;"/>
-                    <circle cx="150" cy="150" r="12" fill="rgba(7, 193, 96, 0.2)" style="animation: float 3.5s infinite ease-in-out 1s;"/>
+                    <circle cx="50" cy="100" r="12" fill="rgba(7, 193, 96, 0.15)" style="animation: float 3s infinite ease-in-out;"/>
+                    <circle cx="250" cy="50" r="8" fill="rgba(7, 193, 96, 0.15)" style="animation: float 4s infinite ease-in-out 0.5s;"/>
+                    <circle cx="150" cy="150" r="10" fill="rgba(7, 193, 96, 0.15)" style="animation: float 3.5s infinite ease-in-out 1s;"/>
                 </svg>
             </div>
             
-            <div class="guide-text">点击这里</div>
-            
             <div class="instructions">
-                <h3>功能说明：</h3>
+                <h3>
+                    <svg viewBox="0 0 24 24" fill="#07c160">
+                        <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/>
+                    </svg>
+                    功能说明
+                </h3>
                 <ol>
                     <li>点击上方按钮将跳转到 <strong>example.com</strong></li>
                     <li>您使用的是非微信浏览器，可以享受完整功能</li>
@@ -344,6 +382,8 @@
                 browser = "Safari";
             } else if (userAgent.includes("Edg")) {
                 browser = "Edge";
+            } else if (userAgent.includes("MicroMessenger")) {
+                browser = "微信浏览器";
             }
             
             return browser;
@@ -364,7 +404,11 @@
                 
                 // 更新微信部分的提示信息
                 const browserNote = wechatSection.querySelector('.browser-note');
-                browserNote.textContent = `提示：微信浏览器限制了部分网页功能，建议使用系统浏览器（如${browser}）打开`;
+                browserNote.textContent = `提示：微信浏览器限制了部分网页功能，建议使用系统浏览器（如Chrome、Safari）打开`;
+                
+                // 设置箭头动画
+                const arrowUp = document.querySelector('.arrow-up svg');
+                arrowUp.style.animation = 'arrow-bounce 2s infinite ease-in-out';
                 
             } else {
                 // 其他浏览器：显示下部，隐藏上部
@@ -384,32 +428,53 @@
         // 页面加载时执行
         window.onload = toggleSections;
         
-        // 可选：添加重新检测按钮（用于调试）
+        // 添加重新检测功能（用于演示）
         document.addEventListener('DOMContentLoaded', function() {
-            // 创建一个调试按钮（仅在本地开发时有用）
-            if (window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1') {
-                const debugBtn = document.createElement('button');
-                debugBtn.textContent = '切换浏览器模拟';
-                debugBtn.style.position = 'fixed';
-                debugBtn.style.bottom = '10px';
-                debugBtn.style.right = '10px';
-                debugBtn.style.padding = '10px';
-                debugBtn.style.backgroundColor = '#333';
-                debugBtn.style.color = 'white';
-                debugBtn.style.border = 'none';
-                debugBtn.style.borderRadius = '5px';
-                debugBtn.style.cursor = 'pointer';
-                debugBtn.style.zIndex = '1000';
-                
-                debugBtn.addEventListener('click', function() {
-                    // 临时切换userAgent来模拟不同浏览器（仅用于演示，实际不会修改真实的userAgent）
-                    const isCurrentlyWechat = isWechatBrowser();
-                    alert(`当前是${isCurrentlyWechat ? '微信' : '非微信'}浏览器模式\n实际用户代理：${navigator.userAgent.substring(0, 80)}...`);
-                });
-                
-                document.body.appendChild(debugBtn);
-            }
+            // 创建一个重新检测按钮
+            const refreshBtn = document.createElement('div');
+            refreshBtn.innerHTML = `
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="#666" style="vertical-align: middle; margin-right: 5px;">
+                    <path d="M17.65 6.35C16.2 4.9 14.21 4 12 4c-4.42 0-7.99 3.58-7.99 8s3.57 8 7.99 8c3.73 0 6.84-2.55 7.73-6h-2.08c-.82 2.33-3.04 4-5.65 4-3.31 0-6-2.69-6-6s2.69-6 6-6c1.66 0 3.14.69 4.22 1.78L13 11h7V4l-2.35 2.35z"/>
+                </svg>
+                重新检测浏览器
+            `;
+            
+            refreshBtn.style.position = 'fixed';
+            refreshBtn.style.bottom = '20px';
+            refreshBtn.style.right = '20px';
+            refreshBtn.style.padding = '12px 18px';
+            refreshBtn.style.backgroundColor = 'white';
+            refreshBtn.style.color = '#666';
+            refreshBtn.style.border = '1px solid #ddd';
+            refreshBtn.style.borderRadius = '50px';
+            refreshBtn.style.cursor = 'pointer';
+            refreshBtn.style.boxShadow = '0 4px 12px rgba(0,0,0,0.1)';
+            refreshBtn.style.fontSize = '14px';
+            refreshBtn.style.display = 'flex';
+            refreshBtn.style.alignItems = 'center';
+            refreshBtn.style.zIndex = '1000';
+            refreshBtn.style.transition = 'all 0.3s';
+            
+            refreshBtn.addEventListener('mouseover', function() {
+                this.style.backgroundColor = '#f5f5f5';
+                this.style.transform = 'translateY(-2px)';
+                this.style.boxShadow = '0 6px 16px rgba(0,0,0,0.15)';
+            });
+            
+            refreshBtn.addEventListener('mouseout', function() {
+                this.style.backgroundColor = 'white';
+                this.style.transform = 'translateY(0)';
+                this.style.boxShadow = '0 4px 12px rgba(0,0,0,0.1)';
+            });
+            
+            refreshBtn.addEventListener('click', function() {
+                toggleSections();
+                const browser = getBrowserInfo();
+                alert(`已重新检测浏览器类型\n当前浏览器: ${browser}\n用户代理: ${navigator.userAgent.substring(0, 60)}...`);
+            });
+            
+            document.body.appendChild(refreshBtn);
         });
     </script>
 </body>
-</html>
+                    </html>
