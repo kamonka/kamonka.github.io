@@ -3,34 +3,326 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>微信浏览器判断示例</title>
+    <title>智能引导页面</title>
     <style>
-        #wechat-section, #other-section {
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif;
+        }
+        
+        body {
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
             padding: 20px;
+        }
+        
+        .container {
+            width: 100%;
+            max-width: 500px;
+            background-color: white;
+            border-radius: 24px;
+            box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            position: relative;
+        }
+        
+        .section {
+            padding: 40px 30px;
             text-align: center;
+            transition: opacity 0.5s ease;
+        }
+        
+        .section.hidden {
+            display: none;
+        }
+        
+        .header {
+            margin-bottom: 30px;
+        }
+        
+        .title {
+            font-size: 28px;
+            font-weight: 700;
+            color: #333;
+            margin-bottom: 10px;
+        }
+        
+        .subtitle {
+            font-size: 16px;
+            color: #666;
+            line-height: 1.5;
+        }
+        
+        .animation-container {
+            position: relative;
+            height: 280px;
+            margin: 30px 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            overflow: visible;
+        }
+        
+        .guide-text {
+            font-size: 20px;
+            font-weight: 600;
+            color: #07c160;
+            margin: 25px 0 15px;
+            padding: 12px 20px;
+            background-color: rgba(7, 193, 96, 0.1);
+            border-radius: 50px;
+            display: inline-block;
+            animation: pulse 2s infinite;
+        }
+        
+        .instructions {
+            background-color: #f8f9fa;
+            padding: 20px;
+            border-radius: 16px;
+            margin-top: 20px;
+            text-align: left;
+        }
+        
+        .instructions h3 {
+            color: #333;
+            margin-bottom: 10px;
             font-size: 18px;
         }
-        #wechat-section {
-            background-color: #07c160; /* 微信绿色 */
-            color: white;
+        
+        .instructions ol {
+            padding-left: 20px;
+            color: #555;
+            line-height: 1.6;
         }
-        #other-section {
-            background-color: #007aff; /* 通用蓝色 */
-            color: white;
+        
+        .instructions li {
+            margin-bottom: 8px;
+        }
+        
+        .browser-note {
+            margin-top: 25px;
+            font-size: 14px;
+            color: #888;
+            padding: 12px;
+            background-color: #f9f9f9;
+            border-radius: 10px;
+            border-left: 4px solid #07c160;
+        }
+        
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.05); }
+            100% { transform: scale(1); }
+        }
+        
+        @keyframes point-up {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-20px); }
+        }
+        
+        @keyframes button-pulse {
+            0%, 100% { transform: scale(1); box-shadow: 0 5px 15px rgba(7, 193, 96, 0.4); }
+            50% { transform: scale(1.1); box-shadow: 0 10px 25px rgba(7, 193, 96, 0.6); }
+        }
+        
+        @keyframes float {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-10px); }
+        }
+        
+        .phone-frame {
+            position: absolute;
+            top: 50px;
+            right: 30px;
+            width: 120px;
+            height: 180px;
+            border: 8px solid #333;
+            border-radius: 20px;
+            z-index: 2;
+        }
+        
+        .dots {
+            position: absolute;
+            top: 10px;
+            right: 15px;
+            width: 40px;
+            height: 20px;
+            z-index: 3;
+        }
+        
+        .dot {
+            width: 5px;
+            height: 5px;
+            background-color: #333;
+            border-radius: 50%;
+            margin-right: 4px;
+            float: left;
+        }
+        
+        .finger {
+            position: absolute;
+            top: 120px;
+            right: 80px;
+            z-index: 10;
+            animation: point-up 2s infinite ease-in-out;
+        }
+        
+        .button-container {
+            animation: button-pulse 2s infinite ease-in-out;
+            display: inline-block;
+            border-radius: 50px;
+        }
+        
+        /* 响应式调整 */
+        @media (max-width: 480px) {
+            .container {
+                border-radius: 20px;
+            }
+            
+            .section {
+                padding: 30px 20px;
+            }
+            
+            .title {
+                font-size: 24px;
+            }
+            
+            .animation-container {
+                height: 220px;
+            }
+            
+            .phone-frame {
+                width: 100px;
+                height: 150px;
+                right: 20px;
+            }
         }
     </style>
 </head>
 <body>
-    <!-- 微信浏览器显示的部分 -->
-    <div id="wechat-section">
-        <h2>欢迎使用微信浏览器打开</h2>
-        <p>这是专门为微信优化的内容。</p>
-    </div>
-    
-    <!-- 其他浏览器显示的部分 -->
-    <div id="other-section">
-        <h2>欢迎使用其他浏览器打开</h2>
-        <p>这是为普通浏览器准备的内容。</p>
+    <div class="container">
+        <!-- 微信浏览器显示的部分 -->
+        <div id="wechat-section" class="section hidden">
+            <div class="header">
+                <h1 class="title">微信浏览器检测</h1>
+                <p class="subtitle">检测到您正在使用微信内置浏览器打开</p>
+            </div>
+            
+            <div class="animation-container">
+                <!-- 手机框架 -->
+                <div class="phone-frame">
+                    <div class="dots">
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                    </div>
+                </div>
+                
+                <!-- 手指SVG动画 -->
+                <div class="finger">
+                    <svg width="80" height="120" viewBox="0 0 80 120" xmlns="http://www.w3.org/2000/svg">
+                        <!-- 手指 -->
+                        <path d="M40,20 C50,10 70,15 70,30 L70,70 C70,90 60,110 40,110 C20,110 10,90 10,70 L10,30 C10,15 30,10 40,20 Z" 
+                              fill="#FF6B6B" stroke="#FF5252" stroke-width="3"/>
+                        <!-- 指甲 -->
+                        <ellipse cx="40" cy="25" rx="15" ry="10" fill="#FF8A80"/>
+                        <!-- 指纹纹路 -->
+                        <path d="M40,35 Q45,40 40,45 Q35,40 40,35 Z" fill="none" stroke="#D32F2F" stroke-width="1"/>
+                        <path d="M30,50 Q35,55 40,50 Q45,55 50,50" fill="none" stroke="#D32F2F" stroke-width="1"/>
+                        <path d="M35,65 Q40,70 45,65" fill="none" stroke="#D32F2F" stroke-width="1"/>
+                    </svg>
+                </div>
+                
+                <!-- 指向线条 -->
+                <svg width="200" height="200" style="position: absolute; top: 50px; right: 60px;">
+                    <line x1="100" y1="130" x2="150" y2="40" stroke="#07c160" stroke-width="3" stroke-dasharray="5,5"/>
+                    <polygon points="150,40 145,50 160,50" fill="#07c160"/>
+                </svg>
+            </div>
+            
+            <div class="guide-text">点击这里</div>
+            
+            <div class="instructions">
+                <h3>操作指引：</h3>
+                <ol>
+                    <li>点击右上角 <strong>三个点</strong> 菜单</li>
+                    <li>在弹出菜单中选择 <strong>"在浏览器打开"</strong></li>
+                    <li>使用系统浏览器访问以获得完整功能</li>
+                </ol>
+            </div>
+            
+            <div class="browser-note">
+                提示：微信浏览器限制了部分网页功能，建议使用系统浏览器打开
+            </div>
+        </div>
+        
+        <!-- 其他浏览器显示的部分 -->
+        <div id="other-section" class="section hidden">
+            <div class="header">
+                <h1 class="title">欢迎访问</h1>
+                <p class="subtitle">检测到您正在使用非微信浏览器</p>
+            </div>
+            
+            <div class="animation-container">
+                <!-- 按钮SVG动画 -->
+                <div class="button-container">
+                    <a href="https://example.com" target="_blank" style="text-decoration: none;">
+                        <svg width="200" height="80" viewBox="0 0 200 80" xmlns="http://www.w3.org/2000/svg">
+                            <!-- 按钮主体 -->
+                            <rect x="10" y="10" width="180" height="60" rx="30" ry="30" 
+                                  fill="url(#gradient)" stroke="#07c160" stroke-width="3"/>
+                            
+                            <!-- 按钮高光 -->
+                            <rect x="15" y="15" width="170" height="30" rx="15" ry="15" 
+                                  fill="rgba(255, 255, 255, 0.3)" />
+                            
+                            <!-- 按钮文字 -->
+                            <text x="100" y="48" text-anchor="middle" font-family="Arial, sans-serif" 
+                                  font-size="24" font-weight="bold" fill="white">立即访问</text>
+                            
+                            <!-- 按钮阴影效果 -->
+                            <ellipse cx="100" cy="70" rx="90" ry="10" fill="rgba(7, 193, 96, 0.2)"/>
+                            
+                            <!-- 渐变定义 -->
+                            <defs>
+                                <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                                    <stop offset="0%" stop-color="#07c160" />
+                                    <stop offset="100%" stop-color="#05a050" />
+                                </linearGradient>
+                            </defs>
+                        </svg>
+                    </a>
+                </div>
+                
+                <!-- 装饰性动画元素 -->
+                <svg width="300" height="200" style="position: absolute; z-index: -1;">
+                    <!-- 浮动圆圈 -->
+                    <circle cx="50" cy="100" r="15" fill="rgba(7, 193, 96, 0.2)" style="animation: float 3s infinite ease-in-out;"/>
+                    <circle cx="250" cy="50" r="10" fill="rgba(7, 193, 96, 0.2)" style="animation: float 4s infinite ease-in-out 0.5s;"/>
+                    <circle cx="150" cy="150" r="12" fill="rgba(7, 193, 96, 0.2)" style="animation: float 3.5s infinite ease-in-out 1s;"/>
+                </svg>
+            </div>
+            
+            <div class="guide-text">点击这里</div>
+            
+            <div class="instructions">
+                <h3>功能说明：</h3>
+                <ol>
+                    <li>点击上方按钮将跳转到 <strong>example.com</strong></li>
+                    <li>您使用的是非微信浏览器，可以享受完整功能</li>
+                    <li>页面加载速度快，交互体验更佳</li>
+                </ol>
+            </div>
+            
+            <div class="browser-note">
+                提示：您当前使用的浏览器支持所有功能，请放心使用
+            </div>
+        </div>
     </div>
 
     <script>
@@ -38,25 +330,86 @@
         function isWechatBrowser() {
             return /MicroMessenger/i.test(navigator.userAgent);
         }
-
+        
+        // 获取浏览器类型信息
+        function getBrowserInfo() {
+            const userAgent = navigator.userAgent;
+            let browser = "未知浏览器";
+            
+            if (userAgent.includes("Chrome") && !userAgent.includes("Edg")) {
+                browser = "Chrome";
+            } else if (userAgent.includes("Firefox")) {
+                browser = "Firefox";
+            } else if (userAgent.includes("Safari") && !userAgent.includes("Chrome")) {
+                browser = "Safari";
+            } else if (userAgent.includes("Edg")) {
+                browser = "Edge";
+            }
+            
+            return browser;
+        }
+        
         // 根据浏览器类型切换显示
         function toggleSections() {
             const wechatSection = document.getElementById('wechat-section');
             const otherSection = document.getElementById('other-section');
             
+            // 获取当前浏览器信息
+            const browser = getBrowserInfo();
+            
             if (isWechatBrowser()) {
                 // 微信浏览器：显示上部，隐藏下部
-                wechatSection.style.display = 'block';
-                otherSection.style.display = 'none';
+                wechatSection.classList.remove('hidden');
+                otherSection.classList.add('hidden');
+                
+                // 更新微信部分的提示信息
+                const browserNote = wechatSection.querySelector('.browser-note');
+                browserNote.textContent = `提示：微信浏览器限制了部分网页功能，建议使用系统浏览器（如${browser}）打开`;
+                
             } else {
                 // 其他浏览器：显示下部，隐藏上部
-                wechatSection.style.display = 'none';
-                otherSection.style.display = 'block';
+                wechatSection.classList.add('hidden');
+                otherSection.classList.remove('hidden');
+                
+                // 更新其他浏览器部分的提示信息
+                const browserNote = otherSection.querySelector('.browser-note');
+                browserNote.textContent = `提示：您当前使用的是${browser}浏览器，支持所有功能，请放心使用`;
+                
+                // 更新按钮链接显示
+                const buttonText = otherSection.querySelector('text');
+                buttonText.textContent = `访问 example.com`;
             }
         }
-
+        
         // 页面加载时执行
         window.onload = toggleSections;
+        
+        // 可选：添加重新检测按钮（用于调试）
+        document.addEventListener('DOMContentLoaded', function() {
+            // 创建一个调试按钮（仅在本地开发时有用）
+            if (window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1') {
+                const debugBtn = document.createElement('button');
+                debugBtn.textContent = '切换浏览器模拟';
+                debugBtn.style.position = 'fixed';
+                debugBtn.style.bottom = '10px';
+                debugBtn.style.right = '10px';
+                debugBtn.style.padding = '10px';
+                debugBtn.style.backgroundColor = '#333';
+                debugBtn.style.color = 'white';
+                debugBtn.style.border = 'none';
+                debugBtn.style.borderRadius = '5px';
+                debugBtn.style.cursor = 'pointer';
+                debugBtn.style.zIndex = '1000';
+                
+                debugBtn.addEventListener('click', function() {
+                    // 临时切换userAgent来模拟不同浏览器（仅用于演示，实际不会修改真实的userAgent）
+                    const isCurrentlyWechat = isWechatBrowser();
+                    alert(`当前是${isCurrentlyWechat ? '微信' : '非微信'}浏览器模式\n实际用户代理：${navigator.userAgent.substring(0, 80)}...`);
+                });
+                
+                document.body.appendChild(debugBtn);
+            }
+        });
     </script>
 </body>
 </html>
