@@ -60,7 +60,7 @@
         
         .animation-container {
             position: relative;
-            height: 300px;
+            height: 280px;
             margin: 40px 0;
             display: flex;
             justify-content: center;
@@ -115,23 +115,23 @@
             border-left: 4px solid #07c160;
         }
         
-        @keyframes arrow-bounce {
+        @keyframes arrow-point {
             0%, 100% { 
                 transform: translate(0, 0) rotate(45deg);
-                opacity: 1;
             }
             50% { 
-                transform: translate(10px, -10px) rotate(45deg);
-                opacity: 0.8;
+                transform: translate(8px, -8px) rotate(45deg);
             }
         }
         
-        @keyframes arrow-float {
+        @keyframes arrow-pulse {
             0%, 100% { 
-                transform: translate(0, 0) rotate(45deg);
+                transform: scale(1) rotate(45deg);
+                filter: drop-shadow(0 5px 10px rgba(255, 107, 107, 0.4));
             }
             50% { 
-                transform: translate(5px, -5px) rotate(45deg);
+                transform: scale(1.05) rotate(45deg);
+                filter: drop-shadow(0 10px 20px rgba(255, 107, 107, 0.6));
             }
         }
         
@@ -151,19 +151,20 @@
             50% { transform: translateY(-10px); }
         }
         
-        .arrow-up {
-            position: absolute;
-            top: 50px;
-            right: 80px;
-            z-index: 10;
-            animation: arrow-bounce 2s infinite ease-in-out;
+        .arrow-container {
+            position: relative;
+            width: 300px;
+            height: 250px;
+            margin: 0 auto;
         }
         
-        .arrow-line {
+        .up-right-arrow {
             position: absolute;
-            top: 30px;
-            right: 120px;
-            z-index: 5;
+            top: 40px;
+            right: 60px;
+            z-index: 10;
+            animation: arrow-pulse 2s infinite ease-in-out;
+            transform-origin: center;
         }
         
         .button-container {
@@ -171,15 +172,12 @@
             display: inline-block;
         }
         
-        .arrow-instruction {
+        .arrow-tip {
             position: absolute;
-            top: 160px;
-            right: 50px;
-            width: 120px;
-            font-size: 14px;
-            color: #07c160;
-            font-weight: 600;
-            text-align: right;
+            top: 20px;
+            right: 100px;
+            z-index: 5;
+            animation: arrow-point 2s infinite ease-in-out;
         }
         
         /* 响应式调整 */
@@ -197,27 +195,21 @@
             }
             
             .animation-container {
-                height: 250px;
+                height: 230px;
                 margin: 30px 0;
             }
             
-            .arrow-up {
-                right: 60px;
+            .arrow-container {
+                width: 250px;
+                height: 200px;
+            }
+            
+            .up-right-arrow {
+                right: 40px;
                 transform: scale(0.9);
             }
             
-            .arrow-line {
-                right: 90px;
-            }
-        }
-        
-        @media (max-width: 360px) {
-            .arrow-up {
-                right: 50px;
-                transform: scale(0.8);
-            }
-            
-            .arrow-line {
+            .arrow-tip {
                 right: 80px;
             }
         }
@@ -233,37 +225,53 @@
             </div>
             
             <div class="animation-container">
-                <!-- 大箭头SVG动画 -->
-                <div class="arrow-up">
-                    <svg width="120" height="120" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg">
-                        <!-- 箭头主体 -->
-                        <path d="M60,20 L100,60 L80,60 L80,100 L40,100 L40,60 L20,60 Z" 
-                              fill="#FF6B6B" stroke="#FF5252" stroke-width="3" stroke-linejoin="round"/>
-                        <!-- 箭头高光效果 -->
-                        <path d="M65,30 L85,50 L75,50 L75,85 L45,85 L45,50 L35,50 Z" 
-                              fill="rgba(255, 255, 255, 0.3)" stroke="none"/>
-                        <!-- 动画光点 -->
-                        <circle cx="60" cy="25" r="5" fill="#FFEB3B" opacity="0.8">
-                            <animate attributeName="r" values="5;8;5" dur="1.5s" repeatCount="indefinite"/>
-                            <animate attributeName="opacity" values="0.8;0.4;0.8" dur="1.5s" repeatCount="indefinite"/>
-                        </circle>
-                    </svg>
-                </div>
-                
-                <!-- 指向线条 -->
-                <div class="arrow-line">
-                    <svg width="180" height="180" viewBox="0 0 180 180">
-                        <path d="M30,150 Q80,120 130,90" 
-                              stroke="#07c160" stroke-width="4" fill="none" 
-                              stroke-dasharray="8,6" stroke-linecap="round">
-                            <animate attributeName="stroke-dashoffset" values="0;30" dur="1.5s" repeatCount="indefinite"/>
-                        </path>
-                        <polygon points="130,90 120,80 140,85" fill="#07c160"/>
-                    </svg>
-                </div>
-                
-                <div class="arrow-instruction">
-                    点击右上角<br>菜单按钮
+                <div class="arrow-container">
+                    <!-- 上翘指向右上角的大箭头 -->
+                    <div class="up-right-arrow">
+                        <svg width="140" height="140" viewBox="0 0 140 140" xmlns="http://www.w3.org/2000/svg">
+                            <!-- 箭头主体 - 指向右上角 -->
+                            <path d="M40,100 L100,40 L85,25 L25,85 Z" 
+                                  fill="#FF6B6B" stroke="#FF5252" stroke-width="4" stroke-linejoin="round"/>
+                            
+                            <!-- 箭头尖端 -->
+                            <path d="M100,40 L120,20 L120,40 L140,40 L120,60 Z" 
+                                  fill="#FF6B6B" stroke="#FF5252" stroke-width="3" stroke-linejoin="round"/>
+                            
+                            <!-- 箭头高光效果 -->
+                            <path d="M50,90 L80,60 L70,50 L40,80 Z" 
+                                  fill="rgba(255, 255, 255, 0.3)" stroke="none"/>
+                            
+                            <!-- 动画光点 -->
+                            <circle cx="115" cy="25" r="6" fill="#FFEB3B" opacity="0.8">
+                                <animate attributeName="r" values="6;10;6" dur="1.5s" repeatCount="indefinite"/>
+                                <animate attributeName="opacity" values="0.8;0.4;0.8" dur="1.5s" repeatCount="indefinite"/>
+                            </circle>
+                        </svg>
+                    </div>
+                    
+                    <!-- 箭头尖端动画 -->
+                    <div class="arrow-tip">
+                        <svg width="60" height="60" viewBox="0 0 60 60">
+                            <circle cx="30" cy="30" r="4" fill="#07c160">
+                                <animate attributeName="r" values="4;8;4" dur="1s" repeatCount="indefinite"/>
+                                <animate attributeName="fill-opacity" values="1;0.5;1" dur="1s" repeatCount="indefinite"/>
+                            </circle>
+                        </svg>
+                    </div>
+                    
+                    <!-- 屏幕右上角示意 -->
+                    <div style="position: absolute; top: 10px; right: 10px; width: 50px; height: 50px;">
+                        <svg width="50" height="50" viewBox="0 0 50 50">
+                            <!-- 三个点菜单示意 -->
+                            <circle cx="35" cy="15" r="3" fill="#333"/>
+                            <circle cx="35" cy="25" r="3" fill="#333"/>
+                            <circle cx="35" cy="35" r="3" fill="#333"/>
+                            
+                            <!-- 菜单框 -->
+                            <rect x="30" y="10" width="15" height="30" rx="2" 
+                                  fill="none" stroke="#ddd" stroke-width="1" stroke-dasharray="3,2"/>
+                        </svg>
+                    </div>
                 </div>
             </div>
             
@@ -406,10 +414,6 @@
                 const browserNote = wechatSection.querySelector('.browser-note');
                 browserNote.textContent = `提示：微信浏览器限制了部分网页功能，建议使用系统浏览器（如Chrome、Safari）打开`;
                 
-                // 设置箭头动画
-                const arrowUp = document.querySelector('.arrow-up svg');
-                arrowUp.style.animation = 'arrow-bounce 2s infinite ease-in-out';
-                
             } else {
                 // 其他浏览器：显示下部，隐藏上部
                 wechatSection.classList.add('hidden');
@@ -427,54 +431,6 @@
         
         // 页面加载时执行
         window.onload = toggleSections;
-        
-        // 添加重新检测功能（用于演示）
-        document.addEventListener('DOMContentLoaded', function() {
-            // 创建一个重新检测按钮
-            const refreshBtn = document.createElement('div');
-            refreshBtn.innerHTML = `
-                <svg width="24" height="24" viewBox="0 0 24 24" fill="#666" style="vertical-align: middle; margin-right: 5px;">
-                    <path d="M17.65 6.35C16.2 4.9 14.21 4 12 4c-4.42 0-7.99 3.58-7.99 8s3.57 8 7.99 8c3.73 0 6.84-2.55 7.73-6h-2.08c-.82 2.33-3.04 4-5.65 4-3.31 0-6-2.69-6-6s2.69-6 6-6c1.66 0 3.14.69 4.22 1.78L13 11h7V4l-2.35 2.35z"/>
-                </svg>
-                重新检测浏览器
-            `;
-            
-            refreshBtn.style.position = 'fixed';
-            refreshBtn.style.bottom = '20px';
-            refreshBtn.style.right = '20px';
-            refreshBtn.style.padding = '12px 18px';
-            refreshBtn.style.backgroundColor = 'white';
-            refreshBtn.style.color = '#666';
-            refreshBtn.style.border = '1px solid #ddd';
-            refreshBtn.style.borderRadius = '50px';
-            refreshBtn.style.cursor = 'pointer';
-            refreshBtn.style.boxShadow = '0 4px 12px rgba(0,0,0,0.1)';
-            refreshBtn.style.fontSize = '14px';
-            refreshBtn.style.display = 'flex';
-            refreshBtn.style.alignItems = 'center';
-            refreshBtn.style.zIndex = '1000';
-            refreshBtn.style.transition = 'all 0.3s';
-            
-            refreshBtn.addEventListener('mouseover', function() {
-                this.style.backgroundColor = '#f5f5f5';
-                this.style.transform = 'translateY(-2px)';
-                this.style.boxShadow = '0 6px 16px rgba(0,0,0,0.15)';
-            });
-            
-            refreshBtn.addEventListener('mouseout', function() {
-                this.style.backgroundColor = 'white';
-                this.style.transform = 'translateY(0)';
-                this.style.boxShadow = '0 4px 12px rgba(0,0,0,0.1)';
-            });
-            
-            refreshBtn.addEventListener('click', function() {
-                toggleSections();
-                const browser = getBrowserInfo();
-                alert(`已重新检测浏览器类型\n当前浏览器: ${browser}\n用户代理: ${navigator.userAgent.substring(0, 60)}...`);
-            });
-            
-            document.body.appendChild(refreshBtn);
-        });
     </script>
 </body>
-                    </html>
+</html>
