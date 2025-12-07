@@ -66,85 +66,102 @@
             align-items: center;
         }
         
-        /* 微信部分 - 右上角箭头 */
-        .arrow-guide {
+        /* 微信部分 - 简洁箭头 */
+        .simple-arrow-guide {
             position: relative;
             width: 300px;
             height: 250px;
             margin: 0 auto;
         }
         
-        .screen-corner {
+        .menu-indicator {
             position: absolute;
-            top: 20px;
-            right: 20px;
-            width: 80px;
-            height: 80px;
-            background: #f0f0f0;
-            border-radius: 12px;
-            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-        }
-        
-        .three-dots {
-            position: absolute;
-            top: 25px;
+            top: 30px;
             right: 30px;
             display: flex;
             flex-direction: column;
-            gap: 6px;
+            align-items: flex-end;
+            gap: 4px;
         }
         
-        .dot {
-            width: 5px;
-            height: 5px;
+        .menu-dot {
+            width: 18px;
+            height: 3px;
             background: #333;
-            border-radius: 50%;
+            border-radius: 2px;
         }
         
-        .arrow-body {
+        .menu-dot:nth-child(2) {
+            width: 14px;
+        }
+        
+        .menu-dot:nth-child(3) {
+            width: 10px;
+        }
+        
+        /* 简洁箭头样式 - 参考图片中的箭头 */
+        .simple-arrow {
             position: absolute;
-            bottom: 60px;
-            left: 60px;
-            width: 150px;
-            height: 8px;
+            bottom: 80px;
+            left: 80px;
+            width: 160px;
+            height: 80px;
+        }
+        
+        .arrow-line {
+            position: absolute;
+            top: 50%;
+            left: 0;
+            width: 120px;
+            height: 6px;
             background: linear-gradient(90deg, #FF6B6B, #FF5252);
-            border-radius: 4px;
-            transform: rotate(45deg);
+            border-radius: 3px;
+            transform: translateY(-50%) rotate(45deg);
             transform-origin: left center;
+            box-shadow: 0 2px 8px rgba(255, 107, 107, 0.4);
         }
         
         .arrow-head {
             position: absolute;
+            top: 50%;
+            left: 105px;
             width: 0;
             height: 0;
             border-left: 15px solid transparent;
             border-right: 15px solid transparent;
-            border-bottom: 25px solid #FF5252;
-            transform: rotate(45deg);
-            bottom: 155px;
-            left: 170px;
+            border-top: 20px solid #FF5252;
+            transform: translateY(-50%) rotate(45deg);
         }
         
-        /* 箭头动画 */
-        @keyframes point-up {
+        /* 简洁箭头动画 */
+        @keyframes simple-point {
             0%, 100% {
-                transform: rotate(45deg);
-                bottom: 60px;
-                left: 60px;
+                transform: translateY(-50%) rotate(45deg);
+                left: 0;
             }
             50% {
-                transform: rotate(45deg) translateX(8px) translateY(-8px);
-                bottom: 52px;
-                left: 68px;
+                transform: translateY(-50%) rotate(45deg) translateX(8px) translateY(-8px);
+                left: 8px;
             }
         }
         
-        .arrow-body {
-            animation: point-up 1.5s infinite ease-in-out;
+        @keyframes simple-head {
+            0%, 100% {
+                transform: translateY(-50%) rotate(45deg);
+                left: 105px;
+            }
+            50% {
+                transform: translateY(-50%) rotate(45deg) translateX(6px) translateY(-6px);
+                left: 111px;
+            }
+        }
+        
+        .arrow-line {
+            animation: simple-point 1.5s infinite ease-in-out;
         }
         
         .arrow-head {
-            animation: point-up 1.5s infinite ease-in-out;
+            animation: simple-head 1.5s infinite ease-in-out;
         }
         
         /* 其他浏览器部分 - 按钮 */
@@ -172,25 +189,26 @@
             box-shadow: 0 12px 25px rgba(7, 193, 96, 0.4);
         }
         
-        .button-glow {
+        .button-pulse {
             position: absolute;
             top: 0;
             left: 0;
             right: 0;
             bottom: 0;
-            background: radial-gradient(circle at center, rgba(255,255,255,0.4) 0%, transparent 70%);
             border-radius: 50px;
-            animation: glow 2s infinite ease-in-out;
+            box-shadow: 0 0 0 0 rgba(7, 193, 96, 0.5);
+            animation: pulse 1.5s infinite;
         }
         
-        @keyframes glow {
-            0%, 100% {
-                opacity: 0.6;
-                transform: scale(1);
+        @keyframes pulse {
+            0% {
+                box-shadow: 0 0 0 0 rgba(7, 193, 96, 0.5);
             }
-            50% {
-                opacity: 0.9;
-                transform: scale(1.05);
+            70% {
+                box-shadow: 0 0 0 15px rgba(7, 193, 96, 0);
+            }
+            100% {
+                box-shadow: 0 0 0 0 rgba(7, 193, 96, 0);
             }
         }
         
@@ -250,11 +268,11 @@
         }
         
         .circle {
-            width: 60px;
-            height: 60px;
+            width: 40px;
+            height: 40px;
             border-radius: 50%;
             background: rgba(7, 193, 96, 0.1);
-            animation: float 4s infinite ease-in-out;
+            animation: float 3s infinite ease-in-out;
         }
         
         @keyframes float {
@@ -262,7 +280,7 @@
                 transform: translateY(0);
             }
             50% {
-                transform: translateY(-15px);
+                transform: translateY(-10px);
             }
         }
         
@@ -285,20 +303,24 @@
                 margin: 30px 0;
             }
             
-            .arrow-guide {
+            .simple-arrow-guide {
                 width: 250px;
                 height: 200px;
             }
             
-            .arrow-body {
-                width: 120px;
-                left: 50px;
-                bottom: 50px;
+            .simple-arrow {
+                bottom: 60px;
+                left: 60px;
+                width: 140px;
+                height: 70px;
+            }
+            
+            .arrow-line {
+                width: 100px;
             }
             
             .arrow-head {
-                bottom: 130px;
-                left: 140px;
+                left: 85px;
             }
             
             .click-button {
@@ -318,23 +340,23 @@
             </div>
             
             <div class="animation-container">
-                <div class="arrow-guide">
-                    <!-- 屏幕右上角示意 -->
-                    <div class="screen-corner">
-                        <div class="three-dots">
-                            <div class="dot"></div>
-                            <div class="dot"></div>
-                            <div class="dot"></div>
-                        </div>
+                <div class="simple-arrow-guide">
+                    <!-- 右上角菜单指示器 -->
+                    <div class="menu-indicator">
+                        <div class="menu-dot"></div>
+                        <div class="menu-dot"></div>
+                        <div class="menu-dot"></div>
                     </div>
                     
-                    <!-- 指向箭头 -->
-                    <div class="arrow-body"></div>
-                    <div class="arrow-head"></div>
+                    <!-- 简洁箭头 -->
+                    <div class="simple-arrow">
+                        <div class="arrow-line"></div>
+                        <div class="arrow-head"></div>
+                    </div>
                     
                     <!-- 装饰元素 -->
-                    <div class="decoration circle" style="top: 100px; left: 30px; animation-delay: 0.5s;"></div>
-                    <div class="decoration circle" style="bottom: 80px; right: 40px; width: 40px; height: 40px; animation-delay: 1s;"></div>
+                    <div class="decoration circle" style="top: 100px; left: 40px; animation-delay: 0.3s;"></div>
+                    <div class="decoration circle" style="bottom: 60px; right: 60px; width: 30px; height: 30px; animation-delay: 0.6s;"></div>
                 </div>
             </div>
             
@@ -367,12 +389,12 @@
                     <a href="https://example.com" target="_blank" class="click-button">
                         <span class="button-icon">➡</span>
                         访问 example.com
-                        <div class="button-glow"></div>
+                        <div class="button-pulse"></div>
                     </a>
                     
                     <!-- 装饰元素 -->
-                    <div class="decoration circle" style="top: 30px; left: 20px; width: 50px; height: 50px;"></div>
-                    <div class="decoration circle" style="bottom: 30px; right: 20px; width: 30px; height: 30px; animation-delay: 0.7s;"></div>
+                    <div class="decoration circle" style="top: 40px; left: 30px; width: 35px; height: 35px;"></div>
+                    <div class="decoration circle" style="bottom: 40px; right: 30px; width: 25px; height: 25px; animation-delay: 0.4s;"></div>
                 </div>
             </div>
             
