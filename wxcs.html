@@ -66,127 +66,75 @@
             align-items: center;
         }
         
-        /* 微信部分 - 简洁箭头 */
-        .simple-arrow-guide {
+        /* 微信部分 - 菜单按钮 */
+        .wechat-button-guide {
             position: relative;
-            width: 300px;
-            height: 250px;
-            margin: 0 auto;
         }
         
-        .menu-indicator {
+        .menu-button {
+            position: relative;
+            display: inline-block;
+            padding: 25px 60px;
+            background: linear-gradient(135deg, #FF6B6B, #FF5252);
+            color: white;
+            font-size: 22px;
+            font-weight: bold;
+            text-decoration: none;
+            border-radius: 50px;
+            box-shadow: 0 10px 25px rgba(255, 107, 107, 0.4);
+            transition: all 0.3s;
+            overflow: hidden;
+        }
+        
+        .menu-button:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 15px 30px rgba(255, 107, 107, 0.5);
+        }
+        
+        /* 微信按钮动画效果 */
+        .menu-dots {
             position: absolute;
-            top: 30px;
-            right: 30px;
+            top: 10px;
+            right: 10px;
             display: flex;
             flex-direction: column;
-            align-items: flex-end;
             gap: 4px;
         }
         
         .menu-dot {
-            width: 18px;
-            height: 3px;
-            background: #333;
-            border-radius: 2px;
+            width: 5px;
+            height: 5px;
+            background: white;
+            border-radius: 50%;
         }
         
-        .menu-dot:nth-child(2) {
-            width: 14px;
+        .button-bounce {
+            animation: bounce 1.2s infinite ease-in-out;
         }
         
-        .menu-dot:nth-child(3) {
-            width: 10px;
-        }
-        
-        /* 简洁箭头样式 - 参考图片中的箭头 */
-        .simple-arrow {
-            position: absolute;
-            bottom: 80px;
-            left: 80px;
-            width: 160px;
-            height: 80px;
-        }
-        
-        .arrow-line {
-            position: absolute;
-            top: 50%;
-            left: 0;
-            width: 120px;
-            height: 6px;
-            background: linear-gradient(90deg, #FF6B6B, #FF5252);
-            border-radius: 3px;
-            transform: translateY(-50%) rotate(45deg);
-            transform-origin: left center;
-            box-shadow: 0 2px 8px rgba(255, 107, 107, 0.4);
-        }
-        
-        .arrow-head {
-            position: absolute;
-            top: 50%;
-            left: 105px;
-            width: 0;
-            height: 0;
-            border-left: 15px solid transparent;
-            border-right: 15px solid transparent;
-            border-top: 20px solid #FF5252;
-            transform: translateY(-50%) rotate(45deg);
-        }
-        
-        /* 简洁箭头动画 */
-        @keyframes simple-point {
+        @keyframes bounce {
             0%, 100% {
-                transform: translateY(-50%) rotate(45deg);
-                left: 0;
+                transform: translateY(0);
             }
             50% {
-                transform: translateY(-50%) rotate(45deg) translateX(8px) translateY(-8px);
-                left: 8px;
+                transform: translateY(-10px);
             }
         }
         
-        @keyframes simple-head {
+        .button-shake {
+            animation: shake 2s infinite ease-in-out;
+        }
+        
+        @keyframes shake {
             0%, 100% {
-                transform: translateY(-50%) rotate(45deg);
-                left: 105px;
+                transform: rotate(0deg);
             }
-            50% {
-                transform: translateY(-50%) rotate(45deg) translateX(6px) translateY(-6px);
-                left: 111px;
+            25% {
+                transform: rotate(2deg);
             }
-        }
-        
-        .arrow-line {
-            animation: simple-point 1.5s infinite ease-in-out;
-        }
-        
-        .arrow-head {
-            animation: simple-head 1.5s infinite ease-in-out;
-        }
-        
-        /* 其他浏览器部分 - 按钮 */
-        .button-guide {
-            position: relative;
-        }
-        
-        .click-button {
-            display: inline-block;
-            padding: 20px 50px;
-            background: linear-gradient(135deg, #07c160, #05a050);
-            color: white;
-            font-size: 24px;
-            font-weight: bold;
-            text-decoration: none;
-            border-radius: 50px;
-            box-shadow: 0 8px 20px rgba(7, 193, 96, 0.3);
-            transition: all 0.3s;
-            position: relative;
-            overflow: hidden;
-        }
-        
-        .click-button:hover {
-            transform: translateY(-3px);
-            box-shadow: 0 12px 25px rgba(7, 193, 96, 0.4);
+            75% {
+                transform: rotate(-2deg);
+            }
         }
         
         .button-pulse {
@@ -196,11 +144,97 @@
             right: 0;
             bottom: 0;
             border-radius: 50px;
-            box-shadow: 0 0 0 0 rgba(7, 193, 96, 0.5);
-            animation: pulse 1.5s infinite;
+            box-shadow: 0 0 0 0 rgba(255, 107, 107, 0.5);
+            animation: pulse-red 1.5s infinite;
         }
         
-        @keyframes pulse {
+        @keyframes pulse-red {
+            0% {
+                box-shadow: 0 0 0 0 rgba(255, 107, 107, 0.5);
+            }
+            70% {
+                box-shadow: 0 0 0 20px rgba(255, 107, 107, 0);
+            }
+            100% {
+                box-shadow: 0 0 0 0 rgba(255, 107, 107, 0);
+            }
+        }
+        
+        /* 其他浏览器部分 - 跳转按钮 */
+        .browser-button-guide {
+            position: relative;
+        }
+        
+        .action-button {
+            position: relative;
+            display: inline-block;
+            padding: 25px 60px;
+            background: linear-gradient(135deg, #07c160, #05a050);
+            color: white;
+            font-size: 22px;
+            font-weight: bold;
+            text-decoration: none;
+            border-radius: 50px;
+            box-shadow: 0 10px 25px rgba(7, 193, 96, 0.4);
+            transition: all 0.3s;
+            overflow: hidden;
+        }
+        
+        .action-button:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 15px 30px rgba(7, 193, 96, 0.5);
+        }
+        
+        /* 浏览器按钮动画效果 */
+        .button-arrow {
+            display: inline-block;
+            margin-right: 10px;
+            animation: arrow-move 1.5s infinite ease-in-out;
+        }
+        
+        @keyframes arrow-move {
+            0%, 100% {
+                transform: translateX(0);
+            }
+            50% {
+                transform: translateX(5px);
+            }
+        }
+        
+        .button-glow {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            border-radius: 50px;
+            background: radial-gradient(circle at center, rgba(255,255,255,0.3) 0%, transparent 70%);
+            animation: glow 2s infinite ease-in-out;
+        }
+        
+        @keyframes glow {
+            0%, 100% {
+                opacity: 0.5;
+                transform: scale(1);
+            }
+            50% {
+                opacity: 0.8;
+                transform: scale(1.05);
+            }
+        }
+        
+        .button-ripple {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            border-radius: 50px;
+            box-shadow: 0 0 0 0 rgba(7, 193, 96, 0.5);
+            animation: ripple 2s infinite;
+        }
+        
+        @keyframes ripple {
             0% {
                 box-shadow: 0 0 0 0 rgba(7, 193, 96, 0.5);
             }
@@ -210,12 +244,6 @@
             100% {
                 box-shadow: 0 0 0 0 rgba(7, 193, 96, 0);
             }
-        }
-        
-        .button-icon {
-            display: inline-block;
-            margin-right: 10px;
-            font-size: 20px;
         }
         
         /* 通用样式 */
@@ -275,6 +303,10 @@
             animation: float 3s infinite ease-in-out;
         }
         
+        .circle-red {
+            background: rgba(255, 107, 107, 0.1);
+        }
+        
         @keyframes float {
             0%, 100% {
                 transform: translateY(0);
@@ -303,29 +335,16 @@
                 margin: 30px 0;
             }
             
-            .simple-arrow-guide {
-                width: 250px;
-                height: 200px;
-            }
-            
-            .simple-arrow {
-                bottom: 60px;
-                left: 60px;
-                width: 140px;
-                height: 70px;
-            }
-            
-            .arrow-line {
-                width: 100px;
-            }
-            
-            .arrow-head {
-                left: 85px;
-            }
-            
-            .click-button {
-                padding: 18px 40px;
+            .menu-button, .action-button {
+                padding: 20px 45px;
                 font-size: 20px;
+            }
+        }
+        
+        @media (max-width: 360px) {
+            .menu-button, .action-button {
+                padding: 18px 35px;
+                font-size: 18px;
             }
         }
     </style>
@@ -340,23 +359,21 @@
             </div>
             
             <div class="animation-container">
-                <div class="simple-arrow-guide">
-                    <!-- 右上角菜单指示器 -->
-                    <div class="menu-indicator">
-                        <div class="menu-dot"></div>
-                        <div class="menu-dot"></div>
-                        <div class="menu-dot"></div>
-                    </div>
-                    
-                    <!-- 简洁箭头 -->
-                    <div class="simple-arrow">
-                        <div class="arrow-line"></div>
-                        <div class="arrow-head"></div>
+                <div class="wechat-button-guide">
+                    <!-- 微信菜单按钮 -->
+                    <div class="menu-button button-bounce button-shake">
+                        点击右上角菜单
+                        <div class="menu-dots">
+                            <div class="menu-dot"></div>
+                            <div class="menu-dot"></div>
+                            <div class="menu-dot"></div>
+                        </div>
+                        <div class="button-pulse"></div>
                     </div>
                     
                     <!-- 装饰元素 -->
-                    <div class="decoration circle" style="top: 100px; left: 40px; animation-delay: 0.3s;"></div>
-                    <div class="decoration circle" style="bottom: 60px; right: 60px; width: 30px; height: 30px; animation-delay: 0.6s;"></div>
+                    <div class="decoration circle circle-red" style="top: 40px; left: 30px; width: 35px; height: 35px;"></div>
+                    <div class="decoration circle circle-red" style="bottom: 40px; right: 30px; width: 25px; height: 25px; animation-delay: 0.4s;"></div>
                 </div>
             </div>
             
@@ -385,11 +402,13 @@
             </div>
             
             <div class="animation-container">
-                <div class="button-guide">
-                    <a href="https://example.com" target="_blank" class="click-button">
-                        <span class="button-icon">➡</span>
+                <div class="browser-button-guide">
+                    <!-- 浏览器跳转按钮 -->
+                    <a href="https://example.com" target="_blank" class="action-button">
+                        <span class="button-arrow">➡</span>
                         访问 example.com
-                        <div class="button-pulse"></div>
+                        <div class="button-glow"></div>
+                        <div class="button-ripple"></div>
                     </a>
                     
                     <!-- 装饰元素 -->
