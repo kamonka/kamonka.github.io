@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>智能引导页面</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif;
+        }
+        
+        body {
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+        
+        .container {
+            width: 100%;
+            max-width: 500px;
+            background-color: white;
+            border-radius: 24px;
+            box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+        }
+        
+        .section {
+            padding: 40px 30px;
+            text-align: center;
+            display: none;
+        }
+        
+        .section.active {
+            display: block;
+        }
+        
+        .header {
+            margin-bottom: 40px;
+        }
+        
+        .title {
+            font-size: 28px;
+            font-weight: 700;
+            color: #333;
+            margin-bottom: 10px;
+        }
+        
+        .subtitle {
+            font-size: 16px;
+            color: #666;
+            line-height: 1.5;
+        }
+        
+        .animation-container {
+            position: relative;
+            height: 280px;
+            margin: 40px 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        /* 微信部分 - 菜单按钮 */
+        .wechat-button-guide {
+            position: relative;
+        }
+        
+        .menu-button {
+            position: relative;
+            display: inline-block;
+            padding: 25px 60px;
+            background: linear-gradient(135deg, #FF6B6B, #FF5252);
+            color: white;
+            font-size: 22px;
+            font-weight: bold;
+            text-decoration: none;
+            border-radius: 50px;
+            box-shadow: 0 10px 25px rgba(255, 107, 107, 0.4);
+            transition: all 0.3s;
+            overflow: hidden;
+        }
+        
+        .menu-button:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 15px 30px rgba(255, 107, 107, 0.5);
+        }
+        
+        /* 微信按钮动画效果 */
+        .menu-dots {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            display: flex;
+            flex-direction: column;
+            gap: 4px;
+        }
+        
+        .menu-dot {
+            width: 5px;
+            height: 5px;
+            background: white;
+            border-radius: 50%;
+        }
+        
+        .button-bounce {
+            animation: bounce 1.2s infinite ease-in-out;
+        }
+        
+        @keyframes bounce {
+            0%, 100% {
+                transform: translateY(0);
+            }
+            50% {
+                transform: translateY(-10px);
+            }
+        }
+        
+        .button-shake {
+            animation: shake 2s infinite ease-in-out;
+        }
+        
+        @keyframes shake {
+            0%, 100% {
+                transform: rotate(0deg);
+            }
+            25% {
+                transform: rotate(2deg);
+            }
+            75% {
+                transform: rotate(-2deg);
+            }
+        }
+        
+        .button-pulse {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            border-radius: 50px;
+            box-shadow: 0 0 0 0 rgba(255, 107, 107, 0.5);
+            animation: pulse-red 1.5s infinite;
+        }
+        
+        @keyframes pulse-red {
+            0% {
+                box-shadow: 0 0 0 0 rgba(255, 107, 107, 0.5);
+            }
+            70% {
+                box-shadow: 0 0 0 20px rgba(255, 107, 107, 0);
+            }
+            100% {
+                box-shadow: 0 0 0 0 rgba(255, 107, 107, 0);
+            }
+        }
+        
+        /* 其他浏览器部分 - 跳转按钮 */
+        .browser-button-guide {
+            position: relative;
+        }
+        
+        .action-button {
+            position: relative;
+            display: inline-block;
+            padding: 25px 60px;
+            background: linear-gradient(135deg, #07c160, #05a050);
+            color: white;
+            font-size: 22px;
+            font-weight: bold;
+            text-decoration: none;
+            border-radius: 50px;
+            box-shadow: 0 10px 25px rgba(7, 193, 96, 0.4);
+            transition: all 0.3s;
+            overflow: hidden;
+        }
+        
+        .action-button:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 15px 30px rgba(7, 193, 96, 0.5);
+        }
+        
+        /* 浏览器按钮动画效果 */
+        .button-arrow {
+            display: inline-block;
+            margin-right: 10px;
+            animation: arrow-move 1.5s infinite ease-in-out;
+        }
+        
+        @keyframes arrow-move {
+            0%, 100% {
+                transform: translateX(0);
+            }
+            50% {
+                transform: translateX(5px);
+            }
+        }
+        
+        .button-glow {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            border-radius: 50px;
+            background: radial-gradient(circle at center, rgba(255,255,255,0.3) 0%, transparent 70%);
+            animation: glow 2s infinite ease-in-out;
+        }
+        
+        @keyframes glow {
+            0%, 100% {
+                opacity: 0.5;
+                transform: scale(1);
+            }
+            50% {
+                opacity: 0.8;
+                transform: scale(1.05);
+            }
+        }
+        
+        .button-ripple {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            border-radius: 50px;
+            box-shadow: 0 0 0 0 rgba(7, 193, 96, 0.5);
+            animation: ripple 2s infinite;
+        }
+        
+        @keyframes ripple {
+            0% {
+                box-shadow: 0 0 0 0 rgba(7, 193, 96, 0.5);
+            }
+            70% {
+                box-shadow: 0 0 0 15px rgba(7, 193, 96, 0);
+            }
+            100% {
+                box-shadow: 0 0 0 0 rgba(7, 193, 96, 0);
+            }
+        }
+        
+        /* 通用样式 */
+        .instructions {
+            background-color: #f8f9fa;
+            padding: 24px;
+            border-radius: 16px;
+            margin-top: 30px;
+            text-align: left;
+        }
+        
+        .instructions h3 {
+            color: #333;
+            margin-bottom: 12px;
+            font-size: 18px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        
+        .instructions ol {
+            padding-left: 24px;
+            color: #555;
+            line-height: 1.6;
+        }
+        
+        .instructions li {
+            margin-bottom: 10px;
+            padding-left: 8px;
+        }
+        
+        .instructions strong {
+            color: #07c160;
+        }
+        
+        .browser-note {
+            margin-top: 25px;
+            font-size: 14px;
+            color: #888;
+            padding: 14px;
+            background-color: #f9f9f9;
+            border-radius: 10px;
+            border-left: 4px solid #07c160;
+        }
+        
+        /* 装饰元素 */
+        .decoration {
+            position: absolute;
+            z-index: -1;
+        }
+        
+        .circle {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            background: rgba(7, 193, 96, 0.1);
+            animation: float 3s infinite ease-in-out;
+        }
+        
+        .circle-red {
+            background: rgba(255, 107, 107, 0.1);
+        }
+        
+        @keyframes float {
+            0%, 100% {
+                transform: translateY(0);
+            }
+            50% {
+                transform: translateY(-10px);
+            }
+        }
+        
+        /* 响应式调整 */
+        @media (max-width: 480px) {
+            .container {
+                border-radius: 20px;
+            }
+            
+            .section {
+                padding: 30px 20px;
+            }
+            
+            .title {
+                font-size: 24px;
+            }
+            
+            .animation-container {
+                height: 230px;
+                margin: 30px 0;
+            }
+            
+            .menu-button, .action-button {
+                padding: 20px 45px;
+                font-size: 20px;
+            }
+        }
+        
+        @media (max-width: 360px) {
+            .menu-button, .action-button {
+                padding: 18px 35px;
+                font-size: 18px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- 微信浏览器显示的部分 -->
+        <div id="wechat-section" class="section">
+            <div class="header">
+                <h1 class="title">微信浏览器检测</h1>
+                <p class="subtitle">检测到您正在使用微信内置浏览器打开</p>
+            </div>
+            
+            <div class="animation-container">
+                <div class="wechat-button-guide">
+                    <!-- 微信菜单按钮 -->
+                    <div class="menu-button button-bounce button-shake">
+                        点击右上角菜单
+                        <div class="menu-dots">
+                            <div class="menu-dot"></div>
+                            <div class="menu-dot"></div>
+                            <div class="menu-dot"></div>
+                        </div>
+                        <div class="button-pulse"></div>
+                    </div>
+                    
+                    <!-- 装饰元素 -->
+                    <div class="decoration circle circle-red" style="top: 40px; left: 30px; width: 35px; height: 35px;"></div>
+                    <div class="decoration circle circle-red" style="bottom: 40px; right: 30px; width: 25px; height: 25px; animation-delay: 0.4s;"></div>
+                </div>
+            </div>
+            
+            <div class="instructions">
+                <h3>
+                    <span style="color: #07c160; font-size: 20px;">●</span>
+                    操作指引
+                </h3>
+                <ol>
+                    <li>点击右上角 <strong>三个点</strong> 菜单按钮</li>
+                    <li>在弹出菜单中选择 <strong>"在浏览器打开"</strong></li>
+                    <li>使用系统浏览器访问以获得完整功能</li>
+                </ol>
+            </div>
+            
+            <div class="browser-note">
+                提示：微信浏览器限制了部分网页功能，建议使用系统浏览器打开
+            </div>
+        </div>
+        
+        <!-- 其他浏览器显示的部分 -->
+        <div id="other-section" class="section">
+            <div class="header">
+                <h1 class="title">欢迎访问</h1>
+                <p class="subtitle">检测到您正在使用非微信浏览器</p>
+            </div>
+            
+            <div class="animation-container">
+                <div class="browser-button-guide">
+                    <!-- 浏览器跳转按钮 -->
+                    <a href="https://example.com" target="_blank" class="action-button">
+                        <span class="button-arrow">➡</span>
+                        访问 example.com
+                        <div class="button-glow"></div>
+                        <div class="button-ripple"></div>
+                    </a>
+                    
+                    <!-- 装饰元素 -->
+                    <div class="decoration circle" style="top: 40px; left: 30px; width: 35px; height: 35px;"></div>
+                    <div class="decoration circle" style="bottom: 40px; right: 30px; width: 25px; height: 25px; animation-delay: 0.4s;"></div>
+                </div>
+            </div>
+            
+            <div class="instructions">
+                <h3>
+                    <span style="color: #07c160; font-size: 20px;">●</span>
+                    功能说明
+                </h3>
+                <ol>
+                    <li>点击上方按钮将跳转到 <strong>example.com</strong></li>
+                    <li>您使用的是非微信浏览器，可以享受完整功能</li>
+                    <li>页面加载速度快，交互体验更佳</li>
+                </ol>
+            </div>
+            
+            <div class="browser-note">
+                提示：您当前使用的浏览器支持所有功能，请放心使用
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // 检测是否为微信浏览器
+        function isWechatBrowser() {
+            return /MicroMessenger/i.test(navigator.userAgent);
+        }
+        
+        // 获取浏览器类型信息
+        function getBrowserInfo() {
+            const userAgent = navigator.userAgent;
+            let browser = "未知浏览器";
+            
+            if (userAgent.includes("Chrome") && !userAgent.includes("Edg")) {
+                browser = "Chrome";
+            } else if (userAgent.includes("Firefox")) {
+                browser = "Firefox";
+            } else if (userAgent.includes("Safari") && !userAgent.includes("Chrome")) {
+                browser = "Safari";
+            } else if (userAgent.includes("Edg")) {
+                browser = "Edge";
+            } else if (userAgent.includes("MicroMessenger")) {
+                browser = "微信浏览器";
+            }
+            
+            return browser;
+        }
+        
+        // 根据浏览器类型切换显示
+        function toggleSections() {
+            const wechatSection = document.getElementById('wechat-section');
+            const otherSection = document.getElementById('other-section');
+            
+            // 获取当前浏览器信息
+            const browser = getBrowserInfo();
+            
+            if (isWechatBrowser()) {
+                // 微信浏览器：显示上部，隐藏下部
+                wechatSection.classList.add('active');
+                otherSection.classList.remove('active');
+                
+                // 更新微信部分的提示信息
+                const browserNote = wechatSection.querySelector('.browser-note');
+                browserNote.textContent = `提示：微信浏览器限制了部分网页功能，建议使用系统浏览器（如Chrome、Safari）打开`;
+                
+            } else {
+                // 其他浏览器：显示下部，隐藏上部
+                wechatSection.classList.remove('active');
+                otherSection.classList.add('active');
+                
+                // 更新其他浏览器部分的提示信息
+                const browserNote = otherSection.querySelector('.browser-note');
+                browserNote.textContent = `提示：您当前使用的是${browser}浏览器，支持所有功能，请放心使用`;
+            }
+        }
+        
+        // 页面加载时执行
+        window.onload = toggleSections;
+    </script>
+</body>
+</html>
