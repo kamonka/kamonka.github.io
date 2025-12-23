@@ -423,6 +423,9 @@ Dlife,https://nl.utako.moe/dlife/index.m3u8
 銀河,https://nl.utako.moe/gingach/index.m3u8
 旅チャンネル,https://nl.utako.moe/tabi/index.m3u8
 
+NHKG,https://cdn4.skygo.mn/live/disk1/NHK_World_Premium/HLSv3-FTA/NHK_World_Premium-avc1_2000000=25-mp4a_380800_jpn=28.m3u8
+NHKG,https://cdn.skygo.mn/live/disk1/NHK_World_Premium/HLSv3-FTA/NHK_World_Premium.m3u8
+
 NHKG,http://hostengine.live/live/Chelsea10%40/Stamford77%40/289500.m3u
 NHKBS,http://hostengine.live/live/Chelsea10%40/Stamford77%40/289487.m3u
 TBS,http://hostengine.live/live/Chelsea10%40/Stamford77%40/289490.m3u8
@@ -570,8 +573,6 @@ TBS,https://tbs5.mov3.co/hls/tbs.m3u8
 フジテレビ,https://fujitv4.mov3.co/hls/fujitv.m3u8
 
 NHKG,http://61.216.11.93:49981/stream/channelid/797583403.m3u8
-NHKG,https://cdn.skygo.mn/live/disk1/NHK_World_Premium/HLSv3-FTA/NHK_World_Premium.m3u8
-NHKG,https://cdn4.skygo.mn/live/disk1/NHK_World_Premium/HLSv3-FTA/NHK_World_Premium-avc1_2000000=25-mp4a_380800_jpn=28.m3u8
 
 NHKG,https://stream1.freetv.fun/9ea86e6b10e0c09b5700edb622c11af0ddb77782952a4c13f51664ecc22012ce.m3u8
 NHKBS,https://stream1.freetv.fun/69ae2a7c0ed79b7b2b6ba5c5005192c6e449a8fba6c65a4f2f83ee315074eb0b.m3u8
