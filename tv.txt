@@ -221,7 +221,8 @@ BS日テレ,http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=b
 BSフジ,http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs06
 BSTBS,http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs04
 BS朝日,http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs03
-BSテレ東,http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs05ディスカバリー,http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs08
+BSテレ東,http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs05
+ディスカバリー,http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs08
 ナショジオ,http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs10
 ヒストリー,http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs09
 アニマルプラネット,http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs24
