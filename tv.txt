@@ -210,7 +210,8 @@ NOWSPORTSPREMIERLEAGUETV,http://hostengine.live/live/Chelsea10%40/Stamford77%40/
 🇯🇵日本,#genre#
 NHKG,http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gx06
 NHKBS,http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs11
-NHKBS4K,http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs01
+NHKBSP4K,https://tsb-mega.i9.ee/stream/nhkbsp4k_hevc
+NHKBSP4K,http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs01
 NHKGE,http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gx02
 日本テレビ,http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gx04
 TBS,http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gx01
@@ -275,7 +276,7 @@ TOKYOMX,http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=hdgd0
 
 NHKG,https://nl.utako.moe/NHK_G/index.m3u8
 NHKBS,https://nl.utako.moe/NHK_BS/index.m3u8
-NHKBS4K,https://nl.utako.moe/bsp4k/index.m3u8
+NHKBSP4K,https://nl.utako.moe/bsp4k/index.m3u8
 NHKE,https://nl.utako.moe/NHK_E/index.m3u8
 日本テレビ,https://nl.utako.moe/Nippon_TV/index.m3u8
 日本テレビ,https://nl.utako.moe/ytv/index.m3u8
@@ -344,7 +345,7 @@ NHKG,https://cdn.skygo.mn/live/disk1/NHK_World_Premium/HLSv3-FTA/NHK_World_Premi
 
 NHKG,https://nl.utako.moe/NHK_G/tracks-v1a1/mono.ts.m3u8
 NHKBS,https://nl.utako.moe/NHK_BS/tracks-v1a1/mono.ts.m3u8
-NHKBS4K,https://nl.utako.moe/bsp4k/tracks-v1a1/mono.ts.m3u8
+NHKBSP4K,https://nl.utako.moe/bsp4k/tracks-v1a1/mono.ts.m3u8
 NHKE,https://nl.utako.moe/NHK_E/tracks-v1a1/mono.ts.m3u8
 日本テレビ,https://nl.utako.moe/Nippon_TV/tracks-v1a1/mono.ts.m3u8
 日本テレビ,https://nl.utako.moe/ytv/tracks-v1a1/mono.ts.m3u8
@@ -411,7 +412,7 @@ Dlife,https://nl.utako.moe/dlife/tracks-v1a1/mono.ts.m3u8
 NHKGhttps://proxyvn.utako.moe/ph.php?&isp=1&id=hdgd01
 NHKGhttps://proxyvn.utako.moe/ph.php?&isp=1&id=gd01#https://proxyvn.utako.moe/ph.php?&isp=1&id=gx06
 NHKBShttps://proxyvn.utako.moe/ph.php?&isp=1&id=bs11
-NHKBS4Khttps://proxyvn.utako.moe/ph.php?&isp=1&id=bs01
+NHKBSP4Khttps://proxyvn.utako.moe/ph.php?&isp=1&id=bs01
 NHKEhttps://proxyvn.utako.moe/ph.php?&isp=1&id=hdgd02
 NHKEhttps://proxyvn.utako.moe/ph.php?&isp=1&id=gd02
 日本テレビhttps://proxyvn.utako.moe/ph.php?&isp=1&id=hdgd03#https://proxyvn.utako.moe/ph.php?&isp=1&id=gd03#https://proxyvn.utako.moe/ph.php?&isp=1&id=gx04
@@ -484,7 +485,7 @@ NHKG,https://stream1.freetv.fun/9ea86e6b10e0c09b5700edb622c11af0ddb77782952a4c13
 NHKBS,https://stream1.freetv.fun/69ae2a7c0ed79b7b2b6ba5c5005192c6e449a8fba6c65a4f2f83ee315074eb0b.m3u8
 NHKBS,https://stream1.freetv.fun/c3339daf485ee73f559b5fdedc2eeee72a3a88cf887eb80ad61a7fdb5b2fc3e8.m3u8
 NHKBS,https://stream1.freetv.fun/a704121bfdce5f2facc7037b4f5a739f6f273a6f56fc02e55476025114035092.m3u8
-NHKBS4K.https://stream1.freetv.fun/92627d9d60fbc99d7504e9ebfd38ae897e540013450cf53c6ca1e8a1e0910655.m3u8
+NHKBSP4K.https://stream1.freetv.fun/92627d9d60fbc99d7504e9ebfd38ae897e540013450cf53c6ca1e8a1e0910655.m3u8
 NHKE,https://stream1.freetv.fun/46dde149db9600cfbb20b75afc5aa5c14208d6d2361969bcc4c2285cde3d49ab.m3u8
 日本テレビ,https://stream1.freetv.fun/0bde83247cbd49b0816fdee082d93c559a869eb3a89dd78114ce63841cebac72.m3u8
 TBS,https://stream1.freetv.fun/a3130b8eeadf7f8263f26292800fcafa5c4f02c6d2f3c18b4a15eeb337203eb6.m3u8
@@ -518,7 +519,7 @@ NHKG,https://master.nhkworld.jp/nhkworld-tv/playlist/live.m3u8
 
 NHKG,https://stream01.willfonk.com/live_playlist.m3u8?cid=BS291&r=HD&ccode=JP&m=d0:20:20:04:35:cc&t=0d6938cb3dcf4b79848bc1753a59daf1
 NHKBS,https://stream01.willfonk.com/live_playlist.m3u8?cid=BS101&r=HD&ccode=JP&m=d0:20:20:04:35:cc&t=0d6938cb3dcf4b79848bc1753a59daf1
-NHKBS4K,https://stream01.willfonk.com/live_playlist.m3u8?cid=BS103&r=HD&ccode=JP&m=d0:20:20:04:35:cc&t=0d6938cb3dcf4b79848bc1753a59daf1
+NHKBSP4K,https://stream01.willfonk.com/live_playlist.m3u8?cid=BS103&r=HD&ccode=JP&m=d0:20:20:04:35:cc&t=0d6938cb3dcf4b79848bc1753a59daf1
 NHKE,https://stream01.willfonk.com/live_playlist.m3u8?cid=BS292&r=HD&ccode=JP&m=d0:20:20:04:35:cc&t=0d6938cb3dcf4b79848bc1753a59daf1
 日本テレビ,https://stream01.willfonk.com/live_playlist.m3u8?cid=BS294&r=HD&ccode=JP&m=d0:20:20:04:35:cc&t=0d6938cb3dcf4b79848bc1753a59daf1
 TBS,https://stream01.willfonk.com/live_playlist.m3u8?cid=BS296&r=HD&ccode=JP&m=d0:20:20:04:35:cc&t=0d6938cb3dcf4b79848bc1753a59daf1
@@ -571,7 +572,7 @@ NTVNews24,https://stream01.willfonk.com/live_playlist.m3u8?cid=CS349&r=HD&ccode=
 
 NHKG,https://45.58.2.147/live_playlist.m3u8?cid=BS291&r=FHD&ccode=JP&m=d0:20:20:04:35:cc&t=0d6938cb3dcf4b79848bc1753a59daf1
 NHKBS,https://45.58.2.147/live_playlist.m3u8?cid=BS101&r=FHD&ccode=JP&m=d0:20:20:04:35:cc&t=0d6938cb3dcf4b79848bc1753a59daf1
-NHKBS4K,https://45.58.2.147/live_playlist.m3u8?cid=BS103&r=FHD&ccode=JP&m=d0:20:20:04:35:cc&t=0d6938cb3dcf4b79848bc1753a59daf1
+NHKBSP4K,https://45.58.2.147/live_playlist.m3u8?cid=BS103&r=FHD&ccode=JP&m=d0:20:20:04:35:cc&t=0d6938cb3dcf4b79848bc1753a59daf1
 NHKE,https://45.58.2.147/live_playlist.m3u8?cid=BS292&r=FHD&ccode=JP&m=d0:20:20:04:35:cc&t=0d6938cb3dcf4b79848bc1753a59daf1
 日本テレビ,https://45.58.2.147/live_playlist.m3u8?cid=BS294&r=FHD&ccode=JP&m=d0:20:20:04:35:cc&t=0d6938cb3dcf4b79848bc1753a59daf1
 TBS,https://45.58.2.147/live_playlist.m3u8?cid=BS296&r=FHD&ccode=JP&m=d0:20:20:04:35:cc&t=0d6938cb3dcf4b79848bc1753a59daf1
