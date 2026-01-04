@@ -212,7 +212,7 @@ NHKG,http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gx06
 NHKBS,http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs11
 NHKBSP4K,https://tsb-mega.i9.ee/stream/nhkbsp4k_hevc
 NHKBSP4K,http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs01
-NHKGE,http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gx02
+NHKE,http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gx02
 日本テレビ,http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gx04
 TBS,http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gx01
 フジテレビ,http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gx03
