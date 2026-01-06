@@ -210,9 +210,7 @@ NOWSPORTSPREMIERLEAGUETV,http://hostengine.live/live/Chelsea10%40/Stamford77%40/
 🇯🇵日本,#genre#
 NHKG,http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gx06
 NHKBS,http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs11
-NHKBSP4K,https://tsb-mega.i9.ee/stream/nhkbsp4k_hevc
 NHKBSP4K,http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs01
-NHKE,http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gx02
 日本テレビ,http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gx04
 TBS,http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gx01
 フジテレビ,http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gx03
@@ -229,7 +227,6 @@ BSテレ東,http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=b
 アニマルプラネット,http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs24
 旅チャンネル,http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs12
 MONDOTV,http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs21
-
 JCOM,http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs31
 東映,http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs27
 日本映画,http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs23
@@ -262,6 +259,13 @@ BS釣りビジョン,http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m
 日テレG+,http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs02
 TBSNEWS,http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs11
 フジテレビNEXT,http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs26
+
+NHKG,https://zhenix-px.netgenx.site/live_stream/zhenxen/master_playlist/hdgd01
+NHKE,https://zhenix-px.netgenx.site/live_stream/zhenxen/master_playlist/hdgd02
+NHKBSP4K,https://zhenix-px.netgenx.site/live_stream/zhenxen/master_playlist/bs01
+NHKBSP4K,https://tsb-mega.i9.ee/stream/nhkbsp4k_hevc
+富士,https://zhenix-px.netgenx.site/live_stream/zhenxen/master_playlist/hdgd03
+日本,https://zhenix-px.netgenx.site/live_stream/zhenxen/master_playlist/gx04
 
 NHKG,http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=hdgd01
 NHKE,http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=hdgd02
