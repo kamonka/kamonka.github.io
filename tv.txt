@@ -211,6 +211,8 @@ NOWSPORTSPREMIERLEAGUETV,http://hostengine.live/live/Chelsea10%40/Stamford77%40/
 NHKG,http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gx06
 NHKBS,http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs11
 NHKBSP4K,http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs01
+NHKG,http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=hdgd01
+NHKE,http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=hdgd02
 日本テレビ,http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gx04
 TBS,http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gx01
 フジテレビ,http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gx03
@@ -260,15 +262,8 @@ BS釣りビジョン,http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m
 TBSNEWS,http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs11
 フジテレビNEXT,http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs26
 
-NHKG,https://zhenix-px.netgenx.site/live_stream/zhenxen/master_playlist/hdgd01
-NHKE,https://zhenix-px.netgenx.site/live_stream/zhenxen/master_playlist/hdgd02
-NHKBSP4K,https://zhenix-px.netgenx.site/live_stream/zhenxen/master_playlist/bs01
 NHKBSP4K,https://tsb-mega.i9.ee/stream/nhkbsp4k_hevc
-富士,https://zhenix-px.netgenx.site/live_stream/zhenxen/master_playlist/hdgd03
-日本,https://zhenix-px.netgenx.site/live_stream/zhenxen/master_playlist/gx04
 
-NHKG,http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=hdgd01
-NHKE,http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=hdgd02
 日本テレビ,http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=hdgd03
 TBS,http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=hdgd04
 フジテレビ,http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=hdgd05
