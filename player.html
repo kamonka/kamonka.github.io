@@ -15,6 +15,36 @@
       height: 100vh;
       background: #000;
     }
+    /* 增强进度条可见性 */
+    video::-webkit-media-controls-panel {
+      background: rgba(0, 0, 0, 0.7);
+    }
+    video::-webkit-media-controls-timeline {
+      background: #333;
+      height: 10px;
+      border-radius: 5px;
+    }
+    video::-webkit-media-controls-current-time-display,
+    video::-webkit-media-controls-time-remaining-display {
+      color: #fff;
+      font-size: 14px;
+    }
+    video::-webkit-media-controls-play-button,
+    video::-webkit-media-controls-fullscreen-button {
+      filter: brightness(1.5);
+    }
+    /* Firefox 兼容 */
+    video::-moz-range-track {
+      background: #333;
+      height: 10px;
+      border-radius: 5px;
+    }
+    video::-moz-range-thumb {
+      background: #fff;
+      height: 10px;
+      width: 10px;
+      border-radius: 50%;
+    }
   </style>
 </head>
 <body>
