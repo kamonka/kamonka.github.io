@@ -63,6 +63,29 @@
         else if (el.msRequestFullscreen) el.msRequestFullscreen();
       });
     }
+
+    // 添加快捷键功能
+    document.addEventListener('keydown', function(event) {
+      switch(event.key) {
+        case 'ArrowRight':
+          // 快进 10 秒
+          video.currentTime += 10;
+          break;
+        case 'ArrowLeft':
+          // 快退 10 秒
+          video.currentTime -= 10;
+          break;
+        case ' ':
+          // 空格键播放/暂停
+          event.preventDefault(); // 防止页面滚动
+          if (video.paused) {
+            video.play();
+          } else {
+            video.pause();
+          }
+          break;
+      }
+    });
   </script>
 </body>
 </html>
