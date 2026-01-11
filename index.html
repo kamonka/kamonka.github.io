@@ -912,18 +912,17 @@
       col.innerHTML = items.map(item => `
         <div class="media-item">
           <a href="${item.link}" target="_self">
-            <img src="${item.image}" alt="${item.title}" />
+            <img src="${item.image}" alt="${item.title}" loading="lazy" />
           </a>
           <p>${item.title}</p>
         </div>
       `).join("");
     }
 
-    function setupPagination(columnSelector, paginationId, sessionKey) {
+    function setupPagination(columnSelector, paginationId, sessionKey, items) {
       const column = document.querySelector(columnSelector);
-      const items = column.querySelectorAll(".media-item");
       const itemsPerPage = 20;
-      let filteredItems = [...items];
+      let currentPage = parseInt(sessionStorage.getItem(sessionKey)) || 1;
 
       const pagination = document.createElement("div");
       pagination.id = paginationId;
@@ -931,12 +930,23 @@
       column.appendChild(pagination);
 
       function renderPage(page) {
-        filteredItems.forEach((item, i) => {
-          item.style.display = i >= (page - 1) * itemsPerPage && i < page * itemsPerPage ? "inline-block" : "none";
-        });
+        const start = (page - 1) * itemsPerPage;
+        const end = start + itemsPerPage;
+        const pageItems = items.slice(start, end);
+
+        column.innerHTML = pageItems.map(item => `
+          <div class="media-item">
+            <a href="${item.link}" target="_self">
+              <img src="${item.image}" alt="${item.title}" loading="lazy" />
+            </a>
+            <p>${item.title}</p>
+          </div>
+        `).join("");
+
+        column.appendChild(pagination);
 
         pagination.innerHTML = "";
-        const totalPages = Math.ceil(filteredItems.length / itemsPerPage);
+        const totalPages = Math.ceil(items.length / itemsPerPage);
 
         const prev = document.createElement("button");
         prev.textContent = "上一页";
@@ -970,14 +980,12 @@
         sessionStorage.setItem(sessionKey, page);
       }
 
-      renderPage(parseInt(sessionStorage.getItem(sessionKey)) || 1);
+      renderPage(currentPage);
     }
 
     window.addEventListener("DOMContentLoaded", () => {
-      renderItems("left-column", leftItems);
-      renderItems("right-column", rightItems);
-      setupPagination("#left-column", "pagination-left", "currentPageLeft");
-      setupPagination("#right-column", "pagination-right", "currentPageRight");
+      setupPagination("#left-column", "pagination-left", "currentPageLeft", leftItems);
+      setupPagination("#right-column", "pagination-right", "currentPageRight", rightItems);
     });
   </script>
 </body>
