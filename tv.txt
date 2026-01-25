@@ -6,6 +6,20 @@ BBC,http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs15
 BBC,http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs15&isp=4
 CNN,http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs16&isp=4
 
+BBC,http://gi6.1ott.club:8080/gqQciW1qgK/sjcyqgX3wQ/177454
+BBC,http://gi6.1ott.club:8080/gqQciW1qgK/sjcyqgX3wQ/14999
+BBC,http://gi6.1ott.club:8080/gqQciW1qgK/sjcyqgX3wQ/312110
+SKYNEWS,http://gi6.1ott.club:8080/gqQciW1qgK/sjcyqgX3wQ/177453
+SKYNEWS,http://gi6.1ott.club:8080/gqQciW1qgK/sjcyqgX3wQ/177452
+SKYNEWS,http://gi6.1ott.club:8080/gqQciW1qgK/sjcyqgX3wQ/1256
+EURONEWS,http://gi6.1ott.club:8080/gqQciW1qgK/sjcyqgX3wQ/177447
+CNN,http://gi6.1ott.club:8080/gqQciW1qgK/sjcyqgX3wQ/73489
+CNN,http://gi6.1ott.club:8080/gqQciW1qgK/sjcyqgX3wQ/626907
+CNN,http://gi6.1ott.club:8080/gqQciW1qgK/sjcyqgX3wQ/177437
+CNBCEUROPE,http://gi6.1ott.club:8080/gqQciW1qgK/sjcyqgX3wQ/134443
+CNBCNEWS,http://gi6.1ott.club:8080/gqQciW1qgK/sjcyqgX3wQ/177444
+FOXNEWS,http://gi6.1ott.club:8080/gqQciW1qgK/sjcyqgX3wQ/177448
+
 半岛新闻,https://live-hls-aje-ak.getaj.net/AJE/01.m3u8
 半岛新闻,https://live-hls-web-aja.getaj.net/AJA/01.m3u8
 
@@ -15,6 +29,7 @@ CNN,http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs16&isp=
 朝鲜中央台,https://tv.nknews.org/tvdash/stream.mpd
 朝鲜中央台,https://tv.nknews.org/tvdash/stream-43963200.m4a
 
+印度新闻,http://gi6.1ott.club:8080/gqQciW1qgK/sjcyqgX3wQ/177450
 印度新闻,https://ndtv24x7elemarchana.akamaized.net/hls/live/2003678/ndtv24x7/master.m3u8
 泰国公视,https://thaipbs-live.cdn.byteark.com/live/playlist_1080p/index.m3u8
 叙利亚新闻,https://svs.itworkscdn.net/syriatvlive/syriatv.smil/syriatvpublish/syriatv_source/chunks_dvr.m3u8
@@ -53,6 +68,25 @@ Now新闻,http://cdn.163189.xyz/163189/now
 凤凰资讯,http://php.jdshipin.com/TVOD/iptv.php?id=fhzx2
 
 🇺🇸欧美综合,#genre#
+BBC1,http://gi6.1ott.club:8080/gqQciW1qgK/sjcyqgX3wQ/15054
+BBC1,http://gi6.1ott.club:8080/gqQciW1qgK/sjcyqgX3wQ/1251
+BBC1,http://gi6.1ott.club:8080/gqQciW1qgK/sjcyqgX3wQ/150657
+BBC2,http://gi6.1ott.club:8080/gqQciW1qgK/sjcyqgX3wQ/15053
+BBC2,http://gi6.1ott.club:8080/gqQciW1qgK/sjcyqgX3wQ/1252
+BBC2,http://gi6.1ott.club:8080/gqQciW1qgK/sjcyqgX3wQ/150647
+ITV1,http://gi6.1ott.club:8080/gqQciW1qgK/sjcyqgX3wQ/15050
+ITV1,http://gi6.1ott.club:8080/gqQciW1qgK/sjcyqgX3wQ/1263
+ITV1+1,http://gi6.1ott.club:8080/gqQciW1qgK/sjcyqgX3wQ/150643
+ITV2,http://gi6.1ott.club:8080/gqQciW1qgK/sjcyqgX3wQ/15049
+ITV2,http://gi6.1ott.club:8080/gqQciW1qgK/sjcyqgX3wQ/1264
+ITV2+1,http://gi6.1ott.club:8080/gqQciW1qgK/sjcyqgX3wQ/150642
+ITV3,http://gi6.1ott.club:8080/gqQciW1qgK/sjcyqgX3wQ/15048
+ITV3,http://gi6.1ott.club:8080/gqQciW1qgK/sjcyqgX3wQ/1265
+ITV3+1,http://gi6.1ott.club:8080/gqQciW1qgK/sjcyqgX3wQ/150639
+ITV4,http://gi6.1ott.club:8080/gqQciW1qgK/sjcyqgX3wQ/15047
+ITV4,http://gi6.1ott.club:8080/gqQciW1qgK/sjcyqgX3wQ/1266
+ITV4+1,http://gi6.1ott.club:8080/gqQciW1qgK/sjcyqgX3wQ/150637
+
 BBC1,http://hostengine.live/live/Chelsea10%40/Stamford77%40/53842.m3u
 BBC1,http://hostengine.live/live/Chelsea10@/Stamford77@/204633.m3u
 BBC2,http://hostengine.live/live/Chelsea10%40/Stamford77%40/53838.m3u
