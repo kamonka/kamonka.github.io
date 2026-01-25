@@ -32,6 +32,7 @@ CNN,https://stream01.willfonk.com/live_playlist.m3u8?cid=CS354&r=HD&ccode=JP&m=d
 
 🇹🇼台港新闻,#genre#
 镜新闻,https://d36dgdk71xuzzg.cloudfront.net/v1/manifest/3a2ac8e6b6c76471996ebf627393d9c9417a60b6/linetv-6-627778910172-MediaTailor-production/c9b2313d-efdd-4777-9fae-573be8a86755/0.m3u8
+镜新闻,http://rihou.cc:555/tv/[Hk]%E9%97%BD%E9%95%9C%E6%96%B0%E9%97%BB
 东森新闻,http://156.238.248.80/2099.php?id=880
 中天新闻,http://free.cnlive.club/channel/41d8a09d/index.m3u8?q=1760217407316
 民视新闻,http://165.154.226.214:50007/li-litv-ftv13/index.m3u8?proxy=true
@@ -155,7 +156,36 @@ SUNDANCE,http://hardcoremedia.xyz:80/6jTFRmvaSp/7534936344/129957
 
 🇧🇮娱乐综艺#genre#
 
-🇲🇾影视剧,#genre#
+🇲🇾影视娱乐,#genre#
+爱奇艺,https://o11.163189.xyz/stream/live/iqiyi/
+美亚电影,https://cdn9.163189.xyz/smt1.1.php?id=meiyamovie_twn
+美亚电影,https://cdn9.163189.xyz/smt3.1.1.php?id=meiyamovie_twn
+美亚电影,https://smt.1678520.xyz/smt3.2.1.php?id=meiyamovie_twn
+Astro欢喜,https://cdn9.163189.xyz/smt3.1.1.php?id=Huahee
+Astr,https://cdn9.163189.xyz/smt1.1.php?id=Huahee
+Astr,http://php.jdshipin.com:8880/smt.php?id=Huahee
+AstrQJ,https://cdn9.163189.xyz/smt3.1.1.php?id=Quanjia
+AstrQJ,http://php.jdshipin.com:8880/smt.php?id=Quanjia
+AstrQJ,https://cdn9.163189.xyz/smt1.1.php?id=Quanjia
+AstrAeC,https://cdn9.163189.xyz/smt1.1.php?id=AEC
+AstrAeC,http://php.jdshipin.com:8880/smt.php?id=AEC
+AstrAeC,https://cdn9.163189.xyz/smt3.1.1.php?id=AEC
+AstrAoD,https://cdn9.163189.xyz/smt1.1.php?id=Aodhd
+AstrAoD,http://php.jdshipin.com:8880/smt.php?id=Aodhd
+AstrAoD,https://cdn9.163189.xyz/smt3.1.1.php?id=Aodhd
+Astr欢喜,https://smt.1678520.xyz/smt3.2.1.php?id=Huahee
+爱奇艺,http://php.jdshipin.com:8880/smt.php?id=Qiyi
+爱奇艺,https://cdn9.163189.xyz/smt3.1.1.php?id=Qiyi
+爱奇艺,https://cdn9.163189.xyz/smt1.1.php?id=Qiyi
+SPOTV,http://iptv.4666888.xyz/iptv2A.php?id=星空卫视
+天映经典,https://smt.1678520.xyz/smt3.2.1.php?id=Celestial2
+天映经典,https://cdn9.163189.xyz/smt3.1.1.php?id=Celestial2
+天映经典,https://cdn9.163189.xyz/smt1.1.php?id=Celestial2
+天映经典,http://php.jdshipin.com:8880/smt.php?id=Celestial2
+天映频道,http://php.jdshipin.com:8880/smt.php?id=Celestial
+天映频道,https://cdn9.163189.xyz/smt3.1.1.php?id=Celestial
+天映频道,https://smt.1678520.xyz/smt3.2.1.php?id=Celestial
+天映频道,https://cdn9.163189.xyz/smt1.1.php?id=Celestial
 HBO,http://nn.7x9d.cn/jd/mk11.php?ip=60.250.121.103:1888&id=live1029
 AXN,http://nn.7x9d.cn/jd/mk11.php?ip=60.250.121.103:1888&id=live1054
 CINEMAX,http://nn.7x9d.cn/jd/mk11.php?ip=60.250.121.103:1888&id=live1030
