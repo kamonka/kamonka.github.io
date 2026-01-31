@@ -29,6 +29,8 @@ FOXNEWS,http://gi6.1ott.club:8080/gqQciW1qgK/sjcyqgX3wQ/177448
 朝鲜中央台,https://tv.nknews.org/tvdash/stream.mpd
 朝鲜中央台,https://tv.nknews.org/tvdash/stream-43963200.m4a
 
+乌克兰新闻,http://europe.siriusfiber.xyz:80/live/cengiz63/Vip34/868953.ts
+俄罗斯新闻,http://europe.siriusfiber.xyz:80/live/cengiz63/Vip34/867021.ts
 印度新闻,http://gi6.1ott.club:8080/gqQciW1qgK/sjcyqgX3wQ/177450
 印度新闻,https://ndtv24x7elemarchana.akamaized.net/hls/live/2003678/ndtv24x7/master.m3u8
 泰国公视,https://thaipbs-live.cdn.byteark.com/live/playlist_1080p/index.m3u8
@@ -37,7 +39,7 @@ FOXNEWS,http://gi6.1ott.club:8080/gqQciW1qgK/sjcyqgX3wQ/177448
 以色列新闻,https://bcovlive-a.akamaihd.net/d89ede8094c741b7924120b27764153c/eu-central-1/5377161796001/profile_0/chunklist.m3u8#https://ch14-channel14-content.akamaized.net/hls/live/2104807/CH14_CHANNEL14/2/streamPlaylist.m3u8#https://kan11.media.kan.org.il/hls/live/2024514/2024514/source1_4k/chunklist.m3u8
 巴勒斯坦新闻,https://pbc.furrera.ps/palestinehd/tracks-v1a1/mono.m3u8
 真主党新闻,https://edge.fastpublish.me/live/tracks-v1a1/mono.m3u8#https://mdnlv.cdn.octivid.com/almdn/smil:mpegts.stream.smil/chunklist_b3000000_t64NTQwcA==.m3u8
-伊朗新闻,https://live2.alalam.ir/live/Alalam/index.m3u8#https://live-azd1102.telewebion.com/ek/irinn/live/1080p/index.m3u8
+伊朗新闻,http://kdr.376869.xyz:8080/mehmet39045/8JaJprJXk4/324472#https://live2.alalam.ir/live/Alalam/index.m3u8#https://live-azd1102.telewebion.com/ek/irinn/live/1080p/index.m3u8#http://kdr.376869.xyz:8080/mehmet39045/8JaJprJXk4/324473
 土耳其之声,https://tv-trtworld.medya.trt.com.tr/master_1080.m3u8#http://185.243.7.13:80/play/live.php?mac=00:1A:79:45:5E:9A&stream=912481&extension=ts&play_token=IjiQbejkVi#https://tv-trtworld.live.trt.com.tr/master.m3u8#http://polileec.top:8080/live/51669029250897053/2241669029250897/7926.ts
 
 彭博新闻,https://bloomberg-bloombergtv-1-it.samsung.wurl.com/manifest/index.m3u8#https://bloomberg-bloombergtv-1-es.samsung.wurl.com/manifest/playlist.m3u8#http://198.16.64.10:8278/bloomberg_twn/playlist.m3u8?cid=MD2D8088860380888603&ct=19225&tsum=ea1c6a2c09cef99386e1768a4ff4c61c
@@ -111,15 +113,15 @@ ITV2,https://pixman.mytvsuper.com.mp/Smart.php?id=itv2_antik
 ITV2,https://sib.sld.tw/Smart.php?id=itv2_antik
 ITV1,https://sib.sld.tw/Smart.php?id=itv1_antik
 
-ABC,http://jwesyke.mmastertv.xyz:80/9733876395/7682637868/13526#http://jwesyke.mmastertv.xyz:80/9733876395/7682637868/183411
-NBC,http://jwesyke.mmastertv.xyz:80/9733876395/7682637868/378792
-CBS,http://jwesyke.mmastertv.xyz:80/9733876395/7682637868/212514
-FOX,http://jwesyke.mmastertv.xyz:80/9733876395/7682637868/183502
+ABC,http://mh.smpy24.live:80/6smkto4a4e/rtwev2gfqd/286353
+NBC,http://mh.smpy24.live:80/6smkto4a4e/rtwev2gfqd/11170
+CBS,http://mh.smpy24.live:80/6smkto4a4e/rtwev2gfqd/279303
+FOX,http://mh.smpy24.live:80/6smkto4a4e/rtwev2gfqd/76519
 BBC1,http://jwesyke.mmastertv.xyz:80/9733876395/7682637868/153624#http://jwesyke.mmastertv.xyz:80/9733876395/7682637868/400496850
 BBC2,http://jwesyke.mmastertv.xyz:80/9733876395/7682637868/153625#http://jwesyke.mmastertv.xyz:80/9733876395/7682637868/14102
-TF1,http://jwesyke.mmastertv.xyz:80/9733876395/7682637868/561
-ITV1,http://jwesyke.mmastertv.xyz:80/9733876395/7682637868/191155
-ZDF,http://jwesyke.mmastertv.xyz:80/9733876395/7682637868/164259#http://jwesyke.mmastertv.xyz:80/9733876395/7682637868/400204972
+TF1,http://mh.smpy24.live:80/6smkto4a4e/rtwev2gfqd/148461
+ITV1,http://mh.smpy24.live:80/6smkto4a4e/rtwev2gfqd/10574
+ZDF,http://mh.smpy24.live:80/6smkto4a4e/rtwev2gfqd/267878
 
 ABC,http://supersonictv.live:8080/roelle0923/roelle0923/22041
 NBC,http://supersonictv.live:8080/roelle0923/roelle0923/22126
@@ -245,11 +247,15 @@ ComedyCentral,http://cistakosuza.petica.info:80/Marina1KZ/ubxfvM6dQ7/69752
 🇲🇾新马泰印#genre#
 
 🇯🇲体育,#genre#
-TORO,http://royalibox.com:80/play/live.php?mac=00:1A:79:B8:4F:91&stream=524044&extension=ts&play_token=oGqBN1G1p4
-TORO,http://royalibox.com:80/play/live.php?mac=00:1A:79:B8:4F:91&stream=294175&extension=ts&play_token=WrrPnAciSY
-TORO,http://royalibox.com:80/play/live.php?mac=00:1A:79:B8:4F:91&stream=9068&extension=ts&play_token=scuuf7nNu3
-TORO,
-TORO,
+TOSO,http://ip.sltv.be:8080/Qv4XPzVKM9/7jgT1M4tYk/136662
+TORO,http://mh.smpy24.live:80/6smkto4a4e/rtwev2gfqd/524044
+TORO,http://mh.smpy24.live:80/6smkto4a4e/rtwev2gfqd/294175
+TORO,http://mh.smpy24.live:80/6smkto4a4e/rtwev2gfqd/295627
+TORO,http://mh.smpy24.live:80/6smkto4a4e/rtwev2gfqd/9068
+TORO,http://mh.smpy24.live:80/6smkto4a4e/rtwev2gfqd/1174114
+TORO,http://europe.siriusfiber.xyz:80/live/cengiz63/Vip34/869416.ts
+TORO,http://kdr.376869.xyz:8080/mehmet39045/8JaJprJXk4/382409#http://kdr.376869.xyz:8080/mehmet39045/8JaJprJXk4/382504#http://kdr.376869.xyz:8080/mehmet39045/8JaJprJXk4/382524
+TORO,http://metropolvip.xyz:2086/metpol9117dvck/37lcSI3naN/189388
 
 日本摔跤格斗,https://vthanh.utako.moe/fighting_tv/index.m3u8
 日本女子摔跤,http://lxajh.top/tv/douyu.php?id=425809
@@ -1032,3 +1038,4 @@ CCTV15,http://nn.7x9d.cn/xzc2.php?ua=TW96aWxsYS81LjAgKFdpbmRvd3MgTlQgNi4xOyBXaW4
 ASIAN,http://fortv.cc:8080/50572575/50572575/215583#http://nocable.cc:8080/sisnboyz9295@gmail.com/sisnboyz9295@2025/215465#http://xxip9.top:8080/live/89394807/89394807/160011.ts#http://fortv.cc:8080/50572575/50572575/160011#http://fortv.cc:8080/50572575/50572575/160026#http://fortv.cc:8080/50572575/50572575/215465
 MASSAGEROOM,http://xxip9.top:8080/live/89394807/89394807/160010.ts#http://xxip9.top:8080/live/LaLa34@yahoo.com/LaLa7678/160010.ts
 MODELMEDIAASIA,http://nocable.cc:8080/sisnboyz9295@gmail.com/sisnboyz9295@2025/160011
+PLAYBOY,http://markatv14.xyz:80/live/irfany./qvvVdCma66/834622.ts
