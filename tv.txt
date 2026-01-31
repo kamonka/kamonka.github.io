@@ -70,24 +70,15 @@ Now新闻,http://cdn.163189.xyz/163189/now
 凤凰资讯,http://php.jdshipin.com/TVOD/iptv.php?id=fhzx2
 
 🇺🇸欧美综合,#genre#
-BBC1,http://gi6.1ott.club:8080/gqQciW1qgK/sjcyqgX3wQ/15054
-BBC1,http://gi6.1ott.club:8080/gqQciW1qgK/sjcyqgX3wQ/1251
-BBC1,http://gi6.1ott.club:8080/gqQciW1qgK/sjcyqgX3wQ/150657
-BBC2,http://gi6.1ott.club:8080/gqQciW1qgK/sjcyqgX3wQ/15053
-BBC2,http://gi6.1ott.club:8080/gqQciW1qgK/sjcyqgX3wQ/1252
-BBC2,http://gi6.1ott.club:8080/gqQciW1qgK/sjcyqgX3wQ/150647
-ITV1,http://gi6.1ott.club:8080/gqQciW1qgK/sjcyqgX3wQ/15050
-ITV1,http://gi6.1ott.club:8080/gqQciW1qgK/sjcyqgX3wQ/1263
-ITV1+1,http://gi6.1ott.club:8080/gqQciW1qgK/sjcyqgX3wQ/150643
-ITV2,http://gi6.1ott.club:8080/gqQciW1qgK/sjcyqgX3wQ/15049
-ITV2,http://gi6.1ott.club:8080/gqQciW1qgK/sjcyqgX3wQ/1264
-ITV2+1,http://gi6.1ott.club:8080/gqQciW1qgK/sjcyqgX3wQ/150642
-ITV3,http://gi6.1ott.club:8080/gqQciW1qgK/sjcyqgX3wQ/15048
-ITV3,http://gi6.1ott.club:8080/gqQciW1qgK/sjcyqgX3wQ/1265
-ITV3+1,http://gi6.1ott.club:8080/gqQciW1qgK/sjcyqgX3wQ/150639
-ITV4,http://gi6.1ott.club:8080/gqQciW1qgK/sjcyqgX3wQ/15047
-ITV4,http://gi6.1ott.club:8080/gqQciW1qgK/sjcyqgX3wQ/1266
-ITV4+1,http://gi6.1ott.club:8080/gqQciW1qgK/sjcyqgX3wQ/150637
+BBC1,http://ip.sltv.be:8080/Qv4XPzVKM9/7jgT1M4tYk/234307
+BBC1,http://ip.sltv.be:8080/Qv4XPzVKM9/7jgT1M4tYk/234308
+BBC2,http://ip.sltv.be:8080/Qv4XPzVKM9/7jgT1M4tYk/234310
+BBC2,http://ip.sltv.be:8080/Qv4XPzVKM9/7jgT1M4tYk/234311
+ITV1,http://ip.sltv.be:8080/Qv4XPzVKM9/7jgT1M4tYk/234288
+ITV2,http://ip.sltv.be:8080/Qv4XPzVKM9/7jgT1M4tYk/234291
+ZDF,http://ip.sltv.be:8080/Qv4XPzVKM9/7jgT1M4tYk/377340
+FOX,http://ip.sltv.be:8080/Qv4XPzVKM9/7jgT1M4tYk/493795
+CNBC,http://ip.sltv.be:8080/Qv4XPzVKM9/7jgT1M4tYk/633380
 
 ITV1,https://pixman.mytvsuper.com.mp/Smart.php?id=itv1_antik
 ITV2,https://pixman.mytvsuper.com.mp/Smart.php?id=itv2_antik
@@ -115,35 +106,12 @@ ViuTV6,https://cdn9.163189.xyz/smt1.1.php?id=viusix_twn
 鳯凰卫视,https://cdn6.101.qzz.io/163189/fhzw
 
 🇯🇪纪实人文,#genre#
-探索频道,http://nn.7x9d.cn/jd/mk11.php?ip=60.250.121.103:1888&id=live1002
-旅游生活,http://nn.7x9d.cn/jd/mk11.php?ip=60.250.121.103:1888&id=live1005
-动物星球,http://nn.7x9d.cn/jd/mk11.php?ip=60.250.121.103:1888&id=live1004
-亚洲旅游,http://nn.7x9d.cn/jd/mk11.php?ip=60.250.121.103:1888&id=live1219
-纬来日本,http://nn.7x9d.cn/jd/mk11.php?ip=60.250.121.103:1888&id=live1026
-宠物频道,http://nn.7x9d.cn/jd/mk11.php?ip=60.250.121.103:1888&id=live1040
-探索频道,http://nn.7x9d.cn/jd/mk11.php?ip=123.51.229.128:1888&id=live1002
-旅游生活,http://nn.7x9d.cn/jd/mk11.php?ip=123.51.229.128:1888&id=live1005
-动物星球,http://nn.7x9d.cn/jd/mk11.php?ip=123.51.229.128:1888&id=live1004
-亚洲旅游,http://nn.7x9d.cn/jd/mk11.php?ip=123.51.229.128:1888&id=live1219
-探索频道,http://nn.7x9d.cn/jd/mk11.php?ip=123.51.149.68:1888&id=live1002
-旅游生活,http://nn.7x9d.cn/jd/mk11.php?ip=123.51.149.68:1888&id=live1005
-动物星球,http://nn.7x9d.cn/jd/mk11.php?ip=123.51.149.68:1888&id=live1004
-亚洲旅游,http://nn.7x9d.cn/jd/mk11.php?ip=123.51.149.68:1888&id=live1219
-探索频道,http://nn.7x9d.cn/jd/mk11.php?ip=61.216.26.165:1888&id=live1002
-旅游生活,http://nn.7x9d.cn/jd/mk11.php?ip=61.216.26.165:1888&id=live1005
-动物星球,http://nn.7x9d.cn/jd/mk11.php?ip=61.216.26.165:1888&id=live1004
-亚洲旅游,http://nn.7x9d.cn/jd/mk11.php?ip=61.216.26.165:1888&id=live1219
-纬来日本,http://nn.7x9d.cn/jd/mk11.php?ip=61.216.26.165:1888&id=live1026
-宠物频道,http://nn.7x9d.cn/jd/mk11.php?ip=61.216.26.165:1888&id=live1040
-
-DISCOVERY,http://hostengine.live/live/Chelsea10%40/Stamford77%40/53435.m3u
-NGO,http://hostengine.live/live/Chelsea10%40/Stamford77%40/53362.m3u
-NGOWild,http://hostengine.live/live/Chelsea10%40/Stamford77%40/53363.m3u
-HISTORY,http://hostengine.live/live/Chelsea10%40/Stamford77%40/53376.m3u
-HISTORY,http://hostengine.live/live/Chelsea10%40/Stamford77%40/53971.m3u
-A&E,http://hostengine.live/live/Chelsea10%40/Stamford77%40/53434.m3u
-ZDF纪录片,http://hostengine.live/live/Chelsea10%40/Stamford77%40/275030.m3u
-SKY纪录片,http://hostengine.live/live/Chelsea10%40/Stamford77%40/53970.m3u
+DISCOVERY,http://ip.sltv.be:8080/Qv4XPzVKM9/7jgT1M4tYk/234544
+NGO,http://ip.sltv.be:8080/Qv4XPzVKM9/7jgT1M4tYk/234563#http://ip.sltv.be:8080/Qv4XPzVKM9/7jgT1M4tYk/177502
+HISTORY,http://ip.sltv.be:8080/Qv4XPzVKM9/7jgT1M4tYk/234549
+HISTORY,http://ip.sltv.be:8080/Qv4XPzVKM9/7jgT1M4tYk/382447
+ZDF纪录片,http://ip.sltv.be:8080/Qv4XPzVKM9/7jgT1M4tYk/377339
+SKY纪录片,http://ip.sltv.be:8080/Qv4XPzVKM9/7jgT1M4tYk/378506
 
 DISCOVERY,http://nocable.cc:8080/5AGbfz/324331/46720#http://nocable.cc:8080/5AGbfz/324331/9811
 DISCOVERY,http://nocable.cc:8080/5AGbfz/324331/53684
@@ -224,7 +192,6 @@ TORO,http://mh.smpy24.live:80/6smkto4a4e/rtwev2gfqd/294175
 TORO,http://mh.smpy24.live:80/6smkto4a4e/rtwev2gfqd/295627
 TORO,http://mh.smpy24.live:80/6smkto4a4e/rtwev2gfqd/9068
 TORO,http://mh.smpy24.live:80/6smkto4a4e/rtwev2gfqd/1174114
-TORO,
 
 日本摔跤格斗,https://vthanh.utako.moe/fighting_tv/index.m3u8
 日本女子摔跤,http://lxajh.top/tv/douyu.php?id=425809
