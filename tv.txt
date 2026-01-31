@@ -94,21 +94,11 @@ ITV2,https://pixman.mytvsuper.com.mp/Smart.php?id=itv2_antik
 ITV2,https://sib.sld.tw/Smart.php?id=itv2_antik
 ITV1,https://sib.sld.tw/Smart.php?id=itv1_antik
 
-ABC,http://mh.smpy24.live:80/6smkto4a4e/rtwev2gfqd/286353
-NBC,http://mh.smpy24.live:80/6smkto4a4e/rtwev2gfqd/11170
-CBS,http://mh.smpy24.live:80/6smkto4a4e/rtwev2gfqd/279303
-FOX,http://mh.smpy24.live:80/6smkto4a4e/rtwev2gfqd/76519
-TF1,http://mh.smpy24.live:80/6smkto4a4e/rtwev2gfqd/148461
-ITV1,http://mh.smpy24.live:80/6smkto4a4e/rtwev2gfqd/10574
-ZDF,http://mh.smpy24.live:80/6smkto4a4e/rtwev2gfqd/267878
+ITV1,http://ip.sltv.be:8080/Qv4XPzVKM9/7jgT1M4tYk/234288
+ZDF,http://ip.sltv.be:8080/Qv4XPzVKM9/7jgT1M4tYk/132827
 
-ABC,http://supersonictv.live:8080/roelle0923/roelle0923/22041
-NBC,http://supersonictv.live:8080/roelle0923/roelle0923/22126
-CBS,http://supersonictv.live:8080/SLIM23/SARASOTA14/22062
-FOX,http://supersonictv.live:8080/roelle0923/roelle0923/22086
-ZDF,http://supersonictv.live:8080/roelle0923/roelle0923/84702
-
-CNBC,http://125.227.210.55:8152/VideoInput/play.ts
+FOX,http://global3b.xyz:8080/ur0A62qyMjAqS/eQmAnkZawdz31/443554
+ABC,http://global3b.xyz:8080/fCp5RW544pWDD07p5/bE1HUTKPGC2x/443741
 
 🇭🇰台港综合,#genre#
 台视,http://165.154.226.214:50007/li-4gtv-4gtv066/index.m3u8?proxy=true
