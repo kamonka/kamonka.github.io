@@ -29,8 +29,8 @@ FOXNEWS,http://gi6.1ott.club:8080/gqQciW1qgK/sjcyqgX3wQ/177448
 朝鲜中央台,https://tv.nknews.org/tvdash/stream.mpd
 朝鲜中央台,https://tv.nknews.org/tvdash/stream-43963200.m4a
 
-乌克兰新闻,http://europe.siriusfiber.xyz:80/live/cengiz63/Vip34/868953.ts
-俄罗斯新闻,http://europe.siriusfiber.xyz:80/live/cengiz63/Vip34/867021.ts
+乌克兰新闻,
+俄罗斯新闻,
 印度新闻,http://gi6.1ott.club:8080/gqQciW1qgK/sjcyqgX3wQ/177450
 印度新闻,https://ndtv24x7elemarchana.akamaized.net/hls/live/2003678/ndtv24x7/master.m3u8
 泰国公视,https://thaipbs-live.cdn.byteark.com/live/playlist_1080p/index.m3u8
@@ -89,25 +89,6 @@ ITV4,http://gi6.1ott.club:8080/gqQciW1qgK/sjcyqgX3wQ/15047
 ITV4,http://gi6.1ott.club:8080/gqQciW1qgK/sjcyqgX3wQ/1266
 ITV4+1,http://gi6.1ott.club:8080/gqQciW1qgK/sjcyqgX3wQ/150637
 
-BBC1,http://hostengine.live/live/Chelsea10%40/Stamford77%40/53842.m3u
-BBC1,http://hostengine.live/live/Chelsea10@/Stamford77@/204633.m3u
-BBC2,http://hostengine.live/live/Chelsea10%40/Stamford77%40/53838.m3u
-ITV1,http://hostengine.live/live/Chelsea10%40/Stamford77%40/53909.m3u
-ITV2,http://hostengine.live/live/Chelsea10%40/Stamford77%40/53911.m3u
-TF1,http://hostengine.live/live/Chelsea10%40/Stamford77%40/287897.m3u
-ZDF,http://hostengine.live/live/Chelsea10%40/Stamford77%40/275028.m3u
-ABC,http://hostengine.live/live/Chelsea10%40/Stamford77%40/54062.m3u
-NBC,http://hostengine.live/live/Chelsea10%40/Stamford77%40/54416.m3u
-CBS,http://hostengine.live/live/Chelsea10%40/Stamford77%40/54143.m3u
-CBS,http://hostengine.live/live/Chelsea10@/Stamford77@/119056.m3u
-CBS,http://hostengine.live/live/733799583/636539275/54123.m3u
-FOX,http://hostengine.live/live/Chelsea10%40/Stamford77%40/54252.m3u
-FOX,http://hostengine.live/live/Chelsea10@/Stamford77@/119066.m3u
-CNBC,http://hostengine.live/live/Chelsea10%40/Stamford77%40/53418.m3u
-
-BBC1,https://webhop.live:443/live/Naufal24/NN96550633/148219.ts
-BBC2,https://webhop.live:443/live/Naufal24/NN96550633/148218.ts
-
 ITV1,https://pixman.mytvsuper.com.mp/Smart.php?id=itv1_antik
 ITV2,https://pixman.mytvsuper.com.mp/Smart.php?id=itv2_antik
 ITV2,https://sib.sld.tw/Smart.php?id=itv2_antik
@@ -117,8 +98,6 @@ ABC,http://mh.smpy24.live:80/6smkto4a4e/rtwev2gfqd/286353
 NBC,http://mh.smpy24.live:80/6smkto4a4e/rtwev2gfqd/11170
 CBS,http://mh.smpy24.live:80/6smkto4a4e/rtwev2gfqd/279303
 FOX,http://mh.smpy24.live:80/6smkto4a4e/rtwev2gfqd/76519
-BBC1,http://jwesyke.mmastertv.xyz:80/9733876395/7682637868/153624#http://jwesyke.mmastertv.xyz:80/9733876395/7682637868/400496850
-BBC2,http://jwesyke.mmastertv.xyz:80/9733876395/7682637868/153625#http://jwesyke.mmastertv.xyz:80/9733876395/7682637868/14102
 TF1,http://mh.smpy24.live:80/6smkto4a4e/rtwev2gfqd/148461
 ITV1,http://mh.smpy24.live:80/6smkto4a4e/rtwev2gfqd/10574
 ZDF,http://mh.smpy24.live:80/6smkto4a4e/rtwev2gfqd/267878
@@ -247,15 +226,15 @@ ComedyCentral,http://cistakosuza.petica.info:80/Marina1KZ/ubxfvM6dQ7/69752
 🇲🇾新马泰印#genre#
 
 🇯🇲体育,#genre#
-TOSO,http://ip.sltv.be:8080/Qv4XPzVKM9/7jgT1M4tYk/136662
+TORO,http://ip.sltv.be:8080/Qv4XPzVKM9/7jgT1M4tYk/136662
+TORO,http://kdr.376869.xyz:8080/mehmet39045/8JaJprJXk4/382409#http://kdr.376869.xyz:8080/mehmet39045/8JaJprJXk4/382504#http://kdr.376869.xyz:8080/mehmet39045/8JaJprJXk4/382524
+TORO,http://metropolvip.xyz:2086/metpol9117dvck/37lcSI3naN/189388
 TORO,http://mh.smpy24.live:80/6smkto4a4e/rtwev2gfqd/524044
 TORO,http://mh.smpy24.live:80/6smkto4a4e/rtwev2gfqd/294175
 TORO,http://mh.smpy24.live:80/6smkto4a4e/rtwev2gfqd/295627
 TORO,http://mh.smpy24.live:80/6smkto4a4e/rtwev2gfqd/9068
 TORO,http://mh.smpy24.live:80/6smkto4a4e/rtwev2gfqd/1174114
-TORO,http://europe.siriusfiber.xyz:80/live/cengiz63/Vip34/869416.ts
-TORO,http://kdr.376869.xyz:8080/mehmet39045/8JaJprJXk4/382409#http://kdr.376869.xyz:8080/mehmet39045/8JaJprJXk4/382504#http://kdr.376869.xyz:8080/mehmet39045/8JaJprJXk4/382524
-TORO,http://metropolvip.xyz:2086/metpol9117dvck/37lcSI3naN/189388
+TORO,
 
 日本摔跤格斗,https://vthanh.utako.moe/fighting_tv/index.m3u8
 日本女子摔跤,http://lxajh.top/tv/douyu.php?id=425809
