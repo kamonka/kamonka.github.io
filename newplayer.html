@@ -3,294 +3,180 @@
 <head>
   <meta charset="UTF-8">
   <meta name="referrer" content="no-referrer">
-  <title>今晚看什么 - 测试版</title>
-  <link rel="shortcut icon" href="https://jyjdsg.dpdns.org/favicon.ico"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>今晚看什么 - 播放器</title>
+  <link rel="shortcut icon" href="https://jyjdsg.dpdns.org/favicon.ico">
+  <!-- Artplayer CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/artplayer/dist/artplayer.css">
   <style>
-    html, body {
+    * {
       margin: 0;
-      background: #000;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    html, body {
+      width: 100%;
       height: 100%;
-      font-family: Arial, sans-serif;
-    }
-    #video {
-      width: 100vw;
-      height: 100vh;
       background: #000;
+      overflow: hidden;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
     }
-    #status {
-      position: fixed;
-      top: 10px;
-      left: 10px;
-      color: #0f0;
-      background: rgba(0, 0, 0, 0.7);
-      padding: 10px 15px;
-      border-radius: 5px;
-      font-size: 12px;
-      z-index: 100;
-      max-width: 300px;
-      font-family: monospace;
-      line-height: 1.5;
+    #artplayer {
+      width: 100%;
+      height: 100%;
     }
-    #error {
-      position: fixed;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      background: rgba(255, 0, 0, 0.9);
-      color: white;
-      padding: 20px;
-      border-radius: 10px;
-      max-width: 500px;
-      z-index: 200;
-      display: none;
-      text-align: center;
-    }
-    #playBtn {
-      position: fixed;
-      bottom: 20px;
-      right: 20px;
-      padding: 12px 24px;
-      background: #ff6b00;
-      color: white;
-      border: none;
-      border-radius: 5px;
-      cursor: pointer;
+    .art-notice {
       font-size: 16px;
-      z-index: 100;
-      font-weight: bold;
-      transition: background 0.3s;
-    }
-    #playBtn:hover {
-      background: #ff8c00;
-    }
-    #playBtn:active {
-      transform: scale(0.95);
-    }
-    .hidden {
-      display: none !important;
     }
   </style>
 </head>
 <body>
+  <div id="artplayer"></div>
 
-  <video id="video" controls playsinline></video>
-  <div id="status">等待用户交互...</div>
-  <div id="error"></div>
-  <button id="playBtn">点击播放</button>
-
-  <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
+  <!-- Hls.js for HLS support -->
+  <script src="https://unpkg.com/hls.js@latest/dist/hls.min.js"></script>
+  <!-- Artplayer -->
+  <script src="https://unpkg.com/artplayer/dist/artplayer.js"></script>
   <script>
-    const video = document.getElementById("video");
-    const statusEl = document.getElementById("status");
-    const errorEl = document.getElementById("error");
-    const CORS_PROXIES = [
-      "https://cors-anywhere.herokuapp.com/",
-      "https://api.allorigins.win/raw?url=",
-      "https://corsproxy.io/?",
-    ];
-    let currentProxyIndex = 0;
-
-    function updateStatus(message) {
-      console.log(message);
-      statusEl.textContent = message;
-    }
-
-    function showError(message) {
-      console.error(message);
-      errorEl.textContent = message;
-      errorEl.style.display = "block";
-    }
-
+    // 获取 URL 参数
     function getUrlParam(name) {
-      const url = new URL(window.location.href);
-      return url.searchParams.get(name);
+      const params = new URLSearchParams(window.location.search);
+      return params.get(name);
     }
 
-    // 获取文件扩展名或内容类型
+    // 获取文件类型
     function getFileType(url) {
       try {
         const urlObj = new URL(url);
         const pathname = urlObj.pathname.toLowerCase();
-        
-        // 从路径提取扩展名
         if (pathname.includes('.m3u8')) return 'm3u8';
         if (pathname.includes('.mp4')) return 'mp4';
         if (pathname.includes('.mkv')) return 'mkv';
         if (pathname.includes('.webm')) return 'webm';
         if (pathname.includes('.flv')) return 'flv';
-        
-        return 'unknown';
+        return 'mp4'; // 默认按 mp4 处理
       } catch {
-        return 'unknown';
+        return 'mp4';
       }
     }
 
-    // 测试 URL 是否可访问
-    async function testUrl(url) {
-      try {
-        const response = await fetch(url, {
-          method: 'HEAD',
-          mode: 'no-cors'
-        });
-        updateStatus(`✓ URL 可访问 (状态: ${response.status})`);
-        return true;
-      } catch (e) {
-        updateStatus(`✗ URL 不可访问: ${e.message}`);
-        return false;
-      }
-    }
-
-    // 尝试用不同的代理
-    function getProxiedUrl(url) {
-      const proxy = CORS_PROXIES[currentProxyIndex];
-      if (proxy.includes("allorigins")) {
-        return `${proxy}${encodeURIComponent(url)}`;
-      } else if (proxy.includes("corsproxy")) {
-        return `${proxy}${encodeURIComponent(url)}`;
-      } else {
-        return proxy + url;
-      }
-    }
-
-    // 尝试播放视频
-    function playVideo(url) {
-      updateStatus("分析 URL 中...");
-      const fileType = getFileType(url);
-      updateStatus(`文件类型: ${fileType}`);
-      
-      // 优先尝试直接播放
-      tryDirectPlay(url);
-    }
-
-    function tryDirectPlay(url) {
-      updateStatus("尝试直接播放...");
-      video.src = url;
-      video.play().catch((err) => {
-        updateStatus(`直接播放失败: ${err.message}`);
-        tryProxyPlay(url);
-      });
-    }
-
-    function tryProxyPlay(url) {
-      if (currentProxyIndex >= CORS_PROXIES.length) {
-        showError("所有播放方式都失败了。\n\n可能的原因:\n1. 链接已过期\n2. 服务器禁止外部访问\n3. 网络连接问题\n\n建议在控制台查看详细错误信息");
-        return;
-      }
-
-      const proxiedUrl = getProxiedUrl(url);
-      const proxyName = CORS_PROXIES[currentProxyIndex].split('/')[2].split('.')[0];
-      updateStatus(`尝试代理: ${proxyName} (${currentProxyIndex + 1}/${CORS_PROXIES.length})...`);
-      
-      video.src = proxiedUrl;
-      
-      const playPromise = video.play().catch((err) => {
-        console.warn(`代理 ${proxyName} 失败:`, err);
-        currentProxyIndex++;
-        setTimeout(() => tryProxyPlay(url), 1000);
-      });
-    }
-
-    function tryHlsPlay(url) {
-      updateStatus("尝试 HLS 流播放...");
-      if (Hls.isSupported()) {
-        const hls = new Hls();
-        hls.loadSource(url);
-        hls.attachMedia(video);
-        hls.on(Hls.Events.MANIFEST_PARSED, () => {
-          updateStatus("✓ HLS 流加载成功");
-        });
-        hls.on(Hls.Events.ERROR, (event, data) => {
-          console.warn("HLS 加载失败:", data);
-          updateStatus(`HLS 失败，尝试下一个方案...`);
-          currentProxyIndex++;
-          tryProxyPlay(url);
-        });
-      } else {
-        updateStatus("浏览器不支持 HLS，尝试直接播放...");
-        tryDirectPlay(url);
-      }
-    }
-
+    // 初始化播放器
     const videoUrl = getUrlParam("url");
+    
     if (!videoUrl) {
-      showError("请在网址后添加参数\n\n示例: ?url=https://example.com/video.mp4");
-      updateStatus("等待 URL 参数...");
+      document.body.innerHTML = '<div style="color: white; display: flex; align-items: center; justify-content: center; height: 100%; font-size: 20px; text-align: center;">请在网址后添加参数<br>示例: ?url=https://example.com/video.mp4</div>';
     } else {
-      updateStatus(`URL: ${videoUrl.substring(0, 50)}...`);
-      playVideo(videoUrl);
-
-      video.addEventListener("canplay", () => {
-        updateStatus("✓ 视频加载成功");
-        video.play().catch(() => {
-          console.warn("播放失败，可能是浏览器策略限制");
-        });
-
-        // 自动全屏
-        const el = video;
-        if (el.requestFullscreen) el.requestFullscreen().catch(() => {});
-        else if (el.webkitRequestFullscreen) el.webkitRequestFullscreen();
-        else if (el.mozRequestFullScreen) el.mozRequestFullScreen();
-        else if (el.msRequestFullscreen) el.msRequestFullscreen();
+      const fileType = getFileType(videoUrl);
+      
+      const art = new Artplayer({
+        container: '#artplayer',
+        url: videoUrl,
+        title: '播放器',
+        type: fileType === 'm3u8' ? 'hls' : 'mp4',
+        autoplay: true,
+        fullscreen: true,
+        fullscreenWeb: true,
+        pip: true,
+        playsInline: true,
+        muted: false,
+        autoHeight: false,
+        contextMenu: [
+          {
+            html: '刷新',
+            click: () => {
+              art.notice.show = '刷新中...';
+              setTimeout(() => {
+                location.reload();
+              }, 500);
+            }
+          }
+        ],
+        // HLS 配置
+        customType: {
+          hls: function(video, url) {
+            const hls = new Hls();
+            hls.loadSource(url);
+            hls.attachMedia(video);
+            hls.on(Hls.Events.MANIFEST_PARSED, () => {
+              video.play();
+            });
+            hls.on(Hls.Events.ERROR, (event, data) => {
+              if (data.fatal) {
+                switch(data.type) {
+                  case Hls.ErrorTypes.NETWORK_ERROR:
+                    console.warn('网络错误，重新连接中...');
+                    hls.startLoad();
+                    break;
+                  case Hls.ErrorTypes.MEDIA_ERROR:
+                    console.warn('媒体错误，尝试恢复...');
+                    hls.recoverMediaError();
+                    break;
+                  default:
+                    hls.destroy();
+                    art.notice.show = '加载失败，请刷新重试';
+                    break;
+                }
+              }
+            });
+          }
+        },
+        // 播放器事件
+        events: {
+          ready: () => {
+            art.notice.show = '✓ 已就绪';
+            setTimeout(() => {
+              art.notice.show = '';
+            }, 2000);
+          },
+          play: () => {
+            art.notice.show = '▶ 播放中...';
+            setTimeout(() => {
+              art.notice.show = '';
+            }, 1000);
+          },
+          pause: () => {
+            art.notice.show = '⏸ 已暂停';
+          },
+          error: (error) => {
+            console.error('播放错误:', error);
+            art.notice.show = '❌ 播放失败，请检查链接';
+          }
+        }
       });
 
-      video.addEventListener("error", (e) => {
-        console.error("视频加载失败:", video.error);
-        updateStatus(`播放错误: ${video.error?.message || '未知错误'}`);
+      // 键盘快捷键
+      document.addEventListener('keydown', (e) => {
+        switch(e.key.toLowerCase()) {
+          case 'f':
+            art.fullscreen = !art.fullscreen;
+            break;
+          case ' ':
+            e.preventDefault();
+            art.playing ? art.pause() : art.play();
+            break;
+          case 'arrowright':
+            art.currentTime += 10;
+            break;
+          case 'arrowleft':
+            art.currentTime -= 10;
+            break;
+          case 'arrowup':
+            e.preventDefault();
+            art.volume = Math.min(1, art.volume + 0.1);
+            break;
+          case 'arrowdown':
+            e.preventDefault();
+            art.volume = Math.max(0, art.volume - 0.1);
+            break;
+          case 'm':
+            art.muted = !art.muted;
+            break;
+        }
       });
-
-      video.addEventListener("play", () => {
-        updateStatus("▶ 正在播放");
-      });
-
-      video.addEventListener("pause", () => {
-        updateStatus("⏸ 已暂停");
       });
     }
-
-    // 添加快捷键功能
-    document.addEventListener('keydown', function(event) {
-      switch(event.key) {
-        case 'ArrowRight':
-          video.currentTime += 10;
-          updateStatus(`快进 10s，当前: ${Math.floor(video.currentTime)}s`);
-          break;
-        case 'ArrowLeft':
-          video.currentTime -= 10;
-          updateStatus(`快退 10s，当前: ${Math.floor(video.currentTime)}s`);
-          break;
-        case ' ':
-          event.preventDefault();
-          if (video.paused) {
-            video.play();
-            updateStatus("▶ 播放");
-          } else {
-            video.pause();
-            updateStatus("⏸ 暂停");
-          }
-          break;
-        case 'f':
-        case 'F':
-          if (document.fullscreenElement) {
-            document.exitFullscreen();
-          } else {
-            video.requestFullscreen().catch(() => {});
-          }
-          break;
-      }
-    });
-
-    // 隐藏状态（在播放成功后 5 秒）
-    video.addEventListener("play", () => {
-      setTimeout(() => {
-        if (!video.paused) {
-          statusEl.style.opacity = "0.3";
-        }
-      }, 5000);
-    });
-
-    video.addEventListener("mousemove", () => {
-      statusEl.style.opacity = "1";
-    });
   </script>
+</body>
+</html>
 </body>
 </html>
