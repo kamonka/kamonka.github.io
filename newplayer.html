@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8">
+  <meta name="referrer" content="no-referrer">
+  <title>今晚看什么 - 测试版</title>
+  <link rel="shortcut icon" href="https://jyjdsg.dpdns.org/favicon.ico"> 
+  <style>
+    html, body {
+      margin: 0;
+      background: #000;
+      height: 100%;
+      font-family: Arial, sans-serif;
+    }
+    #video {
+      width: 100vw;
+      height: 100vh;
+      background: #000;
+    }
+    #status {
+      position: fixed;
+      top: 10px;
+      left: 10px;
+      color: #0f0;
+      background: rgba(0, 0, 0, 0.7);
+      padding: 10px 15px;
+      border-radius: 5px;
+      font-size: 12px;
+      z-index: 100;
+      max-width: 300px;
+      font-family: monospace;
+    }
+    #error {
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      background: rgba(255, 0, 0, 0.9);
+      color: white;
+      padding: 20px;
+      border-radius: 10px;
+      max-width: 500px;
+      z-index: 200;
+      display: none;
+      text-align: center;
+    }
+    .hidden {
+      display: none !important;
+    }
+    /* 增强进度条可见性 */
+    video::-webkit-media-controls-timeline {
+      background: #333;
+      height: 10px;
+      border-radius: 5px;
+    }
+    video::-webkit-media-controls-current-time-display,
+    video::-webkit-media-controls-time-remaining-display {
+      color: #fff;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+
+  <video id="video" controls autoplay playsinline></video>
+  <div id="status">初始化中...</div>
+  <div id="error"></div>
+
+  <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
+  <script>
+    const video = document.getElementById("video");
+    const statusEl = document.getElementById("status");
+    const errorEl = document.getElementById("error");
+    const CORS_PROXIES = [
+      "https://cors-anywhere.herokuapp.com/",
+      "https://api.allorigins.win/raw?url=",
+      "https://corsproxy.io/?",
+    ];
+    let currentProxyIndex = 0;
+
+    function updateStatus(message) {
+      console.log(message);
+      statusEl.textContent = message;
+    }
+
+    function showError(message) {
+      console.error(message);
+      errorEl.textContent = message;
+      errorEl.style.display = "block";
+    }
+
+    function getUrlParam(name) {
+      const url = new URL(window.location.href);
+      return url.searchParams.get(name);
+    }
+
+    // 获取文件扩展名或内容类型
+    function getFileType(url) {
+      try {
+        const urlObj = new URL(url);
+        const pathname = urlObj.pathname.toLowerCase();
+        
+        // 从路径提取扩展名
+        if (pathname.includes('.m3u8')) return 'm3u8';
+        if (pathname.includes('.mp4')) return 'mp4';
+        if (pathname.includes('.mkv')) return 'mkv';
+        if (pathname.includes('.webm')) return 'webm';
+        if (pathname.includes('.flv')) return 'flv';
+        
+        return 'unknown';
+      } catch {
+        return 'unknown';
+      }
+    }
+
+    // 测试 URL 是否可访问
+    async function testUrl(url) {
+      try {
+        const response = await fetch(url, {
+          method: 'HEAD',
+          mode: 'no-cors'
+        });
+        updateStatus(`✓ URL 可访问 (状态: ${response.status})`);
+        return true;
+      } catch (e) {
+        updateStatus(`✗ URL 不可访问: ${e.message}`);
+        return false;
+      }
+    }
+
+    // 尝试用不同的代理
+    function getProxiedUrl(url) {
+      const proxy = CORS_PROXIES[currentProxyIndex];
+      if (proxy.includes("allorigins")) {
+        return `${proxy}${encodeURIComponent(url)}`;
+      } else if (proxy.includes("corsproxy")) {
+        return `${proxy}${encodeURIComponent(url)}`;
+      } else {
+        return proxy + url;
+      }
+    }
+
+    // 尝试播放视频
+    function playVideo(url) {
+      updateStatus("分析 URL 中...");
+      const fileType = getFileType(url);
+      updateStatus(`文件类型: ${fileType}`);
+      
+      // 优先尝试直接播放
+      tryDirectPlay(url);
+    }
+
+    function tryDirectPlay(url) {
+      updateStatus("尝试直接播放...");
+      video.src = url;
+      video.play().catch((err) => {
+        updateStatus(`直接播放失败: ${err.message}`);
+        tryProxyPlay(url);
+      });
+    }
+
+    function tryProxyPlay(url) {
+      if (currentProxyIndex >= CORS_PROXIES.length) {
+        showError("所有播放方式都失败了。\n\n可能的原因:\n1. 链接已过期\n2. 服务器禁止外部访问\n3. 网络连接问题\n\n建议在控制台查看详细错误信息");
+        return;
+      }
+
+      const proxiedUrl = getProxiedUrl(url);
+      const proxyName = CORS_PROXIES[currentProxyIndex].split('/')[2].split('.')[0];
+      updateStatus(`尝试代理: ${proxyName} (${currentProxyIndex + 1}/${CORS_PROXIES.length})...`);
+      
+      video.src = proxiedUrl;
+      
+      const playPromise = video.play().catch((err) => {
+        console.warn(`代理 ${proxyName} 失败:`, err);
+        currentProxyIndex++;
+        setTimeout(() => tryProxyPlay(url), 1000);
+      });
+    }
+
+    function tryHlsPlay(url) {
+      updateStatus("尝试 HLS 流播放...");
+      if (Hls.isSupported()) {
+        const hls = new Hls();
+        hls.loadSource(url);
+        hls.attachMedia(video);
+        hls.on(Hls.Events.MANIFEST_PARSED, () => {
+          updateStatus("✓ HLS 流加载成功");
+        });
+        hls.on(Hls.Events.ERROR, (event, data) => {
+          console.warn("HLS 加载失败:", data);
+          updateStatus(`HLS 失败，尝试下一个方案...`);
+          currentProxyIndex++;
+          tryProxyPlay(url);
+        });
+      } else {
+        updateStatus("浏览器不支持 HLS，尝试直接播放...");
+        tryDirectPlay(url);
+      }
+    }
+
+    const videoUrl = getUrlParam("url");
+    if (!videoUrl) {
+      showError("请在网址后添加参数\n\n示例: ?url=https://example.com/video.mp4");
+      updateStatus("等待 URL 参数...");
+    } else {
+      updateStatus(`URL: ${videoUrl.substring(0, 50)}...`);
+      playVideo(videoUrl);
+
+      video.addEventListener("canplay", () => {
+        updateStatus("✓ 视频加载成功");
+        video.play().catch(() => {
+          console.warn("播放失败，可能是浏览器策略限制");
+        });
+
+        // 自动全屏
+        const el = video;
+        if (el.requestFullscreen) el.requestFullscreen().catch(() => {});
+        else if (el.webkitRequestFullscreen) el.webkitRequestFullscreen();
+        else if (el.mozRequestFullScreen) el.mozRequestFullScreen();
+        else if (el.msRequestFullscreen) el.msRequestFullscreen();
+      });
+
+      video.addEventListener("error", (e) => {
+        console.error("视频加载失败:", video.error);
+        updateStatus(`播放错误: ${video.error?.message || '未知错误'}`);
+      });
+
+      video.addEventListener("play", () => {
+        updateStatus("▶ 正在播放");
+      });
+
+      video.addEventListener("pause", () => {
+        updateStatus("⏸ 已暂停");
+      });
+    }
+
+    // 添加快捷键功能
+    document.addEventListener('keydown', function(event) {
+      switch(event.key) {
+        case 'ArrowRight':
+          video.currentTime += 10;
+          updateStatus(`快进 10s，当前: ${Math.floor(video.currentTime)}s`);
+          break;
+        case 'ArrowLeft':
+          video.currentTime -= 10;
+          updateStatus(`快退 10s，当前: ${Math.floor(video.currentTime)}s`);
+          break;
+        case ' ':
+          event.preventDefault();
+          if (video.paused) {
+            video.play();
+            updateStatus("▶ 播放");
+          } else {
+            video.pause();
+            updateStatus("⏸ 暂停");
+          }
+          break;
+        case 'f':
+        case 'F':
+          if (document.fullscreenElement) {
+            document.exitFullscreen();
+          } else {
+            video.requestFullscreen().catch(() => {});
+          }
+          break;
+      }
+    });
+
+    // 隐藏状态（在播放成功后 5 秒）
+    video.addEventListener("play", () => {
+      setTimeout(() => {
+        if (!video.paused) {
+          statusEl.style.opacity = "0.3";
+        }
+      }, 5000);
+    });
+
+    video.addEventListener("mousemove", () => {
+      statusEl.style.opacity = "1";
+    });
+  </script>
+</body>
+</html>
