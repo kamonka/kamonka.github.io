@@ -46,7 +46,6 @@
     class="video-js"
     controls
     autoplay
-    muted
     playsinline
     preload="auto"
     poster="https://jyjdsg.dpdns.org/images/俄化.webp"
@@ -78,28 +77,38 @@
       }
 
       player.ready(function () {
-        try {
-          player.muted(true);
-        } catch (e) {}
-
-        // Try to play, then request fullscreen as a best-effort.
-        player.play().then(() => {
-          // Prefer Video.js API if available
-          const tryFs = (el) => {
-            try {
-              const fs = (typeof player.requestFullscreen === 'function') ? player.requestFullscreen() : enterFullscreen(el);
-              if (fs && fs.then) {
-                fs.then(() => {}).catch(() => showOverlay());
-              }
-            } catch (e) {
+        // Attempt to set max volume and unmute
+        function tryUnmute() {
+          try {
+            player.volume(1);
+            if (typeof player.muted === 'function') {
+              player.muted(false);
+            } else if ('muted' in player) {
+              player.muted = false;
+            }
+            const v = document.getElementById('my-video');
+            if (v) { v.volume = 1; v.muted = false; }
+            // Verify
+            const stillMuted = (typeof player.muted === 'function') ? player.muted() : (v && v.muted);
+            if (stillMuted) {
               showOverlay();
             }
-          };
+          } catch (e) {
+            showOverlay();
+          }
+        }
 
+        // Try to autoplay and then unmute; if autoplay/fullscreen blocked, show overlay
+        player.play().then(() => {
+          tryUnmute();
           const el = document.getElementById('my-video');
-          tryFs(el);
+          try {
+            const fs = (typeof player.requestFullscreen === 'function') ? player.requestFullscreen() : enterFullscreen(el);
+            if (fs && fs.then) {
+              fs.then(() => { tryUnmute(); }).catch(() => {});
+            }
+          } catch (e) {}
         }).catch(() => {
-          // Autoplay blocked: show overlay so user can interact to start fullscreen
           showOverlay();
         });
       });
