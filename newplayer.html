@@ -4,7 +4,8 @@
   <!-- If you'd like to support IE8 (for Video.js versions prior to v7) -->
   <!-- <script src="https://vjs.zencdn.net/ie8/1.1.2/videojs-ie8.min.js"></script> -->
   <style>
-    .video-container { position: relative; display: inline-block; }
+    html, body { height: 100%; margin: 0; }
+    .video-container { position: relative; display: block; width: 100%; height: 100vh; max-height: 100vh; }
     .fs-overlay {
       position: absolute;
       top: 0; left: 0; right: 0; bottom: 0;
@@ -23,6 +24,15 @@
       border-radius: 6px;
       border: 1px solid rgba(255,255,255,0.18);
     }
+    /* Make the Video.js player fit the container height and auto-scale width */
+    .video-container .video-js,
+    .video-container video {
+      height: 100% !important;
+      width: auto !important;
+      max-height: 100vh;
+      display: block;
+      margin: 0 auto;
+    }
   </style>
 </head>
 
@@ -36,8 +46,6 @@
     muted
     playsinline
     preload="auto"
-    width="640"
-    height="264"
     poster="https://jyjdsg.dpdns.org/images/俄化.webp"
     data-setup="{}"
   >
