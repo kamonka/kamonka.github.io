@@ -6,8 +6,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>今晚看什么 - 播放器</title>
   <link rel="shortcut icon" href="https://jyjdsg.dpdns.org/favicon.ico">
-  <!-- Artplayer CSS -->
-  <link rel="stylesheet" href="https://unpkg.com/artplayer/dist/artplayer.css">
   <style>
     * {
       margin: 0;
@@ -21,30 +19,70 @@
       overflow: hidden;
       font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
     }
-    #artplayer {
+    body {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    #video-container {
       width: 100%;
       height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: #000;
     }
-    .art-notice {
-      font-size: 16px;
+    #video {
+      width: 100%;
+      height: 100%;
+      display: block;
+    }
+    #error-msg {
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      background: rgba(255, 0, 0, 0.9);
+      color: white;
+      padding: 30px 40px;
+      border-radius: 10px;
+      font-size: 18px;
+      text-align: center;
+      z-index: 1000;
+      display: none;
+      max-width: 80%;
+      line-height: 1.6;
     }
   </style>
 </head>
 <body>
-  <div id="artplayer"></div>
+  <div id="video-container">
+    <video 
+      id="video" 
+      controls 
+      crossorigin="anonymous"
+      controlsList="nodownload"
+      style="width: 100%; height: 100%;"
+    ></video>
+  </div>
+  <div id="error-msg"></div>
 
-  <!-- Hls.js for HLS support -->
   <script src="https://unpkg.com/hls.js@latest/dist/hls.min.js"></script>
-  <!-- Artplayer -->
-  <script src="https://unpkg.com/artplayer/dist/artplayer.js"></script>
   <script>
-    // 获取 URL 参数
+    const video = document.getElementById('video');
+    const errorMsg = document.getElementById('error-msg');
+
+    function showError(msg) {
+      errorMsg.textContent = msg;
+      errorMsg.style.display = 'block';
+      console.error(msg);
+    }
+
     function getUrlParam(name) {
       const params = new URLSearchParams(window.location.search);
       return params.get(name);
     }
 
-    // 获取文件类型
     function getFileType(url) {
       try {
         const urlObj = new URL(url);
@@ -54,129 +92,136 @@
         if (pathname.includes('.mkv')) return 'mkv';
         if (pathname.includes('.webm')) return 'webm';
         if (pathname.includes('.flv')) return 'flv';
-        return 'mp4'; // 默认按 mp4 处理
+        return 'mp4';
       } catch {
         return 'mp4';
       }
     }
 
-    // 初始化播放器
-    const videoUrl = getUrlParam("url");
+    const videoUrl = getUrlParam('url');
     
     if (!videoUrl) {
-      document.body.innerHTML = '<div style="color: white; display: flex; align-items: center; justify-content: center; height: 100%; font-size: 20px; text-align: center;">请在网址后添加参数<br>示例: ?url=https://example.com/video.mp4</div>';
+      showError('请在网址后添加 URL 参数\n\n示例: ?url=https://example.com/video.mp4');
     } else {
       const fileType = getFileType(videoUrl);
       
-      const art = new Artplayer({
-        container: '#artplayer',
-        url: videoUrl,
-        title: '播放器',
-        type: fileType === 'm3u8' ? 'hls' : 'mp4',
-        autoplay: true,
-        fullscreen: true,
-        fullscreenWeb: true,
-        pip: true,
-        playsInline: true,
-        muted: false,
-        autoHeight: false,
-        contextMenu: [
-          {
-            html: '刷新',
-            click: () => {
-              art.notice.show = '刷新中...';
-              setTimeout(() => {
-                location.reload();
-              }, 500);
-            }
-          }
-        ],
-        // HLS 配置
-        customType: {
-          hls: function(video, url) {
-            const hls = new Hls();
-            hls.loadSource(url);
-            hls.attachMedia(video);
-            hls.on(Hls.Events.MANIFEST_PARSED, () => {
-              video.play();
+      // 处理 HLS 流
+      if (fileType === 'm3u8') {
+        if (Hls.isSupported()) {
+          const hls = new Hls({
+            debug: false,
+            enableWorker: true,
+            lowLevelLogger: null
+          });
+          
+          hls.loadSource(videoUrl);
+          hls.attachMedia(video);
+          
+          hls.on(Hls.Events.MANIFEST_PARSED, () => {
+            console.log('HLS manifest parsed');
+            video.play().catch(err => {
+              console.warn('Autoplay failed:', err);
             });
-            hls.on(Hls.Events.ERROR, (event, data) => {
-              if (data.fatal) {
-                switch(data.type) {
-                  case Hls.ErrorTypes.NETWORK_ERROR:
-                    console.warn('网络错误，重新连接中...');
-                    hls.startLoad();
-                    break;
-                  case Hls.ErrorTypes.MEDIA_ERROR:
-                    console.warn('媒体错误，尝试恢复...');
-                    hls.recoverMediaError();
-                    break;
-                  default:
-                    hls.destroy();
-                    art.notice.show = '加载失败，请刷新重试';
-                    break;
-                }
+          });
+          
+          hls.on(Hls.Events.ERROR, (event, data) => {
+            console.error('HLS Error:', data);
+            if (data.fatal) {
+              switch(data.type) {
+                case Hls.ErrorTypes.NETWORK_ERROR:
+                  console.log('Network error, retrying...');
+                  hls.startLoad();
+                  break;
+                case Hls.ErrorTypes.MEDIA_ERROR:
+                  console.log('Media error, recovering...');
+                  hls.recoverMediaError();
+                  break;
+                default:
+                  showError('加载失败: ' + data.reason);
+                  break;
               }
-            });
-          }
-        },
-        // 播放器事件
-        events: {
-          ready: () => {
-            art.notice.show = '✓ 已就绪';
-            setTimeout(() => {
-              art.notice.show = '';
-            }, 2000);
-          },
-          play: () => {
-            art.notice.show = '▶ 播放中...';
-            setTimeout(() => {
-              art.notice.show = '';
-            }, 1000);
-          },
-          pause: () => {
-            art.notice.show = '⏸ 已暂停';
-          },
-          error: (error) => {
-            console.error('播放错误:', error);
-            art.notice.show = '❌ 播放失败，请检查链接';
-          }
+            }
+          });
+        } else {
+          // 浏览器不支持 HLS，尝试直接播放
+          video.src = videoUrl;
         }
+      } else {
+        // 直接播放 MP4 等格式
+        video.src = videoUrl;
+      }
+      
+      // 事件监听
+      video.addEventListener('loadstart', () => {
+        console.log('Video loading started');
+      });
+      
+      video.addEventListener('canplay', () => {
+        console.log('Video can play');
+        errorMsg.style.display = 'none';
+      });
+      
+      video.addEventListener('error', (e) => {
+        const errorType = video.error?.code;
+        const errorMsg1 = {
+          1: '加载被中止',
+          2: '网络错误',
+          3: '解码失败',
+          4: '不支持的格式'
+        }[errorType] || '未知错误';
+        showError('播放失败: ' + errorMsg1);
+      });
+
+      video.addEventListener('play', () => {
+        console.log('Video playing');
       });
 
       // 键盘快捷键
       document.addEventListener('keydown', (e) => {
+        if (!video) return;
+        
         switch(e.key.toLowerCase()) {
           case 'f':
-            art.fullscreen = !art.fullscreen;
+            e.preventDefault();
+            if (document.fullscreenElement) {
+              document.exitFullscreen();
+            } else {
+              video.requestFullscreen().catch(() => {});
+            }
             break;
           case ' ':
             e.preventDefault();
-            art.playing ? art.pause() : art.play();
+            if (video.paused) {
+              video.play();
+            } else {
+              video.pause();
+            }
             break;
           case 'arrowright':
-            art.currentTime += 10;
+            video.currentTime += 10;
             break;
           case 'arrowleft':
-            art.currentTime -= 10;
+            video.currentTime -= 10;
             break;
           case 'arrowup':
             e.preventDefault();
-            art.volume = Math.min(1, art.volume + 0.1);
+            video.volume = Math.min(1, video.volume + 0.1);
             break;
           case 'arrowdown':
             e.preventDefault();
-            art.volume = Math.max(0, art.volume - 0.1);
+            video.volume = Math.max(0, video.volume - 0.1);
             break;
           case 'm':
-            art.muted = !art.muted;
+            video.muted = !video.muted;
             break;
         }
       });
-      });
+
+      // 自动全屏（可选）
+      // setTimeout(() => {
+      //   video.requestFullscreen().catch(() => {});
+      // }, 1000);
     }
   </script>
-</body>
-</html>
 </body>
 </html>
