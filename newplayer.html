@@ -29,6 +29,7 @@
       z-index: 100;
       max-width: 300px;
       font-family: monospace;
+      line-height: 1.5;
     }
     #error {
       position: fixed;
@@ -44,27 +45,38 @@
       display: none;
       text-align: center;
     }
+    #playBtn {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      padding: 12px 24px;
+      background: #ff6b00;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 16px;
+      z-index: 100;
+      font-weight: bold;
+      transition: background 0.3s;
+    }
+    #playBtn:hover {
+      background: #ff8c00;
+    }
+    #playBtn:active {
+      transform: scale(0.95);
+    }
     .hidden {
       display: none !important;
-    }
-    /* 增强进度条可见性 */
-    video::-webkit-media-controls-timeline {
-      background: #333;
-      height: 10px;
-      border-radius: 5px;
-    }
-    video::-webkit-media-controls-current-time-display,
-    video::-webkit-media-controls-time-remaining-display {
-      color: #fff;
-      font-size: 14px;
     }
   </style>
 </head>
 <body>
 
-  <video id="video" controls autoplay playsinline></video>
-  <div id="status">初始化中...</div>
+  <video id="video" controls playsinline></video>
+  <div id="status">等待用户交互...</div>
   <div id="error"></div>
+  <button id="playBtn">点击播放</button>
 
   <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
   <script>
