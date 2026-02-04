@@ -1,0 +1,117 @@
+﻿<head>
+  <link href="https://vjs.zencdn.net/8.23.4/video-js.css" rel="stylesheet" />
+
+  <!-- If you'd like to support IE8 (for Video.js versions prior to v7) -->
+  <!-- <script src="https://vjs.zencdn.net/ie8/1.1.2/videojs-ie8.min.js"></script> -->
+  <style>
+    html, body { height: 100%; margin: 0; }
+    .video-container { position: relative; display: flex; align-items: center; justify-content: center; width: 100%; height: 100vh; max-height: 100vh; }
+    .fs-overlay {
+      position: absolute;
+      top: 0; left: 0; right: 0; bottom: 0;
+      display: none;
+      align-items: center;
+      justify-content: center;
+      background: rgba(0,0,0,0.45);
+      color: #fff;
+      font-size: 20px;
+      cursor: pointer;
+      z-index: 9999;
+    }
+    .fs-overlay .btn {
+      background: rgba(255,255,255,0.12);
+      padding: 12px 20px;
+      border-radius: 6px;
+      border: 1px solid rgba(255,255,255,0.18);
+    }
+    /* Make the Video.js player fit the container height and auto-scale width */
+    .video-container .video-js,
+    .video-container video {
+      height: 100% !important;
+      width: auto !important;
+      max-height: 100vh;
+      display: block;
+      margin: 0 auto;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="video-container">
+  <video
+    id="my-video"
+    class="video-js"
+    controls
+    autoplay
+    muted
+    playsinline
+    preload="auto"
+    poster="https://jyjdsg.dpdns.org/images/俄化.webp"
+    data-setup="{}"
+  >
+    <source src="https://dl-a10b-0863.mypikpak.com/download/?fid=-9BWOIYNiwI0D2XificuxCKw4TuCwdypspdQCRq8qfExL223z2xcPO_Z9GzWA3hUOwsAOU4W9ilTab16URuKBGDoZzT-vUu_tJ2oJhKlEDU=&amp;from=5&amp;verno=3&amp;prod=pikpak&amp;expire=1770279301&amp;g=70F2FEB7840872F4C56447CF89DB551E085ED78C&amp;ui=aYF_ChyN2aVhBvQr&amp;t=0&amp;ms=25200000&amp;th=25200000&amp;f=2068584601&amp;alt=0&amp;us=0&amp;hspu=&amp;po=0&amp;fileid=VOkWrtYI5LY5MUZEgjJNPlsOo2&amp;userid=aYF_ChyN2aVhBvQr&amp;pr=XQPkPvr9WWiIuMvELmrVejvCRtsSD4ODS3BMN9Aej-o_q3IavCL77-05VWI2OLFADo-Wq9xvOEcM6DDBnhHi-Q0Q5AK3PDUwHKEN4HtGPAhBfOfaM8YcJJ4EMjzGgiJqfFxH0HXcmBRNqSzX_ZcFx-7XfMsn-81SpNGg6doho5tEii4wy9hkZJ9C8h2auy9kanc-z0Pz9f__wM-zo5Mi4uB6swAQveONOF0tamqP_sr25Poi5SrUnHd-Y5wi0N2SH0hUMS9hIslnrEVT5RHA0CLH2yrh5lBW3cjmlHFWE9ra38GSaixHnPStnKQL5G0I_VHZ8tcgrsLQKq_zl19fToarGP2436WCyglOVkygCxeT0gZ5_Q1YE3RbzkN8n4j-JRdppf0Ott1GaU49YKGs0ySAYk-VWP6PHfdwvcFoupg=&amp;sign=60737E789ED8778E3E12BDE5DDF552D8" type="video/mp4" />
+    <source src="MY_VIDEO.webm" type="video/webm" />
+    <p class="vjs-no-js">
+      To view this video please enable JavaScript, and consider upgrading to a
+      web browser that
+      <a href="https://videojs.com/html5-video-support/" target="_blank"
+        >supports HTML5 video</a
+      >
+    </p>
+  </video>
+  <div id="fs-overlay" class="fs-overlay"><div class="btn">点击进入全屏并播放</div></div>
+  </div>
+
+  <script src="https://vjs.zencdn.net/8.23.4/video.min.js"></script>
+  <script>
+    (function () {
+      const player = videojs('my-video');
+      const overlay = document.getElementById('fs-overlay');
+      function enterFullscreen(el) {
+        if (!el) return;
+        if (el.requestFullscreen) return el.requestFullscreen();
+        if (el.webkitEnterFullscreen) return el.webkitEnterFullscreen();
+        if (el.mozRequestFullScreen) return el.mozRequestFullScreen();
+      }
+
+      player.ready(function () {
+        try {
+          player.muted(true);
+        } catch (e) {}
+
+        // Try to play, then request fullscreen as a best-effort.
+        player.play().then(() => {
+          // Prefer Video.js API if available
+          const tryFs = (el) => {
+            try {
+              const fs = (typeof player.requestFullscreen === 'function') ? player.requestFullscreen() : enterFullscreen(el);
+              if (fs && fs.then) {
+                fs.then(() => {}).catch(() => showOverlay());
+              }
+            } catch (e) {
+              showOverlay();
+            }
+          };
+
+          const el = document.getElementById('my-video');
+          tryFs(el);
+        }).catch(() => {
+          // Autoplay blocked: show overlay so user can interact to start fullscreen
+          showOverlay();
+        });
+      });
+
+      function showOverlay() {
+        if (!overlay) return;
+        overlay.style.display = 'flex';
+        overlay.onclick = function () {
+          overlay.style.display = 'none';
+          const el = document.getElementById('my-video');
+          // On user gesture, try to play and enter fullscreen
+          player.play().catch(()=>{});
+          enterFullscreen(el);
+        };
+      }
+    })();
+  </script>
+</body>
