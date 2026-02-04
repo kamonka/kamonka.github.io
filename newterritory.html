@@ -1,53 +1,28 @@
 ﻿<head>
-  <link href="https://vjs.zencdn.net/8.23.4/video-js.css" rel="stylesheet" />
-
-  <!-- If you'd like to support IE8 (for Video.js versions prior to v7) -->
-  <!-- <script src="https://vjs.zencdn.net/ie8/1.1.2/videojs-ie8.min.js"></script> -->
-    <meta charset="UTF-8">
+  <meta charset="UTF-8">
   <title>今晚看什么</title>
   <link rel="shortcut icon" href="https://jyjdsg.dpdns.org/favicon.ico"> 
+  <link href="https://vjs.zencdn.net/8.23.4/video-js.css" rel="stylesheet" />
+  <!-- If you'd like to support IE8 (for Video.js versions prior to v7) -->
+  <!-- <script src="https://vjs.zencdn.net/ie8/1.1.2/videojs-ie8.min.js"></script> -->
   <style>
-    html, body { height: 100%; margin: 0; }
-    .video-container { position: relative; display: block; width: 100%; height: 100vh; max-height: 100vh; }
-    .fs-overlay {
-      position: absolute;
-      top: 0; left: 0; right: 0; bottom: 0;
-      display: none;
-      align-items: center;
-      justify-content: center;
-      background: rgba(0,0,0,0.45);
+    html, body {
+      background-color: #000;
       color: #fff;
-      font-size: 20px;
-      cursor: pointer;
-      z-index: 9999;
-    }
-    .fs-overlay .btn {
-      background: rgba(255,255,255,0.12);
-      padding: 12px 20px;
-      border-radius: 6px;
-      border: 1px solid rgba(255,255,255,0.18);
-    }
-    /* Make the Video.js player fit the container height and auto-scale width */
-    .video-container .video-js,
-    .video-container video {
-      height: 100% !important;
-      width: auto !important;
-      max-height: 100vh;
-      display: block;
-      margin: 0 auto;
+      margin: 0;
+      padding: 0;
     }
   </style>
 </head>
 
 <body>
-  <div class="video-container">
   <video
     id="my-video"
     class="video-js"
     controls
-    autoplay
-    playsinline
     preload="auto"
+    width="1080"
+    height="720"
     poster="https://jyjdsg.dpdns.org/images/俄化.webp"
     data-setup="{}"
   >
@@ -61,69 +36,6 @@
       >
     </p>
   </video>
-  <div id="fs-overlay" class="fs-overlay"><div class="btn">点击进入全屏并播放</div></div>
-  </div>
 
   <script src="https://vjs.zencdn.net/8.23.4/video.min.js"></script>
-  <script>
-    (function () {
-      const player = videojs('my-video');
-      const overlay = document.getElementById('fs-overlay');
-      function enterFullscreen(el) {
-        if (!el) return;
-        if (el.requestFullscreen) return el.requestFullscreen();
-        if (el.webkitEnterFullscreen) return el.webkitEnterFullscreen();
-        if (el.mozRequestFullScreen) return el.mozRequestFullScreen();
-      }
-
-      player.ready(function () {
-        // Attempt to set max volume and unmute
-        function tryUnmute() {
-          try {
-            player.volume(1);
-            if (typeof player.muted === 'function') {
-              player.muted(false);
-            } else if ('muted' in player) {
-              player.muted = false;
-            }
-            const v = document.getElementById('my-video');
-            if (v) { v.volume = 1; v.muted = false; }
-            // Verify
-            const stillMuted = (typeof player.muted === 'function') ? player.muted() : (v && v.muted);
-            if (stillMuted) {
-              showOverlay();
-            }
-          } catch (e) {
-            showOverlay();
-          }
-        }
-
-        // Try to autoplay and then unmute; if autoplay/fullscreen blocked, show overlay
-        player.play().then(() => {
-          tryUnmute();
-          const el = document.getElementById('my-video');
-          try {
-            const fs = (typeof player.requestFullscreen === 'function') ? player.requestFullscreen() : enterFullscreen(el);
-            if (fs && fs.then) {
-              fs.then(() => { tryUnmute(); }).catch(() => {});
-            }
-          } catch (e) {}
-        }).catch(() => {
-          showOverlay();
-        });
-      });
-
-      function showOverlay() {
-        if (!overlay) return;
-        overlay.style.display = 'flex';
-        overlay.onclick = function () {
-          overlay.style.display = 'none';
-          const el = document.getElementById('my-video');
-          // On user gesture, try to play and enter fullscreen
-          player.play().catch(()=>{});
-          enterFullscreen(el);
-        };
-      }
-    })();
-  </script>
 </body>
