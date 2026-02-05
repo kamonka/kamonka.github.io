@@ -57,66 +57,25 @@
       return url.searchParams.get(name);
     }
 
-    // 获取文件扩展名或内容类型
-    function getFileType(url) {
-      try {
-        const urlObj = new URL(url);
-        const pathname = urlObj.pathname.toLowerCase();
-        
-        // 从路径提取扩展名
-        if (pathname.includes('.m3u8')) return 'm3u8';
-        if (pathname.includes('.mp4')) return 'mp4';
-        if (pathname.includes('.mkv')) return 'mkv';
-        if (pathname.includes('.webm')) return 'webm';
-        if (pathname.includes('.flv')) return 'flv';
-        
-        return 'unknown';
-      } catch {
-        return 'unknown';
-      }
-    }
-
-    // 尝试播放视频
-    function playVideo(url) {
-      const fileType = getFileType(url);
-      
-      // 优先尝试 HLS
-      if (fileType === 'm3u8' || fileType === 'unknown') {
-        tryHlsPlay(url);
-      } else if (fileType === 'mp4' || fileType === 'webm') {
-        video.src = url;
-      } else {
-        // 其他格式尝试直接加载
-        video.src = url;
-      }
-    }
-
-    function tryHlsPlay(url) {
-      if (Hls.isSupported()) {
-        const hls = new Hls();
-        hls.loadSource(url);
-        hls.attachMedia(video);
-        hls.on(Hls.Events.MANIFEST_PARSED, () => {
-          console.log("HLS 流加载成功");
-        });
-        hls.on(Hls.Events.ERROR, (event, data) => {
-          console.warn("HLS 加载失败:", data);
-          // HLS 失败，尝试直接播放
-          video.src = url;
-        });
-      } else if (video.canPlayType("application/vnd.apple.mpegurl")) {
-        video.src = url;
-      } else {
-        // HLS 不支持，尝试直接加载
-        video.src = url;
-      }
-    }
-
     const videoUrl = getUrlParam("url");
     if (!videoUrl) {
       alert("请在网址后添加 ?url=视频地址");
     } else {
-      playVideo(videoUrl);
+      if (videoUrl.endsWith(".m3u8")) {
+        if (Hls.isSupported()) {
+          const hls = new Hls();
+          hls.loadSource(videoUrl);
+          hls.attachMedia(video);
+        } else if (video.canPlayType("application/vnd.apple.mpegurl")) {
+          video.src = videoUrl;
+        } else {
+          alert("浏览器不支持 M3U8 播放");
+        }
+      } else if (videoUrl.endsWith(".mp4")) {
+        video.src = videoUrl;
+      } else {
+        alert("不支持的视频格式");
+      }
 
       video.addEventListener("canplay", () => {
         video.play().catch(() => {
@@ -129,11 +88,6 @@
         else if (el.webkitRequestFullscreen) el.webkitRequestFullscreen();
         else if (el.mozRequestFullScreen) el.mozRequestFullScreen();
         else if (el.msRequestFullscreen) el.msRequestFullscreen();
-      });
-
-      // 监听错误事件
-      video.addEventListener("error", () => {
-        console.error("视频加载失败:", video.error);
       });
     }
 
