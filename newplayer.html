@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8">
+  <title>播放器（测试）</title>
+  <link rel="shortcut icon" href="https://jyjdsg.dpdns.org/favicon.ico"> 
+  <style>
+    html, body { margin:0; background:#000; height:100%; }
+    video { width:100vw; height:100vh; background:#000; }
+    #status {
+      position:fixed; left:8px; top:8px; color:#fff; background:rgba(0,0,0,0.5); padding:6px 10px; border-radius:6px; font-size:13px; z-index:9999;
+    }
+  </style>
+</head>
+<body>
+
+  <div id="status">准备中…</div>
+  <video id="video" controls autoplay playsinline></video>
+
+  <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
+  <script>
+    const video = document.getElementById('video');
+    const status = document.getElementById('status');
+
+    function setStatus(msg) { console.log('[player] ', msg); status.textContent = msg; }
+
+    function getUrlParam(name) {
+      const url = new URL(window.location.href);
+      return url.searchParams.get(name);
+    }
+
+    function getFileType(url) {
+      try {
+        const u = new URL(url);
+        const p = u.pathname.toLowerCase();
+        if (p.includes('.m3u8')) return 'm3u8';
+        if (p.includes('.mp4')) return 'mp4';
+        if (p.includes('.webm')) return 'webm';
+        return 'unknown';
+      } catch { return 'unknown'; }
+    }
+
+    let hls = null;
+    let hlsRetryCount = 0;
+    const MAX_HLS_RETRIES = 4;
+
+    function fallbackToNative(url) {
+      setStatus('HLS 回退：尝试浏览器原生播放');
+      console.warn('Falling back to native src');
+      if (video.canPlayType('application/vnd.apple.mpegurl')) {
+        video.src = url;
+        video.play().catch(()=>{});
+      } else {
+        // 无法原生播放，尝试直接赋值并在控制台提示
+        video.src = url;
+        setStatus('已设置 src，若无法播放请检查控制台与网络 (CORS/404)');
+      }
+    }
+
+    function tryHlsPlay(url) {
+      if (typeof Hls === 'undefined') {
+        setStatus('未检测到 Hls.js，使用原生播放');
+        fallbackToNative(url);
+        return;
+      }
+
+      if (!Hls.isSupported()) {
+        setStatus('Hls.js 不支持，尝试原生播放');
+        fallbackToNative(url);
+        return;
+      }
+
+      if (hls) { try { hls.destroy(); } catch(e){} hls = null; }
+
+      hls = new Hls({
+        maxBufferLength: 30,
+        maxMaxBufferLength: 60,
+        enableWorker: true,
+        capLevelToPlayerSize: true
+      });
+
+      hls.on(Hls.Events.MANIFEST_PARSED, function() {
+        setStatus('HLS 流已加载，开始播放');
+        hlsRetryCount = 0;
+      });
+
+      hls.on(Hls.Events.ERROR, function(event, data) {
+        console.warn('HLS 错误事件:', event, data);
+        setStatus('HLS 错误: ' + (data && data.type ? data.type : 'unknown'));
+
+        // 详细日志方便诊断
+        try { console.debug('HLS error details:', JSON.stringify(data)); } catch(e){}
+
+        if (!data || !data.fatal) {
+          // 非致命错误尝试恢复
+          console.info('非致命错误，尝试继续');
+          return;
+        }
+
+        // 致命错误按类型处理
+        const ErrorTypes = Hls.ErrorTypes;
+        const type = data.type;
+
+        if (type === ErrorTypes.NETWORK_ERROR) {
+          // 网络错误：尝试重新加载/重试
+          if (hlsRetryCount < MAX_HLS_RETRIES) {
+            hlsRetryCount++;
+            setStatus('网络错误，尝试重连 (#' + hlsRetryCount + ')');
+            console.warn('NETWORK_ERROR — 重试', hlsRetryCount);
+            setTimeout(()=>{
+              try { hls.startLoad(); } catch(e){ console.error(e); }
+            }, 1000 * hlsRetryCount);
+            return;
+          }
+          console.error('达到重试上限，回退原生播放');
+          hls.destroy();
+          fallbackToNative(url);
+          return;
+        }
+
+        if (type === ErrorTypes.MEDIA_ERROR) {
+          // 尝试恢复媒体错误
+          try {
+            setStatus('媒体错误，尝试 recoverMediaError()');
+            hls.recoverMediaError();
+            return;
+          } catch(e) { console.error('recoverMediaError 失败', e); }
+        }
+
+        // 其他致命错误，回退
+        console.error('致命错误，销毁 hls 并回退');
+        try { hls.destroy(); } catch(e){}
+        fallbackToNative(url);
+      });
+
+      // attach
+      try {
+        hls.loadSource(url);
+        hls.attachMedia(video);
+      } catch(e) {
+        console.error('hls load/attach 失败', e);
+        fallbackToNative(url);
+      }
+    }
+
+    function playVideo(url) {
+      const fileType = getFileType(url);
+      if (fileType === 'm3u8' || fileType === 'unknown') {
+        tryHlsPlay(url);
+      } else {
+        video.src = url;
+      }
+    }
+
+    const videoUrl = getUrlParam('url');
+    if (!videoUrl) {
+      alert('请在网址后添加 ?url=视频地址');
+      setStatus('未提供 url 参数');
+    } else {
+      setStatus('准备播放：' + videoUrl);
+      playVideo(videoUrl);
+
+      video.addEventListener('canplay', () => {
+        // 不自动进入全屏，避免浏览器策略干扰
+        setStatus('可以播放，用户交互后将自动开始');
+        video.play().catch(()=>{ console.warn('自动播放被阻止'); });
+      });
+
+      video.addEventListener('error', () => {
+        console.error('video element error', video.error);
+        setStatus('Video 元素错误: ' + (video.error && video.error.code ? video.error.code : 'unknown'));
+      });
+
+      // 当出现卡顿/等待事件时，尝试用 hls 恢复
+      video.addEventListener('waiting', () => {
+        console.warn('video waiting — 可能网络或缓冲问题');
+        setStatus('等待缓冲…');
+        if (hls && hls.recoverMediaError) {
+          try { hls.recoverMediaError(); setStatus('尝试恢复播放'); } catch(e){ console.error(e); }
+        }
+      });
+
+      video.addEventListener('stalled', () => { console.warn('video stalled'); setStatus('数据流中断'); });
+    }
+
+    // 快捷键
+    document.addEventListener('keydown', function(event) {
+      switch(event.key) {
+        case 'ArrowRight': video.currentTime += 10; break;
+        case 'ArrowLeft': video.currentTime -= 10; break;
+        case ' ': event.preventDefault(); if (video.paused) video.play(); else video.pause(); break;
+      }
+    });
+  </script>
+</body>
+</html>
