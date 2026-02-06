@@ -51,6 +51,8 @@
   <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
   <script>
     const video = document.getElementById("video");
+    // 允许跨域请求头检索（服务器已返回 Access-Control-Allow-Origin: *）
+    video.crossOrigin = "anonymous";
 
     function getUrlParam(name) {
       const url = new URL(window.location.href);
@@ -61,6 +63,30 @@
     if (!videoUrl) {
       alert("请在网址后添加 ?url=视频地址");
     } else {
+      // 先尝试用 HEAD 请求获取响应头以便排查
+      fetch(videoUrl, { method: 'HEAD', mode: 'cors', cache: 'no-cache' })
+        .then(res => {
+          console.log('HEAD 请求状态:', res.status, res.statusText);
+          try {
+            console.log('Content-Type:', res.headers.get('content-type'));
+            console.log('Access-Control-Allow-Origin:', res.headers.get('access-control-allow-origin'));
+            console.log('Accept-Ranges:', res.headers.get('accept-ranges'));
+            console.log('Content-Length:', res.headers.get('content-length'));
+          } catch (e) { console.warn('读取头部失败', e); }
+        })
+        .catch(err => {
+          console.warn('HEAD 请求失败（可能受限或网络问题）', err);
+        });
+
+      // 监听更多媒体事件，便于在控制台看到详细错误信息
+      ['loadedmetadata','canplay','canplaythrough','progress','stalled','suspend','abort','emptied','error']
+        .forEach(evt => video.addEventListener(evt, e => console.log('video event:', evt, e)));
+
+      video.addEventListener('error', () => {
+        const err = video.error;
+        console.error('video.error 对象:', err);
+        if (err) alert('媒体播放错误: code=' + err.code + ' message=' + (err.message || '无'));
+      });
       if (videoUrl.endsWith(".m3u8")) {
         if (Hls.isSupported()) {
           const hls = new Hls();
