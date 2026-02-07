@@ -30,7 +30,7 @@ FOXNEWS,http://gi6.1ott.club:8080/gqQciW1qgK/sjcyqgX3wQ/177448
 朝鲜中央台,https://tv.nknews.org/tvdash/stream-43963200.m4a
 
 乌克兰新闻,
-俄罗斯新闻,
+俄罗斯新闻,https://rt-glb.rttv.com/dvr/rtnews/playlist_4500Kb.m3u8
 印度新闻,http://gi6.1ott.club:8080/gqQciW1qgK/sjcyqgX3wQ/177450
 印度新闻,https://ndtv24x7elemarchana.akamaized.net/hls/live/2003678/ndtv24x7/master.m3u8
 泰国公视,https://thaipbs-live.cdn.byteark.com/live/playlist_1080p/index.m3u8
@@ -63,7 +63,7 @@ Now新闻,http://hls.168.us.kg/u/332/master.m3u8
 无线新闻,https://cdn6.101.qzz.io/163189/wxxw
 无线新闻,http://bxtv.3a.ink/api.php?id=wxxw
 无线新闻,http://hls.168.us.kg/u/83/master.m3u8
-
+凤凰资讯,http://r.jdshipin.com/0Rp07
 无线新闻,http://php.jdshipin.com/smt.php?id=inews_twn
 Now新闻,http://cdn.163189.xyz/163189/now 
 凤凰资讯,http://php.jdshipin.com/TVOD/iptv.php?id=fhzx
@@ -106,6 +106,7 @@ ViuTV6,https://cdn9.163189.xyz/smt1.1.php?id=viusix_twn
 鳯凰卫视,https://cdn6.101.qzz.io/163189/fhzw
 
 🇯🇪纪实人文,#genre#
+动物星球,http://61.221.215.25:8800/hls/57/index.m3u8
 DISCOVERY,http://ip.sltv.be:8080/Qv4XPzVKM9/7jgT1M4tYk/234544
 NGO,http://ip.sltv.be:8080/Qv4XPzVKM9/7jgT1M4tYk/234563#http://ip.sltv.be:8080/Qv4XPzVKM9/7jgT1M4tYk/177502
 HISTORY,http://ip.sltv.be:8080/Qv4XPzVKM9/7jgT1M4tYk/234549
@@ -113,7 +114,7 @@ HISTORY,http://ip.sltv.be:8080/Qv4XPzVKM9/7jgT1M4tYk/382447
 ZDF纪录片,http://ip.sltv.be:8080/Qv4XPzVKM9/7jgT1M4tYk/377339
 SKY纪录片,http://ip.sltv.be:8080/Qv4XPzVKM9/7jgT1M4tYk/378506
 
-DISCOVERY,http://nocable.cc:8080/5AGbfz/324331/46720#http://nocable.cc:8080/5AGbfz/324331/9811
+DISCOVERY,http://nocable.cc:8080/5AGbfz/324331/9811#http://nocable.cc:8080/5AGbfz/324331/46720#
 DISCOVERY,http://nocable.cc:8080/5AGbfz/324331/53684
 A&E,http://nocable.cc:8080/5AGbfz/324331/59056#http://nocable.cc:8080/5AGbfz/324331/2201
 History,http://nocable.cc:8080/5AGbfz/324331/46724
@@ -693,6 +694,54 @@ CCTV17,http://111.170.157.210:1081/?id=673168256&auth=95d4c11f9a4bc430bf05d5da4a
 辽宁卫视,http://111.170.157.210:1081/?id=630291707&auth=95d4c11f9a4bc430bf05d5da4ace7ccbf67bcf262105435fb7878d9c6d40516fb26d74172d72ce86492f0eb6dd816f5f
 宁夏卫视,http://111.170.157.210:1081/?id=738910535&auth=95d4c11f9a4bc430bf05d5da4ace7ccbb39d6e38320b7c570cbf4951fb40f03aa39dc9cb1ebb3bd4b70661e54f3606c1
 重庆卫视,http://111.170.157.210:1081/?id=738910914&auth=95d4c11f9a4bc430bf05d5da4ace7ccbaebee3cff9ed4fe6499fe63db2e84b5170bc87de4e3066d8c0293a718e3161bf
+
+CCTV1,http://113.26.251.182:8009/hls/1/index.m3u8
+CCTV2,http://113.26.251.182:8009/hls/2/index.m3u8
+CCTV3,http://113.26.251.182:8009/hls/3/index.m3u8
+CCTV4,http://113.26.251.182:8009/hls/4/index.m3u8
+CCTV5,http://113.26.251.182:8009/hls/5/index.m3u8
+CCTV5+,http://113.26.251.182:8009/hls/18/index.m3u8
+CCTV6,http://113.26.251.182:8009/hls/6/index.m3u8
+CCTV7,http://113.26.251.182:8009/hls/7/index.m3u8
+CCTV8,http://113.26.251.182:8009/hls/8/index.m3u8
+CCTV9,http://113.26.251.182:8009/hls/9/index.m3u8
+CCTV10,http://113.26.251.182:8009/hls/10/index.m3u8
+CCTV11,http://113.26.251.182:8009/hls/11/index.m3u8
+CCTV12,http://113.26.251.182:8009/hls/12/index.m3u8
+CCTV13,http://113.26.251.182:8009/hls/13/index.m3u8
+CCTV14,http://113.26.251.182:8009/hls/14/index.m3u8
+CCTV15,http://113.26.251.182:8009/hls/15/index.m3u8
+CCTV17,http://113.26.251.182:8009/hls/17/index.m3u8
+北京卫视,http://113.26.251.182:8009/hls/30/index.m3u8
+天津卫视,http://113.26.251.182:8009/hls/40/index.m3u8
+东方卫视,http://113.26.251.182:8009/hls/29/index.m3u8
+东南卫视,http://113.26.251.182:8009/hls/57/index.m3u8
+广东卫视,http://113.26.251.182:8009/hls/48/index.m3u8
+广西卫视,http://113.26.251.182:8009/hls/36/index.m3u8
+深圳卫视,http://113.26.251.182:8009/hls/42/index.m3u8
+江苏卫视,http://113.26.251.182:8009/hls/34/index.m3u8
+江西卫视,http://113.26.251.182:8009/hls/49/index.m3u8
+浙江卫视,http://113.26.251.182:8009/hls/35/index.m3u8
+湖南卫视,http://113.26.251.182:8009/hls/31/index.m3u8
+湖北卫视,http://113.26.251.182:8009/hls/39/index.m3u8
+安徽卫视,http://113.26.251.182:8009/hls/50/index.m3u8
+山东卫视,http://113.26.251.182:8009/hls/41/index.m3u8
+山西卫视,http://113.26.251.182:8009/hls/19/index.m3u8
+教育卫视,http://113.26.251.182:8009/hls/65/index.m3u8
+河北卫视,http://113.26.251.182:8009/hls/45/index.m3u8
+龙江卫视,http://113.26.251.182:8009/hls/44/index.m3u8
+吉林卫视,http://113.26.251.182:8009/hls/46/index.m3u8
+辽宁卫视,http://113.26.251.182:8009/hls/43/index.m3u8
+云南卫视,http://113.26.251.182:8009/hls/33/index.m3u8
+贵州卫视,http://113.26.251.182:8009/hls/37/index.m3u8
+四川卫视,http://113.26.251.182:8009/hls/38/index.m3u8
+重庆卫视,http://113.26.251.182:8009/hls/32/index.m3u8
+甘肃卫视,http://113.26.251.182:8009/hls/51/index.m3u8
+宁夏卫视,http://113.26.251.182:8009/hls/52/index.m3u8
+青海卫视,http://113.26.251.182:8009/hls/53/index.m3u8
+内蒙卫视,http://113.26.251.182:8009/hls/47/index.m3u8
+西藏卫视,http://113.26.251.182:8009/hls/54/index.m3u8
+新疆卫视,http://113.26.251.182:8009/hls/55/index.m3u8
 
 🇲🇰测试_66,#genre#
 惊艳电影,http://15.204.105.50:25461/live/G2s9zK2n9m/xDtwVfWM8T/85.ts
