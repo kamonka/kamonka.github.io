@@ -80,6 +80,9 @@ ZDF,http://ip.sltv.be:8080/Qv4XPzVKM9/7jgT1M4tYk/377340
 FOX,http://ip.sltv.be:8080/Qv4XPzVKM9/7jgT1M4tYk/493795
 CNBC,http://ip.sltv.be:8080/Qv4XPzVKM9/7jgT1M4tYk/633380
 
+RAI1,http://lunar.pm:8080/Telexys416/Johnnycust2027/122737
+RAI2,http://lunar.pm:8080/Telexys416/Johnnycust2027/122738
+
 ITV1,https://pixman.mytvsuper.com.mp/Smart.php?id=itv1_antik
 ITV2,https://pixman.mytvsuper.com.mp/Smart.php?id=itv2_antik
 ITV2,https://sib.sld.tw/Smart.php?id=itv2_antik
@@ -186,6 +189,9 @@ ComedyCentral,http://cistakosuza.petica.info:80/Marina1KZ/ubxfvM6dQ7/69752
 
 🇯🇲体育,#genre#
 TORO,http://ip.sltv.be:8080/Qv4XPzVKM9/7jgT1M4tYk/136662
+TORO,http://tv.diablotv.net:8080/112DDaNocolladl34ksSGatoPeroo/mEDTLeyQ2T/8217
+TORO,http://ty.4331327.xyz:8080/live/koz8747/39102023/343647.ts
+TORO,http://ty.4331327.xyz:8080/live/koz8747/39102023/343627.ts
 TORO,http://kdr.376869.xyz:8080/mehmet39045/8JaJprJXk4/382409#http://kdr.376869.xyz:8080/mehmet39045/8JaJprJXk4/382504#http://kdr.376869.xyz:8080/mehmet39045/8JaJprJXk4/382524
 TORO,http://metropolvip.xyz:2086/metpol9117dvck/37lcSI3naN/189388
 TORO,http://mh.smpy24.live:80/6smkto4a4e/rtwev2gfqd/524044
