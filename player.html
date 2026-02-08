@@ -3,46 +3,57 @@
 <head>
   <meta charset="UTF-8">
   <title>今晚看什么</title>
-  <link rel="shortcut icon" href="https://jyjdsg.dpdns.org/favicon.ico">
-  <link href="https://vjs.zencdn.net/8.23.4/video-js.css" rel="stylesheet" />
+  <link rel="shortcut icon" href="https://jyjdsg.dpdns.org/favicon.ico"> 
   <style>
     html, body {
       margin: 0;
       background: #000;
       height: 100%;
-      display: flex;
-      justify-content: center;
-      align-items: center;
     }
-    #my-video {
+    video {
       width: 100vw;
       height: 100vh;
+      background: #000;
     }
-    .video-js {
-      background-color: #000;
+    /* 增强进度条可见性 */
+    video::-webkit-media-controls-timeline {
+      background: #333;
+      height: 10px;
+      border-radius: 5px;
+    }
+    video::-webkit-media-controls-current-time-display,
+    video::-webkit-media-controls-time-remaining-display {
+      color: #fff;
+      font-size: 14px;
+    }
+    video::-webkit-media-controls-play-button,
+    video::-webkit-media-controls-fullscreen-button {
+      filter: brightness(1.5);
+    }
+    /* Firefox 兼容 */
+    video::-moz-range-track {
+      background: #333;
+      height: 10px;
+      border-radius: 5px;
+    }
+    video::-moz-range-thumb {
+      background: #fff;
+      height: 10px;
+      width: 10px;
+      border-radius: 50%;
     }
   </style>
 </head>
 <body>
 
-  <video
-    id="my-video"
-    class="video-js"
-    controls
-    autoplay
-    playsinline
-    preload="auto"
-    data-setup="{}"
-  >
-    <p class="vjs-no-js">
-      需要启用 JavaScript 或升级到支持 HTML5 video 的浏览器
-    </p>
-  </video>
+  <video id="video" controls autoplay playsinline></video>
 
-  <script src="https://vjs.zencdn.net/8.23.4/video.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
-  <script src="player/dash.all.min.js"></script>
   <script>
+    const video = document.getElementById("video");
+    // 允许跨域请求头检索（服务器已返回 Access-Control-Allow-Origin: *）
+    video.crossOrigin = "anonymous";
+
     function getUrlParam(name) {
       const url = new URL(window.location.href);
       return url.searchParams.get(name);
@@ -52,79 +63,82 @@
     if (!videoUrl) {
       alert("请在网址后添加 ?url=视频地址");
     } else {
-      // 初始化 video.js 播放器
-      const player = videojs('my-video', {
-        controlBar: {
-          fullscreenToggle: true
-        }
-      });
+      // 先尝试用 HEAD 请求获取响应头以便排查
+      fetch(videoUrl, { method: 'HEAD', mode: 'cors', cache: 'no-cache' })
+        .then(res => {
+          console.log('HEAD 请求状态:', res.status, res.statusText);
+          try {
+            console.log('Content-Type:', res.headers.get('content-type'));
+            console.log('Access-Control-Allow-Origin:', res.headers.get('access-control-allow-origin'));
+            console.log('Accept-Ranges:', res.headers.get('accept-ranges'));
+            console.log('Content-Length:', res.headers.get('content-length'));
+          } catch (e) { console.warn('读取头部失败', e); }
+        })
+        .catch(err => {
+          console.warn('HEAD 请求失败（可能受限或网络问题）', err);
+        });
 
-      // 检测视频格式
-      const urlObj = new URL(videoUrl, window.location.href);
-      const path = urlObj.pathname.toLowerCase();
-      
-      if (path.endsWith('.m3u8')) {
-        // 对于 HLS，使用 hls.js 插件
+      // 监听更多媒体事件，便于在控制台看到详细错误信息
+      ['loadedmetadata','canplay','canplaythrough','progress','stalled','suspend','abort','emptied','error']
+        .forEach(evt => video.addEventListener(evt, e => console.log('video event:', evt, e)));
+
+      video.addEventListener('error', () => {
+        const err = video.error;
+        console.error('video.error 对象:', err);
+        if (err) alert('媒体播放错误: code=' + err.code + ' message=' + (err.message || '无'));
+      });
+      if (videoUrl.endsWith(".m3u8")) {
         if (Hls.isSupported()) {
           const hls = new Hls();
-          player.src({ src: videoUrl, type: 'application/x-mpegURL' });
           hls.loadSource(videoUrl);
-          hls.attachMedia(player.tech().el());
+          hls.attachMedia(video);
+        } else if (video.canPlayType("application/vnd.apple.mpegurl")) {
+          video.src = videoUrl;
         } else {
-          player.src({ src: videoUrl, type: 'application/x-mpegURL' });
+          alert("浏览器不支持 M3U8 播放");
         }
-      } else if (path.endsWith('.mpd')) {
-        player.src({ src: videoUrl, type: 'application/dash+xml' });
-      } else if (path.endsWith('.webm')) {
-        player.src({ src: videoUrl, type: 'video/webm' });
-      } else if (path.endsWith('.ogg')) {
-        player.src({ src: videoUrl, type: 'video/ogg' });
+      } else if (videoUrl.endsWith(".mp4")) {
+        video.src = videoUrl;
       } else {
-        // 默认作为 mp4 尝试
-        player.src({ src: videoUrl, type: 'video/mp4' });
+        alert("不支持的视频格式");
       }
 
-      // 播放并尝试进入全屏
-      player.ready(() => {
-        player.play().catch(() => {
-          console.warn('自动播放被浏览器阻止');
+      video.addEventListener("canplay", () => {
+        video.play().catch(() => {
+          console.warn("播放失败，可能是浏览器策略限制");
         });
-        
-        // 尝试进入全屏
-        if (player.requestFullscreen) {
-          player.requestFullscreen().catch(() => {});
-        }
-      });
 
-      // 错误处理
-      player.on('error', () => {
-        const err = player.error();
-        if (err) {
-          console.error('播放器错误:', err.code, err.message);
-          alert('媒体播放错误: ' + err.message);
-        }
-      });
-
-      // 添加快捷键功能
-      document.addEventListener('keydown', function(event) {
-        switch(event.key) {
-          case 'ArrowRight':
-            player.currentTime(Math.min(player.currentTime() + 10, player.duration()));
-            break;
-          case 'ArrowLeft':
-            player.currentTime(Math.max(player.currentTime() - 10, 0));
-            break;
-          case ' ':
-            event.preventDefault();
-            if (player.paused()) {
-              player.play();
-            } else {
-              player.pause();
-            }
-            break;
-        }
+        // 自动全屏
+        const el = video;
+        if (el.requestFullscreen) el.requestFullscreen();
+        else if (el.webkitRequestFullscreen) el.webkitRequestFullscreen();
+        else if (el.mozRequestFullScreen) el.mozRequestFullScreen();
+        else if (el.msRequestFullscreen) el.msRequestFullscreen();
       });
     }
+
+    // 添加快捷键功能
+    document.addEventListener('keydown', function(event) {
+      switch(event.key) {
+        case 'ArrowRight':
+          // 快进 10 秒
+          video.currentTime += 10;
+          break;
+        case 'ArrowLeft':
+          // 快退 10 秒
+          video.currentTime -= 10;
+          break;
+        case ' ':
+          // 空格键播放/暂停
+          event.preventDefault(); // 防止页面滚动
+          if (video.paused) {
+            video.play();
+          } else {
+            video.pause();
+          }
+          break;
+      }
+    });
   </script>
 </body>
 </html>
