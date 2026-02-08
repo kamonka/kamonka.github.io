@@ -117,7 +117,9 @@
             console.error('video.error 对象:', err);
             if (err) alert('媒体播放错误: code=' + err.code + ' message=' + (err.message || '无'));
           });
-          if (videoUrl.endsWith(".m3u8")) {
+          // 取不含查询/hash 的路径来判断后缀
+          const path = (new URL(videoUrl, window.location.href)).pathname.toLowerCase();
+          if (path.endsWith(".m3u8")) {
             if (Hls.isSupported()) {
               const hls = new Hls();
               hls.loadSource(videoUrl);
@@ -127,10 +129,11 @@
             } else {
               alert("浏览器不支持 M3U8 播放");
             }
-          } else if (videoUrl.endsWith(".mp4")) {
+          } else if (path.endsWith(".mp4") || path.match(/\.(webm|ogg)$/)) {
             video.src = videoUrl;
           } else {
-            alert("不支持的视频格式");
+            // 退化：若格式未知，仍尝试直接赋值，让浏览器判断
+            video.src = videoUrl;
           }
 
           video.addEventListener("canplay", () => {
