@@ -49,6 +49,7 @@
   <video id="video" controls autoplay playsinline></video>
 
   <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
+  <script src="player/dash.all.min.js"></script>
   <script>
     const video = document.getElementById("video");
     // 允许跨域请求头检索（服务器已返回 Access-Control-Allow-Origin: *）
@@ -63,52 +64,122 @@
     if (!videoUrl) {
       alert("请在网址后添加 ?url=视频地址");
     } else {
-      // 先尝试用 HEAD 请求获取响应头以便排查
+      // 尝试用 HEAD 请求获取 content-type 来辅助判断（若被 CORS 限制则继续后备策略）
       fetch(videoUrl, { method: 'HEAD', mode: 'cors', cache: 'no-cache' })
         .then(res => {
-          console.log('HEAD 请求状态:', res.status, res.statusText);
-          try {
-            console.log('Content-Type:', res.headers.get('content-type'));
-            console.log('Access-Control-Allow-Origin:', res.headers.get('access-control-allow-origin'));
-            console.log('Accept-Ranges:', res.headers.get('accept-ranges'));
-            console.log('Content-Length:', res.headers.get('content-length'));
-          } catch (e) { console.warn('读取头部失败', e); }
+          const ct = res.headers.get('content-type');
+          console.log('HEAD 请求状态:', res.status, res.statusText, 'Content-Type:', ct);
+          playWithHints(ct);
         })
         .catch(err => {
-          console.warn('HEAD 请求失败（可能受限或网络问题）', err);
+          console.warn('HEAD 请求失败，使用后备播放策略', err);
+          playWithHints(null);
         });
 
       // 监听更多媒体事件，便于在控制台看到详细错误信息
       ['loadedmetadata','canplay','canplaythrough','progress','stalled','suspend','abort','emptied','error']
         .forEach(evt => video.addEventListener(evt, e => console.log('video event:', evt, e)));
 
+      let triedBlobFallback = false;
       video.addEventListener('error', () => {
         const err = video.error;
         console.error('video.error 对象:', err);
         if (err) alert('媒体播放错误: code=' + err.code + ' message=' + (err.message || '无'));
-      });
-      if (videoUrl.endsWith(".m3u8")) {
-        if (Hls.isSupported()) {
-          const hls = new Hls();
-          hls.loadSource(videoUrl);
-          hls.attachMedia(video);
-        } else if (video.canPlayType("application/vnd.apple.mpegurl")) {
-          video.src = videoUrl;
-        } else {
-          alert("浏览器不支持 M3U8 播放");
+        // 如果直接赋值失败，作为最后手段尝试 no-cors fetch -> blob 再播放（仅尝试一次）
+        if (!triedBlobFallback) {
+          triedBlobFallback = true;
+          console.log('尝试通过 fetch(no-cors) 下载为 blob 作为降级播放');
+          fetch(videoUrl, { method: 'GET', mode: 'no-cors', cache: 'no-cache' })
+            .then(res => res.blob())
+            .then(blob => {
+              try {
+                const objUrl = URL.createObjectURL(blob);
+                console.log('使用 blob URL 作为降级播放源', objUrl);
+                video.src = objUrl;
+                video.play().catch(e => console.warn('从 blob 播放也被阻止', e));
+                // 在适当时回收 objectURL
+                video.addEventListener('ended', () => URL.revokeObjectURL(objUrl));
+              } catch (e) {
+                console.warn('blob 降级播放失败', e);
+              }
+            })
+            .catch(err => console.warn('no-cors fetch -> blob 失败', err));
         }
-      } else if (videoUrl.endsWith(".mp4")) {
-        video.src = videoUrl;
-      } else {
-        alert("不支持的视频格式");
+      });
+
+      function playWithHints(contentType) {
+        const urlLower = videoUrl.split('?')[0].split('#')[0].toLowerCase();
+        const isM3U8 = urlLower.endsWith('.m3u8') || (contentType && /mpegurl|application\/x-mpegURL/i.test(contentType));
+        const isDASH = urlLower.endsWith('.mpd') || (contentType && /dash\+xml|application\/dash\+xml/i.test(contentType));
+        const extMatch = urlLower.match(/\.([a-z0-9]+)$/);
+        const ext = extMatch ? extMatch[1] : '';
+
+        function setAndPlay(src) {
+          video.src = src;
+          video.play().catch(() => console.warn('自动播放被浏览器策略阻止'));
+        }
+
+        if (isM3U8) {
+          if (window.Hls && Hls.isSupported()) {
+            const hls = new Hls();
+            hls.loadSource(videoUrl);
+            hls.attachMedia(video);
+          } else if (video.canPlayType && video.canPlayType('application/vnd.apple.mpegurl')) {
+            setAndPlay(videoUrl);
+          } else {
+            console.warn('检测到 HLS，但浏览器不直接支持 HLS');
+            setAndPlay(videoUrl); // 仍然尝试让浏览器或插件处理，避免误杀
+          }
+          return;
+        }
+
+        if (isDASH) {
+          if (window.dashjs && dashjs.MediaPlayer) {
+            const player = dashjs.MediaPlayer().create();
+            player.initialize(video, videoUrl, true);
+          } else {
+            console.warn('检测到 DASH (.mpd)，但 dash.js 未加载或不支持');
+            setAndPlay(videoUrl); // 仍然尝试
+          }
+          return;
+        }
+
+        // 常见容器类型优先处理
+        if (/\.(mp4|webm|ogg)$/.test(urlLower)) {
+          setAndPlay(videoUrl);
+          return;
+        }
+
+        // 如果 Content-Type 是 video/* 或 audio/*，尝试原生播放
+        if (contentType && /^(video|audio)\//i.test(contentType)) {
+          setAndPlay(videoUrl);
+          return;
+        }
+
+        // 尝试用 canPlayType 做一个保守判断
+        const tryTypes = {
+          mp4: 'video/mp4',
+          webm: 'video/webm',
+          ogg: 'video/ogg'
+        };
+        if (ext && tryTypes[ext]) {
+          const can = video.canPlayType(tryTypes[ext]);
+          if (can === 'probably' || can === 'maybe') {
+            setAndPlay(videoUrl);
+            return;
+          }
+        }
+
+        // 最后退化：不再直接弹出“不支持”，而是尝试将 URL 赋值，让浏览器决定
+        console.log('未明确检测到格式，尝试直接赋值以避免误杀');
+        setAndPlay(videoUrl);
       }
 
+      // 自动全屏与 canplay 处理
       video.addEventListener("canplay", () => {
-        video.play().catch(() => {
-          console.warn("播放失败，可能是浏览器策略限制");
-        });
+        // 尝试播放（部分浏览器会因策略阻止）
+        video.play().catch(() => console.warn("播放失败，可能是浏览器策略限制"));
 
-        // 自动全屏
         const el = video;
         if (el.requestFullscreen) el.requestFullscreen();
         else if (el.webkitRequestFullscreen) el.webkitRequestFullscreen();
