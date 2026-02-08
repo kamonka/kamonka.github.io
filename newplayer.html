@@ -1,118 +1,45 @@
-<!DOCTYPE html>
-<html lang="zh">
 <head>
   <meta charset="UTF-8">
   <title>今晚看什么</title>
   <link rel="shortcut icon" href="https://jyjdsg.dpdns.org/favicon.ico"> 
+  <link href="https://vjs.zencdn.net/8.23.4/video-js.css" rel="stylesheet" />
+  <!-- If you'd like to support IE8 (for Video.js versions prior to v7) -->
+  <!-- <script src="https://vjs.zencdn.net/ie8/1.1.2/videojs-ie8.min.js"></script> -->
   <style>
     html, body {
-      margin: 0;
-      background: #000;
-      height: 100%;
-    }
-    video {
-      width: 100vw;
-      height: 100vh;
-      background: #000;
-    }
-    /* 增强进度条可见性 */
-    video::-webkit-media-controls-timeline {
-      background: #333;
-      height: 10px;
-      border-radius: 5px;
-    }
-    video::-webkit-media-controls-current-time-display,
-    video::-webkit-media-controls-time-remaining-display {
+      background-color: #000;
       color: #fff;
-      font-size: 14px;
-    }
-    video::-webkit-media-controls-play-button,
-    video::-webkit-media-controls-fullscreen-button {
-      filter: brightness(1.5);
-    }
-    /* Firefox 兼容 */
-    video::-moz-range-track {
-      background: #333;
-      height: 10px;
-      border-radius: 5px;
-    }
-    video::-moz-range-thumb {
-      background: #fff;
-      height: 10px;
-      width: 10px;
-      border-radius: 50%;
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
     }
   </style>
 </head>
+
 <body>
+  <video
+    id="my-video"
+    class="video-js"
+    controls
+    preload="auto"
+    width="1080"
+    height="720"
+    poster="剧照地址"
+    data-setup="{}"
+  >
+    <source src="视频地址" type="video/mp4" />
+    <source src="MY_VIDEO.webm" type="video/webm" />
+    <p class="vjs-no-js">
+      To view this video please enable JavaScript, and consider upgrading to a
+      web browser that
+      <a href="https://videojs.com/html5-video-support/" target="_blank"
+        >supports HTML5 video</a
+      >
+    </p>
+  </video>
 
-  <video id="video" controls autoplay playsinline></video>
-
-  <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
-  <script>
-    const video = document.getElementById("video");
-
-    function getUrlParam(name) {
-      const url = new URL(window.location.href);
-      return url.searchParams.get(name);
-    }
-
-    const videoUrl = getUrlParam("url");
-    if (!videoUrl) {
-      alert("请在网址后添加 ?url=视频地址");
-    } else {
-      if (videoUrl.endsWith(".m3u8")) {
-        if (Hls.isSupported()) {
-          const hls = new Hls();
-          hls.loadSource(videoUrl);
-          hls.attachMedia(video);
-        } else if (video.canPlayType("application/vnd.apple.mpegurl")) {
-          video.src = videoUrl;
-        } else {
-          alert("浏览器不支持 M3U8 播放");
-        }
-      } else if (videoUrl.endsWith(".mp4")) {
-        video.src = videoUrl;
-      } else {
-        alert("不支持的视频格式");
-      }
-
-      video.addEventListener("canplay", () => {
-        video.play().catch(() => {
-          console.warn("播放失败，可能是浏览器策略限制");
-        });
-
-        // 自动全屏
-        const el = video;
-        if (el.requestFullscreen) el.requestFullscreen();
-        else if (el.webkitRequestFullscreen) el.webkitRequestFullscreen();
-        else if (el.mozRequestFullScreen) el.mozRequestFullScreen();
-        else if (el.msRequestFullscreen) el.msRequestFullscreen();
-      });
-    }
-
-    // 添加快捷键功能
-    document.addEventListener('keydown', function(event) {
-      switch(event.key) {
-        case 'ArrowRight':
-          // 快进 10 秒
-          video.currentTime += 10;
-          break;
-        case 'ArrowLeft':
-          // 快退 10 秒
-          video.currentTime -= 10;
-          break;
-        case ' ':
-          // 空格键播放/暂停
-          event.preventDefault(); // 防止页面滚动
-          if (video.paused) {
-            video.play();
-          } else {
-            video.pause();
-          }
-          break;
-      }
-    });
-  </script>
+  <script src="https://vjs.zencdn.net/8.23.4/video.min.js"></script>
 </body>
-</html>
