@@ -27,198 +27,148 @@
       font-size: 14px;
     }
     video::-webkit-media-controls-play-button,
-    video::-webkit-media-controls-fullscreen-button {
-      filter: brightness(1.5);
-    }
-    /* Firefox 兼容 */
-    video::-moz-range-track {
-      background: #333;
-      height: 10px;
-      border-radius: 5px;
-    }
-    video::-moz-range-thumb {
-      background: #fff;
-      height: 10px;
-      width: 10px;
-      border-radius: 50%;
-    }
-  </style>
-</head>
-<body>
+    <!DOCTYPE html>
+    <html lang="zh">
+    <head>
+      <meta charset="UTF-8">
+      <title>今晚看什么</title>
+      <link rel="shortcut icon" href="https://jyjdsg.dpdns.org/favicon.ico"> 
+      <style>
+        html, body {
+          margin: 0;
+          background: #000;
+          height: 100%;
+        }
+        video {
+          width: 100vw;
+          height: 100vh;
+          background: #000;
+        }
+        /* 增强进度条可见性 */
+        video::-webkit-media-controls-timeline {
+          background: #333;
+          height: 10px;
+          border-radius: 5px;
+        }
+        video::-webkit-media-controls-current-time-display,
+        video::-webkit-media-controls-time-remaining-display {
+          color: #fff;
+          font-size: 14px;
+        }
+        video::-webkit-media-controls-play-button,
+        video::-webkit-media-controls-fullscreen-button {
+          filter: brightness(1.5);
+        }
+        /* Firefox 兼容 */
+        video::-moz-range-track {
+          background: #333;
+          height: 10px;
+          border-radius: 5px;
+        }
+        video::-moz-range-thumb {
+          background: #fff;
+          height: 10px;
+          width: 10px;
+          border-radius: 50%;
+        }
+      </style>
+    </head>
+    <body>
 
-  <video id="video" controls autoplay playsinline></video>
+      <video id="video" controls autoplay playsinline></video>
 
-  <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
-  <script src="player/dash.all.min.js"></script>
-  <script>
-    const video = document.getElementById("video");
-    // 允许跨域请求头检索（服务器已返回 Access-Control-Allow-Origin: *）
-    video.crossOrigin = "anonymous";
+      <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
+      <script src="player/dash.all.min.js"></script>
+      <script>
+        const video = document.getElementById("video");
+        // 允许跨域请求头检索（服务器已返回 Access-Control-Allow-Origin: *）
+        video.crossOrigin = "anonymous";
 
-    function getUrlParam(name) {
-      const url = new URL(window.location.href);
-      return url.searchParams.get(name);
-    }
+        function getUrlParam(name) {
+          const url = new URL(window.location.href);
+          return url.searchParams.get(name);
+        }
 
-    const videoUrl = getUrlParam("url");
-    if (!videoUrl) {
-      alert("请在网址后添加 ?url=视频地址");
-    } else {
-      // 尝试用 HEAD 请求获取 content-type 来辅助判断（若被 CORS 限制则继续后备策略）
-      fetch(videoUrl, { method: 'HEAD', mode: 'cors', cache: 'no-cache' })
-        .then(function(res) {
-          var ct = res.headers.get('content-type');
-          console.log('HEAD 请求状态:', res.status, res.statusText, 'Content-Type:', ct);
-          playWithHints(ct);
-        })
-        .catch(function(err) {
-          console.warn('HEAD 请求失败，使用后备播放策略', err);
-          playWithHints(null);
-        });
-
-      // 监听更多媒体事件，便于在控制台看到详细错误信息
-      ['loadedmetadata','canplay','canplaythrough','progress','stalled','suspend','abort','emptied','error']
-        .forEach(function(evt) { video.addEventListener(evt, function(e) { console.log('video event:', evt, e); }); });
-
-      let triedBlobFallback = false;
-      video.addEventListener('error', function() {
-        const err = video.error;
-        console.error('video.error 对象:', err);
-        if (err) alert('媒体播放错误: code=' + err.code + ' message=' + (err.message || '无'));
-        // 如果直接赋值失败，作为最后手段尝试 no-cors fetch -> blob 再播放（仅尝试一次）
-        if (!triedBlobFallback) {
-          triedBlobFallback = true;
-          console.log('尝试通过 fetch(no-cors) 下载为 blob 作为降级播放');
-          fetch(videoUrl, { method: 'GET', mode: 'no-cors', cache: 'no-cache' })
-            .then(function(res) { return res.blob(); })
-            .then(function(blob) {
+        const videoUrl = getUrlParam("url");
+        if (!videoUrl) {
+          alert("请在网址后添加 ?url=视频地址");
+        } else {
+          // 先尝试用 HEAD 请求获取响应头以便排查
+          fetch(videoUrl, { method: 'HEAD', mode: 'cors', cache: 'no-cache' })
+            .then(res => {
+              console.log('HEAD 请求状态:', res.status, res.statusText);
               try {
-                const objUrl = URL.createObjectURL(blob);
-                console.log('使用 blob URL 作为降级播放源', objUrl);
-                video.src = objUrl;
-                video.play().catch(function(e) { console.warn('从 blob 播放也被阻止', e); });
-                // 在适当时回收 objectURL
-                video.addEventListener('ended', function() { URL.revokeObjectURL(objUrl); });
-              } catch (e) {
-                console.warn('blob 降级播放失败', e);
-              }
+                console.log('Content-Type:', res.headers.get('content-type'));
+                console.log('Access-Control-Allow-Origin:', res.headers.get('access-control-allow-origin'));
+                console.log('Accept-Ranges:', res.headers.get('accept-ranges'));
+                console.log('Content-Length:', res.headers.get('content-length'));
+              } catch (e) { console.warn('读取头部失败', e); }
             })
-            .catch(function(err) { console.warn('no-cors fetch -> blob 失败', err); });
-        } else if (!window._triedProxyFallback && window.location.protocol.indexOf('http') === 0) {
-          // 如果 blob 也失败，尝试使用同站代理（需服务器支持 PHP）
-          window._triedProxyFallback = true;
-          try {
-            const prox = '/player/proxy.php?url=' + encodeURIComponent(videoUrl);
-            console.log('尝试使用本地代理回退播放：', prox);
-            video.src = prox;
-            video.play().catch(function(e) { console.warn('代理播放也被阻止', e); });
-          } catch (e) { console.warn('代理回退失败', e); }
-        }
-      });
+            .catch(err => {
+              console.warn('HEAD 请求失败（可能受限或网络问题）', err);
+            });
 
-      function playWithHints(contentType) {
-        const urlLower = videoUrl.split('?')[0].split('#')[0].toLowerCase();
-        const isM3U8 = urlLower.endsWith('.m3u8') || (contentType && /mpegurl|application\/x-mpegURL/i.test(contentType));
-        const isDASH = urlLower.endsWith('.mpd') || (contentType && /dash\+xml|application\/dash\+xml/i.test(contentType));
-        const extMatch = urlLower.match(/\.([a-z0-9]+)$/);
-        const ext = extMatch ? extMatch[1] : '';
+          // 监听更多媒体事件，便于在控制台看到详细错误信息
+          ['loadedmetadata','canplay','canplaythrough','progress','stalled','suspend','abort','emptied','error']
+            .forEach(evt => video.addEventListener(evt, e => console.log('video event:', evt, e)));
 
-        function setAndPlay(src) {
-          video.src = src;
-          video.play().catch(function() { console.warn('自动播放被浏览器策略阻止'); });
-        }
-
-        if (isM3U8) {
-          if (window.Hls && Hls.isSupported()) {
-            var hls = new Hls();
-            hls.loadSource(videoUrl);
-            hls.attachMedia(video);
-          } else if (video.canPlayType && video.canPlayType('application/vnd.apple.mpegurl')) {
-            setAndPlay(videoUrl);
+          video.addEventListener('error', () => {
+            const err = video.error;
+            console.error('video.error 对象:', err);
+            if (err) alert('媒体播放错误: code=' + err.code + ' message=' + (err.message || '无'));
+          });
+          if (videoUrl.endsWith(".m3u8")) {
+            if (Hls.isSupported()) {
+              const hls = new Hls();
+              hls.loadSource(videoUrl);
+              hls.attachMedia(video);
+            } else if (video.canPlayType("application/vnd.apple.mpegurl")) {
+              video.src = videoUrl;
+            } else {
+              alert("浏览器不支持 M3U8 播放");
+            }
+          } else if (videoUrl.endsWith(".mp4")) {
+            video.src = videoUrl;
           } else {
-            console.warn('检测到 HLS，但浏览器不直接支持 HLS');
-            setAndPlay(videoUrl); // 仍然尝试让浏览器或插件处理，避免误杀
+            alert("不支持的视频格式");
           }
-          return;
+
+          video.addEventListener("canplay", () => {
+            video.play().catch(() => {
+              console.warn("播放失败，可能是浏览器策略限制");
+            });
+
+            // 自动全屏
+            const el = video;
+            if (el.requestFullscreen) el.requestFullscreen();
+            else if (el.webkitRequestFullscreen) el.webkitRequestFullscreen();
+            else if (el.mozRequestFullScreen) el.mozRequestFullScreen();
+            else if (el.msRequestFullscreen) el.msRequestFullscreen();
+          });
         }
 
-        if (isDASH) {
-          if (window.dashjs && dashjs.MediaPlayer) {
-            var player = dashjs.MediaPlayer().create();
-            player.initialize(video, videoUrl, true);
-          } else {
-            console.warn('检测到 DASH (.mpd)，但 dash.js 未加载或不支持');
-            setAndPlay(videoUrl); // 仍然尝试
+        // 添加快捷键功能
+        document.addEventListener('keydown', function(event) {
+          switch(event.key) {
+            case 'ArrowRight':
+              // 快进 10 秒
+              video.currentTime += 10;
+              break;
+            case 'ArrowLeft':
+              // 快退 10 秒
+              video.currentTime -= 10;
+              break;
+            case ' ':
+              // 空格键播放/暂停
+              event.preventDefault(); // 防止页面滚动
+              if (video.paused) {
+                video.play();
+              } else {
+                video.pause();
+              }
+              break;
           }
-          return;
-        }
-
-        // 常见容器类型优先处理
-        if (/\.(mp4|webm|ogg)$/.test(urlLower)) {
-          setAndPlay(videoUrl);
-          return;
-        }
-
-        // 如果 Content-Type 是 video/* 或 audio/*，尝试原生播放
-        if (contentType && /^(video|audio)\//i.test(contentType)) {
-          setAndPlay(videoUrl);
-          return;
-        }
-
-        // 尝试用 canPlayType 做一个保守判断
-        const tryTypes = {
-          mp4: 'video/mp4',
-          webm: 'video/webm',
-          ogg: 'video/ogg'
-        };
-        if (ext && tryTypes[ext]) {
-          const can = video.canPlayType(tryTypes[ext]);
-          if (can === 'probably' || can === 'maybe') {
-            setAndPlay(videoUrl);
-            return;
-          }
-        }
-
-        // 最后退化：不再直接弹出“不支持”，而是尝试将 URL 赋值，让浏览器决定
-        console.log('未明确检测到格式，尝试直接赋值以避免误杀');
-        setAndPlay(videoUrl);
-      }
-
-      // 自动全屏与 canplay 处理
-      video.addEventListener("canplay", function() {
-        // 尝试播放（部分浏览器会因策略阻止）
-        video.play().catch(function() { console.warn("播放失败，可能是浏览器策略限制"); });
-
-        var el = video;
-        if (el.requestFullscreen) el.requestFullscreen();
-        else if (el.webkitRequestFullscreen) el.webkitRequestFullscreen();
-        else if (el.mozRequestFullScreen) el.mozRequestFullScreen();
-        else if (el.msRequestFullscreen) el.msRequestFullscreen();
-      });
-    }
-
-    // 添加快捷键功能
-    document.addEventListener('keydown', function(event) {
-      switch(event.key) {
-        case 'ArrowRight':
-          // 快进 10 秒
-          video.currentTime += 10;
-          break;
-        case 'ArrowLeft':
-          // 快退 10 秒
-          video.currentTime -= 10;
-          break;
-        case ' ':
-          // 空格键播放/暂停
-          event.preventDefault(); // 防止页面滚动
-          if (video.paused) {
-            video.play();
-          } else {
-            video.pause();
-          }
-          break;
-      }
-    });
-  </script>
-</body>
-</html>
+        });
+      </script>
+    </body>
+    </html>
