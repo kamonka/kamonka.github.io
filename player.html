@@ -86,7 +86,7 @@
         console.error('video.error 对象:', err);
         if (err) alert('媒体播放错误: code=' + err.code + ' message=' + (err.message || '无'));
         // 如果直接赋值失败，作为最后手段尝试 no-cors fetch -> blob 再播放（仅尝试一次）
-        if (!triedBlobFallback) {
+          if (!triedBlobFallback) {
           triedBlobFallback = true;
           console.log('尝试通过 fetch(no-cors) 下载为 blob 作为降级播放');
           fetch(videoUrl, { method: 'GET', mode: 'no-cors', cache: 'no-cache' })
@@ -104,6 +104,16 @@
               }
             })
             .catch(err => console.warn('no-cors fetch -> blob 失败', err));
+        } else if (!window._triedProxyFallback && window.location.protocol.indexOf('http') === 0) {
+          // 如果 blob 也失败，尝试使用同站代理（需服务器支持 PHP）
+          window._triedProxyFallback = true;
+          try {
+            const prox = '/player/proxy.php?url=' + encodeURIComponent(videoUrl);
+            console.log('尝试使用本地代理回退播放：', prox);
+            video.src = prox;
+            video.play().catch(e => console.warn('代理播放也被阻止', e));
+          } catch (e) { console.warn('代理回退失败', e); }
+        }
         }
       });
 
