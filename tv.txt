@@ -53,7 +53,6 @@ CNN,https://stream01.willfonk.com/live_playlist.m3u8?cid=CS354&r=HD&ccode=JP&m=d
 东森新闻,http://156.238.248.80/2099.php?id=880
 中天新闻,http://free.cnlive.club/channel/41d8a09d/index.m3u8?q=1760217407316
 民视新闻,http://165.154.226.214:50007/li-litv-ftv13/index.m3u8?proxy=true
-TVBSNEWS,http://61.221.215.25:8800/hls/9/index.m3u8
 TVBS新闻,http://iptv.4666888.xyz/iptv2A.php?id=43
 非凡新闻,http://iptv.4666888.xyz/iptv2A.php?id=44
 寰宇新闻,http://165.154.226.214:50007/li-litv-longturn14/index.m3u8?proxy=true
@@ -188,10 +187,12 @@ ComedyCentral,http://cistakosuza.petica.info:80/Marina1KZ/ubxfvM6dQ7/69752
 🇲🇾新马泰印#genre#
 
 🇯🇲体育,#genre#
+TORO,http://castorplens.live:80/Amigamaricruz/ru5qxpn0xy/726440#http://castorplens.live:80/Amigamaricruz/ru5qxpn0xy/620644#http://castorplens.live:80/Amigamaricruz/ru5qxpn0xy/726441
 TORO,http://ip.sltv.be:8080/Qv4XPzVKM9/7jgT1M4tYk/136662
 TORO,http://tv.diablotv.net:8080/112DDaNocolladl34ksSGatoPeroo/mEDTLeyQ2T/8217
 TORO,http://ty.4331327.xyz:8080/live/koz8747/39102023/343647.ts
 TORO,http://ty.4331327.xyz:8080/live/koz8747/39102023/343627.ts
+TORO,http://tv.proyectox.vip:8080/PaolaPlaza/0d91a58cfda9/8217
 TORO,http://kdr.376869.xyz:8080/mehmet39045/8JaJprJXk4/382409#http://kdr.376869.xyz:8080/mehmet39045/8JaJprJXk4/382504#http://kdr.376869.xyz:8080/mehmet39045/8JaJprJXk4/382524
 TORO,http://metropolvip.xyz:2086/metpol9117dvck/37lcSI3naN/189388
 TORO,http://mh.smpy24.live:80/6smkto4a4e/rtwev2gfqd/524044
