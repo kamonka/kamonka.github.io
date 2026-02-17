@@ -1,6 +1,6 @@
-﻿<head>
+<head>
   <meta charset="UTF-8">
-  <title>今晚看什么</title>
+  <title>占领与俄化：乌克兰沦陷区现状</title>
   <link rel="shortcut icon" href="https://jyjdsg.dpdns.org/favicon.ico"> 
   <link href="https://vjs.zencdn.net/8.23.4/video-js.css" rel="stylesheet" />
   <!-- If you'd like to support IE8 (for Video.js versions prior to v7) -->
@@ -16,72 +16,30 @@
       justify-content: center;
       align-items: center;
     }
-    
-    .player-container {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      gap: 20px;
-    }
-    
-    .download-btn {
-      padding: 10px 20px;
-      background-color: #1f8dd6;
-      color: #fff;
-      border: none;
-      border-radius: 4px;
-      font-size: 16px;
-      cursor: pointer;
-      transition: background-color 0.3s;
-    }
-    
-    .download-btn:hover {
-      background-color: #1661a3;
-    }
-    
-    .download-btn:active {
-      transform: scale(0.98);
-    }
   </style>
 </head>
 
 <body>
-  <div class="player-container">
-    <video
-      id="my-video"
-      class="video-js"
-      controls
-      preload="auto"
-      width="1080"
-      height="720"
-      poster="https://jyjdsg.dpdns.org/images/俄化.webp"
-      data-setup="{}"
-    >
-      <source src="https://dl-a10b-0859.mypikpak.com/down
-      <source src="https://dl-a10b-1542.mypikpak.com/download/?fid=-9BWOIYNiwI0D2XificuxCKw4TuCwdypspdQCRq8qfExL223z2xcPO_Z9GzWA3hUOwsAOU4W9ilTab16URuKBGDoZzT-vUu_tJ2oJhKlEDU=&from=5&verno=3&prod=pikpak&expire=1771258168&g=70F2FEB7840872F4C56447CF89DB551E085ED78C&ui=aYF_ChyN2aVhBvQr&t=0&ms=12600000&th=12600000&f=2068584601&alt=0&us=0&hspu=&po=0&userid=aYF_ChyN2aVhBvQr&fileid=VOkWrtYI5LY5MUZEgjJNPlsOo2&pr=XQPkPvr9WWiIuMvELmrVejvCRtsSD4ODS3BMN9Aej-o_q3IavCL77-05VWI2OLFADo-Wq9xvOEcM6DDBnhHi-Q0Q5AK3PDUwHKEN4HtGPAhBfOfaM8YcJJ4EMjzGgiJqfFxH0HXcmBRNqSzX_ZcFx-7XfMsn-81SpNGg6doho5tEii4wy9hkZJ9C8h2auy9kanc-z0Pz9f__wM-zo5Mi4n0GgSCBpgI1Y5IjBAEnas6FmLNooHwxVz2AUjp7H9qxSL2jDezrQERimtfaRCs_IlF2LcJI5jd6uH48k0GzHvwiQMz66q3aFca3BFQnQLqQeN53zPmMMTuq1rCwqm16NmPJBEtsw6YDfomO78IFMpuNTXGtN4Qx0ZNwRXJubYtWW2HR21p6GNRxO0ekV95Tm4Xxh12EfcVP6tjfbXOC2hE=&sign=2CF60EF4A0ADA63E33023AECC01FE516" type="video/mp4" />
-      <source src="MY_VIDEO.webm" type="video/webm" />
-      <p class="vjs-no-js">
-        To view this video please enable JavaScript, and consider upgrading to a
-        web browser that
-        <a href="https://videojs.com/html5-video-support/" target="_blank"
-          >supports HTML5 video</a
-        >
-      </p>
-    </video>
-    
-    <button class="download-btn" onclick="window.open('https://u.pcloud.link/publink/show?code=XZHFel5ZkSNnGGSulMXR5vKYJ1qU5Xyvd3dy', '_blank')">下载视频</button>
-  </div>
+  <video
+    id="my-video"
+    class="video-js"
+    controls
+    preload="auto"
+    width="1080"
+    height="720"
+    poster="剧照地址"
+    data-setup="{}"
+  >
+    <source src="https://def1.pcloud.com/cBZ3mRSKX7ZyVARcC7ZZZu6iv0kZQ5ZZl9FZZcKsfWkZbLZVQZHYZbFZHHZFQZELZoYZXHZzzZ6mZNzZFLZWmZHFel5ZAgt6K08ms3FrLgttKUzfVh1pxSvV/%E4%BF%84%E5%8D%A0%E5%8C%BA.mp4" type="video/mp4" />
+    <source src="MY_VIDEO.webm" type="video/webm" />
+    <p class="vjs-no-js">
+      To view this video please enable JavaScript, and consider upgrading to a
+      web browser that
+      <a href="https://videojs.com/html5-video-support/" target="_blank"
+        >supports HTML5 video</a
+      >
+    </p>
+  </video>
 
   <script src="https://vjs.zencdn.net/8.23.4/video.min.js"></script>
-//  <script>
-    function downloadVideo() {
-      const videoSource = document.querySelector('#my-video source[type="video/mp4"]').src;
-      const link = document.createElement('a');
-      link.href = videoSource;
-      link.download = 'video.mp4';
-      document.body.appendChild(link);
-      link.click();
-      document.body.removeChild(link);
-    }
-  </script>
 </body>
