@@ -225,15 +225,21 @@ NOWSPORTSPREMIERLEAGUETV,http://hostengine.live/live/Chelsea10%40/Stamford77%40/
 
 
 🇯🇵日本,#genre#
+NHKG,http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gd01&isp=4
 NHKG,http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gx06&isp=4
 NHKBS,http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs11&isp=4
 NHKBSP4K,http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs01&isp=4
 NHKG,http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=hdgd01&isp=4
 NHKE,http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=hdgd02&isp=4
+日本テレビ,http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gd03&isp=4
 日本テレビ,http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gx04&isp=4
+TBS,http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gd04&isp=4
 TBS,http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gx01&isp=4
+フジテレビ,http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gd05&isp=4
 フジテレビ,http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gx03&isp=4
+テレビ朝日,http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gd06&isp=4
 テレビ朝日,http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gx02&isp=4
+テレビ東京,http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gd07&isp=4
 テレビ東京,http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gx05&isp=4
 BS日テレ,http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs02&isp=4
 BSTBS,http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs04&isp=4
@@ -279,15 +285,21 @@ BS釣りビジョン,http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m
 TBSNEWS,http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs11&isp=4
 フジテレビNEXT,http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs26&isp=4
 
+NHK,http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gd01&isp=6
 NHKG,http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gx06&isp=6
 NHKBS,http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs11&isp=6
 NHKBSP4K,http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs01&isp=6
 NHKG,http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=hdgd01&isp=6
 NHKE,http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=hdgd02&isp=6
+日本テレビ,http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gd03&isp=6
 日本テレビ,http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gx04&isp=6
+TBS,http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gd04&isp=6
 TBS,http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gx01&isp=6
+フジテレビ,http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gd05&isp=6
 フジテレビ,http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gx03&isp=6
+テレビ朝日,http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gd06&isp=6
 テレビ朝日,http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gx02&isp=6
+テレビ東京,http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gd07&isp=6
 テレビ東京,http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gx05&isp=6
 BS日テレ,http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs02&isp=6
 BSTBS,http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs04&isp=6
@@ -478,71 +490,6 @@ Animax,https://nl.utako.moe/Animax/tracks-v1a1/mono.ts.m3u8
 Dlife,https://nl.utako.moe/dlife/tracks-v1a1/mono.ts.m3u8
 銀河,https://nl.utako.moe/gingach/tracks-v1a1/mono.ts.m3u8
 旅チャンネル,https://nl.utako.moe/tabi/tracks-v1a1/mono.ts.m3u8
-
-NHKGhttps://proxyvn.utako.moe/ph.php?&isp=1&id=hdgd01
-NHKGhttps://proxyvn.utako.moe/ph.php?&isp=1&id=gd01#https://proxyvn.utako.moe/ph.php?&isp=1&id=gx06
-NHKBShttps://proxyvn.utako.moe/ph.php?&isp=1&id=bs11
-NHKBSP4Khttps://proxyvn.utako.moe/ph.php?&isp=1&id=bs01
-NHKEhttps://proxyvn.utako.moe/ph.php?&isp=1&id=hdgd02
-NHKEhttps://proxyvn.utako.moe/ph.php?&isp=1&id=gd02
-日本テレビhttps://proxyvn.utako.moe/ph.php?&isp=1&id=hdgd03#https://proxyvn.utako.moe/ph.php?&isp=1&id=gd03#https://proxyvn.utako.moe/ph.php?&isp=1&id=gx04
-TBShttps://proxyvn.utako.moe/ph.php?&isp=1&id=hdgd04#https://proxyvn.utako.moe/ph.php?&isp=1&id=gd04#https://proxyvn.utako.moe/ph.php?&isp=1&id=gx01
-フジテレビhttps://proxyvn.utako.moe/ph.php?&isp=1&id=hdgd05#https://proxyvn.utako.moe/ph.php?&isp=1&id=gd05#https://proxyvn.utako.moe/ph.php?&isp=1&id=gx03
-テレビ朝日https://proxyvn.utako.moe/ph.php?&isp=1&id=hdgd06#https://proxyvn.utako.moe/ph.php?&isp=1&id=gd06#https://proxyvn.utako.moe/ph.php?&isp=1&id=gx02
-テレビ東京https://proxyvn.utako.moe/ph.php?&isp=1&id=hdgd07
-テレビ東京https://proxyvn.utako.moe/ph.php?&isp=1&id=gd07#https://proxyvn.utako.moe/ph.php?&isp=1&id=gx05
-BS日テレhttps://proxyvn.utako.moe/ph.php?&isp=1&id=bs02
-BSTBShttps://proxyvn.utako.moe/ph.php?&isp=1&id=bs04
-BSフジhttps://proxyvn.utako.moe/ph.php?&isp=1&id=bs06
-BS朝日https://proxyvn.utako.moe/ph.php?&isp=1&id=bs03
-BSテレ東https://proxyvn.utako.moe/ph.php?&isp=1&id=bs05
-TOKYOMX1https://proxyvn.utako.moe/ph.php?&isp=1&id=hdgd08#https://proxyvn.utako.moe/ph.php?&isp=1&id=gd08
-サンテレビhttps://proxyvn.utako.moe/ph.php?&isp=1&id=gx07
-日テレG+https://proxyvn.utako.moe/ph.php?&isp=1&id=cs02
-フジテレビNEXThttps://proxyvn.utako.moe/ph.php?&isp=1&id=cs26
-ディスカバリーhttps://proxyvn.utako.moe/ph.php?&isp=1&id=cs08
-ナショジオhttps://proxyvn.utako.moe/ph.php?&isp=1&id=cs10
-アニマルプラネットhttps://proxyvn.utako.moe/ph.php?&isp=1&id=cs24
-ヒストリーhttps://proxyvn.utako.moe/ph.php?&isp=1&id=cs09
-MondoTVhttps://proxyvn.utako.moe/ph.php?&isp=1&id=cs21
-BS10https://proxyvn.utako.moe/ph.php?&isp=1&id=bs08
-日本映画https://proxyvn.utako.moe/ph.php?&isp=1&id=bs23
-衛星劇場https://proxyvn.utako.moe/ph.php?&isp=1&id=cs22
-東映https://proxyvn.utako.moe/ph.php?&isp=1&id=cs27
-https://proxyvn.utako.moe/ph.php?&isp=1&id=cs14
-ファミリー劇場https://proxyvn.utako.moe/ph.php?&isp=1&id=cs20
-時代劇https://proxyvn.utako.moe/ph.php?&isp=1&id=cs04
-ムービープラスhttps://proxyvn.utako.moe/ph.php?&isp=1&id=cs22
-ホームドラマhttps://proxyvn.utako.moe/ph.php?&isp=1&id=cs05
-JCOMhttps://proxyvn.utako.moe/ph.php?&isp=2&id=bs31
-WOWOWプライムhttps://proxyvn.utako.moe/ph.php?&isp=1&id=bs12
-WOWOWシネマhttps://proxyvn.utako.moe/ph.php?&isp=1&id=bs07
-WOWOWライブhttps://proxyvn.utako.moe/ph.php?&isp=1&id=bs07
-NECOhttps://nl.utako.moe/neco/index.m3u8
-JSport1https://proxyvn.utako.moe/ph.php?&isp=1&id=bs18
-JSport2https://proxyvn.utako.moe/ph.php?&isp=1&id=bs19
-JSport3https://proxyvn.utako.moe/ph.php?&isp=1&id=bs21
-JSport4https://proxyvn.utako.moe/ph.php?&isp=1&id=bs22
-FishingVisionhttps://proxyvn.utako.moe/ph.php?&isp=1&id=bs25
-グリーンチャンネルhttps://proxyvn.utako.moe/ph.php?&isp=1&id=bs14
-ゴルフネットワークhttps://proxyvn.utako.moe/ph.php?&isp=1&id=cs03
-GAORAhttps://proxyvn.utako.moe/ph.php?&isp=1&id=cs17
-SkyAhttps://proxyvn.utako.moe/ph.php?&isp=1&id=cs01
-スペースシャワーhttps://proxyvn.utako.moe/ph.php?&isp=1&id=bs26
-歌謡ポップスhttps://proxyvn.utako.moe/ph.php?&isp=1&id=cs13
-MusicJapanhttps://proxyvn.utako.moe/ph.php?&isp=1&id=cs06
-MTVhttps://proxyvn.utako.moe/ph.php?&isp=1&id=cs18
-Mnethttps://nl.utako.moe/mnet/index.m3u8
-MusicONhttps://nl.utako.moe/musicon/index.m3u8
-AT-Xhttps://nl.utako.moe/AT-X/index.m3u8
-宝塚https://proxyvn.utako.moe/ph.php?&isp=2&id=cs28
-LaLahttps://proxyvn.utako.moe/ph.php?&isp=1&id=cs19
-DisneyChannelhttps://proxyvn.utako.moe/ph.php?&isp=1&id=bs24
-CartoonNetworkhttps://proxyvn.utako.moe/ph.php?&isp=1&id=cs25
-Animaxhttps://proxyvn.utako.moe/ph.php?&isp=1&id=bs15
-銀河https://proxyvn.utako.moe/ph.php?&isp=2&id=cs29
-旅チャンネルhttps://proxyvn.utako.moe/ph.php?&isp=1&id=cs12
-TBS Newshttps://proxyvn.utako.moe/ph.php?&isp=1&id=cs11
 
 NHKG,https://nhk4.mov3.co/hls/nhk.m3u8
 日本テレビ,https://ntv4.mov3.co/hls/ntv.m3u8
