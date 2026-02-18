@@ -2,260 +2,657 @@
 <html lang="zh-CN">
 <head>
   <meta charset="UTF-8">
-  <title>增强视频播放器</title>
-  <link rel="shortcut icon" href="https://jyjdsg.dpdns.org/favicon.ico"> 
-  <link href="https://vjs.zencdn.net/8.23.4/video-js.css" rel="stylesheet" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>通用媒体播放器</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎬</text></svg>">
   
+  <!-- Video.js CSS for enhanced player -->
+  <link href="https://vjs.zencdn.net/8.10.0/video-js.css" rel="stylesheet" />
+  
+  <!-- HLS.js for m3u8 support -->
+  <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
+  
+  <!-- Video.js for enhanced controls -->
+  <script src="https://vjs.zencdn.net/8.10.0/video.min.js"></script>
+
   <style>
-    html, body {
-      background-color: #000;
-      color: #fff;
+    * {
       margin: 0;
       padding: 0;
-      height: 100%;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      font-family: Arial, sans-serif;
+      box-sizing: border-box;
     }
 
-    /* 增强控制条样式 */
-    .video-js .vjs-control-bar {
-      background: linear-gradient(to top, rgba(0,0,0,0.9), rgba(0,0,0,0.6));
-      height: 4em;
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB', 
+                   'Microsoft YaHei', 'Helvetica Neue', Arial, sans-serif;
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+      color: #fff;
+    }
+
+    .container {
+      width: 100%;
+      max-width: 1400px;
+      background: rgba(0, 0, 0, 0.85);
+      border-radius: 20px;
+      box-shadow: 0 20px 60px rgba(0, 0, 0, 0.5);
+      overflow: hidden;
+      backdrop-filter: blur(10px);
+    }
+
+    .header {
+      padding: 30px;
+      background: linear-gradient(135deg, rgba(102, 126, 234, 0.3), rgba(118, 75, 162, 0.3));
+      border-bottom: 2px solid rgba(255, 255, 255, 0.1);
+    }
+
+    .header h1 {
+      font-size: 28px;
+      font-weight: 700;
+      margin-bottom: 10px;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .header p {
+      color: rgba(255, 255, 255, 0.7);
       font-size: 14px;
     }
 
-    /* 增大播放按钮 */
+    .url-input-section {
+      padding: 30px;
+      background: rgba(255, 255, 255, 0.05);
+      border-bottom: 2px solid rgba(255, 255, 255, 0.1);
+    }
+
+    .input-group {
+      display: flex;
+      gap: 12px;
+      flex-wrap: wrap;
+    }
+
+    .url-input {
+      flex: 1;
+      min-width: 300px;
+      padding: 14px 20px;
+      font-size: 15px;
+      border: 2px solid rgba(255, 255, 255, 0.2);
+      border-radius: 12px;
+      background: rgba(255, 255, 255, 0.1);
+      color: #fff;
+      outline: none;
+      transition: all 0.3s ease;
+    }
+
+    .url-input::placeholder {
+      color: rgba(255, 255, 255, 0.5);
+    }
+
+    .url-input:focus {
+      border-color: #667eea;
+      background: rgba(255, 255, 255, 0.15);
+      box-shadow: 0 0 0 4px rgba(102, 126, 234, 0.2);
+    }
+
+    .load-btn {
+      padding: 14px 32px;
+      font-size: 15px;
+      font-weight: 600;
+      background: linear-gradient(135deg, #667eea, #764ba2);
+      color: #fff;
+      border: none;
+      border-radius: 12px;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      white-space: nowrap;
+    }
+
+    .load-btn:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 8px 20px rgba(102, 126, 234, 0.4);
+    }
+
+    .load-btn:active {
+      transform: translateY(0);
+    }
+
+    .player-container {
+      position: relative;
+      width: 100%;
+      background: #000;
+    }
+
+    #video-player {
+      width: 100%;
+      height: auto;
+      max-height: 80vh;
+      display: block;
+    }
+
+    /* Enhanced Video.js styling */
+    .video-js {
+      font-family: inherit;
+    }
+
+    .video-js .vjs-control-bar {
+      background: linear-gradient(to top, rgba(0, 0, 0, 0.95), rgba(0, 0, 0, 0.7));
+      height: 4.5em;
+      display: flex;
+      font-size: 15px;
+    }
+
     .video-js .vjs-big-play-button {
-      width: 2.5em;
-      height: 2.5em;
-      line-height: 2.5em;
+      width: 3em;
+      height: 3em;
+      line-height: 3em;
       border-radius: 50%;
-      background-color: rgba(43, 51, 63, 0.9);
-      border: 3px solid #00ff00;
+      background: rgba(102, 126, 234, 0.95);
+      border: 3px solid rgba(255, 255, 255, 0.9);
       left: 50%;
       top: 50%;
       transform: translate(-50%, -50%);
-      transition: all 0.3s;
+      transition: all 0.3s ease;
+      font-size: 2em;
     }
 
     .video-js .vjs-big-play-button:hover {
-      background-color: #00ff00;
-      border-color: #00ff00;
+      background: #667eea;
       transform: translate(-50%, -50%) scale(1.1);
+      box-shadow: 0 0 30px rgba(102, 126, 234, 0.6);
     }
 
-    /* 进度条样式 */
+    .video-js .vjs-play-progress {
+      background: linear-gradient(90deg, #667eea, #764ba2);
+    }
+
+    .video-js .vjs-volume-level {
+      background: linear-gradient(90deg, #667eea, #764ba2);
+    }
+
+    .video-js .vjs-slider {
+      background-color: rgba(255, 255, 255, 0.2);
+    }
+
+    .video-js .vjs-load-progress {
+      background: rgba(255, 255, 255, 0.3);
+    }
+
     .video-js .vjs-progress-control {
       position: absolute;
-      bottom: 3.5em;
+      bottom: 4em;
       width: 100%;
       height: 0.8em;
     }
 
-    .video-js .vjs-play-progress {
-      background-color: #00ff00;
+    .video-js .vjs-progress-holder {
+      height: 0.8em;
     }
 
-    .video-js .vjs-load-progress div {
-      background: rgba(255, 255, 255, 0.3);
-    }
-
-    /* 按钮高亮 */
     .video-js .vjs-control:hover::before,
     .video-js .vjs-control:focus::before {
-      color: #00ff00;
-      text-shadow: 0 0 10px #00ff00;
+      color: #667eea;
+      text-shadow: 0 0 10px rgba(102, 126, 234, 0.8);
     }
 
-    /* 音量条样式 */
-    .video-js .vjs-volume-level {
-      background-color: #00ff00;
-    }
-
-    /* 时间显示更醒目 */
     .video-js .vjs-time-control {
-      display: block;
-      font-size: 1.2em;
-      line-height: 4em;
-      min-width: 3em;
+      min-width: 3.5em;
+      padding: 0 0.5em;
+      font-size: 1.1em;
     }
 
-    /* 全屏按钮增强 */
+    .video-js .vjs-volume-panel {
+      order: 3;
+    }
+
     .video-js .vjs-fullscreen-control {
-      font-size: 1.5em;
+      order: 4;
+      font-size: 1.4em;
     }
 
-    /* 提示信息样式 */
-    .video-hint {
-      position: absolute;
-      bottom: 20px;
+    .info-section {
+      padding: 25px 30px;
+      background: rgba(255, 255, 255, 0.03);
+      display: none;
+    }
+
+    .info-section.show {
+      display: block;
+    }
+
+    .video-info {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      color: rgba(255, 255, 255, 0.8);
+      font-size: 14px;
+    }
+
+    .video-info-item {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .video-info-item strong {
+      color: #667eea;
+    }
+
+    .toast {
+      position: fixed;
+      bottom: 30px;
       left: 50%;
       transform: translateX(-50%);
-      background: rgba(0, 0, 0, 0.8);
-      padding: 10px 20px;
-      border-radius: 5px;
+      background: rgba(0, 0, 0, 0.9);
+      color: #fff;
+      padding: 15px 30px;
+      border-radius: 10px;
       font-size: 14px;
-      z-index: 1000;
       opacity: 0;
-      transition: opacity 0.3s;
-      pointer-events: none;
+      transition: opacity 0.3s ease;
+      z-index: 10000;
+      border: 1px solid rgba(102, 126, 234, 0.5);
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
     }
 
-    .video-hint.show {
+    .toast.show {
       opacity: 1;
+    }
+
+    .format-badges {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-top: 15px;
+    }
+
+    .badge {
+      display: inline-block;
+      padding: 4px 12px;
+      background: rgba(102, 126, 234, 0.2);
+      border: 1px solid rgba(102, 126, 234, 0.4);
+      border-radius: 6px;
+      font-size: 12px;
+      color: rgba(255, 255, 255, 0.9);
+    }
+
+    .instructions {
+      margin-top: 15px;
+      padding: 15px;
+      background: rgba(102, 126, 234, 0.1);
+      border-radius: 10px;
+      font-size: 13px;
+      line-height: 1.6;
+      color: rgba(255, 255, 255, 0.8);
+    }
+
+    .instructions code {
+      background: rgba(0, 0, 0, 0.3);
+      padding: 2px 8px;
+      border-radius: 4px;
+      font-family: 'Courier New', monospace;
+      color: #fff;
+    }
+
+    @media (max-width: 768px) {
+      .header h1 {
+        font-size: 22px;
+      }
+
+      .input-group {
+        flex-direction: column;
+      }
+
+      .url-input {
+        min-width: 100%;
+      }
+
+      .load-btn {
+        width: 100%;
+      }
+
+      .video-js .vjs-control-bar {
+        font-size: 13px;
+        height: 4em;
+      }
     }
   </style>
 </head>
 
 <body>
-  <video
-    id="my-video"
-    class="video-js vjs-big-play-centered"
-    controls
-    preload="auto"
-    width="1080"
-    height="720"
-    poster="https://jyjdsg.dpdns.org/images/俄化.webp"
-  >
-    <source src="https://socwxsns.video.qq.com/251/20302/stodownload?encfilekey=Cvvj5Ix3eewK0tHtibORqcsqchXNh0Gf3sJcaYqC2rQBxazeibuxb4g5eAWNQR5lxZItRjicanXWyPlCb0hvQbrL7DtY4Miclmz3OpwLzFrXiapVmAnwLC1z6690TJXWNCtnw&token=o3K9JoTic9IiajPaeFCibVXWlXPsA4ErNz6KWKkCVmM2jDJzALYCX5oIro7WOE1ibIJORsJcFBHFZGSTYTbYYWhVD0zQTnaDVL9lRQ8fZibic5gj3vQDgffFrGqOfZbvCp0CQVu46XnAEa26kUrShOuIibYgeyLfaXI8AnUyG26ObmK8S6Q8LuumH3XFQ&idx=1&bizid=1023&dotrans=0&hy=SH&m=&uzid=7a15c&web=1&BBAVIDEO" type="video/mp4" />
-    <source src="MY_VIDEO.webm" type="video/webm" />
-    <p class="vjs-no-js">
-      要观看此视频，请启用 JavaScript，并考虑升级到
-      <a href="https://videojs.com/html5-video-support/" target="_blank"
-        >支持 HTML5 视频</a
-      >的浏览器
-    </p>
-  </video>
+  <div class="container">
+    <div class="header">
+      <h1>🎬 通用媒体播放器</h1>
+      <p>支持 MP4、M3U8 (HLS)、WebM、OGG 等多种视频格式</p>
+      <div class="format-badges">
+        <span class="badge">MP4</span>
+        <span class="badge">M3U8 / HLS</span>
+        <span class="badge">WebM</span>
+        <span class="badge">OGG</span>
+        <span class="badge">MOV</span>
+        <span class="badge">AVI</span>
+      </div>
+    </div>
 
-  <div class="video-hint" id="video-hint"></div>
+    <div class="url-input-section">
+      <div class="input-group">
+        <input 
+          type="text" 
+          id="url-input" 
+          class="url-input" 
+          placeholder="输入视频地址或使用 ?url=视频地址 自动加载..."
+        >
+        <button id="load-btn" class="load-btn">▶ 播放视频</button>
+      </div>
+      <div class="instructions">
+        <strong>使用方法：</strong><br>
+        • 直接在上方输入框粘贴视频地址后点击播放<br>
+        • 或在网址后添加参数：<code>?url=https://example.com/video.mp4</code><br>
+        • 支持键盘快捷键：空格（播放/暂停）、←→（快退/快进）、↑↓（音量调节）、F（全屏）
+      </div>
+    </div>
 
-  <script src="https://vjs.zencdn.net/8.23.4/video.min.js"></script>
-  
+    <div class="player-container">
+      <video 
+        id="video-player" 
+        class="video-js vjs-big-play-centered" 
+        controls 
+        preload="auto"
+        playsinline
+      >
+        <p class="vjs-no-js">
+          要观看此视频，请启用 JavaScript 或升级到支持 HTML5 的浏览器。
+        </p>
+      </video>
+    </div>
+
+    <div class="info-section" id="info-section">
+      <div class="video-info">
+        <div class="video-info-item">
+          <strong>视频地址：</strong>
+          <span id="current-url">-</span>
+        </div>
+        <div class="video-info-item">
+          <strong>格式：</strong>
+          <span id="video-format">-</span>
+        </div>
+        <div class="video-info-item">
+          <strong>播放状态：</strong>
+          <span id="play-status">就绪</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="toast" id="toast"></div>
+
   <script>
     // 初始化播放器
-    var player = videojs('my-video', {
+    const videoElement = document.getElementById('video-player');
+    const urlInput = document.getElementById('url-input');
+    const loadBtn = document.getElementById('load-btn');
+    const infoSection = document.getElementById('info-section');
+    const currentUrlSpan = document.getElementById('current-url');
+    const videoFormatSpan = document.getElementById('video-format');
+    const playStatusSpan = document.getElementById('play-status');
+    
+    let player = videojs('video-player', {
       controls: true,
       autoplay: false,
       preload: 'auto',
       fluid: false,
-      userActions: {
-        hotkeys: true
+      responsive: true,
+      playbackRates: [0.5, 0.75, 1, 1.25, 1.5, 2],
+      controlBar: {
+        children: [
+          'playToggle',
+          'currentTimeDisplay',
+          'timeDivider',
+          'durationDisplay',
+          'progressControl',
+          'volumePanel',
+          'playbackRateMenuButton',
+          'fullscreenToggle'
+        ]
       }
     });
 
-    // 提示信息显示函数
-    function showHint(text) {
-      var hint = document.getElementById('video-hint');
-      hint.textContent = text;
-      hint.classList.add('show');
-      setTimeout(function() {
-        hint.classList.remove('show');
-      }, 1500);
+    let hlsInstance = null;
+
+    // 显示提示消息
+    function showToast(message, duration = 2000) {
+      const toast = document.getElementById('toast');
+      toast.textContent = message;
+      toast.classList.add('show');
+      setTimeout(() => {
+        toast.classList.remove('show');
+      }, duration);
     }
 
-    // 自动全屏播放功能
-    function autoPlayFullscreen() {
-      if (player.requestFullscreen) {
-        player.requestFullscreen();
+    // 检测视频格式
+    function detectFormat(url) {
+      const urlLower = url.toLowerCase();
+      if (urlLower.includes('.m3u8') || urlLower.includes('m3u8')) {
+        return 'M3U8 (HLS)';
+      } else if (urlLower.includes('.mp4')) {
+        return 'MP4';
+      } else if (urlLower.includes('.webm')) {
+        return 'WebM';
+      } else if (urlLower.includes('.ogg') || urlLower.includes('.ogv')) {
+        return 'OGG';
+      } else if (urlLower.includes('.mov')) {
+        return 'MOV';
+      } else if (urlLower.includes('.avi')) {
+        return 'AVI';
+      } else if (urlLower.includes('.mkv')) {
+        return 'MKV';
+      } else if (urlLower.includes('.flv')) {
+        return 'FLV';
       }
-      player.play();
+      return '自动检测';
     }
 
-    // 点击播放时自动全屏
-    player.on('play', function() {
-      if (!player.isFullscreen() && !player.hasStarted_) {
-        player.requestFullscreen();
+    // 加载视频
+    function loadVideo(url) {
+      if (!url || url.trim() === '') {
+        showToast('❌ 请输入有效的视频地址');
+        return;
       }
+
+      // 清理之前的 HLS 实例
+      if (hlsInstance) {
+        hlsInstance.destroy();
+        hlsInstance = null;
+      }
+
+      const format = detectFormat(url);
+      const isHLS = url.toLowerCase().includes('m3u8');
+
+      // 更新信息显示
+      infoSection.classList.add('show');
+      currentUrlSpan.textContent = url.length > 60 ? url.substring(0, 60) + '...' : url;
+      videoFormatSpan.textContent = format;
+      playStatusSpan.textContent = '加载中...';
+
+      try {
+        if (isHLS) {
+          // M3U8 格式使用 HLS.js
+          if (Hls.isSupported()) {
+            hlsInstance = new Hls({
+              enableWorker: true,
+              lowLatencyMode: true,
+              backBufferLength: 90
+            });
+
+            hlsInstance.loadSource(url);
+            hlsInstance.attachMedia(videoElement);
+
+            hlsInstance.on(Hls.Events.MANIFEST_PARSED, function() {
+              showToast('✅ HLS 流加载成功');
+              playStatusSpan.textContent = '已加载';
+              videoElement.play().catch(e => {
+                console.log('自动播放受限:', e);
+                showToast('ℹ️ 请点击播放按钮开始观看');
+              });
+            });
+
+            hlsInstance.on(Hls.Events.ERROR, function(event, data) {
+              if (data.fatal) {
+                console.error('HLS 错误:', data);
+                switch(data.type) {
+                  case Hls.ErrorTypes.NETWORK_ERROR:
+                    showToast('❌ 网络错误，尝试恢复...');
+                    hlsInstance.startLoad();
+                    break;
+                  case Hls.ErrorTypes.MEDIA_ERROR:
+                    showToast('❌ 媒体错误，尝试恢复...');
+                    hlsInstance.recoverMediaError();
+                    break;
+                  default:
+                    showToast('❌ 播放错误，请检查视频地址');
+                    playStatusSpan.textContent = '加载失败';
+                    break;
+                }
+              }
+            });
+
+          } else if (videoElement.canPlayType('application/vnd.apple.mpegurl')) {
+            // Safari 原生支持 HLS
+            videoElement.src = url;
+            showToast('✅ 使用原生 HLS 支持');
+            videoElement.play().catch(e => {
+              console.log('自动播放受限:', e);
+            });
+          } else {
+            showToast('❌ 当前浏览器不支持 HLS 播放');
+          }
+        } else {
+          // 其他格式直接使用 HTML5 video
+          videoElement.src = url;
+          showToast('✅ 视频加载中...');
+          
+          videoElement.addEventListener('loadedmetadata', function() {
+            playStatusSpan.textContent = '已加载';
+            showToast('✅ 视频已就绪');
+          }, { once: true });
+
+          videoElement.addEventListener('error', function(e) {
+            console.error('视频加载错误:', e);
+            showToast('❌ 视频加载失败，请检查地址或格式');
+            playStatusSpan.textContent = '加载失败';
+          }, { once: true });
+
+          videoElement.play().catch(e => {
+            console.log('自动播放受限:', e);
+          });
+        }
+
+      } catch (error) {
+        console.error('加载错误:', error);
+        showToast('❌ 加载失败：' + error.message);
+        playStatusSpan.textContent = '加载失败';
+      }
+    }
+
+    // 从 URL 参数获取视频地址
+    function getVideoFromURL() {
+      const params = new URLSearchParams(window.location.search);
+      const url = params.get('url');
+      if (url) {
+        urlInput.value = decodeURIComponent(url);
+        loadVideo(url);
+      }
+    }
+
+    // 事件监听
+    loadBtn.addEventListener('click', () => {
+      const url = urlInput.value.trim();
+      loadVideo(url);
+    });
+
+    urlInput.addEventListener('keypress', (e) => {
+      if (e.key === 'Enter') {
+        const url = urlInput.value.trim();
+        loadVideo(url);
+      }
+    });
+
+    // 播放状态监听
+    videoElement.addEventListener('play', () => {
+      playStatusSpan.textContent = '播放中';
+    });
+
+    videoElement.addEventListener('pause', () => {
+      playStatusSpan.textContent = '已暂停';
+    });
+
+    videoElement.addEventListener('ended', () => {
+      playStatusSpan.textContent = '播放完毕';
     });
 
     // 键盘快捷键
-    player.on('keydown', function(event) {
-      // 空格键：播放/暂停
-      if (event.which === 32) {
-        event.preventDefault();
-        if (player.paused()) {
-          player.play();
-          showHint('播放');
-        } else {
-          player.pause();
-          showHint('暂停');
-        }
-      }
-      
-      // F键或Enter键：全屏切换
-      if (event.which === 70 || event.which === 13) {
-        event.preventDefault();
-        if (player.isFullscreen()) {
-          player.exitFullscreen();
-          showHint('退出全屏');
-        } else {
-          player.requestFullscreen();
-          showHint('全屏');
-        }
-      }
-      
-      // M键：静音切换
-      if (event.which === 77) {
-        event.preventDefault();
-        if (player.muted()) {
-          player.muted(false);
-          showHint('取消静音');
-        } else {
-          player.muted(true);
-          showHint('静音');
-        }
-      }
-      
-      // 左箭头：快退5秒
-      if (event.which === 37) {
-        event.preventDefault();
-        var currentTime = player.currentTime();
-        player.currentTime(Math.max(0, currentTime - 5));
-        showHint('快退 5秒');
-      }
-      
-      // 右箭头：快进5秒
-      if (event.which === 39) {
-        event.preventDefault();
-        var currentTime = player.currentTime();
-        player.currentTime(Math.min(player.duration(), currentTime + 5));
-        showHint('快进 5秒');
-      }
-      
-      // 上箭头：增加音量
-      if (event.which === 38) {
-        event.preventDefault();
-        var volume = player.volume();
-        player.volume(Math.min(1, volume + 0.1));
-        showHint('音量: ' + Math.round(player.volume() * 100) + '%');
-      }
-      
-      // 下箭头：减少音量
-      if (event.which === 40) {
-        event.preventDefault();
-        var volume = player.volume();
-        player.volume(Math.max(0, volume - 0.1));
-        showHint('音量: ' + Math.round(player.volume() * 100) + '%');
+    document.addEventListener('keydown', (e) => {
+      // 如果焦点在输入框，不触发快捷键
+      if (document.activeElement === urlInput) return;
+
+      switch(e.key) {
+        case ' ':
+          e.preventDefault();
+          if (videoElement.paused) {
+            videoElement.play();
+            showToast('▶ 播放');
+          } else {
+            videoElement.pause();
+            showToast('⏸ 暂停');
+          }
+          break;
+        case 'ArrowLeft':
+          e.preventDefault();
+          videoElement.currentTime = Math.max(0, videoElement.currentTime - 5);
+          showToast('⏪ 快退 5秒');
+          break;
+        case 'ArrowRight':
+          e.preventDefault();
+          videoElement.currentTime = Math.min(videoElement.duration, videoElement.currentTime + 5);
+          showToast('⏩ 快进 5秒');
+          break;
+        case 'ArrowUp':
+          e.preventDefault();
+          videoElement.volume = Math.min(1, videoElement.volume + 0.1);
+          showToast('🔊 音量: ' + Math.round(videoElement.volume * 100) + '%');
+          break;
+        case 'ArrowDown':
+          e.preventDefault();
+          videoElement.volume = Math.max(0, videoElement.volume - 0.1);
+          showToast('🔉 音量: ' + Math.round(videoElement.volume * 100) + '%');
+          break;
+        case 'f':
+        case 'F':
+          e.preventDefault();
+          if (!document.fullscreenElement) {
+            videoElement.requestFullscreen();
+            showToast('⛶ 全屏模式');
+          } else {
+            document.exitFullscreen();
+            showToast('⛶ 退出全屏');
+          }
+          break;
+        case 'm':
+        case 'M':
+          e.preventDefault();
+          videoElement.muted = !videoElement.muted;
+          showToast(videoElement.muted ? '🔇 静音' : '🔊 取消静音');
+          break;
       }
     });
 
-    // 双击全屏
-    player.on('dblclick', function() {
-      if (player.isFullscreen()) {
-        player.exitFullscreen();
-      } else {
-        player.requestFullscreen();
-      }
-    });
-
-    // 播放器准备完成
-    player.ready(function() {
-      console.log('播放器已准备就绪');
-      // 如果需要自动播放并全屏，取消下面的注释
-      // autoPlayFullscreen();
-    });
+    // 页面加载时检查 URL 参数
+    window.addEventListener('DOMContentLoaded', getVideoFromURL);
 
   </script>
 </body>
