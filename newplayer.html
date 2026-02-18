@@ -1,10 +1,11 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
 <head>
   <meta charset="UTF-8">
-  <title>占领与俄化：乌克兰沦陷区现状</title>
+  <title>增强视频播放器</title>
   <link rel="shortcut icon" href="https://jyjdsg.dpdns.org/favicon.ico"> 
   <link href="https://vjs.zencdn.net/8.23.4/video-js.css" rel="stylesheet" />
-  <!-- If you'd like to support IE8 (for Video.js versions prior to v7) -->
-  <!-- <script src="https://vjs.zencdn.net/ie8/1.1.2/videojs-ie8.min.js"></script> -->
+  
   <style>
     html, body {
       background-color: #000;
@@ -15,6 +16,95 @@
       display: flex;
       justify-content: center;
       align-items: center;
+      font-family: Arial, sans-serif;
+    }
+
+    /* 增强控制条样式 */
+    .video-js .vjs-control-bar {
+      background: linear-gradient(to top, rgba(0,0,0,0.9), rgba(0,0,0,0.6));
+      height: 4em;
+      font-size: 14px;
+    }
+
+    /* 增大播放按钮 */
+    .video-js .vjs-big-play-button {
+      width: 2.5em;
+      height: 2.5em;
+      line-height: 2.5em;
+      border-radius: 50%;
+      background-color: rgba(43, 51, 63, 0.9);
+      border: 3px solid #00ff00;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      transition: all 0.3s;
+    }
+
+    .video-js .vjs-big-play-button:hover {
+      background-color: #00ff00;
+      border-color: #00ff00;
+      transform: translate(-50%, -50%) scale(1.1);
+    }
+
+    /* 进度条样式 */
+    .video-js .vjs-progress-control {
+      position: absolute;
+      bottom: 3.5em;
+      width: 100%;
+      height: 0.8em;
+    }
+
+    .video-js .vjs-play-progress {
+      background-color: #00ff00;
+    }
+
+    .video-js .vjs-load-progress div {
+      background: rgba(255, 255, 255, 0.3);
+    }
+
+    /* 按钮高亮 */
+    .video-js .vjs-control:hover::before,
+    .video-js .vjs-control:focus::before {
+      color: #00ff00;
+      text-shadow: 0 0 10px #00ff00;
+    }
+
+    /* 音量条样式 */
+    .video-js .vjs-volume-level {
+      background-color: #00ff00;
+    }
+
+    /* 时间显示更醒目 */
+    .video-js .vjs-time-control {
+      display: block;
+      font-size: 1.2em;
+      line-height: 4em;
+      min-width: 3em;
+    }
+
+    /* 全屏按钮增强 */
+    .video-js .vjs-fullscreen-control {
+      font-size: 1.5em;
+    }
+
+    /* 提示信息样式 */
+    .video-hint {
+      position: absolute;
+      bottom: 20px;
+      left: 50%;
+      transform: translateX(-50%);
+      background: rgba(0, 0, 0, 0.8);
+      padding: 10px 20px;
+      border-radius: 5px;
+      font-size: 14px;
+      z-index: 1000;
+      opacity: 0;
+      transition: opacity 0.3s;
+      pointer-events: none;
+    }
+
+    .video-hint.show {
+      opacity: 1;
     }
   </style>
 </head>
@@ -22,24 +112,151 @@
 <body>
   <video
     id="my-video"
-    class="video-js"
+    class="video-js vjs-big-play-centered"
     controls
     preload="auto"
     width="1080"
     height="720"
-    poster="剧照地址"
-    data-setup="{}"
+    poster="https://jyjdsg.dpdns.org/images/俄化.webp"
   >
     <source src="https://def1.pcloud.com/cBZ3mRSKX7ZyVARcC7ZZZu6iv0kZQ5ZZl9FZZcKsfWkZbLZVQZHYZbFZHHZFQZELZoYZXHZzzZ6mZNzZFLZWmZHFel5ZAgt6K08ms3FrLgttKUzfVh1pxSvV/%E4%BF%84%E5%8D%A0%E5%8C%BA.mp4" type="video/mp4" />
     <source src="MY_VIDEO.webm" type="video/webm" />
     <p class="vjs-no-js">
-      To view this video please enable JavaScript, and consider upgrading to a
-      web browser that
+      要观看此视频，请启用 JavaScript，并考虑升级到
       <a href="https://videojs.com/html5-video-support/" target="_blank"
-        >supports HTML5 video</a
-      >
+        >支持 HTML5 视频</a
+      >的浏览器
     </p>
   </video>
 
+  <div class="video-hint" id="video-hint"></div>
+
   <script src="https://vjs.zencdn.net/8.23.4/video.min.js"></script>
+  
+  <script>
+    // 初始化播放器
+    var player = videojs('my-video', {
+      controls: true,
+      autoplay: false,
+      preload: 'auto',
+      fluid: false,
+      userActions: {
+        hotkeys: true
+      }
+    });
+
+    // 提示信息显示函数
+    function showHint(text) {
+      var hint = document.getElementById('video-hint');
+      hint.textContent = text;
+      hint.classList.add('show');
+      setTimeout(function() {
+        hint.classList.remove('show');
+      }, 1500);
+    }
+
+    // 自动全屏播放功能
+    function autoPlayFullscreen() {
+      if (player.requestFullscreen) {
+        player.requestFullscreen();
+      }
+      player.play();
+    }
+
+    // 点击播放时自动全屏
+    player.on('play', function() {
+      if (!player.isFullscreen() && !player.hasStarted_) {
+        player.requestFullscreen();
+      }
+    });
+
+    // 键盘快捷键
+    player.on('keydown', function(event) {
+      // 空格键：播放/暂停
+      if (event.which === 32) {
+        event.preventDefault();
+        if (player.paused()) {
+          player.play();
+          showHint('播放');
+        } else {
+          player.pause();
+          showHint('暂停');
+        }
+      }
+      
+      // F键或Enter键：全屏切换
+      if (event.which === 70 || event.which === 13) {
+        event.preventDefault();
+        if (player.isFullscreen()) {
+          player.exitFullscreen();
+          showHint('退出全屏');
+        } else {
+          player.requestFullscreen();
+          showHint('全屏');
+        }
+      }
+      
+      // M键：静音切换
+      if (event.which === 77) {
+        event.preventDefault();
+        if (player.muted()) {
+          player.muted(false);
+          showHint('取消静音');
+        } else {
+          player.muted(true);
+          showHint('静音');
+        }
+      }
+      
+      // 左箭头：快退5秒
+      if (event.which === 37) {
+        event.preventDefault();
+        var currentTime = player.currentTime();
+        player.currentTime(Math.max(0, currentTime - 5));
+        showHint('快退 5秒');
+      }
+      
+      // 右箭头：快进5秒
+      if (event.which === 39) {
+        event.preventDefault();
+        var currentTime = player.currentTime();
+        player.currentTime(Math.min(player.duration(), currentTime + 5));
+        showHint('快进 5秒');
+      }
+      
+      // 上箭头：增加音量
+      if (event.which === 38) {
+        event.preventDefault();
+        var volume = player.volume();
+        player.volume(Math.min(1, volume + 0.1));
+        showHint('音量: ' + Math.round(player.volume() * 100) + '%');
+      }
+      
+      // 下箭头：减少音量
+      if (event.which === 40) {
+        event.preventDefault();
+        var volume = player.volume();
+        player.volume(Math.max(0, volume - 0.1));
+        showHint('音量: ' + Math.round(player.volume() * 100) + '%');
+      }
+    });
+
+    // 双击全屏
+    player.on('dblclick', function() {
+      if (player.isFullscreen()) {
+        player.exitFullscreen();
+      } else {
+        player.requestFullscreen();
+      }
+    });
+
+    // 播放器准备完成
+    player.ready(function() {
+      console.log('播放器已准备就绪');
+      // 如果需要自动播放并全屏，取消下面的注释
+      // autoPlayFullscreen();
+    });
+
+  </script>
 </body>
+</html>
