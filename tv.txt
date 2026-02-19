@@ -31,9 +31,8 @@ FOXNEWS,http://gi6.1ott.club:8080/gqQciW1qgK/sjcyqgX3wQ/177448
 
 乌克兰新闻,
 俄罗斯新闻,https://rt-glb.rttv.com/dvr/rtnews/playlist_4500Kb.m3u8
-印度新闻,http://gi6.1ott.club:8080/gqQciW1qgK/sjcyqgX3wQ/177450
-印度新闻,https://ndtv24x7elemarchana.akamaized.net/hls/live/2003678/ndtv24x7/master.m3u8
-泰国公视,https://thaipbs-live.cdn.byteark.com/live/playlist_1080p/index.m3u8
+印度新闻,http://gi6.1ott.club:8080/gqQciW1qgK/sjcyqgX3wQ/177450#https://ndtv24x7elemarchana.akamaized.net/hls/live/2003678/ndtv24x7/ndtv24x7master.m3u8#https://ndtvindiaelemarchana.akamaized.net/hls/live/2003679/ndtvindia/ndtvindiamaster.m3u8
+泰国公视,https://thaipbs-live.cdn.byteark.com/live/playlist_1080p/index.m3u8#http://thaipbs-live.cdn.byteark.com/live-en/playlist_720p/index.m3u8
 叙利亚新闻,https://svs.itworkscdn.net/syriatvlive/syriatv.smil/syriatvpublish/syriatv_source/chunks_dvr.m3u8
 阿拉伯新闻,https://live.alarabiya.net/alarabiapublish/alhadath.smil/alarabiapublish/alhadath_1080p/chunks.m3u8
 以色列新闻,https://bcovlive-a.akamaihd.net/d89ede8094c741b7924120b27764153c/eu-central-1/5377161796001/profile_0/chunklist.m3u8#https://ch14-channel14-content.akamaized.net/hls/live/2104807/CH14_CHANNEL14/2/streamPlaylist.m3u8#https://kan11.media.kan.org.il/hls/live/2024514/2024514/source1_4k/chunklist.m3u8
@@ -94,6 +93,10 @@ FOX,http://global3b.xyz:8080/ur0A62qyMjAqS/eQmAnkZawdz31/443554
 ABC,http://global3b.xyz:8080/fCp5RW544pWDD07p5/bE1HUTKPGC2x/443741
 
 🇭🇰台港综合,#genre#
+公视,http://74.91.26.218:82/live/pts.m3u8
+台视,http://74.91.26.218:82/live/ttv.m3u8
+民视,http://74.91.26.218:82/live/ftv.m3u8
+
 台视,http://165.154.226.214:50007/li-4gtv-4gtv066/index.m3u8?proxy=true
 中视,http://141.11.87.241:20013/li-4gtv-4gtv040/index.m3u8?proxy=true
 民视,http://iptv.4666888.xyz/iptv2A.php?id=55
@@ -115,6 +118,9 @@ HISTORY,http://ip.sltv.be:8080/Qv4XPzVKM9/7jgT1M4tYk/234549
 HISTORY,http://ip.sltv.be:8080/Qv4XPzVKM9/7jgT1M4tYk/382447
 ZDF纪录片,http://ip.sltv.be:8080/Qv4XPzVKM9/7jgT1M4tYk/377339
 SKY纪录片,http://ip.sltv.be:8080/Qv4XPzVKM9/7jgT1M4tYk/378506
+
+NGO,http://cord-cutter.net:8080/live/Rw83jK/946540/46722.m3u8
+NGO,http://cord-cutter.net:8080/live/Rw83jK/946540/9277.m3u8
 
 DISCOVERY,http://nocable.cc:8080/5AGbfz/324331/9811#http://nocable.cc:8080/5AGbfz/324331/46720#
 DISCOVERY,http://nocable.cc:8080/5AGbfz/324331/53684
@@ -163,6 +169,7 @@ SPOTV,http://iptv.4666888.xyz/iptv2A.php?id=星空卫视
 天映频道,https://cdn9.163189.xyz/smt3.1.1.php?id=Celestial
 天映频道,https://smt.1678520.xyz/smt3.2.1.php?id=Celestial
 天映频道,https://cdn9.163189.xyz/smt1.1.php?id=Celestial
+
 HBO,http://nn.7x9d.cn/jd/mk11.php?ip=60.250.121.103:1888&id=live1029
 AXN,http://nn.7x9d.cn/jd/mk11.php?ip=60.250.121.103:1888&id=live1054
 CINEMAX,http://nn.7x9d.cn/jd/mk11.php?ip=60.250.121.103:1888&id=live1030
@@ -758,6 +765,12 @@ CCTV17,http://74.91.26.218:82/live/cctv17hd.m3u8
 浙江卫视,http://74.91.26.218:82/live/zjwshd.m3u8
 深圳卫视,http://74.91.26.218:82/live/szwshd.m3u8
 湖南卫视,http://74.91.26.218:82/live/hnwshd.m3u8
+
+东方卫视4K,http://bp-resource-dfl.bestv.cn/148/3/video.m3u8
+浙江卫视4K,http://play-qukan.cztv.com/live/1758879019692345.m3u8
+浙江卫视4K,https://play-qukan.cztv.com/live/1758879019692345.m3u8
+湖南卫视4K,http://hlsal-ldvt.qing.mgtv.com/nn_live/nn_x64/Y2RuZXhfaWQ9YWxfaGxzX2xkdnQmZT02OTE0NjA0JnY9MSZpZD1ITldTWkdTVCZzPTcwN2RiYTc2YzJjNmJmMTQ4MmUyZGYzOWU2NWM3YWFi/HNWSZGST.m3u8
+湖南卫视4K,http://hlsal-ldvt.qing.mgtv.com/nn_live/nn_x64/dWlwPTEyNy4wLjAuMSZ1aWQ9cWluZy1jbXMmbm5fdGltZXpvbmU9OCZjZG5leF9pZD1hbF9obHNfbGR2dCZ1dWlkPTliODY4NmU5ZTM2YzYwMmMmZT02OTE0NjA0JnY9MSZpZD1ITldTWkdTVCZzPTcwN2RiYTc2YzJjNmJmMTQ4MmUyZGYzOWU2NWM3YWFi/HNWSZGST.m3u8
 
 🇲🇰测试_66,#genre#
 惊艳电影,http://15.204.105.50:25461/live/G2s9zK2n9m/xDtwVfWM8T/85.ts
