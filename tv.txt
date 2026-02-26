@@ -255,6 +255,9 @@ TORO,http://mh.smpy24.live:80/6smkto4a4e/rtwev2gfqd/295627
 TORO,http://mh.smpy24.live:80/6smkto4a4e/rtwev2gfqd/9068
 TORO,http://mh.smpy24.live:80/6smkto4a4e/rtwev2gfqd/1174114
 
+NOW英超,http://109.61.81.147:1935/cdn7/767/mpegts?token=1d8c18a3d377f5418d2501aa54082b60
+NOW英超,http://109.61.81.147:1935/cdn7/767/mpegts?token=1d8c18a3d377f5418d2501aa54082b60
+
 愛爾達體育1,http://8.218.84.3:8885/live/LxWcScuQ6WphaELY4DhkKm8SIv7_ZgNIJtNvFurqphvyqxUIU84OjKVCwFxMq9iU1qBEChmkVSZV2aaPRHlakRKUEVTLBLou0zZzYzXV5AT2hPbd2vlxZwFUKeDAHYHW8L-dZa58kETdQgxBeElrDsHz7uqJyN5XBTeIMLyd5C9gNbZOSPnBJMwfD16_APHMusOTvcoMgy4s3SlNcY4Whc3y-JgME7_luQp-1rmZnQ0xcj0w344qITNWQiz4Ibz8dDGWjXFmrhJNxnCDIka5vH0US5R4QKdfIUbcSpOGhEk.m3u8?u=1756878715
 愛爾達體育1,http://8.218.84.3:8885/live/LxWcScuQ6WphaELY4DhkKm8SIv7_ZgNIJtNvFurqphvyqxUIU84OjKVCwFxMq9iU1qBEChmkVSZV2aaPRHlakRKUEVTLBLou0zZzYzXV5AT2hPbd2vlxZwFUKeDAHYHW8L-dZa58kETdQgxBeElrDsHz7uqJyN5XBTeIMLyd5C9gNbZOSPnBJMwfD16_APHMusOTvcoMgy4s3SlNcY4Whc3y-JgME7_luQp-1rmZnQ0xcj0w344qITNWQiz4Ibz8dDGWjXFmrhJNxnCDIka5vH0US5R4QKdfIUbcSpOGhEk.m3u8?u=1756878715
 愛爾達體育2,http://8.218.84.3:8885/live/LxWcScuQ6WphaELY4DhkKm8SIv7_ZgNIJtNvFurqphvyqxUIU84OjKVCwFxMq9iU1qBEChmkVSZV2aaPRHlakeoYbDa6YZg-u47U6PhP5DZDJlUneMuOwRC3h5idOWdj_Ny25T7d4wMr5fziLsOD6XXT-oUNWhwoH4RG1NNB5fVfEtrENxQLrVzpdhIVXRVF8HKsB9oRlNdivgx1RwAjrpr62fIFBt1i1Czn7cEY6HMUqD6HCE0PS2FaKfJtY2Dlnntgigm1VGesLu8-5qxq9LNFJP_GDyjXOBG2VdISah4.m3u8?u=1756878715
@@ -269,23 +272,6 @@ TORO,http://mh.smpy24.live:80/6smkto4a4e/rtwev2gfqd/1174114
 BeinSportsNews,http://966014182553.cdn-eag.com:80/6gi2up0jbb/dxu4mhmspq/44
 
 BeinSports,http://markatv14.xyz:80/live/irfany./qvvVdCma66/855331.ts
-
-TNTSPORTS,http://hostengine.live/live/Chelsea10%40/Stamford77%40/224931.m3u
-NOWSPORTS1,http://hostengine.live/live/Chelsea10%40/Stamford77%40/236720.m3u
-NOWSPORTS2,http://hostengine.live/live/Chelsea10%40/Stamford77%40/236721.m3u
-NOWSPORTS3,http://hostengine.live/live/Chelsea10%40/Stamford77%40/236722.m3u
-NOWSPORTS4,http://hostengine.live/live/Chelsea10%40/Stamford77%40/236723.m3u
-NOWSPORTS5,http://hostengine.live/live/Chelsea10%40/Stamford77%40/236724.m3u
-NOWSPORTS6,http://hostengine.live/live/Chelsea10%40/Stamford77%40/236725.m3u
-NOWSPORTS7,http://hostengine.live/live/Chelsea10%40/Stamford77%40/236726.m3u
-NOWSPORTSPREMIERLEAGUE1,http://hostengine.live/live/Chelsea10%40/Stamford77%40/236727.m3u
-NOWSPORTSPREMIERLEAGUE2,http://hostengine.live/live/Chelsea10%40/Stamford77%40/236728.m3u
-NOWSPORTSPREMIERLEAGUE3,http://hostengine.live/live/Chelsea10%40/Stamford77%40/236729.m3u
-NOWSPORTSPREMIERLEAGUE4,http://hostengine.live/live/Chelsea10%40/Stamford77%40/236730.m3u
-NOWSPORTSPREMIERLEAGUE5,http://hostengine.live/live/Chelsea10%40/Stamford77%40/236731.m3u
-NOWSPORTSPREMIERLEAGUE6,http://hostengine.live/live/Chelsea10%40/Stamford77%40/236732.m3u
-NOWSPORTSPREMIERLEAGUETV,http://hostengine.live/live/Chelsea10%40/Stamford77%40/236733.m3u
-
 
 🇯🇵日本,#genre#
 NHKG,http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gd01&isp=4
