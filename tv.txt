@@ -1,10 +1,9 @@
 🇬🇬世界新闻,#genre#
 BBC,https://cdn4.skygo.mn/live/disk1/BBC_News/HLSv3-FTA/BBC_News.m3u8
-CNN,http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs16
-BBC,http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs15
-
-BBC,http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs15&isp=4
 CNN,http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs16&isp=4
+BBC,http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs15&isp=4
+BBC,http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs15&isp=6
+CNN,http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs16&isp=6
 
 BBC,http://gi6.1ott.club:8080/gqQciW1qgK/sjcyqgX3wQ/177454
 BBC,http://gi6.1ott.club:8080/gqQciW1qgK/sjcyqgX3wQ/14999
