@@ -29,13 +29,14 @@ FOXNEWS,http://gi6.1ott.club:8080/gqQciW1qgK/sjcyqgX3wQ/177448
 朝鲜中央台,https://tv.nknews.org/tvdash/stream.mpd
 朝鲜中央台,https://tv.nknews.org/tvdash/stream-43963200.m4a
 
-乌克兰新闻,
-俄罗斯新闻,https://rt-glb.rttv.com/dvr/rtnews/playlist_4500Kb.m3u8
+伊朗新闻,https://live.presstv.ir/hls/presstv_6_482/index.m3u8#https://live.presstv.ir/hls/presstv_5_482/index.m3u8
+乌克兰新闻,https://avers.pp.ua/hls/efir.m3u8#https://cdn1.live-tv.cloud/rivne1/rivne1-abr/rivne1/rivne1-sub2/chunks.m3u8#https://cdn10.live-tv.cloud/sferarv/sferarv-abr/sferarv/480p/chunks.m3u8
+俄罗斯新闻,https://rt-glb.rttv.com/dvr/rtnews/playlist_4500Kb.m3u8#https://streaming.televizor-24-tochka.ru/live/30-req_offset_28000000-req_window_0-2k_v5.m3u8#https://streaming.televizor-24-tochka.ru/live/30-req_offset_28000000-req_window_0-2k_v5.m3u8
 印度新闻,http://gi6.1ott.club:8080/gqQciW1qgK/sjcyqgX3wQ/177450#https://ndtv24x7elemarchana.akamaized.net/hls/live/2003678/ndtv24x7/ndtv24x7master.m3u8#https://ndtvindiaelemarchana.akamaized.net/hls/live/2003679/ndtvindia/ndtvindiamaster.m3u8
 泰国公视,https://thaipbs-live.cdn.byteark.com/live/playlist_1080p/index.m3u8#http://thaipbs-live.cdn.byteark.com/live-en/playlist_720p/index.m3u8
 叙利亚新闻,https://svs.itworkscdn.net/syriatvlive/syriatv.smil/syriatvpublish/syriatv_source/chunks_dvr.m3u8
 阿拉伯新闻,https://live.alarabiya.net/alarabiapublish/alhadath.smil/alarabiapublish/alhadath_1080p/chunks.m3u8
-以色列新闻,https://bcovlive-a.akamaihd.net/d89ede8094c741b7924120b27764153c/eu-central-1/5377161796001/profile_0/chunklist.m3u8#https://ch14-channel14-content.akamaized.net/hls/live/2104807/CH14_CHANNEL14/2/streamPlaylist.m3u8#https://kan11.media.kan.org.il/hls/live/2024514/2024514/source1_4k/chunklist.m3u8
+以色列新闻,https://fastly.live.brightcove.com/6386790908112/eu-central-1/5377161796001/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJob3N0IjoiZXJmajYzLmVncmVzcy53YzQ3bTEiLCJhY2NvdW50X2lkIjoiNTM3NzE2MTc5NjAwMSIsImVobiI6ImZhc3RseS5saXZlLmJyaWdodGNvdmUuY29tIiwiaXNzIjoiYmxpdmUtcGxheWJhY2stc291cmNlLWFwaSIsInN1YiI6InBhdGhtYXB0b2tlbiIsImF1ZCI6WyI1Mzc3MTYxNzk2MDAxIl0sImp0aSI6IjYzODY3OTA5MDgxMTIifQ._w5c3EwfnEecDCEpDaKuVz07uuEyUb3vXvQN3svv-oU/chunklist__4.m3u8#https://bcovlive-a.akamaihd.net/d89ede8094c741b7924120b27764153c/eu-central-1/5377161796001/profile_0/chunklist.m3u8#https://ch14-channel14-content.akamaized.net/hls/live/2104807/CH14_CHANNEL14/2/streamPlaylist.m3u8#https://kan11.media.kan.org.il/hls/live/2024514/2024514/source1_4k/chunklist.m3u8
 巴勒斯坦新闻,https://pbc.furrera.ps/palestinehd/tracks-v1a1/mono.m3u8
 真主党新闻,https://edge.fastpublish.me/live/tracks-v1a1/mono.m3u8#https://mdnlv.cdn.octivid.com/almdn/smil:mpegts.stream.smil/chunklist_b3000000_t64NTQwcA==.m3u8
 伊朗新闻,http://kdr.376869.xyz:8080/mehmet39045/8JaJprJXk4/324472#https://live2.alalam.ir/live/Alalam/index.m3u8#https://live-azd1102.telewebion.com/ek/irinn/live/1080p/index.m3u8#http://kdr.376869.xyz:8080/mehmet39045/8JaJprJXk4/324473
