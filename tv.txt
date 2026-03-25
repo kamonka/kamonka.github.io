@@ -275,7 +275,7 @@ BeinSportsNews,http://966014182553.cdn-eag.com:80/6gi2up0jbb/dxu4mhmspq/44
 BeinSports,http://markatv14.xyz:80/live/irfany./qvvVdCma66/855331.ts
 
 🇯🇵日本,#genre#
-NHKG,http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gd01
+NHKG,http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gd01&isp=4
 NHKG,http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gx06&isp=4
 NHKBS,http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs11&isp=4
 NHKBSP4K,http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs01&isp=4
