@@ -1043,7 +1043,7 @@
       const box = document.getElementById('searchResultBox');
       const safeQuery = query ? query.replace(/</g, '&lt;').replace(/>/g, '&gt;') : '';
       if (!query) {
-        box.innerHTML = '<p>请输入关键词搜索。</p>';
+        box.innerHTML = '<p>请输入关键词搜索</p>';
         return;
       }
       if (results.length === 0) {
