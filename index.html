@@ -1050,7 +1050,7 @@
         box.innerHTML = `<p>未找到“${safeQuery}”的结果。</p>`;
         return;
       }
-      box.innerHTML = results.map(item => {
+      box.innerHTML = `<p style="font-size: 12px; color: #ccc; margin-bottom: 8px;">点击即可观看或下载</p>` + results.map(item => {
         const title = stripHtml(item.title);
         return `
           <div style="margin: 4px 0;">
