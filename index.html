@@ -206,8 +206,11 @@
       <a href="https://xoyondo.com/mb/nmekp47hgyz1ra2">
         <font color="#ffffff">留言板</font>
       </a>
+      <a href="#" id="searchLink">
+        <font color="#ffffff">搜索</font>
+      </a>
     </div>
-    <div style="position: absolute; bottom: 10px; left: 35px; display: flex; gap: 6px; align-items: center;">
+    <div style="position: absolute; bottom: 10px; left: 35px; display: flex; gap: 6px; align-items: center; display: none;" id="searchContainer">
       <input id="searchInput" type="text" placeholder="关键词" style="padding: 6px 8px; border-radius: 4px; border: 1px solid rgba(255,255,255,0.6); background: rgba(255,255,255,0.12); color: #fff; outline: none; min-width: 180px;">
       <button id="searchBtn" style="padding: 6px 10px; border: none; border-radius: 4px; background: #f5a623; color: #000; cursor: pointer;">搜 索</button>
     </div>
@@ -1074,10 +1077,23 @@
     document.addEventListener('DOMContentLoaded', () => {
       const searchInput = document.getElementById('searchInput');
       const searchBtn = document.getElementById('searchBtn');
+      const searchLink = document.getElementById('searchLink');
+      const searchContainer = document.getElementById('searchContainer');
       if (searchBtn) searchBtn.addEventListener('click', runSearch);
       if (searchInput) {
         searchInput.addEventListener('keydown', event => {
           if (event.key === 'Enter') runSearch();
+        });
+      }
+      if (searchLink) {
+        searchLink.addEventListener('click', (e) => {
+          e.preventDefault();
+          if (searchContainer.style.display === 'none' || searchContainer.style.display === '') {
+            searchContainer.style.display = 'flex';
+            searchInput.focus();
+          } else {
+            searchContainer.style.display = 'none';
+          }
         });
       }
     });
