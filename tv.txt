@@ -50,6 +50,10 @@ CNN,https://stream01.willfonk.com/live_playlist.m3u8?cid=CS354&r=HD&ccode=JP&m=d
 🇹🇼台港新闻,#genre#
 镜新闻,https://d36dgdk71xuzzg.cloudfront.net/v1/manifest/3a2ac8e6b6c76471996ebf627393d9c9417a60b6/linetv-6-627778910172-MediaTailor-production/c9b2313d-efdd-4777-9fae-573be8a86755/0.m3u8
 镜新闻,http://rihou.cc:555/tv/[Hk]%E9%97%BD%E9%95%9C%E6%96%B0%E9%97%BB
+民视新闻,http://74.91.26.218:82/live/ftvnews.m3u8
+台视新闻,http://74.91.26.218:82/live/ttvnews.m3u8
+华视新闻,http://74.91.26.218:82/live/ctsnews.m3u8
+中视新闻,http://74.91.26.218:82/live/ctvnews.m3u8
 东森新闻,http://156.238.248.80/2099.php?id=880
 中天新闻,http://free.cnlive.club/channel/41d8a09d/index.m3u8?q=1760217407316
 民视新闻,http://165.154.226.214:50007/li-litv-ftv13/index.m3u8?proxy=true
@@ -97,6 +101,8 @@ ABC,http://global3b.xyz:8080/fCp5RW544pWDD07p5/bE1HUTKPGC2x/443741
 公视,http://74.91.26.218:82/live/pts.m3u8
 台视,http://74.91.26.218:82/live/ttv.m3u8
 民视,http://74.91.26.218:82/live/ftv.m3u8
+华视,http://74.91.26.218:82/live/cts.m3u8
+中视,http://74.91.26.218:82/live/ctv.m3u8
 
 台视,http://165.154.226.214:50007/li-4gtv-4gtv066/index.m3u8?proxy=true
 中视,http://141.11.87.241:20013/li-4gtv-4gtv040/index.m3u8?proxy=true
@@ -690,6 +696,31 @@ NTVNews24,https://45.58.2.147/live_playlist.m3u8?cid=CS349&r=FHD&ccode=JP&m=d0:2
 🇬🇧英国#genre#
 
 🇨🇳大内宣,#genre#
+CCTV1,http://74.91.26.218:82/live/cctv1hd.m3u8
+CCTV2,http://74.91.26.218:82/live/cctv2hd.m3u8
+CCTV3,http://74.91.26.218:82/live/cctv3hd.m3u8
+CCTV4,http://74.91.26.218:82/live/cctv4hd.m3u8
+CCTV5+,http://74.91.26.218:82/live/cctv5p.m3u8
+CCTV5,http://74.91.26.218:82/live/cctv5hd.m3u8
+CCTV6,http://74.91.26.218:82/live/cctv6hd.m3u8
+CCTV7,http://74.91.26.218:82/live/cctv7hd.m3u8
+CCTV8,http://74.91.26.218:82/live/cctv8hd.m3u8
+CCTV9,http://74.91.26.218:82/live/cctv9hd.m3u8
+CCTV10,http://74.91.26.218:82/live/cctv10hd.m3u8
+CCTV11,http://74.91.26.218:82/live/cctv11hd.m3u8
+CCTV12,http://74.91.26.218:82/live/cctv12hd.m3u8
+CCTV13,http://74.91.26.218:82/live/cctv13hd.m3u8
+CCTV14,http://74.91.26.218:82/live/cctv14hd.m3u8
+CCTV15,http://74.91.26.218:82/live/cctv15hd.m3u8
+CCTV16,http://74.91.26.218:82/live/cctv16hd.m3u8
+CCTV17,http://74.91.26.218:82/live/cctv17hd.m3u8
+东方卫视,http://74.91.26.218:82/live/dfwshd.m3u8
+南方卫视,http://74.91.26.218:82/live/nfws.m3u8
+广东卫视,http://74.91.26.218:82/live/gdwshd.m3u8
+浙江卫视,http://74.91.26.218:82/live/zjwshd.m3u8
+深圳卫视,http://74.91.26.218:82/live/szwshd.m3u8
+湖南卫视,http://74.91.26.218:82/live/hnwshd.m3u8
+
 CCTV1,http://113.26.251.182:8009/hls/1/index.m3u8
 CCTV2,http://113.26.251.182:8009/hls/2/index.m3u8
 CCTV3,http://113.26.251.182:8009/hls/3/index.m3u8
@@ -782,30 +813,6 @@ CCTV14,http://61.184.46.85:9901/tsfile/live/0014_1.m3u8?key=txiptv
 辽宁卫视,http://61.184.46.85:9901/tsfile/live/1017_1.m3u8?key=txiptv
 重庆卫视,http://61.184.46.85:9901/tsfile/live/1015_1.m3u8?key=txiptv
 
-CCTV1,http://74.91.26.218:82/live/cctv1hd.m3u8
-CCTV2,http://74.91.26.218:82/live/cctv2hd.m3u8
-CCTV3,http://74.91.26.218:82/live/cctv3hd.m3u8
-CCTV4,http://74.91.26.218:82/live/cctv4hd.m3u8
-CCTV5+,http://74.91.26.218:82/live/cctv5p.m3u8
-CCTV5,http://74.91.26.218:82/live/cctv5hd.m3u8
-CCTV6,http://74.91.26.218:82/live/cctv6hd.m3u8
-CCTV7,http://74.91.26.218:82/live/cctv7hd.m3u8
-CCTV8,http://74.91.26.218:82/live/cctv8hd.m3u8
-CCTV9,http://74.91.26.218:82/live/cctv9hd.m3u8
-CCTV10,http://74.91.26.218:82/live/cctv10hd.m3u8
-CCTV11,http://74.91.26.218:82/live/cctv11hd.m3u8
-CCTV12,http://74.91.26.218:82/live/cctv12hd.m3u8
-CCTV13,http://74.91.26.218:82/live/cctv13hd.m3u8
-CCTV14,http://74.91.26.218:82/live/cctv14hd.m3u8
-CCTV15,http://74.91.26.218:82/live/cctv15hd.m3u8
-CCTV16,http://74.91.26.218:82/live/cctv16hd.m3u8
-CCTV17,http://74.91.26.218:82/live/cctv17hd.m3u8
-东方卫视,http://74.91.26.218:82/live/dfwshd.m3u8
-南方卫视,http://74.91.26.218:82/live/nfws.m3u8
-广东卫视,http://74.91.26.218:82/live/gdwshd.m3u8
-浙江卫视,http://74.91.26.218:82/live/zjwshd.m3u8
-深圳卫视,http://74.91.26.218:82/live/szwshd.m3u8
-湖南卫视,http://74.91.26.218:82/live/hnwshd.m3u8
 
 东方卫视4K,http://bp-resource-dfl.bestv.cn/148/3/video.m3u8
 浙江卫视4K,http://play-qukan.cztv.com/live/1758879019692345.m3u8
