@@ -19,6 +19,9 @@ CNBCEUROPE,http://gi6.1ott.club:8080/gqQciW1qgK/sjcyqgX3wQ/134443
 CNBCNEWS,http://gi6.1ott.club:8080/gqQciW1qgK/sjcyqgX3wQ/177444
 FOXNEWS,http://gi6.1ott.club:8080/gqQciW1qgK/sjcyqgX3wQ/177448
 
+CNN,http://ultrapremium.cloud:8080/43kagu97wa34tu39/72maxe529weda74/686
+FOXNEWS,http://ultrapremium.cloud:8080/43kagu97wa34tu39/72maxe529weda74/23441#http://ultrapremium.cloud:8080/43kagu97wa34tu39/72maxe529weda74/24031
+
 半岛新闻,https://live-hls-aje-ak.getaj.net/AJE/01.m3u8
 半岛新闻,https://live-hls-web-aja.getaj.net/AJA/01.m3u8
 
@@ -248,24 +251,10 @@ ComedyCentral,http://cistakosuza.petica.info:80/Marina1KZ/ubxfvM6dQ7/69752
 🇲🇾新马泰印#genre#
 
 🇯🇲体育,#genre#
-TORO,http://domestipo1.online:80/boxmuse244/JT43NFKfYF/412928.ts
-TORO,http://domestipo1.online:80/boxmuse244/JT43NFKfYF/327969.ts
-TORO,http://domestipo1.online:80/boxmuse244/JT43NFKfYF/327943.ts
 TORO,http://ultrapremium.cloud:8080/43kagu97wa34tu39/72maxe529weda74/236501
 TORO,http://ultrapremium.cloud:8080/43kagu97wa34tu39/72maxe529weda74/236540
-TORO,http://castorplens.live:80/Amigamaricruz/ru5qxpn0xy/726440#http://castorplens.live:80/Amigamaricruz/ru5qxpn0xy/620644#http://castorplens.live:80/Amigamaricruz/ru5qxpn0xy/726441
-TORO,http://ip.sltv.be:8080/Qv4XPzVKM9/7jgT1M4tYk/136662
-TORO,http://tv.diablotv.net:8080/112DDaNocolladl34ksSGatoPeroo/mEDTLeyQ2T/8217
-TORO,http://ty.4331327.xyz:8080/live/koz8747/39102023/343647.ts
-TORO,http://ty.4331327.xyz:8080/live/koz8747/39102023/343627.ts
-TORO,http://tv.proyectox.vip:8080/PaolaPlaza/0d91a58cfda9/8217
 TORO,http://kdr.376869.xyz:8080/mehmet39045/8JaJprJXk4/382409#http://kdr.376869.xyz:8080/mehmet39045/8JaJprJXk4/382504#http://kdr.376869.xyz:8080/mehmet39045/8JaJprJXk4/382524
 TORO,http://metropolvip.xyz:2086/metpol9117dvck/37lcSI3naN/189388
-TORO,http://mh.smpy24.live:80/6smkto4a4e/rtwev2gfqd/524044
-TORO,http://mh.smpy24.live:80/6smkto4a4e/rtwev2gfqd/294175
-TORO,http://mh.smpy24.live:80/6smkto4a4e/rtwev2gfqd/295627
-TORO,http://mh.smpy24.live:80/6smkto4a4e/rtwev2gfqd/9068
-TORO,http://mh.smpy24.live:80/6smkto4a4e/rtwev2gfqd/1174114
 
 beINSPORTS,http://portal-iptv.net:8080/077998950140/077998950140/187
 beINSports1,http://portal-iptv.net:8080/077998950140/077998950140/31300
