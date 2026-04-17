@@ -55,17 +55,17 @@ CNN,https://stream01.willfonk.com/live_playlist.m3u8?cid=CS354&r=HD&ccode=JP&m=d
 镜新闻,http://rihou.cc:555/tv/[Hk]%E9%97%BD%E9%95%9C%E6%96%B0%E9%97%BB
 
 台视新闻,https://www.youtube.com/watch?v=xL0ch83RAK8
-公视新闻，https://www.youtube.com/watch?v=quwqlazU-c8
-TVBS新闻，https://www.youtube.com/watch?v=m_dhMSvUCIc
+公视新闻,https://www.youtube.com/watch?v=quwqlazU-c8
+TVBS新闻,https://www.youtube.com/watch?v=m_dhMSvUCIc
 民视新闻,https://www.youtube.com/watch?v=ylYJSBUgaMA
-三立新闻，https://www.youtube.com/watch?v=QsGswQvRmtU
-三立新闻，https://www.youtube.com/watch?v=XtllcS--JCs
-中天新闻，https://www.youtube.com/watch?v=vr3XyVCR4T0
-东森新闻，https://www.youtube.com/watch?v=V1p33hqPrUk
+三立新闻,https://www.youtube.com/watch?v=QsGswQvRmtU
+三立新闻,https://www.youtube.com/watch?v=XtllcS--JCs
+中天新闻,https://www.youtube.com/watch?v=vr3XyVCR4T0
+东森新闻,https://www.youtube.com/watch?v=V1p33hqPrUk
 华视新闻,https://www.youtube.com/watch?v=wM0g8EoUZ_E
-中视新闻，https://www.youtube.com/watch?v=TCnaIE_SAtM
+中视新闻,https://www.youtube.com/watch?v=TCnaIE_SAtM
 寰宇新闻,https://www.youtube.com/watch?v=6IquAgfvYmc
-寰宇新闻 1,https://www.youtube.com/watch?v=5SH3FDMyMzg
+寰宇新闻,https://www.youtube.com/watch?v=5SH3FDMyMzg
 寰宇新闻台湾,https://www.youtube.com/watch?v=w87VGpgd90U
 镜新闻,https://www.youtube.com/watch?v=5n0y6b0Q25o
 
