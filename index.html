@@ -242,7 +242,8 @@
   </div>
 
   <script>
-    const leftItems = [
+    const contentCollections = {
+      leftItems: [
 
       // { title: "<span>片名</span><br><span style='font-size: 12px; line-height: 0.8;'></span>", image: "https://jyjdsg.dpdns.org/images/片名.webp", link: "https://jyjdsg.dpdns.org/player.html?url=视频地址" },
 
@@ -785,9 +786,9 @@
       { link: "https://jyjdsg.dpdns.org/videoplayer.html?url=https://svipsvip.ffzy-online5.com/20240104/21776_6bd860db/3000k/hls/mixed.m3u8", image: "https://jyjdsg.dpdns.org/images/绝境盟约.webp", title: "绝境盟约" },
       { link: "https://jyjdsg.dpdns.org/11.html", image: "https://jyjdsg.dpdns.org/favicon.ico", title: "<span>前往旧版</span><br><span style='font-size: 20px; line-height: 0.8;'>今晚看什么</span>" }
 
-    ];
+      ],
 
-    const rightItems = [
+      rightItems: [
 
       //  { title: "<span>书名</span><br><span style='font-size: 12px; line-height: 0.8;'></span>", image: "https://jyjdsg.dpdns.org/images/书名.webp", link: "https://jyjdsg.dpdns.org/book/书名.epub" },
 
@@ -1058,7 +1059,10 @@
       { link: "https://dlink.host/1drv/aHR0cHM6Ly8xZHJ2Lm1zL3UvYy80ODFkYzUzNDUyNTgwYjFmL0VSOExXRkkweFIwZ2dFajRld0FBQUFBQkxTamxDdV9GYnRvMG8wSUktYVdjTEE_ZT1rbDdFYzA", image: "https://jyjdsg.dpdns.org/images/人類崛起.webp", title: "<span>人類崛起</span><br><span style='font-size: 12px; line-height: 0.8;'>從直立行走、煮食生活到抽象語言<br>演化如何造就了現在的我們？</span>" },
 
       { link: "https://jyjdsg.dpdns.org/book.html", image: "https://jyjdsg.dpdns.org/favicon.ico", title: "<span>前往旧版</span><br><span style='font-size: 20px; line-height: 0.8;'>今晚读什么</span>" }
-    ];
+      ]
+    };
+
+    const { leftItems, rightItems } = contentCollections;
 
     function renderItems(columnId, items) {
       const col = document.getElementById(columnId);
