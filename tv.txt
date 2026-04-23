@@ -1,9 +1,8 @@
 🇬🇬世界新闻,#genre#
-BBC,https://cdn4.skygo.mn/live/disk1/BBC_News/HLSv3-FTA/BBC_News.m3u8
-CNN,http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs16&isp=3
-BBC,http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs15&isp=3
 BBC,http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs15&isp=6
 CNN,http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs16&isp=6
+CNN,http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs16&isp=3
+BBC,http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs15&isp=3
 
 BBC,http://gi6.1ott.club:8080/gqQciW1qgK/sjcyqgX3wQ/177454
 BBC,http://gi6.1ott.club:8080/gqQciW1qgK/sjcyqgX3wQ/14999
@@ -320,7 +319,7 @@ NOW英超,http://109.61.81.147:1935/cdn7/767/mpegts?token=1d8c18a3d377f5418d2501
 愛爾達體育4,http://8.218.84.3:8885/live/LxWcScuQ6WphaELY4DhkKm8SIv7_ZgNIJtNvFurqphvyqxUIU84OjKVCwFxMq9iU1qBEChmkVSZV2aaPRHlakaSewWqWYI4WfG5BpsX248_1fl65aF_k4-EyuAqxfB8eUBcxDVAdcNWKqPOsumeGwfEkaPtirer7EqgKhxL-fMwlhPr4Ufgt3gsXHRWhnjiaKRRx8QffRwYH9Bhx1DFWuGDeSmakS_rHOE-jjPxp64R0IVZXUY0oqEpaIAoxhrYNsVrC7OKaKQxp6aeO657K03l2V3WKW8oFowyfCGCdHUE.m3u8?u=1756878715
 
 日本摔跤格斗,https://uk.utako.moe/fighting_tv/index.m3u8
-日本摔跤格斗,https://nl.utako.moe/fighting_tv/tracks-v1a1/mono.m3u8
+日本摔跤格斗,https://uk.utako.moe/fighting_tv/tracks-v1a1/mono.m3u8
 日本女子摔跤,http://lxajh.top/tv/douyu.php?id=425809
 BeinSportsNews,http://966014182553.cdn-eag.com:80/6gi2up0jbb/dxu4mhmspq/44
 
