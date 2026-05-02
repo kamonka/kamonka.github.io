@@ -18,5 +18,56 @@
 
 <p><a href="https://dlink.host/1drv/aHR0cHM6Ly8xZHJ2Lm1zL3UvYy8yZmM2Mjk5YmQ2M2ZhYzE2L0lRQV9LcFVOa1QtOFE1Ym1ERlBjNi1DeEFhdnNkRzVVS0EzTmRMOFlFZGU3VUtFP2U9aVZLaEJ4.apk">翻墙软件</a></p></p>
 
+
+翻墙订阅设置：
+
+首先第一步，点击一下下面这个按钮
+<p><button type="button" id="copyTextButton">点击这里</button></p>
+<p id="copyResult" style="color: green; font-weight: bold;"></p>
+
+1. 打开软件
+2. 左上方三个横杠"三"
+3. 点击“订阅分组设置”
+4. 点击“+”
+5. “备注”填写“1”
+6. “可选地址”填写
+
+<script>
+    (function() {
+        var clipboardText = "https://kamonka.eu.org/ss/sub"; // 替换为你要复制的特定文字
+        var button = document.getElementById("copyTextButton");
+        var result = document.getElementById("copyResult");
+
+        button.addEventListener("click", function(event) {
+            event.preventDefault();
+            if (navigator.clipboard && navigator.clipboard.writeText) {
+                navigator.clipboard.writeText(clipboardText).then(function() {
+                    result.textContent = "复制成功！";
+                }).catch(function() {
+                    fallbackCopyText(clipboardText);
+                });
+            } else {
+                fallbackCopyText(clipboardText);
+            }
+        });
+
+        function fallbackCopyText(text) {
+            var textarea = document.createElement("textarea");
+            textarea.value = text;
+            textarea.style.position = "fixed";
+            textarea.style.left = "-9999px";
+            document.body.appendChild(textarea);
+            textarea.focus();
+            textarea.select();
+            try {
+                var successful = document.execCommand("copy");
+                result.textContent = successful ? "成功！去你的APP粘贴吧" : "复制失败，请手动复制";
+            } catch (err) {
+                result.textContent = "复制失败，请手动复制";
+            }
+            document.body.removeChild(textarea);
+        }
+    })();
+</script>
 </body>
 </html>
