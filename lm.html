@@ -8,7 +8,7 @@
 
 <p align="center">
 
-<p><font size="5">点击下面的链接，下载后安装</font></p>
+<p><font size="200%">点击下面的链接，下载后安装</font></p>
 
 <p>1. </p>
 
@@ -19,10 +19,10 @@
 <p><a href="https://dlink.host/1drv/aHR0cHM6Ly8xZHJ2Lm1zL3UvYy8yZmM2Mjk5YmQ2M2ZhYzE2L0lRQV9LcFVOa1QtOFE1Ym1ERlBjNi1DeEFhdnNkRzVVS0EzTmRMOFlFZGU3VUtFP2U9aVZLaEJ4.apk">翻墙软件</a></p></p>
 
 
-<p>翻墙订阅设置：</p>
-<p>首先第一步，点击下面这个按钮，会自动复制一个链接到剪贴板，复制成功后会有提示。</p>
-<p><button type="button" id="copyTextButton">点击这里</button></p>
-<p id="copyResult" style="color: green; font-weight: bold;"></p>
+<p><font size="200%">翻墙软件订阅设置：</font></p>
+<p><strong>首先第一步，点击下面这个按钮，会自动复制一个链接到剪贴板，复制成功后会有提示。</strong></p>
+<p><button type="button" id="copyTextButton1">点击这里</button></p>
+<p id="copyResult1" style="color: green; font-weight: bold;"></p>
 <p>随后步骤：</p>
 <ol>
     <li>打开软件</li>
@@ -36,26 +36,59 @@
     <li>返回主界面，点击右上方的三个横杠"三"，点击“更新当前订阅”，等待更新完成后就可以使用了。</li>
 </ol>
 
+<p><font size="200%">看电视软件订阅设置：</font></p>
+<p><strong>首先第一步，点击下面这个按钮，会自动复制一个链接到剪贴板，复制成功后会有提示。</strong></p>
+<p><button type="button" id="copyTextButton2">点击这里</button></p>
+<p id="copyResult2" style="color: green; font-weight: bold;"></p>
+<p>随后步骤：</p>
+<ol>
+    <li>打开软件</li>
+    <li>长按屏幕右侧，会跳出设置菜单</li>
+    <li>点击“数据管理”</li>
+    <li>点击“同步云端列表”</li>
+    <li>粘帖第一步时复制的链接</li>
+    <li>点击“确定”</li>
+</ol>
+
 <script>
     (function() {
-        var clipboardText = "https://kamonka.eu.org/ss/sub"; // 替换为你要复制的特定文字
-        var button = document.getElementById("copyTextButton");
-        var result = document.getElementById("copyResult");
-
-        button.addEventListener("click", function(event) {
-            event.preventDefault();
-            if (navigator.clipboard && navigator.clipboard.writeText) {
-                navigator.clipboard.writeText(clipboardText).then(function() {
-                    result.textContent = "复制成功！";
-                }).catch(function() {
-                    fallbackCopyText(clipboardText);
-                });
-            } else {
-                fallbackCopyText(clipboardText);
+        var copyConfigs = [
+            {
+                buttonId: "copyTextButton1",
+                resultId: "copyResult1",
+                text: "https://kamonka.eu.org/ss/sub"
+            },
+            {
+                buttonId: "copyTextButton2",
+                resultId: "copyResult2",
+                text: "https://jyjdsg.dpdns.org/tv.txt"
             }
+        ];
+
+        copyConfigs.forEach(function(config) {
+            var button = document.getElementById(config.buttonId);
+            var result = document.getElementById(config.resultId);
+            if (!button || !result) return;
+
+            button.addEventListener("click", function(event) {
+                event.preventDefault();
+                copyText(config.text, result);
+            });
         });
 
-        function fallbackCopyText(text) {
+        function copyText(text, result) {
+            if (navigator.clipboard && navigator.clipboard.writeText) {
+                navigator.clipboard.writeText(text).then(function() {
+                    result.textContent = "复制成功";
+                }).catch(function() {
+                    fallbackCopyText(text, result);
+                });
+            } else {
+                fallbackCopyText(text, result);
+            }
+        }
+
+        function fallbackCopyText(text, result) {
             var textarea = document.createElement("textarea");
             textarea.value = text;
             textarea.style.position = "fixed";
@@ -65,7 +98,7 @@
             textarea.select();
             try {
                 var successful = document.execCommand("copy");
-                result.textContent = successful ? "成功！去你的APP粘贴吧" : "复制失败，请手动复制";
+                result.textContent = successful ? "复制成功" : "复制失败，请手动复制";
             } catch (err) {
                 result.textContent = "复制失败，请手动复制";
             }
