@@ -391,6 +391,35 @@ BS釣りビジョン,http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m
 TBSNEWS,http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs11&isp=6
 フジテレビNEXT,http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs26&isp=6
 
+BSテレ東,http://arva.netgenx.site/stream/jp/bs_tv_tokyo_4k/stream-output.m3u8?mode=hls
+TOKYOMX2,http://arva.netgenx.site/stream/jp/tokyo_mx2/stream-output.m3u8?mode=hls
+BS11,http://arva.netgenx.site/stream/jp/bs11/stream-output.m3u8?mode=hls
+BS12,http://arva.netgenx.site/stream/jp/bs_12/stream-output.m3u8?mode=hls
+日テレ+,http://arva.netgenx.site/stream/jp/nittele_plus/stream-output.m3u8?mode=hls
+TBS1,http://arva.netgenx.site/stream/jp/tbs_channel_1/stream-output.m3u8?mode=hls
+TBS2,http://arva.netgenx.site/stream/jp/tbs_channel_2/stream-output.m3u8?mode=hls
+フジテレビ1,http://arva.netgenx.site/stream/jp/fuji_tv_one/stream-output.m3u8?mode=hls
+フジテレビ2,http://arva.netgenx.site/stream/jp/fuji_tv_two/stream-output.m3u8?mode=hls
+テレビ朝日1,http://arva.netgenx.site/stream/jp/tv_asahi_channel_1/stream-output.m3u8?mode=hls
+テレビ朝日2,http://arva.netgenx.site/stream/jp/tv_asahi_channel_2/stream-output.m3u8?mode=hls
+Pigoo,http://arva.netgenx.site/stream/jp/pigoo_nsfw/stream-output.m3u8?mode=hls
+V☆パラダイス,http://arva.netgenx.site/stream/jp/v_paradise_nsfw/stream-output.m3u8?mode=hls
+WOWOWプラス,http://arva.netgenx.site/stream/jp/wowow_plus/stream-output.m3u8?mode=hls
+ザ・シネマ,http://arva.netgenx.site/stream/jp/the_cinema/stream-output.m3u8?mode=hls
+AXN,http://arva.netgenx.site/stream/jp/action_channel_%28axn%29/stream-output.m3u8?mode=hls
+ミステリー,http://arva.netgenx.site/stream/jp/mystery_channel/stream-output.m3u8?mode=hls
+SuperDramaTV,http://arva.netgenx.site/stream/jp/super_drama_tv/stream-output.m3u8?mode=hls
+NECO,http://arva.netgenx.site/stream/jp/neco_ch/stream-output.m3u8?mode=hls
+MusicON,http://arva.netgenx.site/stream/jp/music_on_tv/stream-output.m3u8?mode=hls
+KBS,http://arva.netgenx.site/stream/jp/kbs/stream-output.m3u8?mode=hls
+KBS,http://arva.netgenx.site/stream/jp/kbs_world/stream-output.m3u8?mode=hls
+KNTV,http://arva.netgenx.site/stream/jp/kntv/stream-output.m3u8?mode=hls
+Mnet,http://arva.netgenx.site/stream/jp/mnet/stream-output.m3u8?mode=hls
+AT-X,http://arva.netgenx.site/stream/jp/at-x/stream-output.m3u8?mode=hls
+日テレNEWS24,http://arva.netgenx.site/stream/jp/ntv_news24/stream-output.m3u8?mode=hls
+ウェザーニュース,http://arva.netgenx.site/stream/jp/weather_news/stream-output.m3u8?mode=hls
+
+
 NHKG,http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=hdgd01&isp=3
 NHKG,http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gd01&isp=3
 NHKG,http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gx06&isp=3
@@ -479,7 +508,7 @@ TOKYOMX1,https://uk.utako.moe/Tokyo_MX1/index.m3u8
 TOKYOMX2,https://uk.utako.moe/Tokyo_MX2/index.m3u8
 京都放送,https://uk.utako.moe/kbs/index.m3u8
 サンテレビ,https://uk.utako.moe/suntv/index.m3u8
-日テレG+,https://uk.utako.moe/ntvgplus/index.m3u8
+日テレ+,https://uk.utako.moe/ntvgplus/index.m3u8
 TBS1,https://uk.utako.moe/tbsch1/index.m3u8
 TBS2,https://uk.utako.moe/tbsch2/index.m3u8
 フジテレビ1,https://uk.utako.moe/fuji_one/index.m3u8
@@ -545,7 +574,7 @@ TOKYOMX1,https://nl.utako.moe/Tokyo_MX1/tracks-v1a1/mono.ts.m3u8
 TOKYOMX2,https://nl.utako.moe/Tokyo_MX2/tracks-v1a1/mono.ts.m3u8
 京都放送,https://nl.utako.moe/kbs/tracks-v1a1/mono.ts.m3u8
 サンテレビ,https://nl.utako.moe/suntv/tracks-v1a1/mono.ts.m3u8
-日テレG+,https://nl.utako.moe/ntvgplus/tracks-v1a1/mono.ts.m3u8
+日テレ+,https://nl.utako.moe/ntvgplus/tracks-v1a1/mono.ts.m3u8
 TBS1,https://nl.utako.moe/tbsch1/tracks-v1a1/mono.ts.m3u8
 TBS2,https://nl.utako.moe/tbsch2/tracks-v1a1/mono.ts.m3u8
 フジテレビ1,https://nl.utako.moe/fuji_one/tracks-v1a1/mono.ts.m3u8
@@ -728,7 +757,9 @@ CCTV14,http://61.184.46.85:9901/tsfile/live/0014_1.m3u8?key=txiptv
 湖南卫视4K,http://hlsal-ldvt.qing.mgtv.com/nn_live/nn_x64/dWlwPTEyNy4wLjAuMSZ1aWQ9cWluZy1jbXMmbm5fdGltZXpvbmU9OCZjZG5leF9pZD1hbF9obHNfbGR2dCZ1dWlkPTliODY4NmU5ZTM2YzYwMmMmZT02OTE0NjA0JnY9MSZpZD1ITldTWkdTVCZzPTcwN2RiYTc2YzJjNmJmMTQ4MmUyZGYzOWU2NWM3YWFi/HNWSZGST.m3u8
 
 🇲🇰测试_66,#genre#
-PLAYBOY,http://ultrapremium.cloud:8080/43kagu97wa34tu39/72maxe529weda74/14087
+日本写真,http://arva.netgenx.site/stream/jp/pigoo_nsfw/stream-output.m3u8?mode=hls
+日本写真,https://uk.utako.moe/pigoo/index.m3u8
+日本写真,https://nl.utako.moe/pigoo/tracks-v1a1/mono.ts.m3u8
 
 惊艳电影,http://15.204.105.50:25461/live/G2s9zK2n9m/xDtwVfWM8T/85.ts
 潘朵啦玩美,http://15.204.105.50:25461/live/G2s9zK2n9m/xDtwVfWM8T/86.ts
@@ -740,9 +771,6 @@ PLAYBOY,http://ultrapremium.cloud:8080/43kagu97wa34tu39/72maxe529weda74/14087
 极限电影,http://rihou.cc:555/tv/hktv%2Ftb19jstv78
 
 日本无码,http://xxip25.top:8080/11171029/11171029/215583#http://nocable.cc:8080/sisnboyz9295@gmail.com/sisnboyz9295@2025/215583#http://global3b.xyz:8080/ur0A62qyMjAqS/eQmAnkZawdz31/493463
-
-日本写真,https://uk.utako.moe/pigoo/index.m3u8
-日本写真,https://nl.utako.moe/pigoo/tracks-v1a1/mono.ts.m3u8
 
 ASIAN,http://fortv.cc:8080/50572575/50572575/215583#http://global3b.xyz:8080/ur0A62qyMjAqS/eQmAnkZawdz31/493369#http://nocable.cc:8080/sisnboyz9295@gmail.com/sisnboyz9295@2025/215465#http://xxip9.top:8080/live/89394807/89394807/160011.ts#http://fortv.cc:8080/50572575/50572575/160011#http://fortv.cc:8080/50572575/50572575/160026#http://fortv.cc:8080/50572575/50572575/215465
 MASSAGEROOM,http://xxip9.top:8080/live/89394807/89394807/160010.ts#http://xxip9.top:8080/live/LaLa34@yahoo.com/LaLa7678/160010.ts
