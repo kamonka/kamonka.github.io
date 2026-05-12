@@ -409,6 +409,10 @@ WOWOWプラス,http://arva.netgenx.site/stream/jp/wowow_plus/stream-output.m3u8?
 AXN,http://arva.netgenx.site/stream/jp/action_channel_%28axn%29/stream-output.m3u8?mode=hls
 ミステリー,http://arva.netgenx.site/stream/jp/mystery_channel/stream-output.m3u8?mode=hls
 SuperDramaTV,http://arva.netgenx.site/stream/jp/super_drama_tv/stream-output.m3u8?mode=hls
+サムライTV,http://arva.netgenx.site/stream/jp/fighting_tv_samurai/stream-output.m3u8?mode=hls
+スポーツライブ＋,http://arva.netgenx.site/stream/jp/sport_live_plus/stream-output.m3u8?mode=hls
+鉄道,http://arva.netgenx.site/stream/jp/tetsudo_channel/stream-output.m3u8?mode=hls
+囲碁・将棋,http://arva.netgenx.site/stream/jp/shogi_channel/stream-output.m3u8?mode=hls
 NECO,http://arva.netgenx.site/stream/jp/neco_ch/stream-output.m3u8?mode=hls
 MusicON,http://arva.netgenx.site/stream/jp/music_on_tv/stream-output.m3u8?mode=hls
 KBS,http://arva.netgenx.site/stream/jp/kbs/stream-output.m3u8?mode=hls
