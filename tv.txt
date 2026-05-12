@@ -408,7 +408,7 @@ WOWOWプラス,http://arva.netgenx.site/stream/jp/wowow_plus/stream-output.m3u8?
 ザ・シネマ,http://arva.netgenx.site/stream/jp/the_cinema/stream-output.m3u8?mode=hls
 AXN,http://arva.netgenx.site/stream/jp/action_channel_%28axn%29/stream-output.m3u8?mode=hls
 ミステリー,http://arva.netgenx.site/stream/jp/mystery_channel/stream-output.m3u8?mode=hls
-SuperDramaTV,http://arva.netgenx.site/stream/jp/super_drama_tv/stream-output.m3u8?mode=hls
+スーパー！ドラマ,http://arva.netgenx.site/stream/jp/super_drama_tv/stream-output.m3u8?mode=hls
 サムライTV,http://arva.netgenx.site/stream/jp/fighting_tv_samurai/stream-output.m3u8?mode=hls
 スポーツライブ＋,http://arva.netgenx.site/stream/jp/sport_live_plus/stream-output.m3u8?mode=hls
 鉄道,http://arva.netgenx.site/stream/jp/tetsudo_channel/stream-output.m3u8?mode=hls
