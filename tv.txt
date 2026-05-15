@@ -281,6 +281,8 @@ TORO,http://fr3d0m.tebasya.work:8080/JVanmci423/dncSExXxmS/1357
 TORO,http://fr3d0m.tebasya.work:8080/JVanmci423/dncSExXxmS/205
 TORO,http://fr3d0m.tebasya.work:8080/JVanmci423/dncSExXxmS/206
 
+1,http://line.cloud-ott.net:80/play/live.php?mac=00:1A:79:0D:80:56&stream=959568&extension=ts&play_token=FLzcBlqF5i
+
 SKYSportsNews,http://fr3d0m.tebasya.work:8080/JVanmci423/dncSExXxmS/365
 PremiereSport1,http://fr3d0m.tebasya.work:8080/JVanmci423/dncSExXxmS/366
 PremiereSport2,http://fr3d0m.tebasya.work:8080/JVanmci423/dncSExXxmS/5307
