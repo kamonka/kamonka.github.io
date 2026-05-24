@@ -32,9 +32,39 @@
 <body>
 <script src="https://cdn.jsdelivr.net/npm/@mux/mux-player" defer></script>
 <mux-player
+  id="muxPlayer"
+  autoplay
+  muted
+  playsinline
   playback-id="U1YwiybdCg9UGXjrNGjtqaqsRdaHc00tgVP00u4CKt1vM"
   metadata-video-title="稀土"
   metadata-viewer-user-id=""
 ></mux-player>
+<script>
+  const player = document.getElementById('muxPlayer');
+  function isMobileDevice() {
+    return /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+  }
+  function lockLandscape() {
+    if (screen.orientation && screen.orientation.lock) {
+      screen.orientation.lock('landscape').catch(() => {
+        // ignore if not supported or blocked
+      });
+    }
+  }
+  function ensurePlay() {
+    if (player && typeof player.play === 'function') {
+      player.play().catch(() => {
+        // Autoplay may be blocked; muted should help most browsers
+      });
+    }
+  }
+  window.addEventListener('load', () => {
+    if (isMobileDevice()) {
+      lockLandscape();
+    }
+    ensurePlay();
+  });
+</script>
 </body>
 </html>
