@@ -13,34 +13,6 @@
       margin: 0;
       padding: 0;
       background-color: black;
-      overflow: hidden;
-    }
-
-    html,
-    body {
-      width: 100%;
-      height: 100%;
-    }
-
-    mux-player {
-      display: block;
-      width: 100vw;
-      height: 100vh;
-      --controls: block;
-    }
-
-    @media (max-width: 900px) and (orientation: portrait) {
-      body {
-        width: 100vh;
-        height: 100vw;
-        transform: rotate(90deg) translateY(-100%);
-        transform-origin: top left;
-      }
-
-      mux-player {
-        width: 100vh;
-        height: 100vw;
-      }
     }
 </style>
 <title>今晚看什么</title>
@@ -50,92 +22,11 @@
 <mux-player
   id="muxPlayer"
   autoplay
-  muted
   playsinline
   poster="https://image.mux.com/U1YwiybdCg9UGXjrNGjtqaqsRdaHc00tgVP00u4CKt1vM/thumbnail.webp?&time=01"
   playback-id="U1YwiybdCg9UGXjrNGjtqaqsRdaHc00tgVP00u4CKt1vM"
   metadata-video-title="稀土"
   metadata-viewer-user-id=""
 ></mux-player>
-<script>
-  (() => {
-    const player = document.getElementById('muxPlayer');
-    const isMobile = () => window.matchMedia('(max-width: 900px), (pointer: coarse)').matches;
-
-    async function requestFullscreen(target) {
-      if (document.fullscreenElement || document.webkitFullscreenElement) {
-        return true;
-      }
-
-      const media = target.media || (target.shadowRoot && target.shadowRoot.querySelector('video'));
-      const request = target.requestFullscreen ||
-        target.webkitRequestFullscreen ||
-        target.mozRequestFullScreen ||
-        target.msRequestFullscreen;
-
-      if (request) {
-        try {
-          await request.call(target);
-          return true;
-        } catch (error) {}
-      }
-
-      if (media && media.webkitEnterFullscreen) {
-        media.webkitEnterFullscreen();
-        return true;
-      }
-
-      return false;
-    }
-
-    async function lockLandscape() {
-      if (!isMobile() || !screen.orientation || !screen.orientation.lock) {
-        return;
-      }
-
-      try {
-        await screen.orientation.lock('landscape');
-      } catch (error) {
-        // Browsers often require fullscreen plus a user gesture for orientation lock.
-      }
-    }
-
-    async function playFullscreen() {
-      try {
-        await customElements.whenDefined('mux-player');
-      } catch (error) {}
-
-      player.muted = true;
-      player.autoplay = true;
-
-      try {
-        await requestFullscreen(player);
-      } catch (error) {}
-
-      await lockLandscape();
-
-      try {
-        await player.play();
-      } catch (error) {}
-    }
-
-    function bindGestureFallback() {
-      const retry = () => {
-        playFullscreen();
-        window.removeEventListener('pointerdown', retry);
-        window.removeEventListener('touchend', retry);
-        window.removeEventListener('click', retry);
-      };
-
-      window.addEventListener('pointerdown', retry, { once: true });
-      window.addEventListener('touchend', retry, { once: true });
-      window.addEventListener('click', retry, { once: true });
-    }
-
-    window.addEventListener('load', playFullscreen, { once: true });
-    document.addEventListener('DOMContentLoaded', playFullscreen, { once: true });
-    bindGestureFallback();
-  })();
-</script>
 </body>
 </html>
