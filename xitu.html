@@ -8,23 +8,39 @@
   <link rel="shortcut icon" href="https://jyjdsg.dpdns.org/favicon.ico">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   <style>
-    html, body {
-      width: 100%;
-      height: 100%;
-      margin: 0;
-      padding: 0;
-      overflow: hidden;
-      background-color: black;
-    }
     body {
       font-family: sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: black;
+      overflow: hidden;
     }
-    mux-player {
-      display: block;
+
+    html,
+    body {
       width: 100%;
       height: 100%;
-      min-height: 100%;
-      box-sizing: border-box;
+    }
+
+    mux-player {
+      display: block;
+      width: 100vw;
+      height: 100vh;
+      --controls: block;
+    }
+
+    @media (max-width: 900px) and (orientation: portrait) {
+      body {
+        width: 100vh;
+        height: 100vw;
+        transform: rotate(90deg) translateY(-100%);
+        transform-origin: top left;
+      }
+
+      mux-player {
+        width: 100vh;
+        height: 100vw;
+      }
     }
 </style>
 <title>今晚看什么</title>
@@ -42,30 +58,84 @@
   metadata-viewer-user-id=""
 ></mux-player>
 <script>
-  const player = document.getElementById('muxPlayer');
-  function isMobileDevice() {
-    return /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
-  }
-  function lockLandscape() {
-    if (screen.orientation && screen.orientation.lock) {
-      screen.orientation.lock('landscape').catch(() => {
-        // ignore if not supported or blocked
-      });
+  (() => {
+    const player = document.getElementById('muxPlayer');
+    const isMobile = () => window.matchMedia('(max-width: 900px), (pointer: coarse)').matches;
+
+    async function requestFullscreen(target) {
+      if (document.fullscreenElement || document.webkitFullscreenElement) {
+        return true;
+      }
+
+      const media = target.media || (target.shadowRoot && target.shadowRoot.querySelector('video'));
+      const request = target.requestFullscreen ||
+        target.webkitRequestFullscreen ||
+        target.mozRequestFullScreen ||
+        target.msRequestFullscreen;
+
+      if (request) {
+        try {
+          await request.call(target);
+          return true;
+        } catch (error) {}
+      }
+
+      if (media && media.webkitEnterFullscreen) {
+        media.webkitEnterFullscreen();
+        return true;
+      }
+
+      return false;
     }
-  }
-  function ensurePlay() {
-    if (player && typeof player.play === 'function') {
-      player.play().catch(() => {
-        // Autoplay may be blocked; muted should help most browsers
-      });
+
+    async function lockLandscape() {
+      if (!isMobile() || !screen.orientation || !screen.orientation.lock) {
+        return;
+      }
+
+      try {
+        await screen.orientation.lock('landscape');
+      } catch (error) {
+        // Browsers often require fullscreen plus a user gesture for orientation lock.
+      }
     }
-  }
-  window.addEventListener('load', () => {
-    if (isMobileDevice()) {
-      lockLandscape();
+
+    async function playFullscreen() {
+      try {
+        await customElements.whenDefined('mux-player');
+      } catch (error) {}
+
+      player.muted = true;
+      player.autoplay = true;
+
+      try {
+        await requestFullscreen(player);
+      } catch (error) {}
+
+      await lockLandscape();
+
+      try {
+        await player.play();
+      } catch (error) {}
     }
-    ensurePlay();
-  });
+
+    function bindGestureFallback() {
+      const retry = () => {
+        playFullscreen();
+        window.removeEventListener('pointerdown', retry);
+        window.removeEventListener('touchend', retry);
+        window.removeEventListener('click', retry);
+      };
+
+      window.addEventListener('pointerdown', retry, { once: true });
+      window.addEventListener('touchend', retry, { once: true });
+      window.addEventListener('click', retry, { once: true });
+    }
+
+    window.addEventListener('load', playFullscreen, { once: true });
+    document.addEventListener('DOMContentLoaded', playFullscreen, { once: true });
+    bindGestureFallback();
+  })();
 </script>
 </body>
 </html>
