@@ -299,6 +299,23 @@ beINSports9UHD,http://portal-iptv.net:8080/077998950140/077998950140/43211
 beINSportsNBA,http://portal-iptv.net:8080/077998950140/077998950140/31299
 beINSPORTSNEWS,http://portal-iptv.net:8080/077998950140/077998950140/188
 
+SKYSPORTSNEWS,http://163.172.64.96:2017/live/GBa19qrcQYa3/u2c8FLfgkK/331.ts
+SkySportsMainEvent,http://163.172.64.96:2017/live/GBa19qrcQYa3/u2c8FLfgkK/332.ts
+SkySportsCricket,http://163.172.64.96:2017/live/GBa19qrcQYa3/u2c8FLfgkK/333.ts
+SkySportsGolf,http://163.172.64.96:2017/live/GBa19qrcQYa3/u2c8FLfgkK/334.ts
+SkySportsPremiereLeague,http://163.172.64.96:2017/live/GBa19qrcQYa3/u2c8FLfgkK/335.ts
+SkySportsAction,http://163.172.64.96:2017/live/GBa19qrcQYa3/u2c8FLfgkK/336.ts
+SkySportsFootball,http://163.172.64.96:2017/live/GBa19qrcQYa3/u2c8FLfgkK/337.ts
+SkySportsPlus,http://163.172.64.96:2017/live/GBa19qrcQYa3/u2c8FLfgkK/338.ts
+SkySportsMix,http://163.172.64.96:2017/live/GBa19qrcQYa3/u2c8FLfgkK/339.ts
+RacingTV,http://163.172.64.96:2017/live/GBa19qrcQYa3/u2c8FLfgkK/355.ts
+SkySportsRacing,http://163.172.64.96:2017/live/GBa19qrcQYa3/u2c8FLfgkK/356.ts
+PremierSports2,http://163.172.64.96:2017/live/GBa19qrcQYa3/u2c8FLfgkK/342.ts
+TNTSPORT1,http://163.172.64.96:2017/live/GBa19qrcQYa3/u2c8FLfgkK/343.ts
+TNTSPORT2,http://163.172.64.96:2017/live/GBa19qrcQYa3/u2c8FLfgkK/344.ts
+TNTSPORT4,http://163.172.64.96:2017/live/GBa19qrcQYa3/u2c8FLfgkK/346.ts
+Eurosport1,http://163.172.64.96:2017/live/GBa19qrcQYa3/u2c8FLfgkK/351.ts
+Eurosport2,http://163.172.64.96:2017/live/GBa19qrcQYa3/u2c8FLfgkK/352.ts
 
 SKYSportsNews,http://fr3d0m.tebasya.work:8080/JVanmci423/dncSExXxmS/365
 PremiereSport1,http://fr3d0m.tebasya.work:8080/JVanmci423/dncSExXxmS/366
