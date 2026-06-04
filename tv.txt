@@ -69,6 +69,9 @@ CNN,https://stream01.willfonk.com/live_playlist.m3u8?cid=CS354&r=HD&ccode=JP&m=d
 华视新闻,http://74.91.26.218:82/live/ctsnews.m3u8
 中视新闻,http://74.91.26.218:82/live/ctvnews.m3u8
 
+民视新闻,http://38.64.72.148:80/hls/modn/list/4012/chunklist1.m3u8
+台视新闻,http://38.64.72.148:80/hls/modn/list/4013/chunklist1.m3u8
+
 台视新闻,https://www.youtube.com/watch?v=xL0ch83RAK8
 公视新闻,https://www.youtube.com/watch?v=quwqlazU-c8
 TVBS新闻,https://www.youtube.com/watch?v=m_dhMSvUCIc
@@ -265,6 +268,36 @@ TORO,http://fr3d0m.tebasya.work:8080/JVanmci423/dncSExXxmS/206
 TORO,http://line.cloud-ott.net:80/play/live.php?mac=00:1A:79:0D:80:56&stream=959568&extension=ts&play_token=FLzcBlqF5i
 TORO,https://edge-nodo-003.streaming.hitcloser.net/eltorotv-streaming-web/tracks-v1a1/mono.ts.m3u8
 TORO,http://aflaxtv.xyz:8080/mitrovic/19106b7cb4/201928#http://aflaxtv.xyz:8080/mitrovic/19106b7cb4/298021#http://aflaxtv.xyz:8080/mitrovic/19106b7cb4/303884#http://aflaxtv.xyz:8080/mitrovic/19106b7cb4/1132
+
+
+BeINSeries1HD,http://portal-iptv.net:8080/077998950140/077998950140/356
+BeINSeries2HD,http://portal-iptv.net:8080/077998950140/077998950140/357
+beINSPORTS,http://portal-iptv.net:8080/077998950140/077998950140/187
+beINSports1-4K,http://portal-iptv.net:8080/077998950140/077998950140/31300
+beINSports1FHD,http://portal-iptv.net:8080/077998950140/077998950140/20355
+beINSports1UHD,http://portal-iptv.net:8080/077998950140/077998950140/43203
+beINSports2-4K,http://portal-iptv.net:8080/077998950140/077998950140/31301
+beINSports2FHD,http://portal-iptv.net:8080/077998950140/077998950140/20356
+beINSports2UHD,http://portal-iptv.net:8080/077998950140/077998950140/43204
+beINSports3-4K,http://portal-iptv.net:8080/077998950140/077998950140/31302
+beINSports4-4K,http://portal-iptv.net:8080/077998950140/077998950140/31303
+beINSports4FHD,http://portal-iptv.net:8080/077998950140/077998950140/20358
+beINSports4UHD,http://portal-iptv.net:8080/077998950140/077998950140/43206
+beINSports5-4K,http://portal-iptv.net:8080/077998950140/077998950140/31304
+beINSports5FHD,http://portal-iptv.net:8080/077998950140/077998950140/20359
+beINSports5UHD,http://portal-iptv.net:8080/077998950140/077998950140/43207
+beINSports6-4K,http://portal-iptv.net:8080/077998950140/077998950140/31305
+beINSports6FHD,http://portal-iptv.net:8080/077998950140/077998950140/20360
+beINSports7-4K,http://portal-iptv.net:8080/077998950140/077998950140/31306
+beINSports7FHD,http://portal-iptv.net:8080/077998950140/077998950140/20361
+beINSports8-4K,http://portal-iptv.net:8080/077998950140/077998950140/31307
+beINSports8FHD,http://portal-iptv.net:8080/077998950140/077998950140/20362
+beINSports8UHD,http://portal-iptv.net:8080/077998950140/077998950140/43210
+beINSports9-4K,http://portal-iptv.net:8080/077998950140/077998950140/31308
+beINSports9FHD,http://portal-iptv.net:8080/077998950140/077998950140/20363
+beINSports9UHD,http://portal-iptv.net:8080/077998950140/077998950140/43211
+beINSportsNBA,http://portal-iptv.net:8080/077998950140/077998950140/31299
+beINSPORTSNEWS,http://portal-iptv.net:8080/077998950140/077998950140/188
 
 
 SKYSportsNews,http://fr3d0m.tebasya.work:8080/JVanmci423/dncSExXxmS/365
