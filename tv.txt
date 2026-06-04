@@ -64,6 +64,11 @@ CNN,https://stream01.willfonk.com/live_playlist.m3u8?cid=CS354&r=HD&ccode=JP&m=d
 镜新闻,https://d36dgdk71xuzzg.cloudfront.net/v1/manifest/3a2ac8e6b6c76471996ebf627393d9c9417a60b6/linetv-6-627778910172-MediaTailor-production/c9b2313d-efdd-4777-9fae-573be8a86755/0.m3u8
 镜新闻,http://rihou.cc:555/tv/[Hk]%E9%97%BD%E9%95%9C%E6%96%B0%E9%97%BB
 
+民视新闻,http://74.91.26.218:82/live/ftvnews.m3u8
+台视新闻,http://74.91.26.218:82/live/ttvnews.m3u8
+华视新闻,http://74.91.26.218:82/live/ctsnews.m3u8
+中视新闻,http://74.91.26.218:82/live/ctvnews.m3u8
+
 台视新闻,https://www.youtube.com/watch?v=xL0ch83RAK8
 公视新闻,https://www.youtube.com/watch?v=quwqlazU-c8
 TVBS新闻,https://www.youtube.com/watch?v=m_dhMSvUCIc
@@ -79,28 +84,6 @@ TVBS新闻,https://www.youtube.com/watch?v=m_dhMSvUCIc
 寰宇新闻台湾,https://www.youtube.com/watch?v=w87VGpgd90U
 镜新闻,https://www.youtube.com/watch?v=5n0y6b0Q25o
 
-
-民视新闻,http://74.91.26.218:82/live/ftvnews.m3u8
-台视新闻,http://74.91.26.218:82/live/ttvnews.m3u8
-华视新闻,http://74.91.26.218:82/live/ctsnews.m3u8
-中视新闻,http://74.91.26.218:82/live/ctvnews.m3u8
-东森新闻,http://156.238.248.80/2099.php?id=880
-中天新闻,http://free.cnlive.club/channel/41d8a09d/index.m3u8?q=1760217407316
-民视新闻,http://165.154.226.214:50007/li-litv-ftv13/index.m3u8?proxy=true
-TVBS新闻,http://iptv.4666888.xyz/iptv2A.php?id=43
-非凡新闻,http://iptv.4666888.xyz/iptv2A.php?id=44
-寰宇新闻,http://165.154.226.214:50007/li-litv-longturn14/index.m3u8?proxy=true
-Now新闻,http://cdn.163189.xyz/163189/now
-Now新闻,http://hls.168.us.kg/u/332/master.m3u8
-凤凰资讯,https://cdn6.101.qzz.io/163189/fhzx
-无线新闻,https://cdn6.101.qzz.io/163189/wxxw
-无线新闻,http://bxtv.3a.ink/api.php?id=wxxw
-无线新闻,http://hls.168.us.kg/u/83/master.m3u8
-凤凰资讯,http://r.jdshipin.com/0Rp07
-无线新闻,http://php.jdshipin.com/smt.php?id=inews_twn
-Now新闻,http://cdn.163189.xyz/163189/now 
-凤凰资讯,http://php.jdshipin.com/TVOD/iptv.php?id=fhzx
-凤凰资讯,http://php.jdshipin.com/TVOD/iptv.php?id=fhzx2
 
 🇺🇸欧美综合,#genre#
 BBC1,http://fr3d0m.tebasya.work:8080/JVanmci423/dncSExXxmS/1155
