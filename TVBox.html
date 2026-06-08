@@ -1,129 +1,274 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-<title>今晚看什么</title>
-<style>a{TEXT-DECORATION:none}</style> 
-<style>.invisible{display:none}</style>
-<style>
-body {
-  background-color: black;
-  color: white;
-}
-h1 {
-  background-color: black;
-  color: white;
-</style>
+  <title>今晚看什么</title>
+  <style>
+    a {
+      TEXT-DECORATION: none
+    }
+  </style>
+  <style>
+    .invisible {
+      display: none
+    }
+  </style>
+  <style>
+    body {
+      background-color: black;
+      color: white;
+    }
+
+    h1 {
+      background-color: black;
+      color: white;
+    }
+
+    .copy-btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      padding: 0.9em 1.3em;
+      margin: 0.8em 0;
+      border: 1px solid rgba(255,255,255,0.85);
+      border-radius: 0.85em;
+      background: rgba(255,255,255,0.08);
+      color: #fff;
+      font-size: 1rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: transform 0.15s ease, background 0.15s ease;
+      text-decoration: none;
+      min-width: 170px;
+    }
+
+    .copy-btn:hover {
+      background: rgba(255,255,255,0.18);
+      transform: translateY(-1px);
+    }
+
+    .copy-btn:active {
+      transform: translateY(0);
+    }
+
+    .copy-btn:focus {
+      outline: 2px solid #fff;
+      outline-offset: 3px;
+    }
+
+    .copy-note {
+      margin-top: 0.4em;
+      color: #ccc;
+      font-size: 0.95rem;
+      max-width: 90%;
+    }
+
+    @media (max-width: 640px) {
+      .copy-btn {
+        width: 100%;
+        max-width: 100%;
+      }
+    }
+  </style>
+  <script>
+    function copyTextToClipboard(text, button) {
+      if (navigator.clipboard && navigator.clipboard.writeText) {
+        navigator.clipboard.writeText(text).then(function () {
+          var original = button.innerText;
+          button.innerText = '已复制';
+          setTimeout(function () {
+            button.innerText = original;
+          }, 1200);
+        }, function () {
+          fallbackCopy(text, button);
+        });
+      } else {
+        fallbackCopy(text, button);
+      }
+    }
+
+    function fallbackCopy(text, button) {
+      var textarea = document.createElement('textarea');
+      textarea.value = text;
+      textarea.style.position = 'fixed';
+      textarea.style.left = '-9999px';
+      document.body.appendChild(textarea);
+      textarea.focus();
+      textarea.select();
+      try {
+        document.execCommand('copy');
+        var original = button.innerText;
+        button.innerText = '已复制';
+        setTimeout(function () {
+          button.innerText = original;
+        }, 1200);
+      } catch (err) {
+        alert('复制失败，请手动复制：' + text);
+      }
+      document.body.removeChild(textarea);
+    }
+  </script>
 </head>
+
 <body>
-<p align="center"></p>
-<h1> &nbsp;&nbsp;大屏高清追剧看电视 傻瓜教程</h1>
-  
-<h2> &nbsp;&nbsp;最新热门影视剧，高清蓝光片源，海内外电视频道……一个APP全包！下载+导入，一分钟搞定！</h2>
-    
+  <p align="center"></p>
+  <h1> &nbsp;&nbsp;大屏高清追剧看电视 傻瓜教程</h1>
 
-        <p align="center"><a href="https://jyjdsg.dpdns.org/index.html"><font size="6">返回首页</font></a></p>
-  
-  <table cellspacing="2" cellpadding="20" width="80%" border="0"><tbody>
-    <tr>
-      <td valign="top" width="100%">
-        
-<font size="6">
+  <h2> &nbsp;&nbsp;最新热门影视剧，高清蓝光片源，海内外电视频道……一个APP全包！下载+导入，一分钟搞定！</h2>
 
-<h1>安装设置</h1>
 
-<p>1. 下载APP（更新2026年6月新版）</p>
+  <p align="center"><a href="https://jyjdsg.dpdns.org/index.html">
+      <font size="6">返回首页</font>
+    </a></p>
 
-<p>&#160;&#160;&#160;&#160; APP：<a href="https://gitlab.com/jyjdsg/tv/-/raw/main/TVBox.apk" target="_blank">点击下载</a><sup> </sup></p>
-<br><p>2. 安装APP</p>
-<p>&#160;&#160;&#160;&#160; 所有安卓设备，包括智能电视、电视盒子、平板、手机皆可安装。</p>
+  <table cellspacing="2" cellpadding="20" width="80%" border="0">
+    <tbody>
+      <tr>
+        <td valign="top" width="100%">
 
-<br><p>&#160;&#160;&#160;&#160; 配置文件：<a href="https://gitlab.com/jyjdsg/tv/-/raw/main/tvbox_backup.rar" target="_blank">点击下载</a><sup> </sup></p>
+          <font size="6">
 
-<p>&#160;&#160;&#160;&#160; a.如果是通过电脑浏览器下载：</p>
+            <h1>安装设置</h1>
 
-<p>&#160;&#160;&#160;&#160; -把配置文件（tvbox_backup.rar）解压缩，得到一个“tvbox_backup”文件夹；</p>
+            <p>1. APP下载（更新2026年6月新版）</p>
 
-<p>&#160;&#160;&#160;&#160; -将此文件夹和APP文件（TVBox.apk）一起，复制到安卓设备根目录下，方法如用USB连接，蓝牙传输等。 </p>
+            <p>&#160;&#160;&#160;&#160; APP：<a href="https://gitlab.com/jyjdsg/tv/-/raw/main/TVBox.apk"
+                target="_blank">点击下载</a></p>
+            <p>&#160;&#160;&#160;&#160; 安装APP。所有安卓设备，包括智能电视、电视盒子、平板、手机皆可安装。</p>
 
-<p>&#160;&#160;&#160;&#160; b.如果是通过安卓设备浏览器下载：</p>
+            <p>2. APP设置</p>
 
-<p>&#160;&#160;&#160;&#160; -直接安装APP文件（TVBox.apk）； </p>
+            <p>&#160;&#160;&#160;&#160; 两种方法，一种是下载设置文件后导入，一种是自己手动写入。</p>
 
-<p>&#160;&#160;&#160;&#160; -把配置文件（tvbox_backup.rar）解压缩，得到一个“tvbox_backup”文件夹，将此文件夹放至安卓设备根目录下 。</p>
+            <p><strong>A.下载设置文件后导入</strong>
 
-<br><p>3. 首次打开TVBox，是这个样子滴</p>
+              <br />
+            </p>
 
-<p><a href="https://jyjdsg.dpdns.org/Screenshots/Screenshot_20230220-170452.png" target="_blank"><img src="https://jyjdsg.dpdns.org/Screenshots/Screenshot_20230220-170452.png" width="80%" /></a></p>
+            <p>&#160;&#160;&#160;&#160; 配置文件：<a href="https://gitlab.com/jyjdsg/tv/-/raw/main/tvbox_backup.rar"
+                target="_blank">点击下载</a><sup> </sup></p>
 
-<p>4.点击上方设置图标（齿轮），出来这个界面</p>
+            <p>&#160;&#160;&#160;&#160; a.如果是通过电脑浏览器下载：</p>
 
-<p><a href="https://jyjdsg.dpdns.org/Screenshots/Screenshot_20230220-205947.png" target="_blank"><img src="https://jyjdsg.dpdns.org/Screenshots/Screenshot_20230220-205947.png" width="80%" /></a></p>
+            <p>&#160;&#160;&#160;&#160; -把配置文件（tvbox_backup.rar）解压缩，得到一个“tvbox_backup”文件夹；</p>
 
-<p>5.点击“数据备份还原”，出来这个界面</p>
+            <p>&#160;&#160;&#160;&#160; -将此文件夹和APP文件（TVBox.apk）一起，复制到安卓设备根目录下，方法如用USB连接，蓝牙传输等。 </p>
 
-<p><a href="https://jyjdsg.dpdns.org/Screenshots/%E6%88%AA%E5%9B%BE2.png" target="_blank"><img src="https://jyjdsg.dpdns.org/Screenshots/%E6%88%AA%E5%9B%BE2.png" width="80%" /></a></p>
+            <p>&#160;&#160;&#160;&#160; b.如果是通过安卓设备浏览器下载：</p>
 
-<p>6.点击“存储权限”，弹出窗选择“始终允许”，界面立马变成这样子</p>
+            <p>&#160;&#160;&#160;&#160; -直接安装APP文件（TVBox.apk）； </p>
 
-<p><a href="https://jyjdsg.dpdns.org/Screenshots/%E6%88%AA%E5%9B%BE.png" target="_blank"><img src="https://jyjdsg.dpdns.org/Screenshots/%E6%88%AA%E5%9B%BE.png" width="80%" /></a></p>
-<p>点击“点击下方数据还原”下方的那串数字</p>
-<br/>
-<p>7.大功告成！重启应用，开始享用。</p>
+            <p>&#160;&#160;&#160;&#160; -把配置文件（tvbox_backup.rar）解压缩，得到一个“tvbox_backup”文件夹，将此文件夹放至安卓设备根目录下 。</p>
 
-<p><a href="https://jyjdsg.dpdns.org/Screenshots/Screenshot_20230220-011031.png" target="_blank"><img src="https://jyjdsg.dpdns.org/Screenshots/Screenshot_20230220-011031.png" width="80%" /></a></p>
+            <br />
 
-<br/>
-  
-<h1>功能介绍</h1>
-<br/>
-  <h2>首页</h2>
-<p>点击“首页”可以根据自己的爱好，更换首页显示的内容。</p>
-<p>4K、蓝光、体育直播、MTV……各种资源非常丰富，自己尝试摸索。</p>
-<p>尽量选择显示最新影片、高清、无广告的源作为首页。</p>
+            <p>3. 首次打开TVBox，是这个样子滴</p>
 
-<p><a href="https://jyjdsg.dpdns.org/Screenshots/Screenshot_20230220-011155.png" target="_blank"><img src="https://jyjdsg.dpdns.org/Screenshots/Screenshot_20230220-011155.png" width="80%" /></a></p>
-<br/>
-  <h2>直播</h2>
-<p>点击“直播”看电视节目。这个源是我自己维护更新，有些台有时能看有时会失效。</p>
-<p>上下键切换频道，左右键切换同一频道的多个源。多数频道有多个源可供选择。</p>
-<p>所有频道，除国内的央视卫视频道外，一般开启代理播放更流畅。</p>
+            <p><a href="https://jyjdsg.dpdns.org/Screenshots/Screenshot_20230220-170452.png" target="_blank"><img
+                  src="https://jyjdsg.dpdns.org/Screenshots/Screenshot_20230220-170452.png" width="80%" /></a></p>
 
-<p><a href="https://jyjdsg.dpdns.org/Screenshots/Screenshot_20230220-163231.png" target="_blank"><img src="https://jyjdsg.dpdns.org/Screenshots/Screenshot_20230220-163231.png" width="80%" /></a></p>
+            <p>4.点击上方设置图标（齿轮），出来这个界面</p>
 
-<p><a href="https://jyjdsg.dpdns.org/Screenshots/Screenshot_20230220-163638.png" target="_blank"><img src="https://jyjdsg.dpdns.org/Screenshots/Screenshot_20230220-163638.png" width="80%" /></a></p>
- <br/>
-  <h2>影剧界面</h2> 
-<p>长按图片可搜索同名片源；</p>
-<p>分类界面，带有菜单图标的，即如“电影☰”，点击或长按字符可自定义筛选条件；</p>  
-<p>播放界面长按快进可5倍速播放，再长按恢复正常倍速，可设定跳过片头片尾时间……</p>
-<p>各种贴心功能不胜枚举，自己使用体会摸索。</p>
-<p>最最要紧：搜索！</p>
-  
-<br/> 
-<h1>进阶设置</h1>
-<p>如果设置失效，不能正常播放，可以选择更改配置数据和直播源。</p>
-<p>点击上方设置图标（齿轮），点击“配置地址”，出来这个界面</p>
+            <p><a href="https://jyjdsg.dpdns.org/Screenshots/Screenshot_20230220-205947.png" target="_blank"><img
+                  src="https://jyjdsg.dpdns.org/Screenshots/Screenshot_20230220-205947.png" width="80%" /></a></p>
 
-<p><a href="https://jyjdsg.dpdns.org/Screenshots/Screenshot_20230220-011142.png" target="_blank"><img src="https://jyjdsg.dpdns.org/Screenshots/Screenshot_20230220-011142.png" width="80%" /></a></p>
+            <p>5.点击“数据备份还原”，出来这个界面</p>
 
-<p>第一行是影视数据源，第二行是直播源，第三行是直播频道信息源。</p>
-<p>分别点击右侧钟表图标，可以从我预设的多个配置中选择更改。</p>
-<p>第三个一般不需要更改。</p>
-<p>自己尝试摸索，反正不满意还可以改回来。</p>
-<br/> 
-<p></p>  
-<h1>结论</h1>
-<br/> 
-这么好的应用，完胜一票付费软件，不用是憨大。
-<br/> 
-<br/> 
-<br/> 
-<br/> 
-</font>
-      </td>
-    </tr>
-  </tbody></table>
-<br/> 
-<br/> 
+            <p><a href="https://jyjdsg.dpdns.org/Screenshots/%E6%88%AA%E5%9B%BE2.png" target="_blank"><img
+                  src="https://jyjdsg.dpdns.org/Screenshots/%E6%88%AA%E5%9B%BE2.png" width="80%" /></a></p>
+
+            <p>6.点击“存储权限”，弹出窗选择“始终允许”，界面立马变成这样子</p>
+
+            <p><a href="https://jyjdsg.dpdns.org/Screenshots/%E6%88%AA%E5%9B%BE.png" target="_blank"><img
+                  src="https://jyjdsg.dpdns.org/Screenshots/%E6%88%AA%E5%9B%BE.png" width="80%" /></a></p>
+
+            <p>点击“点击下方数据还原”下方的那串数字</p>
+
+            <br />
+
+            <p>7.大功告成！重启应用，开始享用。</p>
+
+            <p><a href="https://jyjdsg.dpdns.org/Screenshots/Screenshot_20230220-011031.png" target="_blank"><img
+                  src="https://jyjdsg.dpdns.org/Screenshots/Screenshot_20230220-011031.png" width="80%" /></a></p>
+
+            <p><strong></strong></p>
+
+            <p><strong>B.手动写入</strong></p>
+
+            <p>打开软件，点击上方设置图标（齿轮）,点击“配置地址”,</p>
+
+            <p><img src="https://pic.jyjdsg.dpdns.org/94d06cea843847d58369dec3107b051d.png" /></p>
+
+            <p>出来三个文本框，第一个是电影源网址，第二个是直播源网址，第三个是电视节目表网址，可以不填。</p>
+
+            <p>为免除输入麻烦，本网页提供快捷复制粘贴服务：</p>
+
+            <p>用设备上的浏览器打开本网页，按一下下列按钮，就能自动复制相应设置文本到设备剪贴板，回到app设置里，粘贴相应文字到对应的文本框内，并按“确定”即可完成设置。</p>
+            <p>
+              <button class="copy-btn" onclick="copyTextToClipboard('http://www.饭太硬.cc/tv', this)">复制数据源地址到剪贴板</button>
+              <button class="copy-btn" onclick="copyTextToClipboard('https://jyjdsg.dpdns.org/tv.txt', this)">复制直播源地址到剪贴板</button>
+              
+            </p>
+            <p><img src="https://pic.jyjdsg.dpdns.org/e4a299d1393d40e78f712aeaa8a1524f.png" /></p>
+            大功告成，开始享用。其他设置请自己摸索摸索。
+            <br />
+
+            <h1>功能介绍</h1>
+            <br />
+            <h2>首页</h2>
+            <p>点击“首页”可以根据自己的爱好，更换首页显示的内容。</p>
+            <p>4K、蓝光、体育直播、MTV……各种资源非常丰富，自己尝试摸索。</p>
+            <p>尽量选择显示最新影片、高清、无广告的源作为首页。</p>
+
+            <p><a href="https://jyjdsg.dpdns.org/Screenshots/Screenshot_20230220-011155.png" target="_blank"><img
+                  src="https://jyjdsg.dpdns.org/Screenshots/Screenshot_20230220-011155.png" width="80%" /></a></p>
+            <br />
+            <h2>直播</h2>
+            <p>点击“直播”看电视节目。这个源是我自己维护更新，有些台有时能看有时会失效。</p>
+            <p>上下键切换频道，左右键切换同一频道的多个源。多数频道有多个源可供选择。</p>
+            <p>所有频道，除国内的央视卫视频道外，一般开启代理播放更流畅。</p>
+
+            <p><a href="https://jyjdsg.dpdns.org/Screenshots/Screenshot_20230220-163231.png" target="_blank"><img
+                  src="https://jyjdsg.dpdns.org/Screenshots/Screenshot_20230220-163231.png" width="80%" /></a></p>
+
+            <p><a href="https://jyjdsg.dpdns.org/Screenshots/Screenshot_20230220-163638.png" target="_blank"><img
+                  src="https://jyjdsg.dpdns.org/Screenshots/Screenshot_20230220-163638.png" width="80%" /></a></p>
+            <br />
+            <h2>影剧界面</h2>
+            <p>长按图片可搜索同名片源；</p>
+            <p>分类界面，带有菜单图标的，即如“电影☰”，点击或长按字符可自定义筛选条件；</p>
+            <p>播放界面长按快进可5倍速播放，再长按恢复正常倍速，可设定跳过片头片尾时间……</p>
+            <p>各种贴心功能不胜枚举，自己使用体会摸索。</p>
+            <p>最最要紧：搜索！</p>
+
+            <br />
+            <h1>进阶设置</h1>
+            <p>如果设置失效，不能正常播放，可以选择更改配置数据和直播源。</p>
+            <p>点击上方设置图标（齿轮），点击“配置地址”，出来这个界面</p>
+
+            <p><a href="https://jyjdsg.dpdns.org/Screenshots/Screenshot_20230220-011142.png" target="_blank"><img
+                  src="https://jyjdsg.dpdns.org/Screenshots/Screenshot_20230220-011142.png" width="80%" /></a></p>
+
+            <p>第一行是影视数据源，第二行是直播源，第三行是直播频道信息源。</p>
+            <p>分别点击右侧钟表图标，可以从我预设的多个配置中选择更改。</p>
+            <p>第三个一般不需要更改。</p>
+            <p>自己尝试摸索，反正不满意还可以改回来。</p>
+            <br />
+            <p></p>
+            <h1>结论</h1>
+            <br />
+            这么好的应用，完胜一票付费软件，不用是憨大。
+            <br />
+            <br />
+            <br />
+            <br />
+          </font>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+  <br />
+  <br />
 </body>
+
 </html>
