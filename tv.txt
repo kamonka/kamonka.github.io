@@ -51,18 +51,51 @@ FOXNEWS,http://ultrapremium.cloud:8080/43kagu97wa34tu39/72maxe529weda74/23441#ht
 
 民视新闻,http://38.64.72.148:80/hls/modn/list/4012/chunklist1.m3u8
 台视新闻,http://38.64.72.148:80/hls/modn/list/4013/chunklist1.m3u8
+TVBS新闻,http://jnzq.ohoyee.com:9080/live/332123-tvbsxw.m3u8
+寰宇新闻,http://jnzq.ohoyee.com:9080/live/332123-hyxw.m3u8
+民视新闻,http://211.72.174.95:8117/0.ts
+台视新闻,https://live.wcetv.com/hls/master-ttvnews.m3u8
+东森新闻,http://211.72.174.95:8138/0.ts
+凤凰资讯,http://mytvsuper.webn.cc:2052/live/stream-f8063c3794481a17/index.m3u8
 
 民视新闻,http://74.91.26.218:82/live/ftvnews.m3u8
 台视新闻,http://74.91.26.218:82/live/ttvnews.m3u8
 华视新闻,http://74.91.26.218:82/live/ctsnews.m3u8
 中视新闻,http://74.91.26.218:82/live/ctvnews.m3u8
 
-🇺🇸欧美综合#genre#
+🇺🇸欧美综合,#genre#
+BBC1,http://81.137.213.119:4202/bysid/17536
+BBC2,http://81.137.213.119:4202/bysid/17472
+BBC3,http://81.137.213.119:4202/bysid/17920
+BBC4,http://81.137.213.119:4202/bysid/18048
+ITV1,http://81.137.213.119:4201/bysid/8261
+ITV3,http://81.137.213.119:4201/bysid/8294
+ITV2,http://81.137.213.119:4201/bysid/8325
+ITV4,http://81.137.213.119:4201/bysid/8330
+CBS,http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/89712.ts
+NBC,http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/89714.ts
+FOX,http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/2544.ts
+ABC,http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/3606.ts
+FOX,http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/2544.ts
+CW,http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/93093.ts
+CBS,http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/89717.ts
+NBC,http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/2428.ts
+FOX,http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/2503.ts
+ABC,http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/2665.ts
+CBS,http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/559692.ts
+CW,http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/630645.ts
 
 🇭🇰台港综合,#genre#
 台视,http://165.154.226.214:50007/li-4gtv-4gtv066/index.m3u8?proxy=true
 中视,http://141.11.87.241:20013/li-4gtv-4gtv040/index.m3u8?proxy=true
 民视,http://iptv.4666888.xyz/iptv2A.php?id=55
+
+中视,http://211.72.174.95:8113/0.ts
+华视,http://211.72.174.95:8114/0.ts
+公视,http://211.72.174.95:8116/0.ts
+民视,http://211.72.174.95:8115/0.ts
+台视,http://211.72.174.95:8112/0.ts
+台视,http://dbmlasvgas.sylu.net:8880/stream/39363be5-2940-4d89-875a-cea6c9a93369/playlist.m3u8
 
 公视,http://74.91.26.218:82/live/pts.m3u8
 台视,http://74.91.26.218:82/live/ttv.m3u8
@@ -116,6 +149,15 @@ SUNDANCE,http://hardcoremedia.xyz:80/6jTFRmvaSp/7534936344/129957
 🇧🇮娱乐综艺#genre#
 
 🇲🇾影视娱乐,#genre#
+靖天映画,https://cdn12.178.indevs.in/163189/bd4752bd7828b2bf
+靖天电影台,https://cdn12.178.indevs.in/163189/ed33509e03e78c7a
+影迷数位电影,https://cdn12.178.indevs.in/163189/a643783ec587540e
+amc,https://cdn12.178.indevs.in/163189/0bcf9bb8c452e56a
+CinemaWorld,https://cdn12.178.indevs.in/163189/6086cfe7a9756110
+MyCinemaEurope,https://cdn12.178.indevs.in/163189/5bda99f1c049edef
+经典电影,https://cdn12.178.indevs.in/163189/61b8ea35ffce4630
+DreamWorks,https://cdn12.178.indevs.in/163189/10395eb942c5a9b9
+
 爱奇艺,https://o11.163189.xyz/stream/live/iqiyi/
 美亚电影,https://cdn9.163189.xyz/smt1.1.php?id=meiyamovie_twn
 美亚电影,https://cdn9.163189.xyz/smt3.1.1.php?id=meiyamovie_twn
@@ -219,6 +261,9 @@ ComedyCentral,http://cistakosuza.petica.info:80/Marina1KZ/ubxfvM6dQ7/69752
 🇯🇲体育,#genre#
 TORO,http://line.cloud-ott.net:80/play/live.php?mac=00:1A:79:0D:80:56&stream=959568&extension=ts&play_token=FLzcBlqF5i
 TORO,https://edge-nodo-003.streaming.hitcloser.net/eltorotv-streaming-web/tracks-v1a1/mono.ts.m3u8
+
+PREMIERSPORTS1,http://best-8k.org/live/jjyw70ss4w/ek5ui8ithc/303258.m3u8
+PREMIERSPORTS2,http://best-8k.org/live/jjyw70ss4w/ek5ui8ithc/303257.m3u8
 
 beINSPORTS,http://portal-iptv.net:8080/077998950140/077998950140/187
 beINSports1-4K,http://portal-iptv.net:8080/077998950140/077998950140/31300
@@ -793,6 +838,8 @@ CCTV8K,http://38.75.136.137:98/gslb/dsdqpub/cctv8k.m3u8?auth=testpub
 松视1,http://15.204.105.50:25461/live/G2s9zK2n9m/xDtwVfWM8T/88.ts
 松视2,http://15.204.105.50:25461/live/G2s9zK2n9m/xDtwVfWM8T/89.ts
 松视3,http://15.204.105.50:25461/live/G2s9zK2n9m/xDtwVfWM8T/90.ts
+香蕉,http://15.204.105.50:25461/live/G2s9zK2n9m/xDtwVfWM8T/117.ts
+
 
 日本写真,https://converse.nathcreqtives.com/channels/jp97/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJwc3ljaGVlZSIsImlhdCI6MTc4MDU3NTA1MywiZXhwIjoxNzg4MzUxMDUzLCJhY2NvdW50RXhwaXJlZCI6ZmFsc2UsImFjY291bnRFeHBpcmVzQXQiOjE3ODgzNTEwNTMsImFsbG93ZWRPcmlnaW5zIjpbImh0dHBzOi8vcHN5Y2hlZWVmbGl4dXV1Lm5ldGxpZnkuYXBwIiwiaHR0cHM6Ly9wc3ljaGVlZWZsaXh1dXUudmVyY2VsLmFwcCIsImh0dHBzOi8vcHN5Y2hlZmxpeC5wYWdlcy5kZXYiXX0.ngv2-3w4tcSIZR4J72tEsTZGQYt4iWRdVfFo3sQZa84#http://akariko.netgenx.site/stream/jp/pigoo_nsfw/stream-output.m3u8?mode=hls
 
