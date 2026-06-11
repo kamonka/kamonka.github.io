@@ -665,8 +665,7 @@ CCTV8K,http://38.75.136.137:98/gslb/dsdqpub/cctv8k.m3u8?auth=testpub
 
 日本写真,https://converse.nathcreqtives.com/channels/jp97/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJwc3ljaGVlZSIsImlhdCI6MTc4MDU3NTA1MywiZXhwIjoxNzg4MzUxMDUzLCJhY2NvdW50RXhwaXJlZCI6ZmFsc2UsImFjY291bnRFeHBpcmVzQXQiOjE3ODgzNTEwNTMsImFsbG93ZWRPcmlnaW5zIjpbImh0dHBzOi8vcHN5Y2hlZWVmbGl4dXV1Lm5ldGxpZnkuYXBwIiwiaHR0cHM6Ly9wc3ljaGVlZWZsaXh1dXUudmVyY2VsLmFwcCIsImh0dHBzOi8vcHN5Y2hlZmxpeC5wYWdlcy5kZXYiXX0.ngv2-3w4tcSIZR4J72tEsTZGQYt4iWRdVfFo3sQZa84#http://akariko.netgenx.site/stream/jp/pigoo_nsfw/stream-output.m3u8?mode=hls
 
-JAPAN,http://aflaxtv.xyz:8080/mitrovic/19106b7cb4/297092#http://aflaxtv.xyz:8080/mitrovic/19106b7cb4/297792
-JAPAN,http://boxserver.live:8080/@ParsX0101Restream/cT6AtegZxkCS/104794#http://boxserver.live:8080/@ParsX0101Restream/cT6AtegZxkCS/100834#http://boxserver.live:8080/@ParsX0101Restream/cT6AtegZxkCS/100836#http://boxserver.live:8080/@ParsX0101Restream/cT6AtegZxkCS/104518
+JAPAN,http://hardcoremedia.xyz:80/6jTFRmvaSp/7534936344/248607#http://hardcoremedia.xyz:80/6jTFRmvaSp/7534936344/248608
 PLAYBOY,http://190.11.225.124:5000/live/playboy_hd/playlist.m3u8
 PLAYBOY,http://aflaxtv.xyz:8080/mitrovic/19106b7cb4/14222
 PLAYBOY,http://aflaxtv.xyz:8080/mitrovic/19106b7cb4/300141
