@@ -146,7 +146,9 @@ DreamWorks,https://cdn12.178.indevs.in/163189/10395eb942c5a9b9
 
 🇯🇲体育,#genre#
 TORO,http://line.cloud-ott.net:80/play/live.php?mac=00:1A:79:0D:80:56&stream=959568&extension=ts&play_token=FLzcBlqF5i
+TORO,http://hardcoremedia.xyz:80/6jTFRmvaSp/7534936344/239069#http://hardcoremedia.xyz:80/6jTFRmvaSp/7534936344/239071#
 TORO,https://edge-nodo-003.streaming.hitcloser.net/eltorotv-streaming-web/tracks-v1a1/mono.ts.m3u8
+
 
 PREMIERSPORTS1,http://best-8k.org/live/jjyw70ss4w/ek5ui8ithc/303258.m3u8
 PREMIERSPORTS2,http://best-8k.org/live/jjyw70ss4w/ek5ui8ithc/303257.m3u8
