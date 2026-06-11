@@ -667,20 +667,3 @@ CCTV8K,http://38.75.136.137:98/gslb/dsdqpub/cctv8k.m3u8?auth=testpub
 
 JAPAN,http://hardcoremedia.xyz:80/6jTFRmvaSp/7534936344/248607#http://hardcoremedia.xyz:80/6jTFRmvaSp/7534936344/248608
 PLAYBOY,http://190.11.225.124:5000/live/playboy_hd/playlist.m3u8
-PLAYBOY,http://aflaxtv.xyz:8080/mitrovic/19106b7cb4/14222
-PLAYBOY,http://aflaxtv.xyz:8080/mitrovic/19106b7cb4/300141
-PLAYBOY,http://aflaxtv.xyz:8080/mitrovic/19106b7cb4/307392
-PLAYBOY,http://aflaxtv.xyz:8080/mitrovic/19106b7cb4/290309
-PLAYBOY,http://aflaxtv.xyz:8080/mitrovic/19106b7cb4/290342
-PLAYBOY,http://31.148.48.15/Playboy_TV/playlist.m3u8
-
-
-极限电影,http://rihou.cc:555/tv/hktv%2Ftb19jstv78
-
-日本无码,http://xxip25.top:8080/11171029/11171029/215583#http://nocable.cc:8080/sisnboyz9295@gmail.com/sisnboyz9295@2025/215583#http://global3b.xyz:8080/ur0A62qyMjAqS/eQmAnkZawdz31/493463
-
-ASIAN,http://fortv.cc:8080/50572575/50572575/215583#http://global3b.xyz:8080/ur0A62qyMjAqS/eQmAnkZawdz31/493369#http://nocable.cc:8080/sisnboyz9295@gmail.com/sisnboyz9295@2025/215465#http://xxip9.top:8080/live/89394807/89394807/160011.ts#http://fortv.cc:8080/50572575/50572575/160011#http://fortv.cc:8080/50572575/50572575/160026#http://fortv.cc:8080/50572575/50572575/215465
-MASSAGEROOM,http://xxip9.top:8080/live/89394807/89394807/160010.ts#http://xxip9.top:8080/live/LaLa34@yahoo.com/LaLa7678/160010.ts
-MODELMEDIAASIA,http://nocable.cc:8080/sisnboyz9295@gmail.com/sisnboyz9295@2025/160011
-PLAYBOY,http://markatv14.xyz:80/live/irfany./qvvVdCma66/875046.ts#http://markatv14.xyz:80/live/irfany./qvvVdCma66/834622.ts
-PLAYBOY,http://markatv14.xyz:80/live/irfany./qvvVdCma66/875047.ts#http://markatv14.xyz:80/live/irfany./qvvVdCma66/834619.ts
