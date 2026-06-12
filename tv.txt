@@ -2,8 +2,8 @@
 CCTV5,http://82.156.243.185:36888/av3a/cctv5n.m3u8
 CCTV5+,http://82.156.243.185:36888/av3a/cctv5pn.m3u8
 CCTV16,http://82.156.243.185:36888/av3a/cctv16n.m3u8
-BEINMAX1,http://asmr4k.world:8080/05347247405/3100934708/1246126
-BEINMAX2,http://asmr4k.world:8080/05347247405/3100934708/1246127
+BEINMAX1,http://asmr4k.world:8080/05347247405/3100934708/1246126#http://asmr4k.world:8080/05347247405/3100934708/1295243
+BEINMAX2,http://asmr4k.world:8080/05347247405/3100934708/1246127#http://asmr4k.world:8080/05347247405/3100934708/1295244
 BEINMAX1,http://asmr4k.world:8080/05347247405/3100934708/1295245
 BEINMAX2,http://asmr4k.world:8080/05347247405/3100934708/1295246
 BEINMAX3,http://asmr4k.world:8080/05347247405/3100934708/1295248
@@ -51,9 +51,9 @@ FOXNEWS,http://ultrapremium.cloud:8080/43kagu97wa34tu39/72maxe529weda74/23441#ht
 半岛新闻,https://live-hls-aje-ak.getaj.net/AJE/01.m3u8
 半岛新闻,https://live-hls-web-aja.getaj.net/AJA/01.m3u8
 
-伊朗新闻,https://live.presstv.ir/hls/presstv_6_482/index.m3u8#https://live.presstv.ir/hls/presstv_5_482/index.m3u8
-乌克兰新闻,https://avers.pp.ua/hls/efir.m3u8#https://cdn1.live-tv.cloud/rivne1/rivne1-abr/rivne1/rivne1-sub2/chunks.m3u8#https://cdn10.live-tv.cloud/sferarv/sferarv-abr/sferarv/480p/chunks.m3u8
-俄罗斯新闻,https://rt-glb.rttv.com/dvr/rtnews/playlist_4500Kb.m3u8#https://streaming.televizor-24-tochka.ru/live/30-req_offset_28000000-req_window_0-2k_v5.m3u8#https://streaming.televizor-24-tochka.ru/live/30-req_offset_28000000-req_window_0-2k_v5.m3u8
+伊朗新闻,https://live.presstv.ir/hls/presstv_6_482/index.m3u8#https://live.presstv.ir/hls/presstv_5_482/index.m3u8#http://asmr4k.world:8080/05347247405/3100934708/358477
+乌克兰新闻,http://asmr4k.world:8080/05347247405/3100934708/402442#https://avers.pp.ua/hls/efir.m3u8#https://cdn1.live-tv.cloud/rivne1/rivne1-abr/rivne1/rivne1-sub2/chunks.m3u8#https://cdn10.live-tv.cloud/sferarv/sferarv-abr/sferarv/480p/chunks.m3u8
+俄罗斯新闻,https://rt-glb.rttv.com/dvr/rtnews/playlist_4500Kb.m3u8#https://streaming.televizor-24-tochka.ru/live/30-req_offset_28000000-req_window_0-2k_v5.m3u8#https://streaming.televizor-24-tochka.ru/live/30-req_offset_28000000-req_window_0-2k_v5.m3u8#http://asmr4k.world:8080/05347247405/3100934708/871535
 印度新闻,https://ndtvindiaelemarchana.akamaized.net/hls/live/2003679/ndtvindia/masterp_720p@3.m3u8#https://ndtvindiaelemarchana.akamaized.net/hls/live/2003679/ndtvindia/ndtvindiamaster.m3u8#https://indiatodaylive.akamaized.net/hls/live/2014320-b/indiatoday/indiatodaylive/live_720p/chunks.m3u8#https://ndtv24x7elemarchana.akamaized.net/hls/live/2003678/ndtv24x7/ndtv24x7master.m3u8
 泰国公视,https://thaipbs-live.cdn.byteark.com/live/playlist_1080p/index.m3u8#http://thaipbs-live.cdn.byteark.com/live-en/playlist_720p/index.m3u8
 叙利亚新闻,https://svs.itworkscdn.net/syriatvlive/syriatv.smil/syriatvpublish/syriatv_source/chunks_dvr.m3u8
