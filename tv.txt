@@ -1,3 +1,26 @@
+世界杯FIFA26,#genre#
+CCTV5,http://82.156.243.185:36888/av3a/cctv5n.m3u8
+CCTV5+,http://82.156.243.185:36888/av3a/cctv5pn.m3u8
+CCTV16,http://82.156.243.185:36888/av3a/cctv16n.m3u8
+CCTV4k,http://82.156.243.185:36888/av3a/cctv4kn.m3u8
+CCTV8k,http://82.156.243.185:36888/av3a/cctv8kn.m3u8
+BEINMAX1,http://asmr4k.world:8080/05347247405/3100934708/1246126
+BEINMAX2,http://asmr4k.world:8080/05347247405/3100934708/1246127
+BEINMAX1,http://asmr4k.world:8080/05347247405/3100934708/1295245
+BEINMAX2,http://asmr4k.world:8080/05347247405/3100934708/1295246
+BEINMAX3,http://asmr4k.world:8080/05347247405/3100934708/1295248
+FS1,http://89.187.179.148:826/anto.j/c9yJDcXyPe/120160
+FS1,http://wx78.vpn-cloud.icu:8080/p3v23bcwj2/j9iyghyczo/1236473
+FS1,http://realsport.scalecdn.co:8080/live/mediahost247/JD97213hj0fjhgFfdhdgfhja3j12kHJDJgeh/2501.ts
+BBC1,http://163.172.64.96:2017/live/GBa19qrcQYa3/u2c8FLfgkK/234.ts
+BBC1,http://89.187.179.148:826/anto.j/c9yJDcXyPe/98853
+BBC1,http://falcontv.top/0990183718/6298570159/377711
+BBC1,http://atlanticflixtv.online/1552952/97L6A58/69431
+BBC1,http://wx78.vpn-cloud.icu:8080/p3v23bcwj2/j9iyghyczo/77361
+FussballTV1,http://wx78.vpn-cloud.icu:8080/p3v23bcwj2/j9iyghyczo/1949445
+FussballTV2,http://wx78.vpn-cloud.icu:8080/p3v23bcwj2/j9iyghyczo/1950358
+FussballTV3,http://wx78.vpn-cloud.icu:8080/p3v23bcwj2/j9iyghyczo/1951087
+
 🇬🇬世界新闻,#genre#
 BBC,https://vs-hls-push-ww-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_news_channel_hd/t=3840/v=pv14/b=5070016/main.m3u8
 
@@ -442,10 +465,6 @@ Mnet,http://akariko.netgenx.site/stream/jp/mnet/stream-output.m3u8?mode=hls
 AT-X,http://akariko.netgenx.site/stream/jp/at-x/stream-output.m3u8?mode=hls
 日テレNEWS24,http://akariko.netgenx.site/stream/jp/ntv_news24/stream-output.m3u8?mode=hls
 ウェザーニュース,http://akariko.netgenx.site/stream/jp/weather_news/stream-output.m3u8?mode=hls
-
-
-
-
 
 NHKBSP4K,https://tsb-mega.i9.ee/stream/nhkbsp4k_hevc
 
