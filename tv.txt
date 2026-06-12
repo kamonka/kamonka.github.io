@@ -18,6 +18,7 @@ BBC1,http://wx78.vpn-cloud.icu:8080/p3v23bcwj2/j9iyghyczo/77361
 FussballTV1,http://wx78.vpn-cloud.icu:8080/p3v23bcwj2/j9iyghyczo/1949445
 FussballTV2,http://wx78.vpn-cloud.icu:8080/p3v23bcwj2/j9iyghyczo/1950358
 FussballTV3,http://wx78.vpn-cloud.icu:8080/p3v23bcwj2/j9iyghyczo/1951087
+HKNOW,http://primestreams.tv:826/live/anto.j/c9yJDcXyPe/120336.ts#http://primestreams.tv:826/live/anto.j/c9yJDcXyPe/120337.ts
 
 🇬🇬世界新闻,#genre#
 BBC,https://vs-hls-push-ww-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_news_channel_hd/t=3840/v=pv14/b=5070016/main.m3u8
