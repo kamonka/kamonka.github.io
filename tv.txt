@@ -11,6 +11,11 @@ FS1,http://realsport.scalecdn.co:8080/live/mediahost247/JD97213hj0fjhgFfdhdgfhja
 FussballTV1,http://wx78.vpn-cloud.icu:8080/p3v23bcwj2/j9iyghyczo/1949445
 FussballTV2,http://wx78.vpn-cloud.icu:8080/p3v23bcwj2/j9iyghyczo/1950358
 FussballTV3,http://wx78.vpn-cloud.icu:8080/p3v23bcwj2/j9iyghyczo/1951087
+HKNOW,http://10k.lucastv.pro/2c99755ae255/gJnMAT2/465865
+HKNOW,http://10k.lucastv.pro/2c99755ae255/gJnMAT2/465864
+HKNOW,http://10k.lucastv.pro/2c99755ae255/gJnMAT2/465863
+HKNOW,http://10k.lucastv.pro/2c99755ae255/gJnMAT2/465861
+
 HKNOW,http://primestreams.tv:826/live/anto.j/c9yJDcXyPe/120336.ts#http://primestreams.tv:826/live/anto.j/c9yJDcXyPe/120337.ts
 
 🇬🇬世界新闻,#genre#
@@ -148,6 +153,8 @@ History,http://hardcoremedia.xyz:80/6jTFRmvaSp/7534936344/129892#http://hardcore
 NGO,http://hardcoremedia.xyz:80/6jTFRmvaSp/7534936344/129928
 NGOWild,http://hardcoremedia.xyz:80/6jTFRmvaSp/7534936344/129927
 SUNDANCE,http://hardcoremedia.xyz:80/6jTFRmvaSp/7534936344/129957
+
+DISCOVERY,http://23.237.104.106:8080/USA_DISCOVERY/index.m3u8
 
 🇧🇮娱乐综艺#genre#
 
