@@ -1,13 +1,15 @@
-世界杯,#genre#
+⚽世界杯,#genre#
 CCTV5,http://63.141.230.178:82/gslb/zbdq5.m3u8?id=cctv5hd#http://82.156.243.185:36888/av3a/cctv5n.m3u8#https://php.jdshipin.com/TVOD/iptv.php?id=cctv5#https://cdn16.163189.xyz/163189/cctv5-2#http://82.156.243.185:36888/av3a/cctv5n.m3u8
+HKNOW⁴ᴷ,http://10k.lucastv.pro/2c99755ae255/gJnMAT2/465865#http://10k.lucastv.pro/2c99755ae255/gJnMAT2/465864
+HKNOW,http://10k.lucastv.pro/2c99755ae255/gJnMAT2/465863#http://10k.lucastv.pro/2c99755ae255/gJnMAT2/465861
+HKNOW⁴ᴷ,http://primestreams.tv:826/live/anto.j/c9yJDcXyPe/120336.ts#http://primestreams.tv:826/live/anto.j/c9yJDcXyPe/120337.ts
 BEINMAX1,http://asmr4k.world:8080/05347247405/3100934708/1246126#http://asmr4k.world:8080/05347247405/3100934708/1295243
 BEINMAX2,http://asmr4k.world:8080/05347247405/3100934708/1246127#http://asmr4k.world:8080/05347247405/3100934708/1295244
 BEINMAX1,http://asmr4k.world:8080/05347247405/3100934708/1295245
 BEINMAX2,http://asmr4k.world:8080/05347247405/3100934708/1295246
 BEINMAX3,http://asmr4k.world:8080/05347247405/3100934708/1295248
 FussballTV,http://wx78.vpn-cloud.icu:8080/p3v23bcwj2/j9iyghyczo/1949445#http://wx78.vpn-cloud.icu:8080/p3v23bcwj2/j9iyghyczo/1950358#http://wx78.vpn-cloud.icu:8080/p3v23bcwj2/j9iyghyczo/1951087
-HKNOW⁴ᴷ,http://10k.lucastv.pro/2c99755ae255/gJnMAT2/465865#http://10k.lucastv.pro/2c99755ae255/gJnMAT2/465864#http://10k.lucastv.pro/2c99755ae255/gJnMAT2/465863#http://10k.lucastv.pro/2c99755ae255/gJnMAT2/465861
-HKNOW⁴ᴷ,http://primestreams.tv:826/live/anto.j/c9yJDcXyPe/120336.ts#http://primestreams.tv:826/live/anto.j/c9yJDcXyPe/120337.ts
+
 
 🇬🇬世界新闻,#genre#
 BBC,https://vs-hls-push-ww-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_news_channel_hd/t=3840/v=pv14/b=5070016/main.m3u8
