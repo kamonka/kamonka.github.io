@@ -9,6 +9,7 @@ BEINMAX1,http://asmr4k.world:8080/05347247405/3100934708/1295245
 BEINMAX2,http://asmr4k.world:8080/05347247405/3100934708/1295246
 BEINMAX3,http://asmr4k.world:8080/05347247405/3100934708/1295248
 FussballTV,http://wx78.vpn-cloud.icu:8080/p3v23bcwj2/j9iyghyczo/1949445#http://wx78.vpn-cloud.icu:8080/p3v23bcwj2/j9iyghyczo/1950358#http://wx78.vpn-cloud.icu:8080/p3v23bcwj2/j9iyghyczo/1951087
+JTBC,http://mdlstay.com:9981/stream/channelid/1016329428?ticket=423F377F478D02A46209C7D86C378CA1EFDD1BE4&profile=pass
 
 🇬🇬世界新闻,#genre#
 BBC,https://vs-hls-push-ww-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_news_channel_hd/t=3840/v=pv14/b=5070016/main.m3u8
