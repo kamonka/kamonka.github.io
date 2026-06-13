@@ -5,18 +5,9 @@ BEINMAX2,http://asmr4k.world:8080/05347247405/3100934708/1246127#http://asmr4k.w
 BEINMAX1,http://asmr4k.world:8080/05347247405/3100934708/1295245
 BEINMAX2,http://asmr4k.world:8080/05347247405/3100934708/1295246
 BEINMAX3,http://asmr4k.world:8080/05347247405/3100934708/1295248
-FS1,http://89.187.179.148:826/anto.j/c9yJDcXyPe/120160
-FS1,http://wx78.vpn-cloud.icu:8080/p3v23bcwj2/j9iyghyczo/1236473
-FS1,http://realsport.scalecdn.co:8080/live/mediahost247/JD97213hj0fjhgFfdhdgfhja3j12kHJDJgeh/2501.ts
-FussballTV1,http://wx78.vpn-cloud.icu:8080/p3v23bcwj2/j9iyghyczo/1949445
-FussballTV2,http://wx78.vpn-cloud.icu:8080/p3v23bcwj2/j9iyghyczo/1950358
-FussballTV3,http://wx78.vpn-cloud.icu:8080/p3v23bcwj2/j9iyghyczo/1951087
-HKNOW,http://10k.lucastv.pro/2c99755ae255/gJnMAT2/465865
-HKNOW,http://10k.lucastv.pro/2c99755ae255/gJnMAT2/465864
-HKNOW,http://10k.lucastv.pro/2c99755ae255/gJnMAT2/465863
-HKNOW,http://10k.lucastv.pro/2c99755ae255/gJnMAT2/465861
-
-HKNOW,http://primestreams.tv:826/live/anto.j/c9yJDcXyPe/120336.ts#http://primestreams.tv:826/live/anto.j/c9yJDcXyPe/120337.ts
+FussballTV,http://wx78.vpn-cloud.icu:8080/p3v23bcwj2/j9iyghyczo/1949445#http://wx78.vpn-cloud.icu:8080/p3v23bcwj2/j9iyghyczo/1950358#http://wx78.vpn-cloud.icu:8080/p3v23bcwj2/j9iyghyczo/1951087
+HKNOW⁴ᴷ,http://10k.lucastv.pro/2c99755ae255/gJnMAT2/465865#http://10k.lucastv.pro/2c99755ae255/gJnMAT2/465864#http://10k.lucastv.pro/2c99755ae255/gJnMAT2/465863#http://10k.lucastv.pro/2c99755ae255/gJnMAT2/465861
+HKNOW⁴ᴷ,http://primestreams.tv:826/live/anto.j/c9yJDcXyPe/120336.ts#http://primestreams.tv:826/live/anto.j/c9yJDcXyPe/120337.ts
 
 🇬🇬世界新闻,#genre#
 BBC,https://vs-hls-push-ww-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_news_channel_hd/t=3840/v=pv14/b=5070016/main.m3u8
