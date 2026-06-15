@@ -1,7 +1,11 @@
 ⚽世界杯,#genre#
 CCTV5,https://live12.xiazhix1.top/live/85042987.m3u8#http://82.156.243.185:36888/av3a/cctv5n.m3u8#http://jp.gxdx.org/streamtool_share.php?t=1abe6c946fe63e095d22bd51da427e153157#https://php.jdshipin.com/TVOD/iptv.php?id=cctv5#https://cdn16.163189.xyz/163189/cctv5-2#http://82.156.243.185:36888/av3a/cctv5n.m3u8
 愛爾達體育,https://live.666666.zip/stream/13212901.m3u8#https://iptv.852851.xyz/ch/e5f1624b29f87221d5333ade40bc6d41/master.m3u8
-
+beINMAX1,http://asmr4k.world:8080/05347247405/3100934708/1246126#http://asmr4k.world:8080/05347247405/3100934708/1295243
+beINMAX2,http://asmr4k.world:8080/05347247405/3100934708/1246127#http://asmr4k.world:8080/05347247405/3100934708/1295244
+beINMAX1,http://asmr4k.world:8080/05347247405/3100934708/1295245
+beINMAX2,http://asmr4k.world:8080/05347247405/3100934708/1295246
+beINMAX3,http://asmr4k.world:8080/05347247405/3100934708/1295248
 
 TSN⁴ᵏ,https://iptv.852851.xyz/ch/68e97c59f10d99489065f1e85c13a85b/master.m3u8
 HKNOW⁴ᵏ,http://10k.lucastv.pro/live/2c99755ae255/gJnMAT2/465865.ts#http://10k.lucastv.pro/live/2c99755ae255/gJnMAT2/465864.ts
@@ -189,13 +193,6 @@ TORO,http://line.cloud-ott.net:80/play/live.php?mac=00:1A:79:0D:80:56&stream=959
 TORO,http://hardcoremedia.xyz:80/6jTFRmvaSp/7534936344/261518#http://hardcoremedia.xyz:80/6jTFRmvaSp/7534936344/261407#http://hardcoremedia.xyz:80/6jTFRmvaSp/7534936344/239069#http://hardcoremedia.xyz:80/6jTFRmvaSp/7534936344/239071
 TORO,https://edge-nodo-003.streaming.hitcloser.net/eltorotv-streaming-web/tracks-v1a1/mono.ts.m3u8#https://streaming-1.eltorotv.com/lb0/eltorotv-streaming-web/index.m3u8
 TORO,http://10k.lucastv.pro/live/2c99755ae255/gJnMAT2/235353.ts#http://10k.lucastv.pro/live/2c99755ae255/gJnMAT2/23233.ts
-
-BEINMAX1,http://asmr4k.world:8080/05347247405/3100934708/1246126#http://asmr4k.world:8080/05347247405/3100934708/1295243
-BEINMAX2,http://asmr4k.world:8080/05347247405/3100934708/1246127#http://asmr4k.world:8080/05347247405/3100934708/1295244
-BEINMAX1,http://asmr4k.world:8080/05347247405/3100934708/1295245
-BEINMAX2,http://asmr4k.world:8080/05347247405/3100934708/1295246
-BEINMAX3,http://asmr4k.world:8080/05347247405/3100934708/1295248
-FussballTV,http://wx78.vpn-cloud.icu:8080/p3v23bcwj2/j9iyghyczo/1949445#http://wx78.vpn-cloud.icu:8080/p3v23bcwj2/j9iyghyczo/1950358#http://wx78.vpn-cloud.icu:8080/p3v23bcwj2/j9iyghyczo/1951087
 
 PREMIERSPORTS1,http://best-8k.org/live/jjyw70ss4w/ek5ui8ithc/303258.m3u8
 PREMIERSPORTS2,http://best-8k.org/live/jjyw70ss4w/ek5ui8ithc/303257.m3u8
