@@ -1,9 +1,9 @@
 ⚽世界杯,#genre#
 CCTV5,http://82.156.243.185:36888/av3a/cctv5n.m3u8#http://63.141.230.178:82/gslb/zbdq5.m3u8?id=cctv5hd#http://113.26.251.182:8009/hls/5/index.m3u8#http://jp.gxdx.org/streamtool_share.php?t=1abe6c946fe63e095d22bd51da427e153157#https://cdn16.163189.xyz/163189/cctv5-2#http://82.156.243.185:36888/av3a/cctv5n.m3u8#https://php.jdshipin.com/TVOD/iptv.php?id=cctv5
-愛爾達體育,https://live.666666.zip/stream/13212901.m3u8#https://iptv.852851.xyz/ch/e5f1624b29f87221d5333ade40bc6d41/master.m3u8
-beINMAX1,http://asmr4k.world:8080/05347247405/3100934708/1246126#http://asmr4k.world:8080/05347247405/3100934708/1295243
+愛爾達體育,https://iptv.852851.xyz/ch/e5f1624b29f87221d5333ade40bc6d41/master.m3u8#https://live.666666.zip/stream/13212901.m3u8
+beINMAX1,http://asmr4k.world:8080/05347247405/3100934708/1295243
 beINMAX2,http://asmr4k.world:8080/05347247405/3100934708/1246127#http://asmr4k.world:8080/05347247405/3100934708/1295244
-beINMAX1,http://asmr4k.world:8080/05347247405/3100934708/1295245
+beINMAX1,http://asmr4k.world:8080/05347247405/3100934708/1295245#http://asmr4k.world:8080/05347247405/3100934708/1246126
 beINMAX2,http://asmr4k.world:8080/05347247405/3100934708/1295246
 beINMAX3,http://asmr4k.world:8080/05347247405/3100934708/1295248
 beINMAX⁴ᵏ,http://mag.greatott.me:80/play/live.php?mac=00:1A:79:74:B1:B9&stream=2095904&extension=ts&play_token=Lt78j39yt1
