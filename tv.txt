@@ -8,9 +8,9 @@ beINMAX2,http://asmr4k.world:8080/05347247405/3100934708/1295246
 beINMAX3,http://asmr4k.world:8080/05347247405/3100934708/1295248
 
 TSN⁴ᵏ,https://iptv.852851.xyz/ch/68e97c59f10d99489065f1e85c13a85b/master.m3u8
-HKNOW⁴ᵏ,http://10k.lucastv.pro/live/2c99755ae255/gJnMAT2/465865.ts#http://10k.lucastv.pro/live/2c99755ae255/gJnMAT2/465864.ts
+HKNOW⁴ᵏhttp://10k.lucastv.pro/live/2c99755ae255/gJnMAT2/465865.ts#http://10k.lucastv.pro/live/2c99755ae255/gJnMAT2/465864.ts
 HKNOW⁴ᵏ,http://primestreams.tv:826/live/anto.j/c9yJDcXyPe/120336.ts#http://primestreams.tv:826/live/anto.j/c9yJDcXyPe/120337.ts
-HKNOW,http://10k.lucastv.pro/live/2c99755ae255/gJnMAT2/465863.ts#http://10k.lucastv.pro/live/2c99755ae255/gJnMAT2/465861.ts
+HKNOWhttp://10k.lucastv.pro/live/2c99755ae255/gJnMAT2/465863.ts#http://10k.lucastv.pro/live/2c99755ae255/gJnMAT2/465861.ts
 
 🇬🇬世界新闻,#genre#
 BBC,https://vs-hls-push-ww-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_news_channel_hd/t=3840/v=pv14/b=5070016/main.m3u8
