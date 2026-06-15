@@ -10,6 +10,7 @@ beINMAX⁴ᵏ,http://mag.greatott.me:80/play/live.php?mac=00:1A:79:74:B1:B9&stre
 TSN⁴ᴷ,https://iptv.852851.xyz/ch/68e97c59f10d99489065f1e85c13a85b/master.m3u8
 HKNOW⁴ᵏ,http://10k.lucastv.pro/live/2c99755ae255/gJnMAT2/465865.ts#http://10k.lucastv.pro/live/2c99755ae255/gJnMAT2/465864.ts
 HKNOW⁴ᵏ,http://primestreams.tv:826/live/anto.j/c9yJDcXyPe/120336.ts#http://primestreams.tv:826/live/anto.j/c9yJDcXyPe/120337.ts
+HKNOW⁴ᵏhttp://mag.greatott.me:80/play/live.php?mac=00:1A:79:74:B1:B9&stream=2095898&extension=ts&play_token=1qHzIcYuYs#http://mag.greatott.me:80/play/live.php?mac=00:1A:79:74:B1:B9&stream=2095897&extension=ts&play_token=vG5XGcNqrZ
 HKNOW,http://10k.lucastv.pro/live/2c99755ae255/gJnMAT2/465863.ts#http://10k.lucastv.pro/live/2c99755ae255/gJnMAT2/465861.ts
 
 🇬🇬世界新闻,#genre#
