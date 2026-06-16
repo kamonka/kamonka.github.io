@@ -84,7 +84,21 @@ TVBS新闻,http://jnzq.ohoyee.com:9080/live/332123-tvbsxw.m3u8
 民视新闻,http://211.72.174.95:8117/0.ts
 台视新闻,https://live.wcetv.com/hls/master-ttvnews.m3u8
 东森新闻,http://211.72.174.95:8138/0.ts
-凤凰资讯,http://mytvsuper.webn.cc:2052/live/stream-f8063c3794481a17/index.m3u8
+
+镜新闻,https://ha.msbot.dpdns.org/4gtv_api.php?id=268
+东森新闻,https://ha.msbot.dpdns.org/4gtv_api.php?id=234
+东森新闻,https://ha.msbot.dpdns.org/4gtv_api.php?id=292
+华视新闻,https://ha.msbot.dpdns.org/4gtv_api.php?id=256
+华视新闻,https://ha.msbot.dpdns.org/4gtv_api.php?id=34
+民视新闻,https://ha.msbot.dpdns.org/4gtv_api.php?id=257
+三立新闻,https://ha.msbot.dpdns.org/4gtv_api.php?id=229
+TVBS新闻,https://ha.msbot.dpdns.org/4gtv_api.php?id=291
+中视新闻,https://ha.msbot.dpdns.org/4gtv_api.php?id=33
+中视新闻,https://ha.msbot.dpdns.org/4gtv_api.php?id=258
+中天新闻,https://ha.msbot.dpdns.org/4gtv_api.php?id=260
+中天新闻,https://ha.msbot.dpdns.org/4gtv_api.php?id=30
+寰宇新闻台,https://ha.msbot.dpdns.org/4gtv_api.php?id=262
+寰宇台湾新闻,https://ha.msbot.dpdns.org/4gtv_api.php?id=280
 
 民视新闻,http://74.91.26.218:82/live/ftvnews.m3u8
 台视新闻,http://74.91.26.218:82/live/ttvnews.m3u8
@@ -125,16 +139,19 @@ BBC1,http://atlanticflixtv.online/1552952/97L6A58/69431
 BBC1,http://wx78.vpn-cloud.icu:8080/p3v23bcwj2/j9iyghyczo/77361
 
 🇭🇰台港综合,#genre#
-台视,http://165.154.226.214:50007/li-4gtv-4gtv066/index.m3u8?proxy=true
-中视,http://141.11.87.241:20013/li-4gtv-4gtv040/index.m3u8?proxy=true
-民视,http://iptv.4666888.xyz/iptv2A.php?id=55
+
+民视,https://ha.msbot.dpdns.org/4gtv_api.php?id=3
+民视,https://ha.msbot.dpdns.org/4gtv_api.php?id=246
+TVBS,https://ha.msbot.dpdns.org/4gtv_api.php?id=183
+中视,https://ha.msbot.dpdns.org/4gtv_api.php?id=4
+华视,https://ha.msbot.dpdns.org/4gtv_api.php?id=6
+
 
 中视,http://211.72.174.95:8113/0.ts
 华视,http://211.72.174.95:8114/0.ts
 公视,http://211.72.174.95:8116/0.ts
 民视,http://211.72.174.95:8115/0.ts
 台视,http://211.72.174.95:8112/0.ts
-台视,http://dbmlasvgas.sylu.net:8880/stream/39363be5-2940-4d89-875a-cea6c9a93369/playlist.m3u8
 
 公视,http://74.91.26.218:82/live/pts.m3u8
 台视,http://74.91.26.218:82/live/ttv.m3u8
@@ -142,17 +159,8 @@ BBC1,http://wx78.vpn-cloud.icu:8080/p3v23bcwj2/j9iyghyczo/77361
 华视,http://74.91.26.218:82/live/cts.m3u8
 中视,http://74.91.26.218:82/live/ctv.m3u8
 
-翡翠台,http://hls.168.us.kg/u/81/master.m3u8
-明珠台,http://hls.168.us.kg/u/84/master.m3u8
-ViuTV,https://cdn.163189.xyz/163189/viu
-ViuTV,http://r.jdshipin.com/vSJvl
-ViuTV,http://php.jdshipin.com/TVOD/iptv.php?id=viutv2
-ViuTV,https://smt.1678520.xyz/smt3.2.1.php?id=viu1_twn
-ViuTV6,https://smt.1678520.xyz/smt3.2.1.php?id=viusix_twn
-ViuTV6,https://cdn9.163189.xyz/smt1.1.php?id=viusix_twn
-鳯凰卫视,https://cdn6.101.qzz.io/163189/fhzw
 
-TV朝鲜,http://onair.cdn.tvchosun.com/origin1/_definst_/tvchosun_s1/playlist.m3u8#http://onair2.cdn.tvchosun.com/origin2/_definst_/tvchosun_s3/playlist.m3u8
+TV朝鲜,http://onair2.cdn.tvchosun.com/origin2/_definst_/tvchosun_s3/playlist.m3u8
 
 🇯🇪纪实人文,#genre#
 爆笑视频,https://81d1c38525014f39a1705b01e04d91c2.mediatailor.us-east-1.amazonaws.com/v1/master/04fd913bb278d8775298c26fdca9d9841f37601f/RakutenTV-eu_ThePetCollective-1/playlist.m3u8#https://965a56fdfe3c40cd9b73c49a0cde620b.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/RakutenTV-eu_PeopleAreAwesome-1/playlist.m3u8#https://d39g1vxj2ef6in.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod-rakuten-stitched/master.m3u8#https://bd93cfed.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWV1X0ZhaWxBcm15X0hMUw/playlist.m3u8#
@@ -160,6 +168,21 @@ TV朝鲜,http://onair.cdn.tvchosun.com/origin1/_definst_/tvchosun_s1/playlist.m3
 动物星球,http://61.221.215.25:8800/hls/57/index.m3u8
 
 半岛纪录片,http://portal-iptv.net:8080/077998950140/077998950140/650
+
+罪案侦查,https://ha.msbot.dpdns.org/4gtv_api.php?id=215
+视纳华仁纪实,https://ha.msbot.dpdns.org/4gtv_api.php?id=38
+爱尔达宠物运动,https://ha.msbot.dpdns.org/4gtv_api.php?id=19
+靖天日本,https://ha.msbot.dpdns.org/4gtv_api.php?id=22
+PetClub,https://ha.msbot.dpdns.org/4gtv_api.php?id=464
+滚动力rollor,https://ha.msbot.dpdns.org/4gtv_api.php?id=249
+亚洲旅游,https://ha.msbot.dpdns.org/4gtv_api.php?id=250
+亚洲旅游,https://ha.msbot.dpdns.org/4gtv_api.php?id=261
+fun探索娱乐,https://ha.msbot.dpdns.org/4gtv_api.php?id=274
+幸福空间居家,https://ha.msbot.dpdns.org/4gtv_api.php?id=123
+LoveNature,https://ha.msbot.dpdns.org/4gtv_api.php?id=139
+历史频道,https://ha.msbot.dpdns.org/4gtv_api.php?id=214
+爱尔达生活旅游,https://ha.msbot.dpdns.org/4gtv_api.php?id=237
+LUXETV,https://ha.msbot.dpdns.org/4gtv_api.php?id=175
 
 DISCOVERY,http://hardcoremedia.xyz:80/6jTFRmvaSp/7534936344/129864
 A&E,http://hardcoremedia.xyz:80/6jTFRmvaSp/7534936344/129816#http://hardcoremedia.xyz:80/6jTFRmvaSp/7534936344/130067
@@ -174,21 +197,13 @@ DISCOVERY,http://23.237.104.106:8080/USA_DISCOVERY/index.m3u8
 🇧🇮娱乐综艺#genre#
 
 🇲🇾影视娱乐,#genre#
-纬来电影,http://rihou.cc:555/tv/纬来电影
-东森电影,http://rihou.cc:555/tv/东森电影 
-龙祥时代,http://rihou.cc:555/tv/龙祥时代
-重温经典,http://rihou.cc:555/tv/重温经典
-
-靖天映画,https://cdn12.178.indevs.in/163189/bd4752bd7828b2bf
-靖天电影台,https://cdn12.178.indevs.in/163189/ed33509e03e78c7a
-影迷数位电影,https://cdn12.178.indevs.in/163189/a643783ec587540e
-amc,https://cdn12.178.indevs.in/163189/0bcf9bb8c452e56a
-CinemaWorld,https://cdn12.178.indevs.in/163189/6086cfe7a9756110
-MyCinemaEurope,https://cdn12.178.indevs.in/163189/5bda99f1c049edef
-经典电影,https://cdn12.178.indevs.in/163189/61b8ea35ffce4630
-DreamWorks,https://cdn12.178.indevs.in/163189/10395eb942c5a9b9
-
 爱奇艺,https://o11.163189.xyz/stream/live/iqiyi/
+靖天映画,https://ha.msbot.dpdns.org/4gtv_api.php?id=42
+靖天电影,https://ha.msbot.dpdns.org/4gtv_api.php?id=82
+影迷数位电影,https://ha.msbot.dpdns.org/4gtv_api.php?id=40
+amc电影,https://ha.msbot.dpdns.org/4gtv_api.php?id=39
+CinemaWorld,https://ha.msbot.dpdns.org/4gtv_api.php?id=225
+日韩电影大赏,https://ha.msbot.dpdns.org/4gtv_api.php?id=415
 
 🇲🇾新马泰印#genre#
 
