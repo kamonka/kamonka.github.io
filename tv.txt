@@ -645,7 +645,6 @@ CCTV17,http://113.26.251.182:8009/hls/17/index.m3u8
 松视2,http://15.204.105.50:25461/live/G2s9zK2n9m/xDtwVfWM8T/89.ts
 松视3,http://15.204.105.50:25461/live/G2s9zK2n9m/xDtwVfWM8T/90.ts
 香蕉,http://15.204.105.50:25461/live/G2s9zK2n9m/xDtwVfWM8T/117.ts
-潘朵啦玩美,http://jp.gxdx.org/cache/streamtool_hls/20260618203742-406fbf58/index.m3u8
 
 日本写真,https://converse.nathcreqtives.com/channels/jp97/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJwc3ljaGVlZSIsImlhdCI6MTc4MDU3NTA1MywiZXhwIjoxNzg4MzUxMDUzLCJhY2NvdW50RXhwaXJlZCI6ZmFsc2UsImFjY291bnRFeHBpcmVzQXQiOjE3ODgzNTEwNTMsImFsbG93ZWRPcmlnaW5zIjpbImh0dHBzOi8vcHN5Y2hlZWVmbGl4dXV1Lm5ldGxpZnkuYXBwIiwiaHR0cHM6Ly9wc3ljaGVlZWZsaXh1dXUudmVyY2VsLmFwcCIsImh0dHBzOi8vcHN5Y2hlZmxpeC5wYWdlcy5kZXYiXX0.ngv2-3w4tcSIZR4J72tEsTZGQYt4iWRdVfFo3sQZa84#http://akariko.netgenx.site/stream/jp/pigoo_nsfw/stream-output.m3u8?mode=hls
 JAPAN,http://hardcoremedia.xyz:80/6jTFRmvaSp/7534936344/248607#http://hardcoremedia.xyz:80/6jTFRmvaSp/7534936344/248608
