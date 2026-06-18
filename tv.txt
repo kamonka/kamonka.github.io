@@ -6,14 +6,13 @@ CCTV5,https://php.jdshipin.com/TVOD/iptv.php?id=cctv5
 CCTV5,http://tv.zhangzp.top:4022/udp/239.125.2.54:4120
 CCTV5,http://107.150.60.122/live/cctv5hd.m3u8
 咪咕直播⁴ᵏ,http://feilong123.vip/409990236/iptv/gdy.php?id=7#http://feilong123.vip/409990236/iptv/gdy.php?id=46#http://feilong123.vip/409990236/iptv/gdy.php?id=47#https://live.666666.zip/stream/25816724_sb2maw7iluj1ghr92sk5siud28tpimx0.m3u8
-愛爾達體育,https://iptv.852851.xyz/ch/e5f1624b29f87221d5333ade40bc6d41/master.m3u8#https://live.666666.zip/stream/13212901.m3u8
+HKNOW,http://10k.lucastv.pro/live/2c99755ae255/gJnMAT2/465863.ts#http://10k.lucastv.pro/live/2c99755ae255/gJnMAT2/465861.ts
 beINMAX1,http://asmr4k.world:8080/05347247405/3100934708/1295243
 beINMAX2,http://asmr4k.world:8080/05347247405/3100934708/1295244
-beINMAX1,http://asmr4k.world:8080/05347247405/3100934708/1295245#http://asmr4k.world:8080/05347247405/3100934708/1246126
-beINMAX2,http://asmr4k.world:8080/05347247405/3100934708/1295246#http://asmr4k.world:8080/05347247405/3100934708/1246127#
+beINMAX1,http://asmr4k.world:8080/05347247405/3100934708/1295245
+beINMAX2,http://asmr4k.world:8080/05347247405/3100934708/1295246
 HKNOW⁴ᵏ,http://10k.lucastv.pro/live/2c99755ae255/gJnMAT2/465865.ts#http://10k.lucastv.pro/live/2c99755ae255/gJnMAT2/465864.ts
 HKNOW⁴ᵏ,http://mag.greatott.me:80/play/live.php?mac=00:1A:79:74:B1:B9&stream=2095898&extension=ts&play_token=1qHzIcYuYs#http://mag.greatott.me:80/play/live.php?mac=00:1A:79:74:B1:B9&stream=2095897&extension=ts&play_token=vG5XGcNqrZ
-HKNOW,http://10k.lucastv.pro/live/2c99755ae255/gJnMAT2/465863.ts#http://10k.lucastv.pro/live/2c99755ae255/gJnMAT2/465861.ts
 
 🇬🇬世界新闻,#genre#
 BBC,https://vs-hls-push-ww-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_news_channel_hd/t=3840/v=pv14/b=5070016/main.m3u8
