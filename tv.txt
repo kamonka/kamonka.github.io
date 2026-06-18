@@ -1,12 +1,13 @@
 ⚽世界杯,#genre#
 CCTV5,http://113.26.251.182:8009/hls/5/index.m3u8
 CCTV5,http://115.56.90.71:843/live02.hrtn.net/live/cctv5hd_3000.m3u8
+CCTV5,http://63.141.230.178:82/gslb/zbdq5.m3u8?id=cctv5hd
 CCTV5,http://204.12.221.218:8181/3m1080p/cctv5.m3u8
 CCTV5,https://php.jdshipin.com/TVOD/iptv.php?id=cctv5
 CCTV5,http://tv.zhangzp.top:4022/udp/239.125.2.54:4120
 CCTV5,http://120.76.248.139/live/bfgd/4200000064.m3u8
 CCTV5,http://107.150.60.122/live/cctv5hd.m3u8
-咪咕直播⁴ᵏ,http://feilong123.vip/409990236/iptv/gdy.php?id=7#https://live.666666.zip/stream/25816724_sb2maw7iluj1ghr92sk5siud28tpimx0.m3u8#http://feilong123.vip/409990236/iptv/gdy.php?id=46#http://feilong123.vip/409990236/iptv/gdy.php?id=47
+咪咕直播⁴ᵏ,http://feilong123.vip/409990236/iptv/gdy.php?id=7#http://feilong123.vip/409990236/iptv/gdy.php?id=46#http://feilong123.vip/409990236/iptv/gdy.php?id=47#https://live.666666.zip/stream/25816724_sb2maw7iluj1ghr92sk5siud28tpimx0.m3u8
 愛爾達體育,https://iptv.852851.xyz/ch/e5f1624b29f87221d5333ade40bc6d41/master.m3u8#https://live.666666.zip/stream/13212901.m3u8
 beINMAX1,http://asmr4k.world:8080/05347247405/3100934708/1295243
 beINMAX2,http://asmr4k.world:8080/05347247405/3100934708/1295244
