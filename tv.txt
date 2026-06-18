@@ -1,7 +1,4 @@
 ⚽世界杯,#genre#
-CCTV5,http://115.56.90.71:843/live02.hrtn.net/live/cctv5hd_3000.m3u8
-CCTV5,http://113.26.251.182:8009/hls/5/index.m3u8
-CCTV5,http://gslbmgsplive.miguvideo.com/migu/kailu/cctv5hd265/57/20191230/index.m3u8?msisdn=20260618110102708sdkpkpu&mdspid=&spid=699004&netType=4&sid=5500516171&pid=&timestamp=20260618110102&Channel_ID=0116_2600037000-99000-200300220100002&ProgramID=641886683&ParentNodeID=-99&assertID=5500516171&client_ip=114.66.2.149&SecurityKey=20260618110102&imei=&mvid=5102048712&mcid=500020&playurlVersion=SJ-A1-9.6.0&userid=1787643400&jmhm=&videocodec=h265&appCode=miguvideo_android&bean=mgspad&tid=android&puData=f52f997109b150ff11cc860f00ed0311&ddCalcu=1f1583210f1d90e90701f0096b81c5c01f1f
 CCTV5,http://63.141.230.178:82/gslb/zbdq5.m3u8?id=cctv5hd
 CCTV5,http://204.12.221.218:8181/3m1080p/cctv5.m3u8
 CCTV5,https://php.jdshipin.com/TVOD/iptv.php?id=cctv5
