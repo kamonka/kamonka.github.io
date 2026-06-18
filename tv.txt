@@ -1,4 +1,5 @@
 ⚽世界杯,#genre#
+CCTV5,http://115.56.90.71:843/live02.hrtn.net/live/cctv5hd_3000.m3u8
 CCTV5,http://63.141.230.178:82/gslb/zbdq5.m3u8?id=cctv5hd
 CCTV5,http://204.12.221.218:8181/3m1080p/cctv5.m3u8
 CCTV5,https://php.jdshipin.com/TVOD/iptv.php?id=cctv5
