@@ -14,6 +14,7 @@ beINMAX1,http://asmr4k.world:8080/05347247405/3100934708/1295245
 beINMAX2,http://asmr4k.world:8080/05347247405/3100934708/1295246
 HKNOW⁴ᵏ,http://10k.lucastv.pro/live/2c99755ae255/gJnMAT2/465865.ts#http://10k.lucastv.pro/live/2c99755ae255/gJnMAT2/465864.ts
 HKNOW⁴ᵏ,http://mag.greatott.me:80/play/live.php?mac=00:1A:79:74:B1:B9&stream=2095898&extension=ts&play_token=1qHzIcYuYs#http://mag.greatott.me:80/play/live.php?mac=00:1A:79:74:B1:B9&stream=2095897&extension=ts&play_token=vG5XGcNqrZ
+1,https://xzb-vod.52kq.top/64664c68vodsgp1386416388/0cb9339d5001834808141134489/playlist_eof.m3u8?t=6a378185&us=cc8f79e154&sign=1ad48301881fe40c52c14bf21b3249b9
 
 🇬🇬世界新闻,#genre#
 BBC,https://vs-hls-push-ww-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_news_channel_hd/t=3840/v=pv14/b=5070016/main.m3u8
