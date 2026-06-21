@@ -1,11 +1,12 @@
 ⚽世界杯,#genre#
-CCTV5,http://63.141.230.178:82/gslb/zbdq5.m3u8?id=cctv5hd
+
 CCTV5,http://204.12.221.218:8181/3m1080p/cctv5.m3u8
-CCTV5,http://live.bypbwxx.top/live/jmmigu1.php?token=9c854029b66bb02803c38fc72d3475
 CCTV5,http://tv.zhangzp.top:4022/udp/239.125.2.54:4120
 CCTV5,http://61.145.242.11:9088/hls/18/index.m3u8
-CCTV5,http://115.56.90.71:843/live02.hrtn.net/live/cctv5hd_3000.m3u8
+CCTV5,http://63.141.230.178:82/gslb/zbdq5.m3u8?id=cctv5hd
 CCTV5,http://107.150.60.122/live/cctv5hd.m3u8
+CCTV5,http://live.bypbwxx.top/live/jmmigu1.php?token=9c854029b66bb02803c38fc72d3475
+CCTV5,http://115.56.90.71:843/live02.hrtn.net/live/cctv5hd_3000.m3u8
 爱尔达体育,https://live.wxinxi.com/live/86597104_okehlpipbdoz2lujaxkrvv9eylmlbduv.m3u8#https://live.666666.zip/stream/86597104_okehlpipbdoz2lujaxkrvv9eylmlbduv.m3u8
 咪咕直播⁴ᵏ,http://feilong123.vip/409990236/iptv/gdy.php?id=7#http://feilong123.vip/409990236/iptv/gdy.php?id=46#http://feilong123.vip/409990236/iptv/gdy.php?id=47#https://live.666666.zip/stream/25816724_sb2maw7iluj1ghr92sk5siud28tpimx0.m3u8
 HKNOW,http://10k.lucastv.pro/live/2c99755ae255/gJnMAT2/465863.ts#http://10k.lucastv.pro/live/2c99755ae255/gJnMAT2/465861.ts
