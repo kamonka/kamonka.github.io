@@ -228,6 +228,7 @@ TORO,https://edge-nodo-001.streaming.hitcloser.net/eltorotv-streaming-web/tracks
 TORO,https://edge-nodo-003.streaming.hitcloser.net/eltorotv-streaming-web/tracks-v1a1/mono.ts.m3u8#https://streaming-1.eltorotv.com/lb0/eltorotv-streaming-web/index.m3u8
 TORO,http://hardcoremedia.xyz:80/6jTFRmvaSp/7534936344/261518#http://hardcoremedia.xyz:80/6jTFRmvaSp/7534936344/261407
 TORO,http://10k.lucastv.pro/live/2c99755ae255/gJnMAT2/23233.ts
+TORO,http://asmr4k.world:8080/05347247405/3100934708/358770
 
 PREMIERSPORTS1,http://best-8k.org/live/jjyw70ss4w/ek5ui8ithc/303258.m3u8
 PREMIERSPORTS2,http://best-8k.org/live/jjyw70ss4w/ek5ui8ithc/303257.m3u8
