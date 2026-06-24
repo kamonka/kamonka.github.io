@@ -1,4 +1,5 @@
 ⚽世界杯,#genre#
+CCTV5,https://live.666666.zip/stream/80427327.m3u8
 CCTV5,https://live.666666.zip/stream/20233432.m3u8
 CCTV5,http://121.57.88.206:898/hls/5/index.m3u8
 CCTV5,http://tv.zhangzp.top:4022/udp/239.125.2.54:4120
