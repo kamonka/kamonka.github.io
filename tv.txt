@@ -13,7 +13,7 @@ beINMAX1,http://asmr4k.world:8080/05347247405/3100934708/1295243
 beINMAX2,http://asmr4k.world:8080/05347247405/3100934708/1295244
 beINMAX1,http://asmr4k.world:8080/05347247405/3100934708/1295245
 beINMAX2,http://asmr4k.world:8080/05347247405/3100934708/1295246
-HKNOW⁴ᵏ,http://10k.lucastv.pro/live/2c99755ae255/gJnMAT2/465865.ts#http://10k.lucastv.pro/live/2c99755ae255/gJnMAT2/465864.ts
+HKNOW⁴ᵏ,http://tectonbrand.com:80/4KYD2C92D/1Z6BCL4/438866#http://10k.lucastv.pro/live/2c99755ae255/gJnMAT2/465865.ts#http://10k.lucastv.pro/live/2c99755ae255/gJnMAT2/465864.ts
 HKNOW⁴ᵏ,http://mag.greatott.me:80/play/live.php?mac=00:1A:79:74:B1:B9&stream=2095898&extension=ts&play_token=1qHzIcYuYs#http://mag.greatott.me:80/play/live.php?mac=00:1A:79:74:B1:B9&stream=2095897&extension=ts&play_token=vG5XGcNqrZ
 HKNOW⁴ᵏ,http://89.187.179.148:826/anto.j/c9yJDcXyPe/120336
 
