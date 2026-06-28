@@ -36,7 +36,6 @@ FOXNEWS,http://realsport.scalecdn.co:8080/live/supersonicstreams/cUewZolveU8Jh18
 朝鲜中央台,https://tv.nknews.org/tvdash/stream-43963200.m4a
 韩国中央东洋,http://mdlstay.com:9981/stream/channelid/1016329428?ticket=423F377F478D02A46209C7D86C378CA1EFDD1BE4&profile=pass
 
-共同社,https://cdn-apne1.tsv2.amagi.tv/linear/amg01287-rakutentvjapan-news3hlscmaf-rakutenjp/playlist.m3u8
 路透社,https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00453-reuters-reuters-hls-rakutenjp/playlist.m3u8
 路透社,https://dbrb49pjoymg4.cloudfront.net/manifest/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod_default_xumo-ams-aws/e7493ea5-5c1c-4d7a-a3f7-e95516048ad8/3.m3u8
 CNN,https://turnerlive.warnermediacdn.com/hls/live/586495/cnngo/cnn_slate/VIDEO_0_3564000.m3u8
@@ -217,9 +216,9 @@ CinemaWorld,https://ha.msbot.dpdns.org/4gtv_api.php?id=225
 🇲🇾新马泰印#genre#
 
 🇯🇲体育,#genre#
+TORO,http://tectonbrand.com:80/4KYD2C92D/1Z6BCL4/1061260#http://tectonbrand.com:80/4KYD2C92D/1Z6BCL4/757751#http://tectonbrand.com:80/4KYD2C92D/1Z6BCL4/1061261#http://tectonbrand.com:80/4KYD2C92D/1Z6BCL4/68362#http://tectonbrand.com:80/4KYD2C92D/1Z6BCL4/76703
 TORO,http://neosfpoo.top:8080/2071771277838/6ec486cbcb6b/56009#http://neosfpoo.top:8080/2071771277838/6ec486cbcb6b/55943#http://neosfpoo.top:8080/2071771277838/6ec486cbcb6b/56010
 TORO,https://fastly.live.brightcove.com/1846756479408303045/eu-central-1/6057955885001/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJob3N0IjoiZWFxNWh4LmVncmVzcy53YzQ3bTEiLCJhY2NvdW50X2lkIjoiNjA1Nzk1NTg4NTAwMSIsImVobiI6ImZhc3RseS5saXZlLmJyaWdodGNvdmUuY29tIiwiaXNzIjoiYmxpdmUtcGxheWJhY2stc291cmNlLWFwaSIsInN1YiI6InBhdGhtYXB0b2tlbiIsImF1ZCI6WyI2MDU3OTU1ODg1MDAxIl0sImp0aSI6IjE4NDY3NTY0Nzk0MDgzMDMwNDUifQ.o6wb_VA-TVxl3ERgr7FKLlaTjY7smErmsf73QAydySE/chunklist-dvr_hls1080p.m3u8#https://cflive.kaltura.com/scf/env/d.live.nvp1/live/hls/p/2288691/e/1_gnz6ity9/tl/main/st/0/t/eB3tZbaQcuVjhPbVtiVcng/index-s32.m3u8?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9jZmxpdmUua2FsdHVyYS5jb20vc2NmL2Vudi9kLmxpdmUubnZwMS9saXZlL2hscy9wLzIyODg2OTEvZS8xX2duejZpdHk5L3RsL21haW4vc3QvMC90L2VCM3RaYmFRY3VWamhQYlZ0aVZjbmcvKiIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc4MjYzMTk3MX19fV19&Signature=g6mO-GrjZAo65z7gunjR83RlzTIEkPXskKtP-ZYFfBcM0h9JDjfU0EBIHCQuXdO9OEQHL5sYFcYDdmS5dBK6Uc7HTPUAJ8-pzij2AY9uPcjd~snKMP2TzCBlIGlQKGJGGsJJ2fvuIQgryCCyWZKrI3yWnB8yQYvqrssMMsYNreZy7nQTiV9lMMbsBx1XJkTSxnwJcX67EEMFjormVWcEdoelud~BnWU5aTHcPKbi8Hz71TlnOulNPbfl4LpdeuiXa8E~JfHymLJnboMMMCCZtueOVu7iBik8Q22bNAil~2CpSo9ULzy4nsw6M1v2zzt7T2N0cHg4bNU7XVK7iKAmng__&Key-Pair-Id=K31ANTJBLNVBEC
-TORO,http://tectonbrand.com:80/4KYD2C92D/1Z6BCL4/1061260#http://tectonbrand.com:80/4KYD2C92D/1Z6BCL4/757751#http://tectonbrand.com:80/4KYD2C92D/1Z6BCL4/1061261#http://tectonbrand.com:80/4KYD2C92D/1Z6BCL4/68362#http://tectonbrand.com:80/4KYD2C92D/1Z6BCL4/76703
 TORO,http://line.cloud-ott.net:80/play/live.php?mac=00:1A:79:0D:80:56&stream=959568&extension=ts&play_token=FLzcBlqF5i
 TORO,http://10k.lucastv.pro/live/2c99755ae255/gJnMAT2/235353.ts
 TORO,https://fastly.live.brightcove.com/1846756479408303045/eu-central-1/6057955885001/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJob3N0IjoiZWFxNWh4LmVncmVzcy53YzQ3bTEiLCJhY2NvdW50X2lkIjoiNjA1Nzk1NTg4NTAwMSIsImVobiI6ImZhc3RseS5saXZlLmJyaWdodGNvdmUuY29tIiwiaXNzIjoiYmxpdmUtcGxheWJhY2stc291cmNlLWFwaSIsInN1YiI6InBhdGhtYXB0b2tlbiIsImF1ZCI6WyI2MDU3OTU1ODg1MDAxIl0sImp0aSI6IjE4NDY3NTY0Nzk0MDgzMDMwNDUifQ.o6wb_VA-TVxl3ERgr7FKLlaTjY7smErmsf73QAydySE/chunklist-dvr_hls1080p.m3u8
