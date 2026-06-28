@@ -23,7 +23,7 @@ BBC,https://vs-hls-push-ww-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_new
 
 BBC,http://163.172.64.96:2017/live/GBa19qrcQYa3/u2c8FLfgkK/250.ts
 CNN,http://163.172.64.96:2017/live/GBa19qrcQYa3/u2c8FLfgkK/253.ts
-FOX,http://163.172.64.96:2017/live/GBa19qrcQYa3/u2c8FLfgkK/252.ts
+FOXNEWS,http://163.172.64.96:2017/live/GBa19qrcQYa3/u2c8FLfgkK/252.ts
 
 BBC,http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs15&isp=5
 CNN,http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs16&isp=5
@@ -40,6 +40,9 @@ FOXNEWS,http://realsport.scalecdn.co:8080/live/supersonicstreams/cUewZolveU8Jh18
 朝鲜中央台,https://tv.nknews.org/tvdash/stream.mpd
 朝鲜中央台,https://tv.nknews.org/tvdash/stream-43963200.m4a
 韩国中央东洋,http://mdlstay.com:9981/stream/channelid/1016329428?ticket=423F377F478D02A46209C7D86C378CA1EFDD1BE4&profile=pass
+
+共同社,https://cdn-apne1.tsv2.amagi.tv/linear/amg01287-rakutentvjapan-news3hlscmaf-rakutenjp/playlist.m3u8
+路透社,https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00453-reuters-reuters-hls-rakutenjp/playlist.m3u8
 路透社,https://dbrb49pjoymg4.cloudfront.net/manifest/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod_default_xumo-ams-aws/e7493ea5-5c1c-4d7a-a3f7-e95516048ad8/3.m3u8
 CNN,https://turnerlive.warnermediacdn.com/hls/live/586495/cnngo/cnn_slate/VIDEO_0_3564000.m3u8
 
