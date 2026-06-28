@@ -6,12 +6,7 @@ CCTV5,http://204.12.221.218:8181/3m1080p/cctv5.m3u8
 CCTV5,http://63.141.230.178:82/gslb/zbdq5.m3u8?id=cctv5hd
 CCTV5,http://107.150.60.122/live/cctv5hd.m3u8
 咪咕直播⁴ᵏ,http://feilong123.vip/409990236/iptv/gdy.php?id=7#http://feilong123.vip/409990236/iptv/gdy.php?id=46#http://feilong123.vip/409990236/iptv/gdy.php?id=47
-爱尔达体育,https://live.wxinxi.com/live/86597104_okehlpipbdoz2lujaxkrvv9eylmlbduv.m3u8#https://live.666666.zip/stream/86597104_okehlpipbdoz2lujaxkrvv9eylmlbduv.m3u8
 HKNOW,https://iptv.852851.xyz/l/DFZt_r5BcCiVcS0AIIcXAM74gYiZs6fUDsZtRKv2s2L5IPhfqkOxtaNKB8Drs6qc/index.m3u8#http://10k.lucastv.pro/live/2c99755ae255/gJnMAT2/465863.ts#http://10k.lucastv.pro/live/2c99755ae255/gJnMAT2/465861.ts
-beINMAX1,http://asmr4k.world:8080/05347247405/3100934708/1295243
-beINMAX2,http://asmr4k.world:8080/05347247405/3100934708/1295244
-beINMAX1,http://asmr4k.world:8080/05347247405/3100934708/1295245
-beINMAX2,http://asmr4k.world:8080/05347247405/3100934708/1295246
 HKNOW⁴ᵏ,http://tectonbrand.com:80/4KYD2C92D/1Z6BCL4/438866#http://10k.lucastv.pro/live/2c99755ae255/gJnMAT2/465865.ts#http://10k.lucastv.pro/live/2c99755ae255/gJnMAT2/465864.ts
 HKNOW⁴ᵏ,http://mag.greatott.me:80/play/live.php?mac=00:1A:79:74:B1:B9&stream=2095898&extension=ts&play_token=1qHzIcYuYs#http://mag.greatott.me:80/play/live.php?mac=00:1A:79:74:B1:B9&stream=2095897&extension=ts&play_token=vG5XGcNqrZ
 HKNOW⁴ᵏ,http://89.187.179.148:826/anto.j/c9yJDcXyPe/120336
