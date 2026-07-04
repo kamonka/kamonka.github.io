@@ -9,7 +9,7 @@ HKNOW,https://iptv.852851.xyz/l/DFZt_r5BcCiVcS0AIIcXAM74gYiZs6fUDsZtRKv2s2L5IPhf
 HKNOW⁴ᵏ,http://tectonbrand.com:80/4KYD2C92D/1Z6BCL4/438866#http://10k.lucastv.pro/live/2c99755ae255/gJnMAT2/465865.ts#http://10k.lucastv.pro/live/2c99755ae255/gJnMAT2/465864.ts
 HKNOW⁴ᵏ,http://mag.greatott.me:80/play/live.php?mac=00:1A:79:74:B1:B9&stream=2095898&extension=ts&play_token=1qHzIcYuYs#http://mag.greatott.me:80/play/live.php?mac=00:1A:79:74:B1:B9&stream=2095897&extension=ts&play_token=vG5XGcNqrZ
 HKNOW⁴ᵏ,http://89.187.179.148:826/anto.j/c9yJDcXyPe/120336
-video,https://xzb-vod.52kq.top/64664c68vodsgp1386416388/875001a55001834809988405350/playlist_eof.m3u8?t=6a475c49&us=302af3aa50&sign=981e6c1034f79eb99d9ffad470ac5fe3
+video,https://xzb-vod.52kq.top/64664c68vodsgp1386416388/4b8e67145001834809953888529/playlist_eof.m3u8?t=6a48b279&us=adf3eef0be&sign=5cd627cc31838e002f95fa17791c3746#https://xzb-vod.52kq.top/64664c68vodsgp1386416388/f9fbd3375001834810092905272/playlist_eof.m3u8?t=6a48b6ec&us=544808ab2a&sign=009e327711206b1404c288c8b0583cf8
 
 
 🇬🇬世界新闻,#genre#
