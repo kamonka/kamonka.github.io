@@ -31,13 +31,14 @@ BBC,http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs15&isp=
 
 FOXNEWS,http://realsport.scalecdn.co:8080/live/supersonicstreams/cUewZolveU8Jh18jk34BDJ/2543.ts
 
-朝鲜中央台,https://tv.intchoson.com/kctv/main_stream.m3u8
-朝鲜中央台,https://streamer.nknews.org/tvhls/stream.m3u8
-朝鲜中央台,http://s1.an94tv.cfd/aktv3/CH-0/AKTV.m3u8
-朝鲜中央台,http://aktv-stream.m16tv.cfd/stream/nknews/null/AKTV.m3u8
-朝鲜中央台,https://tv.nknews.org/tvhls/stream.m3u8
-朝鲜中央台,https://tv.nknews.org/tvdash/stream.mpd
-朝鲜中央台,https://tv.nknews.org/tvdash/stream-43963200.m4a
+朝鲜中央台https://tv.intchoson.com/kctv/main_stream.m3u8
+朝鲜中央台https://streamer.nknews.org/tvhls/stream.m3u8
+朝鲜中央台http://s1.an94tv.cfd/aktv3/CH-0/AKTV.m3u8
+朝鲜中央台http://aktv-stream.m16tv.cfd/stream/nknews/null/AKTV.m3u8
+朝鲜中央台https://tv.nknews.org/tvhls/stream.m3u8
+朝鲜中央台https://tv.nknews.org/tvdash/stream.mpd
+朝鲜中央台https://tv.nknews.org/tvdash/stream-43963200.m4a
+
 韩国中央东洋,http://mdlstay.com:9981/stream/channelid/1016329428?ticket=423F377F478D02A46209C7D86C378CA1EFDD1BE4&profile=pass
 
 韩联社,https://tving-live-o2-xcdn.tving.com/o2/v1/019dd8deb9f5153d7865157cdbfbd6/019dd8df3d75153d7865157cdbfbd9/playlist.m3u8?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ0dmluZy5jb20iLCJleHAiOjE3ODI5OTY3OTMsInBhdGgiOiIvbzIifQ.geRJOH_F9C5g-GAaJ584nkjr_wwlHJ1Of-npUVYokv0#https://tving-live-o2-xcdn.tving.com/o2/v1/019db80595b1153d7865047a0ccd/019db8091f9d153d7865047a0cd0/playlist.m3u8?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ0dmluZy5jb20iLCJleHAiOjE3ODMwMzM4NjMsInBhdGgiOiIvbzIifQ.BkS5siB6teuhjvCRfK0KXakEZBkOeGW0KjAVhP3H82A
@@ -608,7 +609,7 @@ CCTV17,http://113.26.251.182:8009/hls/17/index.m3u8
 松视3,http://15.204.105.50:25461/live/G2s9zK2n9m/xDtwVfWM8T/90.ts
 香蕉,http://15.204.105.50:25461/live/G2s9zK2n9m/xDtwVfWM8T/117.ts
 
-日本写真,https://converse.nathcreqtives.com/channels/jp97/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJwc3ljaGVlZSIsImlhdCI6MTc4MDU3NTA1MywiZXhwIjoxNzg4MzUxMDUzLCJhY2NvdW50RXhwaXJlZCI6ZmFsc2UsImFjY291bnRFeHBpcmVzQXQiOjE3ODgzNTEwNTMsImFsbG93ZWRPcmlnaW5zIjpbImh0dHBzOi8vcHN5Y2hlZWVmbGl4dXV1Lm5ldGxpZnkuYXBwIiwiaHR0cHM6Ly9wc3ljaGVlZWZsaXh1dXUudmVyY2VsLmFwcCIsImh0dHBzOi8vcHN5Y2hlZmxpeC5wYWdlcy5kZXYiXX0.ngv2-3w4tcSIZR4J72tEsTZGQYt4iWRdVfFo3sQZa84#http://akariko.netgenx.site/stream/jp/pigoo_nsfw/stream-output.m3u8?mode=hls#https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01287-rakutentvjapan-rvariety-cmaf-rakutenjp/playlist.m3u8#https://cdn-apne1.tsv2.amagi.tv/linear/amg01287-rakutentvjapan-movie2cmaf-rakutenjp/playlist.m3u8
+セクシー,https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01287-rakutentvjapan-rvariety-cmaf-rakutenjp/playlist.m3u8#https://cdn-apne1.tsv2.amagi.tv/linear/amg01287-rakutentvjapan-movie2cmaf-rakutenjp/playlist.m3u8
 JAPAN,http://tr.zengi34.xyz:8080/UEJLSW1qN0MwYk0rcU43MFA2bVM2YUM3QmU2Ym1RaEUxNzVHNXZIV25Tek9jZDVoMUJnaDNGWUNaZzU0U1J3VA#http://hardcoremedia.xyz:80/6jTFRmvaSp/7534936344/248607#http://hardcoremedia.xyz:80/6jTFRmvaSp/7534936344/248608
 PLAYBOY,http://tr.zengi34.xyz:8080/UEJLSW1qN0MwYk0rcU43MFA2bVM2ZHdudU5wN042SDBGdEZOZ1k0VTM3cVo4VlJZMW5iRnMxK0c2L2M2eEpPMA
 PLAYBOY,http://190.11.225.124:5000/live/playboy_hd/playlist.m3u8
