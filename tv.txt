@@ -40,7 +40,7 @@ FOXNEWS,http://realsport.scalecdn.co:8080/live/supersonicstreams/cUewZolveU8Jh18
 朝鲜中央台https://tv.nknews.org/tvdash/stream-43963200.m4a
 
 韩国中央东洋,http://mdlstay.com:9981/stream/channelid/1016329428?ticket=423F377F478D02A46209C7D86C378CA1EFDD1BE4&profile=pass
-
+共同社,https://cdn-apne1.tsv2.amagi.tv/linear/amg01287-rakutentvjapan-news3hlscmaf-rakutenjp/playlist.m3u8
 韩联社,https://tving-live-o2-xcdn.tving.com/o2/v1/019dd8deb9f5153d7865157cdbfbd6/019dd8df3d75153d7865157cdbfbd9/playlist.m3u8?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ0dmluZy5jb20iLCJleHAiOjE3ODI5OTY3OTMsInBhdGgiOiIvbzIifQ.geRJOH_F9C5g-GAaJ584nkjr_wwlHJ1Of-npUVYokv0#https://tving-live-o2-xcdn.tving.com/o2/v1/019db80595b1153d7865047a0ccd/019db8091f9d153d7865047a0cd0/playlist.m3u8?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ0dmluZy5jb20iLCJleHAiOjE3ODMwMzM4NjMsInBhdGgiOiIvbzIifQ.BkS5siB6teuhjvCRfK0KXakEZBkOeGW0KjAVhP3H82A
 路透社,https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00453-reuters-reuters-hls-rakutenjp/playlist.m3u8
 路透社,https://dbrb49pjoymg4.cloudfront.net/manifest/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod_default_xumo-ams-aws/e7493ea5-5c1c-4d7a-a3f7-e95516048ad8/3.m3u8
