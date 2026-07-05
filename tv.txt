@@ -325,6 +325,8 @@ BS釣りビジョン,http://58.82.168.138:5002/bs25.m3u8?token=guoziyun&channel=
 TBSNEWS,http://58.82.168.138:5002/cs11.m3u8?token=guoziyun&channel=zhongying
 フジテレビNEXT,http://58.82.168.138:5002/cs26.m3u8?token=guoziyun&channel=zhongying
 
+ガキの使い,https://hamada.gaki-no-tsukai.stream/hls/test.m3u8
+
 NHKG,http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=hdgd01&isp=5
 NHKG,http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gd01&isp=5
 NHKG,http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gx06&isp=5
