@@ -526,7 +526,7 @@ CCTV17,http://113.26.251.182:8009/hls/17/index.m3u8
 松视3,http://15.204.105.50:25461/live/G2s9zK2n9m/xDtwVfWM8T/90.ts
 香蕉,http://15.204.105.50:25461/live/G2s9zK2n9m/xDtwVfWM8T/117.ts
 
-セクシー,https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01287-rakutentvjapan-rvariety-cmaf-rakutenjp/playlist.m3u8#https://cdn-apne1.tsv2.amagi.tv/linear/amg01287-rakutentvjapan-movie2cmaf-rakutenjp/playlist.m3u8
+セクシー,http://haru.charandom.blog/stream/jp/pigoo_nsfw/stream-output.m3u8?mode=hls#https://cdn-apne1.tsv2.amagi.tv/linear/amg01287-rakutentvjapan-movie2cmaf-rakutenjp/playlist.m3u8#https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01287-rakutentvjapan-rvariety-cmaf-rakutenjp/playlist.m3u8#https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01287-rakutentvjapan-rvariety-cmaf-rakutenjp/playlist.m3u8#https://cdn-apne1.tsv2.amagi.tv/linear/amg01287-rakutentvjapan-shigekicmaf-rakutenjp/playlist.m3u8
 JAPAN,http://tr.zengi34.xyz:8080/UEJLSW1qN0MwYk0rcU43MFA2bVM2YUM3QmU2Ym1RaEUxNzVHNXZIV25Tek9jZDVoMUJnaDNGWUNaZzU0U1J3VA#http://hardcoremedia.xyz:80/6jTFRmvaSp/7534936344/248607#http://hardcoremedia.xyz:80/6jTFRmvaSp/7534936344/248608
 PLAYBOY,http://tr.zengi34.xyz:8080/UEJLSW1qN0MwYk0rcU43MFA2bVM2ZHdudU5wN042SDBGdEZOZ1k0VTM3cVo4VlJZMW5iRnMxK0c2L2M2eEpPMA
 PLAYBOY,http://190.11.225.124:5000/live/playboy_hd/playlist.m3u8
