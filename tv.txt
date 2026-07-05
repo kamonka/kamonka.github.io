@@ -236,33 +236,6 @@ TORO,https://fastly.live.brightcove.com/1846756479408303045/eu-central-1/6057955
 PREMIERSPORTS1,http://best-8k.org/live/jjyw70ss4w/ek5ui8ithc/303258.m3u8
 PREMIERSPORTS2,http://best-8k.org/live/jjyw70ss4w/ek5ui8ithc/303257.m3u8
 
-beINSPORTS,http://portal-iptv.net:8080/077998950140/077998950140/187
-beINSports1-4K,http://portal-iptv.net:8080/077998950140/077998950140/31300
-beINSports1FHD,http://portal-iptv.net:8080/077998950140/077998950140/20355
-beINSports1UHD,http://portal-iptv.net:8080/077998950140/077998950140/43203
-beINSports2-4K,http://portal-iptv.net:8080/077998950140/077998950140/31301
-beINSports2FHD,http://portal-iptv.net:8080/077998950140/077998950140/20356
-beINSports2UHD,http://portal-iptv.net:8080/077998950140/077998950140/43204
-beINSports3-4K,http://portal-iptv.net:8080/077998950140/077998950140/31302
-beINSports4-4K,http://portal-iptv.net:8080/077998950140/077998950140/31303
-beINSports4FHD,http://portal-iptv.net:8080/077998950140/077998950140/20358
-beINSports4UHD,http://portal-iptv.net:8080/077998950140/077998950140/43206
-beINSports5-4K,http://portal-iptv.net:8080/077998950140/077998950140/31304
-beINSports5FHD,http://portal-iptv.net:8080/077998950140/077998950140/20359
-beINSports5UHD,http://portal-iptv.net:8080/077998950140/077998950140/43207
-beINSports6-4K,http://portal-iptv.net:8080/077998950140/077998950140/31305
-beINSports6FHD,http://portal-iptv.net:8080/077998950140/077998950140/20360
-beINSports7-4K,http://portal-iptv.net:8080/077998950140/077998950140/31306
-beINSports7FHD,http://portal-iptv.net:8080/077998950140/077998950140/20361
-beINSports8-4K,http://portal-iptv.net:8080/077998950140/077998950140/31307
-beINSports8FHD,http://portal-iptv.net:8080/077998950140/077998950140/20362
-beINSports8UHD,http://portal-iptv.net:8080/077998950140/077998950140/43210
-beINSports9-4K,http://portal-iptv.net:8080/077998950140/077998950140/31308
-beINSports9FHD,http://portal-iptv.net:8080/077998950140/077998950140/20363
-beINSports9UHD,http://portal-iptv.net:8080/077998950140/077998950140/43211
-beINSportsNBA,http://portal-iptv.net:8080/077998950140/077998950140/31299
-beINSPORTSNEWS,http://portal-iptv.net:8080/077998950140/077998950140/188
-
 SKYSPORTSNEWS,http://163.172.64.96:2017/live/GBa19qrcQYa3/u2c8FLfgkK/331.ts
 SkySportsMainEvent,http://163.172.64.96:2017/live/GBa19qrcQYa3/u2c8FLfgkK/332.ts
 SkySportsCricket,http://163.172.64.96:2017/live/GBa19qrcQYa3/u2c8FLfgkK/333.ts
@@ -281,33 +254,9 @@ TNTSPORT4,http://163.172.64.96:2017/live/GBa19qrcQYa3/u2c8FLfgkK/346.ts
 Eurosport1,http://163.172.64.96:2017/live/GBa19qrcQYa3/u2c8FLfgkK/351.ts
 Eurosport2,http://163.172.64.96:2017/live/GBa19qrcQYa3/u2c8FLfgkK/352.ts
 
-SKYSportsNews,http://fr3d0m.tebasya.work:8080/JVanmci423/dncSExXxmS/365
-PremiereSport1,http://fr3d0m.tebasya.work:8080/JVanmci423/dncSExXxmS/366
-PremiereSport2,http://fr3d0m.tebasya.work:8080/JVanmci423/dncSExXxmS/5307
-beINSports1,http://fr3d0m.tebasya.work:8080/JVanmci423/dncSExXxmS/511
-beINSports2,http://fr3d0m.tebasya.work:8080/JVanmci423/dncSExXxmS/512
-beINSports3,http://fr3d0m.tebasya.work:8080/JVanmci423/dncSExXxmS/513
-beINSports4,http://fr3d0m.tebasya.work:8080/JVanmci423/dncSExXxmS/514
-beINSports5,http://fr3d0m.tebasya.work:8080/JVanmci423/dncSExXxmS/515
-beINSports6,http://fr3d0m.tebasya.work:8080/JVanmci423/dncSExXxmS/516
-beINSports7,http://fr3d0m.tebasya.work:8080/JVanmci423/dncSExXxmS/517
-
-beINSports1,http://aflaxtv.xyz:8080/mitrovic/19106b7cb4/110
-beINSports2,http://aflaxtv.xyz:8080/mitrovic/19106b7cb4/111
-
-NOW英超,http://109.61.81.147:1935/cdn7/767/mpegts?token=1d8c18a3d377f5418d2501aa54082b60
-NOW英超,http://109.61.81.147:1935/cdn7/767/mpegts?token=1d8c18a3d377f5418d2501aa54082b60
-
-愛爾達體育1,http://8.218.84.3:8885/live/LxWcScuQ6WphaELY4DhkKm8SIv7_ZgNIJtNvFurqphvyqxUIU84OjKVCwFxMq9iU1qBEChmkVSZV2aaPRHlakRKUEVTLBLou0zZzYzXV5AT2hPbd2vlxZwFUKeDAHYHW8L-dZa58kETdQgxBeElrDsHz7uqJyN5XBTeIMLyd5C9gNbZOSPnBJMwfD16_APHMusOTvcoMgy4s3SlNcY4Whc3y-JgME7_luQp-1rmZnQ0xcj0w344qITNWQiz4Ibz8dDGWjXFmrhJNxnCDIka5vH0US5R4QKdfIUbcSpOGhEk.m3u8?u=1756878715
-愛爾達體育1,http://8.218.84.3:8885/live/LxWcScuQ6WphaELY4DhkKm8SIv7_ZgNIJtNvFurqphvyqxUIU84OjKVCwFxMq9iU1qBEChmkVSZV2aaPRHlakRKUEVTLBLou0zZzYzXV5AT2hPbd2vlxZwFUKeDAHYHW8L-dZa58kETdQgxBeElrDsHz7uqJyN5XBTeIMLyd5C9gNbZOSPnBJMwfD16_APHMusOTvcoMgy4s3SlNcY4Whc3y-JgME7_luQp-1rmZnQ0xcj0w344qITNWQiz4Ibz8dDGWjXFmrhJNxnCDIka5vH0US5R4QKdfIUbcSpOGhEk.m3u8?u=1756878715
-愛爾達體育2,http://8.218.84.3:8885/live/LxWcScuQ6WphaELY4DhkKm8SIv7_ZgNIJtNvFurqphvyqxUIU84OjKVCwFxMq9iU1qBEChmkVSZV2aaPRHlakeoYbDa6YZg-u47U6PhP5DZDJlUneMuOwRC3h5idOWdj_Ny25T7d4wMr5fziLsOD6XXT-oUNWhwoH4RG1NNB5fVfEtrENxQLrVzpdhIVXRVF8HKsB9oRlNdivgx1RwAjrpr62fIFBt1i1Czn7cEY6HMUqD6HCE0PS2FaKfJtY2Dlnntgigm1VGesLu8-5qxq9LNFJP_GDyjXOBG2VdISah4.m3u8?u=1756878715
-愛爾達體育2,http://8.218.84.3:8885/live/LxWcScuQ6WphaELY4DhkKm8SIv7_ZgNIJtNvFurqphvyqxUIU84OjKVCwFxMq9iU1qBEChmkVSZV2aaPRHlakeoYbDa6YZg-u47U6PhP5DZDJlUneMuOwRC3h5idOWdj_Ny25T7d4wMr5fziLsOD6XXT-oUNWhwoH4RG1NNB5fVfEtrENxQLrVzpdhIVXRVF8HKsB9oRlNdivgx1RwAjrpr62fIFBt1i1Czn7cEY6HMUqD6HCE0PS2FaKfJtY2Dlnntgigm1VGesLu8-5qxq9LNFJP_GDyjXOBG2VdISah4.m3u8?u=1756878715
-愛爾達體育3,http://8.218.84.3:8885/live/LxWcScuQ6WphaELY4DhkKm8SIv7_ZgNIJtNvFurqphvyqxUIU84OjKVCwFxMq9iU1qBEChmkVSZV2aaPRHlakdgDZYTd1TO17f1P5z1fhiat3_-0ZLkDmL_tm5VqfvlwYflnMRf6IMKUgWfzBvelfrb4GedBcHyXMidxDfbodbANXYhzG4eE296vdiGRXnbPAc1cTkGMtlGhA1KKcjE2KtNrUt4FDZ10KUAC-H7ZCUfiwTSNlI7MnP71NYfHszNjp1J1az5RpXgtkFrE1-HAXz_LN21JCg4GUNOTEkYx8xo.m3u8?u=1756878715
-愛爾達體育3,http://8.218.84.3:8885/live/LxWcScuQ6WphaELY4DhkKm8SIv7_ZgNIJtNvFurqphvyqxUIU84OjKVCwFxMq9iU1qBEChmkVSZV2aaPRHlakdgDZYTd1TO17f1P5z1fhiat3_-0ZLkDmL_tm5VqfvlwYflnMRf6IMKUgWfzBvelfrb4GedBcHyXMidxDfbodbANXYhzG4eE296vdiGRXnbPAc1cTkGMtlGhA1KKcjE2KtNrUt4FDZ10KUAC-H7ZCUfiwTSNlI7MnP71NYfHszNjp1J1az5RpXgtkFrE1-HAXz_LN21JCg4GUNOTEkYx8xo.m3u8?u=1756878715
-愛爾達體育4,http://8.218.84.3:8885/live/LxWcScuQ6WphaELY4DhkKm8SIv7_ZgNIJtNvFurqphvyqxUIU84OjKVCwFxMq9iU1qBEChmkVSZV2aaPRHlakaSewWqWYI4WfG5BpsX248_1fl65aF_k4-EyuAqxfB8eUBcxDVAdcNWKqPOsumeGwfEkaPtirer7EqgKhxL-fMwlhPr4Ufgt3gsXHRWhnjiaKRRx8QffRwYH9Bhx1DFWuGDeSmakS_rHOE-jjPxp64R0IVZXUY0oqEpaIAoxhrYNsVrC7OKaKQxp6aeO657K03l2V3WKW8oFowyfCGCdHUE.m3u8?u=1756878715
-愛爾達體育4,http://8.218.84.3:8885/live/LxWcScuQ6WphaELY4DhkKm8SIv7_ZgNIJtNvFurqphvyqxUIU84OjKVCwFxMq9iU1qBEChmkVSZV2aaPRHlakaSewWqWYI4WfG5BpsX248_1fl65aF_k4-EyuAqxfB8eUBcxDVAdcNWKqPOsumeGwfEkaPtirer7EqgKhxL-fMwlhPr4Ufgt3gsXHRWhnjiaKRRx8QffRwYH9Bhx1DFWuGDeSmakS_rHOE-jjPxp64R0IVZXUY0oqEpaIAoxhrYNsVrC7OKaKQxp6aeO657K03l2V3WKW8oFowyfCGCdHUE.m3u8?u=1756878715
-
 🇯🇵日本,#genre#
+NHKG,http://58.82.168.138:5002/hdgd01.m3u8?token=guoziyun&gid=hdgd01&channel=zhongying
+
 NHKG,http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=hdgd01&isp=5
 NHKG,http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gd01&isp=5
 NHKG,http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gx06&isp=5
@@ -372,6 +321,8 @@ BS釣りビジョン,http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m
 日テレG+,http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs02&isp=5
 TBSNEWS,http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs11&isp=5
 フジテレビNEXT,http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs26&isp=5
+
+ぴあ落語ざんまい,https://livetv.fastv.jp/channel_assembly/69608EE9725E0F73BF30/master.m3u8#https://livetv.fastv.jp/channel_assembly/69608EE9725E0F73BF30/master.m3u8
 
 ディスカバリー,https://converse.nathcreqtives.com/channels/cs08/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJwc3ljaGVlZSIsImlhdCI6MTc4MDU3NTA1MywiZXhwIjoxNzg4MzUxMDUzLCJhY2NvdW50RXhwaXJlZCI6ZmFsc2UsImFjY291bnRFeHBpcmVzQXQiOjE3ODgzNTEwNTMsImFsbG93ZWRPcmlnaW5zIjpbImh0dHBzOi8vcHN5Y2hlZWVmbGl4dXV1Lm5ldGxpZnkuYXBwIiwiaHR0cHM6Ly9wc3ljaGVlZWZsaXh1dXUudmVyY2VsLmFwcCIsImh0dHBzOi8vcHN5Y2hlZmxpeC5wYWdlcy5kZXYiXX0.ngv2-3w4tcSIZR4J72tEsTZGQYt4iWRdVfFo3sQZa84
 WOWOWプラス,https://converse.nathcreqtives.com/channels/jp33/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJwc3ljaGVlZSIsImlhdCI6MTc4MDU3NTA1MywiZXhwIjoxNzg4MzUxMDUzLCJhY2NvdW50RXhwaXJlZCI6ZmFsc2UsImFjY291bnRFeHBpcmVzQXQiOjE3ODgzNTEwNTMsImFsbG93ZWRPcmlnaW5zIjpbImh0dHBzOi8vcHN5Y2hlZWVmbGl4dXV1Lm5ldGxpZnkuYXBwIiwiaHR0cHM6Ly9wc3ljaGVlZWZsaXh1dXUudmVyY2VsLmFwcCIsImh0dHBzOi8vcHN5Y2hlZmxpeC5wYWdlcy5kZXYiXX0.ngv2-3w4tcSIZR4J72tEsTZGQYt4iWRdVfFo3sQZa84
@@ -657,7 +608,7 @@ CCTV17,http://113.26.251.182:8009/hls/17/index.m3u8
 松视3,http://15.204.105.50:25461/live/G2s9zK2n9m/xDtwVfWM8T/90.ts
 香蕉,http://15.204.105.50:25461/live/G2s9zK2n9m/xDtwVfWM8T/117.ts
 
-日本写真,https://converse.nathcreqtives.com/channels/jp97/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJwc3ljaGVlZSIsImlhdCI6MTc4MDU3NTA1MywiZXhwIjoxNzg4MzUxMDUzLCJhY2NvdW50RXhwaXJlZCI6ZmFsc2UsImFjY291bnRFeHBpcmVzQXQiOjE3ODgzNTEwNTMsImFsbG93ZWRPcmlnaW5zIjpbImh0dHBzOi8vcHN5Y2hlZWVmbGl4dXV1Lm5ldGxpZnkuYXBwIiwiaHR0cHM6Ly9wc3ljaGVlZWZsaXh1dXUudmVyY2VsLmFwcCIsImh0dHBzOi8vcHN5Y2hlZmxpeC5wYWdlcy5kZXYiXX0.ngv2-3w4tcSIZR4J72tEsTZGQYt4iWRdVfFo3sQZa84#http://akariko.netgenx.site/stream/jp/pigoo_nsfw/stream-output.m3u8?mode=hls
+日本写真,https://converse.nathcreqtives.com/channels/jp97/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJwc3ljaGVlZSIsImlhdCI6MTc4MDU3NTA1MywiZXhwIjoxNzg4MzUxMDUzLCJhY2NvdW50RXhwaXJlZCI6ZmFsc2UsImFjY291bnRFeHBpcmVzQXQiOjE3ODgzNTEwNTMsImFsbG93ZWRPcmlnaW5zIjpbImh0dHBzOi8vcHN5Y2hlZWVmbGl4dXV1Lm5ldGxpZnkuYXBwIiwiaHR0cHM6Ly9wc3ljaGVlZWZsaXh1dXUudmVyY2VsLmFwcCIsImh0dHBzOi8vcHN5Y2hlZmxpeC5wYWdlcy5kZXYiXX0.ngv2-3w4tcSIZR4J72tEsTZGQYt4iWRdVfFo3sQZa84#http://akariko.netgenx.site/stream/jp/pigoo_nsfw/stream-output.m3u8?mode=hls#https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01287-rakutentvjapan-rvariety-cmaf-rakutenjp/playlist.m3u8#https://cdn-apne1.tsv2.amagi.tv/linear/amg01287-rakutentvjapan-movie2cmaf-rakutenjp/playlist.m3u8
 JAPAN,http://tr.zengi34.xyz:8080/UEJLSW1qN0MwYk0rcU43MFA2bVM2YUM3QmU2Ym1RaEUxNzVHNXZIV25Tek9jZDVoMUJnaDNGWUNaZzU0U1J3VA#http://hardcoremedia.xyz:80/6jTFRmvaSp/7534936344/248607#http://hardcoremedia.xyz:80/6jTFRmvaSp/7534936344/248608
 PLAYBOY,http://tr.zengi34.xyz:8080/UEJLSW1qN0MwYk0rcU43MFA2bVM2ZHdudU5wN042SDBGdEZOZ1k0VTM3cVo4VlJZMW5iRnMxK0c2L2M2eEpPMA
 PLAYBOY,http://190.11.225.124:5000/live/playboy_hd/playlist.m3u8
