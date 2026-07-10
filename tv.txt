@@ -150,18 +150,23 @@ BBC1,http://atlanticflixtv.online/1552952/97L6A58/69431
 BBC1,http://wx78.vpn-cloud.icu:8080/p3v23bcwj2/j9iyghyczo/77361
 
 🇭🇰台港综合,#genre#
+公视,http://211.72.174.95:8116/0.ts
+中视,http://211.72.174.95:8113/0.ts
+华视,http://211.72.174.95:8114/0.ts
+民视,http://211.72.174.95:8115/0.ts
+台视,http://211.72.174.95:8112/0.ts
+公视,http://220.135.241.47:8305/0.ts
+华视,http://220.135.241.47:8318/0.ts
+华视,http://220.135.241.47:8317/0.ts
+台视,http://211.72.174.95:8112/0.ts
+民视,http://211.72.174.95:8115/0.ts
+中视,http://220.135.241.47:8301/0.ts
 
 民视,https://ha.msbot.dpdns.org/4gtv_api.php?id=3
 民视,https://ha.msbot.dpdns.org/4gtv_api.php?id=246
 TVBS,https://ha.msbot.dpdns.org/4gtv_api.php?id=183
 中视,https://ha.msbot.dpdns.org/4gtv_api.php?id=4
 华视,https://ha.msbot.dpdns.org/4gtv_api.php?id=6
-
-中视,http://211.72.174.95:8113/0.ts
-华视,http://211.72.174.95:8114/0.ts
-公视,http://211.72.174.95:8116/0.ts
-民视,http://211.72.174.95:8115/0.ts
-台视,http://211.72.174.95:8112/0.ts
 
 翡翠台,https://o11.163189.xyz/stream/tvb/fct4k/
 翡翠台,https://o11.163189.xyz/stream/tvb/fct/
