@@ -94,6 +94,7 @@ TVBS新闻,http://jnzq.ohoyee.com:9080/live/332123-tvbsxw.m3u8
 台视新闻,https://live.wcetv.com/hls/master-ttvnews.m3u8
 东森新闻,http://211.72.174.95:8138/0.ts
 
+NOW新闻,https://95.ru8.dpdns.org/live/stream-08d3076d-be27-4ef5-bafa-7cb3b8de4504/video/index.m3u8?u=asdf&p=f0e4c2f76c58916ec258f246851bea091d14d4247a2fc3e18694461b1816e13b
 NOW新闻,http://cdn.163189.xyz/163189/now
 HOY资讯,http://cdn.163189.xyz/163189/hoy78
 凤凰资讯,http://cdn6.163189.xyz/163189/fhzx#https://cdn9.163189.xyz/smt3.1.1.php?id=phoenixinfo_hd
