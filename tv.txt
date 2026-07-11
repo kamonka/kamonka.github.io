@@ -17,7 +17,6 @@ HKNOW⁴ᵏ,http://mag.greatott.me:80/play/live.php?mac=00:1A:79:74:B1:B9&stream
 HKNOW⁴ᵏ,http://89.187.179.148:826/anto.j/c9yJDcXyPe/120336
 video,https://xzb-vod.52kq.top/64664c68vodsgp1386416388/0e344ef25001834811231810645/playlist_eof.m3u8?t=6a520656&us=b3800b11d5&sign=ca994fd4cbda52be45cfbc4eb790c486
 
-
 🇬🇬世界新闻,#genre#
 BBC,http://58.82.168.138:5002/cs15.m3u8?token=guoziyun&gid=cs15&channel=zhongying
 CNN,http://58.82.168.138:5002/cs16.m3u8?token=guoziyun&gid=cs16&channel=zhongying
