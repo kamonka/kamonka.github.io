@@ -10,11 +10,11 @@ CCTV5,http://204.12.221.218:8181/3m1080p/cctv5.m3u8
 CCTV5,http://63.141.230.178:82/gslb/zbdq5.m3u8?id=cctv5hd
 CCTV5,http://107.150.60.122/live/cctv5hd.m3u8
 咪咕直播⁴ᵏ
-HKNOW,https://iptv.852851.xyz/l/DFZt_r5BcCiVcS0AIIcXAM74gYiZs6fUDsZtRKv2s2L5IPhfqkOxtaNKB8Drs6qc/index.m3u8#http://10k.lucastv.pro/live/2c99755ae255/gJnMAT2/465863.ts#http://10k.lucastv.pro/live/2c99755ae255/gJnMAT2/465861.ts
+HKNOW,http://10k.lucastv.pro/live/2c99755ae255/gJnMAT2/465863.ts#http://10k.lucastv.pro/live/2c99755ae255/gJnMAT2/465861.ts
 HKNOW⁴ᵏ,http://tectonbrand.com:80/4KYD2C92D/1Z6BCL4/438866#http://10k.lucastv.pro/live/2c99755ae255/gJnMAT2/465865.ts#http://10k.lucastv.pro/live/2c99755ae255/gJnMAT2/465864.ts
 HKNOW⁴ᵏ,http://mag.greatott.me:80/play/live.php?mac=00:1A:79:74:B1:B9&stream=2095898&extension=ts&play_token=1qHzIcYuYs#http://mag.greatott.me:80/play/live.php?mac=00:1A:79:74:B1:B9&stream=2095897&extension=ts&play_token=vG5XGcNqrZ
 HKNOW⁴ᵏ,http://89.187.179.148:826/anto.j/c9yJDcXyPe/120336
-video,https://xzb-vod.52kq.top/64664c68vodsgp1386416388/2b2e569a5001834810710824665/playlist_eof.m3u8?t=6a4dee68&us=6a4c4e2d89&sign=020ef5a03e428db94e23ec498b8d5854#https://xzb-vod.52kq.top/64664c68vodsgp1386416388/67579a3e5001834810738693025/playlist_eof.m3u8?t=6a4deb17&us=c6be70a572&sign=270bdb1650acfdeaef2232428970c2eb
+video,https://xzb-vod.52kq.top/64664c68vodsgp1386416388/0e344ef25001834811231810645/playlist_eof.m3u8?t=6a520656&us=b3800b11d5&sign=ca994fd4cbda52be45cfbc4eb790c486
 
 
 🇬🇬世界新闻,#genre#
