@@ -27,6 +27,9 @@ BBC,https://vs-hls-push-ww-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_new
 BBC,http://163.172.64.96:2017/live/GBa19qrcQYa3/u2c8FLfgkK/250.ts
 CNN,http://163.172.64.96:2017/live/GBa19qrcQYa3/u2c8FLfgkK/253.ts
 
+BBC,https://tv123.cc.cd/live.php?ch=1666&sid=33e6572106d67b0e17d9db8fc5dd4a37&exp=1783873269&sig=e0ba8759159ffc3ffab7d13f58d8ff6aeea285bbc694d992a06cd68b24fec483
+CNN,https://tv123.cc.cd/live.php?ch=1667&sid=33e6572106d67b0e17d9db8fc5dd4a37&exp=1783873269&sig=1af11b9c22c103265034541e804dc958018f7d70ecf0790595fe8ee1191dabf7
+
 FOXNEWS,http://neosfpoo.top:8080/101778770428/e511208ea106/71887#http://neosfpoo.top:8080/101778770428/e511208ea106/71888
 
 BBC,http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs15&isp=5
@@ -304,7 +307,7 @@ JCOM,http://58.82.168.138:5002/bs31.m3u8?token=guoziyun&channel=zhongying
 東映,http://58.82.168.138:5002/cs27.m3u8?token=guoziyun&channel=zhongying
 日本映画,http://58.82.168.138:5002/bs23.m3u8?token=guoziyun&channel=zhongying
 ムービープラス,http://58.82.168.138:5002/cs14.m3u8?token=guoziyun&channel=zhongying
-10プレミアム,http://58.82.168.138:5002/cs08.m3u8?token=guoziyun&gid=cs08&channel=zhongying
+BS10プレミアム,http://58.82.168.138:5002/cs08.m3u8?token=guoziyun&gid=cs08&channel=zhongying
 衛星劇場,http://58.82.168.138:5002/cs22.m3u8?token=guoziyun&channel=zhongying
 スカイA,http://58.82.168.138:5002/cs01.m3u8?token=guoziyun&channel=zhongying
 WOWOWプライム,http://58.82.168.138:5002/bs12.m3u8?token=guoziyun&channel=zhongying
@@ -335,6 +338,67 @@ TBSNEWS,http://58.82.168.138:5002/cs11.m3u8?token=guoziyun&channel=zhongying
 フジテレビNEXT,http://58.82.168.138:5002/cs26.m3u8?token=guoziyun&channel=zhongying
 
 ガキの使い,https://hamada.gaki-no-tsukai.stream/hls/test.m3u8
+
+NHKG,https://tv123.cc.cd/live.php?ch=1626&sid=33e6572106d67b0e17d9db8fc5dd4a37&exp=1783873269&sig=a1ce7d8508b9b7bc11bae0b9a106e44c73157fcc3726735c15a68e09145d7f00
+NHKG,https://tv123.cc.cd/live.php?ch=1627&sid=33e6572106d67b0e17d9db8fc5dd4a37&exp=1783873269&sig=30e6706e4e8b8767b752cf982a7a6f8f5d24ff0aa03d162b396adf29f87a08af
+NHKG,https://tv123.cc.cd/live.php?ch=1636&sid=33e6572106d67b0e17d9db8fc5dd4a37&exp=1783873269&sig=6ffd658c46cb24754eec91998f1e37b479e3389a26794b98d049490cbf809fda
+NHKBS,https://tv123.cc.cd/live.php?ch=1644&sid=33e6572106d67b0e17d9db8fc5dd4a37&exp=1783873269&sig=28b43d87e9e7b15bdff97d08d4ddefe97627718f9bfa06d2ee3e3fba284b173c
+NHKBS,https://tv123.cc.cd/live.php?ch=1645&sid=33e6572106d67b0e17d9db8fc5dd4a37&exp=1783873269&sig=e19dd782f97051b656d9d9f4cc3303f35dd653936ecb22e8f73e7b6af0f10392
+NHKBSP,https://tv123.cc.cd/live.php?ch=1656&sid=33e6572106d67b0e17d9db8fc5dd4a37&exp=1783873269&sig=d6de58e0397018624b7da0952dd1c1cbb53e3560975214208b57a787123ddebd
+NHKE,https://tv123.cc.cd/live.php?ch=1628&sid=33e6572106d67b0e17d9db8fc5dd4a37&exp=1783873269&sig=84f040ff7604e5eedf78e8c2359ac04bf83f46f0991b682e14c6eef2c24b2762
+日本テレビ,https://tv123.cc.cd/live.php?ch=1629&sid=33e6572106d67b0e17d9db8fc5dd4a37&exp=1783873269&sig=55557c14abce15f21a81b1cd8e0ce6610955819b83522e1cb28ec05555dbe9c7
+日本テレビ,https://tv123.cc.cd/live.php?ch=1643&sid=33e6572106d67b0e17d9db8fc5dd4a37&exp=1783873269&sig=eff7fc87a1197ffdcef65e5a8cddcec8c022a75018380d61bbb83bda82ac7dd3
+TBS,https://tv123.cc.cd/live.php?ch=1631&sid=33e6572106d67b0e17d9db8fc5dd4a37&exp=1783873269&sig=b8391f0948a3fe0cef3b4fe5748a49a43d15b02313a5701263bac25f335f4b5f
+TBS,https://tv123.cc.cd/live.php?ch=1638&sid=33e6572106d67b0e17d9db8fc5dd4a37&exp=1783873269&sig=d7fcf76c84b7bee4989c69de1245cb19bbafa75729d87ca0aca43cba199a6e66
+フジテレビ,https://tv123.cc.cd/live.php?ch=1633&sid=33e6572106d67b0e17d9db8fc5dd4a37&exp=1783873269&sig=3e3eb1f00e71cfa6ece281e12758b1037beac88a804c232f5c1f119031e5b088
+フジテレビ,https://tv123.cc.cd/live.php?ch=1642&sid=33e6572106d67b0e17d9db8fc5dd4a37&exp=1783873269&sig=0fd78e2da306338cd3574c887a9bd50adb52e1b2d23e209890b46526778b20e1
+テレビ朝日,https://tv123.cc.cd/live.php?ch=1630&sid=33e6572106d67b0e17d9db8fc5dd4a37&exp=1783873269&sig=111bfa8843f4f69b7764215d395821e75ec08bd061757218269ccc82e8f9fd56
+テレビ朝日,https://tv123.cc.cd/live.php?ch=1640&sid=33e6572106d67b0e17d9db8fc5dd4a37&exp=1783873269&sig=668fd5568472778d753ef018f8488405893c249e47dafc6f16591756a489d110
+テレビ東京,https://tv123.cc.cd/live.php?ch=1632&sid=33e6572106d67b0e17d9db8fc5dd4a37&exp=1783873269&sig=297eb91c2aad2b85d77e189b14dab15d6be058d7dff07a7573587e3b9aa7d630
+テレビ東京,https://tv123.cc.cd/live.php?ch=1641&sid=33e6572106d67b0e17d9db8fc5dd4a37&exp=1783873269&sig=f11e1bd0d7cb1de3358a049b142cb4d8826f10834675f9d8772762cbfd1ee014
+TOKYOMX1,https://tv123.cc.cd/live.php?ch=1634&sid=33e6572106d67b0e17d9db8fc5dd4a37&exp=1783873269&sig=1c3d9d1edd8cf62ba1d61521d6d07de5f8764ed9a2323f1ac3eadc5655f1e545
+TOKYOMX2,https://tv123.cc.cd/live.php?ch=1635&sid=33e6572106d67b0e17d9db8fc5dd4a37&exp=1783873269&sig=ddc7e21b9c4dd479d26f4d466fb6cfc23fb95d96b14437816f82228bd9c4616f
+サンテレビ,https://tv123.cc.cd/live.php?ch=1637&sid=33e6572106d67b0e17d9db8fc5dd4a37&exp=1783873269&sig=639d8756ec0769a54e2392f3d92194a50de1c9d343e81dfeba0ab01452907e7d
+KBS京都,https://tv123.cc.cd/live.php?ch=1639&sid=33e6572106d67b0e17d9db8fc5dd4a37&exp=1783873269&sig=a1af7d3b0ad57927c6ec21f07054a9f5e3f60869939380bf9a65e3fffea75779
+BS日テレ,https://tv123.cc.cd/live.php?ch=1646&sid=33e6572106d67b0e17d9db8fc5dd4a37&exp=1783873269&sig=35daaa4c2781333e461acbd780d5940cf4ed9fddeba976d9367dd11a2ede79f7
+BSTBS,https://tv123.cc.cd/live.php?ch=1648&sid=33e6572106d67b0e17d9db8fc5dd4a37&exp=1783873269&sig=2a81d505579817947172b9dce72e76a3e8f8b57a5a996283abf54ba9efaa0a99
+BSフジ,https://tv123.cc.cd/live.php?ch=1650&sid=33e6572106d67b0e17d9db8fc5dd4a37&exp=1783873269&sig=7c47b6788371eee1e8deb12312c35362fc37385f97c60660f4e0a82e78956f63
+BS朝日,https://tv123.cc.cd/live.php?ch=1647&sid=33e6572106d67b0e17d9db8fc5dd4a37&exp=1783873269&sig=18e2850871de1ab5512fcb3437ee02f9a3e6d1cc7abd705ae87a2035aa5e4170
+BSテレ東,https://tv123.cc.cd/live.php?ch=1649&sid=33e6572106d67b0e17d9db8fc5dd4a37&exp=1783873269&sig=68a994dafb2a9e916370098e5928706b099d84e4f11be47b67492123492d3dbb
+ディスカバリー,https://tv123.cc.cd/live.php?ch=1722&sid=33e6572106d67b0e17d9db8fc5dd4a37&exp=1783873269&sig=036f748373880fd7e2471eb7ff94d17a6c48214f827f80bceef1dc5bf8ab8449
+アニマルプラネット,https://tv123.cc.cd/live.php?ch=1723&sid=33e6572106d67b0e17d9db8fc5dd4a37&exp=1783873269&sig=8bd31481fc6e84f4b0036397f88c9b7f8b82c3bdff199c743e1cfcc822a1b12f
+ヒストリー,https://tv123.cc.cd/live.php?ch=1724&sid=33e6572106d67b0e17d9db8fc5dd4a37&exp=1783873269&sig=46a4f71fccbfc6f66039d942ac56d1a6fdd797fa2f50de3d39a867c4499facb2
+ナショジオ,https://tv123.cc.cd/live.php?ch=1725&sid=33e6572106d67b0e17d9db8fc5dd4a37&exp=1783873269&sig=bbb5630e371b0acf828477f383f762dd45c5ab93855035e9a9fac5eedbc43166
+BS吉本,https://tv123.cc.cd/live.php?ch=1655&sid=33e6572106d67b0e17d9db8fc5dd4a37&exp=1783873269&sig=02316ab899e1945412f37010cacef2d695af0637bc98cf9a10df7d1d7edbfa98
+JCOM,https://tv123.cc.cd/live.php?ch=1654&sid=33e6572106d67b0e17d9db8fc5dd4a37&exp=1783873269&sig=5cd3bf6d794225885c29a131182b4317c4c2863bd08721ffeae3c2727db865ab
+BS10プレミアム,https://tv123.cc.cd/live.php?ch=1660&sid=33e6572106d67b0e17d9db8fc5dd4a37&exp=1783873269&sig=94553ae70104d2835d532b5dfdef665f7e01033ce6dd5d1a6a52d7d3117b5c07
+WOWOWプライム,https://tv123.cc.cd/live.php?ch=1657&sid=33e6572106d67b0e17d9db8fc5dd4a37&exp=1783873269&sig=66d662ddd7381fe83ddd700b9d4d60553c1e7aa5a1d7ed6a91a5ccad84e69193
+WOWOWライブ,https://tv123.cc.cd/live.php?ch=1658&sid=33e6572106d67b0e17d9db8fc5dd4a37&exp=1783873269&sig=bb4482f81daf0a78b4866fb383b965b343005a6364aa4fb0d6f3277d493dcf04
+WOWOWシネマ,https://tv123.cc.cd/live.php?ch=1659&sid=33e6572106d67b0e17d9db8fc5dd4a37&exp=1783873269&sig=c3553019bf3282bd7e78d110e6a55b630b76fd34bb19de5c38795a91eac510e2
+WOWOWプラス,https://tv123.cc.cd/live.php?ch=1661&sid=33e6572106d67b0e17d9db8fc5dd4a37&exp=1783873269&sig=4468d2444a149438231641de84da3c4cfdfe5db4e574c07cef1137e5bac54628
+東映,https://tv123.cc.cd/live.php?ch=1683&sid=33e6572106d67b0e17d9db8fc5dd4a37&exp=1783873269&sig=244134ceeff4de78a110fb5b1f188bc70ad131927ad90477c5378db1bb07468c
+衛星劇場,https://tv123.cc.cd/live.php?ch=1684&sid=33e6572106d67b0e17d9db8fc5dd4a37&exp=1783873269&sig=907096de228e3963158ab05e248ca17d8e6fadaa84077f5a289dc8d846c3abad
+Neco,https://tv123.cc.cd/live.php?ch=1685&sid=33e6572106d67b0e17d9db8fc5dd4a37&exp=1783873269&sig=264cc6ddfc5a29a3494acc579235e202d8cc9ceb3481864f294451516ab2300c
+ザ･シネマ,https://tv123.cc.cd/live.php?ch=1686&sid=33e6572106d67b0e17d9db8fc5dd4a37&exp=1783873269&sig=dae567221425fa28f4f6b9673f6ca6e864a2c958e32dfbbf54f316097dea75df
+ムービープラス,https://tv123.cc.cd/live.php?ch=1687&sid=33e6572106d67b0e17d9db8fc5dd4a37&exp=1783873269&sig=0370e90f2d327c5c573c2cb5b9e68c6385c9a14ad2825179e0ec7db01f7981f5
+日本映画,https://tv123.cc.cd/live.php?ch=1688&sid=33e6572106d67b0e17d9db8fc5dd4a37&exp=1783873269&sig=ae307b51d8e30595e632cedfa5dcb0d6f460959755d548368f5aa109b3282e61
+時代劇,https://tv123.cc.cd/live.php?ch=1689&sid=33e6572106d67b0e17d9db8fc5dd4a37&exp=1783873269&sig=0b32b2d0af01c150950a06341c34641bcffb93b899c2280e6ef328a5a5addfd2
+ファミリー劇場,https://tv123.cc.cd/live.php?ch=1690&sid=33e6572106d67b0e17d9db8fc5dd4a37&exp=1783873269&sig=9227a156047afc6aa9dcf23c437d1f807ced0f106420fd3b3ad1b20ccd3d1a77
+ホームドラマ,https://tv123.cc.cd/live.php?ch=1691&sid=33e6572106d67b0e17d9db8fc5dd4a37&exp=1783873269&sig=d880a1597282f901d996e39f2eeff6e1b2def9880ada612e5f5e19446c2d9e25
+宝塚歌劇,https://tv123.cc.cd/live.php?ch=1715&sid=33e6572106d67b0e17d9db8fc5dd4a37&exp=1783873269&sig=46cb1d2fc4934fb552539c4b88b64dc5731a22e5617d9836bde22e7abae3400e
+JSport1,https://tv123.cc.cd/live.php?ch=1672&sid=33e6572106d67b0e17d9db8fc5dd4a37&exp=1783873269&sig=d764307f3b7b034a82909374f270dd2ecd8888d8b1be6e03fb1f91e366832d9d
+JSport2,https://tv123.cc.cd/live.php?ch=1673&sid=33e6572106d67b0e17d9db8fc5dd4a37&exp=1783873269&sig=e996ab9e5bcd8a64df2cabcdaee359b4c88379c5c7cf79bf81fd11aa1947d9d7
+JSport3,https://tv123.cc.cd/live.php?ch=1674&sid=33e6572106d67b0e17d9db8fc5dd4a37&exp=1783873269&sig=8940b9c87dcdc791b6f99b134711f8e5f88fc16cd634a11bdc0bb2b629bdb84d
+JSport4,https://tv123.cc.cd/live.php?ch=1675&sid=33e6572106d67b0e17d9db8fc5dd4a37&exp=1783873269&sig=4725174c74de3bd3bd690e734697ea1d316789b7c1ad879b4fd79a03c1ad5bf9
+ペット,https://tv123.cc.cd/live.php?ch=1728&sid=33e6572106d67b0e17d9db8fc5dd4a37&exp=1783873269&sig=a617a3e654b3d3dc3e6c9d45034504183ed178e793f7d77dcdf9d48fd62314b6
+キャンプ・アウトドア,https://tv123.cc.cd/live.php?ch=1729&sid=33e6572106d67b0e17d9db8fc5dd4a37&exp=1783873269&sig=4d35663ca3003610f99d0ac0de19bfc7bae20090888f9e7862eeb7eca5ebb8ca
+今日のごはんなに?,https://tv123.cc.cd/live.php?ch=1730&sid=33e6572106d67b0e17d9db8fc5dd4a37&exp=1783873269&sig=32d598eb9d605102c55960ed71bc8300b1ee365fd3206ac5405549f4108c91eb
+観るたび,https://tv123.cc.cd/live.php?ch=1731&sid=33e6572106d67b0e17d9db8fc5dd4a37&exp=1783873269&sig=7923ac9d2a747ec173b07b214a8784c5d4f14383b8cf24f54795ad20b954f1a8
+MondoTV,https://tv123.cc.cd/live.php?ch=1732&sid=33e6572106d67b0e17d9db8fc5dd4a37&exp=1783873269&sig=3923ac0cca056bd6ea30d825ca4f2396ae361d9ba0bee8f41d75fa57376b55e1
+ぴあ落語ざんまい,https://tv123.cc.cd/live.php?ch=1737&sid=33e6572106d67b0e17d9db8fc5dd4a37&exp=1783873269&sig=cd7f4ae132fe6b8478561d6d3abc66abce7bbcb64fedb4fb46dcdd988106fa82
+FASHIONPLUS,https://tv123.cc.cd/live.php?ch=1738&sid=33e6572106d67b0e17d9db8fc5dd4a37&exp=1783873269&sig=08a564a4dff97fbd22eacb23eea348e9c41dac578ba89eb505b91d384139a101
+韓流,https://tv123.cc.cd/live.php?ch=1745&sid=33e6572106d67b0e17d9db8fc5dd4a37&exp=1783873269&sig=1420105f1d4ece6acbcc52fdc49d651064e03457c8150b5a18cd63e25b90f47c
+V☆パラダイス,https://tv123.cc.cd/live.php?ch=1746&sid=33e6572106d67b0e17d9db8fc5dd4a37&exp=1783873269&sig=f66c6b173948046bf6d412fdc35d61a17df8566d461fa72f404044aaf51a2994
 
 NHKG,http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=hdgd01&isp=5
 NHKG,http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gd01&isp=5
@@ -587,7 +651,7 @@ CCTV17,http://113.26.251.182:8009/hls/17/index.m3u8
 松视3,http://15.204.105.50:25461/live/G2s9zK2n9m/xDtwVfWM8T/90.ts
 香蕉,http://15.204.105.50:25461/live/G2s9zK2n9m/xDtwVfWM8T/117.ts
 
-セクシー,http://haru.charandom.blog/stream/jp/pigoo_nsfw/stream-output.m3u8?mode=hls#https://cdn-apne1.tsv2.amagi.tv/linear/amg01287-rakutentvjapan-movie2cmaf-rakutenjp/playlist.m3u8#https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01287-rakutentvjapan-rvariety-cmaf-rakutenjp/playlist.m3u8#https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01287-rakutentvjapan-rvariety-cmaf-rakutenjp/playlist.m3u8#https://cdn-apne1.tsv2.amagi.tv/linear/amg01287-rakutentvjapan-shigekicmaf-rakutenjp/playlist.m3u8
+セクシー,http://haru.charandom.blog/stream/jp/pigoo_nsfw/stream-output.m3u8?mode=hls#https://cdn-apne1.tsv2.amagi.tv/linear/amg01287-rakutentvjapan-movie2cmaf-rakutenjp/playlist.m3u8#https://tv123.cc.cd/live.php?ch=1747&sid=33e6572106d67b0e17d9db8fc5dd4a37&exp=1783873269&sig=af89b9726dacff0eee6f05fd46c9ebb8de23426bb2d31e9caada05d2f32b349b#https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01287-rakutentvjapan-rvariety-cmaf-rakutenjp/playlist.m3u8#https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01287-rakutentvjapan-rvariety-cmaf-rakutenjp/playlist.m3u8#https://cdn-apne1.tsv2.amagi.tv/linear/amg01287-rakutentvjapan-shigekicmaf-rakutenjp/playlist.m3u8
 JAPAN,http://tr.zengi34.xyz:8080/UEJLSW1qN0MwYk0rcU43MFA2bVM2YUM3QmU2Ym1RaEUxNzVHNXZIV25Tek9jZDVoMUJnaDNGWUNaZzU0U1J3VA#http://hardcoremedia.xyz:80/6jTFRmvaSp/7534936344/248607#http://hardcoremedia.xyz:80/6jTFRmvaSp/7534936344/248608
 PLAYBOY,http://tr.zengi34.xyz:8080/UEJLSW1qN0MwYk0rcU43MFA2bVM2ZHdudU5wN042SDBGdEZOZ1k0VTM3cVo4VlJZMW5iRnMxK0c2L2M2eEpPMA
 PLAYBOY,http://190.11.225.124:5000/live/playboy_hd/playlist.m3u8
