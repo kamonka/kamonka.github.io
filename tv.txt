@@ -16,7 +16,7 @@ HKNOW⁴ᵏ,http://host-aurora.vip:80/play/live.php?mac=00:1a:79:31:c2:72&stream
 HKNOW⁴ᵏ,http://tectonbrand.com:80/4KYD2C92D/1Z6BCL4/438866#http://10k.lucastv.pro/live/2c99755ae255/gJnMAT2/465865.ts#http://10k.lucastv.pro/live/2c99755ae255/gJnMAT2/465864.ts
 HKNOW⁴ᵏ,http://mag.greatott.me:80/play/live.php?mac=00:1A:79:74:B1:B9&stream=2095898&extension=ts&play_token=1qHzIcYuYs#http://mag.greatott.me:80/play/live.php?mac=00:1A:79:74:B1:B9&stream=2095897&extension=ts&play_token=vG5XGcNqrZ
 HKNOW⁴ᵏ,http://89.187.179.148:826/anto.j/c9yJDcXyPe/120336
-video,https://xzb-vod.52kq.top/64664c68vodsgp1386416388/d0710f665001834811373975871/playlist_eof.m3u8?t=6a535d08&us=5d3483bd0b&sign=6d06ce4bb44c05145e1bce4e5a493131#https://xzb-vod.52kq.top/64664c68vodsgp1386416388/cd5ecff85001834811349402437/playlist_eof.m3u8?t=6a535e94&us=1c1a41ebb3&sign=e4a14276404e4e6e44168e7f7687871b
+video,https://xzb-vod.52kq.top/64664c68vodsgp1386416388/da29205b5001834811814953252/playlist_eof.m3u8?t=6a572e0a&us=258c6bc03e&sign=677aa91f7f646eedceb7ed7189868c8d
 
 🇬🇬世界新闻,#genre#
 BBC,https://naori-test.netgenx.site/pxx.php?shk_cid=cs15
