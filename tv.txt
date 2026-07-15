@@ -709,7 +709,6 @@ CCTV17,http://113.26.251.182:8009/hls/17/index.m3u8
 东方卫视⁴ᵏ,http://bp-resource-dfl.bestv.cn/148/3/video.m3u8
 
 🇲🇰测试_66,#genre#
-潘朵啦玩美,http://jp.gxdx.org/cache/streamtool_hls/20260618203742-406fbf58/index.m3u8
 惊艳电影,http://15.204.105.50:25461/live/G2s9zK2n9m/xDtwVfWM8T/85.ts
 潘朵啦玩美,http://15.204.105.50:25461/live/G2s9zK2n9m/xDtwVfWM8T/86.ts
 惊艳电影,http://15.204.105.50:25461/live/G2s9zK2n9m/xDtwVfWM8T/87.ts
@@ -717,6 +716,7 @@ CCTV17,http://113.26.251.182:8009/hls/17/index.m3u8
 松视2,http://15.204.105.50:25461/live/G2s9zK2n9m/xDtwVfWM8T/89.ts
 松视3,http://15.204.105.50:25461/live/G2s9zK2n9m/xDtwVfWM8T/90.ts
 香蕉,http://15.204.105.50:25461/live/G2s9zK2n9m/xDtwVfWM8T/117.ts
+潘朵啦玩美,http://jp.gxdx.org/cache/streamtool_hls/20260618203742-406fbf58/index.m3u8
 
 セクシー,http://haru.charandom.blog/stream/jp/pigoo_nsfw/stream-output.m3u8?mode=hls#https://cdn-apne1.tsv2.amagi.tv/linear/amg01287-rakutentvjapan-movie2cmaf-rakutenjp/playlist.m3u8#https://tv123.cc.cd/live.php?ch=1747&sid=33e6572106d67b0e17d9db8fc5dd4a37&exp=1783873269&sig=af89b9726dacff0eee6f05fd46c9ebb8de23426bb2d31e9caada05d2f32b349b#https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01287-rakutentvjapan-rvariety-cmaf-rakutenjp/playlist.m3u8#https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01287-rakutentvjapan-rvariety-cmaf-rakutenjp/playlist.m3u8#https://cdn-apne1.tsv2.amagi.tv/linear/amg01287-rakutentvjapan-shigekicmaf-rakutenjp/playlist.m3u8
 JAPAN,http://tr.zengi34.xyz:8080/UEJLSW1qN0MwYk0rcU43MFA2bVM2YUM3QmU2Ym1RaEUxNzVHNXZIV25Tek9jZDVoMUJnaDNGWUNaZzU0U1J3VA#http://hardcoremedia.xyz:80/6jTFRmvaSp/7534936344/248607#http://hardcoremedia.xyz:80/6jTFRmvaSp/7534936344/248608
