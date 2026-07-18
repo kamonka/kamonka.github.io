@@ -309,8 +309,6 @@ WOWOWプラス,http://haru.charandom.blog/stream/jp/wowow_plus/stream-output.m3u
 Neco,http://haru.charandom.blog/stream/jp/neco_ch/stream-output.m3u8?mode=hls
 ザ･シネマ,http://haru.charandom.blog/stream/jp/the_cinema/stream-output.m3u8?mode=hls
 ムービープラス,https://naori-test.netgenx.site/pxx.php?shk_cid=cs14
-アクション,http://haru.charandom.blog/stream/jp/action_channel_(axn)/stream-output.m3u8?mode=hls
-ミステリー,http://haru.charandom.blog/stream/jp/mystery_channel/stream-output.m3u8?mode=hls
 ホームドラマ,https://naori-test.netgenx.site/pxx.php?shk_cid=cs05
 時代劇,https://naori-test.netgenx.site/pxx.php?shk_cid=cs04
 ファミリー劇場,https://naori-test.netgenx.site/pxx.php?shk_cid=cs20
@@ -318,7 +316,6 @@ Neco,http://haru.charandom.blog/stream/jp/neco_ch/stream-output.m3u8?mode=hls
 歌謡ポップス,https://naori-test.netgenx.site/pxx.php?shk_cid=cs13
 GAORA,https://naori-test.netgenx.site/pxx.php?shk_cid=cs17
 プロレス・格闘技,http://haru.charandom.blog/stream/jp/fighting_tv_samurai/stream-output.m3u8?mode=hls
-囲碁・将棋,http://haru.charandom.blog/stream/jp/shogi_channel/stream-output.m3u8?mode=hls
 スカイA,https://naori-test.netgenx.site/pxx.php?shk_cid=cs01
 JSports1,https://naori-test.netgenx.site/pxx.php?shk_cid=bs18
 JSports2,https://naori-test.netgenx.site/pxx.php?shk_cid=bs19
@@ -773,40 +770,3 @@ PLAYBOY,http://tr.zengi34.xyz:8080/UEJLSW1qN0MwYk0rcU43MFA2bVM2ZHdudU5wN042SDBGd
 PLAYBOY,http://190.11.225.124:5000/live/playboy_hd/playlist.m3u8
 PLAYBOY,http://hardcoremedia.xyz:80/6jTFRmvaSp/7534936344/248692
 PLAYBOY,http://31.148.48.15/Playboy_TV/playlist.m3u8
-
-🇨🇳haru,#genre#
-NHK G (Sub Ch.),http://haru.charandom.blog/stream/jp/nhk_g_(subch)/stream-output.m3u8?mode=hls
-TOKYO MX2 (HD 720p),http://haru.charandom.blog/stream/jp/tokyo_mx2/stream-output.m3u8?mode=hls
-KBS,http://haru.charandom.blog/stream/jp/kbs/stream-output.m3u8?mode=hls
-NTV News24,http://haru.charandom.blog/stream/jp/ntv_news24/stream-output.m3u8?mode=hls
-NHK BS (Sub Ch.),http://haru.charandom.blog/stream/jp/nhk_bs_(subch)/stream-output.m3u8?mode=hls
-BS 10,http://haru.charandom.blog/stream/jp/bs10/stream-output.m3u8?mode=hls
-BS11,http://haru.charandom.blog/stream/jp/bs11/stream-output.m3u8?mode=hls
-BS 12,http://haru.charandom.blog/stream/jp/bs_12/stream-output.m3u8?mode=hls
-WOWOW Plus,http://haru.charandom.blog/stream/jp/wowow_plus/stream-output.m3u8?mode=hls
-Sport Live Plus,http://haru.charandom.blog/stream/jp/sport_live_plus/stream-output.m3u8?mode=hls
-Fighting TV Samurai,http://haru.charandom.blog/stream/jp/fighting_tv_samurai/stream-output.m3u8?mode=hls
-Neco Channel,http://haru.charandom.blog/stream/jp/neco_ch/stream-output.m3u8?mode=hls
-The Cinema,http://haru.charandom.blog/stream/jp/the_cinema/stream-output.m3u8?mode=hls
-TBS Channel 1,http://haru.charandom.blog/stream/jp/tbs_channel_1/stream-output.m3u8?mode=hls
-TBS Channel 2,http://haru.charandom.blog/stream/jp/tbs_channel_2/stream-output.m3u8?mode=hls
-TV Asahi Channel 1,http://haru.charandom.blog/stream/jp/tv_asahi_channel_1/stream-output.m3u8?mode=hls
-TV Asahi Channel 2,http://haru.charandom.blog/stream/jp/tv_asahi_channel_2/stream-output.m3u8?mode=hls
-Nittele Plus,http://haru.charandom.blog/stream/jp/nittele_plus/stream-output.m3u8?mode=hls
-Fuji TV ONE,http://haru.charandom.blog/stream/jp/fuji_tv_one/stream-output.m3u8?mode=hls
-Fuji TV TWO,http://haru.charandom.blog/stream/jp/fuji_tv_two/stream-output.m3u8?mode=hls
-Action Channel (AXN),http://haru.charandom.blog/stream/jp/action_channel_(axn)/stream-output.m3u8?mode=hls
-Dlife,http://haru.charandom.blog/stream/jp/dlife/stream-output.m3u8?mode=hls
-Mystery Channel,http://haru.charandom.blog/stream/jp/mystery_channel/stream-output.m3u8?mode=hls
-AT-X,http://haru.charandom.blog/stream/jp/at-x/stream-output.m3u8?mode=hls
-Music Air,http://haru.charandom.blog/stream/jp/music_air/stream-output.m3u8?mode=hls
-Music ON TV,http://haru.charandom.blog/stream/jp/music_on_tv/stream-output.m3u8?mode=hls
-Tetsudo Channel,http://haru.charandom.blog/stream/jp/tetsudo_channel/stream-output.m3u8?mode=hls
-Me-Tele Next,http://haru.charandom.blog/stream/jp/me-tele_next/stream-output.m3u8?mode=hls
-Shogi Channel,http://haru.charandom.blog/stream/jp/shogi_channel/stream-output.m3u8?mode=hls
-Mnet,http://haru.charandom.blog/stream/jp/mnet/stream-output.m3u8?mode=hls
-KBS World,http://haru.charandom.blog/stream/jp/kbs_world/stream-output.m3u8?mode=hls
-KNTV,http://haru.charandom.blog/stream/jp/kntv/stream-output.m3u8?mode=hls
-Weather News,http://haru.charandom.blog/stream/jp/weather_news/stream-output.m3u8?mode=hls
-V Paradise,http://haru.charandom.blog/stream/jp/v_paradise_nsfw/stream-output.m3u8?mode=hls
-Pigoo,http://haru.charandom.blog/stream/jp/pigoo_nsfw/stream-output.m3u8?mode=hls
