@@ -11,7 +11,7 @@ CCTV5,http://121.57.88.206:898/hls/5/index.m3u8
 CCTV5,http://204.12.221.218:8181/3m1080p/cctv5.m3u8
 CCTV5,http://63.141.230.178:82/gslb/zbdq5.m3u8?id=cctv5hd
 CCTV5,http://107.150.60.122/live/cctv5hd.m3u8
-
+西班牙1台,http://neosfpoo.top:8080/101778770428/e511208ea106/5622#http://line.cloud-ott.net:80/play/live.php?mac=00:1A:79:0D:80:56&stream=568965&extension=ts&play_token=DNiyX2u2O1
 
 
 🇬🇬世界新闻,#genre#
