@@ -130,6 +130,7 @@ La1⁴ᵏ,#http://line.cloud-ott.net:80/play/live.php?mac=00:1A:79:0D:80:56&stre
 La1⁴ᵏ,http://neosfpoo.top:8080/101778770428/e511208ea106/5622
 RAI⁴ᵏ,http://neosfpoo.top:8080/101778770428/e511208ea106/61949
 TRT⁴ᵏ,http://neosfpoo.top:8080/101778770428/e511208ea106/62701
+TF1,http://neosfpoo.top:8080/101778770428/e511208ea106/57478
 ZDF,http://neosfpoo.top:8080/101778770428/e511208ea106/61183
 CBS,http://neosfpoo.top:8080/101778770428/e511208ea106/71204
 NBC,http://neosfpoo.top:8080/101778770428/e511208ea106/72476
