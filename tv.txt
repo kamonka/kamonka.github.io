@@ -11,12 +11,8 @@ CCTV5,http://121.57.88.206:898/hls/5/index.m3u8
 CCTV5,http://204.12.221.218:8181/3m1080p/cctv5.m3u8
 CCTV5,http://63.141.230.178:82/gslb/zbdq5.m3u8?id=cctv5hd
 CCTV5,http://107.150.60.122/live/cctv5hd.m3u8
-HKNOW,http://10k.lucastv.pro/live/2c99755ae255/gJnMAT2/465863.ts#http://10k.lucastv.pro/live/2c99755ae255/gJnMAT2/465861.ts
-HKNOW⁴ᵏ,http://host-aurora.vip:80/play/live.php?mac=00:1a:79:31:c2:72&stream=2075515&extension=ts&play_token=hj7ju3RetU
-HKNOW⁴ᵏ,http://tectonbrand.com:80/4KYD2C92D/1Z6BCL4/438866#http://10k.lucastv.pro/live/2c99755ae255/gJnMAT2/465865.ts#http://10k.lucastv.pro/live/2c99755ae255/gJnMAT2/465864.ts
-HKNOW⁴ᵏ,http://mag.greatott.me:80/play/live.php?mac=00:1A:79:74:B1:B9&stream=2095898&extension=ts&play_token=1qHzIcYuYs#http://mag.greatott.me:80/play/live.php?mac=00:1A:79:74:B1:B9&stream=2095897&extension=ts&play_token=vG5XGcNqrZ
-HKNOW⁴ᵏ,http://host-aurora.vip:80/play/live.php?mac=00:1a:79:31:c2:72&stream=2075515&extension=ts&play_token=ygTzgE3OwV#http://89.187.179.148:826/anto.j/c9yJDcXyPe/120336
-西班牙一台⁴ᵏ,http://line.cloud-ott.net:80/play/live.php?mac=00:1A:79:0D:80:56&stream=895539&extension=ts&play_token=hqgAMi6gpl#http://host-aurora.vip:80/play/live.php?mac=00:1a:79:31:c2:72&stream=2075526&extension=ts&play_token=6HySd7KDdW#http://line.cloud-ott.net:80/play/live.php?mac=00:1A:79:0D:80:56&stream=568965&extension=ts&play_token=DNiyX2u2O1
+
+
 
 🇬🇬世界新闻,#genre#
 BBC,https://naori-test.netgenx.site/pxx.php?shk_cid=cs15
@@ -129,32 +125,26 @@ BBC2,http://163.172.64.96:2017/live/GBa19qrcQYa3/u2c8FLfgkK/235.ts
 BBC3,http://163.172.64.96:2017/live/GBa19qrcQYa3/u2c8FLfgkK/236.ts
 BBC4,http://163.172.64.96:2017/live/GBa19qrcQYa3/u2c8FLfgkK/237.ts
 
-BBC1,http://81.137.213.119:4202/bysid/17536
-BBC2,http://81.137.213.119:4202/bysid/17472
-BBC3,http://81.137.213.119:4202/bysid/17920
-BBC4,http://81.137.213.119:4202/bysid/18048
-ITV1,http://81.137.213.119:4201/bysid/8261
-ITV3,http://81.137.213.119:4201/bysid/8294
-ITV2,http://81.137.213.119:4201/bysid/8325
-ITV4,http://81.137.213.119:4201/bysid/8330
-CBS,http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/89712.ts
-NBC,http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/89714.ts
-FOX,http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/2544.ts
-ABC,http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/3606.ts
-FOX,http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/2544.ts
-CW,http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/93093.ts
+La1⁴ᵏ,#http://line.cloud-ott.net:80/play/live.php?mac=00:1A:79:0D:80:56&stream=895539&extension=ts&play_token=hqgAMi6gpl#http://host-aurora.vip:80/play/live.php?mac=00:1a:79:31:c2:72&stream=2075526&extension=ts&play_token=6HySd7KDdW#http://line.cloud-ott.net:80/play/live.php?mac=00:1A:79:0D:80:56&stream=568965&extension=ts&play_token=DNiyX2u2O1
+
+La1⁴ᵏ,http://neosfpoo.top:8080/101778770428/e511208ea106/5622
+RAI⁴ᵏ,http://neosfpoo.top:8080/101778770428/e511208ea106/61949
+TRT⁴ᵏ,http://neosfpoo.top:8080/101778770428/e511208ea106/62701
+ZDF,http://neosfpoo.top:8080/101778770428/e511208ea106/61183
+CBS,http://neosfpoo.top:8080/101778770428/e511208ea106/71204
+NBC,http://neosfpoo.top:8080/101778770428/e511208ea106/72476
+FOX,http://neosfpoo.top:8080/101778770428/e511208ea106/71886
+ABC,http://neosfpoo.top:8080/101778770428/e511208ea106/71007
+CW,http://neosfpoo.top:8080/101778770428/e511208ea106/71462
+
 CBS,http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/89717.ts
 NBC,http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/2428.ts
 FOX,http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/2503.ts
 ABC,http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/2665.ts
 CBS,http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/559692.ts
 CW,http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/630645.ts
+FOX,http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/2544.ts
 
-BBC1,http://163.172.64.96:2017/live/GBa19qrcQYa3/u2c8FLfgkK/234.ts
-BBC1,http://89.187.179.148:826/anto.j/c9yJDcXyPe/98853
-BBC1,http://falcontv.top/0990183718/6298570159/377711
-BBC1,http://atlanticflixtv.online/1552952/97L6A58/69431
-BBC1,http://wx78.vpn-cloud.icu:8080/p3v23bcwj2/j9iyghyczo/77361
 
 🇭🇰台港综合,#genre#
 公视,http://211.72.174.95:8116/0.ts
@@ -248,6 +238,12 @@ TORO,http://tectonbrand.com:80/4KYD2C92D/1Z6BCL4/757752
 TORO,http://tectonbrand.com:80/4KYD2C92D/1Z6BCL4/68362
 TORO,http://tectonbrand.com:80/4KYD2C92D/1Z6BCL4/330538
 TORO,http://tectonbrand.com:80/4KYD2C92D/1Z6BCL4/757751
+
+HKNOW,http://10k.lucastv.pro/live/2c99755ae255/gJnMAT2/465863.ts#http://10k.lucastv.pro/live/2c99755ae255/gJnMAT2/465861.ts
+HKNOW⁴ᵏ,http://host-aurora.vip:80/play/live.php?mac=00:1a:79:31:c2:72&stream=2075515&extension=ts&play_token=hj7ju3RetU
+HKNOW⁴ᵏ,http://tectonbrand.com:80/4KYD2C92D/1Z6BCL4/438866#http://10k.lucastv.pro/live/2c99755ae255/gJnMAT2/465865.ts#http://10k.lucastv.pro/live/2c99755ae255/gJnMAT2/465864.ts
+HKNOW⁴ᵏ,http://mag.greatott.me:80/play/live.php?mac=00:1A:79:74:B1:B9&stream=2095898&extension=ts&play_token=1qHzIcYuYs#http://mag.greatott.me:80/play/live.php?mac=00:1A:79:74:B1:B9&stream=2095897&extension=ts&play_token=vG5XGcNqrZ
+HKNOW⁴ᵏ,http://host-aurora.vip:80/play/live.php?mac=00:1a:79:31:c2:72&stream=2075515&extension=ts&play_token=ygTzgE3OwV#http://89.187.179.148:826/anto.j/c9yJDcXyPe/120336
 
 SKYSPORTSNEWS,http://163.172.64.96:2017/live/GBa19qrcQYa3/u2c8FLfgkK/331.ts
 SkySportsMainEvent,http://163.172.64.96:2017/live/GBa19qrcQYa3/u2c8FLfgkK/332.ts
