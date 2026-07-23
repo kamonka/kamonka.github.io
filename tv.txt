@@ -62,6 +62,17 @@ FOXNEWS,http://ultrapremium.cloud:8080/43kagu97wa34tu39/72maxe529weda74/23441#ht
 土耳其之声,https://tv-trtworld.medya.trt.com.tr/master_1080.m3u8#http://tr.zengi34.xyz:8080/UEJLSW1qN0MwYk0rcU43MFA2bVM2VXdlYURJb1NjaHcvR3U3RnlCV3E2Y2llYXhFeEJkQm9JQmpENDlZa3BYNg
 
 🇹🇼台港新闻,#genre#
+镜新闻,http://4gtv.cnlive.club/channel/351c8485/index.m3u8?q=1784775774070
+东森新闻,http://4gtv.cnlive.club/channel/n5ca63a3a/index.m3u8?q=1784775774070
+华视新闻,http://4gtv.cnlive.club/channel/n692bc32c/index.m3u8?q=1784775774070
+民视新闻,http://4gtv.cnlive.club/channel/nca14742/index.m3u8?q=1784775774070
+三立新闻,http://4gtv.cnlive.club/channel/4fa717ad/index.m3u8?q=1784775774070
+TVBS新闻,http://4gtv.cnlive.club/channel/n1ea96b20/index.m3u8?q=1784775774070
+中视新闻,http://4gtv.cnlive.club/channel/7e6461d6/index.m3u8?q=1784775774070
+中天新闻,http://4gtv.cnlive.club/channel/3824d067/index.m3u8?q=1784775774070
+寰宇新闻,http://4gtv.cnlive.club/channel/n4da4274/index.m3u8?q=1784775774070
+寰宇新闻台湾台,http://4gtv.cnlive.club/channel/n37458587/index.m3u8?q=1784775774
+
 镜新闻,https://d36dgdk71xuzzg.cloudfront.net/v1/manifest/3a2ac8e6b6c76471996ebf627393d9c9417a60b6/linetv-6-627778910172-MediaTailor-production/c9b2313d-efdd-4777-9fae-573be8a86755/0.m3u8
 镜新闻,http://rihou.cc:555/tv/[Hk]%E9%97%BD%E9%95%9C%E6%96%B0%E9%97%BB
 TVBS新闻,http://rihou.cc:555/tv/[FY]tvbS新闻
@@ -132,6 +143,11 @@ FOX,http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/2544.ts
 
 
 🇭🇰台港综合,#genre#
+民视,http://4gtv.cnlive.club/channel/n7222a63c/index.m3u8?q=1784775774070
+中视,http://4gtv.cnlive.club/channel/n722644d8/index.m3u8?q=1784775774070
+华视,http://4gtv.cnlive.club/channel/n721fc25a/index.m3u8?q=1784775774070
+TVBS,http://4gtv.cnlive.club/channel/58f128b2/index.m3u8?q=1784775774070
+
 公视,http://211.72.174.95:8116/0.ts
 中视,http://211.72.174.95:8113/0.ts
 华视,http://211.72.174.95:8114/0.ts
@@ -162,7 +178,6 @@ HOY,http://cdn6.163189.xyz/163189/hoy
 民视,http://74.91.26.218:82/live/ftv.m3u8
 华视,http://74.91.26.218:82/live/cts.m3u8
 中视,http://74.91.26.218:82/live/ctv.m3u8
-
 
 TV朝鲜,http://onair2.cdn.tvchosun.com/origin2/_definst_/tvchosun_s3/playlist.m3u8
 
@@ -201,6 +216,21 @@ DISCOVERY,http://23.237.104.106:8080/USA_DISCOVERY/index.m3u8
 🇧🇮娱乐综艺#genre#
 
 🇲🇾影视娱乐,#genre#
+采昌影剧,http://4gtv.cnlive.club/channel/n97ba44a/index.m3u8?q=1784775774070
+靖天映画,http://4gtv.cnlive.club/channel/n610faa83/index.m3u8?q=1784775774070
+靖天电影,http://4gtv.cnlive.club/channel/3fcf6ae8/index.m3u8?q=1784775774070
+影迷数位电影,http://4gtv.cnlive.club/channel/n79da43c0/index.m3u8?q=1784775774070
+amc电影,http://4gtv.cnlive.club/channel/n4f2af9e/index.m3u8?q=1784775774070
+CinemaWorld,http://4gtv.cnlive.club/channel/n7815b83e/index.m3u8?q=1784775774070梦工厂动画,http://4gtv.cnlive.club/channel/n451655ef/index.m3u8?q=1784775774070
+TVBS综艺,http://4gtv.cnlive.club/channel/49d6d25d/index.m3u8?q=1784775774070
+民视综艺,http://4gtv.cnlive.club/channel/nc46cff5/index.m3u8?q=1784775774070
+八大综艺,http://4gtv.cnlive.club/channel/662e9334/index.m3u8?q=1784775774070
+TVBS精采,http://4gtv.cnlive.club/channel/49d50255/index.m3u8?q=1784775774070
+TVBS欢乐,http://4gtv.cnlive.club/channel/498f035d/index.m3u8?q=1784775774070
+靖天欢乐,http://4gtv.cnlive.club/channel/n122ce57e/index.m3u8?q=1784775774070
+靖天日本,http://4gtv.cnlive.club/channel/3f1816f7/index.m3u8?q=1784775774070
+猪哥亮歌厅秀,http://4gtv.cnlive.club/channel/n4271efdd/index.m3u8?q=1784775774070
+
 爱奇艺,https://o11.163189.xyz/stream/live/iqiyi/
 靖天映画,https://ha.msbot.dpdns.org/4gtv_api.php?id=42
 靖天电影,https://ha.msbot.dpdns.org/4gtv_api.php?id=82

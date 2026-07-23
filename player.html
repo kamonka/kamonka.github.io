@@ -523,3 +523,7 @@
   </script>
 </body>
 </html>
+// 使用 encodeURIComponent 对视频URL进行编码
+const videoUrl = "https://lf26-csp-sign.bytetos.com/...?x-expires=...&x-signature=...";
+const encodedUrl = encodeURIComponent(videoUrl);
+const playerUrl = `https://jyjdsg.dpdns.org/player.html?url=${encodedUrl}`;
