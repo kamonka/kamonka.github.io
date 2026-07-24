@@ -29,7 +29,7 @@ FOXNEWS,http://realsport.scalecdn.co:8080/live/supersonicstreams/cUewZolveU8Jh18
 朝鲜中央台https://tv.nknews.org/tvhls/stream.m3u8
 朝鲜中央台https://tv.nknews.org/tvdash/stream.mpd
 朝鲜中央台https://tv.nknews.org/tvdash/stream-43963200.m4a
-
+阿里郎新闻,http://amdlive-ch01.ctnd.com.edgesuite.net/arirang_1ch/smil:arirang_1ch.smil/playlist.m3u8
 共同社,https://cdn-apne1.tsv2.amagi.tv/linear/amg01287-rakutentvjapan-news3hlscmaf-rakutenjp/playlist.m3u8
 韩联社,https://tving-live-o2-xcdn.tving.com/o2/v1/019dd8deb9f5153d7865157cdbfbd6/019dd8df3d75153d7865157cdbfbd9/playlist.m3u8?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ0dmluZy5jb20iLCJleHAiOjE3ODI5OTY3OTMsInBhdGgiOiIvbzIifQ.geRJOH_F9C5g-GAaJ584nkjr_wwlHJ1Of-npUVYokv0#https://tving-live-o2-xcdn.tving.com/o2/v1/019db80595b1153d7865047a0ccd/019db8091f9d153d7865047a0cd0/playlist.m3u8?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ0dmluZy5jb20iLCJleHAiOjE3ODMwMzM4NjMsInBhdGgiOiIvbzIifQ.BkS5siB6teuhjvCRfK0KXakEZBkOeGW0KjAVhP3H82A
 路透社,https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00453-reuters-reuters-hls-rakutenjp/playlist.m3u8
@@ -203,6 +203,8 @@ LoveNature,https://ha.msbot.dpdns.org/4gtv_api.php?id=139
 爱尔达生活旅游,https://ha.msbot.dpdns.org/4gtv_api.php?id=237
 LUXETV,https://ha.msbot.dpdns.org/4gtv_api.php?id=175
 
+DISCOVERY,http://163.172.64.96:2017/live/GBa19qrcQYa3/u2c8FLfgkK/312.ts
+
 DISCOVERY,http://hardcoremedia.xyz:80/6jTFRmvaSp/7534936344/129864
 A&E,http://hardcoremedia.xyz:80/6jTFRmvaSp/7534936344/129816#http://hardcoremedia.xyz:80/6jTFRmvaSp/7534936344/130067
 COWBOY,http://hardcoremedia.xyz:80/6jTFRmvaSp/7534936344/129857
@@ -259,6 +261,7 @@ HKNOW⁴ᵏ,http://host-aurora.vip:80/play/live.php?mac=00:1a:79:31:c2:72&stream
 HKNOW⁴ᵏ,http://tectonbrand.com:80/4KYD2C92D/1Z6BCL4/438866#http://10k.lucastv.pro/live/2c99755ae255/gJnMAT2/465865.ts#http://10k.lucastv.pro/live/2c99755ae255/gJnMAT2/465864.ts
 HKNOW⁴ᵏ,http://mag.greatott.me:80/play/live.php?mac=00:1A:79:74:B1:B9&stream=2095898&extension=ts&play_token=1qHzIcYuYs#http://mag.greatott.me:80/play/live.php?mac=00:1A:79:74:B1:B9&stream=2095897&extension=ts&play_token=vG5XGcNqrZ
 HKNOW⁴ᵏ,http://host-aurora.vip:80/play/live.php?mac=00:1a:79:31:c2:72&stream=2075515&extension=ts&play_token=ygTzgE3OwV#http://89.187.179.148:826/anto.j/c9yJDcXyPe/120336
+EUROSPORT⁴ᵏ,http://fomo.re/oiAPMTyBHC7I7BK7/gs42ehsohqJ30C7m/32818
 
 SKYSPORTSNEWS,http://163.172.64.96:2017/live/GBa19qrcQYa3/u2c8FLfgkK/331.ts
 SkySportsMainEvent,http://163.172.64.96:2017/live/GBa19qrcQYa3/u2c8FLfgkK/332.ts
