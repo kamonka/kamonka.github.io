@@ -98,11 +98,6 @@ NOW新闻,http://cdn.163189.xyz/163189/now
 HOY资讯,http://cdn.163189.xyz/163189/hoy78
 凤凰资讯,http://cdn6.163189.xyz/163189/fhzx#https://cdn9.163189.xyz/smt3.1.1.php?id=phoenixinfo_hd
 
-民视新闻,http://74.91.26.218:82/live/ftvnews.m3u8
-台视新闻,http://74.91.26.218:82/live/ttvnews.m3u8
-华视新闻,http://74.91.26.218:82/live/ctsnews.m3u8
-中视新闻,http://74.91.26.218:82/live/ctvnews.m3u8
-
 🇺🇸欧美综合,#genre#
 BBC1,http://163.172.64.96:2017/live/GBa19qrcQYa3/u2c8FLfgkK/234.ts
 BBC2,http://163.172.64.96:2017/live/GBa19qrcQYa3/u2c8FLfgkK/235.ts
