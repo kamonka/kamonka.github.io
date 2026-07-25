@@ -1,5 +1,6 @@
 🇬🇬世界新闻,#genre#
 BBC，https://vs-hls-push-ww-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_news_channel_hd/t=3840/v=pv14/b=5070016/main.m3u8
+BBC,http://tvlol32.com:80/JosemarOliveira/24jos999064802/256361
 CNN，http://tvmaxxx.com:80/JosemarOliveira/24jos999064802/219087
 BBC,https://naori-test.netgenx.site/pxx.php?shk_cid=cs15
 CNN,https://naori-test.netgenx.site/pxx.php?shk_cid=cs16
@@ -719,6 +720,7 @@ CCTV17,http://113.26.251.182:8009/hls/17/index.m3u8
 
 セクシー,http://haru.charandom.blog/stream/jp/pigoo_nsfw/stream-output.m3u8?mode=hls#https://cdn-apne1.tsv2.amagi.tv/linear/amg01287-rakutentvjapan-movie2cmaf-rakutenjp/playlist.m3u8#https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01287-rakutentvjapan-rvariety-cmaf-rakutenjp/playlist.m3u8#https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01287-rakutentvjapan-rvariety-cmaf-rakutenjp/playlist.m3u8#https://cdn-apne1.tsv2.amagi.tv/linear/amg01287-rakutentvjapan-shigekicmaf-rakutenjp/playlist.m3u8
 JAPAN,http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/SHQHNV72QRZFCT/6225/manifest.m3u8#http://tr.zengi34.xyz:8080/UEJLSW1qN0MwYk0rcU43MFA2bVM2YUM3QmU2Ym1RaEUxNzVHNXZIV25Tek9jZDVoMUJnaDNGWUNaZzU0U1J3VA#http://2477fd5f.cbilant.com/iptv/WCSZMUM84X4689VHGC7UDAQQ/6225/index.m3u8#http://hardcoremedia.xyz:80/6jTFRmvaSp/7534936344/248607#http://hardcoremedia.xyz:80/6jTFRmvaSp/7534936344/248608
+PLAYBOY,http://tvlol32.com:80/JosemarOliveira/24jos999064802/28303
 PLAYBOY,http://tr.zengi34.xyz:8080/UEJLSW1qN0MwYk0rcU43MFA2bVM2ZHdudU5wN042SDBGdEZOZ1k0VTM3cVo4VlJZMW5iRnMxK0c2L2M2eEpPMA
 PLAYBOY,http://190.11.225.124:5000/live/playboy_hd/playlist.m3u8
 PLAYBOY,http://hardcoremedia.xyz:80/6jTFRmvaSp/7534936344/248692
