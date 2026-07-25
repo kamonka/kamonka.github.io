@@ -98,20 +98,6 @@ NOW新闻,http://cdn.163189.xyz/163189/now
 HOY资讯,http://cdn.163189.xyz/163189/hoy78
 凤凰资讯,http://cdn6.163189.xyz/163189/fhzx#https://cdn9.163189.xyz/smt3.1.1.php?id=phoenixinfo_hd
 
-镜新闻,https://ha.msbot.dpdns.org/4gtv_api.php?id=268
-东森新闻,https://ha.msbot.dpdns.org/4gtv_api.php?id=234
-东森新闻,https://ha.msbot.dpdns.org/4gtv_api.php?id=292
-华视新闻,https://ha.msbot.dpdns.org/4gtv_api.php?id=256
-华视新闻,https://ha.msbot.dpdns.org/4gtv_api.php?id=34
-民视新闻,https://ha.msbot.dpdns.org/4gtv_api.php?id=257
-三立新闻,https://ha.msbot.dpdns.org/4gtv_api.php?id=229
-TVBS新闻,https://ha.msbot.dpdns.org/4gtv_api.php?id=291
-中视新闻,https://ha.msbot.dpdns.org/4gtv_api.php?id=33
-中视新闻,https://ha.msbot.dpdns.org/4gtv_api.php?id=258
-中天新闻,https://ha.msbot.dpdns.org/4gtv_api.php?id=260
-中天新闻,https://ha.msbot.dpdns.org/4gtv_api.php?id=30
-寰宇新闻台,https://ha.msbot.dpdns.org/4gtv_api.php?id=262
-
 民视新闻,http://74.91.26.218:82/live/ftvnews.m3u8
 台视新闻,http://74.91.26.218:82/live/ttvnews.m3u8
 华视新闻,http://74.91.26.218:82/live/ctsnews.m3u8
@@ -163,24 +149,12 @@ TVBS,http://4gtv.cnlive.club/channel/58f128b2/index.m3u8?q=1784775774070
 民视,http://211.72.174.95:8115/0.ts
 中视,http://220.135.241.47:8301/0.ts
 
-民视,https://ha.msbot.dpdns.org/4gtv_api.php?id=3
-民视,https://ha.msbot.dpdns.org/4gtv_api.php?id=246
-TVBS,https://ha.msbot.dpdns.org/4gtv_api.php?id=183
-中视,https://ha.msbot.dpdns.org/4gtv_api.php?id=4
-华视,https://ha.msbot.dpdns.org/4gtv_api.php?id=6
-
 翡翠台,https://o11.163189.xyz/stream/tvb/fct4k/
 翡翠台,https://o11.163189.xyz/stream/tvb/fct/
 明珠台,https://o11.163189.xyz/stream/tvb/mzt/
 HOY,http://cdn6.163189.xyz/163189/hoy
 凤凰台,http://cdn6.163189.xyz/163189/fhzw
 凤凰台,http://cdn6.163189.xyz/163189/fhhk
-
-公视,http://74.91.26.218:82/live/pts.m3u8
-台视,http://74.91.26.218:82/live/ttv.m3u8
-民视,http://74.91.26.218:82/live/ftv.m3u8
-华视,http://74.91.26.218:82/live/cts.m3u8
-中视,http://74.91.26.218:82/live/ctv.m3u8
 
 TV朝鲜,http://onair2.cdn.tvchosun.com/origin2/_definst_/tvchosun_s3/playlist.m3u8
 
