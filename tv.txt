@@ -1,4 +1,6 @@
 🇬🇬世界新闻,#genre#
+BBC，https://vs-hls-push-ww-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_news_channel_hd/t=3840/v=pv14/b=5070016/main.m3u8
+CNN，http://tvmaxxx.com:80/JosemarOliveira/24jos999064802/219087
 BBC,https://naori-test.netgenx.site/pxx.php?shk_cid=cs15
 CNN,https://naori-test.netgenx.site/pxx.php?shk_cid=cs16
 BBC,http://58.82.168.138:5002/cs15.m3u8?token=guoziyun&gid=cs15&channel=zhongying
@@ -148,11 +150,11 @@ FOX,http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/2544.ts
 华视,http://4gtv.cnlive.club/channel/n721fc25a/index.m3u8?q=1784775774070
 TVBS,http://4gtv.cnlive.club/channel/58f128b2/index.m3u8?q=1784775774070
 
-公视,http://211.72.174.95:8116/0.ts
+公视,http://211.72.174.95:8116/0.ts#http://220.135.241.47:8305/0.ts
 中视,http://211.72.174.95:8113/0.ts
 华视,http://211.72.174.95:8114/0.ts
-民视,http://211.72.174.95:8115/0.ts
-台视,http://211.72.174.95:8112/0.ts
+民视,http://211.72.174.95:8115/0.ts#http://220.135.241.47:8308/0.ts
+台视,http://211.72.174.95:8112/0.ts#http://220.135.241.47:8313/0.ts
 公视,http://220.135.241.47:8305/0.ts
 华视,http://220.135.241.47:8318/0.ts
 华视,http://220.135.241.47:8317/0.ts
