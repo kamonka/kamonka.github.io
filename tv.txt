@@ -1,7 +1,6 @@
 🇬🇬世界新闻,#genre#
-BBC，https://vs-hls-push-ww-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_news_channel_hd/t=3840/v=pv14/b=5070016/main.m3u8
-BBC,http://tvlol32.com:80/JosemarOliveira/24jos999064802/256361
-CNN，http://tvmaxxx.com:80/JosemarOliveira/24jos999064802/219087
+BBC,https://vs-hls-push-ww-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_news_channel_hd/t=3840/v=pv14/b=5070016/main.m3u8
+CNN,http://tvmaxxx.com:80/JosemarOliveira/24jos999064802/219087
 BBC,https://naori-test.netgenx.site/pxx.php?shk_cid=cs15
 CNN,https://naori-test.netgenx.site/pxx.php?shk_cid=cs16
 BBC,http://58.82.168.138:5002/cs15.m3u8?token=guoziyun&gid=cs15&channel=zhongying
