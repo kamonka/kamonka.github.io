@@ -412,23 +412,11 @@ HKNOW⁴ᵏ,http://mag.greatott.me:80/play/live.php?mac=00:1A:79:74:B1:B9&stream
 HKNOW⁴ᵏ,http://host-aurora.vip:80/play/live.php?mac=00:1a:79:31:c2:72&stream=2075515&extension=ts&play_token=ygTzgE3OwV#http://89.187.179.148:826/anto.j/c9yJDcXyPe/120336
 EUROSPORT⁴ᵏ,http://fomo.re/oiAPMTyBHC7I7BK7/gs42ehsohqJ30C7m/32818
 
-SKYSPORTSNEWS,http://163.172.64.96:2017/live/GBa19qrcQYa3/u2c8FLfgkK/331.ts
-SkySportsMainEvent,http://163.172.64.96:2017/live/GBa19qrcQYa3/u2c8FLfgkK/332.ts
-SkySportsCricket,http://163.172.64.96:2017/live/GBa19qrcQYa3/u2c8FLfgkK/333.ts
-SkySportsGolf,http://163.172.64.96:2017/live/GBa19qrcQYa3/u2c8FLfgkK/334.ts
-SkySportsPremiereLeague,http://163.172.64.96:2017/live/GBa19qrcQYa3/u2c8FLfgkK/335.ts
-SkySportsAction,http://163.172.64.96:2017/live/GBa19qrcQYa3/u2c8FLfgkK/336.ts
-SkySportsFootball,http://163.172.64.96:2017/live/GBa19qrcQYa3/u2c8FLfgkK/337.ts
-SkySportsPlus,http://163.172.64.96:2017/live/GBa19qrcQYa3/u2c8FLfgkK/338.ts
-SkySportsMix,http://163.172.64.96:2017/live/GBa19qrcQYa3/u2c8FLfgkK/339.ts
-RacingTV,http://163.172.64.96:2017/live/GBa19qrcQYa3/u2c8FLfgkK/355.ts
-SkySportsRacing,http://163.172.64.96:2017/live/GBa19qrcQYa3/u2c8FLfgkK/356.ts
-PremierSports2,http://163.172.64.96:2017/live/GBa19qrcQYa3/u2c8FLfgkK/342.ts
-TNTSPORT1,http://163.172.64.96:2017/live/GBa19qrcQYa3/u2c8FLfgkK/343.ts
-TNTSPORT2,http://163.172.64.96:2017/live/GBa19qrcQYa3/u2c8FLfgkK/344.ts
-TNTSPORT4,http://163.172.64.96:2017/live/GBa19qrcQYa3/u2c8FLfgkK/346.ts
-Eurosport1,http://163.172.64.96:2017/live/GBa19qrcQYa3/u2c8FLfgkK/351.ts
-Eurosport2,http://163.172.64.96:2017/live/GBa19qrcQYa3/u2c8FLfgkK/352.ts
+葡萄牙VS西班牙,https://s3.bfllvip.com/video/2026meijiamoshijiebeibafenzhiyijuesaiputaoyaVSxibanya/beda4abb6fc8/index.m3u8
+西班牙VS比利时,https://s3.bfllvip.com/video/2026meijiamoshijiebeisifenzhiyijuesaixibanyaVSbilishi/6a72c744c63c/index.m3u8
+西班牙VS奥地利,https://s3.bfllvip.com/video/2026meijiamoshijiebeishiliufenzhiyijuesaixibanyaVSaodili/708f7ef9c261/index.m3u8
+乌拉圭VS西班牙,https://s3.bfllvip.com/video/2026meijiamoshijiebeixiaozusaiHzuwulaguiVSxibanya/bd61786274bd/index.m3u8
+
 
 🇯🇵日本,#genre#
 NHKG,https://naori-test.netgenx.site/pxx.php?shk_cid=hdgd01
