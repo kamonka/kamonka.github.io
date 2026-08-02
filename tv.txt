@@ -406,13 +406,27 @@ TORO,http://tectonbrand.com:80/4KYD2C92D/1Z6BCL4/68362
 TORO,http://tectonbrand.com:80/4KYD2C92D/1Z6BCL4/330538
 TORO,http://tectonbrand.com:80/4KYD2C92D/1Z6BCL4/757751
 
-HKNOW,http://10k.lucastv.pro/live/2c99755ae255/gJnMAT2/465863.ts#http://10k.lucastv.pro/live/2c99755ae255/gJnMAT2/465861.ts
-HKNOW⁴ᵏ,http://host-aurora.vip:80/play/live.php?mac=00:1a:79:31:c2:72&stream=2075515&extension=ts&play_token=hj7ju3RetU
-HKNOW⁴ᵏ,http://tectonbrand.com:80/4KYD2C92D/1Z6BCL4/438866#http://10k.lucastv.pro/live/2c99755ae255/gJnMAT2/465865.ts#http://10k.lucastv.pro/live/2c99755ae255/gJnMAT2/465864.ts
-HKNOW⁴ᵏ,http://mag.greatott.me:80/play/live.php?mac=00:1A:79:74:B1:B9&stream=2095898&extension=ts&play_token=1qHzIcYuYs#http://mag.greatott.me:80/play/live.php?mac=00:1A:79:74:B1:B9&stream=2095897&extension=ts&play_token=vG5XGcNqrZ
-HKNOW⁴ᵏ,http://host-aurora.vip:80/play/live.php?mac=00:1a:79:31:c2:72&stream=2075515&extension=ts&play_token=ygTzgE3OwV#http://89.187.179.148:826/anto.j/c9yJDcXyPe/120336
-EUROSPORT⁴ᵏ,http://fomo.re/oiAPMTyBHC7I7BK7/gs42ehsohqJ30C7m/32818
 TNTSPORTS⁴ᵏ,http://hardcoremedia.xyz:80/6jTFRmvaSp/7534936344/258594
+TNTSPORTS,http://line.cloud-ott.net:80/play/live.php?mac=00:1A:79:0D:80:56&stream=1174218&extension=ts&play_token=c56ATInCI7
+TNTSPORTS,http://line.cloud-ott.net:80/play/live.php?mac=00:1A:79:0D:80:56&stream=1174219&extension=ts&play_token=qpwQ2tQ1pk
+TNTSPORTS,http://line.cloud-ott.net:80/play/live.php?mac=00:1A:79:0D:80:56&stream=1174220&extension=ts&play_token=golaBj6Ugg
+TNTSPORTS,http://line.cloud-ott.net:80/play/live.php?mac=00:1A:79:0D:80:56&stream=1174221&extension=ts&play_token=WXMsGdOqRX
+
+SKYSPORTS⁴ᵏ,http://line.cloud-ott.net:80/play/live.php?mac=00:1A:79:0D:80:56&stream=1312008&extension=ts&play_token=u00Cl0P98a
+SKYSPORTS,http://line.cloud-ott.net:80/play/live.php?mac=00:1A:79:0D:80:56&stream=1311999&extension=ts&play_token=FEhmsngN4R
+SKYSPORTS,http://line.cloud-ott.net:80/play/live.php?mac=00:1A:79:0D:80:56&stream=1312002&extension=ts&play_token=MIxE4A2qxf
+SKYSPORTS,http://line.cloud-ott.net:80/play/live.php?mac=00:1A:79:0D:80:56&stream=1312000&extension=ts&play_token=EsP5WvQdeF
+SKYSPORTS,http://line.cloud-ott.net:80/play/live.php?mac=00:1A:79:0D:80:56&stream=1311995&extension=ts&play_token=4ZFqFsy53P
+SKYSPORTS,http://line.cloud-ott.net:80/play/live.php?mac=00:1A:79:0D:80:56&stream=1311994&extension=ts&play_token=St2ptjZ1CL
+
+BEINSSPORTS⁴ᵏ,http://line.cloud-ott.net:80/play/live.php?mac=00:1A:79:0D:80:56&stream=1313561&extension=ts&play_token=UwwhPcI23f
+BEINSSPORTS⁴ᵏ,http://line.cloud-ott.net:80/play/live.php?mac=00:1A:79:0D:80:56&stream=1313562&extension=ts&play_token=IsZccbc3vp
+BEINSPORTS,http://line.cloud-ott.net:80/play/live.php?mac=00:1A:79:0D:80:56&stream=1313535&extension=ts&play_token=oH68dRjcl7
+BEINSPORTS,http://line.cloud-ott.net:80/play/live.php?mac=00:1A:79:0D:80:56&stream=1313536&extension=ts&play_token=Tm6NQGUU9u
+
+EUROSPORT⁴ᵏ,http://fomo.re/oiAPMTyBHC7I7BK7/gs42ehsohqJ30C7m/32818
+EUROSPORT,http://line.cloud-ott.net:80/play/live.php?mac=00:1A:79:0D:80:56&stream=548060&extension=ts&play_token=7LgwoWGcwn
+EUROSPORT,http://line.cloud-ott.net:80/play/live.php?mac=00:1A:79:0D:80:56&stream=548058&extension=ts&play_token=rM1oZ6Owsw
 
 葡萄牙VS西班牙,https://s3.bfllvip.com/video/2026meijiamoshijiebeibafenzhiyijuesaiputaoyaVSxibanya/beda4abb6fc8/index.m3u8
 西班牙VS比利时,https://s3.bfllvip.com/video/2026meijiamoshijiebeisifenzhiyijuesaixibanyaVSbilishi/6a72c744c63c/index.m3u8
