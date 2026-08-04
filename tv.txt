@@ -2,6 +2,11 @@
 BBC,https://akariko-bck1.sankuria.sbs/stream/jp/bbc_news/stream-output.m3u8?mode=hls
 CNN,https://akariko-bck1.sankuria.sbs/stream/jp/cnnj/stream-output.m3u8?mode=hls
 
+BBC，http://line.cloud-ott.net:80/play/live.php?mac=00:1A:79:0D:80:56&stream=1169077&extension=ts&play_token=9aX1SMOfkK
+CNN，http://line.cloud-ott.net:80/play/live.php?mac=00:1A:79:0D:80:56&stream=1169082&extension=ts&play_token=nVLve4k38l
+半岛新闻,http://line.cloud-ott.net:80/play/live.php?mac=00:1A:79:0D:80:56&stream=1169081&extension=ts&play_token=fmfCtYkQBw
+
+
 BBC,https://vs-hls-push-ww-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_news_channel_hd/t=3840/v=pv14/b=5070016/main.m3u8
 CNN,http://tvmaxxx.com:80/JosemarOliveira/24jos999064802/219087
 BBC,https://naori-test.netgenx.site/pxx.php?shk_cid=cs15
@@ -83,10 +88,10 @@ HOY资讯,http://cdn.163189.xyz/163189/hoy78
 凤凰资讯,http://cdn6.163189.xyz/163189/fhzx#https://cdn9.163189.xyz/smt3.1.1.php?id=phoenixinfo_hd
 
 🇺🇸欧美综合,#genre#
-BBC1,http://163.172.64.96:2017/live/GBa19qrcQYa3/u2c8FLfgkK/234.ts
-BBC2,http://163.172.64.96:2017/live/GBa19qrcQYa3/u2c8FLfgkK/235.ts
-BBC3,http://163.172.64.96:2017/live/GBa19qrcQYa3/u2c8FLfgkK/236.ts
-BBC4,http://163.172.64.96:2017/live/GBa19qrcQYa3/u2c8FLfgkK/237.ts
+BBC1,http://line.cloud-ott.net:80/play/live.php?mac=00:1A:79:0D:80:56&stream=394415&extension=ts&play_token=2dtIgIsHQS
+BBC2,http://line.cloud-ott.net:80/play/live.php?mac=00:1A:79:0D:80:56&stream=394413&extension=ts&play_token=gGGhxs6WNd
+BBC3,http://line.cloud-ott.net:80/play/live.php?mac=00:1A:79:0D:80:56&stream=394411&extension=ts&play_token=fA5an8ZUAQ
+BBC4,http://line.cloud-ott.net:80/play/live.php?mac=00:1A:79:0D:80:56&stream=394409&extension=ts&play_token=4QjxtPAuij
 
 La1⁴ᵏ,#http://line.cloud-ott.net:80/play/live.php?mac=00:1A:79:0D:80:56&stream=895539&extension=ts&play_token=hqgAMi6gpl#http://host-aurora.vip:80/play/live.php?mac=00:1a:79:31:c2:72&stream=2075526&extension=ts&play_token=6HySd7KDdW#http://line.cloud-ott.net:80/play/live.php?mac=00:1A:79:0D:80:56&stream=568965&extension=ts&play_token=DNiyX2u2O1
 
