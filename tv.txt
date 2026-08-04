@@ -1,8 +1,4 @@
 🇬🇬世界新闻,#genre#
-BBC,http://163.172.64.96:2017/live/GBa19qrcQYa3/u2c8FLfgkK/250.ts
-CNN,http://163.172.64.96:2017/live/GBa19qrcQYa3/u2c8FLfgkK/253.ts
-半岛新闻,http://163.172.64.96:2017/live/GBa19qrcQYa3/u2c8FLfgkK/255.ts
-
 BBC,https://akariko-bck1.sankuria.sbs/stream/jp/bbc_news/stream-output.m3u8?mode=hls
 CNN,https://akariko-bck1.sankuria.sbs/stream/jp/cnnj/stream-output.m3u8?mode=hls
 
