@@ -207,7 +207,7 @@ CinemaWorld,https://ha.msbot.dpdns.org/4gtv_api.php?id=225
 🇲🇾新马泰印#genre#
 
 🇯🇲体育,#genre#
-TORO,http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/757751.ts
+TORO,http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/757751.ts#http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/1061264.ts
 TORO,http://line.cloud-ott.net:80/play/live.php?mac=00:1A:79:0D:80:56&stream=959568&extension=ts&play_token=Zf7BmyTmjI
 TORO,http://line.cloud-ott.net:80/play/live.php?mac=00:1A:79:0D:80:56&stream=959568&extension=ts&play_token=FLzcBlqF5i
 TORO,http://neosfpoo.top:8080/2071771277838/6ec486cbcb6b/56010
@@ -233,11 +233,14 @@ SKYSPORTS,http://line.cloud-ott.net:80/play/live.php?mac=00:1A:79:0D:80:56&strea
 SKYSPORTS,http://line.cloud-ott.net:80/play/live.php?mac=00:1A:79:0D:80:56&stream=1311994&extension=ts&play_token=St2ptjZ1CL
 BEINSSPORTS⁴ᵏ,http://line.cloud-ott.net:80/play/live.php?mac=00:1A:79:0D:80:56&stream=1313561&extension=ts&play_token=UwwhPcI23f
 BEINSSPORTS⁴ᵏ,http://line.cloud-ott.net:80/play/live.php?mac=00:1A:79:0D:80:56&stream=1313562&extension=ts&play_token=IsZccbc3vp
+BEINSPORTS,http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/986970.ts
+BEINSPORTS,http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/986971.ts
 BEINSPORTS,http://line.cloud-ott.net:80/play/live.php?mac=00:1A:79:0D:80:56&stream=1313535&extension=ts&play_token=oH68dRjcl7
 BEINSPORTS,http://line.cloud-ott.net:80/play/live.php?mac=00:1A:79:0D:80:56&stream=1313536&extension=ts&play_token=Tm6NQGUU9u
 EUROSPORT⁴ᵏ,http://fomo.re/oiAPMTyBHC7I7BK7/gs42ehsohqJ30C7m/32818
 EUROSPORT,http://line.cloud-ott.net:80/play/live.php?mac=00:1A:79:0D:80:56&stream=548060&extension=ts&play_token=7LgwoWGcwn
 EUROSPORT,http://line.cloud-ott.net:80/play/live.php?mac=00:1A:79:0D:80:56&stream=548058&extension=ts&play_token=rM1oZ6Owsw
+PREMIERLEAGUE⁴ᵏ,http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/979906.ts#http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/17285.ts
 
 🇯🇵日本,#genre#
 NHKG,http://58.82.168.138:5002/hdgd01.m3u8?token=guoziyun&channel=zhongying
