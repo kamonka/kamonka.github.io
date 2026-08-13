@@ -239,12 +239,6 @@ EUROSPORT⁴ᵏ,http://fomo.re/oiAPMTyBHC7I7BK7/gs42ehsohqJ30C7m/32818
 EUROSPORT,http://line.cloud-ott.net:80/play/live.php?mac=00:1A:79:0D:80:56&stream=548060&extension=ts&play_token=7LgwoWGcwn
 EUROSPORT,http://line.cloud-ott.net:80/play/live.php?mac=00:1A:79:0D:80:56&stream=548058&extension=ts&play_token=rM1oZ6Owsw
 
-葡萄牙VS西班牙,https://s3.bfllvip.com/video/2026meijiamoshijiebeibafenzhiyijuesaiputaoyaVSxibanya/beda4abb6fc8/index.m3u8
-西班牙VS比利时,https://s3.bfllvip.com/video/2026meijiamoshijiebeisifenzhiyijuesaixibanyaVSbilishi/6a72c744c63c/index.m3u8
-西班牙VS奥地利,https://s3.bfllvip.com/video/2026meijiamoshijiebeishiliufenzhiyijuesaixibanyaVSaodili/708f7ef9c261/index.m3u8
-乌拉圭VS西班牙,https://s3.bfllvip.com/video/2026meijiamoshijiebeixiaozusaiHzuwulaguiVSxibanya/bd61786274bd/index.m3u8
-
-
 🇯🇵日本,#genre#
 NHKG,http://58.82.168.138:5002/hdgd01.m3u8?token=guoziyun&channel=zhongying
 NHKG,http://58.82.168.138:5002/gd01.m3u8?token=guoziyun&channel=zhongying
