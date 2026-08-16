@@ -162,6 +162,12 @@ TV朝鲜,http://onair2.cdn.tvchosun.com/origin2/_definst_/tvchosun_s3/playlist.m
 🇯🇪纪实人文,#genre#
 爆笑视频,https://81d1c38525014f39a1705b01e04d91c2.mediatailor.us-east-1.amazonaws.com/v1/master/04fd913bb278d8775298c26fdca9d9841f37601f/RakutenTV-eu_ThePetCollective-1/playlist.m3u8#https://965a56fdfe3c40cd9b73c49a0cde620b.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/RakutenTV-eu_PeopleAreAwesome-1/playlist.m3u8#https://d39g1vxj2ef6in.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod-rakuten-stitched/master.m3u8#https://bd93cfed.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWV1X0ZhaWxBcm15X0hMUw/playlist.m3u8#
 
+LoveNature,https://4gtv.tvbjack.ggff.net/?id=139
+历史,https://4gtv.tvbjack.ggff.net/?id=214
+罪桉侦查,https://4gtv.tvbjack.ggff.net/?id=215
+视纳华仁纪实,https://4gtv.tvbjack.ggff.net/?id=38
+影迷数位纪实,https://4gtv.tvbjack.ggff.net/?id=445
+
 动物星球,http://61.221.215.25:8800/hls/57/index.m3u8
 
 半岛纪录片,http://portal-iptv.net:8080/077998950140/077998950140/650
@@ -177,7 +183,7 @@ PetClub,https://ha.msbot.dpdns.org/4gtv_api.php?id=464
 fun探索娱乐,https://ha.msbot.dpdns.org/4gtv_api.php?id=274
 幸福空间居家,https://ha.msbot.dpdns.org/4gtv_api.php?id=123
 LoveNature,https://ha.msbot.dpdns.org/4gtv_api.php?id=139
-历史频道,https://ha.msbot.dpdns.org/4gtv_api.php?id=214
+历史,https://ha.msbot.dpdns.org/4gtv_api.php?id=214
 爱尔达生活旅游,https://ha.msbot.dpdns.org/4gtv_api.php?id=237
 LUXETV,https://ha.msbot.dpdns.org/4gtv_api.php?id=175
 
