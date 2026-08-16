@@ -70,7 +70,22 @@ TVBS新闻,http://4gtv.cnlive.club/channel/n1ea96b20/index.m3u8?q=1784775774070
 中视新闻,http://4gtv.cnlive.club/channel/7e6461d6/index.m3u8?q=1784775774070
 中天新闻,http://4gtv.cnlive.club/channel/3824d067/index.m3u8?q=1784775774070
 寰宇新闻,http://4gtv.cnlive.club/channel/n4da4274/index.m3u8?q=1784775774070
-寰宇新闻台湾台,http://4gtv.cnlive.club/channel/n37458587/index.m3u8?q=1784775774
+寰宇新闻,http://4gtv.cnlive.club/channel/n37458587/index.m3u8?q=1784775774
+
+镜新闻,https://4gtv.tvbjack.ggff.net/?id=268
+东森新闻,https://4gtv.tvbjack.ggff.net/?id=234
+东森新闻,https://4gtv.tvbjack.ggff.net/?id=292
+华视新闻,https://4gtv.tvbjack.ggff.net/?id=34
+华视新闻,https://4gtv.tvbjack.ggff.net/?id=256
+民视新闻,https://4gtv.tvbjack.ggff.net/?id=257
+民视新闻,https://4gtv.tvbjack.ggff.net/?id=31
+民视新闻,https://4gtv.tvbjack.ggff.net/?id=467
+三立新闻,https://4gtv.tvbjack.ggff.net/?id=229
+TVBS新闻,https://4gtv.tvbjack.ggff.net/?id=291
+TVBS新闻,https://4gtv.tvbjack.ggff.net/?id=473
+中视新闻,https://4gtv.tvbjack.ggff.net/?id=33
+寰宇新闻,https://4gtv.tvbjack.ggff.net/?id=36
+寰宇新闻,https://4gtv.tvbjack.ggff.net/?id=280
 
 镜新闻,https://d36dgdk71xuzzg.cloudfront.net/v1/manifest/3a2ac8e6b6c76471996ebf627393d9c9417a60b6/linetv-6-627778910172-MediaTailor-production/c9b2313d-efdd-4777-9fae-573be8a86755/0.m3u8
 
