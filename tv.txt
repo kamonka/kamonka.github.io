@@ -1,4 +1,8 @@
 🇬🇬世界新闻,#genre#
+BBC,http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/21334.ts
+CNN,http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/71493.ts#http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/71486.ts
+FOXNEWS,http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/17356.ts#http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/796328.ts
+
 BBC,https://vs-hls-push-ww-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_news_channel_hd/t=3840/v=pv14/b=5070016/main.m3u8
 CNN,http://tvmaxxx.com:80/JosemarOliveira/24jos999064802/219087
 BBC,https://naori-test.netgenx.site/pxx.php?shk_cid=cs15
@@ -95,6 +99,21 @@ HOY资讯,http://cdn.163189.xyz/163189/hoy78
 凤凰资讯,http://cdn6.163189.xyz/163189/fhzx#https://cdn9.163189.xyz/smt3.1.1.php?id=phoenixinfo_hd
 
 🇺🇸欧美综合,#genre#
+BBC1,http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/17305.ts#http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/69428.ts
+BBC2,http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/17318.ts
+BBC3,http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/17321.ts
+BBC4,http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/17331.ts
+La1,http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/21367.ts
+RAI⁴ᵏ,http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/1281054.ts
+TRT⁴ᵏ,http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/1436349.ts
+TF1,http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/1281445.ts
+ZDF,http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/1029569.ts
+CBS,http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/213926.ts
+NBC,http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/214129.ts
+FOX,http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/214392.ts
+ABC,http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/222674.ts
+CW,http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/71420.ts
+
 BBC1,http://line.cloud-ott.net:80/play/live.php?mac=00:1A:79:0D:80:56&stream=394415&extension=ts&play_token=2dtIgIsHQS
 BBC2,http://line.cloud-ott.net:80/play/live.php?mac=00:1A:79:0D:80:56&stream=394413&extension=ts&play_token=gGGhxs6WNd
 BBC3,http://line.cloud-ott.net:80/play/live.php?mac=00:1A:79:0D:80:56&stream=394411&extension=ts&play_token=fA5an8ZUAQ
