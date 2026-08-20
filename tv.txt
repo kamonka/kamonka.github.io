@@ -1,4 +1,9 @@
 🇬🇬世界新闻,#genre#
+1,http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/21334.ts
+2,http://steveit4.net/live/4KYD2C92D/1Z6BCL4/21334.ts
+3,http://103.175.129.173/live/4KYD2C92D/1Z6BCL4/21334.ts
+4,http://103.175.129.110/live/4KYD2C92D/1Z6BCL4/21334.ts
+
 BBC,http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/21334.ts
 CNN,http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/71493.ts#http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/71486.ts
 FOXNEWS,http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/17356.ts#http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/796328.ts
