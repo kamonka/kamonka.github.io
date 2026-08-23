@@ -240,9 +240,9 @@ CinemaWorld,https://ha.msbot.dpdns.org/4gtv_api.php?id=225
 🇲🇾新马泰印#genre#
 
 🇯🇲体育,#genre#
-TORO,http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/1061263.ts#http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/757751.ts#http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/1061264.ts
 TORO,http://line.cloud-ott.net:80/play/live.php?mac=00:1A:79:0D:80:56&stream=959568&extension=ts&play_token=Zf7BmyTmjI
 TORO,http://line.cloud-ott.net:80/play/live.php?mac=00:1A:79:0D:80:56&stream=959568&extension=ts&play_token=FLzcBlqF5i
+TORO,http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/1061263.ts#http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/757751.ts#http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/1061264.ts
 TORO,http://neosfpoo.top:8080/2071771277838/6ec486cbcb6b/56010
 TORO,http://neosfpoo.top:8080/2071771277838/6ec486cbcb6b/56009
 TORO,http://jackofclubs.vip:80/1Ray1842/xWtyyTVfFY/219525.ts
