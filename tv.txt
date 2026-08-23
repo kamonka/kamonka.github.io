@@ -256,7 +256,6 @@ TORO,http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/21329.ts#http://tectonbrand.c
 TORO,http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/1293758.ts#http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/975890.ts
 
 PREMIERLEAGUE⁴ᵏ,http://steveit4.net/live/4KYD2C92D/1Z6BCL4/979906.ts#http://steveit4.net/live/4KYD2C92D/1Z6BCL4/979907.ts#http://steveit4.net/live/4KYD2C92D/1Z6BCL4/17285.ts
-PREMIERLEAGUE⁴ᵏ,http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/979906.ts#http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/17285.ts
 EUROSPORT⁴ᵏ,http://fomo.re/oiAPMTyBHC7I7BK7/gs42ehsohqJ30C7m/32818
 EUROSPORT,http://steveit4.net/live/4KYD2C92D/1Z6BCL4/1138933.ts#http://steveit4.net/live/4KYD2C92D/1Z6BCL4/1138934.ts
 TNTSPORTS⁴ᵏ,http://steveit4.net/live/4KYD2C92D/1Z6BCL4/1281083.ts
