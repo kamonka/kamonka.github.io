@@ -2,9 +2,9 @@
 BBC,http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/21334.ts
 CNN,http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/71493.ts#http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/71486.ts
 FOXNEWS,http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/17356.ts#http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/796328.ts
-
+CNN,http://ana4life.us:80/JosemarOliveira/24jos999064802/219087
 BBC,https://vs-hls-push-ww-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_news_channel_hd/t=3840/v=pv14/b=5070016/main.m3u8
-CNN,http://tvmaxxx.com:80/JosemarOliveira/24jos999064802/219087
+CNN,http://line.cloud-ott.net:80/play/live.php?mac=00:1A:79:0D:80:56&stream=933139&extension=ts&play_token=4ahth5R2L5
 BBC,https://naori-test.netgenx.site/pxx.php?shk_cid=cs15
 CNN,https://naori-test.netgenx.site/pxx.php?shk_cid=cs16
 BBC,http://58.82.168.138:5002/cs15.m3u8?token=guoziyun&gid=cs15&channel=zhongying
