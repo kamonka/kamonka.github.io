@@ -255,6 +255,7 @@ TORO,https://cflive.kaltura.com/scf/env/d.live.nvp1/live/hls/p/2288691/e/1_gnz6i
 TORO,http://tectonbrand.com:80/4KYD2C92D/1Z6BCL4/330538
 TORO,http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/21329.ts#http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/1360005.ts
 TORO,http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/1293758.ts#http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/975890.ts
+TORO,http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/21364.ts
 
 PREMIERLEAGUE⁴ᵏ,http://steveit4.net/live/4KYD2C92D/1Z6BCL4/979906.ts#http://steveit4.net/live/4KYD2C92D/1Z6BCL4/979907.ts#http://steveit4.net/live/4KYD2C92D/1Z6BCL4/17285.ts
 EUROSPORT⁴ᵏ,http://fomo.re/oiAPMTyBHC7I7BK7/gs42ehsohqJ30C7m/32818
