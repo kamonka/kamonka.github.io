@@ -240,7 +240,6 @@ CinemaWorld,https://ha.msbot.dpdns.org/4gtv_api.php?id=225
 🇲🇾新马泰印#genre#
 
 🇯🇲体育,#genre#
-TORO,https://atres-live.atresmedia.com/h264/live/eventos06/master.m3u8
 TORO,http://line.cloud-ott.net:80/play/live.php?mac=00:1A:79:0D:80:56&stream=959568&extension=ts&play_token=Zf7BmyTmjI
 TORO,http://line.cloud-ott.net:80/play/live.php?mac=00:1A:79:0D:80:56&stream=959568&extension=ts&play_token=FLzcBlqF5i
 TORO,http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/1061263.ts#http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/757751.ts#http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/1061264.ts
@@ -257,7 +256,7 @@ TORO,http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/21329.ts#http://tectonbrand.c
 TORO,http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/1293758.ts#http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/975890.ts
 TORO,http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/21364.ts
 
-PREMIERLEAGUE⁴ᵏ,http://steveit4.net/live/4KYD2C92D/1Z6BCL4/979906.ts#http://steveit4.net/live/4KYD2C92D/1Z6BCL4/979907.ts#http://steveit4.net/live/4KYD2C92D/1Z6BCL4/17285.ts
+PREMIERLEAGUE⁴ᵏ,http://steveit4.net/live/4KYD2C92D/1Z6BCL4/17285.ts#http://steveit4.net/live/4KYD2C92D/1Z6BCL4/979906.ts#http://steveit4.net/live/4KYD2C92D/1Z6BCL4/979907.ts
 EUROSPORT⁴ᵏ,http://fomo.re/oiAPMTyBHC7I7BK7/gs42ehsohqJ30C7m/32818
 EUROSPORT,http://steveit4.net/live/4KYD2C92D/1Z6BCL4/1138933.ts#http://steveit4.net/live/4KYD2C92D/1Z6BCL4/1138934.ts
 TNTSPORTS⁴ᵏ,http://steveit4.net/live/4KYD2C92D/1Z6BCL4/1281083.ts
