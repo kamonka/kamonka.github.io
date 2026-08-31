@@ -259,6 +259,10 @@ TORO,http://neosfpoo.top:8080/2071771277838/6ec486cbcb6b/55943
 TORO,https://cflive.kaltura.com/scf/env/d.live.nvp1/live/hls/p/2288691/e/1_gnz6ity9/tl/main/st/0/t/eB3tZbaQcuVjhPbVtiVcng/index-s32.m3u8?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9jZmxpdmUua2FsdHVyYS5jb20vc2NmL2Vudi9kLmxpdmUubnZwMS9saXZlL2hscy9wLzIyODg2OTEvZS8xX2duejZpdHk5L3RsL21haW4vc3QvMC90L2VCM3RaYmFRY3VWamhQYlZ0aVZjbmcvKiIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc4MzA2MzQ1Nn19fV19&Signature=Xdd3gNqB4WuLJ6phPgNnoS4s5Q0niApsK3pvpVB~Vss0Lcy3Z2KrZtaihEguGMri955UhIF6rn6H-Zs9L2tlRrpJbMJtYYTVYCq-ZsEreEAwzOrJgewSlxkpmk5iOEwVgP~gg8MrAkNAqmbTlEPJCS3fFSpwHeCagA-zG1SpcnTSULLR04ccPko07qr7OytEMxzmocZM5xSUAmS68IEYoyyAMZOBOm8PgHha2yTH2zTDovVmgsdUnMG8Qy6ujUnAzJYnk5a32Tt4Ee2T7JnrrhkvpITqtt9cW4Dd0fJM9i~yrwnSW~z0TDIr25BvH8TJyCPmvlZF4K7QEHMBW7EXVg__&Key-Pair-Id=K31ANTJBLNVBEC
 
 PREMIERLEAGUE⁴ᵏ,http://steveit4.net/live/4KYD2C92D/1Z6BCL4/17285.ts#http://steveit4.net/live/4KYD2C92D/1Z6BCL4/979906.ts#http://steveit4.net/live/4KYD2C92D/1Z6BCL4/979907.ts
+NowSports⁴ᵏ,http://iptv.852851.xyz/l/lAp4ozdGx2jCK8Ss7V79TqsU3feFif-l3PIEmQ7alad_lliozYPOzUe
+爱尔达体育1,http://iptv.852851.xyz/l/rhRtmrLcYUEdX9ShuLW9sVxDvbFkSG7ouIMGxKdjdnab0qFWA6LkGrvkYNfQAAxS/index.m3u8
+爱尔达体育2,http://iptv.852851.xyz/l/E1QgWQLwZCgM606cW284Iw_b5zvRHdFTtnMJbABM1pETz4WCcGiZhhkeqPLuVm9H/index.m3u8
+爱尔达体育3,http://iptv.852851.xyz/l/ub5934TRfX6wRDExPZqB7-1V8WWIUy_sLVUYI-EOu-rpsrpLPi2TbpWsBI7-CSsu/index.m3u8
 EUROSPORT⁴ᵏ,http://fomo.re/oiAPMTyBHC7I7BK7/gs42ehsohqJ30C7m/32818
 EUROSPORT,http://steveit4.net/live/4KYD2C92D/1Z6BCL4/1138933.ts#http://steveit4.net/live/4KYD2C92D/1Z6BCL4/1138934.ts
 TNTSPORTS⁴ᵏ,http://steveit4.net/live/4KYD2C92D/1Z6BCL4/1281083.ts
