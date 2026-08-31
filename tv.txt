@@ -270,6 +270,13 @@ TORO,https://cflive.kaltura.com/scf/env/d.live.nvp1/live/hls/p/2288691/e/1_gnz6i
 纬来体育,https://iptv.852851.xyz/l/z16nYDtf6PmdMX3WGGlZ47rRJ2MK_RaPmZcKEmQkV2gJDgSyV3w2_L7w7lM72lOt/index.m3u8
 NowSports⁴ᵏ,http://iptv.852851.xyz/l/lAp4ozdGx2jCK8Ss7V79TqsU3feFif-l3PIEmQ7alad_lliozYPOzUe
 NowSportsPRIME,http://iptv.852851.xyz/l/nHH7Te5FQyFcyw3N3vjqbtzHTiIlcQ2jVFvwpB1SX4iNKGAWp2eschwQBmk5ug5x/index.m3u8
+爱尔达体育1,http://iptv.852851.xyz/l/rhRtmrLcYUEdX9ShuLW9sVxDvbFkSG7ouIMGxKdjdnab0qFWA6LkGrvkYNfQAAxS/index.m3u8
+爱尔达体育2,http://iptv.852851.xyz/l/E1QgWQLwZCgM606cW284Iw_b5zvRHdFTtnMJbABM1pETz4WCcGiZhhkeqPLuVm9H/index.m3u8
+爱尔达体育3,http://iptv.852851.xyz/l/ub5934TRfX6wRDExPZqB7-1V8WWIUy_sLVUYI-EOu-rpsrpLPi2TbpWsBI7-CSsu/index.m3u8
+爱尔达体育4,http://iptv.852851.xyz/l/d6Jp9Lu3Msuq2pJhKjrppJ097hAL2ndNPrem0zyKGkZyr_Pk9SpYuCgDVDWgM0E6/index.m3u8
+纬来体育,https://iptv.852851.xyz/l/z16nYDtf6PmdMX3WGGlZ47rRJ2MK_RaPmZcKEmQkV2gJDgSyV3w2_L7w7lM72lOt/index.m3u8
+NowSports⁴ᵏ,http://iptv.852851.xyz/l/lAp4ozdGx2jCK8Ss7V79TqsU3feFif-l3PIEmQ7alad_lliozYPOzUe
+NowSportsPRIME,http://iptv.852851.xyz/l/nHH7Te5FQyFcyw3N3vjqbtzHTiIlcQ2jVFvwpB1SX4iNKGAWp2eschwQBmk5ug5x/index.m3u8
 
 PREMIERLEAGUE⁴ᵏ,http://steveit4.net/live/4KYD2C92D/1Z6BCL4/17285.ts#http://steveit4.net/live/4KYD2C92D/1Z6BCL4/979906.ts#http://steveit4.net/live/4KYD2C92D/1Z6BCL4/979907.ts
 EUROSPORT⁴ᵏ,http://fomo.re/oiAPMTyBHC7I7BK7/gs42ehsohqJ30C7m/32818
