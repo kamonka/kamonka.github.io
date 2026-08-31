@@ -309,7 +309,7 @@ BEINSPORTS,http://line.cloud-ott.net:80/play/live.php?mac=00:1A:79:0D:80:56&stre
 EUROSPORT,http://line.cloud-ott.net:80/play/live.php?mac=00:1A:79:0D:80:56&stream=548060&extension=ts&play_token=7LgwoWGcwn
 EUROSPORT,http://line.cloud-ott.net:80/play/live.php?mac=00:1A:79:0D:80:56&stream=548058&extension=ts&play_token=rM1oZ6Owsw
 
-🇯🇵日本,#genre
+🇯🇵日本,#genre#
 NHKG,https://akariko-bck1.sankuria.sbs/stream/jp/nhk_g_2/stream-output.m3u8?mode=hls
 NHKG,https://akariko-bck1.sankuria.sbs/stream/jp/nhk_g_osaka/stream-output.m3u8?mode=hls
 NHKBS,https://akariko-bck1.sankuria.sbs/stream/jp/nhk_bs/stream-output.m3u8?mode=hls
