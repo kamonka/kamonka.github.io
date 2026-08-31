@@ -10,6 +10,8 @@ CNN,https://naori-test.netgenx.site/pxx.php?shk_cid=cs16
 BBC,http://58.82.168.138:5002/cs15.m3u8?token=guoziyun&gid=cs15&channel=zhongying
 CNN,http://58.82.168.138:5002/cs16.m3u8?token=guoziyun&gid=cs16&channel=zhongying
 
+FOXNEWS,http://iptv.852851.xyz/l/mJA9ozxZYJCDtysvnpVzygQ1sskmtsnnkEb0kA7Z02RISNXYld9bA4Hdt8b3-njj/play
+
 BBC,http://line.cloud-ott.net:80/play/live.php?mac=00:1A:79:0D:80:56&stream=1169077&extension=ts&play_token=9aX1SMOfkK
 CNN,http://line.cloud-ott.net:80/play/live.php?mac=00:1A:79:0D:80:56&stream=1169082&extension=ts&play_token=nVLve4k38l
 半岛新闻,http://line.cloud-ott.net:80/play/live.php?mac=00:1A:79:0D:80:56&stream=1169081&extension=ts&play_token=fmfCtYkQBw
@@ -33,6 +35,7 @@ FOXNEWS,http://realsport.scalecdn.co:8080/live/supersonicstreams/cUewZolveU8Jh18
 共同社,https://cdn-apne1.tsv2.amagi.tv/linear/amg01287-rakutentvjapan-news3hlscmaf-rakutenjp/playlist.m3u8
 韩联社,https://tving-live-o2-xcdn.tving.com/o2/v1/019dd8deb9f5153d7865157cdbfbd6/019dd8df3d75153d7865157cdbfbd9/playlist.m3u8?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ0dmluZy5jb20iLCJleHAiOjE3ODI5OTY3OTMsInBhdGgiOiIvbzIifQ.geRJOH_F9C5g-GAaJ584nkjr_wwlHJ1Of-npUVYokv0#https://tving-live-o2-xcdn.tving.com/o2/v1/019db80595b1153d7865047a0ccd/019db8091f9d153d7865047a0cd0/playlist.m3u8?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ0dmluZy5jb20iLCJleHAiOjE3ODMwMzM4NjMsInBhdGgiOiIvbzIifQ.BkS5siB6teuhjvCRfK0KXakEZBkOeGW0KjAVhP3H82A
 路透社,https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00453-reuters-reuters-hls-rakutenjp/playlist.m3u8
+路透社,http://iptv.852851.xyz/l/I5m2hyPwRBbKpgUXTeOkCEA7__gBVFqXBLcvnTLCYkfbas_a3JlWy91NJP3ywXkX/play
 路透社,https://dbrb49pjoymg4.cloudfront.net/manifest/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod_default_xumo-ams-aws/e7493ea5-5c1c-4d7a-a3f7-e95516048ad8/3.m3u8
 
 NBC,https://d4whmvwm0rdvi.cloudfront.net/manifest/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod_default_xumo-nbcu-linear/3e088b25-3e79-4f34-bbdf-afbcd40497f3/4.m3u8
@@ -57,6 +60,8 @@ SKYNEWS,http://163.172.64.96:2017/live/GBa19qrcQYa3/u2c8FLfgkK/251.ts#https://xu
 土耳其之声,https://tv-trtworld.medya.trt.com.tr/master_1080.m3u8#http://tr.zengi34.xyz:8080/UEJLSW1qN0MwYk0rcU43MFA2bVM2VXdlYURJb1NjaHcvR3U3RnlCV3E2Y2llYXhFeEJkQm9JQmpENDlZa3BYNg
 
 🇹🇼台港新闻,#genre#
+年代新闻,http://iptv.852851.xyz/l/9bz5xzBj4G7z-ceB4nZLaj2C5vtUJXuilblpQHN0JCC-OFYfmqlc0f6Pn6J7lTiz/play
+
 镜新闻,http://4gtv.cnlive.club/channel/351c8485/index.m3u8?q=1784775774070
 东森新闻,http://4gtv.cnlive.club/channel/n5ca63a3a/index.m3u8?q=1784775774070
 华视新闻,http://4gtv.cnlive.club/channel/n692bc32c/index.m3u8?q=1784775774070
@@ -258,11 +263,14 @@ TORO,https://fastly.live.brightcove.com/1846756479408303045/eu-central-1/6057955
 TORO,http://neosfpoo.top:8080/2071771277838/6ec486cbcb6b/55943
 TORO,https://cflive.kaltura.com/scf/env/d.live.nvp1/live/hls/p/2288691/e/1_gnz6ity9/tl/main/st/0/t/eB3tZbaQcuVjhPbVtiVcng/index-s32.m3u8?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9jZmxpdmUua2FsdHVyYS5jb20vc2NmL2Vudi9kLmxpdmUubnZwMS9saXZlL2hscy9wLzIyODg2OTEvZS8xX2duejZpdHk5L3RsL21haW4vc3QvMC90L2VCM3RaYmFRY3VWamhQYlZ0aVZjbmcvKiIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc4MzA2MzQ1Nn19fV19&Signature=Xdd3gNqB4WuLJ6phPgNnoS4s5Q0niApsK3pvpVB~Vss0Lcy3Z2KrZtaihEguGMri955UhIF6rn6H-Zs9L2tlRrpJbMJtYYTVYCq-ZsEreEAwzOrJgewSlxkpmk5iOEwVgP~gg8MrAkNAqmbTlEPJCS3fFSpwHeCagA-zG1SpcnTSULLR04ccPko07qr7OytEMxzmocZM5xSUAmS68IEYoyyAMZOBOm8PgHha2yTH2zTDovVmgsdUnMG8Qy6ujUnAzJYnk5a32Tt4Ee2T7JnrrhkvpITqtt9cW4Dd0fJM9i~yrwnSW~z0TDIr25BvH8TJyCPmvlZF4K7QEHMBW7EXVg__&Key-Pair-Id=K31ANTJBLNVBEC
 
-PREMIERLEAGUE⁴ᵏ,http://steveit4.net/live/4KYD2C92D/1Z6BCL4/17285.ts#http://steveit4.net/live/4KYD2C92D/1Z6BCL4/979906.ts#http://steveit4.net/live/4KYD2C92D/1Z6BCL4/979907.ts
-NowSports⁴ᵏ,http://iptv.852851.xyz/l/lAp4ozdGx2jCK8Ss7V79TqsU3feFif-l3PIEmQ7alad_lliozYPOzUe
 爱尔达体育1,http://iptv.852851.xyz/l/rhRtmrLcYUEdX9ShuLW9sVxDvbFkSG7ouIMGxKdjdnab0qFWA6LkGrvkYNfQAAxS/index.m3u8
 爱尔达体育2,http://iptv.852851.xyz/l/E1QgWQLwZCgM606cW284Iw_b5zvRHdFTtnMJbABM1pETz4WCcGiZhhkeqPLuVm9H/index.m3u8
 爱尔达体育3,http://iptv.852851.xyz/l/ub5934TRfX6wRDExPZqB7-1V8WWIUy_sLVUYI-EOu-rpsrpLPi2TbpWsBI7-CSsu/index.m3u8
+爱尔达体育4,http://iptv.852851.xyz/l/d6Jp9Lu3Msuq2pJhKjrppJ097hAL2ndNPrem0zyKGkZyr_Pk9SpYuCgDVDWgM0E6/index.m3u8
+纬来体育,https://iptv.852851.xyz/l/z16nYDtf6PmdMX3WGGlZ47rRJ2MK_RaPmZcKEmQkV2gJDgSyV3w2_L7w7lM72lOt/index.m3u8
+NowSports⁴ᵏ,http://iptv.852851.xyz/l/lAp4ozdGx2jCK8Ss7V79TqsU3feFif-l3PIEmQ7alad_lliozYPOzUe
+
+PREMIERLEAGUE⁴ᵏ,http://steveit4.net/live/4KYD2C92D/1Z6BCL4/17285.ts#http://steveit4.net/live/4KYD2C92D/1Z6BCL4/979906.ts#http://steveit4.net/live/4KYD2C92D/1Z6BCL4/979907.ts
 EUROSPORT⁴ᵏ,http://fomo.re/oiAPMTyBHC7I7BK7/gs42ehsohqJ30C7m/32818
 EUROSPORT,http://steveit4.net/live/4KYD2C92D/1Z6BCL4/1138933.ts#http://steveit4.net/live/4KYD2C92D/1Z6BCL4/1138934.ts
 TNTSPORTS⁴ᵏ,http://steveit4.net/live/4KYD2C92D/1Z6BCL4/1281083.ts
@@ -292,9 +300,16 @@ BEINSPORTS,http://line.cloud-ott.net:80/play/live.php?mac=00:1A:79:0D:80:56&stre
 EUROSPORT,http://line.cloud-ott.net:80/play/live.php?mac=00:1A:79:0D:80:56&stream=548060&extension=ts&play_token=7LgwoWGcwn
 EUROSPORT,http://line.cloud-ott.net:80/play/live.php?mac=00:1A:79:0D:80:56&stream=548058&extension=ts&play_token=rM1oZ6Owsw
 
-纬来体育,https://iptv.852851.xyz/l/z16nYDtf6PmdMX3WGGlZ47rRJ2MK_RaPmZcKEmQkV2gJDgSyV3w2_L7w7lM72lOt/index.m3u8
-
 🇯🇵日本,#genre#
+NHKG,http://iptv.852851.xyz/l/l0hhtORXUfRMX9MlC6lewa0FRLTbhWy0Znsyq9j3S-p6tL1JNWERKlqXmJ_-u_Y0/play
+NHKG,http://iptv.852851.xyz/l/Nv3w2_kS0rs6WDDUm7Y6pdrIpPo7Wke7RwzFYlIhY98Sqs9q3nrInxN9dUSPwnoN/play
+NHKBSP,http://iptv.852851.xyz/l/kRDqaDJvMEz-pdgqR97Xwvy7m1d2HzKrPUDykXCbQfh70aZWJsJTWXpYlCB2V4uS/play
+NHKBS8K,http://iptv.852851.xyz/l/diBH5sI5b8bCCD-zsI0RDct00XI8lHyf2zkMKZi9uZwrKULKXaIYTMPDGfhRc-WH/play
+日本テレビ,http://iptv.852851.xyz/l/cAGS0ppiGI0t5l06Y1y-hmcjDQ3G01SK2yPb--zr1tDixWMLMhQVRRHUxR18Dktr/play
+TBS,http://iptv.852851.xyz/l/eDhgZEVyvpQ7GfgMDXsHNqzC-ORplKIGqHf4bhSWlBIEBcGzFGgyFy6lVRz-l-3g/play
+フジテレビ,http://iptv.852851.xyz/l/1wNWOMmPIIyISdc1bxg6yWasowxTipgGomCa2Qt3yezQDxIhw6_GJ-FBzHCPYvTl/play#http://iptv.852851.xyz/l/FlTyBn3BkTppKAPMqSu--9Xbz1wX6vprYhsPeVeB6ffyVxroDfk_27quPXIdr5yM/play
+テレビ朝日,http://iptv.852851.xyz/l/MvjgcZr4NMsxg4moWADo-_qlMTBE75J5_2Nds9bqyjq2Kt1aKNZh1aAtkj6kvwAD/play#http://iptv.852851.xyz/l/FPmlURF1R_s2x3Hfc_Riy0lyPKDIwd2cB8DYlHJKlgytI8fdGwVikPuyr7jjFO5H/play
+
 NHKG,https://naori-test.netgenx.site/pxx.php?shk_cid=gx06
 NHKG,https://naori-test.netgenx.site/pxx.php?shk_cid=hdgd01
 NHKBS,https://naori-test.netgenx.site/pxx.php?shk_cid=bs11
