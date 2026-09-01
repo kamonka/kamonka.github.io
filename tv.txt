@@ -248,8 +248,8 @@ CinemaWorld,https://ha.msbot.dpdns.org/4gtv_api.php?id=225
 TORO,http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/1061263.ts
 TORO,http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/757751.ts
 TORO,http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/21364.ts
-TORO,http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/21329.ts#http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/1360005.ts
-TORO,http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/1293758.ts#http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/975890.ts
+TORO,http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/21329.ts
+TORO,http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/1293758.ts
 TORO,http://neosfpoo.top:8080/2071771277838/6ec486cbcb6b/56010
 TORO,http://line.cloud-ott.net:80/play/live.php?mac=00:1A:79:0D:80:56&stream=959568&extension=ts&play_token=FLzcBlqF5i
 TORO,http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/1061264.ts
@@ -263,6 +263,7 @@ TORO,http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/1061264.ts
 TORO,http://jackofclubs.vip:80/1Ray1842/xWtyyTVfFY/219525.ts
 TORO,http://jackofclubs.vip:80/1Ray1842/xWtyyTVfFY/399420.ts
 TORO,http://10k.lucastv.pro/live/2c99755ae255/gJnMAT2/235353.ts
+TORO,http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/1360005.ts#http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/975890.ts
 
 爱尔达体育1,http://iptv.852851.xyz/l/rhRtmrLcYUEdX9ShuLW9sVxDvbFkSG7ouIMGxKdjdnab0qFWA6LkGrvkYNfQAAxS/index.m3u8
 爱尔达体育2,http://iptv.852851.xyz/l/E1QgWQLwZCgM606cW284Iw_b5zvRHdFTtnMJbABM1pETz4WCcGiZhhkeqPLuVm9H/index.m3u8
