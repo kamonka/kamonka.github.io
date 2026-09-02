@@ -68,6 +68,18 @@ SKYNEWS,http://163.172.64.96:2017/live/GBa19qrcQYa3/u2c8FLfgkK/251.ts#https://xu
 
 🇹🇼台港新闻,#genre#
 年代新闻,http://iptv.852851.xyz/l/9bz5xzBj4G7z-ceB4nZLaj2C5vtUJXuilblpQHN0JCC-OFYfmqlc0f6Pn6J7lTiz/play
+民视新闻,http://iptv.852851.xyz/l/99C20DQN2zmfKdkp2dXxImeRhYr-h2J-UE6JpKYEzX9X0qXHuO58EsKTz6uHSmmF/index.m3u8
+东森新闻,http://iptv.852851.xyz/l/McPO2QSb42SL-UpoVyA7yBsEgfA1P3C-L2J1UCEup8XI_qQfpUJRPONnO8vly3XA/index.m3u8
+三立新闻,http://iptv.852851.xyz/l/MwJInnxo6Ir9ggUpxFDlzXHgCFbgd9P2b7I8Tk_mb_ITzorPBWdaJ8LycZKOmd91/index.m3u8
+TVBS新闻,http://iptv.852851.xyz/l/L5cMRKBEnEi6nbWgZyH_jyCqULEcJiemTa-7w0MvD-PoPr08xcpWyPtgjQag6g0n/index.m3u8
+寰宇新闻,http://iptv.852851.xyz/l/EEsSxlWTGEvhVvAbHNuJEimY0LimHAVXkrFVlmA1wiTflaCWrxBKWSSM3XXZreRW/index.m3u8
+中天新闻,http://iptv.852851.xyz/l/7XrK_8PZNxJZ6EfG74vZ7VCSWJYJ2_-K_4Q9LrdCCNO2FK3Xe9MVYRZm5LyEh73c/index.m3u8
+中视新闻,http://iptv.852851.xyz/l/L56T3rO0fNEY09mVYLUibNPL1ULJ3G1MinSLO8Q9KVwbKJmqSDj46mrvxruaJgBl/index.m3u8
+华视新闻,http://iptv.852851.xyz/l/kNnBi6C3W_MtM05jBfxlCzG7b7HcyJ_-Buf5axwnrrYoLBjmodgXS3PsAtVnPXu1/index.m3u8
+Now新闻,http://iptv.852851.xyz/l/0uG2gp1-XJhCKanSZwj5agG_CQtb1OI_ddW2D8_QrWhuHxtLREWArEpO-KqhMdHD/index.m3u8
+无线新闻,http://iptv.852851.xyz/l/uN5k9t2ezL3J_3LjmK3Fw1jWCGtBV8ZSZKrGpR7NlLJXJCX94sIYGrp_dethXGpc/index.m3u8
+
+年代新闻,http://iptv.852851.xyz/l/9bz5xzBj4G7z-ceB4nZLaj2C5vtUJXuilblpQHN0JCC-OFYfmqlc0f6Pn6J7lTiz/play
 
 镜新闻,http://4gtv.cnlive.club/channel/351c8485/index.m3u8?q=1784775774070
 东森新闻,http://4gtv.cnlive.club/channel/n5ca63a3a/index.m3u8?q=1784775774070
@@ -225,6 +237,8 @@ DISCOVERY,http://23.237.104.106:8080/USA_DISCOVERY/index.m3u8
 🇧🇮娱乐综艺#genre#
 
 🇲🇾影视娱乐,#genre#
+娱乐新闻,http://iptv.852851.xyz/l/K4dPJTbjj_ZuaYM8sM7Ddh8BhBuMQH0AVm9txgZpq0EXJwbCSS_x6uVV03TbbhX4/index.m3u8
+
 4K电影⁴ᵏ,http://45.192.97.170:8880/play/1245.m3u8
 采昌影剧,http://4gtv.cnlive.club/channel/n97ba44a/index.m3u8?q=1784775774070
 靖天映画,http://4gtv.cnlive.club/channel/n610faa83/index.m3u8?q=1784775774070
