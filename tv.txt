@@ -79,7 +79,6 @@ TVBS新闻,http://iptv.852851.xyz/l/L5cMRKBEnEi6nbWgZyH_jyCqULEcJiemTa-7w0MvD-Po
 Now新闻,http://iptv.852851.xyz/l/0uG2gp1-XJhCKanSZwj5agG_CQtb1OI_ddW2D8_QrWhuHxtLREWArEpO-KqhMdHD/index.m3u8
 无线新闻,http://iptv.852851.xyz/l/uN5k9t2ezL3J_3LjmK3Fw1jWCGtBV8ZSZKrGpR7NlLJXJCX94sIYGrp_dethXGpc/index.m3u8
 
-年代新闻,http://iptv.852851.xyz/l/9bz5xzBj4G7z-ceB4nZLaj2C5vtUJXuilblpQHN0JCC-OFYfmqlc0f6Pn6J7lTiz/play
 镜新闻,http://4gtv.cnlive.club/channel/351c8485/index.m3u8?q=1784775774070
 东森新闻,http://4gtv.cnlive.club/channel/n5ca63a3a/index.m3u8?q=1784775774070
 华视新闻,http://4gtv.cnlive.club/channel/n692bc32c/index.m3u8?q=1784775774070
