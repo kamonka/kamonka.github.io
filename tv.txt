@@ -301,8 +301,9 @@ NowSports⁴ᵏ,http://iptv.852851.xyz/l/lAp4ozdGx2jCK8Ss7V79TqsU3feFif-l3PIEmQ7
 NowSports⁴ᵏ,http://ktkguru.com:80/06DD463C8236519/f2ypvVoSFB/438867#http://ktkguru.com:80/06DD463C8236519/f2ypvVoSFB/438866
 NowSportsPRIME,http://iptv.852851.xyz/l/nHH7Te5FQyFcyw3N3vjqbtzHTiIlcQ2jVFvwpB1SX4iNKGAWp2eschwQBmk5ug5x/index.m3u8
 NowSportsPRIME,http://ktkguru.com:80/06DD463C8236519/f2ypvVoSFB/748430#http://ktkguru.com:80/06DD463C8236519/f2ypvVoSFB/748431#http://ktkguru.com:80/06DD463C8236519/f2ypvVoSFB/748432#http://ktkguru.com:80/06DD463C8236519/f2ypvVoSFB/748433#http://ktkguru.com:80/06DD463C8236519/f2ypvVoSFB/1301200#
-PREMIERLEAGUE⁴ᵏ,http://steveit4.net/live/4KYD2C92D/1Z6BCL4/17285.ts#http://steveit4.net/live/4KYD2C92D/1Z6BCL4/979906.ts#http://steveit4.net/live/4KYD2C92D/1Z6BCL4/979907.ts
 PREMIERLEAGUE⁴ᵏ,http://line.ciao-ott.net:80/play/live.php?mac=00:1A:79:C8:7B:30&stream=1312002&extension=ts&play_token=rMQI8WOPhd#http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:1B:0F:6D&stream=1312002&extension=ts&play_token=vTK1cjSxqQ
+PREMIERLEAGUE⁴ᵏ,http://steveit4.net/live/4KYD2C92D/1Z6BCL4/17285.ts#http://steveit4.net/live/4KYD2C92D/1Z6BCL4/979906.ts#http://steveit4.net/live/4KYD2C92D/1Z6BCL4/979907.ts
+
 EUROSPORT⁴ᵏ,http://fomo.re/oiAPMTyBHC7I7BK7/gs42ehsohqJ30C7m/32818
 EUROSPORT,http://steveit4.net/live/4KYD2C92D/1Z6BCL4/1138933.ts#http://steveit4.net/live/4KYD2C92D/1Z6BCL4/1138934.ts
 TNTSPORTS⁴ᵏ,http://steveit4.net/live/4KYD2C92D/1Z6BCL4/1281083.ts
