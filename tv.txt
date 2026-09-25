@@ -136,6 +136,8 @@ FOX,http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/2544.ts
 
 
 🇭🇰台港综合,#genre#
+翡翠台,https://cdn3.indevs.in/stream/tvb/fct/
+明珠台,https://cdn3.indevs.in/stream/tvb/mzt/
 公视,http://211.72.174.95:8116/0.ts#http://220.135.241.47:8305/0.ts
 民视,http://211.72.174.95:8115/0.ts#http://220.135.241.47:8308/0.ts
 台视,http://211.72.174.95:8112/0.ts#http://220.135.241.47:8313/0.ts
@@ -197,8 +199,8 @@ DISCOVERY,http://23.237.104.106:8080/USA_DISCOVERY/index.m3u8
 🇧🇮娱乐综艺#genre#
 
 🇲🇾影视娱乐,#genre#
+爱奇艺,https://cdn3.indevs.in/stream/live/iqiyi/
 娱乐新闻,http://iptv.852851.xyz/l/K4dPJTbjj_ZuaYM8sM7Ddh8BhBuMQH0AVm9txgZpq0EXJwbCSS_x6uVV03TbbhX4/index.m3u8
-
 4K电影⁴ᵏ,http://45.192.97.170:8880/play/1245.m3u8
 采昌影剧,http://4gtv.cnlive.club/channel/n97ba44a/index.m3u8?q=1784775774070
 靖天映画,http://4gtv.cnlive.club/channel/n610faa83/index.m3u8?q=1784775774070
