@@ -149,12 +149,10 @@ FOX,http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/2544.ts
 民视,http://211.72.174.95:8115/0.ts
 中视,http://220.135.241.47:8301/0.ts
 
-翡翠台,https://o11.163189.xyz/stream/tvb/fct4k/
-翡翠台,https://o11.163189.xyz/stream/tvb/fct/
-明珠台,https://o11.163189.xyz/stream/tvb/mzt/
-HOY,http://cdn6.163189.xyz/163189/hoy
-凤凰台,http://cdn6.163189.xyz/163189/fhzw
-凤凰台,http://cdn6.163189.xyz/163189/fhhk
+翡翠台,http://173.208.234.146/live/jade.m3u8
+HOY,http://173.208.234.146/live/hoy77.m3u8
+凤凰台,http://173.208.234.146/live/fhzw.m3u8
+凤凰台,http://173.208.234.146/live/fhxg.m3u8
 
 TV朝鲜,http://onair2.cdn.tvchosun.com/origin2/_definst_/tvchosun_s3/playlist.m3u8
 
