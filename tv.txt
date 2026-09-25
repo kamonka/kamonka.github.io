@@ -67,46 +67,6 @@ SKYNEWS,http://163.172.64.96:2017/live/GBa19qrcQYa3/u2c8FLfgkK/251.ts#https://xu
 土耳其之声,https://tv-trtworld.medya.trt.com.tr/master_1080.m3u8#http://tr.zengi34.xyz:8080/UEJLSW1qN0MwYk0rcU43MFA2bVM2VXdlYURJb1NjaHcvR3U3RnlCV3E2Y2llYXhFeEJkQm9JQmpENDlZa3BYNg
 
 🇹🇼台港新闻,#genre#
-年代新闻,http://iptv.852851.xyz/l/9bz5xzBj4G7z-ceB4nZLaj2C5vtUJXuilblpQHN0JCC-OFYfmqlc0f6Pn6J7lTiz/play
-民视新闻,http://iptv.852851.xyz/l/99C20DQN2zmfKdkp2dXxImeRhYr-h2J-UE6JpKYEzX9X0qXHuO58EsKTz6uHSmmF/index.m3u8
-东森新闻,http://iptv.852851.xyz/l/McPO2QSb42SL-UpoVyA7yBsEgfA1P3C-L2J1UCEup8XI_qQfpUJRPONnO8vly3XA/index.m3u8
-三立新闻,http://iptv.852851.xyz/l/MwJInnxo6Ir9ggUpxFDlzXHgCFbgd9P2b7I8Tk_mb_ITzorPBWdaJ8LycZKOmd91/index.m3u8
-TVBS新闻,http://iptv.852851.xyz/l/L5cMRKBEnEi6nbWgZyH_jyCqULEcJiemTa-7w0MvD-PoPr08xcpWyPtgjQag6g0n/index.m3u8
-寰宇新闻,http://iptv.852851.xyz/l/EEsSxlWTGEvhVvAbHNuJEimY0LimHAVXkrFVlmA1wiTflaCWrxBKWSSM3XXZreRW/index.m3u8
-中天新闻,http://iptv.852851.xyz/l/7XrK_8PZNxJZ6EfG74vZ7VCSWJYJ2_-K_4Q9LrdCCNO2FK3Xe9MVYRZm5LyEh73c/index.m3u8
-中视新闻,http://iptv.852851.xyz/l/L56T3rO0fNEY09mVYLUibNPL1ULJ3G1MinSLO8Q9KVwbKJmqSDj46mrvxruaJgBl/index.m3u8
-华视新闻,http://iptv.852851.xyz/l/kNnBi6C3W_MtM05jBfxlCzG7b7HcyJ_-Buf5axwnrrYoLBjmodgXS3PsAtVnPXu1/index.m3u8
-Now新闻,http://iptv.852851.xyz/l/0uG2gp1-XJhCKanSZwj5agG_CQtb1OI_ddW2D8_QrWhuHxtLREWArEpO-KqhMdHD/index.m3u8
-无线新闻,http://iptv.852851.xyz/l/uN5k9t2ezL3J_3LjmK3Fw1jWCGtBV8ZSZKrGpR7NlLJXJCX94sIYGrp_dethXGpc/index.m3u8
-
-镜新闻,http://4gtv.cnlive.club/channel/351c8485/index.m3u8?q=1784775774070
-东森新闻,http://4gtv.cnlive.club/channel/n5ca63a3a/index.m3u8?q=1784775774070
-华视新闻,http://4gtv.cnlive.club/channel/n692bc32c/index.m3u8?q=1784775774070
-民视新闻,http://4gtv.cnlive.club/channel/nca14742/index.m3u8?q=1784775774070
-三立新闻,http://4gtv.cnlive.club/channel/4fa717ad/index.m3u8?q=1784775774070
-TVBS新闻,http://4gtv.cnlive.club/channel/n1ea96b20/index.m3u8?q=1784775774070
-中视新闻,http://4gtv.cnlive.club/channel/7e6461d6/index.m3u8?q=1784775774070
-中天新闻,http://4gtv.cnlive.club/channel/3824d067/index.m3u8?q=1784775774070
-寰宇新闻,http://4gtv.cnlive.club/channel/n4da4274/index.m3u8?q=1784775774070
-寰宇新闻,http://4gtv.cnlive.club/channel/n37458587/index.m3u8?q=1784775774
-
-镜新闻,https://4gtv.tvbjack.ggff.net/?id=268
-东森新闻,https://4gtv.tvbjack.ggff.net/?id=234
-东森新闻,https://4gtv.tvbjack.ggff.net/?id=292
-华视新闻,https://4gtv.tvbjack.ggff.net/?id=34
-华视新闻,https://4gtv.tvbjack.ggff.net/?id=256
-民视新闻,https://4gtv.tvbjack.ggff.net/?id=257
-民视新闻,https://4gtv.tvbjack.ggff.net/?id=31
-民视新闻,https://4gtv.tvbjack.ggff.net/?id=467
-三立新闻,https://4gtv.tvbjack.ggff.net/?id=229
-TVBS新闻,https://4gtv.tvbjack.ggff.net/?id=291
-TVBS新闻,https://4gtv.tvbjack.ggff.net/?id=473
-中视新闻,https://4gtv.tvbjack.ggff.net/?id=33
-寰宇新闻,https://4gtv.tvbjack.ggff.net/?id=36
-寰宇新闻,https://4gtv.tvbjack.ggff.net/?id=280
-
-镜新闻,https://d36dgdk71xuzzg.cloudfront.net/v1/manifest/3a2ac8e6b6c76471996ebf627393d9c9417a60b6/linetv-6-627778910172-MediaTailor-production/c9b2313d-efdd-4777-9fae-573be8a86755/0.m3u8
-
 民视新闻,http://38.64.72.148:80/hls/modn/list/4012/chunklist1.m3u8
 台视新闻,http://38.64.72.148:80/hls/modn/list/4013/chunklist1.m3u8
 TVBS新闻,http://jnzq.ohoyee.com:9080/live/332123-tvbsxw.m3u8
@@ -115,10 +75,21 @@ TVBS新闻,http://jnzq.ohoyee.com:9080/live/332123-tvbsxw.m3u8
 台视新闻,https://live.wcetv.com/hls/master-ttvnews.m3u8
 东森新闻,http://211.72.174.95:8138/0.ts
 
-NOW新闻,https://95.ru8.dpdns.org/live/stream-08d3076d-be27-4ef5-bafa-7cb3b8de4504/video/index.m3u8?u=asdf&p=f0e4c2f76c58916ec258f246851bea091d14d4247a2fc3e18694461b1816e13b
-NOW新闻,http://cdn.163189.xyz/163189/now
-HOY资讯,http://cdn.163189.xyz/163189/hoy78
-凤凰资讯,http://cdn6.163189.xyz/163189/fhzx#https://cdn9.163189.xyz/smt3.1.1.php?id=phoenixinfo_hd
+台视新闻,http://173.208.234.146/live/ttvnews.m3u8
+民视新闻,http://173.208.234.146/live/ftvnews.m3u8
+TVBS新闻,http://173.208.234.146/live/tvbsnews.m3u8
+东森新闻,http://173.208.234.146/live/ebcnews.m3u8
+三立新闻,http://173.208.234.146/live/setnews.m3u8
+HOY资讯,http://173.208.234.146/live/hoy78.m3u8
+凤凰资讯,http://173.208.234.146/live/fhzx.m3u8
+
+三立新闻,https://d2jc41c1shgcol.cloudfront.net/live/iNEWS/playlist.m3u8
+中天新闻,https://d2jc41c1shgcol.cloudfront.net/live/CtiNEWS1/playlist.m3u8
+东森新闻,https://d2jc41c1shgcol.cloudfront.net/live/EBCNews/playlist.m3u8
+中视新闻,https://d2jc41c1shgcol.cloudfront.net/live/ctvnewsqt/playlist.m3u8
+华视新闻,https://d2jc41c1shgcol.cloudfront.net/live/ctsnewsqt/playlist.m3u8
+民视新闻,https://d2jc41c1shgcol.cloudfront.net/live/ftvnewsqt/playlist.m3u8
+TVBS新闻,https://d2jc41c1shgcol.cloudfront.net/live/tvbsnewsqt/playlist.m3u8
 
 🇺🇸欧美综合,#genre#
 BBC1,http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/17305.ts#http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/69428.ts
@@ -164,10 +135,7 @@ FOX,http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/2544.ts
 
 
 🇭🇰台港综合,#genre#
-民视,http://4gtv.cnlive.club/channel/n7222a63c/index.m3u8?q=1784775774070
-中视,http://4gtv.cnlive.club/channel/n722644d8/index.m3u8?q=1784775774070
-华视,http://4gtv.cnlive.club/channel/n721fc25a/index.m3u8?q=1784775774070
-TVBS,http://4gtv.cnlive.club/channel/58f128b2/index.m3u8?q=1784775774070
+公视,http://173.208.234.146/live/pts.m3u8
 
 公视,http://211.72.174.95:8116/0.ts#http://220.135.241.47:8305/0.ts
 中视,http://211.72.174.95:8113/0.ts
@@ -337,9 +305,6 @@ EUROSPORT,http://line.cloud-ott.net:80/play/live.php?mac=00:1A:79:0D:80:56&strea
 1,https://live01-cn-ali.lmqvw.com/live/13639111_tsc.m3u8
 
 🇯🇵日本,#genre#
-NHKG,http://tsb-mega.i9.ee/stream/nhkg_hevc_1080p#http://tsb-mega.i9.ee/stream/nhkg_avc_1080p
-NHKBSP,https://tsb-mega.i9.ee/stream/nhkbsp4k_hevc#https://tsb-mega.i9.ee/stream/nhkbsp4k_hevc_mmt
-
 NHKG,https://akariko-bck2.sankuria.sbs/stream/jp/nhk_g/stream-output.m3u8?ac_tk=eyJhbGciOiJBMjU2S1ciLCJlbmMiOiJBMjU2R0NNIn0.e1xKof4hSSfD2uRrk2x9oaR5y--_uE1Uc-2GfXKKAxUUIU3chfQc7g.-ClR7Ph7871SifwQ.LZiUb2c6brovJCy92I2xv12T0pbfKCeIGrrhmF6SCbkuC7NzjH1D2QKkq4JwPylnU8tPknWq4x3aOe02TuRbnNMU1JNspDgaLdqqxepoNbcsD6Y.pO6li-LJEZZTku5S8iArJw&mode=hls
 NHKG,https://akariko-bck2.sankuria.sbs/stream/jp/nhk_g_osaka/stream-output.m3u8?ac_tk=eyJhbGciOiJBMjU2S1ciLCJlbmMiOiJBMjU2R0NNIn0.e1xKof4hSSfD2uRrk2x9oaR5y--_uE1Uc-2GfXKKAxUUIU3chfQc7g.-ClR7Ph7871SifwQ.LZiUb2c6brovJCy92I2xv12T0pbfKCeIGrrhmF6SCbkuC7NzjH1D2QKkq4JwPylnU8tPknWq4x3aOe02TuRbnNMU1JNspDgaLdqqxepoNbcsD6Y.pO6li-LJEZZTku5S8iArJw&mode=hls
 NHKG,https://akariko-bck2.sankuria.sbs/stream/jp/nhk_g_2/stream-output.m3u8?ac_tk=eyJhbGciOiJBMjU2S1ciLCJlbmMiOiJBMjU2R0NNIn0.e1xKof4hSSfD2uRrk2x9oaR5y--_uE1Uc-2GfXKKAxUUIU3chfQc7g.-ClR7Ph7871SifwQ.LZiUb2c6brovJCy92I2xv12T0pbfKCeIGrrhmF6SCbkuC7NzjH1D2QKkq4JwPylnU8tPknWq4x3aOe02TuRbnNMU1JNspDgaLdqqxepoNbcsD6Y.pO6li-LJEZZTku5S8iArJw&mode=hls
@@ -755,6 +720,9 @@ NHKG,https://nhk4.mov3.co/hls/nhk.m3u8
 日本テレビ,https://ntv4.mov3.co/hls/ntv.m3u8
 TBS,https://tbs5.mov3.co/hls/tbs.m3u8
 フジテレビ,https://fujitv4.mov3.co/hls/fujitv.m3u8
+
+NHKG,http://tsb-mega.i9.ee/stream/nhkg_hevc_1080p#http://tsb-mega.i9.ee/stream/nhkg_avc_1080p
+NHKBSP,https://tsb-mega.i9.ee/stream/nhkbsp4k_hevc#https://tsb-mega.i9.ee/stream/nhkbsp4k_hevc_mmt
 
 🇺🇸美国#genre#
 🇩🇪德国#genre#
