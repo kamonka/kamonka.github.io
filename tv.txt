@@ -1,10 +1,7 @@
 🇬🇬世界新闻,#genre#
-BBC,http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/21334.ts#http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/1382478.ts
-CNN,http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/71493.ts#http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/71486.ts
+BBC,http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/1382478.ts
+CNN,http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/71486.ts
 FOXNEWS,http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/17356.ts#http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/796328.ts
-
-BBC,https://akariko-bck2.sankuria.sbs/stream/jp/bbc_news/stream-output.m3u8?ac_tk=eyJhbGciOiJBMjU2S1ciLCJlbmMiOiJBMjU2R0NNIn0.e1xKof4hSSfD2uRrk2x9oaR5y--_uE1Uc-2GfXKKAxUUIU3chfQc7g.-ClR7Ph7871SifwQ.LZiUb2c6brovJCy92I2xv12T0pbfKCeIGrrhmF6SCbkuC7NzjH1D2QKkq4JwPylnU8tPknWq4x3aOe02TuRbnNMU1JNspDgaLdqqxepoNbcsD6Y.pO6li-LJEZZTku5S8iArJw&mode=hls
-CNN,https://akariko-bck2.sankuria.sbs/stream/jp/cnnj/stream-output.m3u8?ac_tk=eyJhbGciOiJBMjU2S1ciLCJlbmMiOiJBMjU2R0NNIn0.e1xKof4hSSfD2uRrk2x9oaR5y--_uE1Uc-2GfXKKAxUUIU3chfQc7g.-ClR7Ph7871SifwQ.LZiUb2c6brovJCy92I2xv12T0pbfKCeIGrrhmF6SCbkuC7NzjH1D2QKkq4JwPylnU8tPknWq4x3aOe02TuRbnNMU1JNspDgaLdqqxepoNbcsD6Y.pO6li-LJEZZTku5S8iArJw&mode=hls
 
 CNN,http://ana4life.us:80/JosemarOliveira/24jos999064802/219087
 BBC,https://vs-hls-push-ww-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_news_channel_hd/t=3840/v=pv14/b=5070016/main.m3u8
