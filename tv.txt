@@ -69,6 +69,10 @@ SKYNEWS,http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/980439.ts#https://xumo-drc
 土耳其之声,https://tv-trtworld.medya.trt.com.tr/master_1080.m3u8#http://tr.zengi34.xyz:8080/UEJLSW1qN0MwYk0rcU43MFA2bVM2VXdlYURJb1NjaHcvR3U3RnlCV3E2Y2llYXhFeEJkQm9JQmpENDlZa3BYNg
 
 🇹🇼台港新闻,#genre#
+年代新闻,http://iptv.852851.xyz/l/VD_8ygH7QDQnD9330KaClBp34nZhZLUq3jkActoDMXP8KvVy1OgQ-VRigqyhsc1d/play
+镜新闻,http://iptv.852851.xyz/l/7hujk1t1oxWvMjGRtCOwgQOJ07neCOwppqXcObsI5XYHZyEDxgk3BjBCaAHZr-yz/index.m3u8
+民视新闻,http://iptv.852851.xyz/l/9Bdmg6Vol-8tDcv5AKrLeMNKlong9GkflUTTCd80I13phaMth1Z1kZACAo5n14NL/index.m3u8
+
 民视新闻,http://38.64.72.148:80/hls/modn/list/4012/chunklist1.m3u8
 台视新闻,http://38.64.72.148:80/hls/modn/list/4013/chunklist1.m3u8
 TVBS新闻,http://jnzq.ohoyee.com:9080/live/332123-tvbsxw.m3u8
@@ -250,6 +254,13 @@ TORO,http://tectonbrand.com:80/4KYD2C92D/1Z6BCL4/330538.ts
 TORO,http://jackofclubs.vip:80/1Ray1842/xWtyyTVfFY/219525.ts
 TORO,http://jackofclubs.vip:80/1Ray1842/xWtyyTVfFY/399420.ts
 TORO,http://10k.lucastv.pro/live/2c99755ae255/gJnMAT2/235353.ts
+
+亚运会,http://iptv.852851.xyz/l/oJzp9O-XhBr7dwFPO7B-u96awa8vDP3npKeHnN3pzWJodFkSv0QXCsajiMc7mC4W/index.m3u8#http://iptv.852851.xyz/l/j-O6st_uM81NgXHFS68P_A19rC35miXrGH2jdyK7HAsANLoCFO29ZWeo7d2agKiU/index.m3u8#http://iptv.852851.xyz/l/3jXuVC3Fraa5SQpnagcMGjrePut1Hm56cHAhCMLRWtQmVJlmV-Q217zPks-UNiwb/index.m3u8
+
+爱尔达体育1,http://iptv.852851.xyz/l/Vr1zFgQcXi87bxfLtojdcqVr4bTNZ7ioSTes1uPrqsM8vsyCJWrPE3MFfi603MQE/index.m3u8
+爱尔达体育2http://iptv.852851.xyz/l/ufkyfSmehvZ-Ja3VjcnE8yPMyNW8-D1ZQhKWJLnHFSZt-XP9G9tJMAMPVWwAa5Lv/index.m3u8
+爱尔达体育3http://iptv.852851.xyz/l/1jR3T-0tgkyImXuvQf-_EEDUVUA77Is8ua580BSkAuhsc70Hy0fJ7mxXW2NJTnBO/index.m3u8
+
 
 NowSports⁴ᵏ,http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/438867.ts#http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/438866.ts
 NowSports,http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/438871.ts#http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/438873.ts#http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/438868.ts#http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/438870.ts#http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/438872.ts#http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/438874.ts
