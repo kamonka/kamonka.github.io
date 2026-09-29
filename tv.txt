@@ -163,6 +163,7 @@ TV朝鲜,http://onair2.cdn.tvchosun.com/origin2/_definst_/tvchosun_s3/playlist.m
 
 🇯🇪纪实人文,#genre#
 LoveNature,http://iptv.852851.xyz/l/hDNYoQmtOhNlregr9ED3IgNzcyQXG1fvcNEkHAyCxrLjcy3i7nJSsm_Z334E72-Y/index.m3u8
+DISCOVERY,http://iptv.852851.xyz/l/RquKIWHUOW-p5mkxYnmWfbsobXFJ6XDBrsej9HqX1BtWaY17CP3M_Orv-L4ZHkzQ/index.m3u8
 历史,http://iptv.852851.xyz/l/wo56yc1YsMtvuv_nSJYuRWoWBcPyAq_OQzOjboP-GvvVOC-dXNBfcCQY8Z7W5LfT/index.m3u8
 罪案侦查,http://iptv.852851.xyz/l/gndwKWVhGthlXycvU_YIXSpVRAYFO9EkPiOYZsNuxKl9P8DszSbaUXWlyPL_S7r2/index.m3u8
 视纳华仁纪实,http://iptv.852851.xyz/l/tahREv7xhFwDnVJvC-NZSE9pxdsQ4ytvVyvtk9ORnzfAgMR7l4YNLpOI3nocFDy8/index.m3u8
@@ -173,12 +174,13 @@ LoveNature,http://iptv.852851.xyz/l/hDNYoQmtOhNlregr9ED3IgNzcyQXG1fvcNEkHAyCxrLj
 
 动物星球,http://61.221.215.25:8800/hls/57/index.m3u8
 
-DISCOVERY,http://hardcoremedia.xyz:80/6jTFRmvaSp/7534936344/129864
-A&E,http://hardcoremedia.xyz:80/6jTFRmvaSp/7534936344/129816#http://hardcoremedia.xyz:80/6jTFRmvaSp/7534936344/130067
-COWBOY,http://hardcoremedia.xyz:80/6jTFRmvaSp/7534936344/129857
-History,http://hardcoremedia.xyz:80/6jTFRmvaSp/7534936344/129892#http://hardcoremedia.xyz:80/6jTFRmvaSp/7534936344/10357
-NGO,http://hardcoremedia.xyz:80/6jTFRmvaSp/7534936344/129928
-NGOWild,http://hardcoremedia.xyz:80/6jTFRmvaSp/7534936344/129927
+ANIMALPLANET,http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/71431.ts
+DISCOVERY,http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/71440.ts#http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/1052478.ts
+A&E,http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/71313.ts#http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/1060172.ts
+COWBOY,http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/71383.ts
+History,http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/71435.ts#http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/17691.ts
+NGO,http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/71416.ts#http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/71433.ts
+NGOWild,http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/71417.ts
 SUNDANCE,http://hardcoremedia.xyz:80/6jTFRmvaSp/7534936344/129957
 
 🇧🇮娱乐综艺#genre#
@@ -196,6 +198,7 @@ SUNDANCE,http://hardcoremedia.xyz:80/6jTFRmvaSp/7534936344/129957
 amc电影,http://iptv.852851.xyz/l/3tvu6tDmmvbI0o6wOuW9U0OCZ1oWy6oPgHAG-8P3mHHRRe8cfmKdTPVOmkcXd3kh/index.m3u8
 CinemaWorld,http://iptv.852851.xyz/l/_U9QWFAUs-dC8YhPdXoEBxkS-U4kEzLzZTdQaTTtwZ8N9I6KKxY8ZiGlyUvfAk26/index.m3u8
 我的欧洲电影,http://iptv.852851.xyz/l/4zlEZ1Y27_xe3I5tKfDdDAl4yD9wrt5gcqT1dJs5ywOaAGGQ6H9FfFSpqHzt80gX/index.m3u8
+HBO,http://iptv.852851.xyz/l/2OlG0hbD-1rDAvbUz2NXzKpYrt_kzGV6K3V7n4qx9N-PVj-B0itJJAXDcDMr7XQ7/play#http://iptv.852851.xyz/l/SBGLcNswJxsAyoHqSlRzROneLRdMl8_WsJ69PC8dbccA5DMhUnZNN64SQwpaYdg4/index.m3u8
 
 🇲🇾新马泰印#genre#
 
