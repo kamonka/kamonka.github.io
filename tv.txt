@@ -72,6 +72,8 @@ SKYNEWS,http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/980439.ts#https://xumo-drc
 年代新闻,http://iptv.852851.xyz/l/VD_8ygH7QDQnD9330KaClBp34nZhZLUq3jkActoDMXP8KvVy1OgQ-VRigqyhsc1d/play
 镜新闻,http://iptv.852851.xyz/l/7hujk1t1oxWvMjGRtCOwgQOJ07neCOwppqXcObsI5XYHZyEDxgk3BjBCaAHZr-yz/index.m3u8
 民视新闻,http://iptv.852851.xyz/l/9Bdmg6Vol-8tDcv5AKrLeMNKlong9GkflUTTCd80I13phaMth1Z1kZACAo5n14NL/index.m3u8
+东森新闻,http://iptv.852851.xyz/l/w9szXae0W4VoZ_3asJBqaErhrmDI5Q11zSt1LhOo7oYah9WyH94ROPQX8_9rDVuT/index.m3u8
+TVBS新闻，http://iptv.852851.xyz/l/_Mh1URYjWJIse2Rgd_hOyOpb_x3qWTiiSfvFiCxrFwD-V0Qi2RSqjLe7ZGvSlGhl/index.m3u8
 
 民视新闻,http://38.64.72.148:80/hls/modn/list/4012/chunklist1.m3u8
 台视新闻,http://38.64.72.148:80/hls/modn/list/4013/chunklist1.m3u8
@@ -141,6 +143,11 @@ FOX,http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/2544.ts
 
 
 🇭🇰台港综合,#genre#
+民视,http://iptv.852851.xyz/l/0imsjMCL75ZxlL_qWn-OMvhlbqI-IlqHzSjokoidmlPLj8vmPZz6jRz9OWEEol4E/index.m3u8
+三立综合,http://iptv.852851.xyz/l/6_8Jktz42qQTVsPtni0pZz5vA02Ii3T6R1fnjPkCYoIjA0wDim2BmUon_lBrrtCi/index.m3u8
+中视,http://iptv.852851.xyz/l/Ssb35YkwMdvTuDYFLYsvwkqVXI7MnkEWHD2-HMl1wN_lErVA2P_Lm6I23Z1IeBnr/index.m3u8
+华视,http://iptv.852851.xyz/l/r6tHArk9o1nsSZ2dH7kHpYOKLv8O0ymE8jJf6m3DLFW_3xZ0-OTr-E0nfSWpsfis/index.m3u8
+
 翡翠台,https://cdn3.indevs.in/stream/tvb/fct/
 明珠台,https://cdn3.indevs.in/stream/tvb/mzt/
 公视,http://211.72.174.95:8116/0.ts#http://220.135.241.47:8305/0.ts
