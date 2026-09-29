@@ -170,8 +170,6 @@ DISCOVERY,http://iptv.852851.xyz/l/RquKIWHUOW-p5mkxYnmWfbsobXFJ6XDBrsej9HqX1BtWa
 影迷数位纪实,http://iptv.852851.xyz/l/JbqFPkFZ6gDhodxiSkcyQ9OVt1GzFVumea1JbRWZcyesdIImyjgsBjKUgZD7kw7z/index.m3u8
 麦哲伦,http://iptv.852851.xyz/l/mbB8noDxWjLpfWA8O5Ak3eIjap_RN9qG3sFZAJirGVjmrIACZqXrlEZ11BQQDUSg/index.m3u8
 
-爆笑视频,https://81d1c38525014f39a1705b01e04d91c2.mediatailor.us-east-1.amazonaws.com/v1/master/04fd913bb278d8775298c26fdca9d9841f37601f/RakutenTV-eu_ThePetCollective-1/playlist.m3u8#https://965a56fdfe3c40cd9b73c49a0cde620b.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/RakutenTV-eu_PeopleAreAwesome-1/playlist.m3u8#https://d39g1vxj2ef6in.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod-rakuten-stitched/master.m3u8#https://bd93cfed.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWV1X0ZhaWxBcm15X0hMUw/playlist.m3u8#
-
 动物星球,http://61.221.215.25:8800/hls/57/index.m3u8
 
 ANIMALPLANET,http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/71431.ts
@@ -182,6 +180,8 @@ History,http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/71435.ts#http://tectonbran
 NGO,http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/71416.ts#http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/71433.ts
 NGOWild,http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/71417.ts
 SUNDANCE,http://hardcoremedia.xyz:80/6jTFRmvaSp/7534936344/129957
+
+爆笑视频,https://81d1c38525014f39a1705b01e04d91c2.mediatailor.us-east-1.amazonaws.com/v1/master/04fd913bb278d8775298c26fdca9d9841f37601f/RakutenTV-eu_ThePetCollective-1/playlist.m3u8#https://965a56fdfe3c40cd9b73c49a0cde620b.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/RakutenTV-eu_PeopleAreAwesome-1/playlist.m3u8#https://d39g1vxj2ef6in.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod-rakuten-stitched/master.m3u8#https://bd93cfed.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWV1X0ZhaWxBcm15X0hMUw/playlist.m3u8#
 
 🇧🇮娱乐综艺#genre#
 
@@ -200,6 +200,8 @@ CinemaWorld,http://iptv.852851.xyz/l/_U9QWFAUs-dC8YhPdXoEBxkS-U4kEzLzZTdQaTTtwZ8
 我的欧洲电影,http://iptv.852851.xyz/l/4zlEZ1Y27_xe3I5tKfDdDAl4yD9wrt5gcqT1dJs5ywOaAGGQ6H9FfFSpqHzt80gX/index.m3u8
 HBO,http://iptv.852851.xyz/l/2OlG0hbD-1rDAvbUz2NXzKpYrt_kzGV6K3V7n4qx9N-PVj-B0itJJAXDcDMr7XQ7/play#http://iptv.852851.xyz/l/SBGLcNswJxsAyoHqSlRzROneLRdMl8_WsJ69PC8dbccA5DMhUnZNN64SQwpaYdg4/index.m3u8
 HBO,http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/71855.ts#http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/71854.ts
+AMC,http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/1060176.ts
+FX,http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/71321.ts
 
 🇲🇾新马泰印#genre#
 
