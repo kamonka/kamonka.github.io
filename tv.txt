@@ -162,34 +162,16 @@ TV朝鲜,http://onair2.cdn.tvchosun.com/origin2/_definst_/tvchosun_s3/playlist.m
 🇺🇸USA#genre#
 
 🇯🇪纪实人文,#genre#
+LoveNature,http://iptv.852851.xyz/l/hDNYoQmtOhNlregr9ED3IgNzcyQXG1fvcNEkHAyCxrLjcy3i7nJSsm_Z334E72-Y/index.m3u8
+历史,http://iptv.852851.xyz/l/wo56yc1YsMtvuv_nSJYuRWoWBcPyAq_OQzOjboP-GvvVOC-dXNBfcCQY8Z7W5LfT/index.m3u8
+罪案侦查,http://iptv.852851.xyz/l/gndwKWVhGthlXycvU_YIXSpVRAYFO9EkPiOYZsNuxKl9P8DszSbaUXWlyPL_S7r2/index.m3u8
+视纳华仁纪实,http://iptv.852851.xyz/l/tahREv7xhFwDnVJvC-NZSE9pxdsQ4ytvVyvtk9ORnzfAgMR7l4YNLpOI3nocFDy8/index.m3u8
+影迷数位纪实,http://iptv.852851.xyz/l/JbqFPkFZ6gDhodxiSkcyQ9OVt1GzFVumea1JbRWZcyesdIImyjgsBjKUgZD7kw7z/index.m3u8
+麦哲伦,http://iptv.852851.xyz/l/mbB8noDxWjLpfWA8O5Ak3eIjap_RN9qG3sFZAJirGVjmrIACZqXrlEZ11BQQDUSg/index.m3u8
+
 爆笑视频,https://81d1c38525014f39a1705b01e04d91c2.mediatailor.us-east-1.amazonaws.com/v1/master/04fd913bb278d8775298c26fdca9d9841f37601f/RakutenTV-eu_ThePetCollective-1/playlist.m3u8#https://965a56fdfe3c40cd9b73c49a0cde620b.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/RakutenTV-eu_PeopleAreAwesome-1/playlist.m3u8#https://d39g1vxj2ef6in.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod-rakuten-stitched/master.m3u8#https://bd93cfed.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWV1X0ZhaWxBcm15X0hMUw/playlist.m3u8#
 
-LoveNature,https://4gtv.tvbjack.ggff.net/?id=139
-历史,https://4gtv.tvbjack.ggff.net/?id=214
-罪桉侦查,https://4gtv.tvbjack.ggff.net/?id=215
-视纳华仁纪实,https://4gtv.tvbjack.ggff.net/?id=38
-影迷数位纪实,https://4gtv.tvbjack.ggff.net/?id=445
-
 动物星球,http://61.221.215.25:8800/hls/57/index.m3u8
-
-半岛纪录片,http://portal-iptv.net:8080/077998950140/077998950140/650
-
-罪案侦查,https://ha.msbot.dpdns.org/4gtv_api.php?id=215
-视纳华仁纪实,https://ha.msbot.dpdns.org/4gtv_api.php?id=38
-爱尔达宠物运动,https://ha.msbot.dpdns.org/4gtv_api.php?id=19
-靖天日本,https://ha.msbot.dpdns.org/4gtv_api.php?id=22
-PetClub,https://ha.msbot.dpdns.org/4gtv_api.php?id=464
-滚动力rollor,https://ha.msbot.dpdns.org/4gtv_api.php?id=249
-亚洲旅游,https://ha.msbot.dpdns.org/4gtv_api.php?id=250
-亚洲旅游,https://ha.msbot.dpdns.org/4gtv_api.php?id=261
-fun探索娱乐,https://ha.msbot.dpdns.org/4gtv_api.php?id=274
-幸福空间居家,https://ha.msbot.dpdns.org/4gtv_api.php?id=123
-LoveNature,https://ha.msbot.dpdns.org/4gtv_api.php?id=139
-历史,https://ha.msbot.dpdns.org/4gtv_api.php?id=214
-爱尔达生活旅游,https://ha.msbot.dpdns.org/4gtv_api.php?id=237
-LUXETV,https://ha.msbot.dpdns.org/4gtv_api.php?id=175
-
-DISCOVERY,http://163.172.64.96:2017/live/GBa19qrcQYa3/u2c8FLfgkK/312.ts
 
 DISCOVERY,http://hardcoremedia.xyz:80/6jTFRmvaSp/7534936344/129864
 A&E,http://hardcoremedia.xyz:80/6jTFRmvaSp/7534936344/129816#http://hardcoremedia.xyz:80/6jTFRmvaSp/7534936344/130067
@@ -199,36 +181,21 @@ NGO,http://hardcoremedia.xyz:80/6jTFRmvaSp/7534936344/129928
 NGOWild,http://hardcoremedia.xyz:80/6jTFRmvaSp/7534936344/129927
 SUNDANCE,http://hardcoremedia.xyz:80/6jTFRmvaSp/7534936344/129957
 
-DISCOVERY,http://23.237.104.106:8080/USA_DISCOVERY/index.m3u8
-
 🇧🇮娱乐综艺#genre#
 
 🇲🇾影视娱乐,#genre#
+猪哥亮歌厅秀,http://iptv.852851.xyz/l/DDVqdU31Y4T3Zld27UT5YHC__vW5LHsYF8JSrwv6adibbannafrPUjbCYwVmxGGo/index.m3u8
 爱奇艺,https://cdn3.indevs.in/stream/live/iqiyi/
-娱乐新闻,http://iptv.852851.xyz/l/K4dPJTbjj_ZuaYM8sM7Ddh8BhBuMQH0AVm9txgZpq0EXJwbCSS_x6uVV03TbbhX4/index.m3u8
-4K电影⁴ᵏ,http://45.192.97.170:8880/play/1245.m3u8
-采昌影剧,http://4gtv.cnlive.club/channel/n97ba44a/index.m3u8?q=1784775774070
-靖天映画,http://4gtv.cnlive.club/channel/n610faa83/index.m3u8?q=1784775774070
-靖天电影,http://4gtv.cnlive.club/channel/3fcf6ae8/index.m3u8?q=1784775774070
-影迷数位电影,http://4gtv.cnlive.club/channel/n79da43c0/index.m3u8?q=1784775774070
-amc电影,http://4gtv.cnlive.club/channel/n4f2af9e/index.m3u8?q=1784775774070
-CinemaWorld,http://4gtv.cnlive.club/channel/n7815b83e/index.m3u8?q=1784775774070梦工厂动画,http://4gtv.cnlive.club/channel/n451655ef/index.m3u8?q=1784775774070
-TVBS综艺,http://4gtv.cnlive.club/channel/49d6d25d/index.m3u8?q=1784775774070
-民视综艺,http://4gtv.cnlive.club/channel/nc46cff5/index.m3u8?q=1784775774070
-八大综艺,http://4gtv.cnlive.club/channel/662e9334/index.m3u8?q=1784775774070
-TVBS精采,http://4gtv.cnlive.club/channel/49d50255/index.m3u8?q=1784775774070
-TVBS欢乐,http://4gtv.cnlive.club/channel/498f035d/index.m3u8?q=1784775774070
-靖天欢乐,http://4gtv.cnlive.club/channel/n122ce57e/index.m3u8?q=1784775774070
-靖天日本,http://4gtv.cnlive.club/channel/3f1816f7/index.m3u8?q=1784775774070
-猪哥亮歌厅秀,http://4gtv.cnlive.club/channel/n4271efdd/index.m3u8?q=1784775774070
-
-爱奇艺,https://o11.163189.xyz/stream/live/iqiyi/
-靖天映画,https://ha.msbot.dpdns.org/4gtv_api.php?id=42
-靖天电影,https://ha.msbot.dpdns.org/4gtv_api.php?id=82
-影迷数位电影,https://ha.msbot.dpdns.org/4gtv_api.php?id=40
-amc电影,https://ha.msbot.dpdns.org/4gtv_api.php?id=39
-CinemaWorld,https://ha.msbot.dpdns.org/4gtv_api.php?id=225
-日韩电影大赏,https://ha.msbot.dpdns.org/4gtv_api.php?id=415
+纬来日本,http://iptv.852851.xyz/l/8uf0CnX7fWy-nwcfgnbxL9-l0RIOcmfiSbDyoxW7Cq66JTr942HpROo7olhK3llJ/index.m3u8
+八大综艺,http://iptv.852851.xyz/l/Q1M4dLe9Cmd9yqsFyiWM3DR_Mvzy8UpOZf2CpIa-k-4vOb-DifIC7h08qcP5gNkb/index.m3u8
+韩国娱乐,http://iptv.852851.xyz/l/2TsBzD7kcUca-wdcuu1y6KkDXF8fKsBhiCM6dQ5wrZZZPmrFO4hbJTuxA5o_SHdv/index.m3u8
+靖天日本,http://iptv.852851.xyz/l/FFBROUMIakfSYptHtkRKXDqlAXujVu7XQHX_4Oz0Xf2p_WZjPKoDdAcp7XA5JHYk/index.m3u8
+靖天映画,http://iptv.852851.xyz/l/BGxI3ed6x9hbXWf9yIeeSKatbw9NVDcJqLRSIvWrrEYsZ0p6uTStjJzNkr78eY_5/index.m3u8
+靖天电影,http://iptv.852851.xyz/l/g3XfE5wlVxV8Rk9cF7L-MSfk1BidrpEXvZ3kSLycdSNLrTOlLNNncTvkQ6MEKlH5/index.m3u8
+影迷数位电影,http://iptv.852851.xyz/l/1cVSVE-bRBVMML4g_MHmDufJYvFd69BjDjIntHf6yZoQ872o70gKEfsp04G_qs_q/index.m3u8
+amc电影,http://iptv.852851.xyz/l/3tvu6tDmmvbI0o6wOuW9U0OCZ1oWy6oPgHAG-8P3mHHRRe8cfmKdTPVOmkcXd3kh/index.m3u8
+CinemaWorld,http://iptv.852851.xyz/l/_U9QWFAUs-dC8YhPdXoEBxkS-U4kEzLzZTdQaTTtwZ8N9I6KKxY8ZiGlyUvfAk26/index.m3u8
+我的欧洲电影,http://iptv.852851.xyz/l/4zlEZ1Y27_xe3I5tKfDdDAl4yD9wrt5gcqT1dJs5ywOaAGGQ6H9FfFSpqHzt80gX/index.m3u8
 
 🇲🇾新马泰印#genre#
 
@@ -258,9 +225,10 @@ TORO,http://10k.lucastv.pro/live/2c99755ae255/gJnMAT2/235353.ts
 亚运会,http://iptv.852851.xyz/l/oJzp9O-XhBr7dwFPO7B-u96awa8vDP3npKeHnN3pzWJodFkSv0QXCsajiMc7mC4W/index.m3u8#http://iptv.852851.xyz/l/j-O6st_uM81NgXHFS68P_A19rC35miXrGH2jdyK7HAsANLoCFO29ZWeo7d2agKiU/index.m3u8#http://iptv.852851.xyz/l/3jXuVC3Fraa5SQpnagcMGjrePut1Hm56cHAhCMLRWtQmVJlmV-Q217zPks-UNiwb/index.m3u8
 
 爱尔达体育1,http://iptv.852851.xyz/l/Vr1zFgQcXi87bxfLtojdcqVr4bTNZ7ioSTes1uPrqsM8vsyCJWrPE3MFfi603MQE/index.m3u8
-爱尔达体育2http://iptv.852851.xyz/l/ufkyfSmehvZ-Ja3VjcnE8yPMyNW8-D1ZQhKWJLnHFSZt-XP9G9tJMAMPVWwAa5Lv/index.m3u8
-爱尔达体育3http://iptv.852851.xyz/l/1jR3T-0tgkyImXuvQf-_EEDUVUA77Is8ua580BSkAuhsc70Hy0fJ7mxXW2NJTnBO/index.m3u8
+爱尔达体育2,http://iptv.852851.xyz/l/ufkyfSmehvZ-Ja3VjcnE8yPMyNW8-D1ZQhKWJLnHFSZt-XP9G9tJMAMPVWwAa5Lv/index.m3u8
+爱尔达体育3,http://iptv.852851.xyz/l/1jR3T-0tgkyImXuvQf-_EEDUVUA77Is8ua580BSkAuhsc70Hy0fJ7mxXW2NJTnBO/index.m3u8
 
+NowSports⁴ᵏ,http://iptv.852851.xyz/l/XOTxiaD4RFYmDpFXY6UyMAdeM3yRskTXQixpl0Ar0EtfZ3yP3YahGZ--OdvYyrPD/index.m3u8
 
 NowSports⁴ᵏ,http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/438867.ts#http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/438866.ts
 NowSports,http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/438871.ts#http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/438873.ts#http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/438868.ts#http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/438870.ts#http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/438872.ts#http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/438874.ts
