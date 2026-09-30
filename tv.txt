@@ -63,7 +63,7 @@ SKYNEWS,http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/980439.ts#https://xumo-drc
 泰国公视,https://thaipbs-live.cdn.byteark.com/live/playlist_1080p/index.m3u8#http://thaipbs-live.cdn.byteark.com/live-en/playlist_720p/index.m3u8
 叙利亚新闻,https://svs.itworkscdn.net/syriatvlive/syriatv.smil/syriatvpublish/syriatv_source/chunks_dvr.m3u8
 阿拉伯新闻,https://live.alarabiya.net/alarabiapublish/alhadath.smil/alarabiapublish/alhadath_1080p/chunks.m3u8
-以色列新闻,http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/63986.ts#http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/64000.ts
+以色列新闻,http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/63986.ts#http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/63962.ts#http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/64000.ts
 巴勒斯坦新闻,http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/618.ts#http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/620.ts
 真主党新闻,http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/917.ts#https://edge.fastpublish.me/live/tracks-v1a1/mono.m3u8
 土耳其之声,https://tv-trtworld.medya.trt.com.tr/master_1080.m3u8#http://tr.zengi34.xyz:8080/UEJLSW1qN0MwYk0rcU43MFA2bVM2VXdlYURJb1NjaHcvR3U3RnlCV3E2Y2llYXhFeEJkQm9JQmpENDlZa3BYNg
