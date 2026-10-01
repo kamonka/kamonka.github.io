@@ -1,0 +1,2507 @@
+#EXTM3U
+#EXTINF:-1 group-title="世界新闻",BBC
+http://line.cloud-ott.net:80/play/live.php?mac=00:1A:79:0D:80:56&stream=933150&extension=ts&play_token=N2T5SmFoUU
+#EXTINF:-1 group-title="世界新闻",CNN
+http://line.cloud-ott.net:80/play/live.php?mac=00:1A:79:0D:80:56&stream=933139&extension=ts&play_token=4ahth5R2L5
+#EXTINF:-1 group-title="世界新闻",BBC
+http://line.cloud-ott.net:80/play/live.php?mac=00:1A:79:0D:80:56&stream=1169077&extension=ts&play_token=9aX1SMOfkK
+#EXTINF:-1 group-title="世界新闻",CNN
+http://line.cloud-ott.net:80/play/live.php?mac=00:1A:79:0D:80:56&stream=1169082&extension=ts&play_token=nVLve4k38l
+#EXTINF:-1 group-title="世界新闻",半岛新闻
+http://line.cloud-ott.net:80/play/live.php?mac=00:1A:79:0D:80:56&stream=1169081&extension=ts&play_token=fmfCtYkQBw
+#EXTINF:-1 group-title="世界新闻",FOXNEWS
+http://line.cloud-ott.net:80/play/live.php?mac=00:1A:79:0D:80:56&stream=987162&extension=ts&play_token=f6WlxdUUN5
+#EXTINF:-1 group-title="世界新闻",BBC
+http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/1382478.ts
+#EXTINF:-1 group-title="世界新闻",CNN
+http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/71486.ts
+#EXTINF:-1 group-title="世界新闻",FOXNEWS
+http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/17356.ts
+#EXTINF:-1 group-title="世界新闻",FOXNEWS
+http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/796328.ts
+#EXTINF:-1 group-title="世界新闻",BBC
+https://haru.charandom.blog/stream/jp/bbc_news/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="世界新闻",CNN
+https://haru.charandom.blog/stream/jp/cnnj/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="世界新闻",BBC
+https://vs-hls-push-ww-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_news_channel_hd/t=3840/v=pv14/b=5070016/main.m3u8
+#EXTINF:-1 group-title="世界新闻",BBC
+https://naori-test.netgenx.site/pxx.php?shk_cid=cs15
+#EXTINF:-1 group-title="世界新闻",CNN
+https://naori-test.netgenx.site/pxx.php?shk_cid=cs16
+#EXTINF:-1 group-title="世界新闻",BBC
+http://58.82.168.138:5002/cs15.m3u8?token=guoziyun&gid=cs15&channel=zhongying
+#EXTINF:-1 group-title="世界新闻",CNN
+http://58.82.168.138:5002/cs16.m3u8?token=guoziyun&gid=cs16&channel=zhongying
+#EXTINF:-1 group-title="世界新闻",FOXNEWS
+https://fox-foxnewsnow-vizio.amagi.tv/playlist720-p.m3u8
+#EXTINF:-1 group-title="世界新闻",FOXNEWS
+http://iptv.852851.xyz/l/mJA9ozxZYJCDtysvnpVzygQ1sskmtsnnkEb0kA7Z02RISNXYld9bA4Hdt8b3-njj/play
+#EXTINF:-1 group-title="世界新闻",FOXNEWS
+http://neosfpoo.top:8080/101778770428/e511208ea106/71887
+#EXTINF:-1 group-title="世界新闻",FOXNEWS
+http://neosfpoo.top:8080/101778770428/e511208ea106/71888
+#EXTINF:-1 group-title="世界新闻",BBC
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs15&isp=5-15
+#EXTINF:-1 group-title="世界新闻",CNN
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs16&isp=5-15
+#EXTINF:-1 group-title="世界新闻",FOXNEWS
+http://realsport.scalecdn.co:8080/live/supersonicstreams/cUewZolveU8Jh18jk34BDJ/2543.ts
+#EXTINF:-1 group-title="世界新闻",朝鲜中央台
+https://kctv.koryofront.org/stream/index.m3u8
+#EXTINF:-1 group-title="世界新闻",朝鲜中央台
+https://streamer.nknews.org/tvhls/stream.m3u8
+#EXTINF:-1 group-title="世界新闻",朝鲜中央台
+https://tv.intchoson.com/kctv/main_stream.m3u8
+#EXTINF:-1 group-title="世界新闻",朝鲜中央台
+http://s1.an94tv.cfd/aktv3/CH-0/AKTV.m3u8
+#EXTINF:-1 group-title="世界新闻",朝鲜中央台
+http://aktv-stream.m16tv.cfd/stream/nknews/null/AKTV.m3u8
+#EXTINF:-1 group-title="世界新闻",朝鲜中央台
+https://tv.nknews.org/tvhls/stream.m3u8
+#EXTINF:-1 group-title="世界新闻",朝鲜中央台
+https://tv.nknews.org/tvdash/stream.mpd
+#EXTINF:-1 group-title="世界新闻",朝鲜中央台
+https://tv.nknews.org/tvdash/stream-43963200.m4a
+#EXTINF:-1 group-title="世界新闻",阿里郎新闻
+http://amdlive-ch01.ctnd.com.edgesuite.net/arirang_1ch/smil:arirang_1ch.smil/playlist.m3u8
+#EXTINF:-1 group-title="世界新闻",共同社
+https://cdn-apne1.tsv2.amagi.tv/linear/amg01287-rakutentvjapan-news3hlscmaf-rakutenjp/playlist.m3u8
+#EXTINF:-1 group-title="世界新闻",韩联社
+https://tving-live-o2-xcdn.tving.com/o2/v1/019dd8deb9f5153d7865157cdbfbd6/019dd8df3d75153d7865157cdbfbd9/playlist.m3u8?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ0dmluZy5jb20iLCJleHAiOjE3ODI5OTY3OTMsInBhdGgiOiIvbzIifQ.geRJOH_F9C5g-GAaJ584nkjr_wwlHJ1Of-npUVYokv0
+#EXTINF:-1 group-title="世界新闻",韩联社
+https://tving-live-o2-xcdn.tving.com/o2/v1/019db80595b1153d7865047a0ccd/019db8091f9d153d7865047a0cd0/playlist.m3u8?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ0dmluZy5jb20iLCJleHAiOjE3ODMwMzM4NjMsInBhdGgiOiIvbzIifQ.BkS5siB6teuhjvCRfK0KXakEZBkOeGW0KjAVhP3H82A
+#EXTINF:-1 group-title="世界新闻",路透社
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00453-reuters-reuters-hls-rakutenjp/playlist.m3u8
+#EXTINF:-1 group-title="世界新闻",路透社
+http://iptv.852851.xyz/l/I5m2hyPwRBbKpgUXTeOkCEA7__gBVFqXBLcvnTLCYkfbas_a3JlWy91NJP3ywXkX/play
+#EXTINF:-1 group-title="世界新闻",路透社
+https://dbrb49pjoymg4.cloudfront.net/manifest/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod_default_xumo-ams-aws/e7493ea5-5c1c-4d7a-a3f7-e95516048ad8/3.m3u8
+#EXTINF:-1 group-title="世界新闻",NBC
+https://d4whmvwm0rdvi.cloudfront.net/manifest/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod_default_xumo-nbcu-linear/3e088b25-3e79-4f34-bbdf-afbcd40497f3/4.m3u8
+#EXTINF:-1 group-title="世界新闻",NBC
+http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/232800.ts
+#EXTINF:-1 group-title="世界新闻",CNBC
+https://amg01079-nbcuuk-amg01079c2-samsung-gb-1258.playouts.now.amagi.tv/ts-us-e2-n2/playlist/amg01079-nbcuukfast-cnbcuk-samsunggb/cb573e1f796c648e9dd43d6fcef74782847b3dcb0e6c886470af4a9765d97800dbe8ae84ae5b910c4c9e1fc061017d360439cd1dd56c49c1da63b820743c4b21fdcde00080dd0d0cb1df11292ca36265299a7369cc350f7bd2ec5a2f803ebe764c53cb017c593f88f258ae7e4cc59e0a957f39e8fc8b307b24455a9c5a43e6a64cb7a9b25a40db6df2b2014bc42a43fa83439fd501b3d4865e8317d324f5409d97a68cda128b8c81599706e6274759326da684769ec854b8a8f40355875018762171c98eb2d76021dc3b2930f9fbd8f164ef03f187248c6545d76af254a500ba5484288ac453faddd1b643452aeac7547137a197c3e09a6569ce0c9ca3edce3d7890f266102daf76e811021c8da7b37ee3c21185f8278ba01b7052ab8a71baaf95a6db9fbd7e817fb4ad999939510077073d9549b09363dc5bb012c3d52702637e709fb37be39beb6f5a1127346851ae71339299e2abd0003c8a4b1454ef12b631674dff44a7f8784f83fe1d7f802770e57f5da91d5d08258d7fa4dde944c4501bcc219b0e4b9505892a989823ba643d162abcfc2b606e4373d7d4ab6c5a76ee4afedac6ed764655a2a78db6f75a36033600414ca5d6a721cbc090725d21c85d70342f500fc0509f29fe10590c2bfe1bd1870060ca53727aa8f4691d1247befc9cadcb96c64dbe7a93e8f83a243410239e3b172963d6f9dc0aa5761b302a13d04f5742bb06484ba5c09ab2d7d338bce90ec00f6b1a67cae704015802010424afd0398710b2e95ed3fded53c3e881173ff51fab131f93d59c21b8da88c94b0087b9157e4392c02cd17c3dcd74857fd832111e18bda97a1871d8da8fc83c35dd72b1e43ebf4550/140/1920x1080_4716800/index.m3u8
+#EXTINF:-1 group-title="世界新闻",SKYNEWS
+http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/980439.ts
+#EXTINF:-1 group-title="世界新闻",SKYNEWS
+https://xumo-drct-skynews-nc91a.fast.nbcuni.com/live/master_5.m3u8
+#EXTINF:-1 group-title="世界新闻",德广新闻
+http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/323649.ts
+#EXTINF:-1 group-title="世界新闻",德广新闻
+http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/1052485.ts
+#EXTINF:-1 group-title="世界新闻",法广新闻
+https://amg00106-france24-france24-samsunguk-qvpp8.amagi.tv/ts-eu-w1-n2/playlist/amg00106-france24-france24-samsunguk/cb553d1e7f6c678a93d43e61d4ef41a4da2427fc087a8d6933fb4b926bc10f41f8eda29ab30fb02b04940fa73f4e380d4d1a9a4ace0362d7b66aa9515b7d121b9d81a20a99d94e5cd58d5d5173f7651b52f91016d6354b59f1dd3724c97db9700e16a82e6b553982f449de2e109add5f947e2d88b3dd7f39635a4ffc0c0bb4e207bcfae25a5bdb6ab3a54a1ac32640b28210d4804fb9d2c95a9f15866ba0469893ed8c82178b8e9167ab5fe3645c025c17f4817d808749b5e5897d2b957f2f34733f8db8a7dd710fb2756a72dfe291cf0f9612ca9a6b826f27ab01ea2cee51da31d963c0e04ab3e3bfd6463351cea240511489c1bdd0835f54bc62e8ecedd3670ef49c7f6373e85fff071f17a0c9d64ec4a97b97b230cbb5790d07c49e489a94bcf181dae151bd15faf8d0b71063674d1958fa37ce9b69c867dc68b8f11d20514836c1f03fdfa7e96e0f4c6eaba543e61371c1b30a28426c41a85528188555d7521169c8745f68e439fc894e14e34424a445f07fc557fa2fd2b73ee1af9bc40b3ea7d7c443850fa5d558949e8ace1cbf9cf917b2ac7d6535e5e36da3f62441630f8bf2c7e4650003edb8eef6c9503900362d836de1f7ca7f8187cc251c59941d76203c3d16950dd87dd013415b6ee010c7a90534a807226dc9947f651a3dc6f7e0d4b8818304946fc3c3f80e2a39726aa97c5075399de5db19b513634a5771cc4f684ab6021a65ef96c2ead0c04dc68e6ba73d2d453796be470f591c2323399a9669c557adc64eeed5990abe80e7766ab67c9b7377cf80e33dadd2d6bd0865f68d5816609bd655a0523dd71bd151e5f178cabf58035c710067f1ce6cbd389dda89cc3f953ca72c522cbc98da334d437c0085f00e405e43b055085b3498677cda25/126/1920x1080_6046040/index.m3u8
+#EXTINF:-1 group-title="世界新闻",半岛新闻
+https://live-hls-aje-ak.getaj.net/AJE/01.m3u8
+#EXTINF:-1 group-title="世界新闻",半岛新闻
+https://live-hls-web-aja.getaj.net/AJA/01.m3u8
+#EXTINF:-1 group-title="世界新闻",伊朗新闻
+http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/277536.ts
+#EXTINF:-1 group-title="世界新闻",伊朗新闻
+http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/169721.ts
+#EXTINF:-1 group-title="世界新闻",伊朗新闻
+https://live.presstv.ir/hls/presstv_6_482/index.m3u8
+#EXTINF:-1 group-title="世界新闻",伊朗新闻
+https://live.presstv.ir/hls/presstv_5_482/index.m3u8
+#EXTINF:-1 group-title="世界新闻",伊朗新闻
+http://asmr4k.world:8080/05347247405/3100934708/358477
+#EXTINF:-1 group-title="世界新闻",乌克兰新闻
+http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/76350.ts
+#EXTINF:-1 group-title="世界新闻",乌克兰新闻
+http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/76360.ts
+#EXTINF:-1 group-title="世界新闻",乌克兰新闻
+http://asmr4k.world:8080/05347247405/3100934708/402442
+#EXTINF:-1 group-title="世界新闻",乌克兰新闻
+https://avers.pp.ua/hls/efir.m3u8
+#EXTINF:-1 group-title="世界新闻",乌克兰新闻
+https://cdn1.live-tv.cloud/rivne1/rivne1-abr/rivne1/rivne1-sub2/chunks.m3u8
+#EXTINF:-1 group-title="世界新闻",乌克兰新闻
+https://cdn10.live-tv.cloud/sferarv/sferarv-abr/sferarv/480p/chunks.m3u8
+#EXTINF:-1 group-title="世界新闻",俄罗斯新闻
+http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/68040.ts
+#EXTINF:-1 group-title="世界新闻",乌克兰新闻
+http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/21401.ts
+#EXTINF:-1 group-title="世界新闻",俄罗斯新闻
+https://rt-glb.rttv.com/dvr/rtnews/playlist_4500Kb.m3u8
+#EXTINF:-1 group-title="世界新闻",俄罗斯新闻
+https://streaming.televizor-24-tochka.ru/live/30-req_offset_28000000-req_window_0-2k_v5.m3u8
+#EXTINF:-1 group-title="世界新闻",俄罗斯新闻
+https://streaming.televizor-24-tochka.ru/live/30-req_offset_28000000-req_window_0-2k_v5.m3u8
+#EXTINF:-1 group-title="世界新闻",俄罗斯新闻
+http://asmr4k.world:8080/05347247405/3100934708/871535
+#EXTINF:-1 group-title="世界新闻",印度新闻
+https://ndtvindiaelemarchana.akamaized.net/hls/live/2003679/ndtvindia/masterp_720p@3.m3u8
+#EXTINF:-1 group-title="世界新闻",印度新闻
+https://ndtvindiaelemarchana.akamaized.net/hls/live/2003679/ndtvindia/ndtvindiamaster.m3u8
+#EXTINF:-1 group-title="世界新闻",印度新闻
+https://indiatodaylive.akamaized.net/hls/live/2014320-b/indiatoday/indiatodaylive/live_720p/chunks.m3u8
+#EXTINF:-1 group-title="世界新闻",印度新闻
+https://ndtv24x7elemarchana.akamaized.net/hls/live/2003678/ndtv24x7/ndtv24x7master.m3u8
+#EXTINF:-1 group-title="世界新闻",泰国公视
+https://thaipbs-live.cdn.byteark.com/live/playlist_1080p/index.m3u8
+#EXTINF:-1 group-title="世界新闻",泰国公视
+http://thaipbs-live.cdn.byteark.com/live-en/playlist_720p/index.m3u8
+#EXTINF:-1 group-title="世界新闻",叙利亚新闻
+https://svs.itworkscdn.net/syriatvlive/syriatv.smil/syriatvpublish/syriatv_source/chunks_dvr.m3u8
+#EXTINF:-1 group-title="世界新闻",阿拉伯新闻
+https://live.alarabiya.net/alarabiapublish/alhadath.smil/alarabiapublish/alhadath_1080p/chunks.m3u8
+#EXTINF:-1 group-title="世界新闻",以色列新闻
+http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/63986.ts
+#EXTINF:-1 group-title="世界新闻",以色列新闻
+http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/63962.ts
+#EXTINF:-1 group-title="世界新闻",以色列新闻
+http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/64000.ts
+#EXTINF:-1 group-title="世界新闻",巴勒斯坦新闻
+http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/618.ts
+#EXTINF:-1 group-title="世界新闻",巴勒斯坦新闻
+http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/620.ts
+#EXTINF:-1 group-title="世界新闻",真主党新闻
+http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/917.ts
+#EXTINF:-1 group-title="世界新闻",真主党新闻
+https://edge.fastpublish.me/live/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="世界新闻",土耳其之声
+https://tv-trtworld.medya.trt.com.tr/master_1080.m3u8
+#EXTINF:-1 group-title="世界新闻",土耳其之声
+http://tr.zengi34.xyz:8080/UEJLSW1qN0MwYk0rcU43MFA2bVM2VXdlYURJb1NjaHcvR3U3RnlCV3E2Y2llYXhFeEJkQm9JQmpENDlZa3BYNg
+#EXTINF:-1 group-title="台港新闻",年代新闻
+http://iptv.852851.xyz/l/VD_8ygH7QDQnD9330KaClBp34nZhZLUq3jkActoDMXP8KvVy1OgQ-VRigqyhsc1d/play
+#EXTINF:-1 group-title="台港新闻",镜新闻
+http://iptv.852851.xyz/l/7hujk1t1oxWvMjGRtCOwgQOJ07neCOwppqXcObsI5XYHZyEDxgk3BjBCaAHZr-yz/index.m3u8
+#EXTINF:-1 group-title="台港新闻",民视新闻
+http://iptv.852851.xyz/l/9Bdmg6Vol-8tDcv5AKrLeMNKlong9GkflUTTCd80I13phaMth1Z1kZACAo5n14NL/index.m3u8
+#EXTINF:-1 group-title="台港新闻",东森新闻
+http://iptv.852851.xyz/l/w9szXae0W4VoZ_3asJBqaErhrmDI5Q11zSt1LhOo7oYah9WyH94ROPQX8_9rDVuT/index.m3u8
+#EXTINF:-1 group-title="台港新闻",TVBS新闻
+http://iptv.852851.xyz/l/_Mh1URYjWJIse2Rgd_hOyOpb_x3qWTiiSfvFiCxrFwD-V0Qi2RSqjLe7ZGvSlGhl/index.m3u8
+#EXTINF:-1 group-title="台港新闻",TVBS新闻
+https://d2jc41c1shgcol.cloudfront.net/live/tvbsnewsqt/playlist.m3u8
+#EXTINF:-1 group-title="台港新闻",NOW新闻
+http://173.208.234.146/live/nowxw.m3u8
+#EXTINF:-1 group-title="台港新闻",凤凰资讯
+http://173.208.234.146/live/fhzx.m3u8
+#EXTINF:-1 group-title="台港新闻",民视新闻
+http://38.64.72.148:80/hls/modn/list/4012/chunklist1.m3u8
+#EXTINF:-1 group-title="台港新闻",台视新闻
+http://38.64.72.148:80/hls/modn/list/4013/chunklist1.m3u8
+#EXTINF:-1 group-title="台港新闻",TVBS新闻
+http://jnzq.ohoyee.com:9080/live/332123-tvbsxw.m3u8
+#EXTINF:-1 group-title="台港新闻",寰宇新闻
+http://jnzq.ohoyee.com:9080/live/332123-hyxw.m3u8
+#EXTINF:-1 group-title="台港新闻",民视新闻
+http://211.72.174.95:8117/0.ts
+#EXTINF:-1 group-title="台港新闻",台视新闻
+https://live.wcetv.com/hls/master-ttvnews.m3u8
+#EXTINF:-1 group-title="台港新闻",东森新闻
+http://211.72.174.95:8138/0.ts
+#EXTINF:-1 group-title="台港新闻",台视新闻
+http://173.208.234.146/live/ttvnews.m3u8
+#EXTINF:-1 group-title="台港新闻",民视新闻
+http://173.208.234.146/live/ftvnews.m3u8
+#EXTINF:-1 group-title="台港新闻",TVBS新闻
+http://173.208.234.146/live/tvbsnews.m3u8
+#EXTINF:-1 group-title="台港新闻",东森新闻
+http://173.208.234.146/live/ebcnews.m3u8
+#EXTINF:-1 group-title="台港新闻",三立新闻
+http://173.208.234.146/live/setnews.m3u8
+#EXTINF:-1 group-title="台港新闻",HOY资讯
+http://173.208.234.146/live/hoy78.m3u8
+#EXTINF:-1 group-title="台港新闻",凤凰资讯
+http://173.208.234.146/live/fhzx.m3u8
+#EXTINF:-1 group-title="台港新闻",三立新闻
+https://d2jc41c1shgcol.cloudfront.net/live/iNEWS/playlist.m3u8
+#EXTINF:-1 group-title="台港新闻",中天新闻
+https://d2jc41c1shgcol.cloudfront.net/live/CtiNEWS1/playlist.m3u8
+#EXTINF:-1 group-title="台港新闻",东森新闻
+https://d2jc41c1shgcol.cloudfront.net/live/EBCNews/playlist.m3u8
+#EXTINF:-1 group-title="台港新闻",中视新闻
+https://d2jc41c1shgcol.cloudfront.net/live/ctvnewsqt/playlist.m3u8
+#EXTINF:-1 group-title="台港新闻",华视新闻
+https://d2jc41c1shgcol.cloudfront.net/live/ctsnewsqt/playlist.m3u8
+#EXTINF:-1 group-title="台港新闻",民视新闻
+https://d2jc41c1shgcol.cloudfront.net/live/ftvnewsqt/playlist.m3u8
+#EXTINF:-1 group-title="台港新闻",TVBS新闻
+https://d2jc41c1shgcol.cloudfront.net/live/tvbsnewsqt/playlist.m3u8
+#EXTINF:-1 group-title="欧美综合",BBC1
+http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/17305.ts
+#EXTINF:-1 group-title="欧美综合",BBC1
+http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/69428.ts
+#EXTINF:-1 group-title="欧美综合",BBC2
+http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/17318.ts
+#EXTINF:-1 group-title="欧美综合",BBC3
+http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/17321.ts
+#EXTINF:-1 group-title="欧美综合",BBC4
+http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/17331.ts
+#EXTINF:-1 group-title="欧美综合",La1
+http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/21367.ts
+#EXTINF:-1 group-title="欧美综合",RAI⁴ᵏ
+http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/1281054.ts
+#EXTINF:-1 group-title="欧美综合",TRT⁴ᵏ
+http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/1436349.ts
+#EXTINF:-1 group-title="欧美综合",TF1
+http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/1281445.ts
+#EXTINF:-1 group-title="欧美综合",ZDF
+http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/1029569.ts
+#EXTINF:-1 group-title="欧美综合",CBS
+http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/213926.ts
+#EXTINF:-1 group-title="欧美综合",NBC
+http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/214129.ts
+#EXTINF:-1 group-title="欧美综合",FOX
+http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/214392.ts
+#EXTINF:-1 group-title="欧美综合",ABC
+http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/222674.ts
+#EXTINF:-1 group-title="欧美综合",CW
+http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/71420.ts
+#EXTINF:-1 group-title="欧美综合",BBC1
+http://line.cloud-ott.net:80/play/live.php?mac=00:1A:79:0D:80:56&stream=394415&extension=ts&play_token=2dtIgIsHQS
+#EXTINF:-1 group-title="欧美综合",BBC2
+http://line.cloud-ott.net:80/play/live.php?mac=00:1A:79:0D:80:56&stream=394413&extension=ts&play_token=gGGhxs6WNd
+#EXTINF:-1 group-title="欧美综合",BBC3
+http://line.cloud-ott.net:80/play/live.php?mac=00:1A:79:0D:80:56&stream=394411&extension=ts&play_token=fA5an8ZUAQ
+#EXTINF:-1 group-title="欧美综合",BBC4
+http://line.cloud-ott.net:80/play/live.php?mac=00:1A:79:0D:80:56&stream=394409&extension=ts&play_token=4QjxtPAuij
+#EXTINF:-1 group-title="欧美综合",La1⁴ᵏ
+http://line.cloud-ott.net:80/play/live.php?mac=00:1A:79:0D:80:56&stream=895539&extension=ts&play_token=hqgAMi6gpl
+#EXTINF:-1 group-title="欧美综合",La1⁴ᵏ
+http://host-aurora.vip:80/play/live.php?mac=00:1a:79:31:c2:72&stream=2075526&extension=ts&play_token=6HySd7KDdW
+#EXTINF:-1 group-title="欧美综合",La1⁴ᵏ
+http://line.cloud-ott.net:80/play/live.php?mac=00:1A:79:0D:80:56&stream=568965&extension=ts&play_token=DNiyX2u2O1
+#EXTINF:-1 group-title="欧美综合",La1⁴ᵏ
+http://neosfpoo.top:8080/101778770428/e511208ea106/5622
+#EXTINF:-1 group-title="欧美综合",RAI⁴ᵏ
+http://neosfpoo.top:8080/101778770428/e511208ea106/61949
+#EXTINF:-1 group-title="欧美综合",TRT⁴ᵏ
+http://neosfpoo.top:8080/101778770428/e511208ea106/62701
+#EXTINF:-1 group-title="欧美综合",TF1
+http://neosfpoo.top:8080/101778770428/e511208ea106/57478
+#EXTINF:-1 group-title="欧美综合",ZDF
+http://neosfpoo.top:8080/101778770428/e511208ea106/61183
+#EXTINF:-1 group-title="欧美综合",CBS
+http://neosfpoo.top:8080/101778770428/e511208ea106/71204
+#EXTINF:-1 group-title="欧美综合",NBC
+http://neosfpoo.top:8080/101778770428/e511208ea106/72476
+#EXTINF:-1 group-title="欧美综合",FOX
+http://neosfpoo.top:8080/101778770428/e511208ea106/71886
+#EXTINF:-1 group-title="欧美综合",ABC
+http://neosfpoo.top:8080/101778770428/e511208ea106/71007
+#EXTINF:-1 group-title="欧美综合",CW
+http://neosfpoo.top:8080/101778770428/e511208ea106/71462
+#EXTINF:-1 group-title="欧美综合",CBS
+http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/89717.ts
+#EXTINF:-1 group-title="欧美综合",NBC
+http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/2428.ts
+#EXTINF:-1 group-title="欧美综合",FOX
+http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/2503.ts
+#EXTINF:-1 group-title="欧美综合",ABC
+http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/2665.ts
+#EXTINF:-1 group-title="欧美综合",CBS
+http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/559692.ts
+#EXTINF:-1 group-title="欧美综合",CW
+http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/630645.ts
+#EXTINF:-1 group-title="欧美综合",FOX
+http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/2544.ts
+#EXTINF:-1 group-title="台港综合",民视
+http://iptv.852851.xyz/l/0imsjMCL75ZxlL_qWn-OMvhlbqI-IlqHzSjokoidmlPLj8vmPZz6jRz9OWEEol4E/index.m3u8
+#EXTINF:-1 group-title="台港综合",三立综合
+http://iptv.852851.xyz/l/6_8Jktz42qQTVsPtni0pZz5vA02Ii3T6R1fnjPkCYoIjA0wDim2BmUon_lBrrtCi/index.m3u8
+#EXTINF:-1 group-title="台港综合",中视
+http://iptv.852851.xyz/l/Ssb35YkwMdvTuDYFLYsvwkqVXI7MnkEWHD2-HMl1wN_lErVA2P_Lm6I23Z1IeBnr/index.m3u8
+#EXTINF:-1 group-title="台港综合",华视
+http://iptv.852851.xyz/l/r6tHArk9o1nsSZ2dH7kHpYOKLv8O0ymE8jJf6m3DLFW_3xZ0-OTr-E0nfSWpsfis/index.m3u8
+#EXTINF:-1 group-title="台港综合",翡翠台
+https://cdn3.indevs.in/stream/tvb/fct/
+#EXTINF:-1 group-title="台港综合",明珠台
+https://cdn3.indevs.in/stream/tvb/mzt/
+#EXTINF:-1 group-title="台港综合",公视
+http://211.72.174.95:8116/0.ts
+#EXTINF:-1 group-title="台港综合",公视
+http://220.135.241.47:8305/0.ts
+#EXTINF:-1 group-title="台港综合",民视
+http://211.72.174.95:8115/0.ts
+#EXTINF:-1 group-title="台港综合",民视
+http://220.135.241.47:8308/0.ts
+#EXTINF:-1 group-title="台港综合",台视
+http://211.72.174.95:8112/0.ts
+#EXTINF:-1 group-title="台港综合",台视
+http://220.135.241.47:8313/0.ts
+#EXTINF:-1 group-title="台港综合",中视
+http://211.72.174.95:8113/0.ts
+#EXTINF:-1 group-title="台港综合",中视
+http://220.135.241.47:8301/0.ts
+#EXTINF:-1 group-title="台港综合",华视
+http://211.72.174.95:8114/0.ts
+#EXTINF:-1 group-title="台港综合",华视
+http://220.135.241.47:8318/0.ts
+#EXTINF:-1 group-title="台港综合",华视
+http://220.135.241.47:8317/0.ts
+#EXTINF:-1 group-title="台港综合",公视
+http://173.208.234.146/live/pts.m3u8
+#EXTINF:-1 group-title="台港综合",翡翠台
+http://173.208.234.146/live/jade.m3u8
+#EXTINF:-1 group-title="台港综合",HOY
+http://173.208.234.146/live/hoy77.m3u8
+#EXTINF:-1 group-title="台港综合",凤凰台
+http://173.208.234.146/live/fhzw.m3u8
+#EXTINF:-1 group-title="台港综合",凤凰台
+http://173.208.234.146/live/fhxg.m3u8
+#EXTINF:-1 group-title="台港综合",TV朝鲜
+http://onair2.cdn.tvchosun.com/origin2/_definst_/tvchosun_s3/playlist.m3u8
+#EXTINF:-1 group-title="纪实人文",LoveNature
+http://iptv.852851.xyz/l/hDNYoQmtOhNlregr9ED3IgNzcyQXG1fvcNEkHAyCxrLjcy3i7nJSsm_Z334E72-Y/index.m3u8
+#EXTINF:-1 group-title="纪实人文",DISCOVERY
+http://iptv.852851.xyz/l/RquKIWHUOW-p5mkxYnmWfbsobXFJ6XDBrsej9HqX1BtWaY17CP3M_Orv-L4ZHkzQ/index.m3u8
+#EXTINF:-1 group-title="纪实人文",历史
+http://iptv.852851.xyz/l/wo56yc1YsMtvuv_nSJYuRWoWBcPyAq_OQzOjboP-GvvVOC-dXNBfcCQY8Z7W5LfT/index.m3u8
+#EXTINF:-1 group-title="纪实人文",罪案侦查
+http://iptv.852851.xyz/l/gndwKWVhGthlXycvU_YIXSpVRAYFO9EkPiOYZsNuxKl9P8DszSbaUXWlyPL_S7r2/index.m3u8
+#EXTINF:-1 group-title="纪实人文",视纳华仁纪实
+http://iptv.852851.xyz/l/tahREv7xhFwDnVJvC-NZSE9pxdsQ4ytvVyvtk9ORnzfAgMR7l4YNLpOI3nocFDy8/index.m3u8
+#EXTINF:-1 group-title="纪实人文",影迷数位纪实
+http://iptv.852851.xyz/l/JbqFPkFZ6gDhodxiSkcyQ9OVt1GzFVumea1JbRWZcyesdIImyjgsBjKUgZD7kw7z/index.m3u8
+#EXTINF:-1 group-title="纪实人文",麦哲伦
+http://iptv.852851.xyz/l/mbB8noDxWjLpfWA8O5Ak3eIjap_RN9qG3sFZAJirGVjmrIACZqXrlEZ11BQQDUSg/index.m3u8
+#EXTINF:-1 group-title="纪实人文",动物星球
+http://61.221.215.25:8800/hls/57/index.m3u8
+#EXTINF:-1 group-title="纪实人文",ANIMALPLANET
+http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/71431.ts
+#EXTINF:-1 group-title="纪实人文",DISCOVERY
+http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/71440.ts
+#EXTINF:-1 group-title="纪实人文",DISCOVERY
+http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/1052478.ts
+#EXTINF:-1 group-title="纪实人文",A&E
+http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/71313.ts
+#EXTINF:-1 group-title="纪实人文",A&E
+http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/1060172.ts
+#EXTINF:-1 group-title="纪实人文",COWBOY
+http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/71383.ts
+#EXTINF:-1 group-title="纪实人文",History
+http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/71435.ts
+#EXTINF:-1 group-title="纪实人文",History
+http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/17691.ts
+#EXTINF:-1 group-title="纪实人文",NGO
+http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/71416.ts
+#EXTINF:-1 group-title="纪实人文",NGO
+http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/71433.ts
+#EXTINF:-1 group-title="纪实人文",NGOWild
+http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/71417.ts
+#EXTINF:-1 group-title="纪实人文",SUNDANCE
+http://hardcoremedia.xyz:80/6jTFRmvaSp/7534936344/129957
+#EXTINF:-1 group-title="纪实人文",爆笑视频
+https://81d1c38525014f39a1705b01e04d91c2.mediatailor.us-east-1.amazonaws.com/v1/master/04fd913bb278d8775298c26fdca9d9841f37601f/RakutenTV-eu_ThePetCollective-1/playlist.m3u8
+#EXTINF:-1 group-title="纪实人文",爆笑视频
+https://965a56fdfe3c40cd9b73c49a0cde620b.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/RakutenTV-eu_PeopleAreAwesome-1/playlist.m3u8
+#EXTINF:-1 group-title="纪实人文",爆笑视频
+https://d39g1vxj2ef6in.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod-rakuten-stitched/master.m3u8
+#EXTINF:-1 group-title="纪实人文",爆笑视频
+https://bd93cfed.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWV1X0ZhaWxBcm15X0hMUw/playlist.m3u8
+#EXTINF:-1 group-title="上海实时",陆家嘴
+https://tftp4ge3drmt1go5nhcju8yzdrptpptwzc3jpq731h45mqpssqmudp7so.100ycdn.com/live-ws.kksmg.com/live/sdi5/playlist.m3u8?wsSession=8a15d23fe661e20e47cce670-177203770982085&wsIPSercert=832abf7ce82ccc02b32b56b105f24835&wsBindIP=2&wsserid=1168187559701054860
+#EXTINF:-1 group-title="上海实时",陆家嘴天眼
+https://tftp0gaa1hcjagozdcmttgyan45djq311475uf3issh5pchzgg55p.100ycdn.com/live-ws.kksmg.com/live/sdi6/playlist.m3u8?wsSession=5b0157b25e26fa5fbe3ebedf-177204125960201&wsIPSercert=832abf7ce82ccc02b32b56b105f24835&wsBindIP=2&wsserid=1168218615997031039
+#EXTINF:-1 group-title="上海实时",外滩
+https://tftp1go3nhqbtfa3d1mtugessa4mscwszqh3qppizg5m8f3ts65e.100ycdn.com/live-ws.kksmg.com/live/sdi4/playlist.m3u8?wsSession=e18328672261b2e3fcadcc17-177204266364389&wsIPSercert=832abf7ce82ccc02b32b56b105f24835&wsBindIP=2&wsserid=1168276898037564649
+#EXTINF:-1 group-title="上海实时",北外滩
+https://tftp6graunmttghanhctofa3uymmcpf5gkmmzqczgs45upiu1ha5xpw.100ycdn.com/live-ws.kksmg.com/live/webcam1/playlist.m3u8?wsSession=3ccfdb4284eaea73bb7cab60-177204275008725&wsIPSercert=832abf7ce82ccc02b32b56b105f24835&wsBindIP=2&wsserid=1168218612390266553
+#EXTINF:-1 group-title="上海实时",龙东大道
+https://rvsh.jtw.sh.gov.cn/live/200120a4-3d7c-4a7d-82dc-71fdfef3e045_sub/index.m3u8?t=1902119605&k=2c3e3086e3191872
+#EXTINF:-1 group-title="上海实时",临港大道
+https://rvsh.jtw.sh.gov.cn/live/310120a4-3d7c-4a7d-82dc-71fde233e060_sub/index.m3u8?t=1902119782&k=e5d9cad0fb4bde78
+#EXTINF:-1 group-title="影视娱乐",猪哥亮歌厅秀
+http://iptv.852851.xyz/l/DDVqdU31Y4T3Zld27UT5YHC__vW5LHsYF8JSrwv6adibbannafrPUjbCYwVmxGGo/index.m3u8
+#EXTINF:-1 group-title="影视娱乐",爱奇艺
+https://cdn3.indevs.in/stream/live/iqiyi/
+#EXTINF:-1 group-title="影视娱乐",纬来日本
+http://iptv.852851.xyz/l/8uf0CnX7fWy-nwcfgnbxL9-l0RIOcmfiSbDyoxW7Cq66JTr942HpROo7olhK3llJ/index.m3u8
+#EXTINF:-1 group-title="影视娱乐",八大综艺
+http://iptv.852851.xyz/l/Q1M4dLe9Cmd9yqsFyiWM3DR_Mvzy8UpOZf2CpIa-k-4vOb-DifIC7h08qcP5gNkb/index.m3u8
+#EXTINF:-1 group-title="影视娱乐",韩国娱乐
+http://iptv.852851.xyz/l/2TsBzD7kcUca-wdcuu1y6KkDXF8fKsBhiCM6dQ5wrZZZPmrFO4hbJTuxA5o_SHdv/index.m3u8
+#EXTINF:-1 group-title="影视娱乐",靖天日本
+http://iptv.852851.xyz/l/FFBROUMIakfSYptHtkRKXDqlAXujVu7XQHX_4Oz0Xf2p_WZjPKoDdAcp7XA5JHYk/index.m3u8
+#EXTINF:-1 group-title="影视娱乐",靖天映画
+http://iptv.852851.xyz/l/BGxI3ed6x9hbXWf9yIeeSKatbw9NVDcJqLRSIvWrrEYsZ0p6uTStjJzNkr78eY_5/index.m3u8
+#EXTINF:-1 group-title="影视娱乐",靖天电影
+http://iptv.852851.xyz/l/g3XfE5wlVxV8Rk9cF7L-MSfk1BidrpEXvZ3kSLycdSNLrTOlLNNncTvkQ6MEKlH5/index.m3u8
+#EXTINF:-1 group-title="影视娱乐",影迷数位电影
+http://iptv.852851.xyz/l/1cVSVE-bRBVMML4g_MHmDufJYvFd69BjDjIntHf6yZoQ872o70gKEfsp04G_qs_q/index.m3u8
+#EXTINF:-1 group-title="影视娱乐",amc电影
+http://iptv.852851.xyz/l/3tvu6tDmmvbI0o6wOuW9U0OCZ1oWy6oPgHAG-8P3mHHRRe8cfmKdTPVOmkcXd3kh/index.m3u8
+#EXTINF:-1 group-title="影视娱乐",CinemaWorld
+http://iptv.852851.xyz/l/_U9QWFAUs-dC8YhPdXoEBxkS-U4kEzLzZTdQaTTtwZ8N9I6KKxY8ZiGlyUvfAk26/index.m3u8
+#EXTINF:-1 group-title="影视娱乐",我的欧洲电影
+http://iptv.852851.xyz/l/4zlEZ1Y27_xe3I5tKfDdDAl4yD9wrt5gcqT1dJs5ywOaAGGQ6H9FfFSpqHzt80gX/index.m3u8
+#EXTINF:-1 group-title="影视娱乐",HBO
+http://iptv.852851.xyz/l/2OlG0hbD-1rDAvbUz2NXzKpYrt_kzGV6K3V7n4qx9N-PVj-B0itJJAXDcDMr7XQ7/play
+#EXTINF:-1 group-title="影视娱乐",HBO
+http://iptv.852851.xyz/l/SBGLcNswJxsAyoHqSlRzROneLRdMl8_WsJ69PC8dbccA5DMhUnZNN64SQwpaYdg4/index.m3u8
+#EXTINF:-1 group-title="影视娱乐",HBO
+http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/71855.ts
+#EXTINF:-1 group-title="影视娱乐",HBO
+http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/71854.ts
+#EXTINF:-1 group-title="影视娱乐",AMC
+http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/1060176.ts
+#EXTINF:-1 group-title="影视娱乐",FX
+http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/71321.ts
+#EXTINF:-1 group-title="体育",TORO
+http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/757751.ts
+#EXTINF:-1 group-title="体育",TORO
+http://neosfpoo.top:8080/2071771277838/6ec486cbcb6b/55943
+#EXTINF:-1 group-title="体育",TORO
+http://tecmx.lat:25461/live/restreanow/4yFW4CTw5NMP/123047.ts
+#EXTINF:-1 group-title="体育",TORO
+http://neosfpoo.top:8080/2071771277838/6ec486cbcb6b/56009
+#EXTINF:-1 group-title="体育",TORO
+http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/1061263.ts
+#EXTINF:-1 group-title="体育",TORO
+http://neosfpoo.top:8080/101778770428/e511208ea106/56009
+#EXTINF:-1 group-title="体育",TORO
+http://neosfpoo.top:8080/2071771277838/6ec486cbcb6b/56010
+#EXTINF:-1 group-title="体育",TORO
+http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/1061264.ts
+#EXTINF:-1 group-title="体育",TORO
+http://line.cloud-ott.net:80/play/live.php?mac=00:1A:79:0D:80:56&stream=959568&extension=ts&play_token=FLzcBlqF5i
+#EXTINF:-1 group-title="体育",TORO
+http://line.cloud-ott.net:80/play/live.php?mac=00:1A:79:0D:80:56&stream=959568&extension=ts&play_token=5PFxGeKc8p
+#EXTINF:-1 group-title="体育",TORO
+http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/1061264.ts
+#EXTINF:-1 group-title="体育",TORO
+http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/1360005.ts
+#EXTINF:-1 group-title="体育",TORO
+http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/975890.ts
+#EXTINF:-1 group-title="体育",TORO
+http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/21364.ts
+#EXTINF:-1 group-title="体育",TORO
+http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/21329.ts
+#EXTINF:-1 group-title="体育",TORO
+http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/1293758.ts
+#EXTINF:-1 group-title="体育",TORO
+http://line.cloud-ott.net:80/play/live.php?mac=00:1A:79:0D:80:56&stream=959568&extension=ts&play_token=Zf7BmyTmjI
+#EXTINF:-1 group-title="体育",TORO
+https://fastly.live.brightcove.com/1846756479408303045/eu-central-1/6057955885001/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJob3N0IjoiZWFxNWh4LmVncmVzcy53YzQ3bTEiLCJhY2NvdW50X2lkIjoiNjA1Nzk1NTg4NTAwMSIsImVobiI6ImZhc3RseS5saXZlLmJyaWdodGNvdmUuY29tIiwiaXNzIjoiYmxpdmUtcGxheWJhY2stc291cmNlLWFwaSIsInN1YiI6InBhdGhtYXB0b2tlbiIsImF1ZCI6WyI2MDU3OTU1ODg1MDAxIl0sImp0aSI6IjE4NDY3NTY0Nzk0MDgzMDMwNDUifQ.o6wb_VA-TVxl3ERgr7FKLlaTjY7smErmsf73QAydySE/chunklist-dvr_hls1080p.m3u8
+#EXTINF:-1 group-title="体育",TORO
+https://cflive.kaltura.com/scf/env/d.live.nvp1/live/hls/p/2288691/e/1_gnz6ity9/tl/main/st/0/t/eB3tZbaQcuVjhPbVtiVcng/index-s32.m3u8?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9jZmxpdmUua2FsdHVyYS5jb20vc2NmL2Vudi9kLmxpdmUubnZwMS9saXZlL2hscy9wLzIyODg2OTEvZS8xX2duejZpdHk5L3RsL21haW4vc3QvMC90L2VCM3RaYmFRY3VWamhQYlZ0aVZjbmcvKiIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc4MzA2MzQ1Nn19fV19&Signature=Xdd3gNqB4WuLJ6phPgNnoS4s5Q0niApsK3pvpVB~Vss0Lcy3Z2KrZtaihEguGMri955UhIF6rn6H-Zs9L2tlRrpJbMJtYYTVYCq-ZsEreEAwzOrJgewSlxkpmk5iOEwVgP~gg8MrAkNAqmbTlEPJCS3fFSpwHeCagA-zG1SpcnTSULLR04ccPko07qr7OytEMxzmocZM5xSUAmS68IEYoyyAMZOBOm8PgHha2yTH2zTDovVmgsdUnMG8Qy6ujUnAzJYnk5a32Tt4Ee2T7JnrrhkvpITqtt9cW4Dd0fJM9i~yrwnSW~z0TDIr25BvH8TJyCPmvlZF4K7QEHMBW7EXVg__&Key-Pair-Id=K31ANTJBLNVBEC
+#EXTINF:-1 group-title="体育",TORO
+http://tectonbrand.com:80/4KYD2C92D/1Z6BCL4/330538.ts
+#EXTINF:-1 group-title="体育",TORO
+http://jackofclubs.vip:80/1Ray1842/xWtyyTVfFY/219525.ts
+#EXTINF:-1 group-title="体育",TORO
+http://jackofclubs.vip:80/1Ray1842/xWtyyTVfFY/399420.ts
+#EXTINF:-1 group-title="体育",TORO
+http://10k.lucastv.pro/live/2c99755ae255/gJnMAT2/235353.ts
+#EXTINF:-1 group-title="体育",亚运会
+http://iptv.852851.xyz/l/oJzp9O-XhBr7dwFPO7B-u96awa8vDP3npKeHnN3pzWJodFkSv0QXCsajiMc7mC4W/index.m3u8
+#EXTINF:-1 group-title="体育",亚运会
+http://iptv.852851.xyz/l/j-O6st_uM81NgXHFS68P_A19rC35miXrGH2jdyK7HAsANLoCFO29ZWeo7d2agKiU/index.m3u8
+#EXTINF:-1 group-title="体育",亚运会
+http://iptv.852851.xyz/l/3jXuVC3Fraa5SQpnagcMGjrePut1Hm56cHAhCMLRWtQmVJlmV-Q217zPks-UNiwb/index.m3u8
+#EXTINF:-1 group-title="体育",爱尔达体育1
+http://iptv.852851.xyz/l/Vr1zFgQcXi87bxfLtojdcqVr4bTNZ7ioSTes1uPrqsM8vsyCJWrPE3MFfi603MQE/index.m3u8
+#EXTINF:-1 group-title="体育",爱尔达体育2
+http://iptv.852851.xyz/l/ufkyfSmehvZ-Ja3VjcnE8yPMyNW8-D1ZQhKWJLnHFSZt-XP9G9tJMAMPVWwAa5Lv/index.m3u8
+#EXTINF:-1 group-title="体育",爱尔达体育3
+http://iptv.852851.xyz/l/1jR3T-0tgkyImXuvQf-_EEDUVUA77Is8ua580BSkAuhsc70Hy0fJ7mxXW2NJTnBO/index.m3u8
+#EXTINF:-1 group-title="体育",NowSports⁴ᵏ
+http://iptv.852851.xyz/l/XOTxiaD4RFYmDpFXY6UyMAdeM3yRskTXQixpl0Ar0EtfZ3yP3YahGZ--OdvYyrPD/index.m3u8
+#EXTINF:-1 group-title="体育",NowSports⁴ᵏ
+http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/438867.ts
+#EXTINF:-1 group-title="体育",NowSports⁴ᵏ
+http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/438866.ts
+#EXTINF:-1 group-title="体育",NowSports
+http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/438871.ts
+#EXTINF:-1 group-title="体育",NowSports
+http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/438873.ts
+#EXTINF:-1 group-title="体育",NowSports
+http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/438868.ts
+#EXTINF:-1 group-title="体育",NowSports
+http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/438870.ts
+#EXTINF:-1 group-title="体育",NowSports
+http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/438872.ts
+#EXTINF:-1 group-title="体育",NowSports
+http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/438874.ts
+#EXTINF:-1 group-title="体育",NowSports⁴ᵏ
+http://ktkguru.com:80/06DD463C8236519/f2ypvVoSFB/438867
+#EXTINF:-1 group-title="体育",NowSports⁴ᵏ
+http://ktkguru.com:80/06DD463C8236519/f2ypvVoSFB/438866
+#EXTINF:-1 group-title="体育",NowSports⁴ᵏ
+http://iptv.852851.xyz/l/lAp4ozdGx2jCK8Ss7V79TqsU3feFif-l3PIEmQ7alad_lliozYPOzUe
+#EXTINF:-1 group-title="体育",NowSports⁴ᵏ
+http://line.ciao-ott.net:80/play/live.php?mac=00:1A:79:C8:7B:30&stream=382835&extension=ts&play_token=cu1koRdFTk
+#EXTINF:-1 group-title="体育",NowSportsPRIME
+http://iptv.852851.xyz/l/nHH7Te5FQyFcyw3N3vjqbtzHTiIlcQ2jVFvwpB1SX4iNKGAWp2eschwQBmk5ug5x/index.m3u8
+#EXTINF:-1 group-title="体育",NowSportsPRIME
+http://ktkguru.com:80/06DD463C8236519/f2ypvVoSFB/748430
+#EXTINF:-1 group-title="体育",NowSportsPRIME
+http://ktkguru.com:80/06DD463C8236519/f2ypvVoSFB/748431
+#EXTINF:-1 group-title="体育",NowSportsPRIME
+http://ktkguru.com:80/06DD463C8236519/f2ypvVoSFB/748432
+#EXTINF:-1 group-title="体育",NowSportsPRIME
+http://ktkguru.com:80/06DD463C8236519/f2ypvVoSFB/748433
+#EXTINF:-1 group-title="体育",NowSportsPRIME
+http://ktkguru.com:80/06DD463C8236519/f2ypvVoSFB/1301200
+#EXTINF:-1 group-title="体育",PREMIERLEAGUE⁴ᵏ
+http://line.ciao-ott.net:80/play/live.php?mac=00:1A:79:C8:7B:30&stream=1312002&extension=ts&play_token=rMQI8WOPhd
+#EXTINF:-1 group-title="体育",PREMIERLEAGUE⁴ᵏ
+http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:1B:0F:6D&stream=1312002&extension=ts&play_token=vTK1cjSxqQ
+#EXTINF:-1 group-title="体育",PREMIERLEAGUE⁴ᵏ
+http://steveit4.net/live/4KYD2C92D/1Z6BCL4/17285.ts
+#EXTINF:-1 group-title="体育",PREMIERLEAGUE⁴ᵏ
+http://steveit4.net/live/4KYD2C92D/1Z6BCL4/979906.ts
+#EXTINF:-1 group-title="体育",PREMIERLEAGUE⁴ᵏ
+http://steveit4.net/live/4KYD2C92D/1Z6BCL4/979907.ts
+#EXTINF:-1 group-title="体育",SKYSPORTS
+http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/348323.ts
+#EXTINF:-1 group-title="体育",SKYSPORTS
+http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/1015489.ts
+#EXTINF:-1 group-title="体育",SKYSPORTS
+http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/980431.ts
+#EXTINF:-1 group-title="体育",SKYSPORTS
+http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/664451.ts
+#EXTINF:-1 group-title="体育",SKYSPORTS
+http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/17290.ts
+#EXTINF:-1 group-title="体育",SKYSPORTS
+http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/17286.ts
+#EXTINF:-1 group-title="体育",EUROSPORT
+http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/33451.ts
+#EXTINF:-1 group-title="体育",SKYSPORTS
+http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/33450.ts
+#EXTINF:-1 group-title="体育",TNTSPORTS
+http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/17281.ts
+#EXTINF:-1 group-title="体育",TNTSPORTS
+http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/980406.ts
+#EXTINF:-1 group-title="体育",TNTSPORTS
+http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/980407.ts
+#EXTINF:-1 group-title="体育",TNTSPORTS
+http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/311556.ts
+#EXTINF:-1 group-title="体育",TNTSPORTS
+http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/311558.ts
+#EXTINF:-1 group-title="体育",EUROSPORT⁴ᵏ
+http://fomo.re/oiAPMTyBHC7I7BK7/gs42ehsohqJ30C7m/32818
+#EXTINF:-1 group-title="体育",EUROSPORT
+http://steveit4.net/live/4KYD2C92D/1Z6BCL4/1138933.ts
+#EXTINF:-1 group-title="体育",EUROSPORT
+http://steveit4.net/live/4KYD2C92D/1Z6BCL4/1138934.ts
+#EXTINF:-1 group-title="体育",TNTSPORTS⁴ᵏ
+http://steveit4.net/live/4KYD2C92D/1Z6BCL4/1281083.ts
+#EXTINF:-1 group-title="体育",TNTSPORTS
+http://steveit4.net/live/4KYD2C92D/1Z6BCL4/846012.ts
+#EXTINF:-1 group-title="体育",TNTSPORTS
+http://steveit4.net/live/4KYD2C92D/1Z6BCL4/846013.ts
+#EXTINF:-1 group-title="体育",TNTSPORTS
+http://steveit4.net/live/4KYD2C92D/1Z6BCL4/846014.ts
+#EXTINF:-1 group-title="体育",TNTSPORTS
+http://steveit4.net/live/4KYD2C92D/1Z6BCL4/846015.ts
+#EXTINF:-1 group-title="体育",TNTSPORTS
+http://steveit4.net/live/4KYD2C92D/1Z6BCL4/311558.ts
+#EXTINF:-1 group-title="体育",SKYSPORTS⁴ᵏ
+http://steveit4.net/live/4KYD2C92D/1Z6BCL4/1281430.ts
+#EXTINF:-1 group-title="体育",SKYSPORTS
+http://steveit4.net/live/4KYD2C92D/1Z6BCL4/17285.ts
+#EXTINF:-1 group-title="体育",SKYSPORTS
+http://steveit4.net/live/4KYD2C92D/1Z6BCL4/980428.ts
+#EXTINF:-1 group-title="体育",SKYSPORTS
+http://steveit4.net/live/4KYD2C92D/1Z6BCL4/1404520.ts
+#EXTINF:-1 group-title="体育",SKYSPORTS
+http://steveit4.net/live/4KYD2C92D/1Z6BCL4/17289.ts
+#EXTINF:-1 group-title="体育",SKYSPORTS
+http://steveit4.net/live/4KYD2C92D/1Z6BCL4/304708.ts
+#EXTINF:-1 group-title="体育",BEINSPORTS⁴ᵏ
+http://steveit4.net/live/4KYD2C92D/1Z6BCL4/333932.ts
+#EXTINF:-1 group-title="体育",BEINSPORTS
+http://steveit4.net/live/4KYD2C92D/1Z6BCL4/552082.ts
+#EXTINF:-1 group-title="体育",BEINSPORTS
+http://steveit4.net/live/4KYD2C92D/1Z6BCL4/334052.ts
+#EXTINF:-1 group-title="体育",BEINSPORTS
+http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/986970.ts
+#EXTINF:-1 group-title="体育",BEINSPORTS
+http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/986971.ts
+#EXTINF:-1 group-title="体育",TNTSPORTS⁴ᵏ
+http://line.cloud-ott.net:80/play/live.php?mac=00:1A:79:0D:80:56&stream=1174213&extension=ts&play_token=tGYJPNC4ON
+#EXTINF:-1 group-title="体育",TNTSPORTS⁴ᵏ
+http://hardcoremedia.xyz:80/6jTFRmvaSp/7534936344/258594
+#EXTINF:-1 group-title="体育",TNTSPORTS
+http://line.cloud-ott.net:80/play/live.php?mac=00:1A:79:0D:80:56&stream=1174218&extension=ts&play_token=c56ATInCI7
+#EXTINF:-1 group-title="体育",TNTSPORTS
+http://line.cloud-ott.net:80/play/live.php?mac=00:1A:79:0D:80:56&stream=1174219&extension=ts&play_token=qpwQ2tQ1pk
+#EXTINF:-1 group-title="体育",TNTSPORTS
+http://line.cloud-ott.net:80/play/live.php?mac=00:1A:79:0D:80:56&stream=1174220&extension=ts&play_token=golaBj6Ugg
+#EXTINF:-1 group-title="体育",TNTSPORTS
+http://line.cloud-ott.net:80/play/live.php?mac=00:1A:79:0D:80:56&stream=1174221&extension=ts&play_token=WXMsGdOqRX
+#EXTINF:-1 group-title="体育",SKYSPORTS⁴ᵏ
+http://line.cloud-ott.net:80/play/live.php?mac=00:1A:79:0D:80:56&stream=1312008&extension=ts&play_token=u00Cl0P98a
+#EXTINF:-1 group-title="体育",SKYSPORTS
+http://line.cloud-ott.net:80/play/live.php?mac=00:1A:79:0D:80:56&stream=1311999&extension=ts&play_token=FEhmsngN4R
+#EXTINF:-1 group-title="体育",SKYSPORTS
+http://line.cloud-ott.net:80/play/live.php?mac=00:1A:79:0D:80:56&stream=1312002&extension=ts&play_token=MIxE4A2qxf
+#EXTINF:-1 group-title="体育",SKYSPORTS
+http://line.cloud-ott.net:80/play/live.php?mac=00:1A:79:0D:80:56&stream=1312000&extension=ts&play_token=EsP5WvQdeF
+#EXTINF:-1 group-title="体育",SKYSPORTS
+http://line.cloud-ott.net:80/play/live.php?mac=00:1A:79:0D:80:56&stream=1311995&extension=ts&play_token=4ZFqFsy53P
+#EXTINF:-1 group-title="体育",SKYSPORTS
+http://line.cloud-ott.net:80/play/live.php?mac=00:1A:79:0D:80:56&stream=1311994&extension=ts&play_token=St2ptjZ1CL
+#EXTINF:-1 group-title="体育",BEINSPORTS⁴ᵏ
+http://line.cloud-ott.net:80/play/live.php?mac=00:1A:79:0D:80:56&stream=1313561&extension=ts&play_token=UwwhPcI23f
+#EXTINF:-1 group-title="体育",BEINSPORTS⁴ᵏ
+http://line.cloud-ott.net:80/play/live.php?mac=00:1A:79:0D:80:56&stream=1313562&extension=ts&play_token=IsZccbc3vp
+#EXTINF:-1 group-title="体育",BEINSPORTS
+http://line.cloud-ott.net:80/play/live.php?mac=00:1A:79:0D:80:56&stream=1313535&extension=ts&play_token=oH68dRjcl7
+#EXTINF:-1 group-title="体育",BEINSPORTS
+http://line.cloud-ott.net:80/play/live.php?mac=00:1A:79:0D:80:56&stream=1313536&extension=ts&play_token=Tm6NQGUU9u
+#EXTINF:-1 group-title="体育",EUROSPORT
+http://line.cloud-ott.net:80/play/live.php?mac=00:1A:79:0D:80:56&stream=548060&extension=ts&play_token=7LgwoWGcwn
+#EXTINF:-1 group-title="体育",EUROSPORT
+http://line.cloud-ott.net:80/play/live.php?mac=00:1A:79:0D:80:56&stream=548058&extension=ts&play_token=rM1oZ6Owsw
+#EXTINF:-1 group-title="日本",NHKG
+https://haru.charandom.blog/stream/jp/nhk_g/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="日本",NHKG
+https://haru.charandom.blog/stream/jp/nhk_g_2/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="日本",NHKG
+https://haru.charandom.blog/stream/jp/nhk_g_osaka/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="日本",NHKBS
+https://haru.charandom.blog/stream/jp/nhk_bs/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="日本",NHKBS
+https://haru.charandom.blog/stream/jp/nhk_bs_2/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="日本",NHKBSP
+https://haru.charandom.blog/stream/jp/nhk_bs4k/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="日本",NHKBSP
+https://haru.charandom.blog/stream/jp/nhk_bs8k/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="日本",NHKE
+https://haru.charandom.blog/stream/jp/nhk_e/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="日本",日本テレビ
+https://haru.charandom.blog/stream/jp/ntv/stream-output.m3u8?mode=hls日本テレビ,https://haru.charandom.blog/stream/jp/ytv/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="日本",TBS
+https://haru.charandom.blog/stream/jp/tbs/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="日本",TBS
+https://haru.charandom.blog/stream/jp/mbs/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="日本",フジテレビ
+https://haru.charandom.blog/stream/jp/fuji_tv/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="日本",フジテレビ
+https://haru.charandom.blog/stream/jp/kansai_tv/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="日本",テレビ朝日
+https://haru.charandom.blog/stream/jp/tv_asahi/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="日本",テレビ朝日
+https://haru.charandom.blog/stream/jp/abc/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="日本",テレビ東京
+https://haru.charandom.blog/stream/jp/tv_tokyo/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="日本",テレビ東京
+https://haru.charandom.blog/stream/jp/tv_osaka/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="日本",BS日テレ
+https://haru.charandom.blog/stream/jp/bs_ntv/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="日本",BS日テレ
+https://haru.charandom.blog/stream/jp/bs_ntv_4k/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="日本",BSTBS
+https://haru.charandom.blog/stream/jp/bs_tbs/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="日本",BSフジ
+https://haru.charandom.blog/stream/jp/bs_fuji/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="日本",BSフジ
+https://haru.charandom.blog/stream/jp/bs_fuji_4k/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="日本",BS朝日
+https://haru.charandom.blog/stream/jp/bs_asahi/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="日本",BS朝日
+https://haru.charandom.blog/stream/jp/bs_asahi_4k/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="日本",BSテレ東
+https://haru.charandom.blog/stream/jp/bs_tv_tokyo/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="日本",BSテレ東
+https://haru.charandom.blog/stream/jp/bs_tv_tokyo_4k/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="日本",TOKYOMX1
+https://haru.charandom.blog/stream/jp/tokyo_mx1/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="日本",TOKYOMX2
+https://haru.charandom.blog/stream/jp/tokyo_mx2/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="日本",KBS京都
+https://haru.charandom.blog/stream/jp/kbs/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="日本",サンテレビ
+https://haru.charandom.blog/stream/jp/sun/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="日本",ディスカバリー
+https://haru.charandom.blog/stream/jp/discovery_channel/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="日本",ナショジオ
+https://haru.charandom.blog/stream/jp/national_geographic_japan/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="日本",ヒストリー
+https://haru.charandom.blog/stream/jp/history/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="日本",アニマルプラネット
+https://haru.charandom.blog/stream/jp/animal_planet/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="日本",BS10プレミアム
+https://haru.charandom.blog/stream/jp/bs_10_premium/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="日本",WOWOWシネマ
+https://haru.charandom.blog/stream/jp/wowow_cinema/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="日本",WOWOWライブ
+https://haru.charandom.blog/stream/jp/wowow_live/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="日本",WOWOWプラス
+https://haru.charandom.blog/stream/jp/wowow_plus/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="日本",WOWOWプライム
+https://haru.charandom.blog/stream/jp/wowow_prime/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="日本",東映
+https://haru.charandom.blog/stream/jp/toei_channel/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="日本",日本映画
+https://haru.charandom.blog/stream/jp/nihon_eiga_senmon/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="日本",ザ･シネマ
+https://haru.charandom.blog/stream/jp/the_cinema/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="日本",衛星劇場
+https://haru.charandom.blog/stream/jp/eisei_gekijo/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="日本",NECOCh
+https://haru.charandom.blog/stream/jp/neco_ch/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="日本",ムービープラス
+https://haru.charandom.blog/stream/jp/movie_plus/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="日本",ミステリー
+https://haru.charandom.blog/stream/jp/mystery_channel/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="日本",アクション
+https://haru.charandom.blog/stream/jp/action_channel/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="日本",ファミリー劇場
+https://haru.charandom.blog/stream/jp/family_gekijyo/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="日本",ホームドラマ
+https://haru.charandom.blog/stream/jp/home_drama_channel/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="日本",時代劇
+https://haru.charandom.blog/stream/jp/jidaigeki_senmon/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="日本",吉本新喜劇
+https://haru.charandom.blog/stream/jp/bs_yoshimoto/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="日本",宝塚歌劇
+https://haru.charandom.blog/stream/jp/takarazuka_sky_stage/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="日本",MondoTV
+https://haru.charandom.blog/stream/jp/mondo_tv/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="日本",V☆パラダイス
+https://haru.charandom.blog/stream/jp/v_paradise_nsfw/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="日本",Pigoo
+https://haru.charandom.blog/stream/jp/pigoo_nsfw/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="日本",旅
+https://haru.charandom.blog/stream/jp/tabi_channel/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="日本",釣りビジョン
+https://haru.charandom.blog/stream/jp/fishing_vision/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="日本",鉄道
+https://haru.charandom.blog/stream/jp/tetsudo_channel/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="日本",囲碁・将棋
+https://haru.charandom.blog/stream/jp/shogi_channel/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="日本",プロレス・格闘技
+https://haru.charandom.blog/stream/jp/fighting_tv_samurai/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="日本",銀河
+https://haru.charandom.blog/stream/jp/channel_ginga/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="日本",LaLaTV
+https://haru.charandom.blog/stream/jp/lala_tv/stream-output.m3u8?mode=hlsDLife,https://haru.charandom.blog/stream/jp/dlife/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="日本",グリーンチャンネル
+https://haru.charandom.blog/stream/jp/green_channel/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="日本",JSport1
+https://haru.charandom.blog/stream/jp/jsport_1/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="日本",JSport2
+https://haru.charandom.blog/stream/jp/jsport_2/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="日本",JSport3
+https://haru.charandom.blog/stream/jp/jsport_3/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="日本",JSport4
+https://haru.charandom.blog/stream/jp/jsport_4/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="日本",スポーツライブ＋
+https://haru.charandom.blog/stream/jp/sport_live_plus/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="日本",GAORASPORTS
+https://haru.charandom.blog/stream/jp/gaora_sports/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="日本",ゴルフネットワーク
+https://haru.charandom.blog/stream/jp/golf_network/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="日本",歌謡ポップス
+https://haru.charandom.blog/stream/jp/kayo_pops/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="日本",Mnet
+https://haru.charandom.blog/stream/jp/mnet/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="日本",スペースシャワー
+https://haru.charandom.blog/stream/jp/space_shower_tv/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="日本",MTV
+https://haru.charandom.blog/stream/jp/mtv/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="日本",ミュージック・エア
+https://haru.charandom.blog/stream/jp/music_air/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="日本",MusicJapan
+https://haru.charandom.blog/stream/jp/music_japan_tv/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="日本",MusicON
+https://haru.charandom.blog/stream/jp/music_on_tv/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="日本",日テレジータス
+https://haru.charandom.blog/stream/jp/nittele_g+/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="日本",日テレ+
+https://haru.charandom.blog/stream/jp/nittele_plus/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="日本",TBS1
+https://haru.charandom.blog/stream/jp/tbs_channel_1/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="日本",TBS2
+https://haru.charandom.blog/stream/jp/tbs_channel_2/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="日本",フジテレビNEXT
+https://haru.charandom.blog/stream/jp/fuji_tv_next/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="日本",フジテレビ1
+https://haru.charandom.blog/stream/jp/fuji_tv_one/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="日本",フジテレビ2
+https://haru.charandom.blog/stream/jp/fuji_tv_two/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="日本",テレ朝1
+https://haru.charandom.blog/stream/jp/tv_asahi_channel_1/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="日本",テレ朝2
+https://haru.charandom.blog/stream/jp/tv_asahi_channel_2/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="日本",BS10
+https://haru.charandom.blog/stream/jp/bs10/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="日本",BS11
+https://haru.charandom.blog/stream/jp/bs11/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="日本",BS12
+https://haru.charandom.blog/stream/jp/bs_12/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="日本",J:COM
+https://haru.charandom.blog/stream/jp/jcom_bs/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="日本",メ〜テレNEXT
+https://haru.charandom.blog/stream/jp/me-tele_next/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="日本",SkyA
+https://haru.charandom.blog/stream/jp/sky_a/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="日本",韓流
+https://haru.charandom.blog/stream/jp/kntv/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="日本",KBSWorld
+https://haru.charandom.blog/stream/jp/kbs_world/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="日本",Animax
+https://haru.charandom.blog/stream/jp/animax/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="日本",ディズニー
+https://haru.charandom.blog/stream/jp/disney_channel/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="日本",CartoonNetwork
+https://haru.charandom.blog/stream/jp/cartoon_network/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="日本",DisneyJunior
+https://haru.charandom.blog/stream/jp/disney_junior/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="日本",AT-X
+https://haru.charandom.blog/stream/jp/at-x/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="日本",キッズステーション
+https://haru.charandom.blog/stream/jp/kids_station_tv/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="日本",放送大学
+https://haru.charandom.blog/stream/jp/hoso_daigaku_ex/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="日本",ウェザーニューズ
+https://haru.charandom.blog/stream/jp/weather_news/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="日本",NHKG
+https://naori-test.netgenx.site/pxx.php?shk_cid=gx06
+#EXTINF:-1 group-title="日本",NHKG
+https://naori-test.netgenx.site/pxx.php?shk_cid=hdgd01
+#EXTINF:-1 group-title="日本",NHKBS
+https://naori-test.netgenx.site/pxx.php?shk_cid=bs11
+#EXTINF:-1 group-title="日本",NHKBSP
+https://naori-test.netgenx.site/pxx.php?shk_cid=bs01
+#EXTINF:-1 group-title="日本",NHKE
+https://naori-test.netgenx.site/pxx.php?shk_cid=hdgd02
+#EXTINF:-1 group-title="日本",日本テレビ
+https://naori-test.netgenx.site/pxx.php?shk_cid=hdgd03
+#EXTINF:-1 group-title="日本",日本テレビ
+https://naori-test.netgenx.site/pxx.php?shk_cid=gx04
+#EXTINF:-1 group-title="日本",TBS
+https://naori-test.netgenx.site/pxx.php?shk_cid=hdgd04
+#EXTINF:-1 group-title="日本",TBS
+https://naori-test.netgenx.site/pxx.php?shk_cid=gx01
+#EXTINF:-1 group-title="日本",フジテレビ
+https://naori-test.netgenx.site/pxx.php?shk_cid=hdgd05
+#EXTINF:-1 group-title="日本",フジテレビ
+https://naori-test.netgenx.site/pxx.php?shk_cid=gx03
+#EXTINF:-1 group-title="日本",テレビ朝日
+https://naori-test.netgenx.site/pxx.php?shk_cid=hdgd06
+#EXTINF:-1 group-title="日本",テレビ朝日
+https://naori-test.netgenx.site/pxx.php?shk_cid=gx02
+#EXTINF:-1 group-title="日本",テレビ東京
+https://naori-test.netgenx.site/pxx.php?shk_cid=hdgd07
+#EXTINF:-1 group-title="日本",テレビ東京
+https://naori-test.netgenx.site/pxx.php?shk_cid=gx05
+#EXTINF:-1 group-title="日本",BS日テレ
+https://naori-test.netgenx.site/pxx.php?shk_cid=bs02
+#EXTINF:-1 group-title="日本",BSTBS
+https://naori-test.netgenx.site/pxx.php?shk_cid=bs04
+#EXTINF:-1 group-title="日本",BSフジ
+https://naori-test.netgenx.site/pxx.php?shk_cid=bs06
+#EXTINF:-1 group-title="日本",BS朝日
+https://naori-test.netgenx.site/pxx.php?shk_cid=bs03
+#EXTINF:-1 group-title="日本",BSテレ東
+https://naori-test.netgenx.site/pxx.php?shk_cid=bs05
+#EXTINF:-1 group-title="日本",ディスカバリー
+https://naori-test.netgenx.site/pxx.php?shk_cid=cs08
+#EXTINF:-1 group-title="日本",ナショジオ
+https://naori-test.netgenx.site/pxx.php?shk_cid=cs10
+#EXTINF:-1 group-title="日本",ヒストリー
+https://naori-test.netgenx.site/pxx.php?shk_cid=cs09
+#EXTINF:-1 group-title="日本",アニマルプラネット
+https://naori-test.netgenx.site/pxx.php?shk_cid=cs24
+#EXTINF:-1 group-title="日本",旅
+https://naori-test.netgenx.site/pxx.php?shk_cid=cs12
+#EXTINF:-1 group-title="日本",MondoTV
+https://naori-test.netgenx.site/pxx.php?shk_cid=cs21
+#EXTINF:-1 group-title="日本",V☆パラダイス
+http://haru.charandom.blog/stream/jp/v_paradise_nsfw/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="日本",J:COM
+https://naori-test.netgenx.site/pxx.php?shk_cid=bs31
+#EXTINF:-1 group-title="日本",東映
+https://naori-test.netgenx.site/pxx.php?shk_cid=cs27
+#EXTINF:-1 group-title="日本",日本映画
+https://naori-test.netgenx.site/pxx.php?shk_cid=bs23
+#EXTINF:-1 group-title="日本",ムービープラス
+https://naori-test.netgenx.site/pxx.php?shk_cid=cs14
+#EXTINF:-1 group-title="日本",BS10プレミアム
+https://naori-test.netgenx.site/pxx.php?shk_cid=bs08
+#EXTINF:-1 group-title="日本",衛星劇場
+https://naori-test.netgenx.site/pxx.php?shk_cid=cs22
+#EXTINF:-1 group-title="日本",WOWOWプライム
+https://naori-test.netgenx.site/pxx.php?shk_cid=bs12
+#EXTINF:-1 group-title="日本",WOWOWライブ
+https://naori-test.netgenx.site/pxx.php?shk_cid=bs20
+#EXTINF:-1 group-title="日本",WOWOWシネマ
+https://naori-test.netgenx.site/pxx.php?shk_cid=bs07
+#EXTINF:-1 group-title="日本",WOWOWプラス
+http://haru.charandom.blog/stream/jp/wowow_plus/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="日本",Neco
+http://haru.charandom.blog/stream/jp/neco_ch/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="日本",ザ･シネマ
+http://haru.charandom.blog/stream/jp/the_cinema/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="日本",ムービープラス
+https://naori-test.netgenx.site/pxx.php?shk_cid=cs14
+#EXTINF:-1 group-title="日本",ホームドラマ
+https://naori-test.netgenx.site/pxx.php?shk_cid=cs05
+#EXTINF:-1 group-title="日本",時代劇
+https://naori-test.netgenx.site/pxx.php?shk_cid=cs04
+#EXTINF:-1 group-title="日本",ファミリー劇場
+https://naori-test.netgenx.site/pxx.php?shk_cid=cs20
+#EXTINF:-1 group-title="日本",宝塚歌劇
+https://naori-test.netgenx.site/pxx.php?shk_cid=cs28
+#EXTINF:-1 group-title="日本",歌謡ポップス
+https://naori-test.netgenx.site/pxx.php?shk_cid=cs13
+#EXTINF:-1 group-title="日本",GAORASPORTS
+https://naori-test.netgenx.site/pxx.php?shk_cid=cs17
+#EXTINF:-1 group-title="日本",プロレス・格闘技
+http://haru.charandom.blog/stream/jp/fighting_tv_samurai/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="日本",スカイA
+https://naori-test.netgenx.site/pxx.php?shk_cid=cs01
+#EXTINF:-1 group-title="日本",JSports1
+https://naori-test.netgenx.site/pxx.php?shk_cid=bs18
+#EXTINF:-1 group-title="日本",JSports2
+https://naori-test.netgenx.site/pxx.php?shk_cid=bs19
+#EXTINF:-1 group-title="日本",JSports3
+https://naori-test.netgenx.site/pxx.php?shk_cid=bs21
+#EXTINF:-1 group-title="日本",JSports4
+https://naori-test.netgenx.site/pxx.php?shk_cid=bs22
+#EXTINF:-1 group-title="日本",ゴルフネットワーク
+https://naori-test.netgenx.site/pxx.php?shk_cid=cs03
+#EXTINF:-1 group-title="日本",釣りビジョン
+https://naori-test.netgenx.site/pxx.php?shk_cid=bs25
+#EXTINF:-1 group-title="日本",鉄道
+http://haru.charandom.blog/stream/jp/tetsudo_channel/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="日本",銀河
+https://naori-test.netgenx.site/pxx.php?shk_cid=cs29
+#EXTINF:-1 group-title="日本",Dlife
+http://haru.charandom.blog/stream/jp/dlife/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="日本",LaLaTV
+https://naori-test.netgenx.site/pxx.php?shk_cid=cs19
+#EXTINF:-1 group-title="日本",日テレG+
+https://naori-test.netgenx.site/pxx.php?shk_cid=cs02
+#EXTINF:-1 group-title="日本",TBSNEWS
+https://naori-test.netgenx.site/pxx.php?shk_cid=cs11
+#EXTINF:-1 group-title="日本",フジテレビNEXT
+https://naori-test.netgenx.site/pxx.php?shk_cid=cs26
+#EXTINF:-1 group-title="日本",TOKYOMX1
+https://naori-test.netgenx.site/pxx.php?shk_cid=hdgd08
+#EXTINF:-1 group-title="日本",TOKYOMX2
+http://haru.charandom.blog/stream/jp/tokyo_mx2/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="日本",KBS京都
+http://haru.charandom.blog/stream/jp/kbs/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="日本",サンテレビ
+https://naori-test.netgenx.site/pxx.php?shk_cid=gx07
+#EXTINF:-1 group-title="日本",NHKG
+https://akariko-bck2.sankuria.sbs/stream/jp/nhk_g/stream-output.m3u8?ac_tk=eyJhbGciOiJBMjU2S1ciLCJlbmMiOiJBMjU2R0NNIn0.e1xKof4hSSfD2uRrk2x9oaR5y--_uE1Uc-2GfXKKAxUUIU3chfQc7g.-ClR7Ph7871SifwQ.LZiUb2c6brovJCy92I2xv12T0pbfKCeIGrrhmF6SCbkuC7NzjH1D2QKkq4JwPylnU8tPknWq4x3aOe02TuRbnNMU1JNspDgaLdqqxepoNbcsD6Y.pO6li-LJEZZTku5S8iArJw&mode=hls
+#EXTINF:-1 group-title="日本",NHKG
+https://akariko-bck2.sankuria.sbs/stream/jp/nhk_g_osaka/stream-output.m3u8?ac_tk=eyJhbGciOiJBMjU2S1ciLCJlbmMiOiJBMjU2R0NNIn0.e1xKof4hSSfD2uRrk2x9oaR5y--_uE1Uc-2GfXKKAxUUIU3chfQc7g.-ClR7Ph7871SifwQ.LZiUb2c6brovJCy92I2xv12T0pbfKCeIGrrhmF6SCbkuC7NzjH1D2QKkq4JwPylnU8tPknWq4x3aOe02TuRbnNMU1JNspDgaLdqqxepoNbcsD6Y.pO6li-LJEZZTku5S8iArJw&mode=hls
+#EXTINF:-1 group-title="日本",NHKG
+https://akariko-bck2.sankuria.sbs/stream/jp/nhk_g_2/stream-output.m3u8?ac_tk=eyJhbGciOiJBMjU2S1ciLCJlbmMiOiJBMjU2R0NNIn0.e1xKof4hSSfD2uRrk2x9oaR5y--_uE1Uc-2GfXKKAxUUIU3chfQc7g.-ClR7Ph7871SifwQ.LZiUb2c6brovJCy92I2xv12T0pbfKCeIGrrhmF6SCbkuC7NzjH1D2QKkq4JwPylnU8tPknWq4x3aOe02TuRbnNMU1JNspDgaLdqqxepoNbcsD6Y.pO6li-LJEZZTku5S8iArJw&mode=hls
+#EXTINF:-1 group-title="日本",NHKBS
+https://akariko-bck2.sankuria.sbs/stream/jp/nhk_bs/stream-output.m3u8?ac_tk=eyJhbGciOiJBMjU2S1ciLCJlbmMiOiJBMjU2R0NNIn0.e1xKof4hSSfD2uRrk2x9oaR5y--_uE1Uc-2GfXKKAxUUIU3chfQc7g.-ClR7Ph7871SifwQ.LZiUb2c6brovJCy92I2xv12T0pbfKCeIGrrhmF6SCbkuC7NzjH1D2QKkq4JwPylnU8tPknWq4x3aOe02TuRbnNMU1JNspDgaLdqqxepoNbcsD6Y.pO6li-LJEZZTku5S8iArJw&mode=hls
+#EXTINF:-1 group-title="日本",NHKBS
+https://akariko-bck2.sankuria.sbs/stream/jp/nhk_bs_2/stream-output.m3u8?ac_tk=eyJhbGciOiJBMjU2S1ciLCJlbmMiOiJBMjU2R0NNIn0.e1xKof4hSSfD2uRrk2x9oaR5y--_uE1Uc-2GfXKKAxUUIU3chfQc7g.-ClR7Ph7871SifwQ.LZiUb2c6brovJCy92I2xv12T0pbfKCeIGrrhmF6SCbkuC7NzjH1D2QKkq4JwPylnU8tPknWq4x3aOe02TuRbnNMU1JNspDgaLdqqxepoNbcsD6Y.pO6li-LJEZZTku5S8iArJw&mode=hls
+#EXTINF:-1 group-title="日本",NHKBSP
+https://akariko-bck2.sankuria.sbs/stream/jp/nhk_bs4k/stream-output.m3u8?ac_tk=eyJhbGciOiJBMjU2S1ciLCJlbmMiOiJBMjU2R0NNIn0.e1xKof4hSSfD2uRrk2x9oaR5y--_uE1Uc-2GfXKKAxUUIU3chfQc7g.-ClR7Ph7871SifwQ.LZiUb2c6brovJCy92I2xv12T0pbfKCeIGrrhmF6SCbkuC7NzjH1D2QKkq4JwPylnU8tPknWq4x3aOe02TuRbnNMU1JNspDgaLdqqxepoNbcsD6Y.pO6li-LJEZZTku5S8iArJw&mode=hls
+#EXTINF:-1 group-title="日本",NHKE
+https://akariko-bck2.sankuria.sbs/stream/jp/nhk_e/stream-output.m3u8?ac_tk=eyJhbGciOiJBMjU2S1ciLCJlbmMiOiJBMjU2R0NNIn0.e1xKof4hSSfD2uRrk2x9oaR5y--_uE1Uc-2GfXKKAxUUIU3chfQc7g.-ClR7Ph7871SifwQ.LZiUb2c6brovJCy92I2xv12T0pbfKCeIGrrhmF6SCbkuC7NzjH1D2QKkq4JwPylnU8tPknWq4x3aOe02TuRbnNMU1JNspDgaLdqqxepoNbcsD6Y.pO6li-LJEZZTku5S8iArJw&mode=hls
+#EXTINF:-1 group-title="日本",日本テレビ
+https://akariko-bck2.sankuria.sbs/stream/jp/ntv/stream-output.m3u8?ac_tk=eyJhbGciOiJBMjU2S1ciLCJlbmMiOiJBMjU2R0NNIn0.e1xKof4hSSfD2uRrk2x9oaR5y--_uE1Uc-2GfXKKAxUUIU3chfQc7g.-ClR7Ph7871SifwQ.LZiUb2c6brovJCy92I2xv12T0pbfKCeIGrrhmF6SCbkuC7NzjH1D2QKkq4JwPylnU8tPknWq4x3aOe02TuRbnNMU1JNspDgaLdqqxepoNbcsD6Y.pO6li-LJEZZTku5S8iArJw&mode=hls
+#EXTINF:-1 group-title="日本",日本テレビ
+https://akariko-bck2.sankuria.sbs/stream/jp/ytv/stream-output.m3u8?ac_tk=eyJhbGciOiJBMjU2S1ciLCJlbmMiOiJBMjU2R0NNIn0.e1xKof4hSSfD2uRrk2x9oaR5y--_uE1Uc-2GfXKKAxUUIU3chfQc7g.-ClR7Ph7871SifwQ.LZiUb2c6brovJCy92I2xv12T0pbfKCeIGrrhmF6SCbkuC7NzjH1D2QKkq4JwPylnU8tPknWq4x3aOe02TuRbnNMU1JNspDgaLdqqxepoNbcsD6Y.pO6li-LJEZZTku5S8iArJw&mode=hls
+#EXTINF:-1 group-title="日本",TBS
+https://akariko-bck2.sankuria.sbs/stream/jp/tbs/stream-output.m3u8?ac_tk=eyJhbGciOiJBMjU2S1ciLCJlbmMiOiJBMjU2R0NNIn0.e1xKof4hSSfD2uRrk2x9oaR5y--_uE1Uc-2GfXKKAxUUIU3chfQc7g.-ClR7Ph7871SifwQ.LZiUb2c6brovJCy92I2xv12T0pbfKCeIGrrhmF6SCbkuC7NzjH1D2QKkq4JwPylnU8tPknWq4x3aOe02TuRbnNMU1JNspDgaLdqqxepoNbcsD6Y.pO6li-LJEZZTku5S8iArJw&mode=hls
+#EXTINF:-1 group-title="日本",TBS
+https://akariko-bck2.sankuria.sbs/stream/jp/mbs/stream-output.m3u8?ac_tk=eyJhbGciOiJBMjU2S1ciLCJlbmMiOiJBMjU2R0NNIn0.e1xKof4hSSfD2uRrk2x9oaR5y--_uE1Uc-2GfXKKAxUUIU3chfQc7g.-ClR7Ph7871SifwQ.LZiUb2c6brovJCy92I2xv12T0pbfKCeIGrrhmF6SCbkuC7NzjH1D2QKkq4JwPylnU8tPknWq4x3aOe02TuRbnNMU1JNspDgaLdqqxepoNbcsD6Y.pO6li-LJEZZTku5S8iArJw&mode=hls
+#EXTINF:-1 group-title="日本",フジテレビ
+https://akariko-bck2.sankuria.sbs/stream/jp/fuji_tv/stream-output.m3u8?ac_tk=eyJhbGciOiJBMjU2S1ciLCJlbmMiOiJBMjU2R0NNIn0.e1xKof4hSSfD2uRrk2x9oaR5y--_uE1Uc-2GfXKKAxUUIU3chfQc7g.-ClR7Ph7871SifwQ.LZiUb2c6brovJCy92I2xv12T0pbfKCeIGrrhmF6SCbkuC7NzjH1D2QKkq4JwPylnU8tPknWq4x3aOe02TuRbnNMU1JNspDgaLdqqxepoNbcsD6Y.pO6li-LJEZZTku5S8iArJw&mode=hls
+#EXTINF:-1 group-title="日本",フジテレビ
+https://akariko-bck2.sankuria.sbs/stream/jp/kansai_tv/stream-output.m3u8?ac_tk=eyJhbGciOiJBMjU2S1ciLCJlbmMiOiJBMjU2R0NNIn0.e1xKof4hSSfD2uRrk2x9oaR5y--_uE1Uc-2GfXKKAxUUIU3chfQc7g.-ClR7Ph7871SifwQ.LZiUb2c6brovJCy92I2xv12T0pbfKCeIGrrhmF6SCbkuC7NzjH1D2QKkq4JwPylnU8tPknWq4x3aOe02TuRbnNMU1JNspDgaLdqqxepoNbcsD6Y.pO6li-LJEZZTku5S8iArJw&mode=hls
+#EXTINF:-1 group-title="日本",テレビ朝日
+https://akariko-bck2.sankuria.sbs/stream/jp/tv_asahi/stream-output.m3u8?ac_tk=eyJhbGciOiJBMjU2S1ciLCJlbmMiOiJBMjU2R0NNIn0.e1xKof4hSSfD2uRrk2x9oaR5y--_uE1Uc-2GfXKKAxUUIU3chfQc7g.-ClR7Ph7871SifwQ.LZiUb2c6brovJCy92I2xv12T0pbfKCeIGrrhmF6SCbkuC7NzjH1D2QKkq4JwPylnU8tPknWq4x3aOe02TuRbnNMU1JNspDgaLdqqxepoNbcsD6Y.pO6li-LJEZZTku5S8iArJw&mode=hls
+#EXTINF:-1 group-title="日本",テレビ朝日
+https://akariko-bck2.sankuria.sbs/stream/jp/abc/stream-output.m3u8?ac_tk=eyJhbGciOiJBMjU2S1ciLCJlbmMiOiJBMjU2R0NNIn0.e1xKof4hSSfD2uRrk2x9oaR5y--_uE1Uc-2GfXKKAxUUIU3chfQc7g.-ClR7Ph7871SifwQ.LZiUb2c6brovJCy92I2xv12T0pbfKCeIGrrhmF6SCbkuC7NzjH1D2QKkq4JwPylnU8tPknWq4x3aOe02TuRbnNMU1JNspDgaLdqqxepoNbcsD6Y.pO6li-LJEZZTku5S8iArJw&mode=hls
+#EXTINF:-1 group-title="日本",テレビ東京
+https://akariko-bck2.sankuria.sbs/stream/jp/tv_tokyo/stream-output.m3u8?ac_tk=eyJhbGciOiJBMjU2S1ciLCJlbmMiOiJBMjU2R0NNIn0.e1xKof4hSSfD2uRrk2x9oaR5y--_uE1Uc-2GfXKKAxUUIU3chfQc7g.-ClR7Ph7871SifwQ.LZiUb2c6brovJCy92I2xv12T0pbfKCeIGrrhmF6SCbkuC7NzjH1D2QKkq4JwPylnU8tPknWq4x3aOe02TuRbnNMU1JNspDgaLdqqxepoNbcsD6Y.pO6li-LJEZZTku5S8iArJw&mode=hls
+#EXTINF:-1 group-title="日本",テレビ東京
+https://akariko-bck2.sankuria.sbs/stream/jp/tv_osaka/stream-output.m3u8?ac_tk=eyJhbGciOiJBMjU2S1ciLCJlbmMiOiJBMjU2R0NNIn0.e1xKof4hSSfD2uRrk2x9oaR5y--_uE1Uc-2GfXKKAxUUIU3chfQc7g.-ClR7Ph7871SifwQ.LZiUb2c6brovJCy92I2xv12T0pbfKCeIGrrhmF6SCbkuC7NzjH1D2QKkq4JwPylnU8tPknWq4x3aOe02TuRbnNMU1JNspDgaLdqqxepoNbcsD6Y.pO6li-LJEZZTku5S8iArJw&mode=hls
+#EXTINF:-1 group-title="日本",BS日テレ
+https://akariko-bck2.sankuria.sbs/stream/jp/bs_ntv/stream-output.m3u8?ac_tk=eyJhbGciOiJBMjU2S1ciLCJlbmMiOiJBMjU2R0NNIn0.e1xKof4hSSfD2uRrk2x9oaR5y--_uE1Uc-2GfXKKAxUUIU3chfQc7g.-ClR7Ph7871SifwQ.LZiUb2c6brovJCy92I2xv12T0pbfKCeIGrrhmF6SCbkuC7NzjH1D2QKkq4JwPylnU8tPknWq4x3aOe02TuRbnNMU1JNspDgaLdqqxepoNbcsD6Y.pO6li-LJEZZTku5S8iArJw&mode=hls
+#EXTINF:-1 group-title="日本",BS日テレ
+https://akariko-bck2.sankuria.sbs/stream/jp/bs_ntv_4k/stream-output.m3u8?ac_tk=eyJhbGciOiJBMjU2S1ciLCJlbmMiOiJBMjU2R0NNIn0.e1xKof4hSSfD2uRrk2x9oaR5y--_uE1Uc-2GfXKKAxUUIU3chfQc7g.-ClR7Ph7871SifwQ.LZiUb2c6brovJCy92I2xv12T0pbfKCeIGrrhmF6SCbkuC7NzjH1D2QKkq4JwPylnU8tPknWq4x3aOe02TuRbnNMU1JNspDgaLdqqxepoNbcsD6Y.pO6li-LJEZZTku5S8iArJw&mode=hls
+#EXTINF:-1 group-title="日本",BSTBS
+https://akariko-bck2.sankuria.sbs/stream/jp/bs_tbs/stream-output.m3u8?ac_tk=eyJhbGciOiJBMjU2S1ciLCJlbmMiOiJBMjU2R0NNIn0.e1xKof4hSSfD2uRrk2x9oaR5y--_uE1Uc-2GfXKKAxUUIU3chfQc7g.-ClR7Ph7871SifwQ.LZiUb2c6brovJCy92I2xv12T0pbfKCeIGrrhmF6SCbkuC7NzjH1D2QKkq4JwPylnU8tPknWq4x3aOe02TuRbnNMU1JNspDgaLdqqxepoNbcsD6Y.pO6li-LJEZZTku5S8iArJw&mode=hls
+#EXTINF:-1 group-title="日本",BSTBS
+https://akariko-bck2.sankuria.sbs/stream/jp/bs_tbs_4k/stream-output.m3u8?ac_tk=eyJhbGciOiJBMjU2S1ciLCJlbmMiOiJBMjU2R0NNIn0.e1xKof4hSSfD2uRrk2x9oaR5y--_uE1Uc-2GfXKKAxUUIU3chfQc7g.-ClR7Ph7871SifwQ.LZiUb2c6brovJCy92I2xv12T0pbfKCeIGrrhmF6SCbkuC7NzjH1D2QKkq4JwPylnU8tPknWq4x3aOe02TuRbnNMU1JNspDgaLdqqxepoNbcsD6Y.pO6li-LJEZZTku5S8iArJw&mode=hls
+#EXTINF:-1 group-title="日本",BSフジ
+https://akariko-bck2.sankuria.sbs/stream/jp/bs_fuji/stream-output.m3u8?ac_tk=eyJhbGciOiJBMjU2S1ciLCJlbmMiOiJBMjU2R0NNIn0.e1xKof4hSSfD2uRrk2x9oaR5y--_uE1Uc-2GfXKKAxUUIU3chfQc7g.-ClR7Ph7871SifwQ.LZiUb2c6brovJCy92I2xv12T0pbfKCeIGrrhmF6SCbkuC7NzjH1D2QKkq4JwPylnU8tPknWq4x3aOe02TuRbnNMU1JNspDgaLdqqxepoNbcsD6Y.pO6li-LJEZZTku5S8iArJw&mode=hls
+#EXTINF:-1 group-title="日本",BSフジ
+https://akariko-bck2.sankuria.sbs/stream/jp/bs_fuji_4k/stream-output.m3u8?ac_tk=eyJhbGciOiJBMjU2S1ciLCJlbmMiOiJBMjU2R0NNIn0.e1xKof4hSSfD2uRrk2x9oaR5y--_uE1Uc-2GfXKKAxUUIU3chfQc7g.-ClR7Ph7871SifwQ.LZiUb2c6brovJCy92I2xv12T0pbfKCeIGrrhmF6SCbkuC7NzjH1D2QKkq4JwPylnU8tPknWq4x3aOe02TuRbnNMU1JNspDgaLdqqxepoNbcsD6Y.pO6li-LJEZZTku5S8iArJw&mode=hls
+#EXTINF:-1 group-title="日本",BS朝日
+https://akariko-bck2.sankuria.sbs/stream/jp/bs_asahi/stream-output.m3u8?ac_tk=eyJhbGciOiJBMjU2S1ciLCJlbmMiOiJBMjU2R0NNIn0.e1xKof4hSSfD2uRrk2x9oaR5y--_uE1Uc-2GfXKKAxUUIU3chfQc7g.-ClR7Ph7871SifwQ.LZiUb2c6brovJCy92I2xv12T0pbfKCeIGrrhmF6SCbkuC7NzjH1D2QKkq4JwPylnU8tPknWq4x3aOe02TuRbnNMU1JNspDgaLdqqxepoNbcsD6Y.pO6li-LJEZZTku5S8iArJw&mode=hls
+#EXTINF:-1 group-title="日本",BS朝日
+https://akariko-bck2.sankuria.sbs/stream/jp/bs_asahi_4k/stream-output.m3u8?ac_tk=eyJhbGciOiJBMjU2S1ciLCJlbmMiOiJBMjU2R0NNIn0.e1xKof4hSSfD2uRrk2x9oaR5y--_uE1Uc-2GfXKKAxUUIU3chfQc7g.-ClR7Ph7871SifwQ.LZiUb2c6brovJCy92I2xv12T0pbfKCeIGrrhmF6SCbkuC7NzjH1D2QKkq4JwPylnU8tPknWq4x3aOe02TuRbnNMU1JNspDgaLdqqxepoNbcsD6Y.pO6li-LJEZZTku5S8iArJw&mode=hls
+#EXTINF:-1 group-title="日本",BSテレ東
+https://akariko-bck2.sankuria.sbs/stream/jp/bs_tv_tokyo/stream-output.m3u8?ac_tk=eyJhbGciOiJBMjU2S1ciLCJlbmMiOiJBMjU2R0NNIn0.e1xKof4hSSfD2uRrk2x9oaR5y--_uE1Uc-2GfXKKAxUUIU3chfQc7g.-ClR7Ph7871SifwQ.LZiUb2c6brovJCy92I2xv12T0pbfKCeIGrrhmF6SCbkuC7NzjH1D2QKkq4JwPylnU8tPknWq4x3aOe02TuRbnNMU1JNspDgaLdqqxepoNbcsD6Y.pO6li-LJEZZTku5S8iArJw&mode=hls
+#EXTINF:-1 group-title="日本",BSテレ東
+https://akariko-bck2.sankuria.sbs/stream/jp/bs_tv_tokyo_4k/stream-output.m3u8?ac_tk=eyJhbGciOiJBMjU2S1ciLCJlbmMiOiJBMjU2R0NNIn0.e1xKof4hSSfD2uRrk2x9oaR5y--_uE1Uc-2GfXKKAxUUIU3chfQc7g.-ClR7Ph7871SifwQ.LZiUb2c6brovJCy92I2xv12T0pbfKCeIGrrhmF6SCbkuC7NzjH1D2QKkq4JwPylnU8tPknWq4x3aOe02TuRbnNMU1JNspDgaLdqqxepoNbcsD6Y.pO6li-LJEZZTku5S8iArJw&mode=hls
+#EXTINF:-1 group-title="日本",TOKYOMX1
+https://akariko-bck2.sankuria.sbs/stream/jp/tokyo_mx1/stream-output.m3u8?ac_tk=eyJhbGciOiJBMjU2S1ciLCJlbmMiOiJBMjU2R0NNIn0.e1xKof4hSSfD2uRrk2x9oaR5y--_uE1Uc-2GfXKKAxUUIU3chfQc7g.-ClR7Ph7871SifwQ.LZiUb2c6brovJCy92I2xv12T0pbfKCeIGrrhmF6SCbkuC7NzjH1D2QKkq4JwPylnU8tPknWq4x3aOe02TuRbnNMU1JNspDgaLdqqxepoNbcsD6Y.pO6li-LJEZZTku5S8iArJw&mode=hls
+#EXTINF:-1 group-title="日本",TOKYOMX2
+https://akariko-bck2.sankuria.sbs/stream/jp/tokyo_mx2/stream-output.m3u8?ac_tk=eyJhbGciOiJBMjU2S1ciLCJlbmMiOiJBMjU2R0NNIn0.e1xKof4hSSfD2uRrk2x9oaR5y--_uE1Uc-2GfXKKAxUUIU3chfQc7g.-ClR7Ph7871SifwQ.LZiUb2c6brovJCy92I2xv12T0pbfKCeIGrrhmF6SCbkuC7NzjH1D2QKkq4JwPylnU8tPknWq4x3aOe02TuRbnNMU1JNspDgaLdqqxepoNbcsD6Y.pO6li-LJEZZTku5S8iArJw&mode=hls
+#EXTINF:-1 group-title="日本",KBS京都
+https://akariko-bck2.sankuria.sbs/stream/jp/kbs/stream-output.m3u8?ac_tk=eyJhbGciOiJBMjU2S1ciLCJlbmMiOiJBMjU2R0NNIn0.e1xKof4hSSfD2uRrk2x9oaR5y--_uE1Uc-2GfXKKAxUUIU3chfQc7g.-ClR7Ph7871SifwQ.LZiUb2c6brovJCy92I2xv12T0pbfKCeIGrrhmF6SCbkuC7NzjH1D2QKkq4JwPylnU8tPknWq4x3aOe02TuRbnNMU1JNspDgaLdqqxepoNbcsD6Y.pO6li-LJEZZTku5S8iArJw&mode=hls
+#EXTINF:-1 group-title="日本",サンテレビ
+https://akariko-bck2.sankuria.sbs/stream/jp/sun/stream-output.m3u8?ac_tk=eyJhbGciOiJBMjU2S1ciLCJlbmMiOiJBMjU2R0NNIn0.e1xKof4hSSfD2uRrk2x9oaR5y--_uE1Uc-2GfXKKAxUUIU3chfQc7g.-ClR7Ph7871SifwQ.LZiUb2c6brovJCy92I2xv12T0pbfKCeIGrrhmF6SCbkuC7NzjH1D2QKkq4JwPylnU8tPknWq4x3aOe02TuRbnNMU1JNspDgaLdqqxepoNbcsD6Y.pO6li-LJEZZTku5S8iArJw&mode=hls
+#EXTINF:-1 group-title="日本",ディスカバリー
+https://akariko-bck2.sankuria.sbs/stream/jp/discovery_channel/stream-output.m3u8?ac_tk=eyJhbGciOiJBMjU2S1ciLCJlbmMiOiJBMjU2R0NNIn0.e1xKof4hSSfD2uRrk2x9oaR5y--_uE1Uc-2GfXKKAxUUIU3chfQc7g.-ClR7Ph7871SifwQ.LZiUb2c6brovJCy92I2xv12T0pbfKCeIGrrhmF6SCbkuC7NzjH1D2QKkq4JwPylnU8tPknWq4x3aOe02TuRbnNMU1JNspDgaLdqqxepoNbcsD6Y.pO6li-LJEZZTku5S8iArJw&mode=hls
+#EXTINF:-1 group-title="日本",ナショジオ
+https://akariko-bck2.sankuria.sbs/stream/jp/national_geographic_japan/stream-output.m3u8?ac_tk=eyJhbGciOiJBMjU2S1ciLCJlbmMiOiJBMjU2R0NNIn0.e1xKof4hSSfD2uRrk2x9oaR5y--_uE1Uc-2GfXKKAxUUIU3chfQc7g.-ClR7Ph7871SifwQ.LZiUb2c6brovJCy92I2xv12T0pbfKCeIGrrhmF6SCbkuC7NzjH1D2QKkq4JwPylnU8tPknWq4x3aOe02TuRbnNMU1JNspDgaLdqqxepoNbcsD6Y.pO6li-LJEZZTku5S8iArJw&mode=hls
+#EXTINF:-1 group-title="日本",アニマルプラネット
+https://akariko-bck2.sankuria.sbs/stream/jp/animal_planet/stream-output.m3u8?ac_tk=eyJhbGciOiJBMjU2S1ciLCJlbmMiOiJBMjU2R0NNIn0.e1xKof4hSSfD2uRrk2x9oaR5y--_uE1Uc-2GfXKKAxUUIU3chfQc7g.-ClR7Ph7871SifwQ.LZiUb2c6brovJCy92I2xv12T0pbfKCeIGrrhmF6SCbkuC7NzjH1D2QKkq4JwPylnU8tPknWq4x3aOe02TuRbnNMU1JNspDgaLdqqxepoNbcsD6Y.pO6li-LJEZZTku5S8iArJw&mode=hls
+#EXTINF:-1 group-title="日本",ヒストリー
+https://akariko-bck2.sankuria.sbs/stream/jp/history/stream-output.m3u8?ac_tk=eyJhbGciOiJBMjU2S1ciLCJlbmMiOiJBMjU2R0NNIn0.e1xKof4hSSfD2uRrk2x9oaR5y--_uE1Uc-2GfXKKAxUUIU3chfQc7g.-ClR7Ph7871SifwQ.LZiUb2c6brovJCy92I2xv12T0pbfKCeIGrrhmF6SCbkuC7NzjH1D2QKkq4JwPylnU8tPknWq4x3aOe02TuRbnNMU1JNspDgaLdqqxepoNbcsD6Y.pO6li-LJEZZTku5S8iArJw&mode=hls
+#EXTINF:-1 group-title="日本",BS10プレミアム
+https://akariko-bck2.sankuria.sbs/stream/jp/bs_10_premium/stream-output.m3u8?ac_tk=eyJhbGciOiJBMjU2S1ciLCJlbmMiOiJBMjU2R0NNIn0.e1xKof4hSSfD2uRrk2x9oaR5y--_uE1Uc-2GfXKKAxUUIU3chfQc7g.-ClR7Ph7871SifwQ.LZiUb2c6brovJCy92I2xv12T0pbfKCeIGrrhmF6SCbkuC7NzjH1D2QKkq4JwPylnU8tPknWq4x3aOe02TuRbnNMU1JNspDgaLdqqxepoNbcsD6Y.pO6li-LJEZZTku5S8iArJw&mode=hls
+#EXTINF:-1 group-title="日本",WOWOWシネマ
+https://akariko-bck2.sankuria.sbs/stream/jp/wowow_cinema/stream-output.m3u8?ac_tk=eyJhbGciOiJBMjU2S1ciLCJlbmMiOiJBMjU2R0NNIn0.e1xKof4hSSfD2uRrk2x9oaR5y--_uE1Uc-2GfXKKAxUUIU3chfQc7g.-ClR7Ph7871SifwQ.LZiUb2c6brovJCy92I2xv12T0pbfKCeIGrrhmF6SCbkuC7NzjH1D2QKkq4JwPylnU8tPknWq4x3aOe02TuRbnNMU1JNspDgaLdqqxepoNbcsD6Y.pO6li-LJEZZTku5S8iArJw&mode=hls
+#EXTINF:-1 group-title="日本",WOWOWライブ
+https://akariko-bck2.sankuria.sbs/stream/jp/wowow_live/stream-output.m3u8?ac_tk=eyJhbGciOiJBMjU2S1ciLCJlbmMiOiJBMjU2R0NNIn0.e1xKof4hSSfD2uRrk2x9oaR5y--_uE1Uc-2GfXKKAxUUIU3chfQc7g.-ClR7Ph7871SifwQ.LZiUb2c6brovJCy92I2xv12T0pbfKCeIGrrhmF6SCbkuC7NzjH1D2QKkq4JwPylnU8tPknWq4x3aOe02TuRbnNMU1JNspDgaLdqqxepoNbcsD6Y.pO6li-LJEZZTku5S8iArJw&mode=hls
+#EXTINF:-1 group-title="日本",WOWOWプラス
+https://akariko-bck2.sankuria.sbs/stream/jp/wowow_plus/stream-output.m3u8?ac_tk=eyJhbGciOiJBMjU2S1ciLCJlbmMiOiJBMjU2R0NNIn0.e1xKof4hSSfD2uRrk2x9oaR5y--_uE1Uc-2GfXKKAxUUIU3chfQc7g.-ClR7Ph7871SifwQ.LZiUb2c6brovJCy92I2xv12T0pbfKCeIGrrhmF6SCbkuC7NzjH1D2QKkq4JwPylnU8tPknWq4x3aOe02TuRbnNMU1JNspDgaLdqqxepoNbcsD6Y.pO6li-LJEZZTku5S8iArJw&mode=hls
+#EXTINF:-1 group-title="日本",WOWOWプライム
+https://akariko-bck2.sankuria.sbs/stream/jp/wowow_prime/stream-output.m3u8?ac_tk=eyJhbGciOiJBMjU2S1ciLCJlbmMiOiJBMjU2R0NNIn0.e1xKof4hSSfD2uRrk2x9oaR5y--_uE1Uc-2GfXKKAxUUIU3chfQc7g.-ClR7Ph7871SifwQ.LZiUb2c6brovJCy92I2xv12T0pbfKCeIGrrhmF6SCbkuC7NzjH1D2QKkq4JwPylnU8tPknWq4x3aOe02TuRbnNMU1JNspDgaLdqqxepoNbcsD6Y.pO6li-LJEZZTku5S8iArJw&mode=hls
+#EXTINF:-1 group-title="日本",東映
+https://akariko-bck2.sankuria.sbs/stream/jp/toei_channel/stream-output.m3u8?ac_tk=eyJhbGciOiJBMjU2S1ciLCJlbmMiOiJBMjU2R0NNIn0.e1xKof4hSSfD2uRrk2x9oaR5y--_uE1Uc-2GfXKKAxUUIU3chfQc7g.-ClR7Ph7871SifwQ.LZiUb2c6brovJCy92I2xv12T0pbfKCeIGrrhmF6SCbkuC7NzjH1D2QKkq4JwPylnU8tPknWq4x3aOe02TuRbnNMU1JNspDgaLdqqxepoNbcsD6Y.pO6li-LJEZZTku5S8iArJw&mode=hls
+#EXTINF:-1 group-title="日本",日本映画
+https://akariko-bck2.sankuria.sbs/stream/jp/nihon_eiga_senmon/stream-output.m3u8?ac_tk=eyJhbGciOiJBMjU2S1ciLCJlbmMiOiJBMjU2R0NNIn0.e1xKof4hSSfD2uRrk2x9oaR5y--_uE1Uc-2GfXKKAxUUIU3chfQc7g.-ClR7Ph7871SifwQ.LZiUb2c6brovJCy92I2xv12T0pbfKCeIGrrhmF6SCbkuC7NzjH1D2QKkq4JwPylnU8tPknWq4x3aOe02TuRbnNMU1JNspDgaLdqqxepoNbcsD6Y.pO6li-LJEZZTku5S8iArJw&mode=hls
+#EXTINF:-1 group-title="日本",NECO
+https://akariko-bck2.sankuria.sbs/stream/jp/neco_ch/stream-output.m3u8?ac_tk=eyJhbGciOiJBMjU2S1ciLCJlbmMiOiJBMjU2R0NNIn0.e1xKof4hSSfD2uRrk2x9oaR5y--_uE1Uc-2GfXKKAxUUIU3chfQc7g.-ClR7Ph7871SifwQ.LZiUb2c6brovJCy92I2xv12T0pbfKCeIGrrhmF6SCbkuC7NzjH1D2QKkq4JwPylnU8tPknWq4x3aOe02TuRbnNMU1JNspDgaLdqqxepoNbcsD6Y.pO6li-LJEZZTku5S8iArJw&mode=hls
+#EXTINF:-1 group-title="日本",ムービープラス
+https://akariko-bck2.sankuria.sbs/stream/jp/movie_plus/stream-output.m3u8?ac_tk=eyJhbGciOiJBMjU2S1ciLCJlbmMiOiJBMjU2R0NNIn0.e1xKof4hSSfD2uRrk2x9oaR5y--_uE1Uc-2GfXKKAxUUIU3chfQc7g.-ClR7Ph7871SifwQ.LZiUb2c6brovJCy92I2xv12T0pbfKCeIGrrhmF6SCbkuC7NzjH1D2QKkq4JwPylnU8tPknWq4x3aOe02TuRbnNMU1JNspDgaLdqqxepoNbcsD6Y.pO6li-LJEZZTku5S8iArJw&mode=hls
+#EXTINF:-1 group-title="日本",衛星劇場
+https://akariko-bck2.sankuria.sbs/stream/jp/eisei_gekijo/stream-output.m3u8?ac_tk=eyJhbGciOiJBMjU2S1ciLCJlbmMiOiJBMjU2R0NNIn0.e1xKof4hSSfD2uRrk2x9oaR5y--_uE1Uc-2GfXKKAxUUIU3chfQc7g.-ClR7Ph7871SifwQ.LZiUb2c6brovJCy92I2xv12T0pbfKCeIGrrhmF6SCbkuC7NzjH1D2QKkq4JwPylnU8tPknWq4x3aOe02TuRbnNMU1JNspDgaLdqqxepoNbcsD6Y.pO6li-LJEZZTku5S8iArJw&mode=hls
+#EXTINF:-1 group-title="日本",ザ･シネマ
+https://akariko-bck2.sankuria.sbs/stream/jp/the_cinema/stream-output.m3u8?ac_tk=eyJhbGciOiJBMjU2S1ciLCJlbmMiOiJBMjU2R0NNIn0.e1xKof4hSSfD2uRrk2x9oaR5y--_uE1Uc-2GfXKKAxUUIU3chfQc7g.-ClR7Ph7871SifwQ.LZiUb2c6brovJCy92I2xv12T0pbfKCeIGrrhmF6SCbkuC7NzjH1D2QKkq4JwPylnU8tPknWq4x3aOe02TuRbnNMU1JNspDgaLdqqxepoNbcsD6Y.pO6li-LJEZZTku5S8iArJw&mode=hls
+#EXTINF:-1 group-title="日本",アクション
+https://akariko-bck2.sankuria.sbs/stream/jp/action_channel/stream-output.m3u8?ac_tk=eyJhbGciOiJBMjU2S1ciLCJlbmMiOiJBMjU2R0NNIn0.e1xKof4hSSfD2uRrk2x9oaR5y--_uE1Uc-2GfXKKAxUUIU3chfQc7g.-ClR7Ph7871SifwQ.LZiUb2c6brovJCy92I2xv12T0pbfKCeIGrrhmF6SCbkuC7NzjH1D2QKkq4JwPylnU8tPknWq4x3aOe02TuRbnNMU1JNspDgaLdqqxepoNbcsD6Y.pO6li-LJEZZTku5S8iArJw&mode=hls
+#EXTINF:-1 group-title="日本",ミステリー
+https://akariko-bck2.sankuria.sbs/stream/jp/mystery_channel/stream-output.m3u8?ac_tk=eyJhbGciOiJBMjU2S1ciLCJlbmMiOiJBMjU2R0NNIn0.e1xKof4hSSfD2uRrk2x9oaR5y--_uE1Uc-2GfXKKAxUUIU3chfQc7g.-ClR7Ph7871SifwQ.LZiUb2c6brovJCy92I2xv12T0pbfKCeIGrrhmF6SCbkuC7NzjH1D2QKkq4JwPylnU8tPknWq4x3aOe02TuRbnNMU1JNspDgaLdqqxepoNbcsD6Y.pO6li-LJEZZTku5S8iArJw&mode=hls
+#EXTINF:-1 group-title="日本",ホームドラマ
+https://akariko-bck2.sankuria.sbs/stream/jp/home_drama_channel/stream-output.m3u8?ac_tk=eyJhbGciOiJBMjU2S1ciLCJlbmMiOiJBMjU2R0NNIn0.e1xKof4hSSfD2uRrk2x9oaR5y--_uE1Uc-2GfXKKAxUUIU3chfQc7g.-ClR7Ph7871SifwQ.LZiUb2c6brovJCy92I2xv12T0pbfKCeIGrrhmF6SCbkuC7NzjH1D2QKkq4JwPylnU8tPknWq4x3aOe02TuRbnNMU1JNspDgaLdqqxepoNbcsD6Y.pO6li-LJEZZTku5S8iArJw&mode=hls
+#EXTINF:-1 group-title="日本",時代劇
+https://akariko-bck2.sankuria.sbs/stream/jp/jidaigeki_senmon/stream-output.m3u8?ac_tk=eyJhbGciOiJBMjU2S1ciLCJlbmMiOiJBMjU2R0NNIn0.e1xKof4hSSfD2uRrk2x9oaR5y--_uE1Uc-2GfXKKAxUUIU3chfQc7g.-ClR7Ph7871SifwQ.LZiUb2c6brovJCy92I2xv12T0pbfKCeIGrrhmF6SCbkuC7NzjH1D2QKkq4JwPylnU8tPknWq4x3aOe02TuRbnNMU1JNspDgaLdqqxepoNbcsD6Y.pO6li-LJEZZTku5S8iArJw&mode=hls
+#EXTINF:-1 group-title="日本",ファミリー劇場
+https://akariko-bck2.sankuria.sbs/stream/jp/family_gekijyo/stream-output.m3u8?ac_tk=eyJhbGciOiJBMjU2S1ciLCJlbmMiOiJBMjU2R0NNIn0.e1xKof4hSSfD2uRrk2x9oaR5y--_uE1Uc-2GfXKKAxUUIU3chfQc7g.-ClR7Ph7871SifwQ.LZiUb2c6brovJCy92I2xv12T0pbfKCeIGrrhmF6SCbkuC7NzjH1D2QKkq4JwPylnU8tPknWq4x3aOe02TuRbnNMU1JNspDgaLdqqxepoNbcsD6Y.pO6li-LJEZZTku5S8iArJw&mode=hls
+#EXTINF:-1 group-title="日本",吉本新喜劇
+https://akariko-bck2.sankuria.sbs/stream/jp/bs_yoshimoto/stream-output.m3u8?ac_tk=eyJhbGciOiJBMjU2S1ciLCJlbmMiOiJBMjU2R0NNIn0.e1xKof4hSSfD2uRrk2x9oaR5y--_uE1Uc-2GfXKKAxUUIU3chfQc7g.-ClR7Ph7871SifwQ.LZiUb2c6brovJCy92I2xv12T0pbfKCeIGrrhmF6SCbkuC7NzjH1D2QKkq4JwPylnU8tPknWq4x3aOe02TuRbnNMU1JNspDgaLdqqxepoNbcsD6Y.pO6li-LJEZZTku5S8iArJw&mode=hls
+#EXTINF:-1 group-title="日本",宝塚歌劇
+https://akariko-bck2.sankuria.sbs/stream/jp/takarazuka_sky_stage/stream-output.m3u8?ac_tk=eyJhbGciOiJBMjU2S1ciLCJlbmMiOiJBMjU2R0NNIn0.e1xKof4hSSfD2uRrk2x9oaR5y--_uE1Uc-2GfXKKAxUUIU3chfQc7g.-ClR7Ph7871SifwQ.LZiUb2c6brovJCy92I2xv12T0pbfKCeIGrrhmF6SCbkuC7NzjH1D2QKkq4JwPylnU8tPknWq4x3aOe02TuRbnNMU1JNspDgaLdqqxepoNbcsD6Y.pO6li-LJEZZTku5S8iArJw&mode=hls
+#EXTINF:-1 group-title="日本",MondoTV
+https://akariko-bck2.sankuria.sbs/stream/jp/mondo_tv/stream-output.m3u8?ac_tk=eyJhbGciOiJBMjU2S1ciLCJlbmMiOiJBMjU2R0NNIn0.e1xKof4hSSfD2uRrk2x9oaR5y--_uE1Uc-2GfXKKAxUUIU3chfQc7g.-ClR7Ph7871SifwQ.LZiUb2c6brovJCy92I2xv12T0pbfKCeIGrrhmF6SCbkuC7NzjH1D2QKkq4JwPylnU8tPknWq4x3aOe02TuRbnNMU1JNspDgaLdqqxepoNbcsD6Y.pO6li-LJEZZTku5S8iArJw&mode=hls
+#EXTINF:-1 group-title="日本",V☆パラダイス
+https://akariko-bck2.sankuria.sbs/stream/jp/v_paradise_nsfw/stream-output.m3u8?ac_tk=eyJhbGciOiJBMjU2S1ciLCJlbmMiOiJBMjU2R0NNIn0.e1xKof4hSSfD2uRrk2x9oaR5y--_uE1Uc-2GfXKKAxUUIU3chfQc7g.-ClR7Ph7871SifwQ.LZiUb2c6brovJCy92I2xv12T0pbfKCeIGrrhmF6SCbkuC7NzjH1D2QKkq4JwPylnU8tPknWq4x3aOe02TuRbnNMU1JNspDgaLdqqxepoNbcsD6Y.pO6li-LJEZZTku5S8iArJw&mode=hls
+#EXTINF:-1 group-title="日本",Pigoo
+https://akariko-bck2.sankuria.sbs/stream/jp/pigoo_nsfw/stream-output.m3u8?ac_tk=eyJhbGciOiJBMjU2S1ciLCJlbmMiOiJBMjU2R0NNIn0.e1xKof4hSSfD2uRrk2x9oaR5y--_uE1Uc-2GfXKKAxUUIU3chfQc7g.-ClR7Ph7871SifwQ.LZiUb2c6brovJCy92I2xv12T0pbfKCeIGrrhmF6SCbkuC7NzjH1D2QKkq4JwPylnU8tPknWq4x3aOe02TuRbnNMU1JNspDgaLdqqxepoNbcsD6Y.pO6li-LJEZZTku5S8iArJw&mode=hls
+#EXTINF:-1 group-title="日本",旅
+https://akariko-bck2.sankuria.sbs/stream/jp/tabi_channel/stream-output.m3u8?ac_tk=eyJhbGciOiJBMjU2S1ciLCJlbmMiOiJBMjU2R0NNIn0.e1xKof4hSSfD2uRrk2x9oaR5y--_uE1Uc-2GfXKKAxUUIU3chfQc7g.-ClR7Ph7871SifwQ.LZiUb2c6brovJCy92I2xv12T0pbfKCeIGrrhmF6SCbkuC7NzjH1D2QKkq4JwPylnU8tPknWq4x3aOe02TuRbnNMU1JNspDgaLdqqxepoNbcsD6Y.pO6li-LJEZZTku5S8iArJw&mode=hls
+#EXTINF:-1 group-title="日本",鉄道
+https://akariko-bck2.sankuria.sbs/stream/jp/tetsudo_channel/stream-output.m3u8?ac_tk=eyJhbGciOiJBMjU2S1ciLCJlbmMiOiJBMjU2R0NNIn0.e1xKof4hSSfD2uRrk2x9oaR5y--_uE1Uc-2GfXKKAxUUIU3chfQc7g.-ClR7Ph7871SifwQ.LZiUb2c6brovJCy92I2xv12T0pbfKCeIGrrhmF6SCbkuC7NzjH1D2QKkq4JwPylnU8tPknWq4x3aOe02TuRbnNMU1JNspDgaLdqqxepoNbcsD6Y.pO6li-LJEZZTku5S8iArJw&mode=hls
+#EXTINF:-1 group-title="日本",釣りビジョン
+https://akariko-bck2.sankuria.sbs/stream/jp/fishing_vision/stream-output.m3u8?ac_tk=eyJhbGciOiJBMjU2S1ciLCJlbmMiOiJBMjU2R0NNIn0.e1xKof4hSSfD2uRrk2x9oaR5y--_uE1Uc-2GfXKKAxUUIU3chfQc7g.-ClR7Ph7871SifwQ.LZiUb2c6brovJCy92I2xv12T0pbfKCeIGrrhmF6SCbkuC7NzjH1D2QKkq4JwPylnU8tPknWq4x3aOe02TuRbnNMU1JNspDgaLdqqxepoNbcsD6Y.pO6li-LJEZZTku5S8iArJw&mode=hls
+#EXTINF:-1 group-title="日本",囲碁・将棋
+https://akariko-bck2.sankuria.sbs/stream/jp/shogi_channel/stream-output.m3u8?ac_tk=eyJhbGciOiJBMjU2S1ciLCJlbmMiOiJBMjU2R0NNIn0.e1xKof4hSSfD2uRrk2x9oaR5y--_uE1Uc-2GfXKKAxUUIU3chfQc7g.-ClR7Ph7871SifwQ.LZiUb2c6brovJCy92I2xv12T0pbfKCeIGrrhmF6SCbkuC7NzjH1D2QKkq4JwPylnU8tPknWq4x3aOe02TuRbnNMU1JNspDgaLdqqxepoNbcsD6Y.pO6li-LJEZZTku5S8iArJw&mode=hls
+#EXTINF:-1 group-title="日本",プロレス・格闘技
+https://akariko-bck2.sankuria.sbs/stream/jp/fighting_tv_samurai/stream-output.m3u8?ac_tk=eyJhbGciOiJBMjU2S1ciLCJlbmMiOiJBMjU2R0NNIn0.e1xKof4hSSfD2uRrk2x9oaR5y--_uE1Uc-2GfXKKAxUUIU3chfQc7g.-ClR7Ph7871SifwQ.LZiUb2c6brovJCy92I2xv12T0pbfKCeIGrrhmF6SCbkuC7NzjH1D2QKkq4JwPylnU8tPknWq4x3aOe02TuRbnNMU1JNspDgaLdqqxepoNbcsD6Y.pO6li-LJEZZTku5S8iArJw&mode=hls
+#EXTINF:-1 group-title="日本",銀河
+https://akariko-bck2.sankuria.sbs/stream/jp/channel_ginga/stream-output.m3u8?ac_tk=eyJhbGciOiJBMjU2S1ciLCJlbmMiOiJBMjU2R0NNIn0.e1xKof4hSSfD2uRrk2x9oaR5y--_uE1Uc-2GfXKKAxUUIU3chfQc7g.-ClR7Ph7871SifwQ.LZiUb2c6brovJCy92I2xv12T0pbfKCeIGrrhmF6SCbkuC7NzjH1D2QKkq4JwPylnU8tPknWq4x3aOe02TuRbnNMU1JNspDgaLdqqxepoNbcsD6Y.pO6li-LJEZZTku5S8iArJw&mode=hls
+#EXTINF:-1 group-title="日本",LaLaTV
+https://akariko-bck2.sankuria.sbs/stream/jp/lala_tv/stream-output.m3u8?ac_tk=eyJhbGciOiJBMjU2S1ciLCJlbmMiOiJBMjU2R0NNIn0.e1xKof4hSSfD2uRrk2x9oaR5y--_uE1Uc-2GfXKKAxUUIU3chfQc7g.-ClR7Ph7871SifwQ.LZiUb2c6brovJCy92I2xv12T0pbfKCeIGrrhmF6SCbkuC7NzjH1D2QKkq4JwPylnU8tPknWq4x3aOe02TuRbnNMU1JNspDgaLdqqxepoNbcsD6Y.pO6li-LJEZZTku5S8iArJw&mode=hls
+#EXTINF:-1 group-title="日本",DLife
+https://akariko-bck2.sankuria.sbs/stream/jp/dlife/stream-output.m3u8?ac_tk=eyJhbGciOiJBMjU2S1ciLCJlbmMiOiJBMjU2R0NNIn0.e1xKof4hSSfD2uRrk2x9oaR5y--_uE1Uc-2GfXKKAxUUIU3chfQc7g.-ClR7Ph7871SifwQ.LZiUb2c6brovJCy92I2xv12T0pbfKCeIGrrhmF6SCbkuC7NzjH1D2QKkq4JwPylnU8tPknWq4x3aOe02TuRbnNMU1JNspDgaLdqqxepoNbcsD6Y.pO6li-LJEZZTku5S8iArJw&mode=hls
+#EXTINF:-1 group-title="日本",グリーンチャンネル
+https://akariko-bck2.sankuria.sbs/stream/jp/green_channel/stream-output.m3u8?ac_tk=eyJhbGciOiJBMjU2S1ciLCJlbmMiOiJBMjU2R0NNIn0.e1xKof4hSSfD2uRrk2x9oaR5y--_uE1Uc-2GfXKKAxUUIU3chfQc7g.-ClR7Ph7871SifwQ.LZiUb2c6brovJCy92I2xv12T0pbfKCeIGrrhmF6SCbkuC7NzjH1D2QKkq4JwPylnU8tPknWq4x3aOe02TuRbnNMU1JNspDgaLdqqxepoNbcsD6Y.pO6li-LJEZZTku5S8iArJw&mode=hls
+#EXTINF:-1 group-title="日本",JSport1
+https://akariko-bck2.sankuria.sbs/stream/jp/jsport_1/stream-output.m3u8?ac_tk=eyJhbGciOiJBMjU2S1ciLCJlbmMiOiJBMjU2R0NNIn0.e1xKof4hSSfD2uRrk2x9oaR5y--_uE1Uc-2GfXKKAxUUIU3chfQc7g.-ClR7Ph7871SifwQ.LZiUb2c6brovJCy92I2xv12T0pbfKCeIGrrhmF6SCbkuC7NzjH1D2QKkq4JwPylnU8tPknWq4x3aOe02TuRbnNMU1JNspDgaLdqqxepoNbcsD6Y.pO6li-LJEZZTku5S8iArJw&mode=hls
+#EXTINF:-1 group-title="日本",JSport2
+https://akariko-bck2.sankuria.sbs/stream/jp/jsport_2/stream-output.m3u8?ac_tk=eyJhbGciOiJBMjU2S1ciLCJlbmMiOiJBMjU2R0NNIn0.e1xKof4hSSfD2uRrk2x9oaR5y--_uE1Uc-2GfXKKAxUUIU3chfQc7g.-ClR7Ph7871SifwQ.LZiUb2c6brovJCy92I2xv12T0pbfKCeIGrrhmF6SCbkuC7NzjH1D2QKkq4JwPylnU8tPknWq4x3aOe02TuRbnNMU1JNspDgaLdqqxepoNbcsD6Y.pO6li-LJEZZTku5S8iArJw&mode=hls
+#EXTINF:-1 group-title="日本",JSport3
+https://akariko-bck2.sankuria.sbs/stream/jp/jsport_3/stream-output.m3u8?ac_tk=eyJhbGciOiJBMjU2S1ciLCJlbmMiOiJBMjU2R0NNIn0.e1xKof4hSSfD2uRrk2x9oaR5y--_uE1Uc-2GfXKKAxUUIU3chfQc7g.-ClR7Ph7871SifwQ.LZiUb2c6brovJCy92I2xv12T0pbfKCeIGrrhmF6SCbkuC7NzjH1D2QKkq4JwPylnU8tPknWq4x3aOe02TuRbnNMU1JNspDgaLdqqxepoNbcsD6Y.pO6li-LJEZZTku5S8iArJw&mode=hls
+#EXTINF:-1 group-title="日本",JSport4
+https://akariko-bck2.sankuria.sbs/stream/jp/jsport_4/stream-output.m3u8?ac_tk=eyJhbGciOiJBMjU2S1ciLCJlbmMiOiJBMjU2R0NNIn0.e1xKof4hSSfD2uRrk2x9oaR5y--_uE1Uc-2GfXKKAxUUIU3chfQc7g.-ClR7Ph7871SifwQ.LZiUb2c6brovJCy92I2xv12T0pbfKCeIGrrhmF6SCbkuC7NzjH1D2QKkq4JwPylnU8tPknWq4x3aOe02TuRbnNMU1JNspDgaLdqqxepoNbcsD6Y.pO6li-LJEZZTku5S8iArJw&mode=hls
+#EXTINF:-1 group-title="日本",スポーツライブ＋
+https://akariko-bck2.sankuria.sbs/stream/jp/sport_live_plus/stream-output.m3u8?ac_tk=eyJhbGciOiJBMjU2S1ciLCJlbmMiOiJBMjU2R0NNIn0.e1xKof4hSSfD2uRrk2x9oaR5y--_uE1Uc-2GfXKKAxUUIU3chfQc7g.-ClR7Ph7871SifwQ.LZiUb2c6brovJCy92I2xv12T0pbfKCeIGrrhmF6SCbkuC7NzjH1D2QKkq4JwPylnU8tPknWq4x3aOe02TuRbnNMU1JNspDgaLdqqxepoNbcsD6Y.pO6li-LJEZZTku5S8iArJw&mode=hls
+#EXTINF:-1 group-title="日本",GAORASPORTS
+https://akariko-bck2.sankuria.sbs/stream/jp/gaora_sports/stream-output.m3u8?ac_tk=eyJhbGciOiJBMjU2S1ciLCJlbmMiOiJBMjU2R0NNIn0.e1xKof4hSSfD2uRrk2x9oaR5y--_uE1Uc-2GfXKKAxUUIU3chfQc7g.-ClR7Ph7871SifwQ.LZiUb2c6brovJCy92I2xv12T0pbfKCeIGrrhmF6SCbkuC7NzjH1D2QKkq4JwPylnU8tPknWq4x3aOe02TuRbnNMU1JNspDgaLdqqxepoNbcsD6Y.pO6li-LJEZZTku5S8iArJw&mode=hls
+#EXTINF:-1 group-title="日本",ゴルフネットワーク
+https://akariko-bck2.sankuria.sbs/stream/jp/golf_network/stream-output.m3u8?ac_tk=eyJhbGciOiJBMjU2S1ciLCJlbmMiOiJBMjU2R0NNIn0.e1xKof4hSSfD2uRrk2x9oaR5y--_uE1Uc-2GfXKKAxUUIU3chfQc7g.-ClR7Ph7871SifwQ.LZiUb2c6brovJCy92I2xv12T0pbfKCeIGrrhmF6SCbkuC7NzjH1D2QKkq4JwPylnU8tPknWq4x3aOe02TuRbnNMU1JNspDgaLdqqxepoNbcsD6Y.pO6li-LJEZZTku5S8iArJw&mode=hls
+#EXTINF:-1 group-title="日本",歌謡ポップス
+https://akariko-bck2.sankuria.sbs/stream/jp/kayo_pops/stream-output.m3u8?ac_tk=eyJhbGciOiJBMjU2S1ciLCJlbmMiOiJBMjU2R0NNIn0.e1xKof4hSSfD2uRrk2x9oaR5y--_uE1Uc-2GfXKKAxUUIU3chfQc7g.-ClR7Ph7871SifwQ.LZiUb2c6brovJCy92I2xv12T0pbfKCeIGrrhmF6SCbkuC7NzjH1D2QKkq4JwPylnU8tPknWq4x3aOe02TuRbnNMU1JNspDgaLdqqxepoNbcsD6Y.pO6li-LJEZZTku5S8iArJw&mode=hls
+#EXTINF:-1 group-title="日本",Mnet
+https://akariko-bck2.sankuria.sbs/stream/jp/mnet/stream-output.m3u8?ac_tk=eyJhbGciOiJBMjU2S1ciLCJlbmMiOiJBMjU2R0NNIn0.e1xKof4hSSfD2uRrk2x9oaR5y--_uE1Uc-2GfXKKAxUUIU3chfQc7g.-ClR7Ph7871SifwQ.LZiUb2c6brovJCy92I2xv12T0pbfKCeIGrrhmF6SCbkuC7NzjH1D2QKkq4JwPylnU8tPknWq4x3aOe02TuRbnNMU1JNspDgaLdqqxepoNbcsD6Y.pO6li-LJEZZTku5S8iArJw&mode=hls
+#EXTINF:-1 group-title="日本",MTV
+https://akariko-bck2.sankuria.sbs/stream/jp/mtv/stream-output.m3u8?ac_tk=eyJhbGciOiJBMjU2S1ciLCJlbmMiOiJBMjU2R0NNIn0.e1xKof4hSSfD2uRrk2x9oaR5y--_uE1Uc-2GfXKKAxUUIU3chfQc7g.-ClR7Ph7871SifwQ.LZiUb2c6brovJCy92I2xv12T0pbfKCeIGrrhmF6SCbkuC7NzjH1D2QKkq4JwPylnU8tPknWq4x3aOe02TuRbnNMU1JNspDgaLdqqxepoNbcsD6Y.pO6li-LJEZZTku5S8iArJw&mode=hls
+#EXTINF:-1 group-title="日本",スペースシャワー
+https://akariko-bck2.sankuria.sbs/stream/jp/space_shower_tv/stream-output.m3u8?ac_tk=eyJhbGciOiJBMjU2S1ciLCJlbmMiOiJBMjU2R0NNIn0.e1xKof4hSSfD2uRrk2x9oaR5y--_uE1Uc-2GfXKKAxUUIU3chfQc7g.-ClR7Ph7871SifwQ.LZiUb2c6brovJCy92I2xv12T0pbfKCeIGrrhmF6SCbkuC7NzjH1D2QKkq4JwPylnU8tPknWq4x3aOe02TuRbnNMU1JNspDgaLdqqxepoNbcsD6Y.pO6li-LJEZZTku5S8iArJw&mode=hls
+#EXTINF:-1 group-title="日本",MusicJapan
+https://akariko-bck2.sankuria.sbs/stream/jp/music_japan_tv/stream-output.m3u8?ac_tk=eyJhbGciOiJBMjU2S1ciLCJlbmMiOiJBMjU2R0NNIn0.e1xKof4hSSfD2uRrk2x9oaR5y--_uE1Uc-2GfXKKAxUUIU3chfQc7g.-ClR7Ph7871SifwQ.LZiUb2c6brovJCy92I2xv12T0pbfKCeIGrrhmF6SCbkuC7NzjH1D2QKkq4JwPylnU8tPknWq4x3aOe02TuRbnNMU1JNspDgaLdqqxepoNbcsD6Y.pO6li-LJEZZTku5S8iArJw&mode=hls
+#EXTINF:-1 group-title="日本",MusicON
+https://akariko-bck2.sankuria.sbs/stream/jp/music_on_tv/stream-output.m3u8?ac_tk=eyJhbGciOiJBMjU2S1ciLCJlbmMiOiJBMjU2R0NNIn0.e1xKof4hSSfD2uRrk2x9oaR5y--_uE1Uc-2GfXKKAxUUIU3chfQc7g.-ClR7Ph7871SifwQ.LZiUb2c6brovJCy92I2xv12T0pbfKCeIGrrhmF6SCbkuC7NzjH1D2QKkq4JwPylnU8tPknWq4x3aOe02TuRbnNMU1JNspDgaLdqqxepoNbcsD6Y.pO6li-LJEZZTku5S8iArJw&mode=hls
+#EXTINF:-1 group-title="日本",日テレジータス
+https://akariko-bck2.sankuria.sbs/stream/jp/nittele_g+/stream-output.m3u8?ac_tk=eyJhbGciOiJBMjU2S1ciLCJlbmMiOiJBMjU2R0NNIn0.e1xKof4hSSfD2uRrk2x9oaR5y--_uE1Uc-2GfXKKAxUUIU3chfQc7g.-ClR7Ph7871SifwQ.LZiUb2c6brovJCy92I2xv12T0pbfKCeIGrrhmF6SCbkuC7NzjH1D2QKkq4JwPylnU8tPknWq4x3aOe02TuRbnNMU1JNspDgaLdqqxepoNbcsD6Y.pO6li-LJEZZTku5S8iArJw&mode=hls
+#EXTINF:-1 group-title="日本",日テレ+
+https://akariko-bck2.sankuria.sbs/stream/jp/nittele_plus/stream-output.m3u8?ac_tk=eyJhbGciOiJBMjU2S1ciLCJlbmMiOiJBMjU2R0NNIn0.e1xKof4hSSfD2uRrk2x9oaR5y--_uE1Uc-2GfXKKAxUUIU3chfQc7g.-ClR7Ph7871SifwQ.LZiUb2c6brovJCy92I2xv12T0pbfKCeIGrrhmF6SCbkuC7NzjH1D2QKkq4JwPylnU8tPknWq4x3aOe02TuRbnNMU1JNspDgaLdqqxepoNbcsD6Y.pO6li-LJEZZTku5S8iArJw&mode=hls
+#EXTINF:-1 group-title="日本",TBS1
+https://akariko-bck2.sankuria.sbs/stream/jp/tbs_channel_1/stream-output.m3u8?ac_tk=eyJhbGciOiJBMjU2S1ciLCJlbmMiOiJBMjU2R0NNIn0.e1xKof4hSSfD2uRrk2x9oaR5y--_uE1Uc-2GfXKKAxUUIU3chfQc7g.-ClR7Ph7871SifwQ.LZiUb2c6brovJCy92I2xv12T0pbfKCeIGrrhmF6SCbkuC7NzjH1D2QKkq4JwPylnU8tPknWq4x3aOe02TuRbnNMU1JNspDgaLdqqxepoNbcsD6Y.pO6li-LJEZZTku5S8iArJw&mode=hls
+#EXTINF:-1 group-title="日本",TBS2
+https://akariko-bck2.sankuria.sbs/stream/jp/tbs_channel_2/stream-output.m3u8?ac_tk=eyJhbGciOiJBMjU2S1ciLCJlbmMiOiJBMjU2R0NNIn0.e1xKof4hSSfD2uRrk2x9oaR5y--_uE1Uc-2GfXKKAxUUIU3chfQc7g.-ClR7Ph7871SifwQ.LZiUb2c6brovJCy92I2xv12T0pbfKCeIGrrhmF6SCbkuC7NzjH1D2QKkq4JwPylnU8tPknWq4x3aOe02TuRbnNMU1JNspDgaLdqqxepoNbcsD6Y.pO6li-LJEZZTku5S8iArJw&mode=hls
+#EXTINF:-1 group-title="日本",フジテレビNEXT
+https://akariko-bck2.sankuria.sbs/stream/jp/fuji_tv_next/stream-output.m3u8?ac_tk=eyJhbGciOiJBMjU2S1ciLCJlbmMiOiJBMjU2R0NNIn0.e1xKof4hSSfD2uRrk2x9oaR5y--_uE1Uc-2GfXKKAxUUIU3chfQc7g.-ClR7Ph7871SifwQ.LZiUb2c6brovJCy92I2xv12T0pbfKCeIGrrhmF6SCbkuC7NzjH1D2QKkq4JwPylnU8tPknWq4x3aOe02TuRbnNMU1JNspDgaLdqqxepoNbcsD6Y.pO6li-LJEZZTku5S8iArJw&mode=hls
+#EXTINF:-1 group-title="日本",フジテレビ1
+https://akariko-bck2.sankuria.sbs/stream/jp/fuji_tv_one/stream-output.m3u8?ac_tk=eyJhbGciOiJBMjU2S1ciLCJlbmMiOiJBMjU2R0NNIn0.e1xKof4hSSfD2uRrk2x9oaR5y--_uE1Uc-2GfXKKAxUUIU3chfQc7g.-ClR7Ph7871SifwQ.LZiUb2c6brovJCy92I2xv12T0pbfKCeIGrrhmF6SCbkuC7NzjH1D2QKkq4JwPylnU8tPknWq4x3aOe02TuRbnNMU1JNspDgaLdqqxepoNbcsD6Y.pO6li-LJEZZTku5S8iArJw&mode=hls
+#EXTINF:-1 group-title="日本",フジテレビ2
+https://akariko-bck2.sankuria.sbs/stream/jp/fuji_tv_two/stream-output.m3u8?ac_tk=eyJhbGciOiJBMjU2S1ciLCJlbmMiOiJBMjU2R0NNIn0.e1xKof4hSSfD2uRrk2x9oaR5y--_uE1Uc-2GfXKKAxUUIU3chfQc7g.-ClR7Ph7871SifwQ.LZiUb2c6brovJCy92I2xv12T0pbfKCeIGrrhmF6SCbkuC7NzjH1D2QKkq4JwPylnU8tPknWq4x3aOe02TuRbnNMU1JNspDgaLdqqxepoNbcsD6Y.pO6li-LJEZZTku5S8iArJw&mode=hls
+#EXTINF:-1 group-title="日本",テレ朝1
+https://akariko-bck2.sankuria.sbs/stream/jp/tv_asahi_channel_1/stream-output.m3u8?ac_tk=eyJhbGciOiJBMjU2S1ciLCJlbmMiOiJBMjU2R0NNIn0.e1xKof4hSSfD2uRrk2x9oaR5y--_uE1Uc-2GfXKKAxUUIU3chfQc7g.-ClR7Ph7871SifwQ.LZiUb2c6brovJCy92I2xv12T0pbfKCeIGrrhmF6SCbkuC7NzjH1D2QKkq4JwPylnU8tPknWq4x3aOe02TuRbnNMU1JNspDgaLdqqxepoNbcsD6Y.pO6li-LJEZZTku5S8iArJw&mode=hls
+#EXTINF:-1 group-title="日本",テレ朝2
+https://akariko-bck2.sankuria.sbs/stream/jp/tv_asahi_channel_2/stream-output.m3u8?ac_tk=eyJhbGciOiJBMjU2S1ciLCJlbmMiOiJBMjU2R0NNIn0.e1xKof4hSSfD2uRrk2x9oaR5y--_uE1Uc-2GfXKKAxUUIU3chfQc7g.-ClR7Ph7871SifwQ.LZiUb2c6brovJCy92I2xv12T0pbfKCeIGrrhmF6SCbkuC7NzjH1D2QKkq4JwPylnU8tPknWq4x3aOe02TuRbnNMU1JNspDgaLdqqxepoNbcsD6Y.pO6li-LJEZZTku5S8iArJw&mode=hls
+#EXTINF:-1 group-title="日本",BS10
+https://akariko-bck2.sankuria.sbs/stream/jp/bs10/stream-output.m3u8?ac_tk=eyJhbGciOiJBMjU2S1ciLCJlbmMiOiJBMjU2R0NNIn0.e1xKof4hSSfD2uRrk2x9oaR5y--_uE1Uc-2GfXKKAxUUIU3chfQc7g.-ClR7Ph7871SifwQ.LZiUb2c6brovJCy92I2xv12T0pbfKCeIGrrhmF6SCbkuC7NzjH1D2QKkq4JwPylnU8tPknWq4x3aOe02TuRbnNMU1JNspDgaLdqqxepoNbcsD6Y.pO6li-LJEZZTku5S8iArJw&mode=hls
+#EXTINF:-1 group-title="日本",BS11
+https://akariko-bck2.sankuria.sbs/stream/jp/bs_11/stream-output.m3u8?ac_tk=eyJhbGciOiJBMjU2S1ciLCJlbmMiOiJBMjU2R0NNIn0.e1xKof4hSSfD2uRrk2x9oaR5y--_uE1Uc-2GfXKKAxUUIU3chfQc7g.-ClR7Ph7871SifwQ.LZiUb2c6brovJCy92I2xv12T0pbfKCeIGrrhmF6SCbkuC7NzjH1D2QKkq4JwPylnU8tPknWq4x3aOe02TuRbnNMU1JNspDgaLdqqxepoNbcsD6Y.pO6li-LJEZZTku5S8iArJw&mode=hls
+#EXTINF:-1 group-title="日本",BS12
+https://akariko-bck2.sankuria.sbs/stream/jp/bs_12/stream-output.m3u8?ac_tk=eyJhbGciOiJBMjU2S1ciLCJlbmMiOiJBMjU2R0NNIn0.e1xKof4hSSfD2uRrk2x9oaR5y--_uE1Uc-2GfXKKAxUUIU3chfQc7g.-ClR7Ph7871SifwQ.LZiUb2c6brovJCy92I2xv12T0pbfKCeIGrrhmF6SCbkuC7NzjH1D2QKkq4JwPylnU8tPknWq4x3aOe02TuRbnNMU1JNspDgaLdqqxepoNbcsD6Y.pO6li-LJEZZTku5S8iArJw&mode=hls
+#EXTINF:-1 group-title="日本",J:COM
+https://akariko-bck2.sankuria.sbs/stream/jp/jcom_bs/stream-output.m3u8?ac_tk=eyJhbGciOiJBMjU2S1ciLCJlbmMiOiJBMjU2R0NNIn0.e1xKof4hSSfD2uRrk2x9oaR5y--_uE1Uc-2GfXKKAxUUIU3chfQc7g.-ClR7Ph7871SifwQ.LZiUb2c6brovJCy92I2xv12T0pbfKCeIGrrhmF6SCbkuC7NzjH1D2QKkq4JwPylnU8tPknWq4x3aOe02TuRbnNMU1JNspDgaLdqqxepoNbcsD6Y.pO6li-LJEZZTku5S8iArJw&mode=hls
+#EXTINF:-1 group-title="日本",韓流
+https://akariko-bck2.sankuria.sbs/stream/jp/韓流/stream-output.m3u8?ac_tk=eyJhbGciOiJBMjU2S1ciLCJlbmMiOiJBMjU2R0NNIn0.e1xKof4hSSfD2uRrk2x9oaR5y--_uE1Uc-2GfXKKAxUUIU3chfQc7g.-ClR7Ph7871SifwQ.LZiUb2c6brovJCy92I2xv12T0pbfKCeIGrrhmF6SCbkuC7NzjH1D2QKkq4JwPylnU8tPknWq4x3aOe02TuRbnNMU1JNspDgaLdqqxepoNbcsD6Y.pO6li-LJEZZTku5S8iArJw&mode=hls
+#EXTINF:-1 group-title="日本",SkyA
+https://akariko-bck2.sankuria.sbs/stream/jp/sky_a/stream-output.m3u8?ac_tk=eyJhbGciOiJBMjU2S1ciLCJlbmMiOiJBMjU2R0NNIn0.e1xKof4hSSfD2uRrk2x9oaR5y--_uE1Uc-2GfXKKAxUUIU3chfQc7g.-ClR7Ph7871SifwQ.LZiUb2c6brovJCy92I2xv12T0pbfKCeIGrrhmF6SCbkuC7NzjH1D2QKkq4JwPylnU8tPknWq4x3aOe02TuRbnNMU1JNspDgaLdqqxepoNbcsD6Y.pO6li-LJEZZTku5S8iArJw&mode=hls
+#EXTINF:-1 group-title="日本",メ〜テレNEXT
+https://akariko-bck2.sankuria.sbs/stream/jp/me-tele_next/stream-output.m3u8?ac_tk=eyJhbGciOiJBMjU2S1ciLCJlbmMiOiJBMjU2R0NNIn0.e1xKof4hSSfD2uRrk2x9oaR5y--_uE1Uc-2GfXKKAxUUIU3chfQc7g.-ClR7Ph7871SifwQ.LZiUb2c6brovJCy92I2xv12T0pbfKCeIGrrhmF6SCbkuC7NzjH1D2QKkq4JwPylnU8tPknWq4x3aOe02TuRbnNMU1JNspDgaLdqqxepoNbcsD6Y.pO6li-LJEZZTku5S8iArJw&mode=hls
+#EXTINF:-1 group-title="日本",KBSWorld
+https://akariko-bck2.sankuria.sbs/stream/jp/kbs_world/stream-output.m3u8?ac_tk=eyJhbGciOiJBMjU2S1ciLCJlbmMiOiJBMjU2R0NNIn0.e1xKof4hSSfD2uRrk2x9oaR5y--_uE1Uc-2GfXKKAxUUIU3chfQc7g.-ClR7Ph7871SifwQ.LZiUb2c6brovJCy92I2xv12T0pbfKCeIGrrhmF6SCbkuC7NzjH1D2QKkq4JwPylnU8tPknWq4x3aOe02TuRbnNMU1JNspDgaLdqqxepoNbcsD6Y.pO6li-LJEZZTku5S8iArJw&mode=hls
+#EXTINF:-1 group-title="日本",AT-X
+https://akariko-bck2.sankuria.sbs/stream/jp/at-x/stream-output.m3u8?ac_tk=eyJhbGciOiJBMjU2S1ciLCJlbmMiOiJBMjU2R0NNIn0.e1xKof4hSSfD2uRrk2x9oaR5y--_uE1Uc-2GfXKKAxUUIU3chfQc7g.-ClR7Ph7871SifwQ.LZiUb2c6brovJCy92I2xv12T0pbfKCeIGrrhmF6SCbkuC7NzjH1D2QKkq4JwPylnU8tPknWq4x3aOe02TuRbnNMU1JNspDgaLdqqxepoNbcsD6Y.pO6li-LJEZZTku5S8iArJw&mode=hls
+#EXTINF:-1 group-title="日本",Animax
+https://akariko-bck2.sankuria.sbs/stream/jp/animax/stream-output.m3u8?ac_tk=eyJhbGciOiJBMjU2S1ciLCJlbmMiOiJBMjU2R0NNIn0.e1xKof4hSSfD2uRrk2x9oaR5y--_uE1Uc-2GfXKKAxUUIU3chfQc7g.-ClR7Ph7871SifwQ.LZiUb2c6brovJCy92I2xv12T0pbfKCeIGrrhmF6SCbkuC7NzjH1D2QKkq4JwPylnU8tPknWq4x3aOe02TuRbnNMU1JNspDgaLdqqxepoNbcsD6Y.pO6li-LJEZZTku5S8iArJw&mode=hls
+#EXTINF:-1 group-title="日本",ディズニー
+https://akariko-bck2.sankuria.sbs/stream/jp/disney_channel/stream-output.m3u8?ac_tk=eyJhbGciOiJBMjU2S1ciLCJlbmMiOiJBMjU2R0NNIn0.e1xKof4hSSfD2uRrk2x9oaR5y--_uE1Uc-2GfXKKAxUUIU3chfQc7g.-ClR7Ph7871SifwQ.LZiUb2c6brovJCy92I2xv12T0pbfKCeIGrrhmF6SCbkuC7NzjH1D2QKkq4JwPylnU8tPknWq4x3aOe02TuRbnNMU1JNspDgaLdqqxepoNbcsD6Y.pO6li-LJEZZTku5S8iArJw&mode=hls
+#EXTINF:-1 group-title="日本",CartoonNetwork
+https://akariko-bck2.sankuria.sbs/stream/jp/cartoon_network/stream-output.m3u8?ac_tk=eyJhbGciOiJBMjU2S1ciLCJlbmMiOiJBMjU2R0NNIn0.e1xKof4hSSfD2uRrk2x9oaR5y--_uE1Uc-2GfXKKAxUUIU3chfQc7g.-ClR7Ph7871SifwQ.LZiUb2c6brovJCy92I2xv12T0pbfKCeIGrrhmF6SCbkuC7NzjH1D2QKkq4JwPylnU8tPknWq4x3aOe02TuRbnNMU1JNspDgaLdqqxepoNbcsD6Y.pO6li-LJEZZTku5S8iArJw&mode=hls
+#EXTINF:-1 group-title="日本",ディズニージュニア
+https://akariko-bck2.sankuria.sbs/stream/jp/disney_junior/stream-output.m3u8?ac_tk=eyJhbGciOiJBMjU2S1ciLCJlbmMiOiJBMjU2R0NNIn0.e1xKof4hSSfD2uRrk2x9oaR5y--_uE1Uc-2GfXKKAxUUIU3chfQc7g.-ClR7Ph7871SifwQ.LZiUb2c6brovJCy92I2xv12T0pbfKCeIGrrhmF6SCbkuC7NzjH1D2QKkq4JwPylnU8tPknWq4x3aOe02TuRbnNMU1JNspDgaLdqqxepoNbcsD6Y.pO6li-LJEZZTku5S8iArJw&mode=hls
+#EXTINF:-1 group-title="日本",キッズステーション
+https://akariko-bck2.sankuria.sbs/stream/jp/kids_station_tv/stream-output.m3u8?ac_tk=eyJhbGciOiJBMjU2S1ciLCJlbmMiOiJBMjU2R0NNIn0.e1xKof4hSSfD2uRrk2x9oaR5y--_uE1Uc-2GfXKKAxUUIU3chfQc7g.-ClR7Ph7871SifwQ.LZiUb2c6brovJCy92I2xv12T0pbfKCeIGrrhmF6SCbkuC7NzjH1D2QKkq4JwPylnU8tPknWq4x3aOe02TuRbnNMU1JNspDgaLdqqxepoNbcsD6Y.pO6li-LJEZZTku5S8iArJw&mode=hls
+#EXTINF:-1 group-title="日本",放送大学
+https://akariko-bck2.sankuria.sbs/stream/jp/hoso_daigaku_ex/stream-output.m3u8?ac_tk=eyJhbGciOiJBMjU2S1ciLCJlbmMiOiJBMjU2R0NNIn0.e1xKof4hSSfD2uRrk2x9oaR5y--_uE1Uc-2GfXKKAxUUIU3chfQc7g.-ClR7Ph7871SifwQ.LZiUb2c6brovJCy92I2xv12T0pbfKCeIGrrhmF6SCbkuC7NzjH1D2QKkq4JwPylnU8tPknWq4x3aOe02TuRbnNMU1JNspDgaLdqqxepoNbcsD6Y.pO6li-LJEZZTku5S8iArJw&mode=hls
+#EXTINF:-1 group-title="日本",ウェザーニューズ
+https://akariko-bck2.sankuria.sbs/stream/jp/weather_news/stream-output.m3u8?ac_tk=eyJhbGciOiJBMjU2S1ciLCJlbmMiOiJBMjU2R0NNIn0.e1xKof4hSSfD2uRrk2x9oaR5y--_uE1Uc-2GfXKKAxUUIU3chfQc7g.-ClR7Ph7871SifwQ.LZiUb2c6brovJCy92I2xv12T0pbfKCeIGrrhmF6SCbkuC7NzjH1D2QKkq4JwPylnU8tPknWq4x3aOe02TuRbnNMU1JNspDgaLdqqxepoNbcsD6Y.pO6li-LJEZZTku5S8iArJw&mode=hls
+#EXTINF:-1 group-title="日本",NHKG
+https://akariko-bck1.sankuria.sbs/stream/jp/nhk_g_2/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="日本",NHKG
+https://akariko-bck1.sankuria.sbs/stream/jp/nhk_g_osaka/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="日本",NHKBS
+https://akariko-bck1.sankuria.sbs/stream/jp/nhk_bs/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="日本",NHKBS
+https://akariko-bck1.sankuria.sbs/stream/jp/nhk_bs_2/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="日本",NHKBS4K
+https://akariko-bck1.sankuria.sbs/stream/jp/nhk_bs4k/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="日本",NHKE
+https://akariko-bck1.sankuria.sbs/stream/jp/nhk_e/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="日本",日本テレビ
+https://akariko-bck1.sankuria.sbs/stream/jp/ntv/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="日本",日本テレビ
+https://akariko-bck1.sankuria.sbs/stream/jp/ytv/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="日本",TBS
+https://akariko-bck1.sankuria.sbs/stream/jp/tbs/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="日本",TBS
+https://akariko-bck1.sankuria.sbs/stream/jp/mbs/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="日本",フジテレビ
+https://akariko-bck1.sankuria.sbs/stream/jp/fuji_tv/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="日本",フジテレビ
+https://akariko-bck1.sankuria.sbs/stream/jp/kansai_tv/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="日本",テレビ朝日
+https://akariko-bck1.sankuria.sbs/stream/jp/tv_asahi/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="日本",テレビ朝日
+https://akariko-bck1.sankuria.sbs/stream/jp/abc/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="日本",テレビ東京
+https://akariko-bck1.sankuria.sbs/stream/jp/tv_tokyo/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="日本",テレビ東京
+https://akariko-bck1.sankuria.sbs/stream/jp/tv_osaka/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="日本",BS日テレ
+https://akariko-bck1.sankuria.sbs/stream/jp/bs_ntv/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="日本",BSTBS
+https://akariko-bck1.sankuria.sbs/stream/jp/bs_tbs/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="日本",BSフジ
+https://akariko-bck1.sankuria.sbs/stream/jp/bs_fuji/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="日本",BS朝日
+https://akariko-bck1.sankuria.sbs/stream/jp/bs_asahi/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="日本",BSテレ東
+https://akariko-bck1.sankuria.sbs/stream/jp/bs_tv_tokyo/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="日本",TOKYOMX1
+https://akariko-bck1.sankuria.sbs/stream/jp/tokyo_mx1/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="日本",TOKYOMX2
+https://akariko-bck1.sankuria.sbs/stream/jp/tokyo_mx2/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="日本",サンテレビ
+https://akariko-bck1.sankuria.sbs/stream/jp/sun/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="日本",KBS京都
+https://akariko-bck1.sankuria.sbs/stream/jp/kbs/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="日本",ディスカバリー
+https://akariko-bck1.sankuria.sbs/stream/jp/discovery_channel/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="日本",アニマルプラネット
+https://akariko-bck1.sankuria.sbs/stream/jp/animal_planet/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="日本",ヒストリー
+https://akariko-bck1.sankuria.sbs/stream/jp/history/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="日本",ナショジオ
+https://akariko-bck1.sankuria.sbs/stream/jp/national_geographic_japan/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="日本",釣りビジョン
+https://akariko-bck1.sankuria.sbs/stream/jp/fishing_vision/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="日本",旅
+https://akariko-bck1.sankuria.sbs/stream/jp/tabi_channel/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="日本",鉄道
+https://akariko-bck1.sankuria.sbs/stream/jp/tetsudo_channel/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="日本",BS10
+https://akariko-bck1.sankuria.sbs/stream/jp/bs10/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="日本",BS11
+https://akariko-bck1.sankuria.sbs/stream/jp/bs11/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="日本",BS12
+https://akariko-bck1.sankuria.sbs/stream/jp/bs_12/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="日本",WOWOWプライム
+https://akariko-bck1.sankuria.sbs/stream/jp/wowow_prime/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="日本",WOWOWライブ
+https://akariko-bck1.sankuria.sbs/stream/jp/wowow_live/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="日本",WOWOWシネマ
+https://akariko-bck1.sankuria.sbs/stream/jp/wowow_cinema/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="日本",WOWOWプラス
+https://akariko-bck1.sankuria.sbs/stream/jp/wowow_plus/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="日本",BS10プレミアム
+https://akariko-bck1.sankuria.sbs/stream/jp/bs_10_premium/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="日本",東映
+https://akariko-bck1.sankuria.sbs/stream/jp/toei_channel/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="日本",衛星劇場
+https://akariko-bck1.sankuria.sbs/stream/jp/eisei_gekijo/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="日本",Neco
+https://akariko-bck1.sankuria.sbs/stream/jp/neco_ch/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="日本",ザ･シネマ
+https://akariko-bck1.sankuria.sbs/stream/jp/the_cinema/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="日本",ムービープラス
+https://akariko-bck1.sankuria.sbs/stream/jp/movie_plus/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="日本",日本映画
+https://akariko-bck1.sankuria.sbs/stream/jp/nihon_eiga_senmon/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="日本",時代劇
+https://akariko-bck1.sankuria.sbs/stream/jp/jidaigeki_senmon/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="日本",ファミリー劇場
+https://akariko-bck1.sankuria.sbs/stream/jp/family_gekijyo/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="日本",ホームドラマ
+https://akariko-bck1.sankuria.sbs/stream/jp/home_drama_channel/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="日本",ミステリー
+https://akariko-bck1.sankuria.sbs/stream/jp/mystery_channel/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="日本",アクション
+https://akariko-bck1.sankuria.sbs/stream/jp/action_channel/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="日本",J:COM
+https://akariko-bck1.sankuria.sbs/stream/jp/jcom_bs/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="日本",吉本新喜劇
+https://akariko-bck1.sankuria.sbs/stream/jp/bs_yoshimoto/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="日本",宝塚歌劇
+https://akariko-bck1.sankuria.sbs/stream/jp/takarazuka_sky_stage/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="日本",V☆パラダイス
+https://akariko-bck1.sankuria.sbs/stream/jp/v_paradise_nsfw/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="日本",MondoTV
+https://akariko-bck1.sankuria.sbs/stream/jp/mondo_tv/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="日本",Pigoo
+https://akariko-bck1.sankuria.sbs/stream/jp/pigoo_nsfw/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="日本",囲碁・将棋
+https://akariko-bck1.sankuria.sbs/stream/jp/shogi_channel/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="日本",グリーンチャンネル
+https://akariko-bck1.sankuria.sbs/stream/jp/green_channel/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="日本",JSport1
+https://akariko-bck1.sankuria.sbs/stream/jp/jsport_1/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="日本",JSport2
+https://akariko-bck1.sankuria.sbs/stream/jp/jsport_2/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="日本",JSport3
+https://akariko-bck1.sankuria.sbs/stream/jp/jsport_3/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="日本",JSport4
+https://akariko-bck1.sankuria.sbs/stream/jp/jsport_4/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="日本",スカイA
+https://akariko-bck1.sankuria.sbs/stream/jp/sky_a/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="日本",GAORASPORTS
+https://akariko-bck1.sankuria.sbs/stream/jp/gaora_sports/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="日本",ゴルフネットワーク
+https://akariko-bck1.sankuria.sbs/stream/jp/golf_network/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="日本",スポーツライブ＋
+https://akariko-bck1.sankuria.sbs/stream/jp/sport_live_plus/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="日本",プロレス・格闘技
+https://akariko-bck1.sankuria.sbs/stream/jp/fighting_tv_samurai/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="日本",スペースシャワー
+https://akariko-bck1.sankuria.sbs/stream/jp/space_shower_tv/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="日本",MTV
+https://akariko-bck1.sankuria.sbs/stream/jp/mtv/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="日本",ミュージックエア
+https://akariko-bck1.sankuria.sbs/stream/jp/music_air/stream-output.m3u8?mode=hls,https://akariko-bck1.sankuria.sbs/stream/jp/music_on_tv/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="日本",歌謡ポップス
+https://akariko-bck1.sankuria.sbs/stream/jp/kayo_pops/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="日本",MusicJapan
+https://akariko-bck1.sankuria.sbs/stream/jp/music_japan_tv/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="日本",アニマックス
+https://akariko-bck1.sankuria.sbs/stream/jp/animax/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="日本",ディズニー
+https://akariko-bck1.sankuria.sbs/stream/jp/disney_channel/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="日本",ディズニージュニア
+https://akariko-bck1.sankuria.sbs/stream/jp/disney_junior/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="日本",CartoonNetwork
+https://akariko-bck1.sankuria.sbs/stream/jp/cartoon_network/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="日本",AT-X
+https://akariko-bck1.sankuria.sbs/stream/jp/at-x/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="日本",銀河
+https://akariko-bck1.sankuria.sbs/stream/jp/channel_ginga/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="日本",Dlife
+https://akariko-bck1.sankuria.sbs/stream/jp/dlife/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="日本",LaLaTV
+https://akariko-bck1.sankuria.sbs/stream/jp/lala_tv/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="日本",日テレジータス
+https://akariko-bck1.sankuria.sbs/stream/jp/nittele_g+/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="日本",日テレ+
+https://akariko-bck1.sankuria.sbs/stream/jp/nittele_plus/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="日本",TBS1
+https://akariko-bck1.sankuria.sbs/stream/jp/tbs_channel_1/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="日本",TBS2
+https://akariko-bck1.sankuria.sbs/stream/jp/tbs_channel_2/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="日本",フジテレビ1
+https://akariko-bck1.sankuria.sbs/stream/jp/fuji_tv_one/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="日本",フジテレビ2
+https://akariko-bck1.sankuria.sbs/stream/jp/fuji_tv_two/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="日本",フジテレビNEXT
+https://akariko-bck1.sankuria.sbs/stream/jp/fuji_tv_next/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="日本",テレ朝1
+https://akariko-bck1.sankuria.sbs/stream/jp/tv_asahi_channel_1/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="日本",テレ朝2
+https://akariko-bck1.sankuria.sbs/stream/jp/tv_asahi_channel_2/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="日本",メ〜テレNEXT
+https://akariko-bck1.sankuria.sbs/stream/jp/me-tele_next/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="日本",Mnet
+https://akariko-bck1.sankuria.sbs/stream/jp/mnet/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="日本",KBSWorld
+https://akariko-bck1.sankuria.sbs/stream/jp/kbs_world/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="日本",韓流
+https://akariko-bck1.sankuria.sbs/stream/jp/韓流/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="日本",NTVNews24
+https://akariko-bck1.sankuria.sbs/stream/jp/ntv_news24/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="日本",TBSNews
+https://akariko-bck1.sankuria.sbs/stream/jp/tbs_news/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="日本",ウェザーニューズ
+https://akariko-bck1.sankuria.sbs/stream/jp/weather_news/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="日本",NHKG
+http://iptv.852851.xyz/l/l0hhtORXUfRMX9MlC6lewa0FRLTbhWy0Znsyq9j3S-p6tL1JNWERKlqXmJ_-u_Y0/play
+#EXTINF:-1 group-title="日本",NHKG
+http://iptv.852851.xyz/l/Nv3w2_kS0rs6WDDUm7Y6pdrIpPo7Wke7RwzFYlIhY98Sqs9q3nrInxN9dUSPwnoN/play
+#EXTINF:-1 group-title="日本",NHKBSP
+http://iptv.852851.xyz/l/kRDqaDJvMEz-pdgqR97Xwvy7m1d2HzKrPUDykXCbQfh70aZWJsJTWXpYlCB2V4uS/play
+#EXTINF:-1 group-title="日本",NHKBS8K
+http://iptv.852851.xyz/l/diBH5sI5b8bCCD-zsI0RDct00XI8lHyf2zkMKZi9uZwrKULKXaIYTMPDGfhRc-WH/play
+#EXTINF:-1 group-title="日本",日本テレビ
+http://iptv.852851.xyz/l/cAGS0ppiGI0t5l06Y1y-hmcjDQ3G01SK2yPb--zr1tDixWMLMhQVRRHUxR18Dktr/play
+#EXTINF:-1 group-title="日本",TBS
+http://iptv.852851.xyz/l/eDhgZEVyvpQ7GfgMDXsHNqzC-ORplKIGqHf4bhSWlBIEBcGzFGgyFy6lVRz-l-3g/play
+#EXTINF:-1 group-title="日本",フジテレビ
+http://iptv.852851.xyz/l/1wNWOMmPIIyISdc1bxg6yWasowxTipgGomCa2Qt3yezQDxIhw6_GJ-FBzHCPYvTl/play
+#EXTINF:-1 group-title="日本",フジテレビ
+http://iptv.852851.xyz/l/FlTyBn3BkTppKAPMqSu--9Xbz1wX6vprYhsPeVeB6ffyVxroDfk_27quPXIdr5yM/play
+#EXTINF:-1 group-title="日本",テレビ朝日
+http://iptv.852851.xyz/l/MvjgcZr4NMsxg4moWADo-_qlMTBE75J5_2Nds9bqyjq2Kt1aKNZh1aAtkj6kvwAD/play
+#EXTINF:-1 group-title="日本",テレビ朝日
+http://iptv.852851.xyz/l/FPmlURF1R_s2x3Hfc_Riy0lyPKDIwd2cB8DYlHJKlgytI8fdGwVikPuyr7jjFO5H/play
+#EXTINF:-1 group-title="日本",NHKG
+http://58.82.168.138:5002/hdgd01.m3u8?token=guoziyun&channel=zhongying
+#EXTINF:-1 group-title="日本",NHKG
+http://58.82.168.138:5002/gd01.m3u8?token=guoziyun&channel=zhongying
+#EXTINF:-1 group-title="日本",NHKG
+http://58.82.168.138:5002/gx06.m3u8?token=guoziyun&channel=zhongying
+#EXTINF:-1 group-title="日本",NHKBS
+http://58.82.168.138:5002/bs11.m3u8?token=guoziyun&channel=zhongying
+#EXTINF:-1 group-title="日本",NHKBSP
+http://58.82.168.138:5002/bs01.m3u8?token=guoziyun&channel=zhongying
+#EXTINF:-1 group-title="日本",NHKE
+http://58.82.168.138:5002/hdgd02.m3u8?token=guoziyun&channel=zhongying
+#EXTINF:-1 group-title="日本",日本テレビ
+http://58.82.168.138:5002/hdgd03.m3u8?token=guoziyun&channel=zhongying
+#EXTINF:-1 group-title="日本",日本テレビ
+http://58.82.168.138:5002/gd03.m3u8?token=guoziyun&channel=zhongying
+#EXTINF:-1 group-title="日本",日本テレビ
+http://58.82.168.138:5002/gx04.m3u8?token=guoziyun&channel=zhongying
+#EXTINF:-1 group-title="日本",TBS
+http://58.82.168.138:5002/hdgd04.m3u8?token=guoziyun&channel=zhongying
+#EXTINF:-1 group-title="日本",TBS
+http://58.82.168.138:5002/gd04.m3u8?token=guoziyun&channel=zhongying
+#EXTINF:-1 group-title="日本",TBS
+http://58.82.168.138:5002/gx01.m3u8?token=guoziyun&channel=zhongying
+#EXTINF:-1 group-title="日本",フジテレビ
+http://58.82.168.138:5002/hdgd05.m3u8?token=guoziyun&channel=zhongying
+#EXTINF:-1 group-title="日本",フジテレビ
+http://58.82.168.138:5002/gd05.m3u8?token=guoziyun&channel=zhongying
+#EXTINF:-1 group-title="日本",フジテレビ
+http://58.82.168.138:5002/gx03.m3u8?token=guoziyun&channel=zhongying
+#EXTINF:-1 group-title="日本",テレビ朝日
+http://58.82.168.138:5002/hdgd06.m3u8?token=guoziyun&channel=zhongying
+#EXTINF:-1 group-title="日本",テレビ朝日
+http://58.82.168.138:5002/gd06.m3u8?token=guoziyun&channel=zhongying
+#EXTINF:-1 group-title="日本",テレビ朝日
+http://58.82.168.138:5002/gx02.m3u8?token=guoziyun&channel=zhongying
+#EXTINF:-1 group-title="日本",テレビ東京
+http://58.82.168.138:5002/hdgd07.m3u8?token=guoziyun&channel=zhongying
+#EXTINF:-1 group-title="日本",テレビ東京
+http://58.82.168.138:5002/gd07.m3u8?token=guoziyun&channel=zhongying
+#EXTINF:-1 group-title="日本",テレビ東京
+http://58.82.168.138:5002/gx05.m3u8?token=guoziyun&channel=zhongying
+#EXTINF:-1 group-title="日本",BS日テレ
+http://58.82.168.138:5002/bs02.m3u8?token=guoziyun&channel=zhongying
+#EXTINF:-1 group-title="日本",BSTBS
+http://58.82.168.138:5002/bs04.m3u8?token=guoziyun&channel=zhongying
+#EXTINF:-1 group-title="日本",BSフジ
+http://58.82.168.138:5002/bs06.m3u8?token=guoziyun&channel=zhongying
+#EXTINF:-1 group-title="日本",BS朝日
+http://58.82.168.138:5002/bs03.m3u8?token=guoziyun&channel=zhongying
+#EXTINF:-1 group-title="日本",BSテレ東
+http://58.82.168.138:5002/bs05.m3u8?token=guoziyun&channel=zhongying
+#EXTINF:-1 group-title="日本",ディスカバリー
+http://58.82.168.138:5002/cs08.m3u8?token=guoziyun&channel=zhongying
+#EXTINF:-1 group-title="日本",ナショジオ
+http://58.82.168.138:5002/cs10.m3u8?token=guoziyun&channel=zhongying
+#EXTINF:-1 group-title="日本",ヒストリー
+http://58.82.168.138:5002/cs09.m3u8?token=guoziyun&channel=zhongying
+#EXTINF:-1 group-title="日本",アニマルプラネット
+http://58.82.168.138:5002/cs24.m3u8?token=guoziyun&channel=zhongying
+#EXTINF:-1 group-title="日本",旅
+http://58.82.168.138:5002/cs12.m3u8?token=guoziyun&channel=zhongying
+#EXTINF:-1 group-title="日本",MondoTV
+http://58.82.168.138:5002/cs21.m3u8?token=guoziyun&channel=zhongying
+#EXTINF:-1 group-title="日本",J:COM
+http://58.82.168.138:5002/bs31.m3u8?token=guoziyun&channel=zhongying
+#EXTINF:-1 group-title="日本",東映
+http://58.82.168.138:5002/cs27.m3u8?token=guoziyun&channel=zhongying
+#EXTINF:-1 group-title="日本",日本映画
+http://58.82.168.138:5002/bs23.m3u8?token=guoziyun&channel=zhongying
+#EXTINF:-1 group-title="日本",ムービープラス
+http://58.82.168.138:5002/cs14.m3u8?token=guoziyun&channel=zhongying
+#EXTINF:-1 group-title="日本",BS10プレミアム
+http://58.82.168.138:5002/bs08.m3u8?token=guoziyun&channel=zhongying
+#EXTINF:-1 group-title="日本",衛星劇場
+http://58.82.168.138:5002/cs22.m3u8?token=guoziyun&channel=zhongying
+#EXTINF:-1 group-title="日本",スカイA
+http://58.82.168.138:5002/cs01.m3u8?token=guoziyun&channel=zhongying
+#EXTINF:-1 group-title="日本",WOWOWプライム
+http://58.82.168.138:5002/bs12.m3u8?token=guoziyun&channel=zhongying
+#EXTINF:-1 group-title="日本",WOWOWライブ
+http://58.82.168.138:5002/bs20.m3u8?token=guoziyun&channel=zhongying
+#EXTINF:-1 group-title="日本",WOWOWシネマ
+http://58.82.168.138:5002/bs07.m3u8?token=guoziyun&channel=zhongying
+#EXTINF:-1 group-title="日本",ホームドラマ
+http://58.82.168.138:5002/cs05.m3u8?token=guoziyun&channel=zhongying
+#EXTINF:-1 group-title="日本",時代劇
+http://58.82.168.138:5002/cs04.m3u8?token=guoziyun&channel=zhongying
+#EXTINF:-1 group-title="日本",ファミリー劇場
+http://58.82.168.138:5002/cs20.m3u8?token=guoziyun&channel=zhongying
+#EXTINF:-1 group-title="日本",宝塚歌劇
+http://58.82.168.138:5002/cs28.m3u8?token=guoziyun&channel=zhongying
+#EXTINF:-1 group-title="日本",歌謡ポップス
+http://58.82.168.138:5002/cs13.m3u8?token=guoziyun&channel=zhongying
+#EXTINF:-1 group-title="日本",GAORASPORTS
+http://58.82.168.138:5002/cs17.m3u8?token=guoziyun&channel=zhongying
+#EXTINF:-1 group-title="日本",MTV
+http://58.82.168.138:5002/cs18.m3u8?token=guoziyun&channel=zhongying
+#EXTINF:-1 group-title="日本",ミュージックジャパン
+http://58.82.168.138:5002/cs06.m3u8?token=guoziyun&channel=zhongying
+#EXTINF:-1 group-title="日本",LaLa
+http://58.82.168.138:5002/cs19.m3u8?token=guoziyun&channel=zhongying
+#EXTINF:-1 group-title="日本",スペースシャワー
+http://58.82.168.138:5002/bs26.m3u8?token=guoziyun&channel=zhongying
+#EXTINF:-1 group-title="日本",JSports1
+http://58.82.168.138:5002/bs18.m3u8?token=guoziyun&channel=zhongying
+#EXTINF:-1 group-title="日本",JSports2
+http://58.82.168.138:5002/bs19.m3u8?token=guoziyun&channel=zhongying
+#EXTINF:-1 group-title="日本",JSports3
+http://58.82.168.138:5002/bs21.m3u8?token=guoziyun&channel=zhongying
+#EXTINF:-1 group-title="日本",JSports4
+http://58.82.168.138:5002/bs22.m3u8?token=guoziyun&channel=zhongying
+#EXTINF:-1 group-title="日本",ゴルフネットワーク
+http://58.82.168.138:5002/cs03.m3u8?token=guoziyun&channel=zhongying
+#EXTINF:-1 group-title="日本",釣りビジョン
+http://58.82.168.138:5002/bs25.m3u8?token=guoziyun&channel=zhongying
+#EXTINF:-1 group-title="日本",銀河
+http://58.82.168.138:5002/cs29.m3u8?token=guoziyun&channel=zhongying
+#EXTINF:-1 group-title="日本",日テレG+
+http://58.82.168.138:5002/cs02.m3u8?token=guoziyun&channel=zhongying
+#EXTINF:-1 group-title="日本",TBSNEWS
+http://58.82.168.138:5002/cs11.m3u8?token=guoziyun&channel=zhongying
+#EXTINF:-1 group-title="日本",フジテレビNEXT
+http://58.82.168.138:5002/cs26.m3u8?token=guoziyun&channel=zhongying
+#EXTINF:-1 group-title="日本",NHKG
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=hdgd01&isp=5-15
+#EXTINF:-1 group-title="日本",NHKG
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gd01&isp=5-15
+#EXTINF:-1 group-title="日本",NHKG
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gx06&isp=5-15
+#EXTINF:-1 group-title="日本",NHKBS
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs11&isp=5-15
+#EXTINF:-1 group-title="日本",NHKBSP
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs01&isp=5-15
+#EXTINF:-1 group-title="日本",NHKE
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=hdgd02&isp=5-15
+#EXTINF:-1 group-title="日本",日本テレビ
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=hdgd03&isp=5-15
+#EXTINF:-1 group-title="日本",日本テレビ
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gd03&isp=5-15
+#EXTINF:-1 group-title="日本",日本テレビ
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gx04&isp=5-15
+#EXTINF:-1 group-title="日本",TBS
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=hdgd04&isp=5-15
+#EXTINF:-1 group-title="日本",TBS
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gd04&isp=5-15
+#EXTINF:-1 group-title="日本",TBS
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gx01&isp=5-15
+#EXTINF:-1 group-title="日本",フジテレビ
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=hdgd05&isp=5-15
+#EXTINF:-1 group-title="日本",フジテレビ
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gd05&isp=5-15
+#EXTINF:-1 group-title="日本",フジテレビ
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gx03&isp=5-15
+#EXTINF:-1 group-title="日本",テレビ朝日
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=hdgd06&isp=5-15
+#EXTINF:-1 group-title="日本",テレビ朝日
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gd06&isp=5-15
+#EXTINF:-1 group-title="日本",テレビ朝日
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gx02&isp=5-15
+#EXTINF:-1 group-title="日本",テレビ東京
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=hdgd07&isp=5-15
+#EXTINF:-1 group-title="日本",テレビ東京
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gd07&isp=5-15
+#EXTINF:-1 group-title="日本",テレビ東京
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gx05&isp=5-15
+#EXTINF:-1 group-title="日本",BS日テレ
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs02&isp=5-15
+#EXTINF:-1 group-title="日本",BSTBS
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs04&isp=5-15
+#EXTINF:-1 group-title="日本",BSフジ
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs06&isp=5-15
+#EXTINF:-1 group-title="日本",BS朝日
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs03&isp=5-15
+#EXTINF:-1 group-title="日本",BSテレ東
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs05&isp=5-15
+#EXTINF:-1 group-title="日本",ディスカバリー
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs08&isp=5-15
+#EXTINF:-1 group-title="日本",ナショジオ
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs10&isp=5-15
+#EXTINF:-1 group-title="日本",ヒストリー
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs09&isp=5-15
+#EXTINF:-1 group-title="日本",アニマルプラネット
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs24&isp=5-15
+#EXTINF:-1 group-title="日本",旅
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs12&isp=5-15
+#EXTINF:-1 group-title="日本",MondoTV
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs21&isp=5-15
+#EXTINF:-1 group-title="日本",J:COM
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs31&isp=5-15
+#EXTINF:-1 group-title="日本",東映
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs27&isp=5-15
+#EXTINF:-1 group-title="日本",日本映画
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs23&isp=5-15
+#EXTINF:-1 group-title="日本",ムービープラス
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs14&isp=5-15
+#EXTINF:-1 group-title="日本",衛星劇場
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs22&isp=5-15
+#EXTINF:-1 group-title="日本",スカイA
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs01&isp=5-15
+#EXTINF:-1 group-title="日本",WOWOWプライム
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs12&isp=5-15
+#EXTINF:-1 group-title="日本",WOWOWライブ
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs20&isp=5-15
+#EXTINF:-1 group-title="日本",WOWOWシネマ
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs07&isp=5-15
+#EXTINF:-1 group-title="日本",BS10プレミアム
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs08&isp=5-15
+#EXTINF:-1 group-title="日本",ホームドラマ
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs05&isp=5-15
+#EXTINF:-1 group-title="日本",時代劇
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs04&isp=5-15
+#EXTINF:-1 group-title="日本",ファミリー劇場
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs20&isp=5-15
+#EXTINF:-1 group-title="日本",宝塚歌劇
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs28&isp=5-15
+#EXTINF:-1 group-title="日本",歌謡ポップス
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs13&isp=5-15
+#EXTINF:-1 group-title="日本",GAORASPORTS
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs17&isp=5-15
+#EXTINF:-1 group-title="日本",MTV
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs18&isp=5-15
+#EXTINF:-1 group-title="日本",ミュージックジャパン
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs06&isp=5-15
+#EXTINF:-1 group-title="日本",LaLa
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs19&isp=5-15
+#EXTINF:-1 group-title="日本",スペースシャワー
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs26&isp=5-15
+#EXTINF:-1 group-title="日本",JSports1
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs18&isp=5-15
+#EXTINF:-1 group-title="日本",JSports2
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs19&isp=5-15
+#EXTINF:-1 group-title="日本",JSports3
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs21&isp=5-15
+#EXTINF:-1 group-title="日本",JSports4
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs22&isp=5-15
+#EXTINF:-1 group-title="日本",ゴルフネットワーク
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs03&isp=5-15
+#EXTINF:-1 group-title="日本",釣りビジョン
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs25&isp=5-15
+#EXTINF:-1 group-title="日本",銀河
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs29&isp=5-15
+#EXTINF:-1 group-title="日本",日テレG+
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs02&isp=5-15
+#EXTINF:-1 group-title="日本",TBSNEWS
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs11&isp=5-15
+#EXTINF:-1 group-title="日本",フジテレビNEXT
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs26&isp=5-15
+#EXTINF:-1 group-title="日本",ガキの使い
+https://hamada.gaki-no-tsukai.stream/hls/test.m3u8
+#EXTINF:-1 group-title="日本",ぴあ落語ざんまい
+https://livetv.fastv.jp/channel_assembly/69608EE9725E0F73BF30/master.m3u8
+#EXTINF:-1 group-title="日本",ぴあ落語ざんまい
+https://livetv.fastv.jp/channel_assembly/69608EE9725E0F73BF30/master.m3u8
+#EXTINF:-1 group-title="日本",刺激ストロング
+https://cdn-apne1.tsv2.amagi.tv/linear/amg01287-rakutentvjapan-shigekicmaf-rakutenjp/playlist.m3u8
+#EXTINF:-1 group-title="日本",NHKBSP⁴ᵏ
+https://tsb-mega.i9.ee/stream/nhkbsp4k_hevc
+#EXTINF:-1 group-title="日本",NHKG
+https://nhk4.mov3.co/hls/nhk.m3u8
+#EXTINF:-1 group-title="日本",日本テレビ
+https://ntv4.mov3.co/hls/ntv.m3u8
+#EXTINF:-1 group-title="日本",TBS
+https://tbs5.mov3.co/hls/tbs.m3u8
+#EXTINF:-1 group-title="日本",フジテレビ
+https://fujitv4.mov3.co/hls/fujitv.m3u8
+#EXTINF:-1 group-title="日本",NHKG
+http://tsb-mega.i9.ee/stream/nhkg_hevc_1080p
+#EXTINF:-1 group-title="日本",NHKG
+http://tsb-mega.i9.ee/stream/nhkg_avc_1080p
+#EXTINF:-1 group-title="日本",NHKBSP
+https://tsb-mega.i9.ee/stream/nhkbsp4k_hevc
+#EXTINF:-1 group-title="日本",NHKBSP
+https://tsb-mega.i9.ee/stream/nhkbsp4k_hevc_mmt
+#EXTINF:-1 group-title="大内宣",CCTV1
+http://39.150.102.131:19901/tsfile/live/0001_1.m3u8
+#EXTINF:-1 group-title="大内宣",CCTV2
+http://39.150.102.131:19901/tsfile/live/0002_1.m3u8
+#EXTINF:-1 group-title="大内宣",CCTV3
+http://39.150.102.131:19901/tsfile/live/0003_1.m3u8
+#EXTINF:-1 group-title="大内宣",CCTV3
+http://39.150.102.131:19901/tsfile/live/0017_13.m3u8
+#EXTINF:-1 group-title="大内宣",CCTV4
+http://39.150.102.131:19901/tsfile/live/0004_1.m3u8
+#EXTINF:-1 group-title="大内宣",CCTV5
+http://39.150.102.131:19901/tsfile/live/0005_1.m3u8
+#EXTINF:-1 group-title="大内宣",CCTV5+
+http://39.150.102.131:19901/tsfile/live/0017_1.m3u8
+#EXTINF:-1 group-title="大内宣",CCTV6
+http://39.150.102.131:19901/tsfile/live/0006_1.m3u8
+#EXTINF:-1 group-title="大内宣",CCTV7
+http://39.150.102.131:19901/tsfile/live/0007_1.m3u8
+#EXTINF:-1 group-title="大内宣",CCTV8
+http://39.150.102.131:19901/tsfile/live/0008_1.m3u8
+#EXTINF:-1 group-title="大内宣",CCTV9
+http://39.150.102.131:19901/tsfile/live/0009_1.m3u8
+#EXTINF:-1 group-title="大内宣",CCTV10
+http://39.150.102.131:19901/tsfile/live/0010_1.m3u8
+#EXTINF:-1 group-title="大内宣",CCTV11
+http://39.150.102.131:19901/tsfile/live/0011_1.m3u8
+#EXTINF:-1 group-title="大内宣",CCTV12
+http://39.150.102.131:19901/tsfile/live/0012_1.m3u8
+#EXTINF:-1 group-title="大内宣",CCTV13
+http://39.150.102.131:19901/tsfile/live/0013_1.m3u8
+#EXTINF:-1 group-title="大内宣",CCTV14
+http://39.150.102.131:19901/tsfile/live/0014_1.m3u8
+#EXTINF:-1 group-title="大内宣",CCTV15
+http://39.150.102.131:19901/tsfile/live/0015_1.m3u8
+#EXTINF:-1 group-title="大内宣",CCTV17
+http://39.150.102.131:19901/tsfile/live/0007_2.m3u8
+#EXTINF:-1 group-title="大内宣",河南卫视
+http://39.150.102.131:19901/tsfile/live/0139_1.m3u8
+#EXTINF:-1 group-title="大内宣",湖南卫视
+http://39.150.102.131:19901/tsfile/live/0128_1.m3u8
+#EXTINF:-1 group-title="大内宣",江苏卫视
+http://39.150.102.131:19901/tsfile/live/0127_1.m3u8
+#EXTINF:-1 group-title="大内宣",浙江卫视
+http://39.150.102.131:19901/tsfile/live/0124_1.m3u8
+#EXTINF:-1 group-title="大内宣",北京卫视
+http://39.150.102.131:19901/tsfile/live/0122_1.m3u8
+#EXTINF:-1 group-title="大内宣",东方卫视
+http://39.150.102.131:19901/tsfile/live/0107_1.m3u8
+#EXTINF:-1 group-title="大内宣",天津卫视
+http://39.150.102.131:19901/tsfile/live/0135_1.m3u8
+#EXTINF:-1 group-title="大内宣",山东卫视
+http://39.150.102.131:19901/tsfile/live/0131_1.m3u8
+#EXTINF:-1 group-title="大内宣",安徽卫视
+http://39.150.102.131:19901/tsfile/live/0130_1.m3u8
+#EXTINF:-1 group-title="大内宣",深圳卫视
+http://39.150.102.131:19901/tsfile/live/0126_1.m3u8
+#EXTINF:-1 group-title="大内宣",湖北卫视
+http://39.150.102.131:19901/tsfile/live/0132_1.m3u8
+#EXTINF:-1 group-title="大内宣",黑龙江卫视
+http://39.150.102.131:19901/tsfile/live/0143_1.m3u8
+#EXTINF:-1 group-title="大内宣",江西卫视
+http://39.150.102.131:19901/tsfile/live/0138_1.m3u8
+#EXTINF:-1 group-title="大内宣",四川卫视
+http://39.150.102.131:19901/tsfile/live/0123_1.m3u8
+#EXTINF:-1 group-title="大内宣",云南卫视
+http://39.150.102.131:19901/tsfile/live/0119_1.m3u8
+#EXTINF:-1 group-title="大内宣",贵州卫视
+http://39.150.102.131:19901/tsfile/live/0120_1.m3u8
+#EXTINF:-1 group-title="大内宣",辽宁卫视
+http://39.150.102.131:19901/tsfile/live/0121_1.m3u8
+#EXTINF:-1 group-title="大内宣",东南卫视
+http://39.150.102.131:19901/tsfile/live/0137_1.m3u8
+#EXTINF:-1 group-title="大内宣",重庆卫视
+http://39.150.102.131:19901/tsfile/live/0142_1.m3u8
+#EXTINF:-1 group-title="大内宣",广东卫视
+http://39.150.102.131:19901/tsfile/live/0125_1.m3u8
+#EXTINF:-1 group-title="大内宣",广西卫视
+http://39.150.102.131:19901/tsfile/live/0113_1.m3u8
+#EXTINF:-1 group-title="大内宣",河北卫视
+http://39.150.102.131:19901/tsfile/live/0117_1.m3u8
+#EXTINF:-1 group-title="大内宣",吉林卫视
+http://39.150.102.131:19901/tsfile/live/0116_1.m3u8
+#EXTINF:-1 group-title="大内宣",山西卫视
+http://39.150.102.131:19901/tsfile/live/0118_1.m3u8
+#EXTINF:-1 group-title="大内宣",陕西卫视
+http://39.150.102.131:19901/tsfile/live/0136_1.m3u8
+#EXTINF:-1 group-title="大内宣",甘肃卫视
+http://39.150.102.131:19901/tsfile/live/0141_1.m3u8
+#EXTINF:-1 group-title="大内宣",宁夏卫视
+http://39.150.102.131:19901/tsfile/live/0112_1.m3u8
+#EXTINF:-1 group-title="大内宣",青海卫视
+http://39.150.102.131:19901/tsfile/live/0140_1.m3u8
+#EXTINF:-1 group-title="大内宣",内蒙古卫视
+http://39.150.102.131:19901/tsfile/live/0109_1.m3u8
+#EXTINF:-1 group-title="大内宣",西藏卫视
+http://39.150.102.131:19901/tsfile/live/0111_1.m3u8
+#EXTINF:-1 group-title="大内宣",新疆卫视
+http://39.150.102.131:19901/tsfile/live/0110_1.m3u8
+#EXTINF:-1 group-title="大内宣",兵团卫视
+http://39.150.102.131:19901/tsfile/live/0017_6.m3u8
+#EXTINF:-1 group-title="大内宣",CCTV1
+http://113.26.251.182:8009/hls/1/index.m3u8
+#EXTINF:-1 group-title="大内宣",CCTV2
+http://113.26.251.182:8009/hls/2/index.m3u8
+#EXTINF:-1 group-title="大内宣",CCTV3
+http://113.26.251.182:8009/hls/3/index.m3u8
+#EXTINF:-1 group-title="大内宣",CCTV4
+http://113.26.251.182:8009/hls/4/index.m3u8
+#EXTINF:-1 group-title="大内宣",CCTV5
+http://113.26.251.182:8009/hls/5/index.m3u8
+#EXTINF:-1 group-title="大内宣",CCTV5+
+http://113.26.251.182:8009/hls/18/index.m3u8
+#EXTINF:-1 group-title="大内宣",CCTV6
+http://113.26.251.182:8009/hls/6/index.m3u8
+#EXTINF:-1 group-title="大内宣",CCTV7
+http://113.26.251.182:8009/hls/7/index.m3u8
+#EXTINF:-1 group-title="大内宣",CCTV8
+http://113.26.251.182:8009/hls/8/index.m3u8
+#EXTINF:-1 group-title="大内宣",CCTV9
+http://113.26.251.182:8009/hls/9/index.m3u8
+#EXTINF:-1 group-title="大内宣",CCTV10
+http://113.26.251.182:8009/hls/10/index.m3u8
+#EXTINF:-1 group-title="大内宣",CCTV11
+http://113.26.251.182:8009/hls/11/index.m3u8
+#EXTINF:-1 group-title="大内宣",CCTV12
+http://113.26.251.182:8009/hls/12/index.m3u8
+#EXTINF:-1 group-title="大内宣",CCTV13
+http://113.26.251.182:8009/hls/13/index.m3u8
+#EXTINF:-1 group-title="大内宣",CCTV14
+http://113.26.251.182:8009/hls/14/index.m3u8
+#EXTINF:-1 group-title="大内宣",CCTV15
+http://113.26.251.182:8009/hls/15/index.m3u8
+#EXTINF:-1 group-title="大内宣",CCTV17
+http://113.26.251.182:8009/hls/17/index.m3u8
+#EXTINF:-1 group-title="大内宣",东南卫视
+http://113.26.251.182:8009/hls/57/index.m3u8
+#EXTINF:-1 group-title="大内宣",东方卫视
+http://113.26.251.182:8009/hls/29/index.m3u8
+#EXTINF:-1 group-title="大内宣",云南卫视
+http://113.26.251.182:8009/hls/33/index.m3u8
+#EXTINF:-1 group-title="大内宣",优漫卡通
+http://113.26.251.182:8009/hls/60/index.m3u8
+#EXTINF:-1 group-title="大内宣",内蒙卫视
+http://113.26.251.182:8009/hls/47/index.m3u8
+#EXTINF:-1 group-title="大内宣",北京卫视
+http://113.26.251.182:8009/hls/30/index.m3u8
+#EXTINF:-1 group-title="大内宣",卡酷少儿
+http://113.26.251.182:8009/hls/61/index.m3u8
+#EXTINF:-1 group-title="大内宣",吉林卫视
+http://113.26.251.182:8009/hls/46/index.m3u8
+#EXTINF:-1 group-title="大内宣",四川卫视
+http://113.26.251.182:8009/hls/38/index.m3u8
+#EXTINF:-1 group-title="大内宣",天津卫视
+http://113.26.251.182:8009/hls/40/index.m3u8
+#EXTINF:-1 group-title="大内宣",宁夏卫视
+http://113.26.251.182:8009/hls/52/index.m3u8
+#EXTINF:-1 group-title="大内宣",安徽卫视
+http://113.26.251.182:8009/hls/50/index.m3u8
+#EXTINF:-1 group-title="大内宣",山东卫视
+http://113.26.251.182:8009/hls/41/index.m3u8
+#EXTINF:-1 group-title="大内宣",山西卫视
+http://113.26.251.182:8009/hls/19/index.m3u8
+#EXTINF:-1 group-title="大内宣",广东卫视
+http://113.26.251.182:8009/hls/48/index.m3u8
+#EXTINF:-1 group-title="大内宣",广西卫视
+http://113.26.251.182:8009/hls/36/index.m3u8
+#EXTINF:-1 group-title="大内宣",教育卫视
+http://113.26.251.182:8009/hls/65/index.m3u8
+#EXTINF:-1 group-title="大内宣",新疆卫视
+http://113.26.251.182:8009/hls/55/index.m3u8
+#EXTINF:-1 group-title="大内宣",江苏卫视
+http://113.26.251.182:8009/hls/34/index.m3u8
+#EXTINF:-1 group-title="大内宣",江西卫视
+http://113.26.251.182:8009/hls/49/index.m3u8
+#EXTINF:-1 group-title="大内宣",河北卫视
+http://113.26.251.182:8009/hls/45/index.m3u8
+#EXTINF:-1 group-title="大内宣",浙江卫视
+http://113.26.251.182:8009/hls/35/index.m3u8
+#EXTINF:-1 group-title="大内宣",深圳卫视
+http://113.26.251.182:8009/hls/42/index.m3u8
+#EXTINF:-1 group-title="大内宣",湖北卫视
+http://113.26.251.182:8009/hls/39/index.m3u8
+#EXTINF:-1 group-title="大内宣",湖南卫视
+http://113.26.251.182:8009/hls/31/index.m3u8
+#EXTINF:-1 group-title="大内宣",甘肃卫视
+http://113.26.251.182:8009/hls/51/index.m3u8
+#EXTINF:-1 group-title="大内宣",西藏卫视
+http://113.26.251.182:8009/hls/54/index.m3u8
+#EXTINF:-1 group-title="大内宣",贵州卫视
+http://113.26.251.182:8009/hls/37/index.m3u8
+#EXTINF:-1 group-title="大内宣",辽宁卫视
+http://113.26.251.182:8009/hls/43/index.m3u8
+#EXTINF:-1 group-title="大内宣",重庆卫视
+http://113.26.251.182:8009/hls/32/index.m3u8
+#EXTINF:-1 group-title="大内宣",青海卫视
+http://113.26.251.182:8009/hls/53/index.m3u8
+#EXTINF:-1 group-title="大内宣",龙江卫视
+http://113.26.251.182:8009/hls/44/index.m3u8
+#EXTINF:-1 group-title="大内宣",CCTV1
+http://45.192.97.170:8880/play/1.m3u8
+#EXTINF:-1 group-title="大内宣",CCTV2
+http://45.192.97.170:8880/play/2.m3u8
+#EXTINF:-1 group-title="大内宣",CCTV3
+http://45.192.97.170:8880/play/3.m3u8
+#EXTINF:-1 group-title="大内宣",CCTV4
+http://45.192.97.170:8880/play/4.m3u8
+#EXTINF:-1 group-title="大内宣",CCTV5
+http://45.192.97.170:8880/play/5.m3u8
+#EXTINF:-1 group-title="大内宣",CCTV5+
+http://45.192.97.170:8880/play/6.m3u8
+#EXTINF:-1 group-title="大内宣",CCTV6
+http://45.192.97.170:8880/play/7.m3u8
+#EXTINF:-1 group-title="大内宣",CCTV7
+http://45.192.97.170:8880/play/8.m3u8
+#EXTINF:-1 group-title="大内宣",CCTV8
+http://45.192.97.170:8880/play/9.m3u8
+#EXTINF:-1 group-title="大内宣",CCTV9
+http://45.192.97.170:8880/play/10.m3u8
+#EXTINF:-1 group-title="大内宣",CCTV10
+http://45.192.97.170:8880/play/11.m3u8
+#EXTINF:-1 group-title="大内宣",CCTV11
+http://45.192.97.170:8880/play/12.m3u8
+#EXTINF:-1 group-title="大内宣",CCTV12
+http://45.192.97.170:8880/play/13.m3u8
+#EXTINF:-1 group-title="大内宣",CCTV13
+http://45.192.97.170:8880/play/14.m3u8
+#EXTINF:-1 group-title="大内宣",CCTV14
+http://45.192.97.170:8880/play/15.m3u8
+#EXTINF:-1 group-title="大内宣",CCTV15
+http://45.192.97.170:8880/play/16.m3u8
+#EXTINF:-1 group-title="大内宣",CCTV17
+http://45.192.97.170:8880/play/17.m3u8
+#EXTINF:-1 group-title="大内宣",东方卫视
+http://45.192.97.170:8880/play/26.m3u8
+#EXTINF:-1 group-title="大内宣",东方卫视
+http://bp-resource-dfl.bestv.cn/151/3/video.m3u8
+#EXTINF:-1 group-title="大内宣",江苏卫视
+http://45.192.97.170:8880/play/27.m3u8
+#EXTINF:-1 group-title="大内宣",广东卫视
+http://45.192.97.170:8880/play/28.m3u8
+#EXTINF:-1 group-title="大内宣",北京卫视
+http://45.192.97.170:8880/play/29.m3u8
+#EXTINF:-1 group-title="大内宣",辽宁卫视
+http://45.192.97.170:8880/play/30.m3u8
+#EXTINF:-1 group-title="大内宣",河北卫视
+http://45.192.97.170:8880/play/31.m3u8
+#EXTINF:-1 group-title="大内宣",江西卫视
+http://45.192.97.170:8880/play/32.m3u8
+#EXTINF:-1 group-title="大内宣",陕西卫视
+http://45.192.97.170:8880/play/33.m3u8
+#EXTINF:-1 group-title="大内宣",湖北卫视
+http://45.192.97.170:8880/play/34.m3u8
+#EXTINF:-1 group-title="大内宣",农林卫视
+http://45.192.97.170:8880/play/35.m3u8
+#EXTINF:-1 group-title="大内宣",兵团卫视
+http://45.192.97.170:8880/play/36.m3u8
+#EXTINF:-1 group-title="大内宣",宁夏卫视
+https://hls.nxhhy.cn/live/nxws1M.m3u8
+#EXTINF:-1 group-title="大内宣",延边卫视
+https://srs.iybtv.cn/video/CYS1/index.m3u8
+#EXTINF:-1 group-title="大内宣",黑龙江卫视
+https://idclive.hljtv.com:4430/live/hljws_own.m3u8
+#EXTINF:-1 group-title="大内宣",CCTV1
+http://58.210.97.102:1234/608807420
+#EXTINF:-1 group-title="大内宣",CCTV1
+http://171.37.59.95:1234/608807420
+#EXTINF:-1 group-title="大内宣",CCTV1
+http://119.233.255.62:1234/608807420
+#EXTINF:-1 group-title="大内宣",CCTV2
+http://58.210.97.102:1234/631780532
+#EXTINF:-1 group-title="大内宣",CCTV2
+http://171.37.59.95:1234/631780532
+#EXTINF:-1 group-title="大内宣",CCTV2
+http://119.233.255.62:1234/631780532
+#EXTINF:-1 group-title="大内宣",CCTV3
+http://58.210.97.102:1234/624878271
+#EXTINF:-1 group-title="大内宣",CCTV3
+http://171.37.59.95:1234/624878271
+#EXTINF:-1 group-title="大内宣",CCTV3
+http://119.233.255.62:1234/624878271
+#EXTINF:-1 group-title="大内宣",CCTV4
+http://58.210.97.102:1234/631780421
+#EXTINF:-1 group-title="大内宣",CCTV4
+http://171.37.59.95:1234/631780421
+#EXTINF:-1 group-title="大内宣",CCTV4
+http://119.233.255.62:1234/631780421
+#EXTINF:-1 group-title="大内宣",CCTV5
+http://58.210.97.102:1234/641886683
+#EXTINF:-1 group-title="大内宣",CCTV5
+http://171.37.59.95:1234/641886683
+#EXTINF:-1 group-title="大内宣",CCTV5
+http://119.233.255.62:1234/641886683
+#EXTINF:-1 group-title="大内宣",CCTV5+
+http://58.210.97.102:1234/641886773
+#EXTINF:-1 group-title="大内宣",CCTV5+
+http://171.37.59.95:1234/641886773
+#EXTINF:-1 group-title="大内宣",CCTV5+
+http://119.233.255.62:1234/641886773
+#EXTINF:-1 group-title="大内宣",CCTV6
+http://58.210.97.102:1234/624878396
+#EXTINF:-1 group-title="大内宣",CCTV6
+http://171.37.59.95:1234/624878396
+#EXTINF:-1 group-title="大内宣",CCTV6
+http://119.233.255.62:1234/624878396
+#EXTINF:-1 group-title="大内宣",CCTV7
+http://58.210.97.102:1234/673168121
+#EXTINF:-1 group-title="大内宣",CCTV7
+http://171.37.59.95:1234/673168121
+#EXTINF:-1 group-title="大内宣",CCTV7
+http://119.233.255.62:1234/673168121
+#EXTINF:-1 group-title="大内宣",CCTV8
+http://58.210.97.102:1234/624878356
+#EXTINF:-1 group-title="大内宣",CCTV8
+http://171.37.59.95:1234/624878356
+#EXTINF:-1 group-title="大内宣",CCTV8
+http://119.233.255.62:1234/624878356
+#EXTINF:-1 group-title="大内宣",CCTV9
+http://58.210.97.102:1234/673168140
+#EXTINF:-1 group-title="大内宣",CCTV9
+http://171.37.59.95:1234/673168140
+#EXTINF:-1 group-title="大内宣",CCTV9
+http://119.233.255.62:1234/673168140
+#EXTINF:-1 group-title="大内宣",CCTV10
+http://58.210.97.102:1234/624878405
+#EXTINF:-1 group-title="大内宣",CCTV10
+http://171.37.59.95:1234/624878405
+#EXTINF:-1 group-title="大内宣",CCTV10
+http://119.233.255.62:1234/624878405
+#EXTINF:-1 group-title="大内宣",CCTV11
+http://58.210.97.102:1234/667987558
+#EXTINF:-1 group-title="大内宣",CCTV11
+http://171.37.59.95:1234/667987558
+#EXTINF:-1 group-title="大内宣",CCTV11
+http://119.233.255.62:1234/667987558
+#EXTINF:-1 group-title="大内宣",CCTV12
+http://58.210.97.102:1234/673168185
+#EXTINF:-1 group-title="大内宣",CCTV12
+http://171.37.59.95:1234/673168185
+#EXTINF:-1 group-title="大内宣",CCTV12
+http://119.233.255.62:1234/673168185
+#EXTINF:-1 group-title="大内宣",CCTV13
+http://58.210.97.102:1234/608807423
+#EXTINF:-1 group-title="大内宣",CCTV13
+http://171.37.59.95:1234/608807423
+#EXTINF:-1 group-title="大内宣",CCTV13
+http://119.233.255.62:1234/608807423
+#EXTINF:-1 group-title="大内宣",CCTV14
+http://58.210.97.102:1234/624878440
+#EXTINF:-1 group-title="大内宣",CCTV14
+http://171.37.59.95:1234/624878440
+#EXTINF:-1 group-title="大内宣",CCTV14
+http://119.233.255.62:1234/624878440
+#EXTINF:-1 group-title="大内宣",CCTV15
+http://58.210.97.102:1234/673168223
+#EXTINF:-1 group-title="大内宣",CCTV15
+http://171.37.59.95:1234/673168223
+#EXTINF:-1 group-title="大内宣",CCTV15
+http://119.233.255.62:1234/673168223
+#EXTINF:-1 group-title="大内宣",CCTV17
+http://58.210.97.102:1234/673168256
+#EXTINF:-1 group-title="大内宣",CCTV17
+http://171.37.59.95:1234/673168256
+#EXTINF:-1 group-title="大内宣",CCTV17
+http://119.233.255.62:1234/673168256
+#EXTINF:-1 group-title="大内宣",CCTV4
+http://58.210.97.102:1234/608807419
+#EXTINF:-1 group-title="大内宣",CCTV4
+http://171.37.59.95:1234/608807419
+#EXTINF:-1 group-title="大内宣",CCTV4
+http://119.233.255.62:1234/608807419
+#EXTINF:-1 group-title="大内宣",CCTV4
+http://58.210.97.102:1234/608807416
+#EXTINF:-1 group-title="大内宣",CCTV4
+http://171.37.59.95:1234/608807416
+#EXTINF:-1 group-title="大内宣",CCTV4
+http://119.233.255.62:1234/608807416
+#EXTINF:-1 group-title="大内宣",东方卫视
+http://58.210.97.102:1234/651632648
+#EXTINF:-1 group-title="大内宣",东方卫视
+http://171.37.59.95:1234/651632648
+#EXTINF:-1 group-title="大内宣",东方卫视
+http://119.233.255.62:1234/651632648
+#EXTINF:-1 group-title="大内宣",江苏卫视
+http://58.210.97.102:1234/623899368
+#EXTINF:-1 group-title="大内宣",江苏卫视
+http://171.37.59.95:1234/623899368
+#EXTINF:-1 group-title="大内宣",江苏卫视
+http://119.233.255.62:1234/623899368
+#EXTINF:-1 group-title="大内宣",广东卫视
+http://58.210.97.102:1234/608831231
+#EXTINF:-1 group-title="大内宣",广东卫视
+http://171.37.59.95:1234/608831231
+#EXTINF:-1 group-title="大内宣",广东卫视
+http://119.233.255.62:1234/608831231
+#EXTINF:-1 group-title="大内宣",北京卫视
+http://58.210.97.102:1234/630287636
+#EXTINF:-1 group-title="大内宣",北京卫视
+http://171.37.59.95:1234/630287636
+#EXTINF:-1 group-title="大内宣",北京卫视
+http://119.233.255.62:1234/630287636
+#EXTINF:-1 group-title="大内宣",辽宁卫视
+http://58.210.97.102:1234/630291707
+#EXTINF:-1 group-title="大内宣",辽宁卫视
+http://171.37.59.95:1234/630291707
+#EXTINF:-1 group-title="大内宣",辽宁卫视
+http://119.233.255.62:1234/630291707
+#EXTINF:-1 group-title="大内宣",河北卫视
+http://58.210.97.102:1234/962042070
+#EXTINF:-1 group-title="大内宣",河北卫视
+http://171.37.59.95:1234/962042070
+#EXTINF:-1 group-title="大内宣",河北卫视
+http://119.233.255.62:1234/962042070
+#EXTINF:-1 group-title="大内宣",江西卫视
+http://58.210.97.102:1234/783847495
+#EXTINF:-1 group-title="大内宣",江西卫视
+http://171.37.59.95:1234/783847495
+#EXTINF:-1 group-title="大内宣",江西卫视
+http://119.233.255.62:1234/783847495
+#EXTINF:-1 group-title="大内宣",河南卫视
+http://58.210.97.102:1234/790187291
+#EXTINF:-1 group-title="大内宣",河南卫视
+http://171.37.59.95:1234/790187291
+#EXTINF:-1 group-title="大内宣",河南卫视
+http://119.233.255.62:1234/790187291
+#EXTINF:-1 group-title="大内宣",陕西卫视
+http://58.210.97.102:1234/738910838
+#EXTINF:-1 group-title="大内宣",陕西卫视
+http://171.37.59.95:1234/738910838
+#EXTINF:-1 group-title="大内宣",陕西卫视
+http://119.233.255.62:1234/738910838
+#EXTINF:-1 group-title="大内宣",大湾区卫视
+http://58.210.97.102:1234/608917627
+#EXTINF:-1 group-title="大内宣",大湾区卫视
+http://171.37.59.95:1234/608917627
+#EXTINF:-1 group-title="大内宣",大湾区卫视
+http://119.233.255.62:1234/608917627
+#EXTINF:-1 group-title="大内宣",湖北卫视
+http://58.210.97.102:1234/947472496
+#EXTINF:-1 group-title="大内宣",湖北卫视
+http://171.37.59.95:1234/947472496
+#EXTINF:-1 group-title="大内宣",湖北卫视
+http://119.233.255.62:1234/947472496
+#EXTINF:-1 group-title="大内宣",吉林卫视
+http://58.210.97.102:1234/947472500
+#EXTINF:-1 group-title="大内宣",吉林卫视
+http://171.37.59.95:1234/947472500
+#EXTINF:-1 group-title="大内宣",吉林卫视
+http://119.233.255.62:1234/947472500
+#EXTINF:-1 group-title="大内宣",青海卫视
+http://58.210.97.102:1234/947472506
+#EXTINF:-1 group-title="大内宣",青海卫视
+http://171.37.59.95:1234/947472506
+#EXTINF:-1 group-title="大内宣",青海卫视
+http://119.233.255.62:1234/947472506
+#EXTINF:-1 group-title="大内宣",东南卫视
+http://58.210.97.102:1234/849116810
+#EXTINF:-1 group-title="大内宣",东南卫视
+http://171.37.59.95:1234/849116810
+#EXTINF:-1 group-title="大内宣",东南卫视
+http://119.233.255.62:1234/849116810
+#EXTINF:-1 group-title="大内宣",海南卫视
+http://58.210.97.102:1234/947472502
+#EXTINF:-1 group-title="大内宣",海南卫视
+http://171.37.59.95:1234/947472502
+#EXTINF:-1 group-title="大内宣",海南卫视
+http://119.233.255.62:1234/947472502
+#EXTINF:-1 group-title="大内宣",海峡卫视
+http://58.210.97.102:1234/849119120
+#EXTINF:-1 group-title="大内宣",海峡卫视
+http://171.37.59.95:1234/849119120
+#EXTINF:-1 group-title="大内宣",海峡卫视
+http://119.233.255.62:1234/849119120
+#EXTINF:-1 group-title="大内宣",兵团卫视
+http://58.210.97.102:1234/956923145
+#EXTINF:-1 group-title="大内宣",兵团卫视
+http://171.37.59.95:1234/956923145
+#EXTINF:-1 group-title="大内宣",兵团卫视
+http://119.233.255.62:1234/956923145
+#EXTINF:-1 group-title="大内宣",宁夏卫视
+http://58.210.97.102:1234/738910535
+#EXTINF:-1 group-title="大内宣",宁夏卫视
+http://171.37.59.95:1234/738910535
+#EXTINF:-1 group-title="大内宣",宁夏卫视
+http://119.233.255.62:1234/738910535
+#EXTINF:-1 group-title="大内宣",重庆卫视
+http://58.210.97.102:1234/738910914
+#EXTINF:-1 group-title="大内宣",重庆卫视
+http://171.37.59.95:1234/738910914
+#EXTINF:-1 group-title="大内宣",重庆卫视
+http://119.233.255.62:1234/738910914
+#EXTINF:-1 group-title="大内宣",三沙卫视
+http://58.210.97.102:1234/961023778
+#EXTINF:-1 group-title="大内宣",三沙卫视
+http://171.37.59.95:1234/961023778
+#EXTINF:-1 group-title="大内宣",三沙卫视
+http://119.233.255.62:1234/961023778
+#EXTINF:-1 group-title="大内宣",黑龙江卫视
+http://58.210.97.102:1234/738906901
+#EXTINF:-1 group-title="大内宣",黑龙江卫视
+http://171.37.59.95:1234/738906901
+#EXTINF:-1 group-title="大内宣",黑龙江卫视
+http://119.233.255.62:1234/738906901
+#EXTINF:-1 group-title="大内宣",CCTV1
+http://45.192.97.170:8880/play/1.m3u8
+#EXTINF:-1 group-title="大内宣",CCTV2
+http://45.192.97.170:8880/play/2.m3u8
+#EXTINF:-1 group-title="大内宣",CCTV3
+http://45.192.97.170:8880/play/3.m3u8
+#EXTINF:-1 group-title="大内宣",CCTV4
+http://45.192.97.170:8880/play/4.m3u8
+#EXTINF:-1 group-title="大内宣",CCTV5
+http://45.192.97.170:8880/play/5.m3u8
+#EXTINF:-1 group-title="大内宣",CCTV5+
+http://45.192.97.170:8880/play/6.m3u8
+#EXTINF:-1 group-title="大内宣",CCTV6
+http://45.192.97.170:8880/play/7.m3u8
+#EXTINF:-1 group-title="大内宣",CCTV7
+http://45.192.97.170:8880/play/8.m3u8
+#EXTINF:-1 group-title="大内宣",CCTV8
+http://45.192.97.170:8880/play/9.m3u8
+#EXTINF:-1 group-title="大内宣",CCTV9
+http://45.192.97.170:8880/play/10.m3u8
+#EXTINF:-1 group-title="大内宣",CCTV10
+http://45.192.97.170:8880/play/11.m3u8
+#EXTINF:-1 group-title="大内宣",CCTV11
+http://45.192.97.170:8880/play/12.m3u8
+#EXTINF:-1 group-title="大内宣",CCTV12
+http://45.192.97.170:8880/play/13.m3u8
+#EXTINF:-1 group-title="大内宣",CCTV13
+http://45.192.97.170:8880/play/14.m3u8
+#EXTINF:-1 group-title="大内宣",CCTV14
+http://45.192.97.170:8880/play/15.m3u8
+#EXTINF:-1 group-title="大内宣",CCTV15
+http://45.192.97.170:8880/play/16.m3u8
+#EXTINF:-1 group-title="大内宣",CCTV17
+http://45.192.97.170:8880/play/17.m3u8
+#EXTINF:-1 group-title="大内宣",东方卫视
+http://45.192.97.170:8880/play/26.m3u8
+#EXTINF:-1 group-title="大内宣",江苏卫视
+http://45.192.97.170:8880/play/27.m3u8
+#EXTINF:-1 group-title="大内宣",广东卫视
+http://45.192.97.170:8880/play/28.m3u8
+#EXTINF:-1 group-title="大内宣",北京卫视
+http://45.192.97.170:8880/play/29.m3u8
+#EXTINF:-1 group-title="大内宣",辽宁卫视
+http://45.192.97.170:8880/play/30.m3u8
+#EXTINF:-1 group-title="大内宣",河北卫视
+http://45.192.97.170:8880/play/31.m3u8
+#EXTINF:-1 group-title="大内宣",江西卫视
+http://45.192.97.170:8880/play/32.m3u8
+#EXTINF:-1 group-title="大内宣",陕西卫视
+http://45.192.97.170:8880/play/33.m3u8
+#EXTINF:-1 group-title="大内宣",湖北卫视
+http://45.192.97.170:8880/play/34.m3u8
+#EXTINF:-1 group-title="大内宣",农林卫视
+http://45.192.97.170:8880/play/35.m3u8
+#EXTINF:-1 group-title="大内宣",兵团卫视
+http://45.192.97.170:8880/play/36.m3u8
+#EXTINF:-1 group-title="大内宣",上海新闻综合
+http://45.192.97.170:8880/play/37.m3u8
+#EXTINF:-1 group-title="大内宣",上视东方影视
+http://45.192.97.170:8880/play/38.m3u8
+#EXTINF:-1 group-title="大内宣",CCTV1
+http://107.150.60.122/live/cctv1.m3u8
+#EXTINF:-1 group-title="大内宣",CCTV2
+http://107.150.60.122/live/cctv2.m3u8
+#EXTINF:-1 group-title="大内宣",CCTV3
+http://107.150.60.122/live/cctv3.m3u8
+#EXTINF:-1 group-title="大内宣",CCTV4
+http://107.150.60.122/live/cctv4.m3u8
+#EXTINF:-1 group-title="大内宣",CCTV5
+http://107.150.60.122/live/cctv5.m3u8
+#EXTINF:-1 group-title="大内宣",CCTV5+
+http://107.150.60.122/live/cctv5p.m3u8
+#EXTINF:-1 group-title="大内宣",CCTV6
+http://107.150.60.122/live/cctv6.m3u8
+#EXTINF:-1 group-title="大内宣",CCTV7
+http://107.150.60.122/live/cctv7.m3u8
+#EXTINF:-1 group-title="大内宣",CCTV8
+http://107.150.60.122/live/cctv8.m3u8
+#EXTINF:-1 group-title="大内宣",CCTV9
+http://107.150.60.122/live/cctv9.m3u8
+#EXTINF:-1 group-title="大内宣",CCTV10
+http://107.150.60.122/live/cctv10.m3u8
+#EXTINF:-1 group-title="大内宣",CCTV11
+http://107.150.60.122/live/cctv11.m3u8
+#EXTINF:-1 group-title="大内宣",CCTV12
+http://107.150.60.122/live/cctv12.m3u8
+#EXTINF:-1 group-title="大内宣",CCTV13
+http://107.150.60.122/live/cctv13.m3u8
+#EXTINF:-1 group-title="大内宣",CCTV14
+http://107.150.60.122/live/cctv14.m3u8
+#EXTINF:-1 group-title="大内宣",CCTV15
+http://107.150.60.122/live/cctv15.m3u8
+#EXTINF:-1 group-title="大内宣",CCTV16
+http://107.150.60.122/live/cctv16.m3u8
+#EXTINF:-1 group-title="大内宣",CCTV17
+http://107.150.60.122/live/cctv17.m3u8
+#EXTINF:-1 group-title="大内宣",安徽卫视
+http://107.150.60.122/live/ahws.m3u8
+#EXTINF:-1 group-title="大内宣",北京卫视
+http://107.150.60.122/live/bjws.m3u8
+#EXTINF:-1 group-title="大内宣",兵团卫视
+http://107.150.60.122/live/btws.m3u8
+#EXTINF:-1 group-title="大内宣",重庆卫视
+http://107.150.60.122/live/cqws.m3u8
+#EXTINF:-1 group-title="大内宣",东方卫视
+http://107.150.60.122/live/dfws.m3u8
+#EXTINF:-1 group-title="大内宣",东南卫视
+http://107.150.60.122/live/dnws.m3u8
+#EXTINF:-1 group-title="大内宣",广东卫视
+http://107.150.60.122/live/gdws.m3u8
+#EXTINF:-1 group-title="大内宣",甘肃卫视
+http://107.150.60.122/live/gsws.m3u8
+#EXTINF:-1 group-title="大内宣",广西卫视
+http://107.150.60.122/live/gxws.m3u8
+#EXTINF:-1 group-title="大内宣",贵州卫视
+http://107.150.60.122/live/gzws.m3u8
+#EXTINF:-1 group-title="大内宣",河南卫视
+http://107.150.60.122/live/haws.m3u8
+#EXTINF:-1 group-title="大内宣",湖北卫视
+http://107.150.60.122/live/hbws.m3u8
+#EXTINF:-1 group-title="大内宣",河北卫视
+http://107.150.60.122/live/hews.m3u8
+#EXTINF:-1 group-title="大内宣",黑龙江卫视
+http://107.150.60.122/live/hljws.m3u8
+#EXTINF:-1 group-title="大内宣",湖南卫视
+http://107.150.60.122/live/hnws.m3u8
+#EXTINF:-1 group-title="大内宣",吉林卫视
+http://107.150.60.122/live/jlws.m3u8
+#EXTINF:-1 group-title="大内宣",江苏卫视
+http://107.150.60.122/live/jsws.m3u8
+#EXTINF:-1 group-title="大内宣",江西卫视
+http://107.150.60.122/live/jxws.m3u8
+#EXTINF:-1 group-title="大内宣",辽宁卫视
+http://107.150.60.122/live/lnws.m3u8
+#EXTINF:-1 group-title="大内宣",大湾区卫视
+http://107.150.60.122/live/nfws.m3u8
+#EXTINF:-1 group-title="大内宣",内蒙古卫视
+http://107.150.60.122/live/nmgws.m3u8
+#EXTINF:-1 group-title="大内宣",宁夏卫视
+http://107.150.60.122/live/nxws.m3u8
+#EXTINF:-1 group-title="大内宣",青海卫视
+http://107.150.60.122/live/qhws.m3u8
+#EXTINF:-1 group-title="大内宣",四川卫视
+http://107.150.60.122/live/scws.m3u8
+#EXTINF:-1 group-title="大内宣",山东卫视
+http://107.150.60.122/live/sdws.m3u8
+#EXTINF:-1 group-title="大内宣",陕西卫视
+http://107.150.60.122/live/snws.m3u8
+#EXTINF:-1 group-title="大内宣",山西卫视
+http://107.150.60.122/live/sxws.m3u8
+#EXTINF:-1 group-title="大内宣",天津卫视
+http://107.150.60.122/live/tjws.m3u8
+#EXTINF:-1 group-title="大内宣",新疆卫视
+http://107.150.60.122/live/xjws.m3u8
+#EXTINF:-1 group-title="大内宣",云南卫视
+http://107.150.60.122/live/ynws.m3u8
+#EXTINF:-1 group-title="大内宣",浙江卫视
+http://107.150.60.122/live/zjws.m3u8
+#EXTINF:-1 group-title="大内宣",CCTV1
+http://63.141.230.178:82/gslb/zbdq5.m3u8?id=cctv1hd
+#EXTINF:-1 group-title="大内宣",CCTV2
+http://63.141.230.178:82/gslb/zbdq5.m3u8?id=cctv2hd
+#EXTINF:-1 group-title="大内宣",CCTV3
+http://63.141.230.178:82/gslb/zbdq5.m3u8?id=cctv3hd
+#EXTINF:-1 group-title="大内宣",CCTV4
+http://63.141.230.178:82/gslb/zbdq5.m3u8?id=cctv4hd
+#EXTINF:-1 group-title="大内宣",CCTV6
+http://63.141.230.178:82/gslb/zbdq5.m3u8?id=cctv6hd
+#EXTINF:-1 group-title="大内宣",CCTV7
+http://63.141.230.178:82/gslb/zbdq5.m3u8?id=cctv7hd
+#EXTINF:-1 group-title="大内宣",CCTV8
+http://63.141.230.178:82/gslb/zbdq5.m3u8?id=cctv8hd
+#EXTINF:-1 group-title="大内宣",CCTV9
+http://63.141.230.178:82/gslb/zbdq5.m3u8?id=cctv9hd
+#EXTINF:-1 group-title="大内宣",CCTV10
+http://63.141.230.178:82/gslb/zbdq5.m3u8?id=cctv10hd
+#EXTINF:-1 group-title="大内宣",CCTV11
+http://63.141.230.178:82/gslb/zbdq5.m3u8?id=cctv11hd
+#EXTINF:-1 group-title="大内宣",CCTV12
+http://63.141.230.178:82/gslb/zbdq5.m3u8?id=cctv12hd
+#EXTINF:-1 group-title="大内宣",CCTV13
+http://63.141.230.178:82/gslb/zbdq5.m3u8?id=cctv13hd
+#EXTINF:-1 group-title="大内宣",CCTV14
+http://63.141.230.178:82/gslb/zbdq5.m3u8?id=cctv14hd
+#EXTINF:-1 group-title="大内宣",CCTV15
+http://63.141.230.178:82/gslb/zbdq5.m3u8?id=cctv15hd
+#EXTINF:-1 group-title="大内宣",CCTV16
+http://63.141.230.178:82/gslb/zbdq5.m3u8?id=cctv16hd
+#EXTINF:-1 group-title="大内宣",CCTV17
+http://63.141.230.178:82/gslb/zbdq5.m3u8?id=cctv17hd
+#EXTINF:-1 group-title="大内宣",湖南卫视
+http://63.141.230.178:82/gslb/zbdq5.m3u8?id=hnwshd
+#EXTINF:-1 group-title="大内宣",东方卫视
+http://63.141.230.178:82/gslb/zbdq5.m3u8?id=dfwshd
+#EXTINF:-1 group-title="大内宣",浙江卫视
+http://63.141.230.178:82/gslb/zbdq5.m3u8?id=zjwshd
+#EXTINF:-1 group-title="大内宣",江苏卫视
+http://63.141.230.178:82/gslb/zbdq5.m3u8?id=jswshd
+#EXTINF:-1 group-title="大内宣",湖北卫视
+http://63.141.230.178:82/gslb/zbdq5.m3u8?id=hbwshd
+#EXTINF:-1 group-title="大内宣",甘肃卫视
+http://63.141.230.178:82/gslb/zbdq5.m3u8?id=gswshd
+#EXTINF:-1 group-title="大内宣",吉林卫视
+http://63.141.230.178:82/gslb/zbdq5.m3u8?id=jlwshd
+#EXTINF:-1 group-title="大内宣",云南卫视
+http://63.141.230.178:82/gslb/zbdq5.m3u8?id=ynwshd
+#EXTINF:-1 group-title="大内宣",广东卫视
+http://63.141.230.178:82/gslb/zbdq5.m3u8?id=gdwshd
+#EXTINF:-1 group-title="大内宣",深圳卫视
+http://63.141.230.178:82/gslb/zbdq5.m3u8?id=szwshd
+#EXTINF:-1 group-title="大内宣",宁夏卫视
+http://63.141.230.178:82/gslb/zbdq5.m3u8?id=nxss
+#EXTINF:-1 group-title="大内宣",CCTV1
+http://74.91.26.218:82/live/cctv1hd.m3u8
+#EXTINF:-1 group-title="大内宣",CCTV2
+http://74.91.26.218:82/live/cctv2hd.m3u8
+#EXTINF:-1 group-title="大内宣",CCTV3
+http://74.91.26.218:82/live/cctv3hd.m3u8
+#EXTINF:-1 group-title="大内宣",CCTV4
+http://74.91.26.218:82/live/cctv4hd.m3u8
+#EXTINF:-1 group-title="大内宣",CCTV6
+http://74.91.26.218:82/live/cctv6hd.m3u8
+#EXTINF:-1 group-title="大内宣",CCTV7
+http://74.91.26.218:82/live/cctv7hd.m3u8
+#EXTINF:-1 group-title="大内宣",CCTV8
+http://74.91.26.218:82/live/cctv8hd.m3u8
+#EXTINF:-1 group-title="大内宣",CCTV9
+http://74.91.26.218:82/live/cctv9hd.m3u8
+#EXTINF:-1 group-title="大内宣",CCTV10
+http://74.91.26.218:82/live/cctv10hd.m3u8
+#EXTINF:-1 group-title="大内宣",CCTV11
+http://74.91.26.218:82/live/cctv11hd.m3u8
+#EXTINF:-1 group-title="大内宣",CCTV12
+http://74.91.26.218:82/live/cctv12hd.m3u8
+#EXTINF:-1 group-title="大内宣",CCTV13
+http://74.91.26.218:82/live/cctv13hd.m3u8
+#EXTINF:-1 group-title="大内宣",CCTV14
+http://74.91.26.218:82/live/cctv14hd.m3u8
+#EXTINF:-1 group-title="大内宣",CCTV15
+http://74.91.26.218:82/live/cctv15hd.m3u8
+#EXTINF:-1 group-title="大内宣",CCTV16
+http://74.91.26.218:82/live/cctv16hd.m3u8
+#EXTINF:-1 group-title="大内宣",CCTV17
+http://74.91.26.218:82/live/cctv17hd.m3u8
+#EXTINF:-1 group-title="大内宣",东方卫视
+http://74.91.26.218:82/live/dfwshd.m3u8
+#EXTINF:-1 group-title="大内宣",南方卫视
+http://74.91.26.218:82/live/nfws.m3u8
+#EXTINF:-1 group-title="大内宣",广东卫视
+http://74.91.26.218:82/live/gdwshd.m3u8
+#EXTINF:-1 group-title="大内宣",浙江卫视
+http://74.91.26.218:82/live/zjwshd.m3u8
+#EXTINF:-1 group-title="大内宣",深圳卫视
+http://74.91.26.218:82/live/szwshd.m3u8
+#EXTINF:-1 group-title="大内宣",湖南卫视
+http://74.91.26.218:82/live/hnwshd.m3u8
+#EXTINF:-1 group-title="大内宣",浙江卫视
+http://ali-xwl.cztv.com/live/channel011080Plxw.m3u8
+#EXTINF:-1 group-title="大内宣",浙江卫视
+http://ali-xwl.cztv.com/live/channel01720Plxw.m3u8
+#EXTINF:-1 group-title="大内宣",湖南卫视⁴ᵏ
+http://hlsal-ldvt.qing.mgtv.com/nn_live/nn_x64/Y2RuZXhfaWQ9YWxfaGxzX2xkdnQmZT02OTE0NjA0JnY9MSZpZD1ITldTWkdTVCZzPTcwN2RiYTc2YzJjNmJmMTQ4MmUyZGYzOWU2NWM3YWFi/HNWSZGST.m3u8
+#EXTINF:-1 group-title="大内宣",湖南卫视⁴ᵏ
+http://hlsal-ldvt.qing.mgtv.com/nn_live/nn_x64/dWlwPTEyNy4wLjAuMSZ1aWQ9cWluZy1jbXMmbm5fdGltZXpvbmU9OCZjZG5leF9pZD1hbF9obHNfbGR2dCZ1dWlkPTliODY4NmU5ZTM2YzYwMmMmZT02OTE0NjA0JnY9MSZpZD1ITldTWkdTVCZzPTcwN2RiYTc2YzJjNmJmMTQ4MmUyZGYzOWU2NWM3YWFi/HNWSZGST.m3u8
+#EXTINF:-1 group-title="大内宣",浙江卫视⁴ᵏ
+http://ali-xwl.cztv.com/live/channel4k2160p.m3u8
+#EXTINF:-1 group-title="大内宣",东方卫视⁴ᵏ
+http://bp-resource-dfl.bestv.cn/148/3/video.m3u8
+#EXTINF:-1 group-title="测试_66",惊艳电影
+rtmp://112.29.121.74/live/易發TV-jyt
+#EXTINF:-1 group-title="测试_66",香蕉
+rtmp://112.29.121.74/live/易發TV-xjt
+#EXTINF:-1 group-title="测试_66",松视1
+rtmp://112.29.121.74/live/易發TV-s1t
+#EXTINF:-1 group-title="测试_66",松视2
+rtmp://112.29.121.74/live/易發TV-s2t
+#EXTINF:-1 group-title="测试_66",松视3
+rtmp://112.29.121.74/live/易發TV-s3t
+#EXTINF:-1 group-title="测试_66",惊艳电影
+http://15.204.105.50:25461/live/G2s9zK2n9m/xDtwVfWM8T/85.ts
+#EXTINF:-1 group-title="测试_66",潘朵啦玩美
+http://15.204.105.50:25461/live/G2s9zK2n9m/xDtwVfWM8T/86.ts
+#EXTINF:-1 group-title="测试_66",惊艳电影
+http://15.204.105.50:25461/live/G2s9zK2n9m/xDtwVfWM8T/87.ts
+#EXTINF:-1 group-title="测试_66",松视1
+http://15.204.105.50:25461/live/G2s9zK2n9m/xDtwVfWM8T/88.ts
+#EXTINF:-1 group-title="测试_66",松视2
+http://15.204.105.50:25461/live/G2s9zK2n9m/xDtwVfWM8T/89.ts
+#EXTINF:-1 group-title="测试_66",松视3
+http://15.204.105.50:25461/live/G2s9zK2n9m/xDtwVfWM8T/90.ts
+#EXTINF:-1 group-title="测试_66",香蕉
+http://15.204.105.50:25461/live/G2s9zK2n9m/xDtwVfWM8T/117.ts
+#EXTINF:-1 group-title="测试_66",潘朵啦玩美
+http://jp.gxdx.org/cache/streamtool_hls/20260618203742-406fbf58/index.m3u8
+#EXTINF:-1 group-title="测试_66",セクシー
+http://haru.charandom.blog/stream/jp/pigoo_nsfw/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="测试_66",セクシー
+https://cdn-apne1.tsv2.amagi.tv/linear/amg01287-rakutentvjapan-movie2cmaf-rakutenjp/playlist.m3u8
+#EXTINF:-1 group-title="测试_66",セクシー
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01287-rakutentvjapan-rvariety-cmaf-rakutenjp/playlist.m3u8
+#EXTINF:-1 group-title="测试_66",セクシー
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01287-rakutentvjapan-rvariety-cmaf-rakutenjp/playlist.m3u8
+#EXTINF:-1 group-title="测试_66",セクシー
+https://cdn-apne1.tsv2.amagi.tv/linear/amg01287-rakutentvjapan-shigekicmaf-rakutenjp/playlist.m3u8
+#EXTINF:-1 group-title="测试_66",JAPAN
+http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/SHQHNV72QRZFCT/6225/manifest.m3u8
+#EXTINF:-1 group-title="测试_66",JAPAN
+http://tr.zengi34.xyz:8080/UEJLSW1qN0MwYk0rcU43MFA2bVM2YUM3QmU2Ym1RaEUxNzVHNXZIV25Tek9jZDVoMUJnaDNGWUNaZzU0U1J3VA
+#EXTINF:-1 group-title="测试_66",JAPAN
+http://2477fd5f.cbilant.com/iptv/WCSZMUM84X4689VHGC7UDAQQ/6225/index.m3u8
+#EXTINF:-1 group-title="测试_66",JAPAN
+http://hardcoremedia.xyz:80/6jTFRmvaSp/7534936344/248607
+#EXTINF:-1 group-title="测试_66",JAPAN
+http://hardcoremedia.xyz:80/6jTFRmvaSp/7534936344/248608
+#EXTINF:-1 group-title="测试_66",PLAYBOY
+http://tvlol32.com:80/JosemarOliveira/24jos999064802/28303
+#EXTINF:-1 group-title="测试_66",PLAYBOY
+http://tr.zengi34.xyz:8080/UEJLSW1qN0MwYk0rcU43MFA2bVM2ZHdudU5wN042SDBGdEZOZ1k0VTM3cVo4VlJZMW5iRnMxK0c2L2M2eEpPMA
+#EXTINF:-1 group-title="测试_66",PLAYBOY
+http://190.11.225.124:5000/live/playboy_hd/playlist.m3u8
+#EXTINF:-1 group-title="测试_66",PLAYBOY
+http://hardcoremedia.xyz:80/6jTFRmvaSp/7534936344/248692
+#EXTINF:-1 group-title="测试_66",PLAYBOY
+http://31.148.48.15/Playboy_TV/playlist.m3u8
