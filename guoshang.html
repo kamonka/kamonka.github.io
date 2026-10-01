@@ -5,8 +5,74 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <meta name="theme-color" content="#000000">
   <title>国殇节</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    html,
+    body {
+      width: 100%;
+      height: 100%;
+      margin: 0;
+      overflow: hidden;
+      background: #000;
+    }
+
+    .player {
+      width: 100%;
+      width: 100vw;
+      height: 100%;
+      height: 100dvh;
+      display: grid;
+      place-items: center;
+      background: #000;
+    }
+
+    video {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+      background: #000;
+    }
+
+    @media (orientation: portrait) {
+      video {
+        width: 100dvh;
+        height: 100vw;
+        transform: rotate(90deg);
+      }
+    }
+  </style>
 </head>
 <body>
-<iframe frameborder="0" allowfullscreen="" scrolling="no" allow="autoplay;fullscreen" src="https://onelineplayer.com/player.html?autoplay=false&autopause=false&muted=false&loop=true&url=https%3A%2F%2Fstreamshare.wireway.ch%2Fdownload%2Ftlvfekht&poster=&time=true&progressBar=true&overlay=true&muteButton=true&fullscreenButton=true&style=light&quality=auto&playButton=true" style="height: 100%; width: 100%; aspect-ratio: 1920 / 1080;"></iframe>
+  <main class="player">
+    <video id="video" src="https://pic.jyjdsg.dpdns.org/hero.mp4" autoplay muted playsinline controls></video>
+  </main>
+  <script>
+    const video = document.getElementById("video");
+
+    async function startPlayback() {
+      try {
+        await video.play();
+      } catch {}
+
+      try {
+        if (!document.fullscreenElement) {
+          const requestFullscreen = video.requestFullscreen || video.webkitEnterFullscreen;
+          if (requestFullscreen) await requestFullscreen.call(video);
+        }
+      } catch {}
+
+      try {
+        if (screen.orientation?.lock) {
+          await screen.orientation.lock("landscape");
+        }
+      } catch {}
+    }
+
+    window.addEventListener("load", startPlayback, { once: true });
+  </script>
 </body>
 </html>
