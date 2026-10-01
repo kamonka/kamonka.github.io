@@ -1,9 +1,46 @@
-<!DOCTYPE html>
-<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#000000">
+  <title>国殇节</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
 
-<body>
-  <main class="player">
-    <video id="video" src="https://pic.jyjdsg.dpdns.org/hero.mp4" playsinline controls></video>
-  </main>
-</body>
-</html>
+    html,
+    body {
+      width: 100%;
+      height: 100%;
+      margin: 0;
+      overflow: hidden;
+      background: #000;
+    }
+
+    .player {
+      width: 100%;
+      width: 100%;
+      height: 100%;
+      height: 100%;
+      display: grid;
+      place-items: center;
+      background: #000;
+    }
+
+    video {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      background: #000;
+    }
+
+    @media (orientation: portrait) {
+      video {
+        width: 100%;
+        height: 100%;
+        transform: rotate(90deg);
+      }
+    }
+  </style>
+</head>
