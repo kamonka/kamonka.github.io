@@ -3,9 +3,6 @@ BBC,http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/1382478.ts
 CNN,http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/71486.ts
 FOXNEWS,http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/17356.ts#http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/796328.ts
 
-BBC,https://haru.charandom.blog/stream/jp/bbc_news/stream-output.m3u8?mode=hls
-CNN,https://haru.charandom.blog/stream/jp/cnnj/stream-output.m3u8?mode=hls
-
 BBC,https://vs-hls-push-ww-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_news_channel_hd/t=3840/v=pv14/b=5070016/main.m3u8
 BBC,http://line.cloud-ott.net:80/play/live.php?mac=00:1A:79:0D:80:56&stream=933150&extension=ts&play_token=N2T5SmFoUU
 CNN,http://line.cloud-ott.net:80/play/live.php?mac=00:1A:79:0D:80:56&stream=933139&extension=ts&play_token=4ahth5R2L5
@@ -69,16 +66,18 @@ SKYNEWS,http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/980439.ts#https://xumo-drc
 土耳其之声,https://tv-trtworld.medya.trt.com.tr/master_1080.m3u8#http://tr.zengi34.xyz:8080/UEJLSW1qN0MwYk0rcU43MFA2bVM2VXdlYURJb1NjaHcvR3U3RnlCV3E2Y2llYXhFeEJkQm9JQmpENDlZa3BYNg
 
 🇹🇼台港新闻,#genre#
-年代新闻,http://iptv.852851.xyz/l/VD_8ygH7QDQnD9330KaClBp34nZhZLUq3jkActoDMXP8KvVy1OgQ-VRigqyhsc1d/play
-镜新闻,http://iptv.852851.xyz/l/7hujk1t1oxWvMjGRtCOwgQOJ07neCOwppqXcObsI5XYHZyEDxgk3BjBCaAHZr-yz/index.m3u8
-民视新闻,http://iptv.852851.xyz/l/9Bdmg6Vol-8tDcv5AKrLeMNKlong9GkflUTTCd80I13phaMth1Z1kZACAo5n14NL/index.m3u8
-东森新闻,http://iptv.852851.xyz/l/w9szXae0W4VoZ_3asJBqaErhrmDI5Q11zSt1LhOo7oYah9WyH94ROPQX8_9rDVuT/index.m3u8
-TVBS新闻,http://iptv.852851.xyz/l/_Mh1URYjWJIse2Rgd_hOyOpb_x3qWTiiSfvFiCxrFwD-V0Qi2RSqjLe7ZGvSlGhl/index.m3u8
+年代新闻,http://iptv.852851.xyz/l/9jxE7ZXTlBLcKytaO_foaH_7PiOhJUrpR3qxqyx3YrG0N1YprzXoCsZOC3a5CW_O/play
+镜新闻,http://iptv.852851.xyz/l/IhsxOLZkBrLfOBOhIL43aBOmONqFGcbM9etJSrcy66pT_qUlRy4fNdz9BqG3VYSp/index.m3u8
+民视新闻,http://iptv.852851.xyz/l/aIGpH0XJvM_mqgC0zIn1oCRF7GeeK4vEhrlJ5VUK8zggaaVJf5Er4oUZlujeblPC/index.m3u8
+东森新闻,http://iptv.852851.xyz/l/S7Z6rCTeb-r8jTzm8zFkQntudxwJPc5hVQbJfmm-J56Z8Lbf6W6HYfrscWUq-INM/index.m3u8
+TVBS新闻,http://iptv.852851.xyz/l/qnG4TrYXarraq1YANGeR4A00HDn3u4qelbA7jd2cvlxspLrrhf-GQL6avBXUJJMY/index.m3u8
+寰宇新闻,http://iptv.852851.xyz/l/JaozpEN3XbAZzHV8hAlcZJB434lhuQiNyYWdU8c3lmlexWEuT1Mgnq2mYnLSPQOO/index.m3u8
+中天新闻,http://iptv.852851.xyz/l/aCaZJ5RaADjINz7ZCs5mEbBb0bg3ORdig5nGwtYrTmT2bjPkkjoaCgy2UxeOKF5L/index.m3u8
+NOW新闻,http://iptv.852851.xyz/l/361sYi-quOA-kLrf_dwlzC2bhNkgafYaEljxSttkYwUTkOIC_s6py3_hm50eC_E6/index.m3u8
 
 TVBS新闻,https://d2jc41c1shgcol.cloudfront.net/live/tvbsnewsqt/playlist.m3u8
 NOW新闻,http://173.208.234.146/live/nowxw.m3u8
 凤凰资讯,http://173.208.234.146/live/fhzx.m3u8
-
 
 民视新闻,http://38.64.72.148:80/hls/modn/list/4012/chunklist1.m3u8
 台视新闻,http://38.64.72.148:80/hls/modn/list/4013/chunklist1.m3u8
@@ -148,10 +147,10 @@ FOX,http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/2544.ts
 
 
 🇭🇰台港综合,#genre#
-民视,http://iptv.852851.xyz/l/0imsjMCL75ZxlL_qWn-OMvhlbqI-IlqHzSjokoidmlPLj8vmPZz6jRz9OWEEol4E/index.m3u8
-三立综合,http://iptv.852851.xyz/l/6_8Jktz42qQTVsPtni0pZz5vA02Ii3T6R1fnjPkCYoIjA0wDim2BmUon_lBrrtCi/index.m3u8
-中视,http://iptv.852851.xyz/l/Ssb35YkwMdvTuDYFLYsvwkqVXI7MnkEWHD2-HMl1wN_lErVA2P_Lm6I23Z1IeBnr/index.m3u8
-华视,http://iptv.852851.xyz/l/r6tHArk9o1nsSZ2dH7kHpYOKLv8O0ymE8jJf6m3DLFW_3xZ0-OTr-E0nfSWpsfis/index.m3u8
+民视,http://iptv.852851.xyz/l/Gvih2MaikKubTMH4_zTuGz5Yfzx6x4Mrt_iCqEBicwXRRa8dYyC_ft_Q8C_Pf5qj/index.m3u8
+三立综合,http://iptv.852851.xyz/l/6boACLm2cI4JtJ2GNWLHmO5dOVCH1XQcPE4e2fBmspc_kvSg_SZom5rNnx7kL_pE/index.m3u8
+中视,http://iptv.852851.xyz/l/Z5RsZnTVqJMJ1lGbxbwGhk1vEnI7poEOHD-e1wA7Zr84irfVF4GNQvEProc39o1e/index.m3u8
+华视,http://iptv.852851.xyz/l/6wJSFp-u4DlVgE5eLKnNJhdr0XUg7cl1HshOkG29blQtZpdsnCwG06barcjIHejU/index.m3u8
 
 翡翠台,https://cdn3.indevs.in/stream/tvb/fct/
 明珠台,https://cdn3.indevs.in/stream/tvb/mzt/
@@ -204,20 +203,25 @@ SUNDANCE,http://hardcoremedia.xyz:80/6jTFRmvaSp/7534936344/129957
 临港大道,https://rvsh.jtw.sh.gov.cn/live/310120a4-3d7c-4a7d-82dc-71fde233e060_sub/index.m3u8?t=1902119782&k=e5d9cad0fb4bde78
 
 🇲🇾影视娱乐,#genre#
-猪哥亮歌厅秀,http://iptv.852851.xyz/l/DDVqdU31Y4T3Zld27UT5YHC__vW5LHsYF8JSrwv6adibbannafrPUjbCYwVmxGGo/index.m3u8
+
+猪哥亮歌厅秀,http://iptv.852851.xyz/l/aWD6xl5puFQ6kJLP86R0xl4oA9hSipUCCmS89O_7FgObkZAvKlrMHSrbVh3tmc75/index.m3u8
 爱奇艺,https://cdn3.indevs.in/stream/live/iqiyi/
-纬来日本,http://iptv.852851.xyz/l/8uf0CnX7fWy-nwcfgnbxL9-l0RIOcmfiSbDyoxW7Cq66JTr942HpROo7olhK3llJ/index.m3u8
-八大综艺,http://iptv.852851.xyz/l/Q1M4dLe9Cmd9yqsFyiWM3DR_Mvzy8UpOZf2CpIa-k-4vOb-DifIC7h08qcP5gNkb/index.m3u8
-韩国娱乐,http://iptv.852851.xyz/l/2TsBzD7kcUca-wdcuu1y6KkDXF8fKsBhiCM6dQ5wrZZZPmrFO4hbJTuxA5o_SHdv/index.m3u8
-靖天日本,http://iptv.852851.xyz/l/FFBROUMIakfSYptHtkRKXDqlAXujVu7XQHX_4Oz0Xf2p_WZjPKoDdAcp7XA5JHYk/index.m3u8
-靖天映画,http://iptv.852851.xyz/l/BGxI3ed6x9hbXWf9yIeeSKatbw9NVDcJqLRSIvWrrEYsZ0p6uTStjJzNkr78eY_5/index.m3u8
-靖天电影,http://iptv.852851.xyz/l/g3XfE5wlVxV8Rk9cF7L-MSfk1BidrpEXvZ3kSLycdSNLrTOlLNNncTvkQ6MEKlH5/index.m3u8
-影迷数位电影,http://iptv.852851.xyz/l/1cVSVE-bRBVMML4g_MHmDufJYvFd69BjDjIntHf6yZoQ872o70gKEfsp04G_qs_q/index.m3u8
-amc电影,http://iptv.852851.xyz/l/3tvu6tDmmvbI0o6wOuW9U0OCZ1oWy6oPgHAG-8P3mHHRRe8cfmKdTPVOmkcXd3kh/index.m3u8
-CinemaWorld,http://iptv.852851.xyz/l/_U9QWFAUs-dC8YhPdXoEBxkS-U4kEzLzZTdQaTTtwZ8N9I6KKxY8ZiGlyUvfAk26/index.m3u8
-我的欧洲电影,http://iptv.852851.xyz/l/4zlEZ1Y27_xe3I5tKfDdDAl4yD9wrt5gcqT1dJs5ywOaAGGQ6H9FfFSpqHzt80gX/index.m3u8
-HBO,http://iptv.852851.xyz/l/2OlG0hbD-1rDAvbUz2NXzKpYrt_kzGV6K3V7n4qx9N-PVj-B0itJJAXDcDMr7XQ7/play#http://iptv.852851.xyz/l/SBGLcNswJxsAyoHqSlRzROneLRdMl8_WsJ69PC8dbccA5DMhUnZNN64SQwpaYdg4/index.m3u8
-HBO,http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/71855.ts#http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/71854.ts
+纬来日本,http://iptv.852851.xyz/l/A_QDJPu15X4G7_e44yrpJodyYJMlbKl4w8Rs0wmC6ID11Is9Jaa6I-lmpqadf3n7/index.m3u8
+靖天日本,http://iptv.852851.xyz/l/iSQfB6_zf2Zw0Cg-EvvnjcoeExetyJ2xWZIlNVf2JvW9lYdNSuVQ7UCRFOLepOcF/index.m3u8
+民视综艺,http://iptv.852851.xyz/l/AvZ6wtwTz1D1xgL97yWwHVCYl70lZ3FrfwDSlY6T_fNE7K5cQVWLBwLH4rHpuyBH/index.m3u8
+八大综艺,http://iptv.852851.xyz/l/mik-tKgjmmO60BWUuOamU9Uuuf0J1TSCtunpDG1sH9wUPvXA-TMeFiszfsQm9_jL/index.m3u8
+韩国娱乐,http://iptv.852851.xyz/l/oIBNsxkgZzhwzasQ3un3ZgEP28d0YkZLpHx4Q4nTS2o_k5tVtGj2mulUVr2K3Zix/index.m3u8
+靖天映画,http://iptv.852851.xyz/l/XH9_dBMdtI_y3h-nK3k6Fe25ycjDDvYsJHqfJaKjgxz03d75n0heERWRgmAo1WRq/index.m3u8
+靖天电影,http://iptv.852851.xyz/l/7moTRidiJkipjoxMPFlelGTZLZFUNDLtob1hMJ4kqnOFQdwjYKC2eYhzPnuHBLqR/index.m3u8
+影迷数位电影,http://iptv.852851.xyz/l/-E94exPBIeJ2Caw4VgKol_KqZMYVl77voKtK32oqZS14hdHFjBtAJClughpSGYvV/index.m3u8
+amc电影,http://iptv.852851.xyz/l/3oxfpffhdv6yl4QkR5rOQG3S12SPUNAFQw0ERz4UYltYG9qa_FFzisAfK8GjfOsl/index.m3u8
+CinemaWorld,http://iptv.852851.xyz/l/jXpZX1hb5BWjAUY__Z_sscikvE4evKOcxhYgwLf_QzcEZLhrpYmbBi9oQF1GOP2t/index.m3u8
+我的欧洲电影,http://iptv.852851.xyz/l/jXpZX1hb5BWjAUY__Z_sscikvE4evKOcxhYgwLf_QzcEZLhrpYmbBi9oQF1GOP2t/index.m3u8
+HBO,http://iptv.852851.xyz/l/lbkC9HKD7oFTG5TSwSvaZzv4gddYGdRp1iWwLZmsEpAA9hGQh2dCfPww_zfamKdK/index.m3u8
+HBO,http://iptv.852851.xyz/l/R-zumB519DwbcyYKUuNYiPBADQzBaKv21nmeu9A3i2xn8Rw41MlnqD82B3JY6dqz/index.m3u8
+HBO,http://iptv.852851.xyz/l/8fPxvhjoUMisX3Hw0GZYER4QVK69A_lGxBVkD1LTeiTedx1TZW-yLLbBcWBLp_no/play
+HBO,http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/71855.ts
+HBO,http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/71854.ts
 AMC,http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/1060176.ts
 FX,http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/71321.ts
 
@@ -248,13 +252,17 @@ TORO,http://jackofclubs.vip:80/1Ray1842/xWtyyTVfFY/219525.ts
 TORO,http://jackofclubs.vip:80/1Ray1842/xWtyyTVfFY/399420.ts
 TORO,http://10k.lucastv.pro/live/2c99755ae255/gJnMAT2/235353.ts
 
-亚运会,http://iptv.852851.xyz/l/oJzp9O-XhBr7dwFPO7B-u96awa8vDP3npKeHnN3pzWJodFkSv0QXCsajiMc7mC4W/index.m3u8#http://iptv.852851.xyz/l/j-O6st_uM81NgXHFS68P_A19rC35miXrGH2jdyK7HAsANLoCFO29ZWeo7d2agKiU/index.m3u8#http://iptv.852851.xyz/l/3jXuVC3Fraa5SQpnagcMGjrePut1Hm56cHAhCMLRWtQmVJlmV-Q217zPks-UNiwb/index.m3u8
-
-爱尔达体育1,http://iptv.852851.xyz/l/Vr1zFgQcXi87bxfLtojdcqVr4bTNZ7ioSTes1uPrqsM8vsyCJWrPE3MFfi603MQE/index.m3u8
-爱尔达体育2,http://iptv.852851.xyz/l/ufkyfSmehvZ-Ja3VjcnE8yPMyNW8-D1ZQhKWJLnHFSZt-XP9G9tJMAMPVWwAa5Lv/index.m3u8
-爱尔达体育3,http://iptv.852851.xyz/l/1jR3T-0tgkyImXuvQf-_EEDUVUA77Is8ua580BSkAuhsc70Hy0fJ7mxXW2NJTnBO/index.m3u8
-
-NowSports⁴ᵏ,http://iptv.852851.xyz/l/XOTxiaD4RFYmDpFXY6UyMAdeM3yRskTXQixpl0Ar0EtfZ3yP3YahGZ--OdvYyrPD/index.m3u8
+亚运会,http://iptv.852851.xyz/l/fzX60SIsRUhcC0m4cXFZmMGH9BHI_U8eT_GnwcAZHF9aqgS4VQlrH7Gr6SUf5-jy/index.m3u8
+亚运会,http://iptv.852851.xyz/l/5U1P46yQ2rAUG1hlsJCP0vw1EfC_sLbmEQ6xf8wacC4l2sGd3Z39-bnMfxoMv0mC/index.m3u8
+亚运会,http://iptv.852851.xyz/l/POxXph43zAfaR6KTHwBV7iyg3ZuDMCz5g-RV8IV_F2oAFenO3DcUQm7doeI12Dvt/index.m3u8
+亚运会,http://iptv.852851.xyz/l/bXcWv0XNCjGXbpt56HxWxY_X0Ph3UUTdJIiuam9_-GkaK_m70c5ypiN-jk8_BWwj/index.m3u8
+亚运会,http://iptv.852851.xyz/l/nd4fRxfla_1KnqetzgJXZ8CPUyMYsTHwu9gjg8kO9fcCnqvhPsJ7AOTlcA081lcH/index.m3u8
+亚运会,http://iptv.852851.xyz/l/oQLmH26S_dbISg66qO4bm4s2ewugQBRtm2Kuuj2SogiOJX-pE_Q4gcvn6XZswmH8/index.m3u8
+爱尔达体育1,http://iptv.852851.xyz/l/ggDVPqbJZh7HOWIe6dZHRxA8GkJV_JuSniyLg7_DteCzPuCmIR38dXe_8OJahZmP/index.m3u8
+爱尔达体育2,http://iptv.852851.xyz/l/qi2FLM1ZLut3tyN95qrqx2ge_amC11dywCNBtelxuWviJRbhd1YCK6Grwp19x5Wx/index.m3u8
+爱尔达体育3,http://iptv.852851.xyz/l/vWc3EX_PC8KXibiBYYYp4hzgM3UNNacs4gbhUjvw53_mG-TLkcN-FaFjMsbvcL83/index.m3u8
+NowSports⁴ᵏ,http://iptv.852851.xyz/l/JN3U8s73vcNaG-YH2LE0plqARfc9kShcIGydoPmCifPX9bjhzOLfVmukwoHEnLiQ/index.m3u8
+NowSports⁴ᵏ,http://iptv.852851.xyz/l/bV1Nqu3VN5IuycCb83gDPd0k2p95MJsj9RwHWeCY3v-ES_3ER8jDeoF4y5XCrNRj/index.m3u8
 
 NowSports⁴ᵏ,http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/438867.ts#http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/438866.ts
 NowSports,http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/438871.ts#http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/438873.ts#http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/438868.ts#http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/438870.ts#http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/438872.ts#http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/438874.ts
