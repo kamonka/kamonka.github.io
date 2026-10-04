@@ -3,6 +3,16 @@ BBC,http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/1382478.ts
 CNN,http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/71486.ts
 FOXNEWS,http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/17356.ts#http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/796328.ts
 
+BBC,http://iptv.852851.xyz/l/aiBJ2D9WSNzolpo_GqpS4FcL3n8exO4VErW_mcnTgvsserMkDriNdzSKcH15XBDC/play
+CNN,http://iptv.852851.xyz/l/PvaSPWqWXDkAak8_V2dc2oVaoA7gcrRJAKeOt2ik_FlFFRbZXc15h243eZZnr0yI/play
+CNN,http://iptv.852851.xyz/l/tWLcrSPM2hjEc7D5SjmAyXzpGxih-YifvX68smtO_iCsx2swPgrEbIGINhLE6s2I/index.m3u8
+FOXNEWS,http://iptv.852851.xyz/l/L1JlquP1p1Z0OnzTWGVdQ68ioBkeHK7HUs43vadgIu73NvWTxVvcSroov5Tmkwie/index.m3u8
+半岛新闻,http://iptv.852851.xyz/l/Bk2YULHVKPUR2g4UVNPvPRe6wZEAhYwAcKdZNDY3J_IpXQOM0Yq-Ebm_1xfNTP6v/play
+NBC,http://iptv.852851.xyz/l/XMP145q6s3uWOxgsu-DzAHTONyuTjuYY8eqBYzK7nwGRSZnDKEMc0VskHoXcRLjq/play
+CNBC,http://iptv.852851.xyz/l/5cjZb2ZiIn_IO1BPtbh_7zRlmE8SZkRtOyl_VWI3Ki0OLXjnE4oCODD5giZ2_JPe/play
+法广新闻,http://iptv.852851.xyz/l/cm5EyakKEsch9RTOW0LpqSF77YCYW89CSgNfgApmDGy5NoKSyoRh5BGOxZb0Url3/play
+德广新闻,http://iptv.852851.xyz/l/o2iveZzGmkTsHT1iWev4zSpiLFdjeOH2gviUr9_iD_ihcP--XLnNa5nxYtOz25_i/play
+
 BBC,https://vs-hls-push-ww-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_news_channel_hd/t=3840/v=pv14/b=5070016/main.m3u8
 BBC,http://line.cloud-ott.net:80/play/live.php?mac=00:1A:79:0D:80:56&stream=933150&extension=ts&play_token=N2T5SmFoUU
 CNN,http://line.cloud-ott.net:80/play/live.php?mac=00:1A:79:0D:80:56&stream=933139&extension=ts&play_token=4ahth5R2L5
@@ -18,7 +28,6 @@ CNN,http://58.82.168.138:5002/cs16.m3u8?token=guoziyun&gid=cs16&channel=zhongyin
 
 FOXNEWS,https://fox-foxnewsnow-vizio.amagi.tv/playlist720-p.m3u8
 FOXNEWS,http://iptv.852851.xyz/l/mJA9ozxZYJCDtysvnpVzygQ1sskmtsnnkEb0kA7Z02RISNXYld9bA4Hdt8b3-njj/play
-
 FOXNEWS,http://neosfpoo.top:8080/101778770428/e511208ea106/71887#http://neosfpoo.top:8080/101778770428/e511208ea106/71888
 
 BBC,http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs15&isp=5-15
@@ -203,9 +212,9 @@ SUNDANCE,http://hardcoremedia.xyz:80/6jTFRmvaSp/7534936344/129957
 临港大道,https://rvsh.jtw.sh.gov.cn/live/310120a4-3d7c-4a7d-82dc-71fde233e060_sub/index.m3u8?t=1902119782&k=e5d9cad0fb4bde78
 
 🇲🇾影视娱乐,#genre#
-
-猪哥亮歌厅秀,http://iptv.852851.xyz/l/aWD6xl5puFQ6kJLP86R0xl4oA9hSipUCCmS89O_7FgObkZAvKlrMHSrbVh3tmc75/index.m3u8
 爱奇艺,https://cdn3.indevs.in/stream/live/iqiyi/
+娱乐新闻,http://iptv.852851.xyz/l/SwQEoEaivLoAajQiTUxlFA_rS_juXzD8dPJnF63iewJG7tzFG17-8rgSdnRC-O1B/index.m3u8
+猪哥亮歌厅秀,http://iptv.852851.xyz/l/aWD6xl5puFQ6kJLP86R0xl4oA9hSipUCCmS89O_7FgObkZAvKlrMHSrbVh3tmc75/index.m3u8
 纬来日本,http://iptv.852851.xyz/l/A_QDJPu15X4G7_e44yrpJodyYJMlbKl4w8Rs0wmC6ID11Is9Jaa6I-lmpqadf3n7/index.m3u8
 靖天日本,http://iptv.852851.xyz/l/iSQfB6_zf2Zw0Cg-EvvnjcoeExetyJ2xWZIlNVf2JvW9lYdNSuVQ7UCRFOLepOcF/index.m3u8
 民视综艺,http://iptv.852851.xyz/l/AvZ6wtwTz1D1xgL97yWwHVCYl70lZ3FrfwDSlY6T_fNE7K5cQVWLBwLH4rHpuyBH/index.m3u8
