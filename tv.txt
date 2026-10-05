@@ -84,7 +84,9 @@ TVBS新闻,http://iptv.852851.xyz/l/qnG4TrYXarraq1YANGeR4A00HDn3u4qelbA7jd2cvlxs
 中天新闻,http://iptv.852851.xyz/l/aCaZJ5RaADjINz7ZCs5mEbBb0bg3ORdig5nGwtYrTmT2bjPkkjoaCgy2UxeOKF5L/index.m3u8
 NOW新闻,http://iptv.852851.xyz/l/361sYi-quOA-kLrf_dwlzC2bhNkgafYaEljxSttkYwUTkOIC_s6py3_hm50eC_E6/index.m3u8
 
+民视新闻,https://d2jc41c1shgcol.cloudfront.net/live/ftvnewsqt/playlist.m3u8
 TVBS新闻,https://d2jc41c1shgcol.cloudfront.net/live/tvbsnewsqt/playlist.m3u8
+东森新闻,https://d2jc41c1shgcol.cloudfront.net/live/EBCNews/playlist.m3u8
 NOW新闻,http://173.208.234.146/live/nowxw.m3u8
 凤凰资讯,http://173.208.234.146/live/fhzx.m3u8
 
@@ -183,12 +185,12 @@ TV朝鲜,http://onair2.cdn.tvchosun.com/origin2/_definst_/tvchosun_s3/playlist.m
 
 🇯🇪纪实人文,#genre#
 LoveNature,http://iptv.852851.xyz/l/hDNYoQmtOhNlregr9ED3IgNzcyQXG1fvcNEkHAyCxrLjcy3i7nJSsm_Z334E72-Y/index.m3u8
-DISCOVERY,http://iptv.852851.xyz/l/RquKIWHUOW-p5mkxYnmWfbsobXFJ6XDBrsej9HqX1BtWaY17CP3M_Orv-L4ZHkzQ/index.m3u8
-历史,http://iptv.852851.xyz/l/wo56yc1YsMtvuv_nSJYuRWoWBcPyAq_OQzOjboP-GvvVOC-dXNBfcCQY8Z7W5LfT/index.m3u8
-罪案侦查,http://iptv.852851.xyz/l/gndwKWVhGthlXycvU_YIXSpVRAYFO9EkPiOYZsNuxKl9P8DszSbaUXWlyPL_S7r2/index.m3u8
-视纳华仁纪实,http://iptv.852851.xyz/l/tahREv7xhFwDnVJvC-NZSE9pxdsQ4ytvVyvtk9ORnzfAgMR7l4YNLpOI3nocFDy8/index.m3u8
-影迷数位纪实,http://iptv.852851.xyz/l/JbqFPkFZ6gDhodxiSkcyQ9OVt1GzFVumea1JbRWZcyesdIImyjgsBjKUgZD7kw7z/index.m3u8
-麦哲伦,http://iptv.852851.xyz/l/mbB8noDxWjLpfWA8O5Ak3eIjap_RN9qG3sFZAJirGVjmrIACZqXrlEZ11BQQDUSg/index.m3u8
+DISCOVERY,http://iptv.852851.xyz/l/Gg8y9560eeW9DXvWB5kgo1uSCn-ypt0vFTF6wGW8FllrhWeo1wKyh65dt0O6a3HL/index.m3u8
+历史,http://iptv.852851.xyz/l/pnfLCH1TcC88HoTbTXtHb9IW9lCUCXNak9EaFniHZT-A6ZyM6mNOF2L6rJePjQem/index.m3u8#http://iptv.852851.xyz/l/2p9QApWnGWA8_hX5pcWUJguOuFqPacv1yr0tWkB-aj2Ii8iA3fd6MPzqeTwvl49r/index.m3u8#http://iptv.852851.xyz/l/7b-Rh_s1ne6qY9ynyO1_A4oQBEA2wZvHOTDY1W8bx4sdbqHUptV0XRxYsHPPnmAZ/play
+罪案侦查,http://iptv.852851.xyz/l/GUif7iidHhijCnmT5yoxuTKImy7bHCqhncrjnSBLXcA12ezhJBinI3-ib4i2ldU1/index.m3u8
+视纳华仁纪实,http://iptv.852851.xyz/l/TasEOybW0hsqX54HmKjWxO5mVph2k9xQdcW9Dj8Jj-ZvMQLj5KZ_IVv-I2DWk0L2/index.m3u8
+影迷数位纪实,http://iptv.852851.xyz/l/WyqZxfPPhLZGlVXTnfH0BaaaJ8GDLMmqmk2wr_cNaosvsHZuTZB6UMF4gv00dWUB/index.m3u8
+麦哲伦,http://iptv.852851.xyz/l/z9UeVNgkQ9qcKwIM2qIoB9UtNru3vovxjgecd9gxLFnrzkOFMquve1RFvMEXQ92V/index.m3u8
 
 动物星球,http://61.221.215.25:8800/hls/57/index.m3u8
 
