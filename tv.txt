@@ -158,6 +158,8 @@ FOX,http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/2544.ts
 
 
 🇭🇰台港综合,#genre#
+公视,http://myds.momo.xx.kg/stream.php?id=1b2fb254c269aec2cbfa3dde15ebcb58&token=dc07531db3d29a5c
+
 民视,http://iptv.852851.xyz/l/Gvih2MaikKubTMH4_zTuGz5Yfzx6x4Mrt_iCqEBicwXRRa8dYyC_ft_Q8C_Pf5qj/index.m3u8
 三立综合,http://iptv.852851.xyz/l/6boACLm2cI4JtJ2GNWLHmO5dOVCH1XQcPE4e2fBmspc_kvSg_SZom5rNnx7kL_pE/index.m3u8
 中视,http://iptv.852851.xyz/l/Z5RsZnTVqJMJ1lGbxbwGhk1vEnI7poEOHD-e1wA7Zr84irfVF4GNQvEProc39o1e/index.m3u8
