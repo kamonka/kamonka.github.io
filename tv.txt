@@ -68,9 +68,17 @@ SKYNEWS,http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/980439.ts#https://xumo-drc
 土耳其之声,https://tv-trtworld.medya.trt.com.tr/master_1080.m3u8#http://tr.zengi34.xyz:8080/UEJLSW1qN0MwYk0rcU43MFA2bVM2VXdlYURJb1NjaHcvR3U3RnlCV3E2Y2llYXhFeEJkQm9JQmpENDlZa3BYNg
 
 🇹🇼台港新闻,#genre#
+镜新闻,http://myds.momo.xx.kg/stream.php?id=182eebceeeb3e0a2d638bf93fbc140dd&token=c754b01dc1352c49
+民视新闻,http://myds.momo.xx.kg/stream.php?id=2282b5878b96d67100c80180355028b6&token=c754b01dc1352c49
+台视新闻,http://myds.momo.xx.kg/stream.php?id=5f190d5125d339a077c8a3c2a54fa398&token=c754b01dc1352c49
+TVBS新闻,http://myds.momo.xx.kg/stream.php?id=45a10e0602cf36f3cf1685b06cef0912&token=c754b01dc1352c49
+中天新闻,http://myds.momo.xx.kg/stream.php?id=d6354168a027fe64233913fd21058437&token=c754b01dc1352c49
+寰宇新闻,http://myds.momo.xx.kg/stream.php?id=8d679ea6d22fdddd13dafa634750461a&token=c754b01dc1352c49
+NOW新闻,http://myds.momo.xx.kg/stream.php?id=5ce64dc30cb6844a5f007a8b73b576a3&token=c754b01dc1352c49
+凤凰资讯,http://myds.momo.xx.kg/stream.php?id=c22544bb3487983c42c40fc1f0d66cf1&token=c754b01dc1352c49
+
 年代新闻,http://iptv.852851.xyz/l/9jxE7ZXTlBLcKytaO_foaH_7PiOhJUrpR3qxqyx3YrG0N1YprzXoCsZOC3a5CW_O/play
 镜新闻,http://iptv.852851.xyz/l/IhsxOLZkBrLfOBOhIL43aBOmONqFGcbM9etJSrcy66pT_qUlRy4fNdz9BqG3VYSp/index.m3u8
-民视新闻,http://iptv.852851.xyz/l/aIGpH0XJvM_mqgC0zIn1oCRF7GeeK4vEhrlJ5VUK8zggaaVJf5Er4oUZlujeblPC/index.m3u8
 东森新闻,http://iptv.852851.xyz/l/S7Z6rCTeb-r8jTzm8zFkQntudxwJPc5hVQbJfmm-J56Z8Lbf6W6HYfrscWUq-INM/index.m3u8
 TVBS新闻,http://iptv.852851.xyz/l/qnG4TrYXarraq1YANGeR4A00HDn3u4qelbA7jd2cvlxspLrrhf-GQL6avBXUJJMY/index.m3u8
 寰宇新闻,http://iptv.852851.xyz/l/JaozpEN3XbAZzHV8hAlcZJB434lhuQiNyYWdU8c3lmlexWEuT1Mgnq2mYnLSPQOO/index.m3u8
@@ -151,7 +159,7 @@ FOX,http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/2544.ts
 
 
 🇭🇰台港综合,#genre#
-公视,http://myds.momo.xx.kg/stream.php?id=1b2fb254c269aec2cbfa3dde15ebcb58&token=dc07531db3d29a5c
+公视,http://myds.momo.xx.kg/stream.php?id=1b2fb254c269aec2cbfa3dde15ebcb58&token=c754b01dc1352c49
 年代新闻,http://myds.momo.xx.kg/stream.php?id=6b151a5fe979a7be1f823e0d0064fcaa&token=dc07531db3d29a5c
 
 民视,http://iptv.852851.xyz/l/Gvih2MaikKubTMH4_zTuGz5Yfzx6x4Mrt_iCqEBicwXRRa8dYyC_ft_Q8C_Pf5qj/index.m3u8
