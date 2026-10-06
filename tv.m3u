@@ -36,7 +36,7 @@ http://58.82.168.138:5002/cs16.m3u8?token=guoziyun&gid=cs16&channel=zhongying
 #EXTINF:-1 group-title="世界新闻",FOXNEWS
 https://fox-foxnewsnow-vizio.amagi.tv/playlist720-p.m3u8
 #EXTINF:-1 group-title="世界新闻",FOXNEWS
-http://iptv.852851.xyz/l/mJA9ozxZYJCDtysvnpVzygQ1sskmtsnnkEb0kA7Z02RISNXYld9bA4Hdt8b3-njj/play
+http://good.852851.xyz/l/mJA9ozxZYJCDtysvnpVzygQ1sskmtsnnkEb0kA7Z02RISNXYld9bA4Hdt8b3-njj/play
 #EXTINF:-1 group-title="世界新闻",FOXNEWS
 http://neosfpoo.top:8080/101778770428/e511208ea106/71887
 #EXTINF:-1 group-title="世界新闻",FOXNEWS
@@ -74,7 +74,7 @@ https://tving-live-o2-xcdn.tving.com/o2/v1/019db80595b1153d7865047a0ccd/019db809
 #EXTINF:-1 group-title="世界新闻",路透社
 https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00453-reuters-reuters-hls-rakutenjp/playlist.m3u8
 #EXTINF:-1 group-title="世界新闻",路透社
-http://iptv.852851.xyz/l/I5m2hyPwRBbKpgUXTeOkCEA7__gBVFqXBLcvnTLCYkfbas_a3JlWy91NJP3ywXkX/play
+http://good.852851.xyz/l/I5m2hyPwRBbKpgUXTeOkCEA7__gBVFqXBLcvnTLCYkfbas_a3JlWy91NJP3ywXkX/play
 #EXTINF:-1 group-title="世界新闻",路透社
 https://dbrb49pjoymg4.cloudfront.net/manifest/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod_default_xumo-ams-aws/e7493ea5-5c1c-4d7a-a3f7-e95516048ad8/3.m3u8
 #EXTINF:-1 group-title="世界新闻",NBC
@@ -166,15 +166,15 @@ https://tv-trtworld.medya.trt.com.tr/master_1080.m3u8
 #EXTINF:-1 group-title="世界新闻",土耳其之声
 http://tr.zengi34.xyz:8080/UEJLSW1qN0MwYk0rcU43MFA2bVM2VXdlYURJb1NjaHcvR3U3RnlCV3E2Y2llYXhFeEJkQm9JQmpENDlZa3BYNg
 #EXTINF:-1 group-title="台港新闻",年代新闻
-http://iptv.852851.xyz/l/VD_8ygH7QDQnD9330KaClBp34nZhZLUq3jkActoDMXP8KvVy1OgQ-VRigqyhsc1d/play
+http://good.852851.xyz/l/VD_8ygH7QDQnD9330KaClBp34nZhZLUq3jkActoDMXP8KvVy1OgQ-VRigqyhsc1d/play
 #EXTINF:-1 group-title="台港新闻",镜新闻
-http://iptv.852851.xyz/l/7hujk1t1oxWvMjGRtCOwgQOJ07neCOwppqXcObsI5XYHZyEDxgk3BjBCaAHZr-yz/index.m3u8
+http://good.852851.xyz/l/7hujk1t1oxWvMjGRtCOwgQOJ07neCOwppqXcObsI5XYHZyEDxgk3BjBCaAHZr-yz/index.m3u8
 #EXTINF:-1 group-title="台港新闻",民视新闻
-http://iptv.852851.xyz/l/9Bdmg6Vol-8tDcv5AKrLeMNKlong9GkflUTTCd80I13phaMth1Z1kZACAo5n14NL/index.m3u8
+http://good.852851.xyz/l/9Bdmg6Vol-8tDcv5AKrLeMNKlong9GkflUTTCd80I13phaMth1Z1kZACAo5n14NL/index.m3u8
 #EXTINF:-1 group-title="台港新闻",东森新闻
-http://iptv.852851.xyz/l/w9szXae0W4VoZ_3asJBqaErhrmDI5Q11zSt1LhOo7oYah9WyH94ROPQX8_9rDVuT/index.m3u8
+http://good.852851.xyz/l/w9szXae0W4VoZ_3asJBqaErhrmDI5Q11zSt1LhOo7oYah9WyH94ROPQX8_9rDVuT/index.m3u8
 #EXTINF:-1 group-title="台港新闻",TVBS新闻
-http://iptv.852851.xyz/l/_Mh1URYjWJIse2Rgd_hOyOpb_x3qWTiiSfvFiCxrFwD-V0Qi2RSqjLe7ZGvSlGhl/index.m3u8
+http://good.852851.xyz/l/_Mh1URYjWJIse2Rgd_hOyOpb_x3qWTiiSfvFiCxrFwD-V0Qi2RSqjLe7ZGvSlGhl/index.m3u8
 #EXTINF:-1 group-title="台港新闻",TVBS新闻
 https://d2jc41c1shgcol.cloudfront.net/live/tvbsnewsqt/playlist.m3u8
 #EXTINF:-1 group-title="台港新闻",NOW新闻
@@ -302,13 +302,13 @@ http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/630645.ts
 #EXTINF:-1 group-title="欧美综合",FOX
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/2544.ts
 #EXTINF:-1 group-title="台港综合",民视
-http://iptv.852851.xyz/l/0imsjMCL75ZxlL_qWn-OMvhlbqI-IlqHzSjokoidmlPLj8vmPZz6jRz9OWEEol4E/index.m3u8
+http://good.852851.xyz/l/0imsjMCL75ZxlL_qWn-OMvhlbqI-IlqHzSjokoidmlPLj8vmPZz6jRz9OWEEol4E/index.m3u8
 #EXTINF:-1 group-title="台港综合",三立综合
-http://iptv.852851.xyz/l/6_8Jktz42qQTVsPtni0pZz5vA02Ii3T6R1fnjPkCYoIjA0wDim2BmUon_lBrrtCi/index.m3u8
+http://good.852851.xyz/l/6_8Jktz42qQTVsPtni0pZz5vA02Ii3T6R1fnjPkCYoIjA0wDim2BmUon_lBrrtCi/index.m3u8
 #EXTINF:-1 group-title="台港综合",中视
-http://iptv.852851.xyz/l/Ssb35YkwMdvTuDYFLYsvwkqVXI7MnkEWHD2-HMl1wN_lErVA2P_Lm6I23Z1IeBnr/index.m3u8
+http://good.852851.xyz/l/Ssb35YkwMdvTuDYFLYsvwkqVXI7MnkEWHD2-HMl1wN_lErVA2P_Lm6I23Z1IeBnr/index.m3u8
 #EXTINF:-1 group-title="台港综合",华视
-http://iptv.852851.xyz/l/r6tHArk9o1nsSZ2dH7kHpYOKLv8O0ymE8jJf6m3DLFW_3xZ0-OTr-E0nfSWpsfis/index.m3u8
+http://good.852851.xyz/l/r6tHArk9o1nsSZ2dH7kHpYOKLv8O0ymE8jJf6m3DLFW_3xZ0-OTr-E0nfSWpsfis/index.m3u8
 #EXTINF:-1 group-title="台港综合",翡翠台
 https://cdn3.indevs.in/stream/tvb/fct/
 #EXTINF:-1 group-title="台港综合",明珠台
@@ -348,19 +348,19 @@ http://173.208.234.146/live/fhxg.m3u8
 #EXTINF:-1 group-title="台港综合",TV朝鲜
 http://onair2.cdn.tvchosun.com/origin2/_definst_/tvchosun_s3/playlist.m3u8
 #EXTINF:-1 group-title="纪实人文",LoveNature
-http://iptv.852851.xyz/l/hDNYoQmtOhNlregr9ED3IgNzcyQXG1fvcNEkHAyCxrLjcy3i7nJSsm_Z334E72-Y/index.m3u8
+http://good.852851.xyz/l/hDNYoQmtOhNlregr9ED3IgNzcyQXG1fvcNEkHAyCxrLjcy3i7nJSsm_Z334E72-Y/index.m3u8
 #EXTINF:-1 group-title="纪实人文",DISCOVERY
-http://iptv.852851.xyz/l/RquKIWHUOW-p5mkxYnmWfbsobXFJ6XDBrsej9HqX1BtWaY17CP3M_Orv-L4ZHkzQ/index.m3u8
+http://good.852851.xyz/l/RquKIWHUOW-p5mkxYnmWfbsobXFJ6XDBrsej9HqX1BtWaY17CP3M_Orv-L4ZHkzQ/index.m3u8
 #EXTINF:-1 group-title="纪实人文",历史
-http://iptv.852851.xyz/l/wo56yc1YsMtvuv_nSJYuRWoWBcPyAq_OQzOjboP-GvvVOC-dXNBfcCQY8Z7W5LfT/index.m3u8
+http://good.852851.xyz/l/wo56yc1YsMtvuv_nSJYuRWoWBcPyAq_OQzOjboP-GvvVOC-dXNBfcCQY8Z7W5LfT/index.m3u8
 #EXTINF:-1 group-title="纪实人文",罪案侦查
-http://iptv.852851.xyz/l/gndwKWVhGthlXycvU_YIXSpVRAYFO9EkPiOYZsNuxKl9P8DszSbaUXWlyPL_S7r2/index.m3u8
+http://good.852851.xyz/l/gndwKWVhGthlXycvU_YIXSpVRAYFO9EkPiOYZsNuxKl9P8DszSbaUXWlyPL_S7r2/index.m3u8
 #EXTINF:-1 group-title="纪实人文",视纳华仁纪实
-http://iptv.852851.xyz/l/tahREv7xhFwDnVJvC-NZSE9pxdsQ4ytvVyvtk9ORnzfAgMR7l4YNLpOI3nocFDy8/index.m3u8
+http://good.852851.xyz/l/tahREv7xhFwDnVJvC-NZSE9pxdsQ4ytvVyvtk9ORnzfAgMR7l4YNLpOI3nocFDy8/index.m3u8
 #EXTINF:-1 group-title="纪实人文",影迷数位纪实
-http://iptv.852851.xyz/l/JbqFPkFZ6gDhodxiSkcyQ9OVt1GzFVumea1JbRWZcyesdIImyjgsBjKUgZD7kw7z/index.m3u8
+http://good.852851.xyz/l/JbqFPkFZ6gDhodxiSkcyQ9OVt1GzFVumea1JbRWZcyesdIImyjgsBjKUgZD7kw7z/index.m3u8
 #EXTINF:-1 group-title="纪实人文",麦哲伦
-http://iptv.852851.xyz/l/mbB8noDxWjLpfWA8O5Ak3eIjap_RN9qG3sFZAJirGVjmrIACZqXrlEZ11BQQDUSg/index.m3u8
+http://good.852851.xyz/l/mbB8noDxWjLpfWA8O5Ak3eIjap_RN9qG3sFZAJirGVjmrIACZqXrlEZ11BQQDUSg/index.m3u8
 #EXTINF:-1 group-title="纪实人文",动物星球
 http://61.221.215.25:8800/hls/57/index.m3u8
 #EXTINF:-1 group-title="纪实人文",ANIMALPLANET
@@ -408,33 +408,33 @@ https://rvsh.jtw.sh.gov.cn/live/200120a4-3d7c-4a7d-82dc-71fdfef3e045_sub/index.m
 #EXTINF:-1 group-title="上海实时",临港大道
 https://rvsh.jtw.sh.gov.cn/live/310120a4-3d7c-4a7d-82dc-71fde233e060_sub/index.m3u8?t=1902119782&k=e5d9cad0fb4bde78
 #EXTINF:-1 group-title="影视娱乐",猪哥亮歌厅秀
-http://iptv.852851.xyz/l/DDVqdU31Y4T3Zld27UT5YHC__vW5LHsYF8JSrwv6adibbannafrPUjbCYwVmxGGo/index.m3u8
+http://good.852851.xyz/l/DDVqdU31Y4T3Zld27UT5YHC__vW5LHsYF8JSrwv6adibbannafrPUjbCYwVmxGGo/index.m3u8
 #EXTINF:-1 group-title="影视娱乐",爱奇艺
 https://cdn3.indevs.in/stream/live/iqiyi/
 #EXTINF:-1 group-title="影视娱乐",纬来日本
-http://iptv.852851.xyz/l/8uf0CnX7fWy-nwcfgnbxL9-l0RIOcmfiSbDyoxW7Cq66JTr942HpROo7olhK3llJ/index.m3u8
+http://good.852851.xyz/l/8uf0CnX7fWy-nwcfgnbxL9-l0RIOcmfiSbDyoxW7Cq66JTr942HpROo7olhK3llJ/index.m3u8
 #EXTINF:-1 group-title="影视娱乐",八大综艺
-http://iptv.852851.xyz/l/Q1M4dLe9Cmd9yqsFyiWM3DR_Mvzy8UpOZf2CpIa-k-4vOb-DifIC7h08qcP5gNkb/index.m3u8
+http://good.852851.xyz/l/Q1M4dLe9Cmd9yqsFyiWM3DR_Mvzy8UpOZf2CpIa-k-4vOb-DifIC7h08qcP5gNkb/index.m3u8
 #EXTINF:-1 group-title="影视娱乐",韩国娱乐
-http://iptv.852851.xyz/l/2TsBzD7kcUca-wdcuu1y6KkDXF8fKsBhiCM6dQ5wrZZZPmrFO4hbJTuxA5o_SHdv/index.m3u8
+http://good.852851.xyz/l/2TsBzD7kcUca-wdcuu1y6KkDXF8fKsBhiCM6dQ5wrZZZPmrFO4hbJTuxA5o_SHdv/index.m3u8
 #EXTINF:-1 group-title="影视娱乐",靖天日本
-http://iptv.852851.xyz/l/FFBROUMIakfSYptHtkRKXDqlAXujVu7XQHX_4Oz0Xf2p_WZjPKoDdAcp7XA5JHYk/index.m3u8
+http://good.852851.xyz/l/FFBROUMIakfSYptHtkRKXDqlAXujVu7XQHX_4Oz0Xf2p_WZjPKoDdAcp7XA5JHYk/index.m3u8
 #EXTINF:-1 group-title="影视娱乐",靖天映画
-http://iptv.852851.xyz/l/BGxI3ed6x9hbXWf9yIeeSKatbw9NVDcJqLRSIvWrrEYsZ0p6uTStjJzNkr78eY_5/index.m3u8
+http://good.852851.xyz/l/BGxI3ed6x9hbXWf9yIeeSKatbw9NVDcJqLRSIvWrrEYsZ0p6uTStjJzNkr78eY_5/index.m3u8
 #EXTINF:-1 group-title="影视娱乐",靖天电影
-http://iptv.852851.xyz/l/g3XfE5wlVxV8Rk9cF7L-MSfk1BidrpEXvZ3kSLycdSNLrTOlLNNncTvkQ6MEKlH5/index.m3u8
+http://good.852851.xyz/l/g3XfE5wlVxV8Rk9cF7L-MSfk1BidrpEXvZ3kSLycdSNLrTOlLNNncTvkQ6MEKlH5/index.m3u8
 #EXTINF:-1 group-title="影视娱乐",影迷数位电影
-http://iptv.852851.xyz/l/1cVSVE-bRBVMML4g_MHmDufJYvFd69BjDjIntHf6yZoQ872o70gKEfsp04G_qs_q/index.m3u8
+http://good.852851.xyz/l/1cVSVE-bRBVMML4g_MHmDufJYvFd69BjDjIntHf6yZoQ872o70gKEfsp04G_qs_q/index.m3u8
 #EXTINF:-1 group-title="影视娱乐",amc电影
-http://iptv.852851.xyz/l/3tvu6tDmmvbI0o6wOuW9U0OCZ1oWy6oPgHAG-8P3mHHRRe8cfmKdTPVOmkcXd3kh/index.m3u8
+http://good.852851.xyz/l/3tvu6tDmmvbI0o6wOuW9U0OCZ1oWy6oPgHAG-8P3mHHRRe8cfmKdTPVOmkcXd3kh/index.m3u8
 #EXTINF:-1 group-title="影视娱乐",CinemaWorld
-http://iptv.852851.xyz/l/_U9QWFAUs-dC8YhPdXoEBxkS-U4kEzLzZTdQaTTtwZ8N9I6KKxY8ZiGlyUvfAk26/index.m3u8
+http://good.852851.xyz/l/_U9QWFAUs-dC8YhPdXoEBxkS-U4kEzLzZTdQaTTtwZ8N9I6KKxY8ZiGlyUvfAk26/index.m3u8
 #EXTINF:-1 group-title="影视娱乐",我的欧洲电影
-http://iptv.852851.xyz/l/4zlEZ1Y27_xe3I5tKfDdDAl4yD9wrt5gcqT1dJs5ywOaAGGQ6H9FfFSpqHzt80gX/index.m3u8
+http://good.852851.xyz/l/4zlEZ1Y27_xe3I5tKfDdDAl4yD9wrt5gcqT1dJs5ywOaAGGQ6H9FfFSpqHzt80gX/index.m3u8
 #EXTINF:-1 group-title="影视娱乐",HBO
-http://iptv.852851.xyz/l/2OlG0hbD-1rDAvbUz2NXzKpYrt_kzGV6K3V7n4qx9N-PVj-B0itJJAXDcDMr7XQ7/play
+http://good.852851.xyz/l/2OlG0hbD-1rDAvbUz2NXzKpYrt_kzGV6K3V7n4qx9N-PVj-B0itJJAXDcDMr7XQ7/play
 #EXTINF:-1 group-title="影视娱乐",HBO
-http://iptv.852851.xyz/l/SBGLcNswJxsAyoHqSlRzROneLRdMl8_WsJ69PC8dbccA5DMhUnZNN64SQwpaYdg4/index.m3u8
+http://good.852851.xyz/l/SBGLcNswJxsAyoHqSlRzROneLRdMl8_WsJ69PC8dbccA5DMhUnZNN64SQwpaYdg4/index.m3u8
 #EXTINF:-1 group-title="影视娱乐",HBO
 http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/71855.ts
 #EXTINF:-1 group-title="影视娱乐",HBO
@@ -490,19 +490,19 @@ http://jackofclubs.vip:80/1Ray1842/xWtyyTVfFY/399420.ts
 #EXTINF:-1 group-title="体育",TORO
 http://10k.lucastv.pro/live/2c99755ae255/gJnMAT2/235353.ts
 #EXTINF:-1 group-title="体育",亚运会
-http://iptv.852851.xyz/l/oJzp9O-XhBr7dwFPO7B-u96awa8vDP3npKeHnN3pzWJodFkSv0QXCsajiMc7mC4W/index.m3u8
+http://good.852851.xyz/l/oJzp9O-XhBr7dwFPO7B-u96awa8vDP3npKeHnN3pzWJodFkSv0QXCsajiMc7mC4W/index.m3u8
 #EXTINF:-1 group-title="体育",亚运会
-http://iptv.852851.xyz/l/j-O6st_uM81NgXHFS68P_A19rC35miXrGH2jdyK7HAsANLoCFO29ZWeo7d2agKiU/index.m3u8
+http://good.852851.xyz/l/j-O6st_uM81NgXHFS68P_A19rC35miXrGH2jdyK7HAsANLoCFO29ZWeo7d2agKiU/index.m3u8
 #EXTINF:-1 group-title="体育",亚运会
-http://iptv.852851.xyz/l/3jXuVC3Fraa5SQpnagcMGjrePut1Hm56cHAhCMLRWtQmVJlmV-Q217zPks-UNiwb/index.m3u8
+http://good.852851.xyz/l/3jXuVC3Fraa5SQpnagcMGjrePut1Hm56cHAhCMLRWtQmVJlmV-Q217zPks-UNiwb/index.m3u8
 #EXTINF:-1 group-title="体育",爱尔达体育1
-http://iptv.852851.xyz/l/Vr1zFgQcXi87bxfLtojdcqVr4bTNZ7ioSTes1uPrqsM8vsyCJWrPE3MFfi603MQE/index.m3u8
+http://good.852851.xyz/l/Vr1zFgQcXi87bxfLtojdcqVr4bTNZ7ioSTes1uPrqsM8vsyCJWrPE3MFfi603MQE/index.m3u8
 #EXTINF:-1 group-title="体育",爱尔达体育2
-http://iptv.852851.xyz/l/ufkyfSmehvZ-Ja3VjcnE8yPMyNW8-D1ZQhKWJLnHFSZt-XP9G9tJMAMPVWwAa5Lv/index.m3u8
+http://good.852851.xyz/l/ufkyfSmehvZ-Ja3VjcnE8yPMyNW8-D1ZQhKWJLnHFSZt-XP9G9tJMAMPVWwAa5Lv/index.m3u8
 #EXTINF:-1 group-title="体育",爱尔达体育3
-http://iptv.852851.xyz/l/1jR3T-0tgkyImXuvQf-_EEDUVUA77Is8ua580BSkAuhsc70Hy0fJ7mxXW2NJTnBO/index.m3u8
+http://good.852851.xyz/l/1jR3T-0tgkyImXuvQf-_EEDUVUA77Is8ua580BSkAuhsc70Hy0fJ7mxXW2NJTnBO/index.m3u8
 #EXTINF:-1 group-title="体育",NowSports⁴ᵏ
-http://iptv.852851.xyz/l/XOTxiaD4RFYmDpFXY6UyMAdeM3yRskTXQixpl0Ar0EtfZ3yP3YahGZ--OdvYyrPD/index.m3u8
+http://good.852851.xyz/l/XOTxiaD4RFYmDpFXY6UyMAdeM3yRskTXQixpl0Ar0EtfZ3yP3YahGZ--OdvYyrPD/index.m3u8
 #EXTINF:-1 group-title="体育",NowSports⁴ᵏ
 http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/438867.ts
 #EXTINF:-1 group-title="体育",NowSports⁴ᵏ
@@ -524,11 +524,11 @@ http://ktkguru.com:80/06DD463C8236519/f2ypvVoSFB/438867
 #EXTINF:-1 group-title="体育",NowSports⁴ᵏ
 http://ktkguru.com:80/06DD463C8236519/f2ypvVoSFB/438866
 #EXTINF:-1 group-title="体育",NowSports⁴ᵏ
-http://iptv.852851.xyz/l/lAp4ozdGx2jCK8Ss7V79TqsU3feFif-l3PIEmQ7alad_lliozYPOzUe
+http://good.852851.xyz/l/lAp4ozdGx2jCK8Ss7V79TqsU3feFif-l3PIEmQ7alad_lliozYPOzUe
 #EXTINF:-1 group-title="体育",NowSports⁴ᵏ
 http://line.ciao-ott.net:80/play/live.php?mac=00:1A:79:C8:7B:30&stream=382835&extension=ts&play_token=cu1koRdFTk
 #EXTINF:-1 group-title="体育",NowSportsPRIME
-http://iptv.852851.xyz/l/nHH7Te5FQyFcyw3N3vjqbtzHTiIlcQ2jVFvwpB1SX4iNKGAWp2eschwQBmk5ug5x/index.m3u8
+http://good.852851.xyz/l/nHH7Te5FQyFcyw3N3vjqbtzHTiIlcQ2jVFvwpB1SX4iNKGAWp2eschwQBmk5ug5x/index.m3u8
 #EXTINF:-1 group-title="体育",NowSportsPRIME
 http://ktkguru.com:80/06DD463C8236519/f2ypvVoSFB/748430
 #EXTINF:-1 group-title="体育",NowSportsPRIME
@@ -1390,25 +1390,25 @@ https://akariko-bck1.sankuria.sbs/stream/jp/tbs_news/stream-output.m3u8?mode=hls
 #EXTINF:-1 group-title="日本",ウェザーニューズ
 https://akariko-bck1.sankuria.sbs/stream/jp/weather_news/stream-output.m3u8?mode=hls
 #EXTINF:-1 group-title="日本",NHKG
-http://iptv.852851.xyz/l/l0hhtORXUfRMX9MlC6lewa0FRLTbhWy0Znsyq9j3S-p6tL1JNWERKlqXmJ_-u_Y0/play
+http://good.852851.xyz/l/l0hhtORXUfRMX9MlC6lewa0FRLTbhWy0Znsyq9j3S-p6tL1JNWERKlqXmJ_-u_Y0/play
 #EXTINF:-1 group-title="日本",NHKG
-http://iptv.852851.xyz/l/Nv3w2_kS0rs6WDDUm7Y6pdrIpPo7Wke7RwzFYlIhY98Sqs9q3nrInxN9dUSPwnoN/play
+http://good.852851.xyz/l/Nv3w2_kS0rs6WDDUm7Y6pdrIpPo7Wke7RwzFYlIhY98Sqs9q3nrInxN9dUSPwnoN/play
 #EXTINF:-1 group-title="日本",NHKBSP
-http://iptv.852851.xyz/l/kRDqaDJvMEz-pdgqR97Xwvy7m1d2HzKrPUDykXCbQfh70aZWJsJTWXpYlCB2V4uS/play
+http://good.852851.xyz/l/kRDqaDJvMEz-pdgqR97Xwvy7m1d2HzKrPUDykXCbQfh70aZWJsJTWXpYlCB2V4uS/play
 #EXTINF:-1 group-title="日本",NHKBS8K
-http://iptv.852851.xyz/l/diBH5sI5b8bCCD-zsI0RDct00XI8lHyf2zkMKZi9uZwrKULKXaIYTMPDGfhRc-WH/play
+http://good.852851.xyz/l/diBH5sI5b8bCCD-zsI0RDct00XI8lHyf2zkMKZi9uZwrKULKXaIYTMPDGfhRc-WH/play
 #EXTINF:-1 group-title="日本",日本テレビ
-http://iptv.852851.xyz/l/cAGS0ppiGI0t5l06Y1y-hmcjDQ3G01SK2yPb--zr1tDixWMLMhQVRRHUxR18Dktr/play
+http://good.852851.xyz/l/cAGS0ppiGI0t5l06Y1y-hmcjDQ3G01SK2yPb--zr1tDixWMLMhQVRRHUxR18Dktr/play
 #EXTINF:-1 group-title="日本",TBS
-http://iptv.852851.xyz/l/eDhgZEVyvpQ7GfgMDXsHNqzC-ORplKIGqHf4bhSWlBIEBcGzFGgyFy6lVRz-l-3g/play
+http://good.852851.xyz/l/eDhgZEVyvpQ7GfgMDXsHNqzC-ORplKIGqHf4bhSWlBIEBcGzFGgyFy6lVRz-l-3g/play
 #EXTINF:-1 group-title="日本",フジテレビ
-http://iptv.852851.xyz/l/1wNWOMmPIIyISdc1bxg6yWasowxTipgGomCa2Qt3yezQDxIhw6_GJ-FBzHCPYvTl/play
+http://good.852851.xyz/l/1wNWOMmPIIyISdc1bxg6yWasowxTipgGomCa2Qt3yezQDxIhw6_GJ-FBzHCPYvTl/play
 #EXTINF:-1 group-title="日本",フジテレビ
-http://iptv.852851.xyz/l/FlTyBn3BkTppKAPMqSu--9Xbz1wX6vprYhsPeVeB6ffyVxroDfk_27quPXIdr5yM/play
+http://good.852851.xyz/l/FlTyBn3BkTppKAPMqSu--9Xbz1wX6vprYhsPeVeB6ffyVxroDfk_27quPXIdr5yM/play
 #EXTINF:-1 group-title="日本",テレビ朝日
-http://iptv.852851.xyz/l/MvjgcZr4NMsxg4moWADo-_qlMTBE75J5_2Nds9bqyjq2Kt1aKNZh1aAtkj6kvwAD/play
+http://good.852851.xyz/l/MvjgcZr4NMsxg4moWADo-_qlMTBE75J5_2Nds9bqyjq2Kt1aKNZh1aAtkj6kvwAD/play
 #EXTINF:-1 group-title="日本",テレビ朝日
-http://iptv.852851.xyz/l/FPmlURF1R_s2x3Hfc_Riy0lyPKDIwd2cB8DYlHJKlgytI8fdGwVikPuyr7jjFO5H/play
+http://good.852851.xyz/l/FPmlURF1R_s2x3Hfc_Riy0lyPKDIwd2cB8DYlHJKlgytI8fdGwVikPuyr7jjFO5H/play
 #EXTINF:-1 group-title="日本",NHKG
 http://58.82.168.138:5002/hdgd01.m3u8?token=guoziyun&channel=zhongying
 #EXTINF:-1 group-title="日本",NHKG
