@@ -235,10 +235,10 @@ CinemaWorldhttp://good.852851.xyz/l/jXpZX1hb5BWjAUY__Z_sscikvE4evKOcxhYgwLf_QzcE
 HBOhttp://good.852851.xyz/l/lbkC9HKD7oFTG5TSwSvaZzv4gddYGdRp1iWwLZmsEpAA9hGQh2dCfPww_zfamKdK/index.m3u8
 HBOhttp://good.852851.xyz/l/R-zumB519DwbcyYKUuNYiPBADQzBaKv21nmeu9A3i2xn8Rw41MlnqD82B3JY6dqz/index.m3u8
 HBOhttp://good.852851.xyz/l/8fPxvhjoUMisX3Hw0GZYER4QVK69A_lGxBVkD1LTeiTedx1TZW-yLLbBcWBLp_no/play
-HBOhttp://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/71855.ts
-HBOhttp://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/71854.ts
-AMChttp://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/1060176.ts
-FXhttp://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/71321.ts
+HBO,http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/71855.ts
+HBO,http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/71854.ts
+AMC,http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/1060176.ts
+FX,http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/71321.ts
 
 🇲🇾新马泰印#genre#
 
