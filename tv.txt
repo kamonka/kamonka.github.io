@@ -200,9 +200,9 @@ DISCOVERYhttp://good.852851.xyz/l/Gg8y9560eeW9DXvWB5kgo1uSCn-ypt0vFTF6wGW8FllrhW
 
 ANIMALPLANET,http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/71431.ts
 DISCOVERY,http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/71440.ts#http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/1052478.ts
-A&E,http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/71313.ts#http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/1060172.ts
+A&E,http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/1060172.ts#http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/71313.ts
 COWBOY,http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/71383.ts
-History,http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/71435.ts#http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/17691.ts
+History,http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/17691.ts#http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/71435.ts
 NGO,http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/71416.ts#http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/71433.ts
 NGOWild,http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/71417.ts
 SUNDANCE,http://hardcoremedia.xyz:80/6jTFRmvaSp/7534936344/129957
