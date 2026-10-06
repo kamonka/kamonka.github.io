@@ -258,12 +258,13 @@ NowSports⁴ᵏ,http://ktkguru.com:80/06DD463C8236519/f2ypvVoSFB/438867#http://k
 PREMIERLEAGUE⁴ᵏ,http://line.ciao-ott.net:80/play/live.php?mac=00:1A:79:C8:7B:30&stream=1312002&extension=ts&play_token=rMQI8WOPhd#http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:1B:0F:6D&stream=1312002&extension=ts&play_token=vTK1cjSxqQ
 PREMIERLEAGUE⁴ᵏ,http://steveit4.net/live/4KYD2C92D/1Z6BCL4/17285.ts#http://steveit4.net/live/4KYD2C92D/1Z6BCL4/979906.ts#http://steveit4.net/live/4KYD2C92D/1Z6BCL4/979907.ts
 
-SKYSPORTS,http://line.cloud-ott.net:80/play/live.php?mac=00:1A:79:0D:80:56&stream=1311999&extension=ts&play_token=FEhmsngN4R
-SKYSPORTS,http://line.cloud-ott.net:80/play/live.php?mac=00:1A:79:0D:80:56&stream=1312002&extension=ts&play_token=MIxE4A2qxf
-SKYSPORTS,http://line.cloud-ott.net:80/play/live.php?mac=00:1A:79:0D:80:56&stream=1312000&extension=ts&play_token=EsP5WvQdeF
-SKYSPORTS,http://line.cloud-ott.net:80/play/live.php?mac=00:1A:79:0D:80:56&stream=1311995&extension=ts&play_token=4ZFqFsy53P
-SKYSPORTS,http://line.cloud-ott.net:80/play/live.php?mac=00:1A:79:0D:80:56&stream=1311994&extension=ts&play_token=St2ptjZ1CL
-SKYSPORTS⁴ᵏ,http://line.cloud-ott.net:80/play/live.php?mac=00:1A:79:0D:80:56&stream=1312008&extension=ts&play_token=u00Cl0P98a
+SKYSPORTS,http://line.cloud-ott.net:80/play/live.php?mac=00:1A:79:0D:80:56&stream=1311999&extension=ts&play_token=fzqrtULNMS
+SKYSPORTS,http://line.cloud-ott.net:80/play/live.php?mac=00:1A:79:0D:80:56&stream=1312000&extension=ts&play_token=LwcXZRZbwy
+SKYSPORTS,http://line.cloud-ott.net:80/play/live.php?mac=00:1A:79:0D:80:56&stream=1312046&extension=ts&play_token=MsIYzuI2E6
+SKYSPORTS,http://line.cloud-ott.net:80/play/live.php?mac=00:1A:79:0D:80:56&stream=1312029&extension=ts&play_token=HmgcL6nZFc
+SKYSPORTS,http://line.cloud-ott.net:80/play/live.php?mac=00:1A:79:0D:80:56&stream=1312028&extension=ts&play_token=QmhGKs4HSi
+SKYSPORTS,http://line.cloud-ott.net:80/play/live.php?mac=00:1A:79:0D:80:56&stream=1312001&extension=ts&play_token=pD045KWX3y
+SKYSPORTS⁴ᵏ,http://line.cloud-ott.net:80/play/live.php?mac=00:1A:79:0D:80:56&stream=1312008&extension=ts&play_token=u00Cl0P98a#http://line.cloud-ott.net:80/play/live.php?mac=00:1A:79:0D:80:56&stream=893917&extension=ts&play_token=atW5MtTbSv
 TNTSPORTS,http://line.cloud-ott.net:80/play/live.php?mac=00:1A:79:0D:80:56&stream=1174218&extension=ts&play_token=c56ATInCI7
 TNTSPORTS,http://line.cloud-ott.net:80/play/live.php?mac=00:1A:79:0D:80:56&stream=1174219&extension=ts&play_token=qpwQ2tQ1pk
 TNTSPORTS,http://line.cloud-ott.net:80/play/live.php?mac=00:1A:79:0D:80:56&stream=1174220&extension=ts&play_token=golaBj6Ugg
