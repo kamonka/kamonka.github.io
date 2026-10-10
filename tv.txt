@@ -257,7 +257,7 @@ TORO,http://jackofclubs.vip:80/1Ray1842/xWtyyTVfFY/399420.ts
 TORO,http://10k.lucastv.pro/live/2c99755ae255/gJnMAT2/235353.ts
 
 SKYSPORTS,http://line.cloud-ott.net:80/play/live.php?mac=00:1A:79:0D:80:56&stream=1311999&extension=ts&play_token=fzqrtULNMS
-SKYSPORTS,http://line.cloud-ott.net:80/play/live.php?mac=00:1A:79:0D:80:56&stream=1312000&extension=ts&play_token=LwcXZRZbwy
+SKYSPORTS,http://line.cloud-ott.net:80/play/live.php?mac=00:1A:79:0D:80:56&stream=1312002&extension=ts&play_token=WIcpP1lyfE
 SKYSPORTS,http://line.cloud-ott.net:80/play/live.php?mac=00:1A:79:0D:80:56&stream=1312046&extension=ts&play_token=MsIYzuI2E6
 SKYSPORTS,http://line.cloud-ott.net:80/play/live.php?mac=00:1A:79:0D:80:56&stream=1312029&extension=ts&play_token=HmgcL6nZFc
 SKYSPORTS,http://line.cloud-ott.net:80/play/live.php?mac=00:1A:79:0D:80:56&stream=1312028&extension=ts&play_token=QmhGKs4HSi
