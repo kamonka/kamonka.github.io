@@ -269,6 +269,14 @@ NowSportsPRIME,http://skytv4k.org:8080/JuergenBanas/WkbCL6Ug2s/112196
 NowSports⁴ᵏ,http://skytv4k.org:8080/JuergenBanas/WkbCL6Ug2s/112209
 NowSports⁴ᵏ,http://skytv4k.org:8080/JuergenBanas/WkbCL6Ug2s/112209
 
+SKYSPORTS,http://skytv4k.org:8080/live/JuergenBanas/WkbCL6Ug2s/112739.ts
+SKYSPORTS,http://skytv4k.org:8080/live/JuergenBanas/WkbCL6Ug2s/112738.ts
+SKYSPORTS,http://skytv4k.org:8080/live/JuergenBanas/WkbCL6Ug2s/112736.ts
+SKYSPORTS,http://skytv4k.org:8080/live/JuergenBanas/WkbCL6Ug2s/112733.ts
+SKYSPORTS,http://skytv4k.org:8080/live/JuergenBanas/WkbCL6Ug2s/112730.ts
+SKYSPORTS,http://skytv4k.org:8080/live/JuergenBanas/WkbCL6Ug2s/6205.ts
+SKYSPORTS,http://skytv4k.org:8080/live/JuergenBanas/WkbCL6Ug2s/112729.ts
+
 SKYSPORTS,http://line.cloud-ott.net:80/play/live.php?mac=00:1A:79:0D:80:56&stream=1311999&extension=ts&play_token=fzqrtULNMS
 SKYSPORTS,http://line.cloud-ott.net:80/play/live.php?mac=00:1A:79:0D:80:56&stream=1312002&extension=ts&play_token=WIcpP1lyfE
 SKYSPORTS,http://line.cloud-ott.net:80/play/live.php?mac=00:1A:79:0D:80:56&stream=1312046&extension=ts&play_token=MsIYzuI2E6
