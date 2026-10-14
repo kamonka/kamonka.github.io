@@ -34,6 +34,7 @@ FOXNEWS,http://realsport.scalecdn.co:8080/live/supersonicstreams/cUewZolveU8Jh18
 阿里郎新闻,http://amdlive-ch01.ctnd.com.edgesuite.net/arirang_1ch/smil:arirang_1ch.smil/playlist.m3u8
 共同社,https://cdn-apne1.tsv2.amagi.tv/linear/amg01287-rakutentvjapan-news3hlscmaf-rakutenjp/playlist.m3u8
 韩联社,https://tving-live-o2-xcdn.tving.com/o2/v1/019dd8deb9f5153d7865157cdbfbd6/019dd8df3d75153d7865157cdbfbd9/playlist.m3u8?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ0dmluZy5jb20iLCJleHAiOjE3ODI5OTY3OTMsInBhdGgiOiIvbzIifQ.geRJOH_F9C5g-GAaJ584nkjr_wwlHJ1Of-npUVYokv0#https://tving-live-o2-xcdn.tving.com/o2/v1/019db80595b1153d7865047a0ccd/019db8091f9d153d7865047a0cd0/playlist.m3u8?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ0dmluZy5jb20iLCJleHAiOjE3ODMwMzM4NjMsInBhdGgiOiIvbzIifQ.BkS5siB6teuhjvCRfK0KXakEZBkOeGW0KjAVhP3H82A
+路透社,https://dbrb49pjoymg4.cloudfront.net/manifest/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod_default_xumo-ams-aws/e7493ea5-5c1c-4d7a-a3f7-e95516048ad8/3.m3u8
 路透社,https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00453-reuters-reuters-hls-rakutenjp/playlist.m3u8
 路透社,http://good.852851.xyz/l/I5m2hyPwRBbKpgUXTeOkCEA7__gBVFqXBLcvnTLCYkfbas_a3JlWy91NJP3ywXkX/play
 路透社,https://dbrb49pjoymg4.cloudfront.net/manifest/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod_default_xumo-ams-aws/e7493ea5-5c1c-4d7a-a3f7-e95516048ad8/3.m3u8
@@ -149,6 +150,10 @@ FOX,http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/2544.ts
 
 
 🇭🇰台港综合,#genre#
+公视,http://211.72.174.95:8116/0.ts
+民视,http://211.72.174.95:8115/0.ts
+台视,http://211.72.174.95:8112/0.ts
+
 公视,http://myds.momo.xx.kg/stream.php?id=1b2fb254c269aec2cbfa3dde15ebcb58&token=c754b01dc1352c49
 
 民视,http://good.852851.xyz/l/Gvih2MaikKubTMH4_zTuGz5Yfzx6x4Mrt_iCqEBicwXRRa8dYyC_ft_Q8C_Pf5qj/index.m3u8
