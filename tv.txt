@@ -107,13 +107,20 @@ HOY资讯,http://173.208.234.146/live/hoy78.m3u8
 TVBS新闻,https://d2jc41c1shgcol.cloudfront.net/live/tvbsnewsqt/playlist.m3u8
 
 🇺🇸欧美综合,#genre#
+BBC1,http://line.cloud-ott.net:80/play/live.php?mac=00:1A:79:0D:80:56&stream=394415&extension=ts&play_token=2dtIgIsHQS
+BBC2,http://line.cloud-ott.net:80/play/live.php?mac=00:1A:79:0D:80:56&stream=394413&extension=ts&play_token=gGGhxs6WNd
+BBC3,http://line.cloud-ott.net:80/play/live.php?mac=00:1A:79:0D:80:56&stream=394411&extension=ts&play_token=fA5an8ZUAQ
+BBC4,http://line.cloud-ott.net:80/play/live.php?mac=00:1A:79:0D:80:56&stream=394409&extension=ts&play_token=4QjxtPAuij
+ZDF,http://line.cloud-ott.net:80/play/live.php?mac=00:1A:79:0D:80:56&stream=1025124&extension=ts&play_token=btt2PSNVuB
+CBS,http://line.cloud-ott.net:80/play/live.php?mac=00:1A:79:0D:80:56&stream=855366&extension=ts&play_token=muDJDE4AVP
+NBC,http://line.cloud-ott.net:80/play/live.php?mac=00:1A:79:0D:80:56&stream=855364&extension=ts&play_token=SCnH0kUtnz
+ABC,http://line.cloud-ott.net:80/play/live.php?mac=00:1A:79:0D:80:56&stream=855367&extension=ts&play_token=zBSQTKE0xE
+
 BBC1,http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/17305.ts#http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/69428.ts
 BBC2,http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/17318.ts
 BBC3,http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/17321.ts
 BBC4,http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/17331.ts
 La1,http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/21367.ts
-RAI⁴ᵏ,http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/1281054.ts
-TRT⁴ᵏ,http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/1436349.ts
 TF1,http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/1281445.ts
 ZDF,http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/1029569.ts
 CBS,http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/213926.ts
@@ -121,17 +128,11 @@ NBC,http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/214129.ts
 FOX,http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/214392.ts
 ABC,http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/222674.ts
 CW,http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/71420.ts
-
-BBC1,http://line.cloud-ott.net:80/play/live.php?mac=00:1A:79:0D:80:56&stream=394415&extension=ts&play_token=2dtIgIsHQS
-BBC2,http://line.cloud-ott.net:80/play/live.php?mac=00:1A:79:0D:80:56&stream=394413&extension=ts&play_token=gGGhxs6WNd
-BBC3,http://line.cloud-ott.net:80/play/live.php?mac=00:1A:79:0D:80:56&stream=394411&extension=ts&play_token=fA5an8ZUAQ
-BBC4,http://line.cloud-ott.net:80/play/live.php?mac=00:1A:79:0D:80:56&stream=394409&extension=ts&play_token=4QjxtPAuij
+RAI⁴ᵏ,http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/1281054.ts
+TRT⁴ᵏ,http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/1436349.ts
 
 La1⁴ᵏ,#http://line.cloud-ott.net:80/play/live.php?mac=00:1A:79:0D:80:56&stream=895539&extension=ts&play_token=hqgAMi6gpl#http://host-aurora.vip:80/play/live.php?mac=00:1a:79:31:c2:72&stream=2075526&extension=ts&play_token=6HySd7KDdW#http://line.cloud-ott.net:80/play/live.php?mac=00:1A:79:0D:80:56&stream=568965&extension=ts&play_token=DNiyX2u2O1
 
-La1⁴ᵏ,http://neosfpoo.top:8080/101778770428/e511208ea106/5622
-RAI⁴ᵏ,http://neosfpoo.top:8080/101778770428/e511208ea106/61949
-TRT⁴ᵏ,http://neosfpoo.top:8080/101778770428/e511208ea106/62701
 TF1,http://neosfpoo.top:8080/101778770428/e511208ea106/57478
 ZDF,http://neosfpoo.top:8080/101778770428/e511208ea106/61183
 CBS,http://neosfpoo.top:8080/101778770428/e511208ea106/71204
@@ -139,6 +140,9 @@ NBC,http://neosfpoo.top:8080/101778770428/e511208ea106/72476
 FOX,http://neosfpoo.top:8080/101778770428/e511208ea106/71886
 ABC,http://neosfpoo.top:8080/101778770428/e511208ea106/71007
 CW,http://neosfpoo.top:8080/101778770428/e511208ea106/71462
+La1⁴ᵏ,http://neosfpoo.top:8080/101778770428/e511208ea106/5622
+RAI⁴ᵏ,http://neosfpoo.top:8080/101778770428/e511208ea106/61949
+TRT⁴ᵏ,http://neosfpoo.top:8080/101778770428/e511208ea106/62701
 
 CBS,http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/89717.ts
 NBC,http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/2428.ts
