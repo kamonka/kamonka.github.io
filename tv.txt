@@ -284,6 +284,10 @@ TORO,http://jackofclubs.vip:80/1Ray1842/xWtyyTVfFY/219525.ts
 TORO,http://jackofclubs.vip:80/1Ray1842/xWtyyTVfFY/399420.ts
 TORO,http://10k.lucastv.pro/live/2c99755ae255/gJnMAT2/235353.ts
 
+NowSports,http://skytv4k.org:8080/live/JuergenBanas/WkbCL6Ug2s/112207.ts#http://skytv4k.org:8080/live/JuergenBanas/WkbCL6Ug2s/112206.ts#http://skytv4k.org:8080/live/JuergenBanas/WkbCL6Ug2s/112205.ts#http://skytv4k.org:8080/live/JuergenBanas/WkbCL6Ug2s/112204.ts#http://skytv4k.org:8080/live/JuergenBanas/WkbCL6Ug2s/112203.ts#http://skytv4k.org:8080/live/JuergenBanas/WkbCL6Ug2s/112202.ts#http://skytv4k.org:8080/live/JuergenBanas/WkbCL6Ug2s/112201.ts
+NowSportsPRIME,http://skytv4k.org:8080/live/JuergenBanas/WkbCL6Ug2s/16940.ts#http://skytv4k.org:8080/live/JuergenBanas/WkbCL6Ug2s/112200.ts#http://skytv4k.org:8080/live/JuergenBanas/WkbCL6Ug2s/112199.ts#http://skytv4k.org:8080/live/JuergenBanas/WkbCL6Ug2s/112198.ts#http://skytv4k.org:8080/live/JuergenBanas/WkbCL6Ug2s/112196.ts
+NowSports⁴ᵏ,http://skytv4k.org:8080/live/JuergenBanas/WkbCL6Ug2s/116706.ts#http://skytv4k.org:8080/live/JuergenBanas/WkbCL6Ug2s/112209.ts
+
 SKYSPORTS,http://line.cloud-ott.net:80/play/live.php?mac=00:1A:79:0D:80:56&stream=1311999&extension=ts&play_token=fzqrtULNMS
 SKYSPORTS,http://line.cloud-ott.net:80/play/live.php?mac=00:1A:79:0D:80:56&stream=1312002&extension=ts&play_token=WIcpP1lyfE
 SKYSPORTS,http://line.cloud-ott.net:80/play/live.php?mac=00:1A:79:0D:80:56&stream=1312046&extension=ts&play_token=MsIYzuI2E6
