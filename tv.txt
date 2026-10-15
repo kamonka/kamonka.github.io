@@ -150,9 +150,18 @@ FOX,http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/2544.ts
 
 
 🇭🇰台港综合,#genre#
+公视,http://159.75.4.149:99/清风/iptv.php?token=34abb01fd234bd0a96bde85b6d580ff8&ch=bf5236aaf0088065
+公视,http://159.75.4.149:99/清风/iptv.php?token=34abb01fd234bd0a96bde85b6d580ff8&ch=00d02ad61a486e05
+公视,http://159.75.4.149:99/清风/iptv.php?token=34abb01fd234bd0a96bde85b6d580ff8&ch=eabb453833d38208
+民视,http://159.75.4.149:99/清风/iptv.php?token=34abb01fd234bd0a96bde85b6d580ff8&ch=248972ebaba6a1de
+台视,http://159.75.4.149:99/清风/iptv.php?token=34abb01fd234bd0a96bde85b6d580ff8&ch=d76c50fad7b3e000
+华视,http://159.75.4.149:99/清风/iptv.php?token=34abb01fd234bd0a96bde85b6d580ff8&ch=432bc79d02440854
+
 公视,http://211.72.174.95:8116/0.ts
 民视,http://211.72.174.95:8115/0.ts
 台视,http://211.72.174.95:8112/0.ts
+中视,http://211.72.174.95:8113/0.ts
+华视,http://211.72.174.95:8114/0.ts
 
 公视,http://myds.momo.xx.kg/stream.php?id=1b2fb254c269aec2cbfa3dde15ebcb58&token=c754b01dc1352c49
 
@@ -161,6 +170,8 @@ FOX,http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/2544.ts
 中视,http://good.852851.xyz/l/Z5RsZnTVqJMJ1lGbxbwGhk1vEnI7poEOHD-e1wA7Zr84irfVF4GNQvEProc39o1e/index.m3u8
 华视,http://good.852851.xyz/l/6wJSFp-u4DlVgE5eLKnNJhdr0XUg7cl1HshOkG29blQtZpdsnCwG06barcjIHejU/index.m3u8
 
+翡翠台,http://159.75.4.149:99/清风/iptv.php?token=34abb01fd234bd0a96bde85b6d580ff8&ch=6e504e8c843ae20e
+翡翠台,http://159.75.4.149:99/清风/iptv.php?token=34abb01fd234bd0a96bde85b6d580ff8&ch=8f5af89785c01d25
 翡翠台,https://cdn3.indevs.in/stream/tvb/fct/
 明珠台,https://cdn3.indevs.in/stream/tvb/mzt/
 公视,http://211.72.174.95:8116/0.ts#http://220.135.241.47:8305/0.ts
@@ -212,29 +223,43 @@ SUNDANCE,http://hardcoremedia.xyz:80/6jTFRmvaSp/7534936344/129957
 临港大道,https://rvsh.jtw.sh.gov.cn/live/310120a4-3d7c-4a7d-82dc-71fde233e060_sub/index.m3u8?t=1902119782&k=e5d9cad0fb4bde78
 
 🇲🇾影视娱乐,#genre#
-爱奇艺,https://cdn3.indevs.in/stream/live/iqiyi/
-娱乐新闻http://litv.tv.good.852851.xyz/l/SwQEoEaivLoAajQiTUxlFA_rS_juXzD8dPJnF63iewJG7tzFG17-8rgSdnRC-O1B/index.m3u8
-猪哥亮歌厅秀http://good.852851.xyz/l/aWD6xl5puFQ6kJLP86R0xl4oA9hSipUCCmS89O_7FgObkZAvKlrMHSrbVh3tmc75/index.m3u8
-纬来日本http://good.852851.xyz/l/A_QDJPu15X4G7_e44yrpJodyYJMlbKl4w8Rs0wmC6ID11Is9Jaa6I-lmpqadf3n7/index.m3u8
-靖天日本http://good.852851.xyz/l/iSQfB6_zf2Zw0Cg-EvvnjcoeExetyJ2xWZIlNVf2JvW9lYdNSuVQ7UCRFOLepOcF/index.m3u8
-民视综艺http://good.852851.xyz/l/AvZ6wtwTz1D1xgL97yWwHVCYl70lZ3FrfwDSlY6T_fNE7K5cQVWLBwLH4rHpuyBH/index.m3u8
-八大综艺http://good.852851.xyz/l/mik-tKgjmmO60BWUuOamU9Uuuf0J1TSCtunpDG1sH9wUPvXA-TMeFiszfsQm9_jL/index.m3u8
-韩国娱乐http://good.852851.xyz/l/oIBNsxkgZzhwzasQ3un3ZgEP28d0YkZLpHx4Q4nTS2o_k5tVtGj2mulUVr2K3Zix/index.m3u8
-靖天映画http://good.852851.xyz/l/XH9_dBMdtI_y3h-nK3k6Fe25ycjDDvYsJHqfJaKjgxz03d75n0heERWRgmAo1WRq/index.m3u8
-靖天电影http://good.852851.xyz/l/7moTRidiJkipjoxMPFlelGTZLZFUNDLtob1hMJ4kqnOFQdwjYKC2eYhzPnuHBLqR/index.m3u8
-影迷数位电影http://good.852851.xyz/l/-E94exPBIeJ2Caw4VgKol_KqZMYVl77voKtK32oqZS14hdHFjBtAJClughpSGYvV/index.m3u8
-amc电影http://good.852851.xyz/l/3oxfpffhdv6yl4QkR5rOQG3S12SPUNAFQw0ERz4UYltYG9qa_FFzisAfK8GjfOsl/index.m3u8
-CinemaWorldhttp://good.852851.xyz/l/jXpZX1hb5BWjAUY__Z_sscikvE4evKOcxhYgwLf_QzcEZLhrpYmbBi9oQF1GOP2t/index.m3u8
-我的欧洲电影http://good.852851.xyz/l/jXpZX1hb5BWjAUY__Z_sscikvE4evKOcxhYgwLf_QzcEZLhrpYmbBi9oQF1GOP2t/index.m3u8
-HBOhttp://good.852851.xyz/l/lbkC9HKD7oFTG5TSwSvaZzv4gddYGdRp1iWwLZmsEpAA9hGQh2dCfPww_zfamKdK/index.m3u8
-HBOhttp://good.852851.xyz/l/R-zumB519DwbcyYKUuNYiPBADQzBaKv21nmeu9A3i2xn8Rw41MlnqD82B3JY6dqz/index.m3u8
-HBOhttp://good.852851.xyz/l/8fPxvhjoUMisX3Hw0GZYER4QVK69A_lGxBVkD1LTeiTedx1TZW-yLLbBcWBLp_no/play
+TVB娱乐新闻,http://jy.bhzz.today:2026/YY1/WMHS.php?id=7bba2893013ed851&t=523148438834993718&line=0&token=xxx#http://jy.bhzz.today:2026/YY1/WMHS.php?id=7bba2893013ed851&t=327606773735435962&line=1&token=xxx"
+纬来日本,http://159.75.4.149:99/清风/iptv.php?token=fa3b99bb95bdd339eebec0e0cb4904d6&ch=9e8a458c5ec500c9
+纬来电影,http://159.75.4.149:99/清风/iptv.php?token=fa3b99bb95bdd339eebec0e0cb4904d6&ch=326170d873757e96
+龙华日韩,http://159.75.4.149:99/清风/iptv.php?token=fa3b99bb95bdd339eebec0e0cb4904d6&ch=89859bcf718898f4
+民视综艺,http://159.75.4.149:99/清风/iptv.php?token=34abb01fd234bd0a96bde85b6d580ff8&ch=da9a2e4019a70f09
+东森电影,http://159.75.4.149:99/清风/iptv.php?token=fa3b99bb95bdd339eebec0e0cb4904d6&ch=92bede3858ea0066
+东森洋片,http://159.75.4.149:99/清风/iptv.php?token=fa3b99bb95bdd339eebec0e0cb4904d6&ch=e64ae49f60b299e3
+TVBS精采,http://159.75.4.149:99/清风/iptv.php?token=fa3b99bb95bdd339eebec0e0cb4904d6&ch=e1cd891df8e69df6
+
 HBO,http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/71855.ts
 HBO,http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/71854.ts
 AMC,http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/1060176.ts
 FX,http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/71321.ts
 
-🇲🇾新马泰印#genre#
+🇲🇾新马泰,#genre#
+如意台,http://159.75.4.149:99/清风/iptv.php?token=fa3b99bb95bdd339eebec0e0cb4904d6&ch=7dd2ebda639603fb
+娱家台,http://159.75.4.149:99/清风/iptv.php?token=34abb01fd234bd0a96bde85b6d580ff8&ch=fcee6936155863f5
+都会台,http://159.75.4.149:99/清风/iptv.php?token=34abb01fd234bd0a96bde85b6d580ff8&ch=7c973315c17cd6a8
+八度空间,http://159.75.4.149:99/清风/iptv.php?token=fa3b99bb95bdd339eebec0e0cb4904d6&ch=e06a1f914d2f7d6e
+爱奇艺,http://159.75.4.149:99/清风/iptv.php?token=fa3b99bb95bdd339eebec0e0cb4904d6&ch=3d6f06e90d41ec05
+TVBClassic,http://159.75.4.149:99/清风/iptv.php?token=fa3b99bb95bdd339eebec0e0cb4904d6&ch=395e48ec0bcf1313
+TVBClassic,http://159.75.4.149:99/清风/iptv.php?token=fa3b99bb95bdd339eebec0e0cb4904d6&ch=73614a6a48e7289d
+AstroAO,http://159.75.4.149:99/清风/iptv.php?token=fa3b99bb95bdd339eebec0e0cb4904d6&ch=c0f8f935ebe4f93c
+AstroAEC,http://159.75.4.149:99/清风/iptv.php?token=fa3b99bb95bdd339eebec0e0cb4904d6&ch=199cb6fce33ff0c2
+AstroAEC,http://159.75.4.149:99/清风/iptv.php?token=fa3b99bb95bdd339eebec0e0cb4904d6&ch=2fd2d0636701e4c0
+AstroQJ,http://159.75.4.149:99/清风/iptv.php?token=fa3b99bb95bdd339eebec0e0cb4904d6&ch=6a50ac1ab673fd3e
+AstroQJ,http://159.75.4.149:99/清风/iptv.php?token=fa3b99bb95bdd339eebec0e0cb4904d6&ch=f6669f2148701aab
+TVBJade,http://159.75.4.149:99/清风/iptv.php?token=fa3b99bb95bdd339eebec0e0cb4904d6&ch=05111c0c47aedc91
+AstroSensasi,http://159.75.4.149:99/清风/iptv.php?token=fa3b99bb95bdd339eebec0e0cb4904d6&ch=66eb7c38ffb14505
+AstroWarna,http://159.75.4.149:99/清风/iptv.php?token=fa3b99bb95bdd339eebec0e0cb4904d6&ch=7d631ff8f53619f6
+
+爱奇艺,https://cdn3.indevs.in/stream/live/iqiyi/
+AstroAOD,https://cdn3.indevs.in/stream/live/aod/
+AstroAEC,https://cdn3.indevs.in/stream/live/aec/
+AstroQJ,https://cdn3.indevs.in/stream/live/qj/
+Astro欢喜台,https://cdn3.indevs.in/stream/live/hxt/
+
 
 🇯🇲体育,#genre#
 TORO,http://line.cloud-ott.net:80/play/live.php?mac=00:1A:79:0D:80:56&stream=959568&extension=ts&play_token=FLzcBlqF5i
@@ -300,6 +325,9 @@ PREMIERLEAGUE⁴ᵏ,http://steveit4.net/live/4KYD2C92D/1Z6BCL4/17285.ts#http://s
 
 🇯🇵日本,#genre#
 NHKG,https://0i4nEUX01.charandom.blog/stream/jp/nhk_g/stream-output.m3u8?ac_tk=eyJhbGciOiJBMjU2S1ciLCJlbmMiOiJBMjU2R0NNIn0.tnPhZ7fn08K0z0jPtF1Lt1eYN74JhtIYm0Gc2dPUmz4fYvRxSIn-bA.7pVf_IrY-j1hRPCX.cVMPVyFVfuv68Av11e4MmwmYvtlYDMiLNHxRnc1LqxiQraITLdh9SvxwzC3I8HCN_YlcfT-ZmKWQLHN9_1ABzTvGfJtfuDPOgAKiNlDSNpEYJhs.8b3Ehs5EhDwd_Ilx03pj8A&mode=hls
+
+NHKWP,http://159.75.4.149:99/清风/iptv.php?token=fa3b99bb95bdd339eebec0e0cb4904d6&ch=84a6a9c4f26ac4fb
+
 NHKG,https://0i4nEUX01.charandom.blog/stream/jp/nhk_g_osaka/stream-output.m3u8?ac_tk=eyJhbGciOiJBMjU2S1ciLCJlbmMiOiJBMjU2R0NNIn0.tnPhZ7fn08K0z0jPtF1Lt1eYN74JhtIYm0Gc2dPUmz4fYvRxSIn-bA.7pVf_IrY-j1hRPCX.cVMPVyFVfuv68Av11e4MmwmYvtlYDMiLNHxRnc1LqxiQraITLdh9SvxwzC3I8HCN_YlcfT-ZmKWQLHN9_1ABzTvGfJtfuDPOgAKiNlDSNpEYJhs.8b3Ehs5EhDwd_Ilx03pj8A&mode=hls
 NHKG,https://0i4nEUX01.charandom.blog/stream/jp/nhk_g_2/stream-output.m3u8?ac_tk=eyJhbGciOiJBMjU2S1ciLCJlbmMiOiJBMjU2R0NNIn0.tnPhZ7fn08K0z0jPtF1Lt1eYN74JhtIYm0Gc2dPUmz4fYvRxSIn-bA.7pVf_IrY-j1hRPCX.cVMPVyFVfuv68Av11e4MmwmYvtlYDMiLNHxRnc1LqxiQraITLdh9SvxwzC3I8HCN_YlcfT-ZmKWQLHN9_1ABzTvGfJtfuDPOgAKiNlDSNpEYJhs.8b3Ehs5EhDwd_Ilx03pj8A&mode=hls
 NHKBS,https://0i4nEUX01.charandom.blog/stream/jp/nhk_bs/stream-output.m3u8?ac_tk=eyJhbGciOiJBMjU2S1ciLCJlbmMiOiJBMjU2R0NNIn0.tnPhZ7fn08K0z0jPtF1Lt1eYN74JhtIYm0Gc2dPUmz4fYvRxSIn-bA.7pVf_IrY-j1hRPCX.cVMPVyFVfuv68Av11e4MmwmYvtlYDMiLNHxRnc1LqxiQraITLdh9SvxwzC3I8HCN_YlcfT-ZmKWQLHN9_1ABzTvGfJtfuDPOgAKiNlDSNpEYJhs.8b3Ehs5EhDwd_Ilx03pj8A&mode=hls
