@@ -240,7 +240,6 @@ FX,http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/71321.ts
 如意台,http://159.75.4.149:99/清风/iptv.php?token=fa3b99bb95bdd339eebec0e0cb4904d6&ch=7dd2ebda639603fb
 娱家台,http://159.75.4.149:99/清风/iptv.php?token=34abb01fd234bd0a96bde85b6d580ff8&ch=fcee6936155863f5
 都会台,http://159.75.4.149:99/清风/iptv.php?token=34abb01fd234bd0a96bde85b6d580ff8&ch=7c973315c17cd6a8
-八度空间,http://159.75.4.149:99/清风/iptv.php?token=fa3b99bb95bdd339eebec0e0cb4904d6&ch=e06a1f914d2f7d6e
 爱奇艺,http://159.75.4.149:99/清风/iptv.php?token=fa3b99bb95bdd339eebec0e0cb4904d6&ch=3d6f06e90d41ec05
 TVBClassic,http://159.75.4.149:99/清风/iptv.php?token=fa3b99bb95bdd339eebec0e0cb4904d6&ch=395e48ec0bcf1313
 TVBClassic,http://159.75.4.149:99/清风/iptv.php?token=fa3b99bb95bdd339eebec0e0cb4904d6&ch=73614a6a48e7289d
