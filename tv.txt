@@ -156,6 +156,7 @@ FOX,http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/2544.ts
 民视,http://159.75.4.149:99/清风/iptv.php?token=34abb01fd234bd0a96bde85b6d580ff8&ch=248972ebaba6a1de
 台视,http://159.75.4.149:99/清风/iptv.php?token=34abb01fd234bd0a96bde85b6d580ff8&ch=d76c50fad7b3e000
 华视,http://159.75.4.149:99/清风/iptv.php?token=34abb01fd234bd0a96bde85b6d580ff8&ch=432bc79d02440854
+TVBS,http://159.75.4.149:99/清风/iptv.php?token=fa3b99bb95bdd339eebec0e0cb4904d6&ch=90f77fd7c6e8e0c4
 
 公视,http://211.72.174.95:8116/0.ts
 民视,http://211.72.174.95:8115/0.ts
@@ -193,14 +194,7 @@ TV朝鲜,http://onair2.cdn.tvchosun.com/origin2/_definst_/tvchosun_s3/playlist.m
 🇺🇸USA#genre#
 
 🇯🇪纪实人文,#genre#
-LoveNaturehttp://good.852851.xyz/l/hDNYoQmtOhNlregr9ED3IgNzcyQXG1fvcNEkHAyCxrLjcy3i7nJSsm_Z334E72-Y/index.m3u8
-DISCOVERYhttp://good.852851.xyz/l/Gg8y9560eeW9DXvWB5kgo1uSCn-ypt0vFTF6wGW8FllrhWeo1wKyh65dt0O6a3HL/index.m3u8
-历史http://good.852851.xyz/l/pnfLCH1TcC88HoTbTXtHb9IW9lCUCXNak9EaFniHZT-A6ZyM6mNOF2L6rJePjQem/index.m3u8#http://good.852851.xyz/l/2p9QApWnGWA8_hX5pcWUJguOuFqPacv1yr0tWkB-aj2Ii8iA3fd6MPzqeTwvl49r/index.m3u8#http://good.852851.xyz/l/7b-Rh_s1ne6qY9ynyO1_A4oQBEA2wZvHOTDY1W8bx4sdbqHUptV0XRxYsHPPnmAZ/play
-罪案侦查http://good.852851.xyz/l/GUif7iidHhijCnmT5yoxuTKImy7bHCqhncrjnSBLXcA12ezhJBinI3-ib4i2ldU1/index.m3u8
-视纳华仁纪实http://good.852851.xyz/l/TasEOybW0hsqX54HmKjWxO5mVph2k9xQdcW9Dj8Jj-ZvMQLj5KZ_IVv-I2DWk0L2/index.m3u8
-影迷数位纪实http://good.852851.xyz/l/WyqZxfPPhLZGlVXTnfH0BaaaJ8GDLMmqmk2wr_cNaosvsHZuTZB6UMF4gv00dWUB/index.m3u8
-麦哲伦http://good.852851.xyz/l/z9UeVNgkQ9qcKwIM2qIoB9UtNru3vovxjgecd9gxLFnrzkOFMquve1RFvMEXQ92V/index.m3u8
-
+爱尔达生活旅游,http://159.75.4.149:99/清风/iptv.php?token=34abb01fd234bd0a96bde85b6d580ff8&ch=f2b42e0eb2e41960
 动物星球,http://61.221.215.25:8800/hls/57/index.m3u8
 
 ANIMALPLANET,http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/71431.ts
@@ -230,11 +224,15 @@ SUNDANCE,http://hardcoremedia.xyz:80/6jTFRmvaSp/7534936344/129957
 东森电影,http://159.75.4.149:99/清风/iptv.php?token=fa3b99bb95bdd339eebec0e0cb4904d6&ch=92bede3858ea0066
 东森洋片,http://159.75.4.149:99/清风/iptv.php?token=fa3b99bb95bdd339eebec0e0cb4904d6&ch=e64ae49f60b299e3
 TVBS精采,http://159.75.4.149:99/清风/iptv.php?token=fa3b99bb95bdd339eebec0e0cb4904d6&ch=e1cd891df8e69df6
+AXN,http://159.75.4.149:99/清风/iptv.php?token=fa3b99bb95bdd339eebec0e0cb4904d6&ch=a9800d0d7eac1707
+HITS,http://159.75.4.149:99/清风/iptv.php?token=fa3b99bb95bdd339eebec0e0cb4904d6&ch=89c2265e9ce8d09e
+HITSNOW,http://159.75.4.149:99/清风/iptv.php?token=fa3b99bb95bdd339eebec0e0cb4904d6&ch=8dce40935f5ef395
 
 HBO,http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/71855.ts
 HBO,http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/71854.ts
 AMC,http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/1060176.ts
 FX,http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/71321.ts
+
 
 🇲🇾新马泰,#genre#
 如意台,http://159.75.4.149:99/清风/iptv.php?token=fa3b99bb95bdd339eebec0e0cb4904d6&ch=7dd2ebda639603fb
