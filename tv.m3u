@@ -1,4 +1,4 @@
-#EXTM3U
+#EXTM3U url-tvg="https://0i4neux01.charandom.blog/epg/kai-epg.xml" tvg-shift="0" m3uautoload="1"
 #EXTINF:-1 group-title="世界新闻",BBC
 http://line.cloud-ott.net:80/play/live.php?mac=00:1A:79:0D:80:56&stream=933150&extension=ts&play_token=N2T5SmFoUU
 #EXTINF:-1 group-title="世界新闻",CNN
