@@ -666,6 +666,10 @@ NHKBSP⁴ᵏ,https://tsb-mega.i9.ee/stream/nhkbsp4k_hevc
 🇬🇧英国#genre#
 
 🇨🇳大内宣,#genre#
+客家电视台,p2p://135.148.104.228:19806/bc600be28ab7498c9c1f52dbc2c86c2e
+TVBS精采台,p2p://147.135.39.171:9906/6aae5c680004d68e6f08a26f095e3283
+壹电视综合,p2p://147.135.39.171:9906/69761970000775ed937cc4ab14137c12
+台视综合台,p2p://135.148.104.228:19806/e6d0161daa6e4eed83e5b02356312d14
 CCTV1,http://39.150.102.131:19901/tsfile/live/0001_1.m3u8
 CCTV2,http://39.150.102.131:19901/tsfile/live/0002_1.m3u8
 CCTV3,http://39.150.102.131:19901/tsfile/live/0003_1.m3u8
