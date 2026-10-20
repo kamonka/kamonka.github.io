@@ -199,7 +199,11 @@ NGO,http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/71416.ts#http://tectonbrand.co
 NGOWild,http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/71417.ts
 SUNDANCE,http://hardcoremedia.xyz:80/6jTFRmvaSp/7534936344/129957
 
-爆笑视频,https://81d1c38525014f39a1705b01e04d91c2.mediatailor.us-east-1.amazonaws.com/v1/master/04fd913bb278d8775298c26fdca9d9841f37601f/RakutenTV-eu_ThePetCollective-1/playlist.m3u8#https://965a56fdfe3c40cd9b73c49a0cde620b.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/RakutenTV-eu_PeopleAreAwesome-1/playlist.m3u8#https://d39g1vxj2ef6in.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod-rakuten-stitched/master.m3u8#https://bd93cfed.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWV1X0ZhaWxBcm15X0hMUw/playlist.m3u8#
+爆笑视频,https://81d1c38525014f39a1705b01e04d91c2.mediatailor.us-east-1.amazonaws.com/v1/master/04fd913bb278d8775298c26fdca9d9841f37601f/RakutenTV-eu_ThePetCollective-1/playlist.m3u8#https://965a56fdfe3c40cd9b73c49a0cde620b.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/RakutenTV-eu_PeopleAreAwesome-1/playlist.m3u8#https://d39g1vxj2ef6in.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod-rakuten-stitched/master.m3u8#https://bd93cfed.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWV1X0ZhaWxBcm15X0hMUw/playlist.m3u8
+
+探索,p2p://135.148.104.228:19806/ff84059bc5894ad38933224aa156c9ce
+历史,p2p://135.148.104.228:19806/bac0302dd4c54ad49a3d246d4f9fe394
+罪案侦缉,p2p://135.148.104.228:19806/f59bac8ba0614d99834ca18d43787d65
 
 🇧🇮上海实时,#genre#
 陆家嘴,https://tftp4ge3drmt1go5nhcju8yzdrptpptwzc3jpq731h45mqpssqmudp7so.100ycdn.com/live-ws.kksmg.com/live/sdi5/playlist.m3u8?wsSession=8a15d23fe661e20e47cce670-177203770982085&wsIPSercert=832abf7ce82ccc02b32b56b105f24835&wsBindIP=2&wsserid=1168187559701054860
@@ -281,6 +285,14 @@ NowSportsPRIME,http://ktkguru.com:80/06DD463C8236519/f2ypvVoSFB/748431#http://kt
 NowSports⁴ᵏ,http://ktkguru.com:80/06DD463C8236519/f2ypvVoSFB/438867#http://ktkguru.com:80/06DD463C8236519/f2ypvVoSFB/438866
 PREMIERLEAGUE⁴ᵏ,http://line.ciao-ott.net:80/play/live.php?mac=00:1A:79:C8:7B:30&stream=1312002&extension=ts&play_token=rMQI8WOPhd#http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:1B:0F:6D&stream=1312002&extension=ts&play_token=vTK1cjSxqQ
 PREMIERLEAGUE⁴ᵏ,http://steveit4.net/live/4KYD2C92D/1Z6BCL4/17285.ts#http://steveit4.net/live/4KYD2C92D/1Z6BCL4/979906.ts#http://steveit4.net/live/4KYD2C92D/1Z6BCL4/979907.ts
+
+爱尔达体育1,p2p://135.148.104.228:19806/ea41bcc314ac4dc4a5c1edc8bba2f5b8
+爱尔达体育2,p2p://135.148.104.228:19806/ea51a7bad296417dbbcd78519778c683
+爱尔达体育1,p2p://135.148.104.228:19806/272756554c704fdb9a6a523aed98f171
+爱尔达体育2,p2p://135.148.104.228:19806/f7ac16c79c104925b39a19031fd5e1f3
+爱尔达体育3,p2p://135.148.104.228:19806/7a0485d6a5494938af2a552684d9db51
+爱尔达体育3,p2p://135.148.104.228:19806/81e5eedc1d0c45c693455c3b232d626b
+爱尔达体育4,p2p://135.148.104.228:19806/35ff5929c7cc43a092374c4014ca687a
 
 🇯🇵日本,#genre#
 NHKG,https://0i4nEUX01.charandom.blog/stream/jp/nhk_g/stream-output.m3u8?ac_tk=eyJhbGciOiJBMjU2S1ciLCJlbmMiOiJBMjU2R0NNIn0.i8DfWESxvAcLKutPk9mzKeShkhL2VUztf5YjB9pxAh14heHkwHDUsQ.szOVF1WFO6quB96R.oqFZMEj3xvd8kj0Oft-h0nXWKYke97JbecSMjXxu1qxRZrv9oeLasPhFoN2nn_Lnqe9Epenn4hKjzZk3GN89Qw5IRmneF-V0Usu6HmjBJCrJ0L8.FIcYXy8wa69wa9Jki1y0Iw&mode=hls
@@ -666,73 +678,6 @@ NHKBSP⁴ᵏ,https://tsb-mega.i9.ee/stream/nhkbsp4k_hevc
 🇬🇧英国#genre#
 
 🇨🇳大内宣,#genre#
-探索频道,p2p://135.148.104.228:19806/ff84059bc5894ad38933224aa156c9ce
-历史频道,p2p://135.148.104.228:19806/bac0302dd4c54ad49a3d246d4f9fe394
-罪案侦缉,p2p://135.148.104.228:19806/f59bac8ba0614d99834ca18d43787d65
-Love Nature,p2p://135.148.104.228:19806/4dde33b791b44d5fbeef4a304fd9f2c6
-Lifetime,p2p://135.148.104.228:19806/98f94127d1504aa185ef73cf8a9accdf
-BBCEarth,p2p://135.148.104.228:19806/642cc36754614d4ea5adde5c2a1c876e
-DiscoveryAsia,p2p://135.148.104.228:19806/a30ab83646bc4cc08aacdd5db564da2e
-Discovery科学,p2p://135.148.104.228:19806/7e82f11b4feb469bbe360dc43e837272
-DMAX(音轨),p2p://135.148.104.228:19806/5a5c7c180e464b23b83f3034bcb1c095
-EVE,p2p://135.148.104.228:19806/3dc9f7c6c72a4c119bd40c820a2b7c7a
-BBC Lifestyle,p2p://135.148.104.228:19806/3756ab62d34946bfa2be539aec4daa71
-美食星球,p2p://135.148.104.228:19806/5b1bc4b121854f37bcadb588af9b5332
-亚洲美食,p2p://135.148.104.228:19806/fa6ddacd1ee04983971c88a36d837b85
-好消息,p2p://135.148.104.228:19806/d1837bc7a20d4e5dbaa804850cfa5913
-亚洲旅游,p2p://147.135.39.171:9906/69aee849000862638929820b793d53ba
-EYETV旅游,p2p://135.148.104.228:19806/52570193c6de44d18a477aa8c0b2238e
-TLC旅游生活,p2p://135.148.104.228:19806/c76b3b35b43647f09d136295e075fad2
-幸福空间居家,p2p://135.148.104.228:19806/53b012f225e44ecf8963edca4deedfbc
-HGTV居家乐活,p2p://135.148.104.228:19806/0b3ec4ac104e4d279ac9091adf8e55e7
-TVBS,p2p://135.148.104.228:19806/54394f32cf184913b4176b7ce4d0a27f
-民视(音轨),p2p://135.148.104.228:19806/16a9826fe22c44eebaee7aa05f073979
-台视(音轨),p2p://135.148.104.228:19806/1e51dc1443b24f27b960494dfe3993b9
-年代新闻,p2p://135.148.104.228:19806/b24d4ddac37a46d0bb339746eb0a45c8
-壹新闻,p2p://135.148.104.228:19806/1ac551e7e546484299ad3cbb7f64a423
-镜新闻,p2p://135.148.104.228:19806/003c7995f89147c08baac7c00dcfe261
-东森新闻,p2p://135.148.104.228:19806/609df6bf9ddc43138e988627fec06fc1
-中天新闻,p2p://135.148.104.228:19806/a92933c620494649b9fd0e516370653c
-民视新闻(音轨),p2p://135.148.104.228:19806/5c599f7f19144d4ca877d273627d5fa1
-三立新闻,p2p://135.148.104.228:19806/ac8e1df7cf9d42cea0cd61fff79bf531
-TVBS新闻,p2p://135.148.104.228:19806/b608ab000afc4cc19a467b01b6181840
-中视新闻,p2p://135.148.104.228:19806/9a6c77d28a9847acb2ad9f6eed4a0fd2
-寰宇新闻,p2p://135.148.104.228:19806/78bea2bf3afc4c8c9b2fe3f7792e1a4a
-华视新闻,p2p://135.148.104.228:19806/78f62939481044e49f287b4c66b548d2
-靖天资讯,p2p://135.148.104.228:19806/b68ee9bbf19a4987acf1baf61d250e29
-非凡新闻,p2p://135.148.104.228:19806/667352040c85499299b4989d490f4199
-三立iNEWS,p2p://135.148.104.228:19806/3d06b75a10f1427ca8b8e8fdbe7d5814
-壹电视综,p2p://147.135.39.171:9906/69761970000775ed937cc4ab14137c12
-台视综合,p2p://135.148.104.228:19806/e6d0161daa6e4eed83e5b02356312d14
-靖天综合,p2p://135.148.104.228:19806/0cd97905103044fda92caf4df4507757
-三立综合,p2p://147.135.39.171:9906/6964f44100098c00508364ba0bb3606c
-高点综合台,p2p://135.148.104.228:19806/ac1d058bd23c4c8282e5c02575d34df1
-纬来日本,p2p://135.148.104.228:19806/6817d8cc769d4cd19e24595ec771d6fa
-靖天日本,p2p://135.148.104.228:19806/6a2adfbab4eb4d57936a884afbcce9f9
-韩国娱乐,p2p://135.148.104.228:19806/00b8705704354e8f8d472d6366685c62
-TVBS精采,p2p://147.135.39.171:9906/6aae5c680004d68e6f08a26f095e3283
-靖天欢乐,p2p://135.148.104.228:19806/562e77b8c9c4405ea4fbc6f9f7c21e8d
-TVBS欢乐台,p2p://135.148.104.228:19806/444f4c873a7c449b9ce9cca99808fdb6
-龙华偶像,p2p://135.148.104.228:19806/4ccafeb1c16341dba41dad95a96bbe92
-爱尔达体育1台(备),p2p://135.148.104.228:19806/ea41bcc314ac4dc4a5c1edc8bba2f5b8
-爱尔达体育2台(音轨),p2p://135.148.104.228:19806/ea51a7bad296417dbbcd78519778c683
-爱尔达体育1台(音轨),p2p://135.148.104.228:19806/272756554c704fdb9a6a523aed98f171
-爱尔达体育2台(备),p2p://135.148.104.228:19806/f7ac16c79c104925b39a19031fd5e1f3
-爱尔达体育3台(备),p2p://135.148.104.228:19806/7a0485d6a5494938af2a552684d9db51
-爱尔达体育3台(音轨),p2p://135.148.104.228:19806/81e5eedc1d0c45c693455c3b232d626b
-爱尔达体育4台(音轨),p2p://135.148.104.228:19806/35ff5929c7cc43a092374c4014ca687a
-HITS,p2p://135.148.104.228:19806/2aed638089a542cc8724fb8c7517d2ed
-CinemaWorld,p2p://135.148.104.228:19806/86fc420af54b45f3b977cf13367e4338
-HBO,p2p://135.148.104.228:19806/7524344fe7974701809e30b7a78539ea
-靖天映画,p2p://135.148.104.228:19806/9304879b0e9a4f9fbd695b6577082913
-靖天电影台,p2p://135.148.104.228:19806/e0a8273694ce4d24a5ce134ad57d46db
-WARNER TV,p2p://135.148.104.228:19806/0c1380a32c884b57955c38bf5e7e8788
-龙华电影,p2p://135.148.104.228:19806/4a64ba707e8542ffba9887c4871d409a
-东森洋片台,p2p://135.148.104.228:19806/3df25c5a421643bbb4ab5035c3f37cd3
-AXN(音轨),p2p://135.148.104.228:19806/792f5644ec32444b87ddb3648168f5f9
-好莱坞电影台,p2p://135.148.104.228:19806/284f349eca4840c68c217b9d9376c5e2
-CINEMAX,p2p://135.148.104.228:19806/c86b0bf8497944b096f6f489f8722a6c
-
 CCTV1,http://39.150.102.131:19901/tsfile/live/0001_1.m3u8
 CCTV2,http://39.150.102.131:19901/tsfile/live/0002_1.m3u8
 CCTV3,http://39.150.102.131:19901/tsfile/live/0003_1.m3u8
