@@ -12,12 +12,6 @@ BBC,http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/1382478.ts
 CNN,http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/71486.ts
 FOXNEWS,http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/17356.ts#http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/796328.ts
 
-CNN,http://line.cloud-ott.net:80/play/live.php?mac=00:1A:79:0D:80:56&stream=933139&extension=ts&play_token=4ahth5R2L5
-BBC,http://line.cloud-ott.net:80/play/live.php?mac=00:1A:79:0D:80:56&stream=1169077&extension=ts&play_token=9aX1SMOfkK
-CNN,http://line.cloud-ott.net:80/play/live.php?mac=00:1A:79:0D:80:56&stream=1169082&extension=ts&play_token=nVLve4k38l
-半岛新闻,http://line.cloud-ott.net:80/play/live.php?mac=00:1A:79:0D:80:56&stream=1169081&extension=ts&play_token=fmfCtYkQBw
-FOXNEWS,http://line.cloud-ott.net:80/play/live.php?mac=00:1A:79:0D:80:56&stream=987162&extension=ts&play_token=f6WlxdUUN5
-
 BBC,https://haru.charandom.blog/stream/jp/bbc_news/stream-output.m3u8?mode=hls
 CNN,https://haru.charandom.blog/stream/jp/cnnj/stream-output.m3u8?mode=hls
 BBC,https://ri.shinori.my.id/pxx.php?shk_cid=cs15
@@ -140,17 +134,6 @@ ABC,http://tectonbrand.com:80/4KYD2C92D/1Z6BCL4/30544
 CW,http://tectonbrand.com:80/4KYD2C92D/1Z6BCL4/30484
 TRT⁴ᵏ,http://tectonbrand.com:80/4KYD2C92D/1Z6BCL4/1436349
 
-BBC1,http://line.cloud-ott.net:80/play/live.php?mac=00:1A:79:0D:80:56&stream=394415&extension=ts&play_token=2dtIgIsHQS
-BBC2,http://line.cloud-ott.net:80/play/live.php?mac=00:1A:79:0D:80:56&stream=394413&extension=ts&play_token=gGGhxs6WNd
-BBC3,http://line.cloud-ott.net:80/play/live.php?mac=00:1A:79:0D:80:56&stream=394411&extension=ts&play_token=fA5an8ZUAQ
-BBC4,http://line.cloud-ott.net:80/play/live.php?mac=00:1A:79:0D:80:56&stream=394409&extension=ts&play_token=4QjxtPAuij
-ZDF,http://line.cloud-ott.net:80/play/live.php?mac=00:1A:79:0D:80:56&stream=1025124&extension=ts&play_token=btt2PSNVuB
-CBS,http://line.cloud-ott.net:80/play/live.php?mac=00:1A:79:0D:80:56&stream=855366&extension=ts&play_token=muDJDE4AVP
-NBC,http://line.cloud-ott.net:80/play/live.php?mac=00:1A:79:0D:80:56&stream=855364&extension=ts&play_token=SCnH0kUtnz
-ABC,http://line.cloud-ott.net:80/play/live.php?mac=00:1A:79:0D:80:56&stream=855367&extension=ts&play_token=zBSQTKE0xE
-
-La1⁴ᵏ,#http://line.cloud-ott.net:80/play/live.php?mac=00:1A:79:0D:80:56&stream=895539&extension=ts&play_token=hqgAMi6gpl#http://host-aurora.vip:80/play/live.php?mac=00:1a:79:31:c2:72&stream=2075526&extension=ts&play_token=6HySd7KDdW#http://line.cloud-ott.net:80/play/live.php?mac=00:1A:79:0D:80:56&stream=568965&extension=ts&play_token=DNiyX2u2O1
-
 TF1,http://neosfpoo.top:8080/101778770428/e511208ea106/57478
 ZDF,http://neosfpoo.top:8080/101778770428/e511208ea106/61183
 CBS,http://neosfpoo.top:8080/101778770428/e511208ea106/71204
@@ -162,15 +145,6 @@ La1⁴ᵏ,http://neosfpoo.top:8080/101778770428/e511208ea106/5622
 RAI⁴ᵏ,http://neosfpoo.top:8080/101778770428/e511208ea106/61949
 TRT⁴ᵏ,http://neosfpoo.top:8080/101778770428/e511208ea106/62701
 
-CBS,http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/89717.ts
-NBC,http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/2428.ts
-FOX,http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/2503.ts
-ABC,http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/2665.ts
-CBS,http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/559692.ts
-CW,http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/630645.ts
-FOX,http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/2544.ts
-
-
 🇭🇰台港综合,#genre#
 公视,http://211.72.174.95:8116/0.ts
 民视,http://211.72.174.95:8115/0.ts
@@ -179,11 +153,6 @@ FOX,http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/2544.ts
 华视,http://211.72.174.95:8114/0.ts
 
 公视,http://myds.momo.xx.kg/stream.php?id=1b2fb254c269aec2cbfa3dde15ebcb58&token=c754b01dc1352c49
-
-民视,http://good.852851.xyz/l/Gvih2MaikKubTMH4_zTuGz5Yfzx6x4Mrt_iCqEBicwXRRa8dYyC_ft_Q8C_Pf5qj/index.m3u8
-三立综合,http://good.852851.xyz/l/6boACLm2cI4JtJ2GNWLHmO5dOVCH1XQcPE4e2fBmspc_kvSg_SZom5rNnx7kL_pE/index.m3u8
-中视,http://good.852851.xyz/l/Z5RsZnTVqJMJ1lGbxbwGhk1vEnI7poEOHD-e1wA7Zr84irfVF4GNQvEProc39o1e/index.m3u8
-华视,http://good.852851.xyz/l/6wJSFp-u4DlVgE5eLKnNJhdr0XUg7cl1HshOkG29blQtZpdsnCwG06barcjIHejU/index.m3u8
 
 翡翠台,https://cdn3.indevs.in/stream/tvb/fct/
 明珠台,https://cdn3.indevs.in/stream/tvb/mzt/
@@ -243,8 +212,6 @@ FX,http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/71321.ts
 
 🇯🇲体育,#genre#
 TORO,http://tectonbrand.com:80/4KYD2C92D/1Z6BCL4/757752
-TORO,http://line.cloud-ott.net:80/play/live.php?mac=00:1A:79:0D:80:56&stream=959568&extension=ts&play_token=FLzcBlqF5i
-TORO,http://line.cloud-ott.net:80/play/live.php?mac=00:1A:79:0D:80:56&stream=959568&extension=ts&play_token=5PFxGeKc8p
 TORO,http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/1061263.ts
 TORO,http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/1061264.ts
 TORO,http://line.cloud-ott.net:80/play/live.php?mac=00:1A:79:0D:80:56&stream=959568&extension=ts&play_token=Zf7BmyTmjI
@@ -300,25 +267,6 @@ TNTSPORTS,http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/17281.ts#http://tectonbr
 BEINSPORTS,http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/986970.ts
 BEINSPORTS,http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/986971.ts
 
-SKYSPORTS,http://line.cloud-ott.net:80/play/live.php?mac=00:1A:79:0D:80:56&stream=1311999&extension=ts&play_token=fzqrtULNMS
-SKYSPORTS,http://line.cloud-ott.net:80/play/live.php?mac=00:1A:79:0D:80:56&stream=1312002&extension=ts&play_token=WIcpP1lyfE
-SKYSPORTS,http://line.cloud-ott.net:80/play/live.php?mac=00:1A:79:0D:80:56&stream=1312046&extension=ts&play_token=MsIYzuI2E6
-SKYSPORTS,http://line.cloud-ott.net:80/play/live.php?mac=00:1A:79:0D:80:56&stream=1312029&extension=ts&play_token=HmgcL6nZFc
-SKYSPORTS,http://line.cloud-ott.net:80/play/live.php?mac=00:1A:79:0D:80:56&stream=1312028&extension=ts&play_token=QmhGKs4HSi
-SKYSPORTS,http://line.cloud-ott.net:80/play/live.php?mac=00:1A:79:0D:80:56&stream=1312001&extension=ts&play_token=pD045KWX3y
-SKYSPORTS⁴ᵏ,http://line.cloud-ott.net:80/play/live.php?mac=00:1A:79:0D:80:56&stream=893917&extension=ts&play_token=atW5MtTbSv
-TNTSPORTS,http://line.cloud-ott.net:80/play/live.php?mac=00:1A:79:0D:80:56&stream=1311894&extension=ts&play_token=LzLa9mIPBJ
-TNTSPORTS,http://line.cloud-ott.net:80/play/live.php?mac=00:1A:79:0D:80:56&stream=1174232&extension=ts&play_token=TMb99lJyRJ
-TNTSPORTS,http://line.cloud-ott.net:80/play/live.php?mac=00:1A:79:0D:80:56&stream=1174216&extension=ts&play_token=GXL0uHWJIv
-TNTSPORTS,http://line.cloud-ott.net:80/play/live.php?mac=00:1A:79:0D:80:56&stream=1174217&extension=ts&play_token=AzbRxOhjeT
-EUROSPORT,http://line.cloud-ott.net:80/play/live.php?mac=00:1A:79:0D:80:56&stream=760961&extension=ts&play_token=E5EHgvzelV
-EUROSPORT,http://line.cloud-ott.net:80/play/live.php?mac=00:1A:79:0D:80:56&stream=760962&extension=ts&play_token=GnMvT8ANKg
-EUROSPORT⁴ᵏ,http://line.cloud-ott.net:80/play/live.php?mac=00:1A:79:0D:80:56&stream=15419&extension=ts&play_token=aahdJsIgFn#http://line.cloud-ott.net:80/play/live.php?mac=00:1A:79:0D:80:56&stream=15420&extension=ts&play_token=OB5JXfeR3t
-BEINSPORTS,http://line.cloud-ott.net:80/play/live.php?mac=00:1A:79:0D:80:56&stream=1313535&extension=ts&play_token=oH68dRjcl7
-BEINSPORTS,http://line.cloud-ott.net:80/play/live.php?mac=00:1A:79:0D:80:56&stream=1313536&extension=ts&play_token=Tm6NQGUU9u
-BEINSPORTS⁴ᵏ,http://line.cloud-ott.net:80/play/live.php?mac=00:1A:79:0D:80:56&stream=1313561&extension=ts&play_token=UwwhPcI23f
-BEINSPORTS⁴ᵏ,http://line.cloud-ott.net:80/play/live.php?mac=00:1A:79:0D:80:56&stream=1313562&extension=ts&play_token=IsZccbc3vp
-
 SKYSPORTS,http://steveit4.net/live/4KYD2C92D/1Z6BCL4/17285.ts#http://steveit4.net/live/4KYD2C92D/1Z6BCL4/980428.ts#http://steveit4.net/live/4KYD2C92D/1Z6BCL4/1404520.ts#http://steveit4.net/live/4KYD2C92D/1Z6BCL4/17289.ts#http://steveit4.net/live/4KYD2C92D/1Z6BCL4/304708.ts
 SKYSPORTS⁴ᵏ,http://steveit4.net/live/4KYD2C92D/1Z6BCL4/1281430.ts
 EUROSPORT,http://steveit4.net/live/4KYD2C92D/1Z6BCL4/1138933.ts#http://steveit4.net/live/4KYD2C92D/1Z6BCL4/1138934.ts
@@ -329,7 +277,6 @@ BEINSPORTS,http://steveit4.net/live/4KYD2C92D/1Z6BCL4/552082.ts#http://steveit4.
 NowSports,http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/438871.ts#http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/438873.ts#http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/438868.ts#http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/438870.ts#http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/438872.ts#http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/438874.ts
 NowSportsPRIME,http://ktkguru.com:80/06DD463C8236519/f2ypvVoSFB/748431#http://ktkguru.com:80/06DD463C8236519/f2ypvVoSFB/748432#http://ktkguru.com:80/06DD463C8236519/f2ypvVoSFB/748433#http://ktkguru.com:80/06DD463C8236519/f2ypvVoSFB/1301200#http://ktkguru.com:80/06DD463C8236519/f2ypvVoSFB/748430
 NowSports⁴ᵏ,http://ktkguru.com:80/06DD463C8236519/f2ypvVoSFB/438867#http://ktkguru.com:80/06DD463C8236519/f2ypvVoSFB/438866
-PREMIERLEAGUE⁴ᵏ,http://line.ciao-ott.net:80/play/live.php?mac=00:1A:79:C8:7B:30&stream=1312002&extension=ts&play_token=rMQI8WOPhd#http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:1B:0F:6D&stream=1312002&extension=ts&play_token=vTK1cjSxqQ
 PREMIERLEAGUE⁴ᵏ,http://steveit4.net/live/4KYD2C92D/1Z6BCL4/17285.ts#http://steveit4.net/live/4KYD2C92D/1Z6BCL4/979906.ts#http://steveit4.net/live/4KYD2C92D/1Z6BCL4/979907.ts
 
 爱尔达体育1,p2p://135.148.104.228:19806/ea41bcc314ac4dc4a5c1edc8bba2f5b8
