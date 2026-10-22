@@ -127,6 +127,19 @@ ABC,http://skytv4k.org:8080/JuergenBanas/WkbCL6Ug2s/7592
 CW,http://skytv4k.org:8080/JuergenBanas/WkbCL6Ug2s/10215
 TRT,http://skytv4k.org:8080/JuergenBanas/WkbCL6Ug2s/10790
 
+BBC1,http://tectonbrand.com:80/4KYD2C92D/1Z6BCL4/1094354
+BBC2,http://tectonbrand.com:80/4KYD2C92D/1Z6BCL4/1015500
+BBC3,http://tectonbrand.com:80/4KYD2C92D/1Z6BCL4/811641
+TF1,http://tectonbrand.com:80/4KYD2C92D/1Z6BCL4/56988
+RAI,http://tectonbrand.com:80/4KYD2C92D/1Z6BCL4/68441
+ZDF,http://tectonbrand.com:80/4KYD2C92D/1Z6BCL4/33570
+CBS,http://tectonbrand.com:80/4KYD2C92D/1Z6BCL4/1376053
+NBC,http://tectonbrand.com:80/4KYD2C92D/1Z6BCL4/71294
+FOX,http://tectonbrand.com:80/4KYD2C92D/1Z6BCL4/71295
+ABC,http://tectonbrand.com:80/4KYD2C92D/1Z6BCL4/30544
+CW,http://tectonbrand.com:80/4KYD2C92D/1Z6BCL4/30484
+TRT⁴ᵏ,http://tectonbrand.com:80/4KYD2C92D/1Z6BCL4/1436349
+
 BBC1,http://line.cloud-ott.net:80/play/live.php?mac=00:1A:79:0D:80:56&stream=394415&extension=ts&play_token=2dtIgIsHQS
 BBC2,http://line.cloud-ott.net:80/play/live.php?mac=00:1A:79:0D:80:56&stream=394413&extension=ts&play_token=gGGhxs6WNd
 BBC3,http://line.cloud-ott.net:80/play/live.php?mac=00:1A:79:0D:80:56&stream=394411&extension=ts&play_token=fA5an8ZUAQ
