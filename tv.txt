@@ -432,7 +432,7 @@ CartoonNetwork,https://0i4nEUX01.charandom.blog/stream/jp/cartoon_network/stream
 放送大学,https://0i4nEUX01.charandom.blog/stream/jp/hoso_daigaku_ex/stream-output.m3u8?ac_tk=eyJhbGciOiJBMjU2S1ciLCJlbmMiOiJBMjU2R0NNIn0.i8DfWESxvAcLKutPk9mzKeShkhL2VUztf5YjB9pxAh14heHkwHDUsQ.szOVF1WFO6quB96R.oqFZMEj3xvd8kj0Oft-h0nXWKYke97JbecSMjXxu1qxRZrv9oeLasPhFoN2nn_Lnqe9Epenn4hKjzZk3GN89Qw5IRmneF-V0Usu6HmjBJCrJ0L8.FIcYXy8wa69wa9Jki1y0Iw&mode=hls
 ウェザーニューズ,https://0i4nEUX01.charandom.blog/stream/jp/weather_news/stream-output.m3u8?ac_tk=eyJhbGciOiJBMjU2S1ciLCJlbmMiOiJBMjU2R0NNIn0.i8DfWESxvAcLKutPk9mzKeShkhL2VUztf5YjB9pxAh14heHkwHDUsQ.szOVF1WFO6quB96R.oqFZMEj3xvd8kj0Oft-h0nXWKYke97JbecSMjXxu1qxRZrv9oeLasPhFoN2nn_Lnqe9Epenn4hKjzZk3GN89Qw5IRmneF-V0Usu6HmjBJCrJ0L8.FIcYXy8wa69wa9Jki1y0Iw&mode=hls
 
-NHKWP,http://159.75.4.149:99/清风/iptv.php?token=fa3b99bb95bdd339eebec0e0cb4904d6&ch=84a6a9c4f26ac4fb
+NHKBS,http://103.196.177.230:80/bongao/bongao/107.ts
 
 NHKG,https://haru.charandom.blog/stream/jp/nhk_g/stream-output.m3u8?mode=hls
 NHKG,https://haru.charandom.blog/stream/jp/nhk_g_2/stream-output.m3u8?mode=hls
