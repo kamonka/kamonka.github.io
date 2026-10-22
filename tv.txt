@@ -1,12 +1,4 @@
 🇬🇬世界新闻,#genre#
-BBChttp://skytv4k.org:8080/JuergenBanas/WkbCL6Ug2s/1777
-CNNhttp://skytv4k.org:8080/JuergenBanas/WkbCL6Ug2s/9005
-FOXNEWShttp://skytv4k.org:8080/JuergenBanas/WkbCL6Ug2s/545
-CNBChttp://skytv4k.org:8080/JuergenBanas/WkbCL6Ug2s/8985
-ABCNEWShttp://skytv4k.org:8080/JuergenBanas/WkbCL6Ug2s/10221
-SKYNEWShttp://skytv4k.org:8080/JuergenBanas/WkbCL6Ug2s/6439
-德广新闻http://skytv4k.org:8080/JuergenBanas/WkbCL6Ug2s/9309
-
 BBC,https://vs-hls-push-ww-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_news_channel_hd/t=3840/v=pv14/b=5070016/main.m3u8
 BBC,http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/1382478.ts
 CNN,http://tectonbrand.com/live/4KYD2C92D/1Z6BCL4/71486.ts
@@ -109,18 +101,6 @@ HOY资讯,http://173.208.234.146/live/hoy78.m3u8
 TVBS新闻,https://d2jc41c1shgcol.cloudfront.net/live/tvbsnewsqt/playlist.m3u8
 
 🇺🇸欧美综合,#genre#
-BBC1http://skytv4k.org:8080/JuergenBanas/WkbCL6Ug2s/1999#http://skytv4k.org:8080/JuergenBanas/WkbCL6Ug2s/10715
-BBC2http://skytv4k.org:8080/JuergenBanas/WkbCL6Ug2s/10814
-BBC3http://skytv4k.org:8080/JuergenBanas/WkbCL6Ug2s/104053
-BBC4http://skytv4k.org:8080/JuergenBanas/WkbCL6Ug2s/10818
-ZDFhttp://skytv4k.org:8080/JuergenBanas/WkbCL6Ug2s/2550
-CBShttp://skytv4k.org:8080/JuergenBanas/WkbCL6Ug2s/8958
-NBChttp://skytv4k.org:8080/JuergenBanas/WkbCL6Ug2s/78803
-FOXhttp://skytv4k.org:8080/JuergenBanas/WkbCL6Ug2s/10183
-ABChttp://skytv4k.org:8080/JuergenBanas/WkbCL6Ug2s/7592
-CWhttp://skytv4k.org:8080/JuergenBanas/WkbCL6Ug2s/10215
-TRThttp://skytv4k.org:8080/JuergenBanas/WkbCL6Ug2s/10790
-
 BBC1,http://tectonbrand.com:80/4KYD2C92D/1Z6BCL4/1094354
 BBC2,http://tectonbrand.com:80/4KYD2C92D/1Z6BCL4/1015500
 BBC3,http://tectonbrand.com:80/4KYD2C92D/1Z6BCL4/811641
